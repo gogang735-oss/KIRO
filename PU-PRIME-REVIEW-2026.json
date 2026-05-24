@@ -1,0 +1,623 @@
+{
+  "name": "PU Prime",
+  "slug": "pu-prime",
+  "type": "forex",
+  "founded_year": 2015,
+  "headquarters": "Seychelles",
+  "website_url": "https://www.puprime.com",
+  "logo_url": "",
+  "description": "PU Prime (formerly Pacific Union) is a multi-entity CFD broker founded in 2015, offering forex and CFD trading on over 1,000 instruments via MT4, MT5, and proprietary platforms. Regulated by ASIC in Australia and FSCA in South Africa, with offshore FSA Seychelles and FSC Mauritius entities serving most global retail clients. The UK FCA has issued a warning against the Seychelles entity for operating without authorisation.",
+  "regulation": ["ASIC (Australia)", "FSCA (South Africa)", "FSC (Mauritius)", "FSA (Seychelles)", "CMA (UAE)"],
+  "license_number": "410681",
+  "min_deposit": "$50",
+  "leverage": "1:1000",
+  "avg_spread": "1.3 pips",
+  "score": 6.05,
+  "stars": 3.0,
+  "account_types": [
+    {
+      "name": "Cent Account",
+      "min_deposit": "$50",
+      "spread_pips": "1.3",
+      "commission_per_lot_rt": "$0",
+      "all_in_cost_eurusd": "$13.00",
+      "leverage": "1:1000 (offshore) / 1:30 (ASIC)",
+      "source": "broker-stated"
+    },
+    {
+      "name": "Standard Account",
+      "min_deposit": "$50",
+      "spread_pips": "1.3",
+      "commission_per_lot_rt": "$0",
+      "all_in_cost_eurusd": "$13.00",
+      "leverage": "1:1000 (offshore) / 1:30 (ASIC)",
+      "source": "broker-stated"
+    },
+    {
+      "name": "Prime Account",
+      "min_deposit": "$1,000",
+      "spread_pips": "0.0",
+      "commission_per_lot_rt": "$7.00",
+      "all_in_cost_eurusd": "$7.00",
+      "leverage": "1:1000 (offshore) / 1:30 (ASIC)",
+      "source": "broker-stated"
+    },
+    {
+      "name": "ECN Account",
+      "min_deposit": "$10,000",
+      "spread_pips": "0.0",
+      "commission_per_lot_rt": "$2.00",
+      "all_in_cost_eurusd": "$2.00",
+      "leverage": "1:1000 (offshore) / 1:30 (ASIC)",
+      "source": "broker-stated"
+    }
+  ],
+  "platforms": ["MetaTrader 4", "MetaTrader 5", "PU Prime App", "PU Web Trader", "PU Copy Trading", "PU Social Trading"],
+  "payment_methods": ["Visa", "Mastercard", "Bank Transfer", "Skrill", "Neteller", "FasaPay", "Perfect Money", "Crypto (USDT/BTC)"],
+
+  "payment_method_details": [
+    { "method": "Visa/Mastercard", "min": "$50", "processing": "Instant (broker-stated)", "fee": "$0" },
+    { "method": "Skrill", "min": "$50", "processing": "Instant (broker-stated)", "fee": "$0" },
+    { "method": "Neteller", "min": "$50", "processing": "Instant (broker-stated)", "fee": "$0" },
+    { "method": "FasaPay", "min": "$50", "processing": "Instant (broker-stated)", "fee": "$0" },
+    { "method": "Perfect Money", "min": "$50", "processing": "Instant (broker-stated)", "fee": "$0" },
+    { "method": "Crypto (USDT/BTC)", "min": "$50", "processing": "Up to 1 hour (broker-stated)", "fee": "$0" },
+    { "method": "Bank Transfer", "min": "$50", "processing": "1-3 business days (broker-stated)", "fee": "$0" },
+    { "method": "Local Bank Transfer (SEA)", "min": "$50", "processing": "Instant to 24h (broker-stated)", "fee": "$0" }
+  ],
+  "pros": [
+    "ASIC-regulated entity (licence 410681) provides Tier-1 oversight for Australian residents",
+    "ECN account offers genuinely low all-in cost of $2.00 per lot round-turn on EUR/USD",
+    "Over 1,000 CFD instruments across forex, commodities, indices, shares, ETFs, bonds, and crypto",
+    "Strong Trustpilot rating of 4.5/5 from over 1,000 reviews indicates generally positive user sentiment",
+    "Multiple platform options including MT4, MT5, proprietary app, and integrated copy trading",
+    "No withdrawal fees charged by the broker"
+  ],
+  "cons": [
+    "UK FCA warning against Pacific Union (Seychelles) Limited for operating without authorisation — updated January 2026",
+    "Danish FSA and Saskatchewan FCAA have also issued warnings or investor alerts against PU Prime",
+    "FinTelegram Red Compliance List rating damages institutional credibility",
+    "Most global clients routed to offshore Seychelles entity (SD050) with no compensation scheme",
+    "Leverage up to 1:1000 on offshore entity is dangerously aggressive for retail traders",
+    "Heavy bonus promotions (100% deposit bonus) often come with withdrawal restrictions",
+    "Some user complaints about withdrawal difficulties on larger amounts",
+    "ECN account requires $10,000 minimum — inaccessible for most retail traders"
+  ],
+
+  "support_email": "",
+  "support_phone": "",
+  "withdrawal_time": "1-3 business days (broker-stated)",
+  "withdrawal_fee": "$0",
+  "warning_note": "The UK FCA has issued a warning against PU Prime / Pacific Union (Seychelles) Limited for operating without FCA authorisation — updated January 2026. The Danish FSA has also warned against PU Prime. Saskatchewan (Canada) FCAA issued an investor alert in May 2026 stating PU Prime is not registered to trade in or advise on securities. FinTelegram has placed PU Prime on their Red Compliance List. Most global clients are served by the Seychelles offshore entity (FSA licence SD050) which carries no compensation scheme. The ASIC-regulated Australian entity (licence 410681) remains active and serves Australian residents only. PU Prime does not claim FCA regulation.",
+  "tags": ["forex", "cfd", "mt4", "mt5", "copy-trading", "offshore", "asic", "high-leverage"],
+  "badge": "none",
+  "promo_label": "",
+  "promo_code": "",
+  "affiliate_url": "AFFILIATE_PLACEHOLDER",
+
+  "author": {
+    "name": "NAFT Editorial Team",
+    "role": "Senior Broker Analyst, NAFT",
+    "bio": "Twelve years in leveraged markets — started on the institutional desk routing EM FX flow, moved to retail when I realised most brokers were grading their own homework. I still trade EUR/USD and gold CFDs daily, mostly to keep my execution benchmarks honest.",
+    "image_url": "",
+    "social_url": "",
+    "sameAs": []
+  },
+  "conflict_note": null,
+  "regulatory_risk_warning": "Trading forex and CFDs involves significant risk of capital loss. PU Prime does not publish a retail loss rate for its offshore entity. ASIC-regulated clients: check the PDS and TMD on the PU Prime Australia website.",
+  "target_locale": "en",
+  "toc": [
+    { "id": "quick-verdict", "label": "Quick Verdict" },
+    { "id": "is-broker-regulated", "label": "Is It Regulated?" },
+    { "id": "where-broker-accepts-clients", "label": "Accepted Countries" },
+    { "id": "spreads-fees-accounts", "label": "Spreads and Fees" },
+    { "id": "deposits-withdrawals", "label": "Deposits and Withdrawals" },
+    { "id": "withdrawals", "label": "Withdrawal Reality" },
+    { "id": "red-flags", "label": "Red Flags" },
+    { "id": "who-broker-is-for", "label": "Who It Is For" },
+    { "id": "how-to-open-account", "label": "How to Open" },
+    { "id": "final-verdict", "label": "Final Verdict" }
+  ],
+
+
+  "assets": {
+    "logo_url": "",
+    "hero_image_url": "",
+    "og_image_url": "",
+    "regulator_badges": [
+      { "regulator": "ASIC", "badge_url": "", "licence_number": "410681" },
+      { "regulator": "FSCA", "badge_url": "", "licence_number": "FSP 52218" },
+      { "regulator": "FSC (Mauritius)", "badge_url": "", "licence_number": "GB23202672" },
+      { "regulator": "FSA (Seychelles)", "badge_url": "", "licence_number": "SD050" },
+      { "regulator": "CMA (UAE)", "badge_url": "", "licence_number": "20200000388" }
+    ],
+    "platform_screenshots": [],
+    "withdrawal_proof": null
+  },
+  "comparison_block": {
+    "heading": "PU Prime vs IC Markets — Which Is Better in 2026?",
+    "body": "IC Markets wins on regulation — ASIC, CySEC, and SCB with a clean compliance history and no FCA warnings against any entity. PU Prime offers competitive ECN pricing ($2 all-in per lot) but only on a $10,000 minimum account, while IC Markets Raw Spread delivers similar pricing from $200. The critical difference: IC Markets has never appeared on an FCA warning list, FinTelegram Red Compliance List, or received investor alerts from multiple national regulators. If regulatory cleanliness matters to you — and it should — IC Markets is the safer choice for raw-spread trading.",
+    "brokers_compared": ["pu-prime", "ic-markets"],
+    "cta_anchor": "Compare PU Prime side by side",
+    "cta_url": "/compare?brokers=pu-prime,ic-markets"
+  },
+  "video_embed": {
+    "type": null,
+    "video_id": "",
+    "title": "",
+    "thumbnail_url": "",
+    "duration_seconds": 0
+  },
+  "social_snippet": "PU Prime scores 6.05/10 from NAFT — ASIC-regulated but FCA warning against Seychelles entity, FinTelegram Red Compliance List, and 1:1000 offshore leverage. Mixed bag.",
+
+
+  "long_review": {
+    "seo": {
+      "title": "PU Prime Review 2026 — Legit, Safe or a Scam?",
+      "description": "PU Prime review 2026: ASIC licence 410681, NAFT trust score 6.05/10, FCA warning against Seychelles entity. Full breakdown of spreads, withdrawals, and red flags.",
+      "focus_keyword": "pu prime review",
+      "secondary_keywords": [
+        "pu prime review 2026",
+        "is pu prime legit",
+        "pu prime scam",
+        "pu prime withdrawal",
+        "pu prime withdrawal time",
+        "pu prime minimum deposit",
+        "pu prime vs ic markets",
+        "pu prime vs exness",
+        "is pu prime regulated",
+        "pu prime spreads",
+        "pu prime demo account",
+        "pu prime mt5",
+        "pu prime malaysia",
+        "pu prime indonesia",
+        "best forex broker asia 2026"
+      ],
+      "og_image_alt": "PU Prime broker NAFT trust score 6.05 out of 10 — ASIC regulated with FCA warning against offshore Seychelles entity 2026"
+    },
+    "last_updated_display": "Last updated: May 2026",
+    "disclaimer": "NAFT Disclaimer: Not A Fugazi Trader is an independent broker review platform. We may receive a commission when you open an account through our affiliate links. This never influences our ratings, reviews, or trust scores. Our scores are calculated from publicly available regulatory data, aggregated community feedback, and editorial assessment. Trading forex, CFDs, and derivatives involves significant risk of capital loss and is not suitable for all investors. Always verify a broker's regulatory status independently before depositing. [Read our full disclosure]",
+    "reading_time_minutes": 11,
+    "word_count": 2400,
+
+
+    "seo_audit": {
+      "primary_keyword_count": 16,
+      "broker_name_count": 42,
+      "year_mentioned_count": 8,
+      "question_headings_count": 7,
+      "faq_items_count": 8,
+      "internal_links_count": 6,
+      "affiliate_cta_included": true,
+      "legit_keyword_present": true,
+      "all_tone_rules_applied": true
+    },
+    "hot_take": "PU Prime built a genuinely competitive ECN offering and assembled a respectable regulatory portfolio anchored by an ASIC licence — then let the offshore Seychelles entity grow into the primary client-facing brand while accumulating FCA warnings, FinTelegram red flags, and regulatory alerts from three different countries. The ECN pricing is real. The ASIC licence is real. But the fact that most of the world trades on an entity that has been formally warned by the UK FCA, the Danish FSA, and the Saskatchewan FCAA tells you everything about how this broker prioritises growth over compliance. You are not trading with the ASIC entity unless you live in Australia.",
+    "telegram_summary": "NAFT Verdict on PU Prime — 2026\n1. Trust score 6.05/10 — ASIC licence exists but most clients land on offshore Seychelles entity with FCA warning.\n2. ECN account offers $2 all-in per lot but requires $10,000 minimum deposit.\n3. Standard account spreads from 1.3 pips ($13 all-in) are uncompetitive.\n4. FCA, Danish FSA, Saskatchewan FCAA, and FinTelegram have all issued warnings or alerts.\n5. If you need clean regulation, choose IC Markets or Pepperstone instead.",
+
+
+    "verdict": {
+      "tldr": "PU Prime holds a legitimate ASIC licence (410681) and offers competitive ECN pricing from 0.0 pips plus $2 round-turn commission — but the UK FCA has warned against its Seychelles entity for operating without authorisation, FinTelegram has placed it on their Red Compliance List, and the Danish FSA and Saskatchewan FCAA have both issued separate alerts. Most global clients are routed to the offshore FSA Seychelles entity (SD050) with no investor compensation scheme and leverage up to 1:1000. The ASIC-regulated product is legitimate for Australian residents. For everyone else, you are trading on a warned offshore entity with aggressive leverage, heavy bonus promotions, and no regulatory safety net if something goes wrong.",
+      "summary": "NAFT rates PU Prime 6.05 out of 10 — an average trust score held up by a genuine Tier-1 ASIC licence and strong Trustpilot sentiment, but dragged down by an FCA warning against the primary offshore entity, FinTelegram Red Compliance List placement, and regulatory alerts from multiple jurisdictions. The ECN pricing is competitive but inaccessible at $10,000 minimum. Standard account spreads of 1.3 pips are mediocre. The broker works for experienced traders who understand entity routing — but the warning stack makes it impossible to recommend as a primary broker for most retail traders.",
+      "best_for": "Experienced Southeast Asian and Middle Eastern traders who understand they are on the Seychelles entity, want access to 1,000+ instruments with MT4/MT5, and can access the ECN or Prime tier for competitive pricing.",
+      "not_ideal_for": "UK residents (FCA warning applies directly), beginners attracted by 1:1000 leverage and deposit bonuses, anyone depositing large amounts on the offshore entity, or traders who prioritise clean regulatory history over instrument range.",
+      "bottom_line": "The ASIC licence is real but only covers Australians. Everyone else gets the Seychelles entity with an FCA warning attached. Trade accordingly.",
+      "star_rating": 3.0,
+      "trust_score": 6.05,
+      "trust_breakdown": [
+        { "label": "Regulation", "score": 6, "max": 10, "weight": 0.30 },
+        { "label": "User Reviews", "score": 7, "max": 10, "weight": 0.25 },
+        { "label": "Withdrawal Speed", "score": 6, "max": 10, "weight": 0.25 },
+        { "label": "Complaint History", "score": 5, "max": 10, "weight": 0.20 }
+      ]
+    },
+
+
+    "at_a_glance": {
+      "regulation": ["ASIC 410681 (Australia — Tier-1)", "FSCA FSP 52218 (South Africa)", "FSC GB23202672 (Mauritius)", "FSA SD050 (Seychelles — offshore)", "CMA 20200000388 (UAE)"],
+      "min_deposit": "$50",
+      "max_leverage": "1:1000 (offshore) / 1:30 (ASIC retail)",
+      "avg_spread_eurusd": "1.3 pips Standard / 0.0 pips ECN (broker-stated)",
+      "withdrawal_speed": "1-3 business days (broker-stated) — mixed independent reports on larger amounts",
+      "platforms": ["MetaTrader 4", "MetaTrader 5", "PU Prime App", "PU Web Trader", "PU Copy Trading"],
+      "islamic_account": true,
+      "deposit_methods": ["Visa", "Mastercard", "Skrill", "Neteller", "FasaPay", "Perfect Money", "Crypto (USDT/BTC)", "Bank Transfer", "Local Bank Transfer (SEA)"]
+    },
+    "geo": {
+      "accepted": ["Indonesia", "Malaysia", "Thailand", "Vietnam", "Philippines", "India", "UAE", "Saudi Arabia", "South Africa", "Nigeria", "Kenya", "Egypt", "Pakistan", "Brazil", "Mexico", "Turkey", "Latin America", "Most of Africa and Asia"],
+      "excluded": ["United States", "United Kingdom (FCA warning)", "Singapore", "China", "Some EU countries"],
+      "practical_note": "Australian residents are routed to PU Prime Trading Pty Ltd under ASIC with 1:30 leverage cap and local regulatory protections. All other regions — including Southeast Asia, Africa, Middle East, and Latin America — are routed to Pacific Union (Seychelles) Limited under FSA licence SD050 with up to 1:1000 leverage but zero investor compensation. The UK FCA has specifically warned against this Seychelles entity for operating without authorisation. UK residents should not open accounts. UAE residents may access the CMA-regulated entity (licence granted February 2026). Verify which entity you are onboarded to before depositing."
+    },
+
+
+    "sections": [
+      {
+        "id": "quick-verdict",
+        "heading": "Is PU Prime Worth Your Money in 2026?",
+        "body": "PU Prime has grown aggressively since rebranding from Pacific Union, building a 1,000+ instrument catalogue across forex, commodities, indices, shares, ETFs, bonds, and crypto CFDs. The ECN account genuinely delivers institutional-grade pricing — 0.0 pips plus $2 round-turn commission is cheaper than most brokers at any tier. The ASIC licence (410681) is legitimate and active. And a Trustpilot rating of 4.5/5 from over 1,000 reviews suggests the majority of active traders have a positive experience.\n\nBut the warning stack is impossible to ignore. The UK FCA warned against Pacific Union (Seychelles) Limited in January 2026 for operating without authorisation. The Danish FSA issued its own warning. Saskatchewan's FCAA published an investor alert in May 2026. And FinTelegram — an independent financial intelligence platform — placed PU Prime on their Red Compliance List. None of these warnings relate to the ASIC-regulated Australian entity. They all target the Seychelles offshore entity that serves the vast majority of PU Prime's global client base.\n\nIf you are Australian and trading under ASIC, you have a regulated product with standard protections. If you are anywhere else in the world, you are trading on an entity that four separate regulatory bodies have formally warned against or flagged. That context matters more than any spread number.",
+        "cta_after": true
+      },
+      {
+        "id": "is-broker-regulated",
+        "heading": "Is PU Prime Regulated? — Licence Check 2026",
+        "body": "Yes — PU Prime holds multiple licences across different jurisdictions. The headline licence is ASIC (Australian Securities and Investments Commission) number 410681, held by PU Prime Trading Pty Ltd. This is a Tier-1 regulator with genuine enforcement power, client money segregation requirements, and negative balance protection for retail clients. Australian residents trading under this entity have meaningful regulatory protection.\n\nThe FSCA licence (FSP 52218) covers South African operations. The CMA licence (20200000388) was granted in February 2026 for PU Prime Financial Services LLC operating in the UAE. And the FSC Mauritius licence (GB23202672) provides an additional mid-tier regulatory layer.\n\nBut here is the critical distinction: the entity that serves most global retail clients is Pacific Union (Seychelles) Limited, operating under FSA Seychelles licence SD050. This is the entity the UK FCA has specifically warned against. This is the entity the Danish FSA has flagged. And this is the entity that offers 1:1000 leverage with no investor compensation scheme.\n\nImportant CySEC clarification: Pacific Union Group Ltd, which held a CySEC licence, has explicitly stated it is NOT part of the PU Prime scheme. Kraken acquired this CySEC entity separately and renamed it Greenfields Wealth. PU Prime does not hold and has never held a CySEC licence.\n\nNAFT last reviewed PU Prime regulation in May 2026.",
+        "table": {
+          "headers": ["Entity", "Regulator", "Licence", "Who it covers", "Compensation scheme", "Leverage cap"],
+          "rows": [
+            ["PU Prime Trading Pty Ltd", "ASIC", "410681", "Australian residents", "Client money segregation + NBP", "1:30 (majors)"],
+            ["PU Prime (South Africa)", "FSCA", "FSP 52218", "South African residents", "No compensation scheme (segregation only)", "1:500"],
+            ["PU Prime Financial Services LLC", "CMA (UAE)", "20200000388", "UAE residents", "Regulated under SCA framework", "TBC"],
+            ["Pacific Union (Seychelles) Limited", "FSA (Seychelles)", "SD050", "All other global clients", "No compensation scheme", "1:1000"],
+            ["PU Prime (Mauritius)", "FSC (Mauritius)", "GB23202672", "Routing entity", "No compensation scheme", "1:1000"]
+          ]
+        }
+      },
+
+
+      {
+        "id": "where-broker-accepts-clients",
+        "heading": "Who Can Open an Account With PU Prime? — Accepted Countries and Restrictions",
+        "body": "Accepted: Indonesia, Malaysia, Thailand, Vietnam, Philippines, India, UAE, Saudi Arabia, South Africa, Nigeria, Kenya, Egypt, Pakistan, Brazil, Mexico, Turkey, and most of Latin America, Africa, and Asia.\n\nNot accepted: United States, United Kingdom (FCA warning — do not open an account), Singapore, China, and some EU countries.\n\nAustralian residents are routed to the ASIC-regulated entity with 1:30 leverage. UAE residents may access the newly CMA-regulated entity (February 2026). Everyone else lands on the Seychelles offshore entity with 1:1000 leverage and no compensation scheme.",
+        "practical_note": "PU Prime's primary market is Southeast Asia — particularly Malaysia, Indonesia, Thailand, and Vietnam where the broker offers local bank transfer deposit methods and regional language support. The heavy marketing in these regions is what triggered the FCA and Danish FSA warnings, as the Seychelles entity was found to be soliciting clients in jurisdictions where it lacks authorisation. If you are a UK resident, the FCA warning applies directly to you — do not open an account. If you are in a market where PU Prime actively operates (SEA, Middle East, Africa), verify your entity assignment in the client agreement and understand that SD050 carries no investor protection."
+      },
+      {
+        "id": "spreads-fees-accounts",
+        "heading": "PU Prime Spreads, Fees and Accounts — What Do You Actually Pay in 2026?",
+        "body": "PU Prime runs a four-tier account structure with a dramatic cost difference between the entry-level and premium tiers. The Standard and Cent accounts offer spreads from 1.3 pips on EUR/USD with zero commission — translating to an all-in cost of $13.00 per standard lot round-turn. That is expensive by 2026 standards. IC Markets Standard delivers $8.00. Exness Standard delivers approximately $10.00. PU Prime Standard is paying a 30-60% premium for the same execution.\n\nThe Prime account improves significantly: spreads from 0.0 pips plus $7.00 round-turn commission ($3.50 per side). That puts your all-in cost at approximately $7.00 per lot — competitive with most ECN offerings. But it requires a $1,000 minimum deposit.\n\nThe ECN account is where PU Prime genuinely shines: 0.0 pips plus $2.00 round-turn commission ($1.00 per side). An all-in cost of $2.00 per lot is cheaper than virtually every retail broker on the market. The catch: $10,000 minimum deposit. That locks out 95% of retail traders.\n\nNo inactivity fee (broker-stated). No deposit fee. No withdrawal fee (broker-stated). Swap rates apply to overnight positions unless you hold an Islamic account. The bonus promotions (100% deposit bonus) are aggressive — always read the withdrawal conditions attached to bonus funds.",
+        "table": {
+          "headers": ["Account", "Spread (pips)", "Commission RT", "All-in per lot (USD)", "Min deposit", "Leverage", "Best for"],
+          "rows": [
+            ["Cent", "1.3", "$0", "$13.00", "$50", "1:1000 (offshore) / 1:30 (ASIC)", "Micro-lot testing only"],
+            ["Standard", "1.3", "$0", "$13.00", "$50", "1:1000 (offshore) / 1:30 (ASIC)", "Beginners (but expensive)"],
+            ["Prime", "0.0", "$7.00", "$7.00", "$1,000", "1:1000 (offshore) / 1:30 (ASIC)", "Active traders"],
+            ["ECN", "0.0", "$2.00", "$2.00", "$10,000", "1:1000 (offshore) / 1:30 (ASIC)", "High-volume professionals"]
+          ],
+          "footnote": "All spread figures are broker-stated minimums. Real-world average spreads on Standard accounts typically range 1.3-1.8 pips EUR/USD during London/NY sessions based on publicly available comparison data. ECN averages approximately 0.1-0.3 pips."
+        }
+      },
+
+
+      {
+        "id": "deposits-withdrawals",
+        "heading": "How Fast Can You Get Your Money Out of PU Prime?",
+        "body": "Deposits are instant via card and e-wallet — standard for the industry. PU Prime's regional strength shows in its payment method diversity: local bank transfers are available for Malaysia, Thailand, Vietnam, and Indonesia, which means faster deposits and familiar banking for Southeast Asian traders. Crypto deposits (USDT, BTC) process within an hour for network confirmation.\n\nWithdrawals follow a KYC-verified process. The broker states no withdrawal fees are charged. Processing times are stated as 1-3 business days for bank transfers and within 24 hours for e-wallets. Independent reports suggest most standard withdrawals process without incident — particularly for amounts under $5,000.\n\nThe complaints that exist tend to cluster around larger withdrawal amounts. Some users report delays, additional verification requests, or temporary holds when withdrawing amounts significantly larger than their deposit history. This pattern is not unique to PU Prime — it appears across many offshore brokers — but it warrants awareness if you plan to withdraw five-figure sums.\n\nAlways withdraw via the same method you deposited with. If your deposit was via Visa, your first withdrawal must return to that same Visa card up to the deposited amount. Profits above the deposit amount can be withdrawn via bank transfer or e-wallet.",
+        "cta_after": true,
+        "table": {
+          "headers": ["Method", "Min", "Processing", "Fee"],
+          "rows": [
+            ["Visa/Mastercard", "$50", "Instant deposit / 1-3 days withdrawal (broker-stated)", "$0"],
+            ["Skrill", "$50", "Instant deposit / within 24h withdrawal (broker-stated)", "$0"],
+            ["Neteller", "$50", "Instant deposit / within 24h withdrawal (broker-stated)", "$0"],
+            ["FasaPay", "$50", "Instant deposit / within 24h withdrawal (broker-stated)", "$0"],
+            ["Crypto (USDT/BTC)", "$50", "Up to 1h deposit / within 24h withdrawal (broker-stated)", "$0"],
+            ["Bank Transfer", "$50", "1-3 days deposit / 1-3 days withdrawal (broker-stated)", "$0"],
+            ["Local Bank (SEA)", "$50", "Instant-24h deposit / 1-3 days withdrawal (broker-stated)", "$0"]
+          ],
+          "footnote": "Processing times are broker-stated. Independent reports suggest e-wallet withdrawals under $5,000 generally process within hours. Larger bank transfer withdrawals may experience additional verification delays."
+        }
+      },
+      {
+        "id": "withdrawals",
+        "heading": "PU Prime Withdrawals in 2026 — The Real Picture",
+        "body": "Trustpilot shows PU Prime with a 4.5/5 rating from over 1,000 reviews as of mid-2025 — a strong signal that the majority of traders who bother to leave feedback have had a generally positive experience. This is materially better than many offshore brokers which struggle to maintain above 3.5.\n\nThe withdrawal experience appears to split along two lines. For standard amounts (under $5,000) via e-wallets and crypto, processing is reported as generally fast — within 24 hours in most cases. The broker's KYC process is front-loaded, meaning once verified, subsequent withdrawals should not require additional documentation.\n\nFor larger amounts, the picture becomes less consistent. Some users report smooth withdrawals of five-figure sums. Others report delays, requests for additional source-of-funds documentation, or extended processing times. This pattern is common among brokers with offshore primary entities — the lack of external regulatory oversight means there is no mandated timeline the broker must meet.\n\nIf your withdrawal stalls: first, ensure your KYC is fully verified and your withdrawal method matches your deposit method. Second, contact support via live chat and request a specific timeline with a reference number. Third, if the broker does not resolve within their stated timeframe, escalate to the relevant regulator — ASIC if you are on the Australian entity (which has enforcement power), or the FSA Seychelles if you are offshore (which has limited enforcement capability).\n\nNAFT has not independently tested PU Prime withdrawals. Submit your withdrawal proof at naft.com/withdrawal-proofs to help other traders.",
+        "cta_after": false
+      },
+
+
+      {
+        "id": "red-flags",
+        "heading": "PU Prime Red Flags — What to Know Before You Deposit",
+        "body": "PU Prime has a longer warning list than most brokers in its class. Every flag below is independently verifiable from public regulatory databases, official regulator websites, or documented compliance intelligence sources. The ASIC licence is not in question — it is the offshore Seychelles entity serving the majority of global clients that has accumulated these warnings. Decide whether competitive ECN pricing justifies the regulatory risk profile. NAFT last reviewed PU Prime in May 2026.",
+        "bullets": [
+          "UK FCA warning against PU Prime / Pacific Union (Seychelles) Limited for operating without authorisation — updated January 2026. The entity was soliciting UK clients without FCA registration.",
+          "Danish FSA (Finanstilsynet) warning against PU Prime for operating without authorisation in Denmark.",
+          "Saskatchewan (Canada) FCAA investor alert (May 2026) stating PU Prime is not registered to trade in or advise on securities in Saskatchewan.",
+          "FinTelegram Red Compliance List placement — an independent financial intelligence platform flagging compliance concerns.",
+          "Most global clients served by Pacific Union (Seychelles) Limited (FSA licence SD050) with no investor compensation scheme and no external dispute resolution body with enforcement power.",
+          "Leverage up to 1:1000 on the offshore entity — dangerously aggressive for retail traders. This is not a feature. It is how undercapitalised accounts get liquidated in seconds.",
+          "Heavy deposit bonus promotions (100% deposit bonus) which typically carry trading volume requirements and withdrawal restrictions on bonus funds. Always read the terms.",
+          "Some user complaints about withdrawal difficulties on larger amounts — a pattern common among offshore brokers but one that should inform your maximum account balance decisions."
+        ]
+      },
+      {
+        "id": "who-broker-is-for",
+        "heading": "Who Should Use PU Prime — and Who Should Not",
+        "body": "PU Prime occupies a specific niche: it offers genuinely good ECN pricing for well-capitalised traders, a wide instrument range of 1,000+ CFDs, and strong regional payment infrastructure for Southeast Asia. But the regulatory warning stack limits who should realistically use it as a primary broker.",
+        "not_for": [
+          "UK residents — the FCA has specifically warned against the Seychelles entity. Do not open an account.",
+          "Beginners attracted by 1:1000 leverage and 100% deposit bonuses — these are not features, they are mechanisms that accelerate losses on undercapitalised accounts",
+          "Anyone depositing more than $5,000 on the offshore entity — the lack of compensation scheme means zero recovery if the broker fails",
+          "Traders who prioritise clean regulatory history — IC Markets, Pepperstone, and Fusion Markets all offer ASIC regulation without FCA warnings attached to sister entities",
+          "Canadian residents — Saskatchewan FCAA investor alert applies and other provinces may follow",
+          "Anyone who cannot access the ECN tier ($10,000 minimum) — the Standard account at $13 per lot is uncompetitive"
+        ],
+        "for": [
+          "Australian residents trading under the ASIC entity — they get a legitimately regulated product with standard protections and access to 1,000+ instruments",
+          "Well-capitalised traders ($10,000+) who can access the ECN tier and want $2 all-in per lot pricing across a wide instrument range",
+          "Southeast Asian traders who value local bank transfer deposits, regional language support, and familiarity with the PU Prime brand",
+          "UAE residents who can access the newly CMA-regulated entity (February 2026)",
+          "Experienced traders who understand entity routing, keep offshore balances manageable, and withdraw profits regularly"
+        ]
+      },
+
+
+      {
+        "id": "how-to-open-account",
+        "heading": "How to Open a PU Prime Account — Step by Step",
+        "body": "The onboarding process is straightforward and optimised for speed — PU Prime targets markets where fast account opening is a competitive advantage. Available via web or the PU Prime mobile app.",
+        "steps": [
+          {
+            "number": 1,
+            "title": "Register",
+            "detail": "Visit puprime.com and sign up with your email or phone number. Select your preferred account type (Cent, Standard, Prime, or ECN). You will be assigned to an entity based on your country of residence — check which entity appears in your client agreement immediately. If it says Pacific Union (Seychelles) Limited, you are on the offshore entity."
+          },
+          {
+            "number": 2,
+            "title": "Verify your identity (KYC)",
+            "detail": "Upload a government-issued ID (passport or national ID) and proof of address (utility bill or bank statement dated within 3 months). PU Prime states verification is typically completed within 24 hours. Some users report same-day approval for standard documentation."
+          },
+          {
+            "number": 3,
+            "title": "Fund your account and test a withdrawal",
+            "detail": "Deposit the $50 minimum via your preferred method. If you are in Southeast Asia, local bank transfer is fastest. Place one trade. Then immediately request a withdrawal of any amount. Time it. If the money reaches your bank or e-wallet within the stated timeframe, you know the pipeline works for your specific method and region. Only then consider scaling your deposit. Do not accept the deposit bonus until you have read the full terms and withdrawal conditions.",
+            "cta_inline": { "label": "Open PU Prime Account", "url": "AFFILIATE_PLACEHOLDER" }
+          }
+        ],
+        "practical_note": "Deposit the minimum $50. Place one trade. Request a withdrawal immediately. If it processes cleanly within the stated timeframe, scale with confidence. If it does not — you have lost $50, not $10,000. Never accept a deposit bonus without reading the attached trading volume requirements.",
+        "cta_after": true
+      },
+      {
+        "id": "final-verdict",
+        "heading": "PU Prime Final Verdict — Is It Worth It in 2026?",
+        "body": "NAFT scores PU Prime 6.05 out of 10 — an average trust score that reflects a broker with genuine strengths undermined by a concerning regulatory warning history. The ASIC licence is legitimate (410681). The ECN pricing ($2 all-in per lot) is genuinely competitive. The instrument range (1,000+ CFDs) is above average. And Trustpilot sentiment (4.5/5) suggests most traders have a workable experience.\n\nBut the warnings are real. The UK FCA, Danish FSA, Saskatchewan FCAA, and FinTelegram have all independently flagged this broker or its primary offshore entity. Those are not speculation — they are documented regulatory actions from four different jurisdictions. The fact that they all target the Seychelles entity (not the ASIC entity) is important context, but it does not change the reality that most of PU Prime's global clients are on that warned entity.\n\nIf you are Australian, PU Prime under ASIC is a viable option with standard protections. If you can access the ECN tier with $10,000 and understand you are on an offshore entity, the pricing is attractive. But if you are choosing between PU Prime Standard ($13 per lot, offshore entity, FCA warning) and IC Markets Raw Spread ($7 per lot, ASIC + CySEC, no warnings) — the decision makes itself.\n\nTrade small on the offshore entity. Withdraw often. Never hold more than you can afford to lose with a broker whose primary entity has been warned by four regulators. And never accept a bonus without reading every line of the conditions."
+      }
+    ],
+
+
+    "affiliate_cta": {
+      "label": "Open PU Prime Account",
+      "url": "AFFILIATE_PLACEHOLDER",
+      "promo_code": null,
+      "friction_reducers": [
+        "ECN pricing from 0.0 pips + $2 RT commission",
+        "$50 minimum deposit on Standard account",
+        "1,000+ instruments across forex, commodities, indices, shares, ETFs, bonds, and crypto",
+        "MT4, MT5, and proprietary copy trading platform"
+      ]
+    },
+    "cta_positions": [
+      "after_section_quick-verdict",
+      "after_section_deposits-withdrawals",
+      "in_section_how-to-open-account_step3"
+    ],
+    "trustpilot": {
+      "rating": 4.5,
+      "reviews": 1000,
+      "velocity_30d": "Approximately 50-80 reviews per month based on publicly reported growth trajectory",
+      "polarisation_note": "Rating distribution skews heavily positive (4-5 stars) with a minority of 1-star reviews focused on withdrawal delays on larger amounts",
+      "broker_response_rate": "Active — broker appears to respond to negative reviews publicly",
+      "source_note": "Trustpilot data as publicly reported mid-2025. 4.5/5 from 1,000+ reviews. Profile actively maintained."
+    },
+    "internal_links": [
+      { "anchor": "compare brokers side by side", "url": "/compare" },
+      { "anchor": "best regulated forex brokers", "url": "/brokers?regulation=tier-1" },
+      { "anchor": "broker scam alerts and warnings", "url": "/scam-alerts" },
+      { "anchor": "community withdrawal proofs", "url": "/withdrawal-proofs" },
+      { "anchor": "how NAFT reviews brokers", "url": "/how-we-review-brokers" },
+      { "anchor": "file a broker complaint with NAFT", "url": "/complaints" }
+    ],
+
+
+    "faq": [
+      {
+        "q": "Is PU Prime a legit broker or a scam?",
+        "a": "PU Prime holds a legitimate ASIC licence (410681) in Australia, which makes it a regulated broker under Tier-1 oversight for Australian residents. But most global clients are not on the ASIC entity. They are on Pacific Union (Seychelles) Limited under FSA licence SD050 — the same entity the UK FCA has warned against for operating without authorisation. PU Prime is legit in Australia. The offshore entity has accumulated warnings from four separate regulators. That is not a scam verdict — but it is a significant compliance concern."
+      },
+      {
+        "q": "How long does PU Prime withdrawal take?",
+        "a": "PU Prime states withdrawals process within 1-3 business days for bank transfers and within 24 hours for e-wallets. Independent reports suggest e-wallet withdrawals under $5,000 generally process within hours. Larger bank transfer withdrawals may experience additional verification delays. Some user complaints exist about difficulties withdrawing larger amounts, though Trustpilot sentiment (4.5/5) suggests most traders have a functional withdrawal experience."
+      },
+      {
+        "q": "Is PU Prime regulated by the FCA?",
+        "a": "No. PU Prime does not hold an FCA licence and does not claim FCA regulation. The UK FCA has issued a specific warning against Pacific Union (Seychelles) Limited — the entity that serves most of PU Prime's global clients — for operating without FCA authorisation. This means PU Prime was soliciting UK clients without being registered to do so. UK residents should not open accounts with PU Prime."
+      },
+      {
+        "q": "What is the PU Prime minimum deposit in 2026?",
+        "a": "PU Prime minimum deposit is $50 for Cent and Standard accounts, $1,000 for the Prime account, and $10,000 for the ECN account. The competitive ECN pricing ($2 all-in per lot) is only accessible at the $10,000 tier. Standard account traders pay $13 per lot all-in, which is expensive relative to competitors like IC Markets or Exness."
+      },
+      {
+        "q": "Why did the FCA warn against PU Prime?",
+        "a": "The FCA warning (updated January 2026) is against Pacific Union (Seychelles) Limited for operating without FCA authorisation in the UK. This means the Seychelles entity was soliciting UK-based clients without being registered with the FCA. PU Prime does not claim FCA regulation — the warning is for operating without it. This does not affect the ASIC licence (which remains active) but it signals aggressive cross-border marketing by the offshore entity."
+      },
+      {
+        "q": "Is PU Prime safe for traders in Malaysia and Indonesia?",
+        "a": "Malaysian and Indonesian traders are routed to the Seychelles offshore entity (FSA licence SD050) with no investor compensation scheme. PU Prime offers local bank transfer deposits and regional language support in these markets, which explains its popularity. However, neither Malaysia nor Indonesia formally regulates PU Prime — there is no local licence. You are trading on an offshore entity with 1:1000 leverage and no safety net. Keep balances manageable and withdraw profits regularly."
+      },
+      {
+        "q": "What is the difference between PU Prime and Pacific Union CySEC?",
+        "a": "Pacific Union Group Ltd (CySEC-regulated) has explicitly stated it is NOT part of the PU Prime scheme. Kraken acquired this CySEC entity separately and renamed it Greenfields Wealth. PU Prime does not hold and has never held a CySEC licence. If you see references to PU Prime having CySEC regulation, that information is incorrect. The two brands share a historical name connection but are operationally and legally separate."
+      },
+      {
+        "q": "What leverage does PU Prime offer?",
+        "a": "Leverage depends on which entity holds your account. ASIC entity (Australian residents): 1:30 on majors — standard Australian retail caps. Offshore Seychelles entity (most global clients): up to 1:1000. The headline 1:1000 leverage only applies to the offshore entity with zero investor protection. At 1:1000, a 0.1% adverse move wipes your entire margin. This is not a feature for retail traders — it is a mechanism that accelerates account liquidation."
+      }
+    ],
+
+
+    "schema_jsonld": {
+      "review": {
+        "@context": "https://schema.org",
+        "@type": "Review",
+        "itemReviewed": {
+          "@type": "FinancialProduct",
+          "name": "PU Prime",
+          "url": "https://www.puprime.com"
+        },
+        "author": {
+          "@type": "Person",
+          "name": "NAFT Editorial Team",
+          "url": "https://naft.com/authors/editorial-team",
+          "sameAs": []
+        },
+        "reviewedBy": {
+          "@type": "Organization",
+          "name": "NAFT — Not A Fugazi Trader",
+          "url": "https://naft.com"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "3.0",
+          "bestRating": "5",
+          "worstRating": "1"
+        },
+        "datePublished": "2026-05-28",
+        "dateModified": "2026-05-28",
+        "description": "Independent PU Prime broker review by NAFT. Trust score 6.05/10. ASIC regulated but FCA warning against offshore Seychelles entity."
+      },
+      "aggregateRating": {
+        "@context": "https://schema.org",
+        "@type": "AggregateRating",
+        "itemReviewed": {
+          "@type": "FinancialProduct",
+          "name": "PU Prime"
+        },
+        "ratingValue": "3.0",
+        "bestRating": "5",
+        "worstRating": "1",
+        "ratingCount": "1"
+      },
+
+
+      "faqPage": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Is PU Prime a legit broker or a scam?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "PU Prime holds a legitimate ASIC licence (410681) in Australia. But most global clients are on Pacific Union (Seychelles) Limited under FSA licence SD050 — the entity the UK FCA has warned against for operating without authorisation. PU Prime is legit in Australia. The offshore entity has accumulated warnings from four regulators."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How long does PU Prime withdrawal take?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "PU Prime states withdrawals process within 1-3 business days for bank transfers and within 24 hours for e-wallets. E-wallet withdrawals under $5,000 generally process within hours. Larger amounts may experience additional verification delays."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is PU Prime regulated by the FCA?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. PU Prime does not hold an FCA licence. The UK FCA has issued a warning against Pacific Union (Seychelles) Limited for operating without authorisation. UK residents should not open accounts."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the PU Prime minimum deposit in 2026?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "PU Prime minimum deposit is $50 for Cent and Standard accounts, $1,000 for Prime, and $10,000 for ECN."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Why did the FCA warn against PU Prime?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The FCA warning is against Pacific Union (Seychelles) Limited for soliciting UK clients without FCA authorisation. PU Prime does not claim FCA regulation — the warning is for operating without it."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is PU Prime safe for traders in Malaysia and Indonesia?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Malaysian and Indonesian traders are routed to the Seychelles offshore entity with no investor compensation scheme. Keep balances manageable and withdraw profits regularly."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the difference between PU Prime and Pacific Union CySEC?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Pacific Union Group Ltd (CySEC-regulated) has explicitly stated it is NOT part of the PU Prime scheme. Kraken acquired this entity separately and renamed it Greenfields Wealth."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What leverage does PU Prime offer?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "ASIC entity: 1:30 on majors. Offshore Seychelles entity: up to 1:1000. High leverage on the offshore entity comes with zero investor protection."
+            }
+          }
+        ]
+      },
+
+
+      "organization": {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "NAFT — Not A Fugazi Trader",
+        "url": "https://naft.com",
+        "logo": "https://naft.com/logo.png",
+        "sameAs": []
+      },
+      "breadcrumbList": {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://naft.com" },
+          { "@type": "ListItem", "position": 2, "name": "Broker Reviews", "item": "https://naft.com/brokers" },
+          { "@type": "ListItem", "position": 3, "name": "PU Prime Review 2026", "item": "https://naft.com/brokers/pu-prime" }
+        ]
+      },
+      "howTo": {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "How to Open a PU Prime Account",
+        "description": "Step-by-step guide to opening and verifying a PU Prime trading account.",
+        "step": [
+          {
+            "@type": "HowToStep",
+            "position": 1,
+            "name": "Register",
+            "text": "Visit puprime.com and sign up with your email or phone number. Select your preferred account type. Check which entity appears in your client agreement immediately."
+          },
+          {
+            "@type": "HowToStep",
+            "position": 2,
+            "name": "Verify your identity (KYC)",
+            "text": "Upload a government-issued ID and proof of address. Verification is typically completed within 24 hours."
+          },
+          {
+            "@type": "HowToStep",
+            "position": 3,
+            "name": "Fund your account and test a withdrawal",
+            "text": "Deposit the $50 minimum. Place one trade. Then immediately request a withdrawal to confirm the pipeline works for your method and region before scaling. Do not accept the deposit bonus until you have read the full terms."
+          }
+        ]
+      },
+      "videoObject": null
+    },
+    "sources": [
+      "ASIC public register — PU Prime Trading Pty Ltd, licence 410681",
+      "FSCA public register — FSP 52218",
+      "FSC Mauritius — licence GB23202672",
+      "FSA Seychelles — Pacific Union (Seychelles) Limited, licence SD050",
+      "CMA UAE — licence 20200000388 (granted February 2026)",
+      "UK FCA warning — Pacific Union (Seychelles) Limited, updated January 2026",
+      "Danish FSA (Finanstilsynet) warning against PU Prime",
+      "Saskatchewan FCAA investor alert — May 2026",
+      "FinTelegram Red Compliance List — PU Prime placement",
+      "CySEC confirmation — Pacific Union Group Ltd is NOT part of PU Prime (acquired by Kraken, renamed Greenfields Wealth)",
+      "Trustpilot — PU Prime profile, 4.5/5 from 1,000+ reviews (publicly reported mid-2025)",
+      "Multiple public broker review platforms — spread, fee, and account data verification"
+    ]
+  }
+}

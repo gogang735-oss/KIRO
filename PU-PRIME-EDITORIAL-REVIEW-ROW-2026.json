@@ -1,0 +1,11 @@
+{
+  "editorial_review_row": {
+    "broker_slug": "pu-prime",
+    "author": "NAFT Editorial",
+    "role": "editor",
+    "rating": 3.0,
+    "content": "PU Prime holds a legitimate ASIC licence (410681) and offers competitive ECN pricing from 0.0 pips plus $2 round-turn commission — but the UK FCA has warned against its Seychelles entity for operating without authorisation, FinTelegram has placed it on their Red Compliance List, and the Danish FSA and Saskatchewan FCAA have both issued separate alerts. Most global clients are routed to the offshore FSA Seychelles entity (SD050) with no investor compensation scheme and leverage up to 1:1000. The ASIC-regulated product is legitimate for Australian residents. For everyone else, you are trading on a warned offshore entity with aggressive leverage, heavy bonus promotions, and no regulatory safety net if something goes wrong.",
+    "status": "published",
+    "verified_account": true
+  }
+}
