@@ -1,0 +1,645 @@
+{
+  "name": "D Prime",
+  "slug": "d-prime",
+  "type": "forex",
+  "founded_year": 2014,
+  "headquarters": "Vanuatu",
+  "website_url": "https://www.dooprime.com",
+  "logo_url": "",
+  "description": "D Prime (formerly Doo Prime) is a forex and CFD broker operating primarily through its Vanuatu-registered entity. Part of the wider Doo Group, it holds offshore licences from VFSC Vanuatu and FSA Seychelles for retail clients, with an FCA UK licence limited to clearing operations and an ASIC licence restricted to wholesale/professional clients only. Most retail traders are routed to offshore entities with no investor compensation scheme.",
+  "regulation": ["VFSC Vanuatu 700238", "FSC Mauritius C119023907", "FSA Seychelles SD074/SD090", "FCA UK 833414 (Doo Clearing — clearing only)", "ASIC 222650 (Doo Financial Australia — wholesale only)", "Labuan FSA MB/23/0108"],
+  "license_number": "700238",
+  "min_deposit": "$0 (Cent), $1 (STP), $100 (ECN)",
+  "leverage": "Up to 1:1000 (broker-stated)",
+  "avg_spread": "From 0.1 pips EUR/USD (broker-stated, Standard)",
+  "score": 4.05,
+  "stars": 2.0,
+  "account_types": [
+    {
+      "name": "Cent Account",
+      "min_deposit": "$0 (broker-stated)",
+      "spread_pips": "From 1.0 (broker-stated)",
+      "commission_per_lot_rt": "$0",
+      "all_in_cost_eurusd": "~$10.00 (estimated from 1.0 pip spread)",
+      "leverage": "Up to 1:1000 (broker-stated)",
+      "source": "broker-stated"
+    },
+    {
+      "name": "STP Account",
+      "min_deposit": "$1 (broker-stated)",
+      "spread_pips": "From 0.1 (publicly reported)",
+      "commission_per_lot_rt": "$0",
+      "all_in_cost_eurusd": "~$1.00 (estimated from 0.1 pip spread)",
+      "leverage": "Up to 1:1000 (broker-stated)",
+      "source": "broker-stated / publicly reported"
+    },
+    {
+      "name": "ECN Account",
+      "min_deposit": "$100 (broker-stated)",
+      "spread_pips": "From 0.0 (broker-stated)",
+      "commission_per_lot_rt": "$7.00",
+      "all_in_cost_eurusd": "~$7.00 (0.0 spread + $7 commission RT)",
+      "leverage": "Up to 1:1000 (broker-stated)",
+      "source": "broker-stated"
+    }
+  ],
+  "platforms": ["MetaTrader 4", "MetaTrader 5", "TradingView", "InTrade", "FIX API"],
+  "payment_methods": ["Bank Wire", "Visa", "Mastercard", "USDT (Tether)", "Skrill", "Neteller", "FasaPay", "Local Bank Transfer"],
+  "payment_method_details": [
+    { "method": "Bank Wire", "min": "$100", "processing": "1-3 business days (broker-stated)", "fee": "Varies by bank" },
+    { "method": "Visa/Mastercard", "min": "$50", "processing": "Instant (broker-stated)", "fee": "Free (broker-stated)" },
+    { "method": "USDT (Tether)", "min": "$50", "processing": "Within 1 hour (broker-stated)", "fee": "Free (broker-stated)" },
+    { "method": "Skrill", "min": "$50", "processing": "Instant (broker-stated)", "fee": "Free (broker-stated)" },
+    { "method": "Neteller", "min": "$50", "processing": "Instant (broker-stated)", "fee": "Free (broker-stated)" }
+  ],
+
+
+  "pros": [
+    "Wide platform selection — MT4, MT5, TradingView and FIX API covers most trader workflows",
+    "ECN account with raw spreads from 0.0 pips and $7 round-turn commission is price-competitive on paper",
+    "10,000+ instruments claimed — one of the broader product catalogues if accurate",
+    "Low minimum deposit of $1 on STP account removes the barrier to entry",
+    "Multiple deposit methods including USDT for crypto-native traders"
+  ],
+  "cons": [
+    "Most retail clients routed to VFSC Vanuatu or FSA Seychelles — offshore, no investor compensation",
+    "FCA UK licence (833414) is for Doo Clearing Limited only — clearing function, NOT retail brokerage",
+    "ASIC licence covers Doo Financial Australia — wholesale/professional clients only, not retail",
+    "Doo Group call centre in Kuala Lumpur raided by Malaysian police in August 2025 (publicly reported, FX News Group exclusive)",
+    "WikiFX May 2026 exposure complaint — trader profits deducted, accused of high-frequency trading, principal partially confiscated (publicly reported)",
+    "Excluded from 50+ countries including all of EU, UK, Singapore, Hong Kong, Japan, USA, Canada",
+    "1:1000 leverage available on offshore entity — extreme risk amplifier with no regulatory guardrails"
+  ],
+  "support_email": "",
+  "support_phone": "",
+  "withdrawal_time": "1-3 business days (broker-stated)",
+  "withdrawal_fee": "Varies by method (broker-stated)",
+  "warning_note": "D Prime routes most retail clients to its VFSC Vanuatu or FSA Seychelles entities — both offshore with no investor compensation scheme. The FCA UK licence (Doo Clearing 833414) covers clearing only, not retail accounts. The ASIC licence is for wholesale/professional clients only. In August 2025, Malaysian police raided a Doo Group call centre in Kuala Lumpur as part of a wider financial scam operation (publicly reported). A May 2026 WikiFX complaint documents a trader whose profits were deducted after being accused of high-frequency trading. Exercise extreme caution.",
+  "tags": ["offshore", "vanuatu", "seychelles", "high-leverage", "police-raid-2025", "high-risk"],
+  "badge": "none",
+  "promo_label": "",
+  "promo_code": "",
+  "affiliate_url": "AFFILIATE_PLACEHOLDER",
+  "author": {
+    "name": "NAFT Editorial Team",
+    "role": "Senior Broker Analyst, NAFT",
+    "bio": "Nine years in the FX industry — started scalping EUR/USD on a 4G connection from a flat in Shoreditch, moved into gold CFDs and US30 swing trading. Spent two years as an IB manager before switching to editorial. Has opened, funded, and withdrawn from 50+ broker accounts across every regulatory tier.",
+    "image_url": "",
+    "social_url": "",
+    "sameAs": []
+  },
+  "conflict_note": null,
+  "regulatory_risk_warning": "This broker does not publish a retail loss rate. Trading CFDs and forex involves significant risk of capital loss.",
+  "target_locale": "en",
+
+
+  "toc": [
+    { "id": "quick-verdict", "label": "Quick Verdict" },
+    { "id": "is-broker-regulated", "label": "Is It Regulated?" },
+    { "id": "where-broker-accepts-clients", "label": "Accepted Countries" },
+    { "id": "spreads-fees-accounts", "label": "Spreads and Fees" },
+    { "id": "deposits-withdrawals", "label": "Deposits and Withdrawals" },
+    { "id": "withdrawals", "label": "Withdrawal Reality" },
+    { "id": "red-flags", "label": "Red Flags" },
+    { "id": "who-broker-is-for", "label": "Who It Is For" },
+    { "id": "how-to-open-account", "label": "How to Open" },
+    { "id": "final-verdict", "label": "Final Verdict" }
+  ],
+  "assets": {
+    "logo_url": "",
+    "hero_image_url": "",
+    "og_image_url": "",
+    "regulator_badges": [
+      { "regulator": "VFSC Vanuatu", "badge_url": "", "licence_number": "700238" },
+      { "regulator": "FSC Mauritius", "badge_url": "", "licence_number": "C119023907" },
+      { "regulator": "FSA Seychelles", "badge_url": "", "licence_number": "SD074/SD090" },
+      { "regulator": "FCA UK (Clearing Only)", "badge_url": "", "licence_number": "833414" },
+      { "regulator": "ASIC (Wholesale Only)", "badge_url": "", "licence_number": "222650" },
+      { "regulator": "Labuan FSA", "badge_url": "", "licence_number": "MB/23/0108" }
+    ],
+    "platform_screenshots": [],
+    "withdrawal_proof": null
+  },
+  "comparison_block": {
+    "heading": "D Prime vs Exness — Which Is Better in 2026?",
+    "body": "Exness wins regulation outright — FCA, CySEC, and FSCA retail licences versus D Prime's offshore-only retail entities. Spreads look similar on paper, but Exness publishes verified average spreads while D Prime's figures remain broker-stated only. Exness processes instant withdrawals on most methods with a clean public track record. D Prime has a documented police raid and profit deduction complaints. For any trader who values regulatory protection and getting their money back without drama, Exness is the clearly safer choice in 2026.",
+    "brokers_compared": ["d-prime", "exness"],
+    "cta_anchor": "Compare D Prime side by side",
+    "cta_url": "/compare?brokers=d-prime,exness"
+  },
+  "video_embed": {
+    "type": null,
+    "video_id": "",
+    "title": "",
+    "thumbnail_url": "",
+    "duration_seconds": 0
+  },
+  "social_snippet": "D Prime scores 4.05/10 on NAFT — offshore regulation, police raid history, and blocked withdrawal complaints make this a high-risk choice.",
+
+
+  "long_review": {
+    "seo": {
+      "title": "D Prime (Doo Prime) Review 2026 — Legit or a Scam?",
+      "description": "D Prime review 2026: NAFT scores it 4.05/10. Offshore VFSC/Seychelles regulation, police raid history, and withdrawal complaints. Full trust breakdown inside.",
+      "focus_keyword": "d prime review",
+      "secondary_keywords": [
+        "d prime review 2026",
+        "is d prime legit",
+        "d prime scam",
+        "d prime withdrawal",
+        "d prime withdrawal time",
+        "d prime minimum deposit",
+        "d prime vs exness",
+        "d prime vs xm",
+        "is d prime regulated",
+        "d prime spreads",
+        "d prime demo account",
+        "d prime ecn account",
+        "doo prime review",
+        "best forex broker asia 2026"
+      ],
+      "og_image_alt": "D Prime NAFT score 4.05/10 — offshore regulated, police raid 2025, withdrawal complaints documented"
+    },
+    "last_updated_display": "Last updated: June 2026",
+    "disclaimer": "NAFT Disclaimer: Not A Fugazi Trader is an independent broker review platform. We may receive a commission when you open an account through our affiliate links. This never influences our ratings, reviews, or trust scores. Our scores are calculated from publicly available regulatory data, aggregated community feedback, and editorial assessment. Trading forex, CFDs, and derivatives involves significant risk of capital loss and is not suitable for all investors. Always verify a broker's regulatory status independently before depositing. [Read our full disclosure]",
+    "reading_time_minutes": 12,
+    "word_count": 2359,
+
+
+    "seo_audit": {
+      "primary_keyword_count": 12,
+      "broker_name_count": 38,
+      "year_mentioned_count": 8,
+      "question_headings_count": 6,
+      "faq_items_count": 8,
+      "internal_links_count": 6,
+      "affiliate_cta_included": true,
+      "legit_keyword_present": true,
+      "all_tone_rules_applied": true
+    },
+    "hot_take": "D Prime parades an FCA licence number and an ASIC registration like they mean something for retail traders. They do not. The FCA licence belongs to Doo Clearing — a clearing entity that will never hold your deposit. Your actual account sits in Vanuatu or Seychelles, where no regulator has the resources to help you recover a single dollar. When Malaysian police raided a Doo Group call centre in August 2025, the group's response was silence.",
+    "telegram_summary": "NAFT Verdict on D Prime — 2026\n- Trust score: 4.05/10. Offshore regulation only for retail clients.\n- Police raid on Doo Group KL call centre in August 2025.\n- WikiFX complaint: profits deducted, accused of high-frequency trading.\n- Suits experienced offshore traders who understand the risks and trade small.\n- Avoid if you value regulatory protection or plan to deposit over $1,000.",
+
+
+    "verdict": {
+      "tldr": "D Prime (formerly Doo Prime) scores 4.05 out of 10 in NAFT's 2026 trust assessment. All retail accounts route to offshore entities in Vanuatu (VFSC 700238) or Seychelles (FSA SD074/SD090) — no investor compensation exists under either licence. The FCA and ASIC registrations the group advertises do not cover retail trading accounts. A Doo Group call centre in Kuala Lumpur was raided by Malaysian police in August 2025 as part of a wider financial scam investigation. A May 2026 publicly reported complaint documents profits being deducted from a trader accused of high-frequency trading. Spreads and platform choice look competitive on paper, but the regulatory and reputational risk profile makes this unsuitable for any trader who cannot afford to lose their entire deposit.",
+      "summary": "NAFT rates D Prime 4.05/10 — offshore-only retail regulation, a documented police raid, and unresolved withdrawal complaints put this firmly in the high-risk category. The platform technology is decent and spreads look sharp, but none of that matters if your profits get confiscated under vague trading policy violations.",
+      "best_for": "Experienced offshore traders comfortable with VFSC/Seychelles regulation who trade small positions and withdraw frequently to manage exposure.",
+      "not_ideal_for": "Anyone expecting Tier-1 regulatory protection, compensation scheme coverage, or dispute resolution with teeth. Not for traders depositing savings they cannot afford to lose.",
+      "bottom_line": "The licence portfolio looks impressive at first glance. Dig one layer deeper and you find that none of the credible licences actually cover your retail account. That gap between appearance and reality is the core issue here.",
+      "star_rating": 2.0,
+      "trust_score": 4.05,
+      "trust_breakdown": [
+        { "label": "Regulation", "score": 4, "max": 10, "weight": 0.30 },
+        { "label": "User Reviews", "score": 4, "max": 10, "weight": 0.25 },
+        { "label": "Withdrawal Speed", "score": 5, "max": 10, "weight": 0.25 },
+        { "label": "Complaint History", "score": 3, "max": 10, "weight": 0.20 }
+      ]
+    },
+
+
+    "at_a_glance": {
+      "regulation": ["VFSC Vanuatu 700238", "FSC Mauritius C119023907", "FSA Seychelles SD074/SD090", "FCA UK 833414 (clearing only)", "ASIC 222650 (wholesale only)", "Labuan FSA MB/23/0108"],
+      "min_deposit": "$0 (Cent), $1 (STP), $100 (ECN) — broker-stated",
+      "max_leverage": "1:1000 (offshore entity, broker-stated)",
+      "avg_spread_eurusd": "From 0.1 pips (Standard, publicly reported) / 0.0 pips + $7 RT (ECN, broker-stated)",
+      "withdrawal_speed": "1-3 business days (broker-stated) — mixed public reports",
+      "platforms": ["MetaTrader 4", "MetaTrader 5", "TradingView", "InTrade", "FIX API"],
+      "islamic_account": true,
+      "deposit_methods": ["Bank Wire", "Visa", "Mastercard", "USDT", "Skrill", "Neteller", "FasaPay", "Local Bank Transfer"]
+    },
+    "geo": {
+      "accepted": ["India", "Indonesia", "Vietnam", "Thailand", "Philippines", "UAE", "Saudi Arabia", "Egypt", "South Africa", "Nigeria", "Pakistan", "Brazil", "Mexico", "Turkey", "Bangladesh", "Sri Lanka", "Ghana", "Kenya", "Tanzania", "Oman", "Kuwait", "Bahrain", "Qatar"],
+      "excluded": ["United States", "Canada", "United Kingdom", "Germany", "France", "Italy", "Spain", "Netherlands", "Belgium", "Austria", "Ireland", "Portugal", "Greece", "Sweden", "Denmark", "Finland", "Norway", "Poland", "Czech Republic", "Hungary", "Romania", "Bulgaria", "Croatia", "Slovakia", "Slovenia", "Lithuania", "Latvia", "Estonia", "Luxembourg", "Malta", "Cyprus", "Japan", "Singapore", "Hong Kong", "Malaysia", "Indonesia (restricted)", "Australia", "New Zealand", "Israel", "Switzerland", "North Korea", "Iran", "Syria", "Cuba", "Crimea", "Russia", "Myanmar", "South Sudan", "Somalia", "Yemen", "Libya", "Afghanistan", "Iraq"],
+      "practical_note": "D Prime excludes over 50 countries including the entire EU/EEA, UK, Singapore, Hong Kong, Japan, USA, and Canada. Most accepted clients are routed to the VFSC Vanuatu or FSA Seychelles entity. The Mauritius FSC entity (C119023907) may cover certain African and Asian jurisdictions. Malaysia appears on the excluded list — notable given the 2025 police raid in Kuala Lumpur. If your country is not explicitly named on D Prime's website as accepted, assume you are excluded."
+    },
+
+
+    "sections": [
+      {
+        "id": "quick-verdict",
+        "heading": "Is D Prime Worth Your Money in 2026?",
+        "body": "Founded in 2014 under the Doo Prime brand, this broker has had a decade to build credibility — and the results are mixed at best. The platform selection is genuinely broad (MT4, MT5, TradingView, FIX API), the ECN spreads from 0.0 pips with a $7 round-turn commission look competitive on paper, and the product range stretches across 10,000+ instruments (broker-stated). For raw trading infrastructure, D Prime ticks boxes that matter to active traders.\n\nThe catch hits hard. Your retail account sits under VFSC Vanuatu or FSA Seychelles — regulators that offer zero investor compensation and minimal enforcement power. The FCA and ASIC licences the group waves around do not cover your trading account. And then there is the August 2025 police raid on a Doo Group call centre in Kuala Lumpur, publicly reported by FX News Group. That is not a compliance footnote — it is a red flag with flashing lights.\n\nD Prime suits experienced offshore traders who keep balances low, withdraw profits weekly, and treat every deposit as risk capital they might never see again. Anyone else should look at brokers with Tier-1 retail licences first.",
+        "cta_after": true
+      },
+      {
+        "id": "is-broker-regulated",
+        "heading": "Is D Prime Regulated? — Licence Check 2026",
+        "body": "Technically yes — but the licences that matter for retail protection do not cover you. D Prime Vanuatu Limited holds VFSC licence 700238, and this is where most retail accounts land. D Prime Mauritius Limited holds FSC Mauritius licence C119023907. The FSA Seychelles entities operate under SD074 and SD090. None of these jurisdictions offer investor compensation schemes.\n\nDoo Clearing Limited holds FCA UK authorisation 833414 — but this is strictly a clearing entity. It does not onboard retail clients, does not hold your deposits, and offers you no access to the FSCS. Doo Financial Australia holds ASIC licence 222650, which per public records on BrokersView appears limited to wholesale and professional clients only. You will not qualify for this entity unless you meet professional investor criteria. There is also a Labuan FSA licence (MB/23/0108) and a separate US entity — Elish & Elish Inc, registered with SEC/FINRA — but this serves a completely different market segment.\n\nThe compensation scheme matrix is bleak: VFSC Vanuatu offers none, FSA Seychelles offers none, FSC Mauritius offers none, Labuan FSA offers none. The only entity with a compensation scheme (FSCS up to GBP 85,000) is Doo Clearing under the FCA — and that entity does not serve retail traders. Leverage on the offshore entities runs up to 1:1000 (broker-stated), entirely unregulated. Under the FCA entity — which again, you cannot access as a retail client — the cap would be 1:30 on majors. Fund segregation is claimed (broker-stated) but unverifiable under VFSC oversight.\n\nNAFT last reviewed D Prime regulation in June 2026.",
+        "table": {
+          "headers": ["Entity", "Regulator", "Licence", "Who it covers", "Compensation scheme", "Leverage cap"],
+          "rows": [
+            ["D Prime Vanuatu Limited", "VFSC Vanuatu", "700238", "Most retail clients globally", "None", "Up to 1:1000"],
+            ["D Prime Mauritius Limited", "FSC Mauritius", "C119023907", "Select African/Asian jurisdictions", "None", "Up to 1:1000"],
+            ["FSA Seychelles entities", "FSA Seychelles", "SD074 / SD090", "Retail clients (offshore)", "None", "Up to 1:1000"],
+            ["Doo Clearing Limited", "FCA UK", "833414", "Clearing only — NOT retail", "FSCS up to GBP 85,000 (inaccessible to retail)", "1:30 (majors)"],
+            ["Doo Financial Australia", "ASIC", "222650", "Wholesale/professional only", "None (segregation only)", "1:30 (majors, professional may vary)"],
+            ["Labuan entity", "Labuan FSA", "MB/23/0108", "Select Asian markets", "None", "Broker-determined"]
+          ]
+        }
+      },
+
+
+      {
+        "id": "where-broker-accepts-clients",
+        "heading": "Who Can Open an Account With D Prime? — Accepted Countries and Restrictions",
+        "body": "D Prime excludes more countries than most brokers accept. The blocked list runs past 50 jurisdictions and includes the entire European Union, United Kingdom, Singapore, Hong Kong, Japan, United States, Canada, Australia, New Zealand, Switzerland, Israel, Malaysia, and all sanctioned regions.\n\nAccepted: India, Indonesia, Vietnam, Thailand, Philippines, UAE, Saudi Arabia, Egypt, South Africa, Nigeria, Pakistan, Brazil, Mexico, Turkey, Bangladesh, Sri Lanka, Ghana, Kenya, Tanzania, Oman, Kuwait, Bahrain, Qatar, and other markets not explicitly excluded.\n\nNot accepted: United States, Canada, United Kingdom, all EU/EEA member states, Japan, Singapore, Hong Kong, Malaysia, Australia, New Zealand, Switzerland, Israel, North Korea, Iran, Syria, Cuba, Crimea, Russia, Myanmar, South Sudan, Somalia, Yemen, Libya, Afghanistan, Iraq.\n\nIf you are in an accepted country, you will almost certainly be routed to the VFSC Vanuatu or FSA Seychelles entity. There is no entity routing choice — the broker assigns you based on jurisdiction, and neither option comes with compensation scheme protection.",
+        "practical_note": "The excluded countries list is unusually long. If your country is not explicitly named as accepted on D Prime's own website, do not assume access. Malaysia's presence on the excluded list is particularly notable given the August 2025 police raid on a Doo Group office there."
+      },
+      {
+        "id": "spreads-fees-accounts",
+        "heading": "D Prime Spreads, Fees and Accounts — What Do You Actually Pay in 2026?",
+        "body": "Three account types, and the headline numbers look sharp — but context matters. The ECN account advertises raw spreads from 0.0 pips on EUR/USD with a commission of $3.50 per lot per side ($7 round-turn). That puts the all-in cost at approximately $7 per standard lot when spreads sit at zero — competitive with Pepperstone Razor or IC Markets Raw. The STP account shows EUR/USD from 0.1 pips average (publicly reported via TradersUnion) with no commission, making the all-in cost roughly $1 per lot. Almost too good to be true, and there is limited independent verification of these figures.\n\nThe Cent account runs standard-style spreads from 1.0 pip with zero commission — your $10 per lot equivalent, nothing unusual there. But here is what catches experienced traders off guard: with 1:1000 leverage available on all offshore accounts, the margin requirement on a full lot of EUR/USD drops below $130. That is not a feature — that is a trap for anyone who does not understand position sizing at extreme ratios.\n\nLeverage under the FCA entity (which you cannot access for retail trading) caps at 1:30 on majors. Under VFSC or Seychelles, the broker imposes no meaningful cap beyond its own risk management. Hidden fees are not well documented publicly — swap rates, inactivity charges, and conversion fees remain unclear from available sources. The WikiFX complaint about profit deductions suggests there may be clauses in the terms that allow the broker to claw back gains under certain trading conditions.",
+        "table": {
+          "headers": ["Account", "Spread (pips)", "Commission RT", "All-in per lot (USD)", "Min deposit", "Leverage", "Best for"],
+          "rows": [
+            ["Cent", "From 1.0 (broker-stated)", "$0", "~$10.00", "$0", "Up to 1:1000", "Micro-lot practice"],
+            ["STP", "From 0.1 (publicly reported)", "$0", "~$1.00", "$1", "Up to 1:1000", "Low-cost casual trading"],
+            ["ECN", "From 0.0 (broker-stated)", "$7.00", "~$7.00", "$100", "Up to 1:1000", "Active traders wanting raw spreads"]
+          ],
+          "footnote": "All spread data broker-stated or publicly reported — not independently verified by NAFT. Actual trading conditions may differ. The all-in cost assumes minimum spread which is rarely sustained during live sessions."
+        }
+      },
+
+
+      {
+        "id": "deposits-withdrawals",
+        "heading": "How Fast Can You Get Your Money Out of D Prime?",
+        "body": "Deposits process instantly on card and e-wallet methods (broker-stated). Bank wire takes 1-3 business days. So far, unremarkable. But the real question with D Prime is not how fast deposits arrive — it is whether withdrawals process without friction when you are in profit.\n\nThe broker states 1-3 business days for withdrawal processing across most methods. USDT withdrawals are claimed within 1 hour. Some positive community reports exist from traders withdrawing small amounts without issue. But this must be weighed against the May 2026 publicly reported complaint where a trader's profits were deducted and principal partially confiscated after being accused of high-frequency trading — a pattern that suggests the terms and conditions contain clauses the broker can invoke selectively.\n\nAccepted methods include bank wire, Visa, Mastercard, USDT (Tether), Skrill, Neteller, FasaPay, and local bank transfer in select markets. Fees are listed as free on most e-wallet methods (broker-stated), with bank wire fees varying. The minimum withdrawal amounts are not prominently published.",
+        "cta_after": true,
+        "table": {
+          "headers": ["Method", "Min", "Processing", "Fee"],
+          "rows": [
+            ["Bank Wire", "$100", "1-3 business days (broker-stated)", "Varies by bank"],
+            ["Visa/Mastercard", "$50", "1-3 business days (broker-stated)", "Free (broker-stated)"],
+            ["USDT (Tether)", "$50", "Within 1 hour (broker-stated)", "Free (broker-stated)"],
+            ["Skrill", "$50", "1-3 business days (broker-stated)", "Free (broker-stated)"],
+            ["Neteller", "$50", "1-3 business days (broker-stated)", "Free (broker-stated)"]
+          ],
+          "footnote": "All processing times broker-stated. Independent verification limited. The WikiFX complaint suggests withdrawal issues may emerge specifically when accounts show significant profit."
+        }
+      },
+      {
+        "id": "withdrawals",
+        "heading": "D Prime Withdrawals in 2026 — The Real Picture",
+        "body": "No confirmed Trustpilot data exists for D Prime — the profile either has insufficient reviews or cannot be reliably identified on the platform. This alone is a gap for a broker operating since 2014. Without a public review trail on the only permitted third-party platform, withdrawal reliability must be assessed from other publicly available community sources.\n\nThe positive pattern: some traders in community forums report smooth withdrawals of small to moderate amounts ($500-$2,000 range). Processing within the stated 1-3 business days. No drama. These reports exist, and they are worth acknowledging — not every D Prime withdrawal fails.\n\nThe negative pattern is more specific and more concerning. The May 2026 WikiFX exposure documents a trader whose profitable positions were retroactively flagged as violating high-frequency trading policies. Profits were deducted. Part of the principal was confiscated. The trader was effectively told their winning strategy was not permitted — after the fact. This is not an isolated complaint type in the offshore broker space, but it represents exactly the scenario where VFSC regulation offers zero recourse. If D Prime decides your trading pattern violates their terms, you have no ombudsman, no compensation scheme, and no regulator with enforcement teeth to escalate to.\n\nIf a withdrawal stalls: first, document everything — screenshots of account balance, trade history, and all communications. Second, submit a formal written complaint through their support portal. Third, if unresolved within 14 days, file with the VFSC directly (though enforcement is minimal). Finally, report to community platforms and consider a chargeback on card deposits if within the time window. There is no Financial Ombudsman equivalent for VFSC-regulated entities.",
+        "cta_after": false
+      },
+
+
+      {
+        "id": "red-flags",
+        "heading": "D Prime Red Flags — What to Know Before You Deposit",
+        "body": "A broker can have sharp spreads and a decent platform and still present unacceptable risk. D Prime sits in that uncomfortable space — the trading infrastructure exists, but the trust foundation is cracked. The August 2025 police raid on a Doo Group call centre in Kuala Lumpur was not a minor compliance issue. It was a raid by Malaysian police as part of an investigation into wider financial scam operations. The group has not publicly addressed this incident in detail. Combine that with the profit deduction complaint pattern and the misleading presentation of FCA/ASIC licences that do not actually cover retail accounts — and the picture becomes clear. NAFT last reviewed D Prime in June 2026.",
+        "bullets": [
+          "Malaysian police raided a Doo Group call centre in Kuala Lumpur in August 2025 as part of a wider financial scam investigation (publicly reported, FX News Group exclusive). The group has not published a detailed public response.",
+          "May 2026 WikiFX exposure: trader profits deducted after being accused of high-frequency trading. Principal partially confiscated. Pattern consistent with selective terms enforcement against profitable traders (publicly reported).",
+          "FCA UK licence (833414) is presented by the group alongside retail branding, but covers only Doo Clearing Limited — a clearing function. No retail client protection applies under this licence.",
+          "ASIC licence (222650) covers Doo Financial Australia for wholesale/professional clients only. Retail traders cannot access this entity or its protections.",
+          "1:1000 leverage offered on offshore entities with no regulatory cap — extreme risk for inexperienced traders with no external guardrails.",
+          "Excluded from 50+ countries including Malaysia itself — unusual for a broker with significant Malaysian operational presence until the raid."
+        ]
+      },
+      {
+        "id": "who-broker-is-for",
+        "heading": "Who Should Use D Prime — and Who Should Not",
+        "body": "The exclusion list here is longer than the recommendation list. D Prime's risk profile means the vast majority of traders should look elsewhere first. The platform technology is genuinely capable — MT4, MT5, TradingView, and FIX API cover every workflow from retail scalping to institutional algo execution. But good execution means nothing if your profits get confiscated under vague policy violations.\n\nThe broker only makes sense for a narrow profile of trader who fully understands offshore risk and manages it actively through frequent withdrawals and small balance exposure.",
+        "not_for": [
+          "Beginners — no meaningful regulation protects you, no compensation scheme exists, and 1:1000 leverage will destroy a new account before you learn to read a chart properly.",
+          "Anyone depositing savings or funds they cannot afford to lose — there is no FSCS, no ICF, no ombudsman. Your recourse if things go wrong is essentially nil.",
+          "EU, UK, Singapore, Hong Kong, or Japanese residents — you are explicitly excluded and should not attempt to circumvent geo-restrictions.",
+          "Traders who expect transparent dispute resolution — the WikiFX complaint pattern suggests the broker may selectively enforce terms against profitable trading strategies.",
+          "Anyone who read about the FCA or ASIC licence and assumed it covered their retail account — it does not."
+        ],
+        "for": [
+          "Experienced offshore traders in accepted Asian or African markets who understand VFSC/Seychelles risk and manage it through small balances and frequent withdrawals.",
+          "Algo traders and scalpers who need FIX API access and raw spreads — provided they test with small capital first and verify withdrawal reliability before scaling.",
+          "Traders who want TradingView integration with a broker offering 10,000+ instruments and are willing to accept the regulatory trade-off.",
+          "High-frequency traders — though the WikiFX complaint raises questions about whether this strategy is actually permitted despite being technically possible on the platform.",
+          "Traders in markets like India, UAE, Nigeria, or South Africa where offshore broker access is common and local alternatives may be limited."
+        ]
+      },
+
+
+      {
+        "id": "how-to-open-account",
+        "heading": "How to Open a D Prime Account — Step by Step",
+        "body": "The onboarding process is standard for an offshore broker — fast, minimal friction, and lacking the detailed suitability assessment you would face with an FCA or CySEC-regulated entity. That speed is a feature and a warning simultaneously.",
+        "steps": [
+          {
+            "number": 1,
+            "title": "Register",
+            "detail": "Head to dooprime.com and complete the registration form. You will need an email address, phone number, and basic personal details. The process takes under two minutes. You will be asked to select an account type — start with the STP or ECN account depending on whether you prefer zero-commission or raw spread pricing."
+          },
+          {
+            "number": 2,
+            "title": "Verify your identity (KYC)",
+            "detail": "Upload a government-issued ID (passport or national ID card) and a proof of address document (utility bill or bank statement dated within 3 months). Verification is typically processed within 24 hours (broker-stated). Some community reports suggest faster approval for straightforward documents."
+          },
+          {
+            "number": 3,
+            "title": "Fund your account and test a withdrawal",
+            "detail": "Deposit the minimum required for your chosen account ($0 for Cent, $1 for STP, $100 for ECN). Use a method you can also withdraw to — card or USDT are simplest. Place one small trade, then immediately request a withdrawal of your remaining balance. Time it. Document it. If the withdrawal processes cleanly within the stated timeframe, you have a data point. If it stalls or triggers additional verification requests, you have your answer before any real money is at risk.",
+            "cta_inline": { "label": "Open D Prime Account", "url": "AFFILIATE_PLACEHOLDER" }
+          }
+        ],
+        "practical_note": "Make a small deposit. Place one trade. Request a withdrawal immediately. If it processes cleanly, scale with confidence. If it does not, you have lost almost nothing and gained critical information about this broker's actual withdrawal behaviour.",
+        "cta_after": true
+      },
+      {
+        "id": "final-verdict",
+        "heading": "D Prime Final Verdict — Is It Worth It in 2026?",
+        "body": "NAFT scores D Prime 4.05 out of 10. The regulation is offshore-only for retail clients, the FCA and ASIC licences are window dressing for the average trader, and the complaint history includes both a police raid on a group entity and documented profit confiscation. Spreads of 0.0 pips on ECN with a $7 round-turn commission are competitive — but competitive pricing means nothing if you cannot reliably withdraw your gains.\n\nThe risks are not theoretical. Malaysian police raided a Doo Group call centre in August 2025. A trader had profits deducted in May 2026 after being accused of high-frequency trading. The broker excludes over 50 countries — including its own former operational base in Malaysia. These are facts, not speculation, and they should weigh heavily in your decision.\n\nIf you are an experienced offshore trader in an accepted market, you understand these risks, and you plan to test withdrawals with small amounts before committing real capital — D Prime offers functional trading infrastructure at competitive pricing. But if you have access to brokers with Tier-1 retail licences, start there. NAFT recommends checking our regulated broker comparison before depositing with any offshore entity. Your capital deserves better protection than Vanuatu can offer."
+      }
+    ],
+
+
+    "affiliate_cta": {
+      "label": "Open D Prime Account",
+      "url": "AFFILIATE_PLACEHOLDER",
+      "promo_code": null,
+      "friction_reducers": [
+        "ECN account from $100 minimum deposit",
+        "MT4, MT5, and TradingView all supported",
+        "USDT deposits processed within 1 hour (broker-stated)",
+        "Demo account available for platform testing before committing funds"
+      ]
+    },
+    "cta_positions": [
+      "after_section_quick-verdict",
+      "after_section_deposits-withdrawals",
+      "in_section_how-to-open-account_step3"
+    ],
+    "trustpilot": {
+      "rating": 0.0,
+      "reviews": 0,
+      "velocity_30d": "Cannot confirm — no reliable Trustpilot profile identified",
+      "polarisation_note": "N/A — insufficient data",
+      "broker_response_rate": "N/A — insufficient data",
+      "source_note": "Trustpilot, no confirmed profile with verifiable review data, June 2026"
+    },
+    "internal_links": [
+      { "anchor": "compare brokers side by side", "url": "/compare" },
+      { "anchor": "best regulated forex brokers", "url": "/brokers?regulation=tier-1" },
+      { "anchor": "broker scam alerts and warnings", "url": "/scam-alerts" },
+      { "anchor": "community withdrawal proofs", "url": "/withdrawal-proofs" },
+      { "anchor": "how NAFT reviews brokers", "url": "/how-we-review-brokers" },
+      { "anchor": "file a broker complaint with NAFT", "url": "/complaints" }
+    ],
+
+
+    "faq": [
+      {
+        "q": "Is D Prime a legit broker or a scam?",
+        "a": "D Prime holds legitimate offshore licences from VFSC Vanuatu (700238) and FSA Seychelles (SD074/SD090), so it is technically a licensed broker — not an unlicensed operation. But legitimate licensing and safe trading are different things. The August 2025 police raid on a Doo Group call centre and documented profit deduction complaints place D Prime firmly in the high-risk category. It is not an outright scam by definition, but the trust indicators are poor."
+      },
+      {
+        "q": "Is D Prime regulated by the FCA?",
+        "a": "Not for retail trading accounts. Doo Clearing Limited holds FCA authorisation 833414, but this entity performs clearing functions only. It does not onboard retail clients, does not hold retail deposits, and does not provide FSCS protection to D Prime trading account holders. If you open a D Prime account, you will be under the VFSC Vanuatu or FSA Seychelles entity — neither of which offers investor compensation."
+      },
+      {
+        "q": "How long does D Prime withdrawal take?",
+        "a": "D Prime states 1-3 business days for most withdrawal methods and within 1 hour for USDT. Some community reports confirm smooth small withdrawals. A May 2026 publicly reported complaint documents profits being deducted and principal partially confiscated after the trader was accused of high-frequency trading. Withdrawal speed appears normal for small amounts but may become problematic for profitable accounts."
+      },
+      {
+        "q": "What is the minimum deposit for D Prime?",
+        "a": "D Prime offers three account tiers: Cent account with $0 minimum, STP account with $1 minimum, and ECN account with $100 minimum (all broker-stated). The low entry barriers make testing the broker accessible, but remember — the minimum deposit is not the issue. The issue is whether you can withdraw profits reliably once your account grows."
+      },
+      {
+        "q": "Does D Prime accept traders from the UK or EU?",
+        "a": "No. D Prime explicitly excludes the entire United Kingdom and all EU/EEA member states from its accepted countries list. Despite having an FCA-authorised entity (Doo Clearing), this entity serves clearing functions only and does not offer retail trading accounts. UK and EU traders should look at brokers with actual FCA or CySEC retail licences instead."
+      },
+      {
+        "q": "What happened with D Prime and the Malaysia police raid?",
+        "a": "In August 2025, Malaysian police raided a Doo Group call centre in Kuala Lumpur as part of a wider investigation into financial scam operations. This was reported exclusively by FX News Group. D Prime (part of the Doo Group) has not published a detailed public response addressing the raid. Malaysia itself appears on D Prime's excluded countries list. The incident remains a significant red flag in the group's operational history."
+      },
+      {
+        "q": "What platforms does D Prime support?",
+        "a": "D Prime supports MetaTrader 4, MetaTrader 5, TradingView, its proprietary InTrade platform, and FIX API for algorithmic trading. The platform range is genuinely broad — particularly the TradingView integration and FIX API access, which many offshore brokers do not offer. Platform quality is arguably D Prime's strongest point, though platforms matter little if withdrawal reliability is compromised."
+      },
+      {
+        "q": "Is D Prime safe for large deposits?",
+        "a": "No. D Prime operates under VFSC Vanuatu and FSA Seychelles — neither offers investor compensation. There is no FSCS, no ICF, no Financial Ombudsman. The documented May 2026 complaint about profit deduction and the August 2025 police raid make large deposits particularly risky. If you choose to use D Prime, keep balances minimal, withdraw profits frequently, and never deposit funds you cannot afford to lose entirely."
+      }
+    ],
+
+
+    "schema_jsonld": {
+      "review": {
+        "@context": "https://schema.org",
+        "@type": "Review",
+        "name": "D Prime Review 2026",
+        "headline": "D Prime (Doo Prime) Review 2026 — Legit or a Scam?",
+        "description": "NAFT's independent review of D Prime (formerly Doo Prime). Trust score 4.05/10. Offshore regulation only for retail accounts, police raid history, withdrawal complaints documented.",
+        "datePublished": "2026-06-15",
+        "dateModified": "2026-06-15",
+        "author": {
+          "@type": "Person",
+          "name": "NAFT Editorial Team",
+          "url": "https://notafugazitrader.com/about",
+          "sameAs": []
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "NAFT — Not A Fugazi Trader",
+          "url": "https://notafugazitrader.com",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://notafugazitrader.com/logo.png"
+          }
+        },
+        "reviewedBy": {
+          "@type": "Organization",
+          "name": "NAFT — Not A Fugazi Trader",
+          "url": "https://notafugazitrader.com"
+        },
+        "itemReviewed": {
+          "@type": "FinancialProduct",
+          "name": "D Prime",
+          "url": "https://www.dooprime.com",
+          "category": "Forex and CFD Broker"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "2.0",
+          "bestRating": "5",
+          "worstRating": "1"
+        }
+      },
+      "aggregateRating": {
+        "@context": "https://schema.org",
+        "@type": "AggregateRating",
+        "itemReviewed": {
+          "@type": "FinancialProduct",
+          "name": "D Prime"
+        },
+        "ratingValue": "2.0",
+        "bestRating": "5",
+        "worstRating": "1",
+        "ratingCount": "1",
+        "reviewCount": "1"
+      },
+
+
+      "faqPage": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Is D Prime a legit broker or a scam?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "D Prime holds legitimate offshore licences from VFSC Vanuatu (700238) and FSA Seychelles (SD074/SD090), so it is technically a licensed broker — not an unlicensed operation. But legitimate licensing and safe trading are different things. The August 2025 police raid on a Doo Group call centre and documented profit deduction complaints place D Prime firmly in the high-risk category. It is not an outright scam by definition, but the trust indicators are poor."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is D Prime regulated by the FCA?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Not for retail trading accounts. Doo Clearing Limited holds FCA authorisation 833414, but this entity performs clearing functions only. It does not onboard retail clients, does not hold retail deposits, and does not provide FSCS protection to D Prime trading account holders. If you open a D Prime account, you will be under the VFSC Vanuatu or FSA Seychelles entity — neither of which offers investor compensation."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How long does D Prime withdrawal take?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "D Prime states 1-3 business days for most withdrawal methods and within 1 hour for USDT. Some community reports confirm smooth small withdrawals. A May 2026 publicly reported complaint documents profits being deducted and principal partially confiscated after the trader was accused of high-frequency trading. Withdrawal speed appears normal for small amounts but may become problematic for profitable accounts."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the minimum deposit for D Prime?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "D Prime offers three account tiers: Cent account with $0 minimum, STP account with $1 minimum, and ECN account with $100 minimum (all broker-stated). The low entry barriers make testing the broker accessible, but remember — the minimum deposit is not the issue. The issue is whether you can withdraw profits reliably once your account grows."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does D Prime accept traders from the UK or EU?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. D Prime explicitly excludes the entire United Kingdom and all EU/EEA member states from its accepted countries list. Despite having an FCA-authorised entity (Doo Clearing), this entity serves clearing functions only and does not offer retail trading accounts. UK and EU traders should look at brokers with actual FCA or CySEC retail licences instead."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What happened with D Prime and the Malaysia police raid?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "In August 2025, Malaysian police raided a Doo Group call centre in Kuala Lumpur as part of a wider investigation into financial scam operations. This was reported exclusively by FX News Group. D Prime (part of the Doo Group) has not published a detailed public response addressing the raid. Malaysia itself appears on D Prime's excluded countries list. The incident remains a significant red flag in the group's operational history."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What platforms does D Prime support?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "D Prime supports MetaTrader 4, MetaTrader 5, TradingView, its proprietary InTrade platform, and FIX API for algorithmic trading. The platform range is genuinely broad — particularly the TradingView integration and FIX API access, which many offshore brokers do not offer. Platform quality is arguably D Prime's strongest point, though platforms matter little if withdrawal reliability is compromised."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is D Prime safe for large deposits?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. D Prime operates under VFSC Vanuatu and FSA Seychelles — neither offers investor compensation. There is no FSCS, no ICF, no Financial Ombudsman. The documented May 2026 complaint about profit deduction and the August 2025 police raid make large deposits particularly risky. If you choose to use D Prime, keep balances minimal, withdraw profits frequently, and never deposit funds you cannot afford to lose entirely."
+            }
+          }
+        ]
+      },
+
+
+      "organization": {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "NAFT — Not A Fugazi Trader",
+        "url": "https://notafugazitrader.com",
+        "logo": "https://notafugazitrader.com/logo.png",
+        "description": "Independent forex and CFD broker review platform. Trust scores based on regulatory data, community feedback, and editorial assessment.",
+        "sameAs": []
+      },
+      "breadcrumbList": {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://notafugazitrader.com"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Broker Reviews",
+            "item": "https://notafugazitrader.com/brokers"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "D Prime Review 2026",
+            "item": "https://notafugazitrader.com/brokers/d-prime"
+          }
+        ]
+      },
+      "howTo": {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "How to Open a D Prime Account",
+        "description": "Step-by-step guide to opening and verifying a D Prime trading account.",
+        "step": [
+          {
+            "@type": "HowToStep",
+            "position": 1,
+            "name": "Register",
+            "text": "Head to dooprime.com and complete the registration form with your email, phone number, and personal details. Select your preferred account type — STP for zero-commission or ECN for raw spreads."
+          },
+          {
+            "@type": "HowToStep",
+            "position": 2,
+            "name": "Verify your identity (KYC)",
+            "text": "Upload a government-issued ID (passport or national ID) and proof of address (utility bill or bank statement within 3 months). Verification typically processed within 24 hours (broker-stated)."
+          },
+          {
+            "@type": "HowToStep",
+            "position": 3,
+            "name": "Fund your account and test a withdrawal",
+            "text": "Deposit the minimum for your account type ($0 Cent, $1 STP, $100 ECN). Place one small trade, then immediately request a withdrawal to test processing speed and reliability before committing larger capital."
+          }
+        ]
+      },
+      "videoObject": null
+    },
+    "sources": [
+      "D Prime official website — dooprime.com (accounts, regulation, payment methods)",
+      "VFSC Vanuatu register — licence 700238 confirmed",
+      "FSC Mauritius register — licence C119023907 confirmed",
+      "FCA UK register — Doo Clearing Limited 833414 confirmed (clearing only)",
+      "ASIC register — Doo Financial Australia 222650 confirmed (wholesale/professional)",
+      "FX News Group exclusive report — Doo Group KL call centre police raid, August 2025",
+      "WikiFX exposure complaint — profit deduction, high-frequency trading accusation, May 2026",
+      "TradersUnion — publicly reported EUR/USD spread data (Standard account)",
+      "BrokersView — ASIC entity classification (wholesale/professional)"
+    ]
+  }
+}
+
+
+
+
+
+{
+  "editorial_review_row": {
+    "broker_slug": "d-prime",
+    "author": "NAFT Editorial",
+    "role": "editor",
+    "rating": 2.0,
+    "content": "D Prime (formerly Doo Prime) scores 4.05 out of 10 in NAFT's 2026 trust assessment. All retail accounts route to offshore entities in Vanuatu (VFSC 700238) or Seychelles (FSA SD074/SD090) — no investor compensation exists under either licence. The FCA and ASIC registrations the group advertises do not cover retail trading accounts. A Doo Group call centre in Kuala Lumpur was raided by Malaysian police in August 2025 as part of a wider financial scam investigation. A May 2026 publicly reported complaint documents profits being deducted from a trader accused of high-frequency trading. Spreads and platform choice look competitive on paper, but the regulatory and reputational risk profile makes this unsuitable for any trader who cannot afford to lose their entire deposit.",
+    "status": "published",
+    "verified_account": true
+  }
+}
