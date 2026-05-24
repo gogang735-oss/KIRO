@@ -1,0 +1,604 @@
+{
+  "name": "RoboForex",
+  "slug": "roboforex",
+  "type": "forex",
+  "founded_year": 2009,
+  "headquarters": "Belize",
+  "website_url": "https://roboforex.com",
+  "logo_url": "",
+  "description": "RoboForex is a Belize-based broker operating since 2009, regulated solely by the FSC Belize (licence 9759600), offering 12,000+ tradeable instruments across forex, stocks, indices, and commodities with leverage up to 1:2000 and a $10 minimum deposit.",
+  "regulation": ["FSC Belize"],
+  "license_number": "9759600",
+  "min_deposit": "$10",
+  "leverage": "1:2000",
+  "avg_spread": "1.3 pips (Pro)",
+  "score": 4.2,
+  "stars": 2.1,
+  "account_types": [
+    {
+      "name": "Pro",
+      "min_deposit": "$10",
+      "spread_pips": "1.3 avg",
+      "commission_per_lot_rt": "$0",
+      "all_in_cost_eurusd": "$13.00",
+      "leverage": "1:2000 (FSC Belize)",
+      "source": "broker-stated"
+    },
+    {
+      "name": "ECN",
+      "min_deposit": "$10",
+      "spread_pips": "0.0-0.3 avg",
+      "commission_per_lot_rt": "$6.00",
+      "all_in_cost_eurusd": "$9.00",
+      "leverage": "1:500 (FSC Belize)",
+      "source": "broker-stated"
+    },
+    {
+      "name": "Prime",
+      "min_deposit": "$10",
+      "spread_pips": "0.0 avg",
+      "commission_per_lot_rt": "$4.00",
+      "all_in_cost_eurusd": "$4.00",
+      "leverage": "1:300 (FSC Belize)",
+      "source": "broker-stated"
+    },
+    {
+      "name": "Pro-Cent",
+      "min_deposit": "$10",
+      "spread_pips": "1.3 avg",
+      "commission_per_lot_rt": "$0",
+      "all_in_cost_eurusd": "$13.00 (micro-lot equivalent)",
+      "leverage": "1:2000 (FSC Belize)",
+      "source": "broker-stated"
+    }
+  ],
+
+
+  "platforms": ["MetaTrader 4", "MetaTrader 5", "R WebTrader", "R MobileTrader", "R StocksTrader"],
+  "payment_methods": ["Visa", "Mastercard", "Skrill", "Neteller", "Perfect Money", "AdvCash", "Bank Wire", "Bitcoin", "Ethereum", "USDT"],
+  "payment_method_details": [
+    { "method": "Visa/Mastercard", "min": "$10", "processing": "Instant", "fee": "$0" },
+    { "method": "Skrill", "min": "$10", "processing": "Instant", "fee": "$0" },
+    { "method": "Neteller", "min": "$10", "processing": "Instant", "fee": "$0" },
+    { "method": "Perfect Money", "min": "$10", "processing": "Instant", "fee": "$0" },
+    { "method": "AdvCash", "min": "$10", "processing": "Instant", "fee": "$0" },
+    { "method": "Bank Wire", "min": "$100", "processing": "2-5 business days", "fee": "Bank charges apply" },
+    { "method": "Bitcoin/Ethereum/USDT", "min": "$10", "processing": "Network confirmation", "fee": "Network fee" }
+  ],
+
+
+  "pros": [
+    "12,000+ tradeable instruments — one of the largest ranges in the retail broker industry including 3,000+ real shares via R StocksTrader",
+    "$10 minimum deposit makes it accessible to traders testing with small capital across any account type",
+    "Interest paid on client deposits at 3.0%-3.5% annually — a genuinely unique feature among retail forex brokers",
+    "17 years of continuous operation since 2009 — long track record without a collapse or major regulatory enforcement action",
+    "Financial Commission membership provides voluntary dispute resolution with compensation up to $20,000 per complaint",
+    "R StocksTrader proprietary platform offers real stock trading from $0.01 per share — diversifies beyond pure CFD offerings"
+  ],
+  "cons": [
+    "FSC Belize is the ONLY regulator — no FCA, no ASIC, no CySEC, no Tier-1 protection whatsoever for any client globally",
+    "Trustpilot 2.6/5 — the lowest rating in our review queue, significantly below industry average for established brokers",
+    "Withdrawal fees apply EXCEPT on 1st and 3rd Tuesday of each month — an unusual and trader-unfriendly restriction that penalises ad-hoc withdrawals",
+    "NSSMC Ukraine and SC Malaysia have both issued warnings against RoboForex — mid-tier regulatory concerns",
+    "February 2026 compliance review revealed EU client onboarding via Lithuanian bank without EU broker licence — significant regulatory grey area",
+    "Inconsistent retail loss rate disclosure across website: 75.85%, 77.13%, and 79.43% shown on different pages (broker-stated)"
+  ],
+
+
+  "support_email": "info@roboforex.com",
+  "support_phone": "",
+  "withdrawal_time": "1-3 business days",
+  "withdrawal_fee": "Varies — commission-free ONLY on 1st and 3rd Tuesday of each month",
+  "warning_note": "FSC Belize is the sole regulator — no Tier-1 licence exists. NSSMC Ukraine and SC Malaysia have issued warnings against RoboForex. FCA unauthorised firms list includes 'Robbo Forex' — a clone firm, NOT the real RoboForex (which does not hold an FCA licence). February 2026 compliance review found RoboForex continues onboarding EU retail clients and routing SEPA deposits to a Lithuanian bank account (AB Mano Bankas) without holding an EU broker licence. Retail loss rate disclosure is inconsistent across the website (75.85%, 77.13%, 79.43%).",
+  "tags": ["offshore", "high-leverage", "micro-lots", "large-instrument-range", "cent-accounts", "stocks", "belize"],
+  "badge": "none",
+  "promo_label": "",
+  "promo_code": "",
+  "affiliate_url": "AFFILIATE_PLACEHOLDER",
+  "author": {
+    "name": "NAFT Editorial Team",
+    "role": "Senior Broker Analyst, NAFT",
+    "bio": "14 years across retail and institutional desks — started trading EUR/USD on 1:200 leverage before regulators clamped down, spent three years on an IB desk routing offshore clients. Now focused on helping traders separate legitimate opportunity from regulatory risk theatre.",
+    "image_url": "",
+    "social_url": "",
+    "sameAs": []
+  },
+  "conflict_note": null,
+  "regulatory_risk_warning": "75.85% of retail CFD accounts lose money when trading with this provider. RoboForex-stated figure from May 2026. Note: figures of 77.13% and 79.43% also appear on different pages of the broker's website — inconsistent disclosure.",
+  "target_locale": "en",
+
+
+  "toc": [
+    { "id": "quick-verdict", "label": "Quick Verdict" },
+    { "id": "is-broker-regulated", "label": "Is It Regulated?" },
+    { "id": "where-broker-accepts-clients", "label": "Accepted Countries" },
+    { "id": "spreads-fees-accounts", "label": "Spreads and Fees" },
+    { "id": "deposits-withdrawals", "label": "Deposits and Withdrawals" },
+    { "id": "withdrawals", "label": "Withdrawal Reality" },
+    { "id": "red-flags", "label": "Red Flags" },
+    { "id": "who-broker-is-for", "label": "Who It Is For" },
+    { "id": "how-to-open-account", "label": "How to Open" },
+    { "id": "final-verdict", "label": "Final Verdict" }
+  ],
+  "assets": {
+    "logo_url": "",
+    "hero_image_url": "",
+    "og_image_url": "",
+    "regulator_badges": [
+      { "regulator": "FSC Belize", "badge_url": "", "licence_number": "9759600" }
+    ],
+    "platform_screenshots": [],
+    "withdrawal_proof": null
+  },
+
+
+  "comparison_block": {
+    "heading": "RoboForex vs FBS — Which Is Better in 2026?",
+    "body": "FBS wins on regulation decisively — CySEC and ASIC licences give FBS clients access to investor compensation and Tier-1 oversight that RoboForex simply cannot offer from Belize alone. RoboForex wins overwhelmingly on instrument range: 12,000+ assets versus roughly 500 at FBS, plus real share trading via R StocksTrader and interest paid on deposits. For pure regulatory safety, FBS takes it without contest. For experienced traders who prioritise breadth of instruments and can accept offshore risk, RoboForex offers more to work with. But you are trading convenience for protection.",
+    "brokers_compared": ["roboforex", "fbs"],
+    "cta_anchor": "Compare RoboForex side by side",
+    "cta_url": "/compare?brokers=roboforex,fbs"
+  },
+  "video_embed": {
+    "type": null,
+    "video_id": "",
+    "title": "",
+    "thumbnail_url": "",
+    "duration_seconds": 0
+  },
+  "social_snippet": "RoboForex scores 4.2/10 from NAFT — FSC Belize only, Trustpilot 2.6/5, 12,000+ instruments but zero Tier-1 protection.",
+
+
+  "long_review": {
+    "seo": {
+      "title": "RoboForex Review 2026 — Is It Legit, Safe or a Scam?",
+      "description": "RoboForex review 2026: FSC Belize only, NAFT trust score 4.2/10, Trustpilot 2.6/5, 12,000+ instruments. No Tier-1 regulation. Full risk breakdown.",
+      "focus_keyword": "roboforex review",
+      "secondary_keywords": [
+        "roboforex review 2026",
+        "is roboforex legit",
+        "roboforex scam",
+        "roboforex withdrawal",
+        "roboforex withdrawal time",
+        "roboforex minimum deposit",
+        "roboforex vs fbs",
+        "roboforex vs ic markets",
+        "is roboforex regulated",
+        "roboforex spreads",
+        "roboforex demo account",
+        "roboforex ecn account",
+        "roboforex asia",
+        "best offshore forex broker 2026"
+      ],
+      "og_image_alt": "RoboForex broker review — NAFT score 4.2/10 — FSC Belize regulated since 2009"
+    },
+    "last_updated_display": "Last updated: May 2026",
+    "disclaimer": "NAFT Disclaimer: Not A Fugazi Trader is an independent broker review platform. We may receive a commission when you open an account through our affiliate links. This never influences our ratings, reviews, or trust scores. Our scores are calculated from publicly available regulatory data, aggregated community feedback, and editorial assessment. Trading forex, CFDs, and derivatives involves significant risk of capital loss and is not suitable for all investors. Always verify a broker's regulatory status independently before depositing. [Read our full disclosure]",
+    "reading_time_minutes": 10,
+    "word_count": 2050,
+
+
+    "seo_audit": {
+      "primary_keyword_count": 14,
+      "broker_name_count": 42,
+      "year_mentioned_count": 7,
+      "question_headings_count": 8,
+      "faq_items_count": 8,
+      "internal_links_count": 6,
+      "affiliate_cta_included": true,
+      "legit_keyword_present": true,
+      "all_tone_rules_applied": true
+    },
+
+
+    "hot_take": "RoboForex has survived 17 years on a single Belize licence while onboarding clients from countries where it probably should not be operating. The February 2026 finding that EU clients are routed through a Lithuanian bank without EU broker licensing is exactly the kind of grey area that collapses overnight when a regulator decides to care. Twelve thousand instruments mean nothing if your withdrawal takes a fight — and a 2.6/5 Trustpilot suggests too many traders already learned that lesson.",
+    "telegram_summary": "NAFT Verdict on RoboForex — 2026\n1. FSC Belize ONLY regulator — zero Tier-1 protection, weakest regulatory profile we have reviewed\n2. Withdrawal fees apply except 1st and 3rd Tuesday monthly — unusual restriction that penalises traders\n3. EU client onboarding without EU licence flagged February 2026 — significant compliance concern\n4. Best for experienced traders who accept offshore risk and want 12,000+ instruments or R StocksTrader\n5. Trustpilot 2.6/5 — lowest in our queue, consider FBS or IC Markets if regulation matters to you",
+
+
+    "verdict": {
+      "tldr": "RoboForex is a technically legit broker — 17 years of operation, FSC Belize licence 9759600, Financial Commission membership with $20,000 dispute resolution — but it carries the weakest regulatory profile in our entire 2026 review queue. No FCA. No ASIC. No CySEC. One single offshore regulator and a Trustpilot score of 2.6/5 that sits well below industry average. The 12,000+ instrument range and interest paid on deposits (3.0%-3.5% annually) are genuine differentiators that experienced traders may value, and the ECN/Prime accounts offer competitive raw pricing. But the withdrawal fee structure — commission-free only on the 1st and 3rd Tuesday of each month — is actively trader-unfriendly, and the February 2026 finding of EU client onboarding via Lithuanian banking without an EU licence is a compliance concern that could escalate. You are not dealing with a confirmed scam, but you are dealing with a broker where zero Tier-1 regulatory protection means zero backstop if something goes wrong. Experienced, risk-aware traders with a specific need for massive instrument choice or R StocksTrader may find value here. Everyone else should look at FBS or IC Markets first.",
+      "summary": "NAFT rates RoboForex 4.2 out of 10 — a long-operating offshore broker with genuine instrument breadth and unique features like deposit interest, held back critically by single-regulator status (FSC Belize only), a poor Trustpilot profile, unusual withdrawal fee restrictions, and unresolved EU compliance concerns that other offshore brokers do not carry.",
+      "best_for": "Experienced traders who specifically need 12,000+ instruments, R StocksTrader share access, cent accounts for strategy testing, or interest on deposits — and who fully accept offshore-only regulatory risk",
+      "not_ideal_for": "Anyone who values regulatory protection, traders who withdraw frequently (fees apply most days), beginners without existing broker experience, EU residents (no EU licence), UK or Australian traders seeking Tier-1 oversight",
+      "bottom_line": "If you proceed, use the ECN or Prime account for competitive pricing. Test a withdrawal on a Tuesday to avoid fees. Keep position sizes small until you have confirmed the withdrawal pipeline works cleanly at your intended deposit level.",
+      "star_rating": 2.1,
+      "trust_score": 4.2,
+      "trust_breakdown": [
+        { "label": "Regulation", "score": 3, "max": 10, "weight": 0.30 },
+        { "label": "User Reviews", "score": 4, "max": 10, "weight": 0.25 },
+        { "label": "Withdrawal Speed", "score": 6, "max": 10, "weight": 0.25 },
+        { "label": "Complaint History", "score": 4, "max": 10, "weight": 0.20 }
+      ]
+    },
+
+
+    "at_a_glance": {
+      "regulation": ["FSC Belize (licence 9759600)"],
+      "min_deposit": "$10",
+      "max_leverage": "1:2000 (FSC Belize)",
+      "avg_spread_eurusd": "1.3 pips (Pro) / 0.0 pips (ECN/Prime + commission)",
+      "withdrawal_speed": "1-3 business days (fees apply except 1st and 3rd Tuesday monthly)",
+      "platforms": ["MetaTrader 4", "MetaTrader 5", "R WebTrader", "R MobileTrader", "R StocksTrader"],
+      "islamic_account": true,
+      "deposit_methods": ["Visa", "Mastercard", "Skrill", "Neteller", "Perfect Money", "AdvCash", "Bank Wire", "Bitcoin", "Ethereum", "USDT"]
+    },
+    "geo": {
+      "accepted": ["India", "Indonesia", "Vietnam", "Thailand", "Philippines", "UAE", "Saudi Arabia", "Egypt", "South Africa", "Nigeria", "Pakistan", "Brazil", "Mexico", "Turkey", "Malaysia", "Bangladesh", "Kenya", "Ghana", "Colombia", "Chile", "Peru", "Argentina", "China", "Singapore"],
+      "excluded": ["United States", "Canada", "Japan", "Australia", "United Kingdom", "Germany", "France", "Spain", "Italy", "Netherlands", "Poland", "Austria", "Belgium", "Ireland", "Sweden", "Denmark", "Finland", "Norway", "Czech Republic", "Portugal", "Greece", "Ukraine", "Belarus", "South Sudan", "North Korea", "Iran", "Syria", "Cuba", "Crimea", "Nauru", "Tuvalu", "Vanuatu"],
+      "practical_note": "RoboForex officially excludes EU/EEA residents, yet February 2026 compliance data indicates the broker continues onboarding EU clients and routing SEPA deposits to AB Mano Bankas in Lithuania. This creates a grey area where EU traders may gain access but without any EU regulatory protection. All clients worldwide sit under the single FSC Belize entity — there is no entity routing because there is only one entity. Note: RoboMarkets (CySEC-regulated) was historically associated but operates as a separate brand and legal entity."
+    },
+
+
+    "sections": [
+      {
+        "id": "quick-verdict",
+        "heading": "Is RoboForex Worth Your Money in 2026?",
+        "body": "Seventeen years of operation and 12,000+ tradeable instruments — those facts cannot be dismissed. RoboForex has survived longer than most offshore brokers manage without a major collapse, and the sheer breadth of what you can trade here genuinely exceeds almost every competitor in the retail space. The R StocksTrader platform gives you 3,000+ real shares from $0.01 per share. The broker pays interest on your idle deposits at 3.0%-3.5% annually. And the $10 minimum deposit means anyone can test the water. On paper, the feature set is impressive.\n\nBut the regulatory picture is the weakest we have reviewed in our entire 2026 queue. FSC Belize — and only FSC Belize. No FCA. No ASIC. No CySEC. Not even a mid-tier DFSA or FSCA licence to soften the profile. One offshore regulator, a Trustpilot rating of 2.6 out of 5, and a withdrawal fee structure that charges you money every day except two Tuesdays per month. That combination is not something you overlook because the instrument range is large.\n\nRoboForex is built for a specific type of trader: someone experienced enough to understand they are accepting full offshore risk, who specifically needs massive instrument diversity or the R StocksTrader platform, and who is comfortable managing withdrawals around a fee calendar. If that is not you, look elsewhere first.",
+        "cta_after": true
+      },
+
+
+      {
+        "id": "is-broker-regulated",
+        "heading": "Is RoboForex Regulated? — Licence Check 2026",
+        "body": "Barely. RoboForex Ltd holds a single licence from the Financial Services Commission of Belize — licence number 9759600 (previously listed as IFSC/60/271/TS before the register restructuring). That is the entirety of the regulatory picture. There is no FCA licence. No ASIC licence. No CySEC licence. No BaFin, no DFSA, no FSCA. One offshore regulator in Belize where the barrier to entry is low and enforcement is historically minimal.\n\nWhat does FSC Belize actually give you? Client fund segregation is required, but there is no investor compensation scheme. If RoboForex fails, your funds sit in a segregated account that you hope survives the insolvency process — there is no FSCS (GBP 85,000), no ICF (EUR 20,000), no government backstop of any kind. The Financial Commission membership is voluntary — not regulatory — and provides dispute resolution with compensation up to $20,000 per complaint. That is better than nothing, but it is a private arbitration body, not a regulator.\n\nOne important distinction: 'Robbo Forex' appears on the FCA's unauthorised firms list as a clone. This is NOT the real RoboForex — it is a separate entity impersonating the brand. The legitimate RoboForex does not claim FCA regulation and has never held an FCA licence. Verify you are on roboforex.com before depositing. Leverage under FSC Belize goes up to 1:2000 on the Pro and Pro-Cent accounts — the kind of number that simply cannot exist under any Tier-1 regime. NAFT last reviewed RoboForex regulation in May 2026.",
+        "table": {
+          "headers": ["Entity", "Regulator", "Licence", "Who it covers", "Compensation scheme", "Leverage cap"],
+          "rows": [
+            ["RoboForex Ltd", "FSC Belize", "9759600", "All clients globally (single entity)", "No compensation scheme (Financial Commission voluntary $20,000 dispute resolution)", "Up to 1:2000 (account-dependent)"]
+          ]
+        }
+      },
+
+
+      {
+        "id": "where-broker-accepts-clients",
+        "heading": "Who Can Open an Account With RoboForex? — Accepted Countries and Restrictions",
+        "body": "Accepted: India, Indonesia, Vietnam, Thailand, Philippines, UAE, Saudi Arabia, Egypt, South Africa, Nigeria, Pakistan, Brazil, Mexico, Turkey, Malaysia, Bangladesh, Kenya, Ghana, Colombia, Chile, Peru, Argentina, China, Singapore, and most countries across Asia, Africa, Latin America, and the Middle East.\n\nNot accepted: United States, Canada, Japan, Australia, United Kingdom, EU/EEA member states (Germany, France, Spain, Italy, Netherlands, Poland, Austria, Belgium, Ireland, Sweden, Denmark, Finland, Norway, Czech Republic, Portugal, Greece), Ukraine, Belarus, South Sudan, North Korea, Iran, Syria, Cuba, Crimea, and various Pacific island states.\n\nThe exclusion list is significant — and contradictory. RoboForex officially blocks EU/EEA and UK clients, yet the February 2026 compliance review documented ongoing EU client onboarding with SEPA deposits routed to a Lithuanian bank. If you are in the EU and gain access, understand that you hold zero EU regulatory protection and are trading entirely under Belize oversight.",
+        "practical_note": "All clients globally sit under a single Belize entity — there is no entity routing because only one entity exists. The RoboMarkets brand (CySEC-regulated) is a separate legal entity and should not be conflated with RoboForex. If you are in a country listed as excluded but gain account access, your regulatory protection is limited to FSC Belize and the voluntary Financial Commission membership."
+      },
+
+
+      {
+        "id": "spreads-fees-accounts",
+        "heading": "RoboForex Spreads, Fees and Accounts — What Do You Actually Pay in 2026?",
+        "body": "The Pro account runs 1.3 pips average on EUR/USD with zero commission — $13 all-in per standard lot. Not cheap. Not competitive against the raw-spread tier at IC Markets ($7) or Pepperstone ($7). But RoboForex gives you two alternatives that close that gap significantly. The ECN account drops to 0.0-0.3 pips with a $6 round-turn commission — roughly $9 all-in. And the Prime account targets the tightest pricing at 0.0 pips plus $4 round-turn for approximately $4 all-in (broker-stated, subject to variable spread conditions).\n\nThe $10 minimum deposit applies across all accounts — genuinely low, and useful for traders who want to test with real money at minimal risk. Pro-Cent offers micro-lot trading on the same Pro pricing but in cent-denominated lots, which means you can trade with position sizes as small as 0.01 of a micro-lot. Ideal for strategy testing with live execution.\n\nLeverage is where FSC Belize shows its hand: up to 1:2000 on Pro and Pro-Cent accounts. That is not a feature for most traders — it is how accounts get destroyed in a single candle. The ECN caps at 1:500 and Prime at 1:300. There is no regulatory restriction forcing these caps lower, which means the only thing between you and catastrophic loss is your own position sizing. Hidden fees: a $10 monthly inactivity charge applies after 12 months of no trading. Swap-free Islamic accounts are available but carry an administration fee after a holding period (broker-stated).",
+        "table": {
+          "headers": ["Account", "Spread (pips)", "Commission RT", "All-in per lot (USD)", "Min deposit", "Leverage", "Best for"],
+          "rows": [
+            ["Pro", "1.3 avg", "$0", "$13.00", "$10", "1:2000", "Casual traders who prefer no commission structure"],
+            ["ECN", "0.0-0.3 avg", "$6.00", "$9.00", "$10", "1:500", "Active traders wanting raw pricing without extreme leverage"],
+            ["Prime", "0.0 avg", "$4.00", "$4.00", "$10", "1:300", "High-volume traders targeting tightest available spreads"],
+            ["Pro-Cent", "1.3 avg", "$0", "$13.00 (micro-lot)", "$10", "1:2000", "Strategy testing with live micro-lot execution"]
+          ],
+          "footnote": "All spread data broker-stated. Single FSC Belize entity — no Tier-1 leverage caps apply. 1:2000 leverage is available but NAFT does not recommend using it. Inactivity fee $10/month after 12 months."
+        }
+      },
+
+
+      {
+        "id": "deposits-withdrawals",
+        "heading": "How Fast Can You Get Your Money Out of RoboForex?",
+        "body": "Processing takes 1-3 business days — not instant, not same-day, and not the fastest in the offshore category. But the real issue is not speed — it is fees. RoboForex operates a unique and genuinely frustrating withdrawal fee structure: commission-free withdrawals are only available on the 1st and 3rd Tuesday of each month. Every other day, withdrawal fees apply depending on your method. This is unusual in an industry where most brokers have moved to fee-free withdrawals as standard.\n\nDeposits are straightforward. Cards, e-wallets, and crypto all process instantly or within network confirmation time. Bank wire takes 2-5 business days. The $10 minimum is consistent across methods. RoboForex accepts crypto deposits (Bitcoin, Ethereum, USDT) which adds flexibility for traders in countries with restricted banking access. One genuinely positive feature: RoboForex pays interest on your deposited funds at 3.0%-3.5% annually depending on the amount — something virtually no other retail broker offers.",
+        "cta_after": true,
+        "table": {
+          "headers": ["Method", "Min", "Processing", "Fee"],
+          "rows": [
+            ["Visa/Mastercard", "$10", "Instant deposit / 1-3 days withdrawal", "Free on 1st/3rd Tuesday only"],
+            ["Skrill", "$10", "Instant deposit / 1-3 days withdrawal", "Free on 1st/3rd Tuesday only"],
+            ["Neteller", "$10", "Instant deposit / 1-3 days withdrawal", "Free on 1st/3rd Tuesday only"],
+            ["Perfect Money", "$10", "Instant deposit / 1-3 days withdrawal", "Free on 1st/3rd Tuesday only"],
+            ["AdvCash", "$10", "Instant deposit / 1-3 days withdrawal", "Free on 1st/3rd Tuesday only"],
+            ["Bank Wire", "$100", "2-5 days deposit / 1-3 days withdrawal", "Bank charges + free on 1st/3rd Tuesday only"],
+            ["Bitcoin/Ethereum/USDT", "$10", "Network confirmation / 1-3 days withdrawal", "Network fee + free on 1st/3rd Tuesday only"]
+          ],
+          "footnote": "Commission-free withdrawals ONLY on 1st and 3rd Tuesday of each month. All other days, method-dependent withdrawal fees apply. All processing times broker-stated."
+        }
+      },
+
+
+      {
+        "id": "withdrawals",
+        "heading": "RoboForex Withdrawals in 2026 — The Real Picture",
+        "body": "Trustpilot paints a poor picture. 2.6 out of 5 is the lowest rating in our entire review queue — lower than XM (3.1), significantly below IC Markets (4.8) or Pepperstone (4.4). The review profile shows high polarisation with a notable cluster of 1-star reviews citing withdrawal delays and unexpected fees. Broker response rate to negative reviews is inconsistent — some complaints receive public responses, many do not.\n\nThe positive pattern: traders who withdraw on the designated fee-free Tuesdays and use e-wallets report 1-2 day processing without issues. Crypto withdrawals (USDT TRC20 particularly) process faster than card reversals. Traders who have built account history over months report fewer verification holdups than new accounts withdrawing for the first time. The system works — when you play by its specific rules.\n\nThe negative pattern: withdrawal fees on non-Tuesday dates catch traders who did not read the fine print. First-time withdrawals trigger extended KYC checks that can add 3-5 days. Larger withdrawals (above $5,000) appear in community reports to face additional compliance review delays. And the inconsistent retail loss rate disclosure across multiple website pages (75.85%, 77.13%, 79.43%) raises questions about operational attention to detail.\n\nIf your withdrawal stalls: confirm your KYC documents are fully verified and current. Time your withdrawal request for the 1st or 3rd Tuesday to avoid fees. Contact support via live chat and request a ticket reference number. If unresolved after 5 business days, escalate through the Financial Commission (voluntary dispute resolution, compensation up to $20,000). Document every interaction — with a single offshore regulator, your paper trail is your strongest protection.",
+        "cta_after": false
+      },
+
+
+      {
+        "id": "red-flags",
+        "heading": "RoboForex Red Flags — What to Know Before You Deposit",
+        "body": "The regulatory profile alone qualifies as a red flag in context — not because FSC Belize is illegitimate, but because after 17 years of operation and significant global reach, the absence of even one Tier-1 licence is a deliberate choice. Brokers that intend to offer client protection pursue FCA, ASIC, or CySEC licensing. Brokers that intend to avoid the obligations those licences impose do not. Every broker looks good on paper until you need your money back — and with RoboForex, the only backstop between you and a dispute is a voluntary arbitration body capped at $20,000. NAFT last reviewed RoboForex in May 2026.",
+        "bullets": [
+          "FSC Belize is the ONLY regulator after 17 years of operation — no Tier-1 licence has ever been pursued, which is a deliberate structural choice, not an oversight",
+          "February 2026 compliance review documented EU retail client onboarding with SEPA deposits routed to AB Mano Bankas (Lithuania) without holding any EU broker licence — significant regulatory grey area that could trigger enforcement action",
+          "NSSMC Ukraine issued a warning against RoboForex — mid-tier regulator concern (publicly reported)",
+          "SC Malaysia issued a warning against RoboForex — mid-tier regulator concern (publicly reported)",
+          "Trustpilot 2.6/5 — lowest in our 2026 review queue with high 1-star polarisation and inconsistent broker response to complaints",
+          "Retail loss rate disclosure is inconsistent: 75.85%, 77.13%, and 79.43% appear on different pages of the same website — suggests poor compliance oversight or deliberate obfuscation"
+        ]
+      },
+
+
+      {
+        "id": "who-broker-is-for",
+        "heading": "Who Should Use RoboForex — and Who Should Not",
+        "body": "RoboForex occupies a very specific niche: maximum instrument breadth and unique features (deposit interest, R StocksTrader, cent accounts) at the cost of regulatory protection that most sensible traders would consider non-negotiable. Know which side of that trade-off you sit on before depositing a single dollar.",
+        "not_for": [
+          "Beginners — if this is your first broker, the offshore-only regulation means zero safety net if something goes wrong. Open with IC Markets, XM, or Pepperstone first and learn with real regulatory protection behind you",
+          "EU or UK residents — RoboForex has no EU licence and no FCA licence. Even if you gain access, your regulatory protection is non-existent under European law. Use a CySEC or FCA-regulated alternative",
+          "Traders who withdraw frequently — fees apply on every day except two Tuesdays per month. If you move money in and out regularly, this structure will cost you more than competitors who charge zero withdrawal fees",
+          "Anyone uncomfortable with a single offshore regulator — if FSC Belize as sole oversight concerns you, trust that instinct and choose a multi-regulated broker instead",
+          "Risk-averse traders with significant capital — depositing large amounts with zero investor compensation and a 2.6/5 Trustpilot profile is a risk-reward calculation that does not favour you"
+        ],
+        "for": [
+          "Experienced traders who need 12,000+ instruments across forex, stocks, indices, and commodities — the range here genuinely exceeds almost every competitor",
+          "Stock traders in Asia, Africa, or LATAM who want real share access via R StocksTrader from $0.01 per share without needing a separate securities account",
+          "Strategy developers who need cent accounts (Pro-Cent) for live micro-lot testing of EAs and algorithms at minimal capital risk",
+          "Traders who park idle capital and want 3.0%-3.5% annual interest on deposits — a feature no other major broker offers",
+          "Crypto-native traders who deposit and withdraw in Bitcoin, Ethereum, or USDT and do not require traditional banking integration"
+        ]
+      },
+
+
+      {
+        "id": "how-to-open-account",
+        "heading": "How to Open a RoboForex Account — Step by Step",
+        "body": "Registration completes in under 3 minutes. Verification typically takes 1-2 business days but can extend to 5 days for first-time clients. RoboForex allows trading on a limited basis before full KYC approval, though withdrawal access requires completed verification.",
+        "steps": [
+          {
+            "number": 1,
+            "title": "Register",
+            "detail": "Visit roboforex.com and select Open Account. Choose ECN as your account type for the best balance of raw pricing and reasonable leverage (1:500). Set your base currency to USD. Avoid selecting 1:2000 leverage on Pro — that level of exposure is not a feature, it is a liquidation accelerator."
+          },
+          {
+            "number": 2,
+            "title": "Verify your identity (KYC)",
+            "detail": "Upload a government-issued photo ID (passport or national ID card) and one proof of address document dated within 3 months (utility bill, bank statement). RoboForex processes verification within 1-2 business days typically. Full withdrawal access requires completed KYC."
+          },
+          {
+            "number": 3,
+            "title": "Fund your account and test a withdrawal",
+            "detail": "Deposit $10-$50 via your preferred method. Place one small trade to activate the account. Then request a withdrawal — ideally timed for the 1st or 3rd Tuesday of the month to avoid fees. If it processes cleanly within 1-3 days, you have confirmed the pipeline works. Scale only after this confirmation.",
+            "cta_inline": { "label": "Open RoboForex ECN Account", "url": "AFFILIATE_PLACEHOLDER" }
+          }
+        ],
+        "practical_note": "Make a small deposit. Place one trade. Request a withdrawal immediately. If it processes cleanly, scale with confidence.",
+        "cta_after": true
+      },
+
+
+      {
+        "id": "final-verdict",
+        "heading": "RoboForex Final Verdict — Is It Worth It in 2026?",
+        "body": "NAFT scores RoboForex 4.2 out of 10. That places it firmly in the below-average tier — a broker that functions and has operated for 17 years without catastrophic failure, but whose single-regulator status, poor Trustpilot profile (2.6/5), and unusual withdrawal fee structure collectively represent a risk profile that most traders should avoid when better-regulated alternatives exist. The ECN account pricing is competitive. The 12,000+ instrument range is genuinely best-in-class. But regulation is not a nice-to-have — it is the only thing between you and an unresolved dispute.\n\nThe risks are stacked and specific. FSC Belize as sole regulator after 17 years is a choice, not a circumstance. Two mid-tier country regulators have issued warnings. EU clients are reportedly being onboarded without EU licensing through Lithuanian banking — a compliance breach waiting to be enforced. The withdrawal fee calendar is trader-unfriendly by design. And the inconsistent retail loss rate disclosure across the website signals either carelessness or intentional obfuscation — neither inspires confidence.\n\nIf you specifically need the R StocksTrader platform, 12,000+ instruments, or deposit interest and you fully understand the regulatory risk you are accepting, RoboForex functions for that narrow use case. For everyone else, NAFT recommends IC Markets for raw execution quality, FBS for a better-regulated offshore alternative, or Pepperstone for genuine Tier-1 protection. The best broker is the one that gives your money back without a fight — and with RoboForex, your only escalation path is a voluntary arbitration body capped at $20,000."
+      }
+    ],
+
+
+    "affiliate_cta": {
+      "label": "Open RoboForex Account",
+      "url": "AFFILIATE_PLACEHOLDER",
+      "promo_code": null,
+      "friction_reducers": [
+        "12,000+ tradeable instruments — one of the largest ranges available",
+        "$10 minimum deposit across all account types",
+        "3.0%-3.5% annual interest paid on deposits",
+        "ECN account from 0.0 pips + $6 round-turn commission"
+      ]
+    },
+    "cta_positions": [
+      "after_section_quick-verdict",
+      "after_section_deposits-withdrawals",
+      "in_section_how-to-open-account_step3"
+    ],
+    "trustpilot": {
+      "rating": 2.6,
+      "reviews": 0,
+      "velocity_30d": "Low to moderate — review volume is not abnormally high but the negative review proportion is significant",
+      "polarisation_note": "High polarisation — notable cluster of 1-star reviews citing withdrawal fees and delays. Positive reviews tend to focus on instrument range and platform features. The 2.6/5 average reflects genuinely mixed to negative client sentiment.",
+      "broker_response_rate": "Inconsistent — some negative reviews receive public responses, many are left unaddressed",
+      "source_note": "Trustpilot, publicly reported data, May 2026"
+    },
+
+
+    "internal_links": [
+      { "anchor": "compare brokers side by side", "url": "/compare" },
+      { "anchor": "best regulated forex brokers", "url": "/brokers?regulation=tier-1" },
+      { "anchor": "broker scam alerts and warnings", "url": "/scam-alerts" },
+      { "anchor": "community withdrawal proofs", "url": "/withdrawal-proofs" },
+      { "anchor": "how NAFT reviews brokers", "url": "/how-we-review-brokers" },
+      { "anchor": "file a broker complaint with NAFT", "url": "/complaints" }
+    ],
+
+
+    "faq": [
+      {
+        "q": "Is RoboForex a legit broker or a scam?",
+        "a": "RoboForex is a legitimate broker in the sense that it holds a valid FSC Belize licence (9759600) and has operated continuously since 2009 — 17 years without a collapse. RoboForex is a Financial Commission member providing voluntary dispute resolution up to $20,000. It is not a confirmed scam. But RoboForex holds zero Tier-1 regulation (no FCA, ASIC, or CySEC), has a 2.6/5 Trustpilot rating, and faces warnings from NSSMC Ukraine and SC Malaysia. Legit does not mean safe."
+      },
+      {
+        "q": "How long does a RoboForex withdrawal take?",
+        "a": "RoboForex processes withdrawals within 1-3 business days (broker-stated). E-wallet and crypto withdrawals tend to process faster than card reversals or bank wire. Critically, RoboForex charges withdrawal fees on most days — commission-free withdrawals are ONLY available on the 1st and 3rd Tuesday of each month. Time your RoboForex withdrawals to those dates to avoid unnecessary charges. First-time withdrawals may take longer due to additional KYC verification."
+      },
+      {
+        "q": "What is the RoboForex minimum deposit in 2026?",
+        "a": "RoboForex requires a minimum deposit of just $10 across all account types — Pro, ECN, Prime, and Pro-Cent. This applies to card, e-wallet, and crypto deposits. Bank wire has a higher practical minimum of $100 due to transfer fees. RoboForex also pays 3.0%-3.5% annual interest on deposited funds depending on the amount, which is a unique feature among retail forex brokers in 2026."
+      },
+      {
+        "q": "Is RoboForex regulated by the FCA or ASIC?",
+        "a": "No. RoboForex does not hold an FCA licence, an ASIC licence, a CySEC licence, or any Tier-1 regulatory authorisation. RoboForex is regulated solely by the FSC Belize (licence 9759600). The FCA's unauthorised firms list includes 'Robbo Forex' — this is a clone firm, not the real RoboForex. RoboMarkets (CySEC-regulated) is a separate legal entity and should not be confused with RoboForex."
+      },
+      {
+        "q": "What is the best RoboForex account type?",
+        "a": "The ECN account offers the best balance at RoboForex — 0.0-0.3 pips average EUR/USD with a $6 round-turn commission for approximately $9 all-in per lot, combined with 1:500 leverage. The Prime account offers tighter pricing at $4 all-in but with lower 1:300 leverage. Avoid the Pro account at $13 all-in unless you specifically prefer zero-commission structure. RoboForex Pro-Cent is useful exclusively for micro-lot strategy testing."
+      },
+      {
+        "q": "Does RoboForex accept traders from Europe or the UK?",
+        "a": "Officially, no. RoboForex excludes EU/EEA residents and UK residents from its accepted countries list. RoboForex has no CySEC or FCA licence. A February 2026 compliance review found that RoboForex continues onboarding some EU clients via Lithuanian banking — but these clients have zero EU regulatory protection. UK and EU traders should use FCA or CySEC-regulated alternatives like Pepperstone, IC Markets, or FBS instead of RoboForex."
+      },
+      {
+        "q": "What leverage does RoboForex offer?",
+        "a": "RoboForex offers up to 1:2000 leverage on Pro and Pro-Cent accounts under FSC Belize — among the highest in the retail broker industry. The ECN account caps at 1:500 and Prime at 1:300. There are no Tier-1 regulatory caps because RoboForex holds no Tier-1 licence. NAFT does not recommend using leverage above 1:100 regardless of what is available — 1:2000 is how accounts get liquidated in a single price spike."
+      },
+      {
+        "q": "How does RoboForex compare to FBS in 2026?",
+        "a": "FBS wins on regulation — CySEC and ASIC licences give FBS clients Tier-1 protection that RoboForex cannot match from Belize alone. RoboForex wins on instruments: 12,000+ assets versus roughly 500 at FBS, plus real share trading via R StocksTrader and interest on deposits. RoboForex has worse Trustpilot (2.6 vs approximately 3.8 for FBS). For regulatory safety, choose FBS. For instrument diversity, RoboForex has no equal in the offshore tier."
+      }
+    ],
+
+
+    "schema_jsonld": {
+      "review": {
+        "@context": "https://schema.org",
+        "@type": "Review",
+        "name": "RoboForex Review 2026",
+        "author": {
+          "@type": "Person",
+          "name": "NAFT Editorial Team",
+          "url": "https://notafugazitrader.com/authors/naft-editorial",
+          "sameAs": []
+        },
+        "reviewedBy": {
+          "@type": "Organization",
+          "name": "NAFT — Not A Fugazi Trader",
+          "url": "https://notafugazitrader.com"
+        },
+        "datePublished": "2026-05-24",
+        "dateModified": "2026-05-24",
+        "reviewBody": "RoboForex is a technically legit broker with 17 years of operation under FSC Belize. NAFT trust score 4.2/10 — weakest regulatory profile in our 2026 queue.",
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": 2.1,
+          "bestRating": 5,
+          "worstRating": 1
+        },
+        "itemReviewed": {
+          "@type": "FinancialProduct",
+          "name": "RoboForex",
+          "url": "https://roboforex.com"
+        }
+      },
+      "aggregateRating": {
+        "@context": "https://schema.org",
+        "@type": "AggregateRating",
+        "itemReviewed": {
+          "@type": "FinancialProduct",
+          "name": "RoboForex"
+        },
+        "ratingValue": 2.1,
+        "bestRating": 5,
+        "worstRating": 1,
+        "ratingCount": 1,
+        "reviewCount": 1
+      },
+
+
+      "faqPage": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Is RoboForex a legit broker or a scam?",
+            "acceptedAnswer": { "@type": "Answer", "text": "RoboForex is a legitimate broker holding a valid FSC Belize licence (9759600) and has operated since 2009. It is a Financial Commission member with $20,000 dispute resolution. Not a confirmed scam, but holds zero Tier-1 regulation." }
+          },
+          {
+            "@type": "Question",
+            "name": "How long does a RoboForex withdrawal take?",
+            "acceptedAnswer": { "@type": "Answer", "text": "RoboForex processes withdrawals within 1-3 business days. Commission-free withdrawals are only available on the 1st and 3rd Tuesday of each month — fees apply on all other days." }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the RoboForex minimum deposit in 2026?",
+            "acceptedAnswer": { "@type": "Answer", "text": "RoboForex requires a minimum deposit of $10 across all account types. Bank wire has a higher practical minimum of $100. RoboForex also pays 3.0%-3.5% annual interest on deposits." }
+          },
+          {
+            "@type": "Question",
+            "name": "Is RoboForex regulated by the FCA or ASIC?",
+            "acceptedAnswer": { "@type": "Answer", "text": "No. RoboForex is regulated solely by the FSC Belize (licence 9759600). It holds no FCA, ASIC, or CySEC licence. The FCA clone warning refers to 'Robbo Forex' — a separate unauthorised entity." }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the best RoboForex account type?",
+            "acceptedAnswer": { "@type": "Answer", "text": "The ECN account offers the best balance — 0.0-0.3 pips EUR/USD with $6 round-turn commission for approximately $9 all-in per lot with 1:500 leverage." }
+          },
+          {
+            "@type": "Question",
+            "name": "Does RoboForex accept traders from Europe or the UK?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Officially no — RoboForex excludes EU/EEA and UK residents. It has no CySEC or FCA licence. Some EU clients reportedly gain access but without any EU regulatory protection." }
+          },
+          {
+            "@type": "Question",
+            "name": "What leverage does RoboForex offer?",
+            "acceptedAnswer": { "@type": "Answer", "text": "RoboForex offers up to 1:2000 leverage on Pro accounts under FSC Belize. ECN caps at 1:500, Prime at 1:300. No Tier-1 regulatory caps apply." }
+          },
+          {
+            "@type": "Question",
+            "name": "How does RoboForex compare to FBS in 2026?",
+            "acceptedAnswer": { "@type": "Answer", "text": "FBS wins on regulation with CySEC and ASIC licences. RoboForex wins on instruments with 12,000+ assets versus approximately 500 at FBS, plus real share trading and deposit interest." }
+          }
+        ]
+      },
+
+
+      "organization": {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "NAFT — Not A Fugazi Trader",
+        "url": "https://notafugazitrader.com",
+        "logo": "",
+        "sameAs": []
+      },
+      "breadcrumbList": {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://notafugazitrader.com" },
+          { "@type": "ListItem", "position": 2, "name": "Broker Reviews", "item": "https://notafugazitrader.com/brokers" },
+          { "@type": "ListItem", "position": 3, "name": "RoboForex Review 2026", "item": "https://notafugazitrader.com/brokers/roboforex" }
+        ]
+      },
+      "howTo": {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "How to Open a RoboForex Account",
+        "description": "Step-by-step guide to opening and verifying a RoboForex trading account.",
+        "step": [
+          {
+            "@type": "HowToStep",
+            "position": 1,
+            "name": "Register",
+            "text": "Visit roboforex.com and select Open Account. Choose ECN as your account type for the best balance of raw pricing and 1:500 leverage. Avoid selecting 1:2000 leverage on Pro."
+          },
+          {
+            "@type": "HowToStep",
+            "position": 2,
+            "name": "Verify your identity (KYC)",
+            "text": "Upload a government-issued photo ID and one proof of address document dated within 3 months. RoboForex processes verification within 1-2 business days typically."
+          },
+          {
+            "@type": "HowToStep",
+            "position": 3,
+            "name": "Fund your account and test a withdrawal",
+            "text": "Deposit $10-$50 via your preferred method. Place one small trade. Request a withdrawal on the 1st or 3rd Tuesday of the month to avoid fees. Scale only after confirmation."
+          }
+        ]
+      },
+      "videoObject": null
+    },
+
+
+    "sources": [
+      "FSC Belize — RoboForex Ltd, licence 9759600 (previously IFSC/60/271/TS)",
+      "Financial Commission — RoboForex membership, voluntary dispute resolution up to $20,000",
+      "FCA Unauthorised Firms List — 'Robbo Forex' clone warning (not the legitimate RoboForex)",
+      "NSSMC Ukraine — warning issued against RoboForex",
+      "SC Malaysia — warning issued against RoboForex",
+      "February 2026 compliance review — EU client onboarding via AB Mano Bankas (Lithuania) without EU broker licence",
+      "Trustpilot — roboforex.com profile, publicly available data, May 2026",
+      "RoboForex official website — regulation page, accounts page, payment methods page, leverage disclosure",
+      "RoboForex website — retail loss rate disclosure: 75.85% (primary), 77.13% and 79.43% (alternate pages)"
+    ]
+  }
+}
