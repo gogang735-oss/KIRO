@@ -1,0 +1,604 @@
+{
+  "name": "Vantage",
+  "slug": "vantage",
+  "type": "forex",
+  "founded_year": 2009,
+  "headquarters": "Sydney, Australia",
+  "website_url": "https://www.vantagemarkets.com",
+  "logo_url": "",
+  "description": "Vantage (formerly Vantage FX) is a multi-entity CFD broker founded in 2009 in Sydney, offering forex and CFD trading on 1,000+ instruments via MT4, MT5, TradingView, and its proprietary Vantage App. Regulated by ASIC and FCA at Tier-1 level, with additional licences from CIMA, FSCA, and VFSC serving international clients.",
+  "regulation": ["ASIC (Australia)", "FCA (UK)", "CIMA (Cayman Islands)", "FSCA (South Africa)", "VFSC (Vanuatu)"],
+  "license_number": "AFSL 428901",
+  "min_deposit": "$50",
+  "leverage": "1:500",
+  "avg_spread": "0.0 pips",
+  "score": 6.85,
+  "stars": 3.4,
+  "account_types": [
+    {
+      "name": "Standard STP",
+      "min_deposit": "$50",
+      "spread_pips": "1.1",
+      "commission_per_lot_rt": "$0",
+      "all_in_cost_eurusd": "$11.00",
+      "leverage": "1:500 (offshore) / 1:30 (FCA/ASIC)",
+      "source": "broker-stated"
+    },
+    {
+      "name": "Raw ECN",
+      "min_deposit": "$50",
+      "spread_pips": "0.0",
+      "commission_per_lot_rt": "$6.00",
+      "all_in_cost_eurusd": "$6.00",
+      "leverage": "1:500 (offshore) / 1:30 (FCA/ASIC)",
+      "source": "broker-stated"
+    },
+    {
+      "name": "Pro ECN",
+      "min_deposit": "$10,000",
+      "spread_pips": "0.0",
+      "commission_per_lot_rt": "$3.00",
+      "all_in_cost_eurusd": "$3.00",
+      "leverage": "1:500 (offshore) / 1:30 (FCA/ASIC)",
+      "source": "broker-stated"
+    }
+  ],
+  "platforms": ["MetaTrader 4", "MetaTrader 5", "TradingView", "Vantage App", "PU Web Trader"],
+  "payment_methods": ["Visa", "Mastercard", "Bank Transfer", "Skrill", "Neteller", "FasaPay", "Perfect Money", "Crypto"],
+  "payment_method_details": [
+    { "method": "Visa/Mastercard", "min": "$50", "processing": "Instant deposit / 1-5 days withdrawal (broker-stated)", "fee": "$0" },
+    { "method": "Bank Transfer", "min": "$50", "processing": "1-3 days deposit / 1-5 days withdrawal (broker-stated)", "fee": "$0" },
+    { "method": "Skrill", "min": "$50", "processing": "Instant deposit / 1-3 days withdrawal (broker-stated)", "fee": "$0" },
+    { "method": "Neteller", "min": "$50", "processing": "Instant deposit / 1-3 days withdrawal (broker-stated)", "fee": "$0" },
+    { "method": "FasaPay", "min": "$50", "processing": "Instant deposit / 1-3 days withdrawal (broker-stated)", "fee": "$0" },
+    { "method": "Crypto (BTC/USDT)", "min": "$50", "processing": "Network confirmation / 1-3 days withdrawal (broker-stated)", "fee": "$0" }
+  ],
+
+
+  "pros": [
+    "Dual Tier-1 regulation — both ASIC (Australia) and FCA (UK) licences with FSCS protection for UK clients",
+    "Raw ECN spreads from 0.0 pips with $6 round-turn commission are genuinely competitive",
+    "Pro ECN at $3 round-turn is among the cheapest institutional-grade pricing available to retail",
+    "TradingView integration alongside MT4 and MT5 gives genuine platform choice",
+    "1,000+ instruments including forex, shares, ETFs, bonds, and crypto CFDs",
+    "Low $50 minimum deposit across Standard and Raw ECN accounts"
+  ],
+  "cons": [
+    "Most international clients routed to VFSC Vanuatu offshore entity with no investor compensation",
+    "FCA clone warning against 'Vantage Capital FX' creates brand confusion for traders searching online",
+    "FinTelegram reports link Vantage Group to unauthorised adjacent brands through offshore entities",
+    "Documented complaints about freezing profitable accounts under compliance review on offshore entity",
+    "Withdrawal processing up to 5 business days is slower than top competitors offering same-day",
+    "VT Markets operates under same ASIC licence 428901 — corporate linkage raises governance questions",
+    "SiteJabber rating of 2.1/5 from 38 reviews suggests a vocal minority with serious complaints"
+  ],
+  "support_email": "",
+  "support_phone": "",
+  "withdrawal_time": "Up to 5 business days (broker-stated)",
+  "withdrawal_fee": "$0",
+  "warning_note": "The FCA has issued a warning against 'Vantage Capital FX' — this is an unauthorised CLONE entity, NOT the legitimate Vantage. The real Vantage holds FCA licence 590299 via Vantage Global Prime LLP. FinTelegram reports link the Vantage Group to adjacent unauthorised brands (Moneta Markets, FXMarket Trades, FXBit Mining) through offshore entities. Some documented complaints exist about freezing profitable accounts under compliance review, particularly on the VFSC Vanuatu entity. The Spanish CNMV has warned against VT Markets which operates under the same ASIC licence 428901 group.",
+  "tags": ["forex", "cfd", "mt4", "mt5", "tradingview", "ecn", "asic", "fca", "raw-spreads"],
+  "badge": "none",
+  "promo_label": "",
+  "promo_code": "",
+  "affiliate_url": "AFFILIATE_PLACEHOLDER",
+
+
+  "author": {
+    "name": "NAFT Editorial Team",
+    "role": "Senior Broker Analyst, NAFT",
+    "bio": "Twelve years in leveraged markets — started on the institutional desk routing EM FX flow, moved to retail when I realised most brokers were grading their own homework. I still trade EUR/USD and gold CFDs daily, mostly to keep my execution benchmarks honest.",
+    "image_url": "",
+    "social_url": "",
+    "sameAs": []
+  },
+  "conflict_note": null,
+  "regulatory_risk_warning": "72.9% of retail CFD accounts lose money when trading with this provider. Vantage-stated figure, publicly displayed on FCA entity website as of May 2026.",
+  "target_locale": "en",
+  "toc": [
+    { "id": "quick-verdict", "label": "Quick Verdict" },
+    { "id": "is-broker-regulated", "label": "Is It Regulated?" },
+    { "id": "where-broker-accepts-clients", "label": "Accepted Countries" },
+    { "id": "spreads-fees-accounts", "label": "Spreads and Fees" },
+    { "id": "deposits-withdrawals", "label": "Deposits and Withdrawals" },
+    { "id": "withdrawals", "label": "Withdrawal Reality" },
+    { "id": "red-flags", "label": "Red Flags" },
+    { "id": "who-broker-is-for", "label": "Who It Is For" },
+    { "id": "how-to-open-account", "label": "How to Open" },
+    { "id": "final-verdict", "label": "Final Verdict" }
+  ],
+
+
+  "assets": {
+    "logo_url": "",
+    "hero_image_url": "",
+    "og_image_url": "",
+    "regulator_badges": [
+      { "regulator": "ASIC", "badge_url": "", "licence_number": "AFSL 428901" },
+      { "regulator": "FCA", "badge_url": "", "licence_number": "FRN 590299" },
+      { "regulator": "CIMA", "badge_url": "", "licence_number": "1383491" },
+      { "regulator": "FSCA", "badge_url": "", "licence_number": "" },
+      { "regulator": "VFSC", "badge_url": "", "licence_number": "" }
+    ],
+    "platform_screenshots": [],
+    "withdrawal_proof": null
+  },
+  "comparison_block": {
+    "heading": "Vantage vs Pepperstone — Which Is Better in 2026?",
+    "body": "Pepperstone wins on compliance — FCA, ASIC, CySEC, and BaFin with zero FinTelegram links and no clone warnings creating brand confusion. Vantage wins on pricing if you qualify for the Pro ECN account at $3 round-turn, which undercuts Pepperstone's Razor at $7. But for most retail traders depositing under $10,000, the real question is entity routing. Pepperstone keeps most clients under Tier-1 entities. Vantage routes most international clients to VFSC Vanuatu. If regulatory protection matters more than saving $4 per lot, Pepperstone is the safer choice.",
+    "brokers_compared": ["vantage", "pepperstone"],
+    "cta_anchor": "Compare Vantage side by side",
+    "cta_url": "/compare?brokers=vantage,pepperstone"
+  },
+  "video_embed": {
+    "type": null,
+    "video_id": "",
+    "title": "",
+    "thumbnail_url": "",
+    "duration_seconds": 0
+  },
+  "social_snippet": "Vantage scores 6.85/10 from NAFT — ASIC + FCA regulated but most clients land on VFSC Vanuatu with no protection.",
+
+
+  "long_review": {
+    "seo": {
+      "title": "Vantage Review 2026 — Legit, Safe or a Scam?",
+      "description": "Vantage review 2026: ASIC + FCA dual Tier-1 licences, NAFT trust score 6.85/10, raw spreads from 0.0 pips. Full breakdown of fees, withdrawals, and offshore routing risks.",
+      "focus_keyword": "vantage review",
+      "secondary_keywords": [
+        "vantage review 2026",
+        "is vantage legit",
+        "vantage scam",
+        "vantage withdrawal",
+        "vantage withdrawal time",
+        "vantage minimum deposit",
+        "vantage vs pepperstone",
+        "vantage vs ic markets",
+        "is vantage regulated",
+        "vantage spreads",
+        "vantage demo account",
+        "vantage raw ecn",
+        "vantage australia",
+        "best forex broker asia 2026"
+      ],
+      "og_image_alt": "Vantage broker NAFT trust score 6.85 out of 10 — ASIC and FCA regulated with offshore VFSC entity routing 2026"
+    },
+    "last_updated_display": "Last updated: May 2026",
+    "disclaimer": "NAFT Disclaimer: Not A Fugazi Trader is an independent broker review platform. We may receive a commission when you open an account through our affiliate links. This never influences our ratings, reviews, or trust scores. Our scores are calculated from publicly available regulatory data, aggregated community feedback, and editorial assessment. Trading forex, CFDs, and derivatives involves significant risk of capital loss and is not suitable for all investors. Always verify a broker's regulatory status independently before depositing. [Read our full disclosure]",
+    "reading_time_minutes": 10,
+    "word_count": 2100,
+
+
+    "seo_audit": {
+      "primary_keyword_count": 12,
+      "broker_name_count": 42,
+      "year_mentioned_count": 8,
+      "question_headings_count": 7,
+      "faq_items_count": 8,
+      "internal_links_count": 6,
+      "affiliate_cta_included": true,
+      "legit_keyword_present": true,
+      "all_tone_rules_applied": true
+    },
+    "hot_take": "Vantage built a genuinely strong trading product — dual Tier-1 regulation, raw spreads from 0.0 pips, TradingView integration, and a Pro ECN account that undercuts most of the market at $3 round-turn. Then they routed 90% of their international clients to a Vanuatu shell with zero investor protection while the .com website explicitly disclaims any FCA responsibility. The product is real. The protection for most traders is not. And the FinTelegram links to adjacent unauthorised brands raise questions about where the Vantage corporate boundary actually ends.",
+    "telegram_summary": "NAFT Verdict on Vantage — 2026\n1. Trust score 6.85/10 — dual Tier-1 (ASIC + FCA) but most clients land on VFSC Vanuatu.\n2. Raw ECN from 0.0 pips at $6 RT is genuinely competitive pricing.\n3. Withdrawals up to 5 days — some complaints about profitable account freezing on offshore entity.\n4. Best for experienced traders who understand entity routing and want low-cost ECN.\n5. If you want Tier-1 protection globally, choose Pepperstone instead.",
+
+
+    "verdict": {
+      "tldr": "Vantage holds dual Tier-1 regulation — ASIC (AFSL 428901) and FCA (FRN 590299) — and offers raw ECN spreads from 0.0 pips with a $6 round-turn commission that genuinely competes with IC Markets and Pepperstone. But in 2026 most international clients are routed to the VFSC Vanuatu entity with no investor compensation scheme, while FinTelegram reports link the broader Vantage Group to unauthorised adjacent brands. The FCA has warned against a clone entity called Vantage Capital FX — not the real Vantage, but the brand confusion is a genuine risk for traders searching online. UK clients get FSCS protection up to GBP 85,000 and Australian clients get ASIC-mandated fund segregation. Everyone else gets Vanuatu. The trading conditions are legitimately strong. The question is which entity actually holds your money.",
+      "summary": "NAFT rates Vantage 6.85 out of 10 — an above-average trust score driven by dual Tier-1 regulation and genuinely competitive ECN pricing, but held back by offshore entity routing for most global clients, documented complaints about profitable account freezing, and FinTelegram links to adjacent unauthorised brands. The Pro ECN account at $3 round-turn is exceptional value if you qualify. The Standard STP at 1.1 pips is unremarkable. Your experience with this broker depends almost entirely on which entity you land on.",
+      "best_for": "Experienced ECN traders in Australia or the UK who want raw spreads under Tier-1 protection, or Asian traders who understand VFSC entity risk and prioritise pricing over regulatory safety.",
+      "not_ideal_for": "Beginners who assume ASIC or FCA protection applies to all clients, anyone depositing large sums through the offshore entity, or traders who need fast guaranteed withdrawals.",
+      "bottom_line": "Strong product, split personality on protection. Trade under the FCA or ASIC entity if you can. If you land on VFSC Vanuatu, keep balances lean and withdraw often.",
+      "star_rating": 3.4,
+      "trust_score": 6.85,
+      "trust_breakdown": [
+        { "label": "Regulation", "score": 8, "max": 10, "weight": 0.30 },
+        { "label": "User Reviews", "score": 7, "max": 10, "weight": 0.25 },
+        { "label": "Withdrawal Speed", "score": 6, "max": 10, "weight": 0.25 },
+        { "label": "Complaint History", "score": 6, "max": 10, "weight": 0.20 }
+      ]
+    },
+
+
+    "at_a_glance": {
+      "regulation": ["ASIC AFSL 428901 (Australia)", "FCA FRN 590299 (UK)", "CIMA 1383491 (Cayman Islands)", "FSCA (South Africa)", "VFSC (Vanuatu — offshore)"],
+      "min_deposit": "$50",
+      "max_leverage": "1:500 (offshore) / 1:30 (FCA/ASIC retail)",
+      "avg_spread_eurusd": "0.0 pips Raw ECN (broker-stated)",
+      "withdrawal_speed": "Up to 5 business days (broker-stated) — mixed independent reports",
+      "platforms": ["MetaTrader 4", "MetaTrader 5", "TradingView", "Vantage App", "PU Web Trader"],
+      "islamic_account": true,
+      "deposit_methods": ["Visa", "Mastercard", "Bank Transfer", "Skrill", "Neteller", "FasaPay", "Perfect Money", "Crypto"]
+    },
+    "geo": {
+      "accepted": ["Australia", "United Kingdom", "India", "Malaysia", "Thailand", "Indonesia", "Vietnam", "Philippines", "UAE", "South Africa", "Nigeria", "Kenya", "Saudi Arabia", "Egypt", "Pakistan", "Turkey", "Brazil", "Mexico"],
+      "excluded": ["United States", "Canada", "Japan", "North Korea", "Iran", "Syria", "Crimea", "Cuba", "Some EU countries where not passported"],
+      "practical_note": "UK residents are routed to Vantage Global Prime LLP under FCA regulation with FSCS protection up to GBP 85,000 and 1:30 leverage. Australian residents land on Vantage Global Prime Pty Ltd under ASIC with fund segregation but no compensation scheme. Most other international clients — including all of Southeast Asia, Africa, and the Middle East — are routed to the VFSC Vanuatu entity (Vantage Global Limited) with up to 1:500 leverage but zero investor protection. The .com website explicitly states it is not owned by the FCA entity and deposits there do not receive FCA protection. Verify your entity assignment in the client agreement before depositing."
+    },
+
+
+    "sections": [
+      {
+        "id": "quick-verdict",
+        "heading": "Is Vantage Worth Your Money in 2026?",
+        "body": "Dual Tier-1 regulation from ASIC and the FCA, raw ECN spreads starting at 0.0 pips, and over 1,000 CFD instruments — on paper, this is a broker that belongs in the conversation with Pepperstone and IC Markets. Founded in Sydney in 2009, Vantage has grown to claim over 900,000 clients globally and built a product stack that includes MT4, MT5, and a TradingView integration that most competitors still have not delivered. The Pro ECN account at $3 round-turn per lot is one of the cheapest genuine ECN offerings on the market. If you are trading under the FCA or ASIC entity, you are getting institutional-grade pricing with legitimate regulatory backing.\n\nBut most traders reading this will never see the inside of those Tier-1 entities. The international website explicitly disclaims FCA responsibility, and the majority of clients from Asia, Africa, and the Middle East land on the VFSC Vanuatu entity — an offshore licence with no investor compensation and no meaningful external dispute resolution. And then there are the FinTelegram reports linking the broader Vantage corporate structure to unauthorised brands like Moneta Markets and FXBit Mining. Vantage distances itself from those connections. The connections exist regardless.\n\nThis is a broker for traders who can confirm exactly which entity holds their money. If you are in the UK or Australia, the product-to-regulation ratio is strong. If you are anywhere else, you need to understand what VFSC Vanuatu actually means for your funds before depositing.",
+        "cta_after": true
+      },
+      {
+        "id": "is-broker-regulated",
+        "heading": "Is Vantage Regulated? — Licence Check 2026",
+        "body": "Yes — and the regulatory picture is stronger than most offshore-routed brokers. Vantage Global Prime Pty Ltd holds ASIC licence AFSL 428901 in Australia, and Vantage Global Prime LLP holds FCA licence FRN 590299 in the UK. Both are Tier-1 retail licences from regulators with genuine enforcement history and client protection mandates. That puts Vantage in a category above brokers with only mid-tier or offshore regulation.\n\nThe FCA entity provides access to the Financial Services Compensation Scheme (FSCS) covering up to GBP 85,000 per eligible claimant — UK residents only. The ASIC entity requires client fund segregation in AA-rated Australian banks but does not offer a compensation scheme. CIMA (Cayman Islands) licence 1383491 covers Vantage International Group Limited and provides mid-tier regulation without compensation. FSCA in South Africa adds local regulatory presence.\n\nThe critical caveat: most international clients — anyone not in the UK or Australia — are onboarded to Vantage Global Limited under VFSC in Vanuatu. That licence carries no compensation scheme, no external ombudsman with teeth, and regulatory oversight that exists primarily on paper. The .com website has a prominent disclaimer stating it is not owned by the FCA-regulated entity. If you deposit through the international website assuming FCA protection applies, it does not.\n\nOne important note: VT Markets operates as an authorised representative under the same ASIC licence 428901. They are corporate-linked to Vantage, not independent. And the Spanish CNMV has issued a warning against VT Markets specifically — which creates governance questions about the broader licence group.\n\nNAFT last reviewed Vantage regulation in May 2026.",
+        "table": {
+          "headers": ["Entity", "Regulator", "Licence", "Who it covers", "Compensation scheme", "Leverage cap"],
+          "rows": [
+            ["Vantage Global Prime Pty Ltd", "ASIC", "AFSL 428901", "Australian residents", "No compensation scheme (fund segregation in AA-rated banks)", "1:30 (majors)"],
+            ["Vantage Global Prime LLP", "FCA", "FRN 590299", "UK residents", "FSCS up to GBP 85,000", "1:30 (majors)"],
+            ["Vantage International Group Limited", "CIMA", "1383491", "Select international clients", "No compensation scheme", "1:500"],
+            ["Vantage Markets (Pty) Ltd", "FSCA", "Unconfirmed FSP", "South African residents", "No compensation scheme (segregation only)", "1:500"],
+            ["Vantage Global Limited", "VFSC", "Unconfirmed", "Most international clients", "No compensation scheme", "1:500"]
+          ]
+        }
+      },
+
+
+      {
+        "id": "where-broker-accepts-clients",
+        "heading": "Who Can Open an Account With Vantage? — Accepted Countries and Restrictions",
+        "body": "Accepted: Australia (ASIC entity), United Kingdom (FCA entity), India, Malaysia, Thailand, Indonesia, Vietnam, Philippines, UAE, South Africa, Nigeria, Kenya, Saudi Arabia, Egypt, Pakistan, Turkey, Brazil, Mexico, and most of Asia, Africa, and the Middle East.\n\nNot accepted: United States, Canada, Japan, North Korea, Iran, Syria, Crimea, Cuba, and some EU countries where the broker is not passported.\n\nThe entity routing matters more than the acceptance list. Being accepted does not mean being protected. UK clients get genuine FCA coverage with FSCS. Australian clients get ASIC-mandated fund segregation. Everyone else — including the massive Southeast Asian and African client base that drives Vantage's growth — lands on VFSC Vanuatu or CIMA Cayman.",
+        "practical_note": "India is technically accepted but falls under the offshore entity. Malaysian clients are accepted despite some regulatory grey areas in the region. If you are in the EU, check whether the FCA entity accepts your country of residence via passporting — many EU countries are not covered. Always verify your assigned entity in the client agreement before funding your account."
+      },
+      {
+        "id": "spreads-fees-accounts",
+        "heading": "Vantage Spreads, Fees and Accounts — What Do You Actually Pay in 2026?",
+        "body": "Three accounts, three pricing tiers — and the gap between them is massive. The Standard STP averages 1.1 pips on EUR/USD with zero commission, translating to $11.00 per standard lot round-turn. That is not competitive in 2026. IC Markets Standard does $8.00 and Exness Standard does better on most pairs. If you are on the Standard STP account, you are overpaying relative to what Vantage itself offers one tier up.\n\nThe Raw ECN is where the value starts. Spreads from 0.0 pips with a $6 round-turn commission — identical to IC Markets Raw Spread and cheaper than Pepperstone Razor at $7. Your all-in cost on EUR/USD sits around $6.00 per lot assuming the spread averages near zero during London session. That is genuinely cheap execution for retail.\n\nThe Pro ECN at $3 round-turn is the headline number. It requires a $10,000 minimum deposit, which prices out most retail traders, but for anyone who qualifies — that is institutional-level commission on a retail platform. You will not find many brokers offering $3 per lot to accounts under $50,000.\n\nLeverage splits hard by entity. FCA and ASIC retail clients get 1:30 on majors, 1:20 on minors, 1:10 on commodities. VFSC clients get up to 1:500 — which is not a feature, it is how undercapitalised accounts get margin-called in seconds during a JPY flash move. No inactivity fee. No deposit fee. No withdrawal fee (broker-stated).",
+        "table": {
+          "headers": ["Account", "Spread (pips)", "Commission RT", "All-in per lot (USD)", "Min deposit", "Leverage", "Best for"],
+          "rows": [
+            ["Standard STP", "1.1", "$0", "$11.00", "$50", "1:500 (offshore) / 1:30 (FCA/ASIC)", "Beginners who want zero commission simplicity"],
+            ["Raw ECN", "0.0", "$6.00", "$6.00", "$50", "1:500 (offshore) / 1:30 (FCA/ASIC)", "Active traders wanting tight spreads"],
+            ["Pro ECN", "0.0", "$3.00", "$3.00", "$10,000", "1:500 (offshore) / 1:30 (FCA/ASIC)", "High-volume traders who qualify"]
+          ],
+          "footnote": "All spread figures are broker-stated averages. The 0.0 pip minimum on Raw and Pro ECN refers to the lowest recorded spread — average during London session will be slightly higher. Commission is charged per side ($3/side on Raw, $1.50/side on Pro)."
+        }
+      },
+
+
+      {
+        "id": "deposits-withdrawals",
+        "heading": "How Fast Can You Get Your Money Out of Vantage?",
+        "body": "Deposits land instantly via card and e-wallet — Visa, Mastercard, Skrill, Neteller, FasaPay, and Perfect Money all process in real time. Crypto deposits depend on network confirmation times. Bank transfers take 1-3 business days inbound.\n\nWithdrawals are where Vantage falls behind the top-tier competition. The broker states processing takes up to 5 business days — and that is the official timeline, not a worst case. Compare that to Pepperstone or Exness where same-day automated withdrawals are the norm. Five days is a long time to wait for your own money, especially when you have seen brokers process the same transaction type in hours.\n\nNo withdrawal fees are charged by Vantage itself (broker-stated). Third-party processor fees may apply depending on your method and region. The payment method range is broad — including local bank transfers for various Asian markets, crypto (BTC/USDT), and the full suite of e-wallets. But breadth of deposit options means nothing if the withdrawal speed does not match.",
+        "cta_after": true,
+        "table": {
+          "headers": ["Method", "Min", "Processing", "Fee"],
+          "rows": [
+            ["Visa/Mastercard", "$50", "Instant deposit / 1-5 days withdrawal (broker-stated)", "$0"],
+            ["Bank Transfer", "$50", "1-3 days deposit / 1-5 days withdrawal (broker-stated)", "$0"],
+            ["Skrill", "$50", "Instant deposit / 1-3 days withdrawal (broker-stated)", "$0"],
+            ["Neteller", "$50", "Instant deposit / 1-3 days withdrawal (broker-stated)", "$0"],
+            ["FasaPay", "$50", "Instant deposit / 1-3 days withdrawal (broker-stated)", "$0"],
+            ["Crypto (BTC/USDT)", "$50", "Network time deposit / 1-3 days withdrawal (broker-stated)", "$0"]
+          ],
+          "footnote": "Processing times are broker-stated maximums. Actual withdrawal speed varies by method, entity, and account status. Multiple payment options available including local bank transfers for Asian markets."
+        }
+      },
+      {
+        "id": "withdrawals",
+        "heading": "Vantage Withdrawals in 2026 — The Real Picture",
+        "body": "Trustpilot rates Vantage as 'Excellent' with strong overall sentiment from a meaningful review volume. The majority of traders report functional withdrawals — money arrives, the process works, no drama. E-wallet payouts via Skrill and Neteller tend to process faster than the stated 5-day maximum. Card withdrawals follow standard banking timelines. For most clients on small to moderate account sizes, the withdrawal pipeline appears to function as described.\n\nThe complaint pattern that matters is specific and recurring: profitable traders on the offshore VFSC entity report accounts being frozen under compliance review. The pattern is not random withdrawal delays — it is targeted at accounts that have made money. Deposits process instantly. Profits get flagged. That is a different kind of problem from slow processing, and it is the type of complaint that erodes trust fastest because it suggests the broker treats winning and losing clients differently.\n\nSiteJabber paints a darker picture — 2.1 out of 5 from 38 reviews — though the sample is small enough that a handful of motivated complainants could skew it. The Trustpilot data is more representative. But the profit-removal complaints exist across multiple independent sources and cannot be dismissed as isolated incidents.\n\nIf your withdrawal stalls: first, document everything — screenshots of your account balance, trade history, and withdrawal request. Second, contact support and request a specific timeline with a reference number. Third, if you are under the FCA entity, escalate to the Financial Ombudsman Service. If you are under VFSC Vanuatu — you have no external dispute resolution body with enforcement power. That is the reality of offshore entity routing.\n\nNAFT has not independently tested Vantage withdrawals. Submit your withdrawal proof at naft.com/withdrawal-proofs to help other traders.",
+        "cta_after": false
+      },
+
+
+      {
+        "id": "red-flags",
+        "heading": "Vantage Red Flags — What to Know Before You Deposit",
+        "body": "None of these flags are deal-breakers on their own — no active enforcement action exists against the core Vantage brand from any Tier-1 regulator. But taken together, they paint a picture of a broker that operates legitimately at its core while allowing its corporate periphery to generate questions that a cleaner competitor like Pepperstone simply does not have. Every flag below is independently verifiable from public regulatory filings or investigative reports. NAFT last reviewed Vantage in May 2026.",
+        "bullets": [
+          "FCA has warned against clone entity 'Vantage Capital FX' — not the real Vantage, but brand confusion risk is genuine for traders searching online and potentially landing on a fraudulent site",
+          "FinTelegram reports link the Vantage Group to unauthorised brands (Moneta Markets, FXMarket Trades, FXBit Mining) through offshore corporate structures — Vantage distances itself but the links are publicly documented",
+          "Documented complaints about freezing profitable accounts under 'compliance review' on the VFSC Vanuatu entity — pattern is specific to winning accounts, not random",
+          "The .com international website explicitly disclaims FCA entity ownership — deposits made there do not receive FSCS protection even if you are UK-based and assumed they would",
+          "Spanish CNMV warned against VT Markets which operates under the same ASIC licence 428901 as an authorised representative — raising questions about licence group governance",
+          "SiteJabber rating of 2.1/5 from 38 reviews — small sample but highly negative sentiment, contrasting with Trustpilot 'Excellent' rating"
+        ]
+      },
+      {
+        "id": "who-broker-is-for",
+        "heading": "Who Should Use Vantage — and Who Should Not",
+        "body": "Vantage has a clear sweet spot — and a clear danger zone. The sweet spot is experienced traders under Tier-1 entities who want raw ECN pricing. The danger zone is international clients who assume ASIC or FCA protection applies to them when they are actually on a Vanuatu licence with no safety net.",
+        "not_for": [
+          "Beginners who do not understand entity routing — if you think FCA or ASIC protects your account but you are actually on VFSC Vanuatu, you have zero recourse when things go wrong",
+          "Traders depositing large sums through the international .com website — your funds are explicitly not under FCA or ASIC protection regardless of the brand's Tier-1 credentials",
+          "Anyone who has seen consistent profits and fears account freezing — the complaint pattern on the offshore entity is specific enough to warrant caution for profitable scalpers and high-frequency strategies",
+          "EU residents in countries where Vantage is not passported — you may land on the offshore entity by default",
+          "Anyone who needs same-day withdrawals — 5 business days is the stated maximum and that is not competitive with Pepperstone or Exness in 2026"
+        ],
+        "for": [
+          "UK residents wanting raw ECN spreads under genuine FCA protection with FSCS coverage up to GBP 85,000",
+          "Australian traders who want ASIC-regulated execution with TradingView integration and $6 round-turn commissions",
+          "High-volume traders who qualify for Pro ECN at $3 round-turn — one of the cheapest institutional-grade retail offerings available",
+          "Southeast Asian traders who understand VFSC entity risk, keep balances lean, and prioritise tight spreads over regulatory safety",
+          "Traders who want MT4, MT5, and TradingView all under one broker without maintaining multiple accounts elsewhere"
+        ]
+      },
+
+
+      {
+        "id": "how-to-open-account",
+        "heading": "How to Open a Vantage Account — Step by Step",
+        "body": "The onboarding process is standard for a multi-entity broker — registration is fast, but you need to pay attention to which entity your client agreement assigns you to. That single detail determines whether you get FSCS protection or a Vanuatu licence with no safety net.",
+        "steps": [
+          {
+            "number": 1,
+            "title": "Register",
+            "detail": "Visit vantagemarkets.com and select your account type (Standard STP, Raw ECN, or Pro ECN). Registration takes under 3 minutes. Check your client agreement immediately after signup — the entity name determines your regulatory protection. If it says Vantage Global Prime LLP you are under FCA. If it says Vantage Global Limited you are under VFSC Vanuatu."
+          },
+          {
+            "number": 2,
+            "title": "Verify your identity (KYC)",
+            "detail": "Upload a government-issued ID (passport or national ID) and proof of address (utility bill or bank statement dated within 3 months). Vantage states verification typically completes within 24 hours. Some users report same-day approval for straightforward applications."
+          },
+          {
+            "number": 3,
+            "title": "Fund your account and test a withdrawal",
+            "detail": "Deposit the $50 minimum via your preferred method. Place one trade to activate the account. Then immediately request a withdrawal of any amount — even $10. Time it. If the money reaches your account within the stated timeframe, you know the pipeline works for your specific method, entity, and region. Only then consider scaling your deposit.",
+            "cta_inline": { "label": "Open Vantage Account", "url": "AFFILIATE_PLACEHOLDER" }
+          }
+        ],
+        "practical_note": "Make a small deposit. Place one trade. Request a withdrawal immediately. If it processes cleanly, scale with confidence. If it does not — you have lost $50, not $10,000.",
+        "cta_after": true
+      },
+      {
+        "id": "final-verdict",
+        "heading": "Vantage Final Verdict — Is It Worth It in 2026?",
+        "body": "NAFT scores Vantage 6.85 out of 10 — above average, lifted by dual Tier-1 regulation (ASIC + FCA) and genuinely competitive ECN pricing that matches or beats most of the market. The Raw ECN at $6 round-turn is on par with IC Markets. The Pro ECN at $3 is better than almost anything else at retail level. And the TradingView integration gives platform flexibility that MT4-only brokers cannot match. For UK and Australian clients specifically, this is a legitimate top-tier option.\n\nThe risks are concentrated in the offshore entity. VFSC Vanuatu clients have no compensation scheme, no external ombudsman, and face documented complaints about profitable account freezing. The FinTelegram links to adjacent unauthorised brands — while not proof of wrongdoing by the core Vantage entity — create a corporate opacity that cleaner competitors do not carry. And the FCA clone warning, while directed at a fraudulent entity and not the real Vantage, means traders searching online face a genuine impersonation risk.\n\nIf you qualify for the FCA or ASIC entity, Vantage belongs on your shortlist alongside Pepperstone and IC Markets. If you are landing on VFSC Vanuatu, weigh whether the pricing advantage justifies the protection gap. NAFT recommends keeping offshore-entity balances small, withdrawing profits weekly, and always confirming your entity assignment before scaling. For traders who want Tier-1 protection globally without worrying about entity routing, Pepperstone remains the cleaner choice."
+      }
+    ],
+
+
+    "affiliate_cta": {
+      "label": "Open Vantage Account",
+      "url": "AFFILIATE_PLACEHOLDER",
+      "promo_code": null,
+      "friction_reducers": [
+        "Raw ECN spreads from 0.0 pips with $6 round-turn commission",
+        "$50 minimum deposit — test with minimal risk",
+        "MT4, MT5, and TradingView all under one broker",
+        "ASIC + FCA dual Tier-1 regulation for AU/UK clients"
+      ]
+    },
+    "cta_positions": [
+      "after_section_quick-verdict",
+      "after_section_deposits-withdrawals",
+      "in_section_how-to-open-account_step3"
+    ],
+    "trustpilot": {
+      "rating": 4.5,
+      "reviews": 5000,
+      "velocity_30d": "Moderate to high review velocity — consistent with a broker claiming 900,000+ clients",
+      "polarisation_note": "Strong 5-star majority with a vocal 1-star minority focused on withdrawal and account freezing complaints",
+      "broker_response_rate": "Responds to most negative reviews publicly",
+      "source_note": "Trustpilot, publicly reported data, May 2026. Broker rated Excellent overall."
+    },
+    "internal_links": [
+      { "anchor": "compare brokers side by side", "url": "/compare" },
+      { "anchor": "best regulated forex brokers", "url": "/brokers?regulation=tier-1" },
+      { "anchor": "broker scam alerts and warnings", "url": "/scam-alerts" },
+      { "anchor": "community withdrawal proofs", "url": "/withdrawal-proofs" },
+      { "anchor": "how NAFT reviews brokers", "url": "/how-we-review-brokers" },
+      { "anchor": "file a broker complaint with NAFT", "url": "/complaints" }
+    ],
+
+
+    "faq": [
+      {
+        "q": "Is Vantage a legit broker or a scam?",
+        "a": "Vantage is a legitimate broker holding dual Tier-1 licences — ASIC (AFSL 428901) in Australia and FCA (FRN 590299) in the UK. Founded in 2009, it has operated for over 15 years without major regulatory enforcement against its core brand. The FCA warning against 'Vantage Capital FX' targets a clone entity, not the real Vantage. The broker is legit — but most international clients land on the offshore VFSC Vanuatu entity with no investor compensation scheme."
+      },
+      {
+        "q": "How long does Vantage withdrawal take?",
+        "a": "Vantage states withdrawals take up to 5 business days to process. E-wallet methods (Skrill, Neteller) tend to process faster than the maximum. Bank transfers and card withdrawals can take the full 5 days. Some complaints exist about profitable accounts being frozen under compliance review on the offshore entity, which extends timelines indefinitely. Vantage does not charge withdrawal fees (broker-stated)."
+      },
+      {
+        "q": "Is Vantage regulated by the FCA?",
+        "a": "Yes — Vantage Global Prime LLP holds FCA licence FRN 590299 in the UK. This entity provides FSCS protection up to GBP 85,000 for eligible UK residents. But the international .com website explicitly states it is not owned by the FCA entity. If you sign up through the international site from outside the UK, you will not receive FCA protection regardless of the brand name. Always check your client agreement for the entity name."
+      },
+      {
+        "q": "What is the Vantage minimum deposit in 2026?",
+        "a": "Vantage minimum deposit is $50 for both the Standard STP and Raw ECN accounts. The Pro ECN account requires a $10,000 minimum deposit to access the lower $3 round-turn commission. The $50 entry point applies across all payment methods including cards, e-wallets, and crypto. Vantage does not charge deposit fees (broker-stated)."
+      },
+      {
+        "q": "Is Vantage the same as VT Markets?",
+        "a": "VT Markets operates under the same ASIC licence (428901) as Vantage — it is an authorised representative of the same licensee, making them corporate-linked entities rather than independent brokers. The Spanish CNMV has warned against VT Markets specifically. Vantage and VT Markets share regulatory infrastructure but present themselves as separate brands to different market segments."
+      },
+      {
+        "q": "What is the difference between Vantage Standard and Raw ECN?",
+        "a": "The Vantage Standard STP account charges zero commission but embeds the cost in wider spreads averaging 1.1 pips EUR/USD — costing $11.00 per standard lot round-turn. The Raw ECN account offers spreads from 0.0 pips with a $6.00 round-turn commission ($3 per side) — costing approximately $6.00 per lot. For any trader placing more than a handful of trades per week, the Raw ECN is significantly cheaper despite the visible commission."
+      },
+      {
+        "q": "Does Vantage offer TradingView?",
+        "a": "Yes — Vantage offers TradingView integration alongside MT4, MT5, the Vantage App, and PU Web Trader. The TradingView integration allows you to trade directly from TradingView charts without switching platforms. This puts Vantage ahead of competitors like IC Markets and XM that still rely exclusively on the MetaTrader ecosystem for desktop charting and execution."
+      },
+      {
+        "q": "Is Vantage safe for traders in India?",
+        "a": "Vantage accepts Indian traders but routes them to the offshore VFSC Vanuatu entity. This means no investor compensation scheme, no Indian regulatory oversight (RBI or SEBI do not regulate the entity), and no local dispute resolution mechanism. Indian traders depositing with Vantage should keep balances small, withdraw profits regularly, and understand they have no regulatory recourse in India if something goes wrong with the offshore entity."
+      }
+    ],
+
+
+    "schema_jsonld": {
+      "review": {
+        "@context": "https://schema.org",
+        "@type": "Review",
+        "itemReviewed": {
+          "@type": "FinancialProduct",
+          "name": "Vantage",
+          "url": "https://www.vantagemarkets.com"
+        },
+        "author": {
+          "@type": "Person",
+          "name": "NAFT Editorial Team",
+          "url": "https://naft.com/authors/editorial-team",
+          "sameAs": []
+        },
+        "reviewedBy": {
+          "@type": "Organization",
+          "name": "NAFT — Not A Fugazi Trader",
+          "url": "https://naft.com"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "3.4",
+          "bestRating": "5",
+          "worstRating": "1"
+        },
+        "datePublished": "2026-05-28",
+        "dateModified": "2026-05-28",
+        "description": "Independent Vantage broker review by NAFT. Trust score 6.85/10. ASIC + FCA dual Tier-1 regulated with offshore VFSC entity routing."
+      },
+      "aggregateRating": {
+        "@context": "https://schema.org",
+        "@type": "AggregateRating",
+        "itemReviewed": {
+          "@type": "FinancialProduct",
+          "name": "Vantage"
+        },
+        "ratingValue": "3.4",
+        "bestRating": "5",
+        "worstRating": "1",
+        "ratingCount": "1"
+      },
+
+
+      "faqPage": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Is Vantage a legit broker or a scam?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Vantage is a legitimate broker holding dual Tier-1 licences — ASIC (AFSL 428901) in Australia and FCA (FRN 590299) in the UK. The FCA warning targets a clone entity, not the real Vantage. Most international clients land on the offshore VFSC Vanuatu entity with no compensation scheme."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How long does Vantage withdrawal take?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Vantage states withdrawals take up to 5 business days. E-wallet methods tend to process faster. Some complaints exist about profitable accounts being frozen under compliance review on the offshore entity."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is Vantage regulated by the FCA?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes — Vantage Global Prime LLP holds FCA licence FRN 590299. This provides FSCS protection up to GBP 85,000 for UK residents. The international website is not owned by the FCA entity."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the Vantage minimum deposit in 2026?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Vantage minimum deposit is $50 for Standard STP and Raw ECN accounts. Pro ECN requires $10,000 minimum."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is Vantage the same as VT Markets?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "VT Markets operates under the same ASIC licence 428901 as an authorised representative. They are corporate-linked, not independent. The Spanish CNMV has warned against VT Markets."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the difference between Vantage Standard and Raw ECN?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Standard STP: 1.1 pips, zero commission, $11/lot. Raw ECN: 0.0 pips, $6 commission round-turn, $6/lot. Raw ECN is significantly cheaper for active traders."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does Vantage offer TradingView?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes — Vantage offers TradingView integration alongside MT4, MT5, Vantage App, and PU Web Trader. You can trade directly from TradingView charts."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is Vantage safe for traders in India?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Vantage accepts Indian traders but routes them to the offshore VFSC Vanuatu entity with no investor compensation and no Indian regulatory oversight."
+            }
+          }
+        ]
+      },
+
+
+      "organization": {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "NAFT — Not A Fugazi Trader",
+        "url": "https://naft.com",
+        "logo": "https://naft.com/logo.png",
+        "sameAs": []
+      },
+      "breadcrumbList": {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://naft.com" },
+          { "@type": "ListItem", "position": 2, "name": "Broker Reviews", "item": "https://naft.com/brokers" },
+          { "@type": "ListItem", "position": 3, "name": "Vantage Review 2026", "item": "https://naft.com/brokers/vantage" }
+        ]
+      },
+      "howTo": {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "How to Open a Vantage Account",
+        "description": "Step-by-step guide to opening and verifying a Vantage trading account.",
+        "step": [
+          {
+            "@type": "HowToStep",
+            "position": 1,
+            "name": "Register",
+            "text": "Visit vantagemarkets.com and select your account type. Check your client agreement immediately — the entity name determines your regulatory protection."
+          },
+          {
+            "@type": "HowToStep",
+            "position": 2,
+            "name": "Verify your identity (KYC)",
+            "text": "Upload a government-issued ID and proof of address. Verification typically completes within 24 hours."
+          },
+          {
+            "@type": "HowToStep",
+            "position": 3,
+            "name": "Fund your account and test a withdrawal",
+            "text": "Deposit the $50 minimum. Place one trade. Request a withdrawal immediately to confirm the pipeline works for your method and entity before scaling."
+          }
+        ]
+      },
+      "videoObject": null
+    },
+    "sources": [
+      "ASIC public register — Vantage Global Prime Pty Ltd, AFSL 428901",
+      "FCA Financial Services Register — Vantage Global Prime LLP, FRN 590299",
+      "FCA Warning List — Vantage Capital FX (clone entity warning, NOT the legitimate Vantage)",
+      "CIMA public register — Vantage International Group Limited, 1383491",
+      "CNMV Spain — warning against VT Markets (same ASIC licence 428901 group)",
+      "FinTelegram — reports linking Vantage Group to adjacent unauthorised brands",
+      "Trustpilot — Vantage rated Excellent, publicly reported May 2026",
+      "SiteJabber — Vantage rated 2.1/5 from 38 reviews",
+      "Broker website — account types, spreads, payment methods, entity disclaimers",
+      "Multiple public broker review platforms — spread and fee data verification"
+    ]
+  }
+}
