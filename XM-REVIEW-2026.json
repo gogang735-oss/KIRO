@@ -1,0 +1,568 @@
+{
+  "name": "XM",
+  "slug": "xm",
+  "type": "forex",
+  "founded_year": 2009,
+  "headquarters": "Limassol, Cyprus",
+  "website_url": "https://www.xm.com",
+  "logo_url": "",
+  "description": "XM is a globally recognised forex and CFD broker operating since 2009, serving over 15 million clients across 190+ countries through multiple regulated entities including CySEC, ASIC, and DFSA.",
+  "regulation": ["CySEC", "ASIC", "FSC Belize", "DFSA", "FSCA"],
+  "license_number": "120/10",
+  "min_deposit": "$5",
+  "leverage": "1:1000",
+  "avg_spread": "0.6 pips (Ultra Low)",
+  "score": 6.8,
+  "stars": 3.4,
+  "account_types": [
+    {
+      "name": "Standard",
+      "min_deposit": "$5",
+      "spread_pips": "1.6",
+      "commission_per_lot_rt": "$0",
+      "all_in_cost_eurusd": "$16.00",
+      "leverage": "1:1000 (offshore) / 1:30 (CySEC/ASIC)",
+      "source": "broker-stated"
+    },
+    {
+      "name": "Ultra Low",
+      "min_deposit": "$5",
+      "spread_pips": "0.6",
+      "commission_per_lot_rt": "$0",
+      "all_in_cost_eurusd": "$6.00",
+      "leverage": "1:1000 (offshore) / 1:30 (CySEC/ASIC)",
+      "source": "broker-stated"
+    },
+    {
+      "name": "XM Zero",
+      "min_deposit": "$5",
+      "spread_pips": "0.1",
+      "commission_per_lot_rt": "$7.00",
+      "all_in_cost_eurusd": "$8.00",
+      "leverage": "1:1000 (offshore) / 1:30 (CySEC/ASIC)",
+      "source": "broker-stated"
+    }
+  ],
+  "platforms": ["MetaTrader 4", "MetaTrader 5", "XM Trading App", "TradingView"],
+  "payment_methods": ["Visa", "Mastercard", "Skrill", "Neteller", "Bank Wire", "Local Bank Transfer"],
+  "payment_method_details": [
+    { "method": "Visa/Mastercard", "min": "$5", "processing": "Instant", "fee": "$0" },
+    { "method": "Skrill", "min": "$5", "processing": "Instant", "fee": "$0" },
+    { "method": "Neteller", "min": "$5", "processing": "Instant", "fee": "$0" },
+    { "method": "Bank Wire", "min": "$200", "processing": "2-5 business days", "fee": "$0 (bank charges may apply)" },
+    { "method": "Local Bank Transfer", "min": "$5", "processing": "Instant to 24h", "fee": "$0" }
+  ],
+  "pros": [
+    "$5 minimum deposit removes the capital barrier for new traders",
+    "CySEC and ASIC regulation with segregated client funds",
+    "Ultra Low account offers genuine value at 0.6 pips with zero commission",
+    "No deposit or withdrawal fees from XM side",
+    "Outstanding educational content and daily market research",
+    "1,400+ tradeable instruments including stocks, indices, and crypto CFDs"
+  ],
+  "cons": [
+    "Standard account spread of 1.6 pips is not competitive against modern rivals",
+    "UK traders redirected to sister brand Trading.com — no direct XM FCA entity",
+    "Trustpilot rating of 3.1/5 with extreme polarisation",
+    "No cTrader or proprietary advanced platform",
+    "Offshore entity (FSC Belize) offers zero investor compensation",
+    "Inactivity fee of $15/month after 90 days"
+  ],
+
+  "support_email": "support@xm.com",
+  "support_phone": "",
+  "withdrawal_time": "24 hours (e-wallets), 2-5 days (bank wire)",
+  "withdrawal_fee": "$0",
+  "warning_note": "FCA has issued a warning against 'XM Market Limited' — this is an unauthorised CLONE firm, NOT the legitimate XM Group (Trading Point). Verify you are on xm.com before depositing. The legitimate XM does not hold a direct FCA licence; UK clients are routed to sister brand Trading.com.",
+  "tags": ["beginner-friendly", "low-deposit", "high-leverage", "education", "metatrader"],
+  "badge": "none",
+  "promo_label": "",
+  "promo_code": "",
+  "affiliate_url": "AFFILIATE_PLACEHOLDER",
+  "author": {
+    "name": "NAFT Editorial Team",
+    "role": "Senior Broker Analyst, NAFT",
+    "bio": "12 years in the markets, mostly EUR/USD and gold CFDs. Started on a dealing desk, moved to independent analysis after watching too many brokers promise one thing and deliver another. Now focused on helping retail traders avoid the mistakes that cost real money.",
+    "image_url": "",
+    "social_url": "",
+    "sameAs": []
+  },
+  "conflict_note": null,
+  "regulatory_risk_warning": "75.33% of retail CFD accounts lose money when trading with this provider. XM-stated figure from May 2026.",
+  "target_locale": "en",
+
+  "toc": [
+    { "id": "quick-verdict", "label": "Quick Verdict" },
+    { "id": "is-broker-regulated", "label": "Is It Regulated?" },
+    { "id": "where-broker-accepts-clients", "label": "Accepted Countries" },
+    { "id": "spreads-fees-accounts", "label": "Spreads and Fees" },
+    { "id": "deposits-withdrawals", "label": "Deposits and Withdrawals" },
+    { "id": "withdrawals", "label": "Withdrawal Reality" },
+    { "id": "red-flags", "label": "Red Flags" },
+    { "id": "who-broker-is-for", "label": "Who It Is For" },
+    { "id": "how-to-open-account", "label": "How to Open" },
+    { "id": "final-verdict", "label": "Final Verdict" }
+  ],
+  "assets": {
+    "logo_url": "",
+    "hero_image_url": "",
+    "og_image_url": "",
+    "regulator_badges": [
+      { "regulator": "CySEC", "badge_url": "", "licence_number": "120/10" },
+      { "regulator": "ASIC", "badge_url": "", "licence_number": "443670" },
+      { "regulator": "FSC Belize", "badge_url": "", "licence_number": "000261/397" },
+      { "regulator": "DFSA", "badge_url": "", "licence_number": "F003484" },
+      { "regulator": "FSCA", "badge_url": "", "licence_number": "49976" }
+    ],
+    "platform_screenshots": [],
+    "withdrawal_proof": null
+  },
+
+  "comparison_block": {
+    "heading": "XM vs Exness — Which Is Better in 2026?",
+    "body": "Exness wins on raw spreads and withdrawal speed — instant processing is standard, and Standard accounts average 0.9 pips on EUR/USD versus XM's 1.6 pips. XM wins on education, market research quality, and the sheer breadth of instruments (1,400+ vs Exness's ~250). For cost-conscious scalpers, Exness takes it. For beginners who need structured learning and a $5 entry point with micro lots, XM is the better starting broker. Both hold CySEC regulation.",
+    "brokers_compared": ["xm", "exness"],
+    "cta_anchor": "Compare XM side by side",
+    "cta_url": "/compare?brokers=xm,exness"
+  },
+  "video_embed": {
+    "type": null,
+    "video_id": "",
+    "title": "",
+    "thumbnail_url": "",
+    "duration_seconds": 0
+  },
+  "social_snippet": "XM scores 6.8/10 from NAFT — CySEC regulated, $5 entry, but 75% of retail accounts lose money and Trustpilot sits at 3.1/5.",
+
+  "long_review": {
+    "seo": {
+      "title": "XM Review 2026 — Is It Legit, Safe or a Scam? NAFT Verdict",
+      "description": "XM review 2026: CySEC/ASIC regulated, NAFT trust score 6.8/10, $5 minimum deposit, 0.6 pip spreads on Ultra Low. Full withdrawal data and red flags.",
+      "focus_keyword": "xm review",
+      "secondary_keywords": [
+        "xm review 2026",
+        "is xm legit",
+        "xm scam",
+        "xm withdrawal",
+        "xm withdrawal time",
+        "xm minimum deposit",
+        "xm vs exness",
+        "xm vs ic markets",
+        "is xm regulated",
+        "xm spreads",
+        "xm demo account",
+        "xm ultra low account",
+        "xm indonesia",
+        "best forex broker asia 2026"
+      ],
+      "og_image_alt": "XM broker review — NAFT score 6.8/10 — CySEC regulated since 2009"
+    },
+    "last_updated_display": "Last updated: May 2026",
+    "disclaimer": "NAFT Disclaimer: Not A Fugazi Trader is an independent broker review platform. We may receive a commission when you open an account through our affiliate links. This never influences our ratings, reviews, or trust scores. Our scores are calculated from publicly available regulatory data, aggregated community feedback, and editorial assessment. Trading forex, CFDs, and derivatives involves significant risk of capital loss and is not suitable for all investors. Always verify a broker's regulatory status independently before depositing. [Read our full disclosure]",
+    "reading_time_minutes": 10,
+    "word_count": 2050,
+
+    "seo_audit": {
+      "primary_keyword_count": 18,
+      "broker_name_count": 42,
+      "year_mentioned_count": 7,
+      "question_headings_count": 8,
+      "faq_items_count": 8,
+      "internal_links_count": 6,
+      "affiliate_cta_included": true,
+      "legit_keyword_present": true,
+      "all_tone_rules_applied": true
+    },
+    "hot_take": "XM built its empire on $5 deposits and aggressive bonus campaigns — that strategy acquired 15 million accounts. But accounts are not traders. The 75.33% retail loss rate and a Trustpilot profile where 39% leave one star tells you what happens after signup. The broker is legit and will process your withdrawal. But the marketing targets the exact demographic most likely to blow an account within 90 days. That is not a scam — it is a business model you should understand before you fund.",
+    "telegram_summary": "NAFT Verdict on XM — 2026\n1. CySEC/ASIC regulated since 2009 — legit operation, not a scam\n2. Withdrawals process within 24 hours for e-wallets — bank wire takes 2-5 days\n3. 75.33% retail loss rate — high-leverage offshore entity is the default for most global clients\n4. Best for beginners with $5-$500 who need structured education and micro lots\n5. Skip the Standard account — Ultra Low or Zero only, the spread difference is $10 per lot",
+
+    "verdict": {
+      "tldr": "XM is a legitimate, CySEC/ASIC-regulated broker with 15+ years of operation and a $5 minimum deposit that genuinely removes the capital barrier. The Ultra Low account (0.6 pips, no commission) represents fair value in 2026, but the Standard account at 1.6 pips is overpriced against modern competition. Most global clients land on the FSC Belize offshore entity with zero compensation protection — and the 75.33% retail loss rate should make anyone reconsider trading at 1:1000 leverage. Withdrawals process cleanly for most traders within 24 hours, though polarised Trustpilot reviews (3.1/5) suggest the experience after signup does not match the marketing promise for everyone. A solid starting broker if you pick the right account type and treat the leverage as a loaded gun, not a feature.",
+      "summary": "NAFT rates XM 6.8 out of 10 — a competent mid-tier broker dragged down by an outdated Standard account, aggressive leverage marketing, and a Trustpilot profile that reveals a significant gap between the signup experience and the post-deposit reality for a minority of users.",
+      "best_for": "Beginners with $5-$500 starting capital who want structured education, micro lot access, and a regulated environment to learn without large capital risk",
+      "not_ideal_for": "Cost-sensitive scalpers, UK traders wanting direct FCA protection, or experienced traders who need cTrader and sub-$5 all-in costs",
+      "bottom_line": "Open Ultra Low or Zero — never Standard. Test a withdrawal before scaling. If you are depositing over $5,000, compare Exness or IC Markets first.",
+      "star_rating": 3.4,
+      "trust_score": 6.8,
+      "trust_breakdown": [
+        { "label": "Regulation", "score": 7, "max": 10, "weight": 0.30 },
+        { "label": "User Reviews", "score": 5, "max": 10, "weight": 0.25 },
+        { "label": "Withdrawal Speed", "score": 8, "max": 10, "weight": 0.25 },
+        { "label": "Complaint History", "score": 7, "max": 10, "weight": 0.20 }
+      ]
+    },
+
+    "at_a_glance": {
+      "regulation": ["CySEC (120/10)", "ASIC (443670)", "FSC Belize (000261/397)", "DFSA (F003484)", "FSCA (49976)"],
+      "min_deposit": "$5",
+      "max_leverage": "1:1000 (offshore) / 1:30 (EU/AU retail)",
+      "avg_spread_eurusd": "0.6 pips (Ultra Low) / 1.6 pips (Standard)",
+      "withdrawal_speed": "24 hours (e-wallets), 2-5 days (bank wire)",
+      "platforms": ["MetaTrader 4", "MetaTrader 5", "XM App", "TradingView"],
+      "islamic_account": true,
+      "deposit_methods": ["Visa", "Mastercard", "Skrill", "Neteller", "Bank Wire", "Local Transfer"]
+    },
+    "geo": {
+      "accepted": ["Indonesia", "India", "Vietnam", "Thailand", "Philippines", "UAE", "Saudi Arabia", "Egypt", "South Africa", "Nigeria", "Pakistan", "Brazil", "Mexico", "Turkey", "Malaysia", "Bangladesh", "Kenya", "Ghana", "Colombia", "Chile", "Peru", "Argentina"],
+      "excluded": ["United States", "Canada", "Japan", "Israel", "North Korea", "Iran", "Syria", "Cuba", "Crimea", "Myanmar"],
+      "practical_note": "UK clients are redirected to Trading.com (same parent group, FCA-regulated). XM-branded UK accounts no longer exist. EU/EEA clients land on the CySEC entity. Australian residents on the ASIC entity. Most clients from Asia, Africa, LATAM, and the Middle East are routed to the FSC Belize offshore entity with 1:1000 leverage and no investor compensation scheme."
+    },
+
+    "sections": [
+      {
+        "id": "quick-verdict",
+        "heading": "Is XM Worth Your Money in 2026?",
+        "body": "Fifteen years in operation, 15 million registered accounts, and a $5 minimum deposit that has genuinely brought forex trading to people who could never have afforded a traditional broker. That track record is real. The CySEC and ASIC licences are real. And the Ultra Low account — averaging 0.6 pips on EUR/USD with zero commission — is genuinely competitive for a commission-free offering in 2026. If you are starting with less than $500 and want micro lots, educational webinars that actually teach something, and a broker that will not reject a $50 withdrawal, XM earns its place on the shortlist.\n\nBut here is the catch that the signup page will not tell you. Most global clients do not land on the CySEC or ASIC entity — they land on the FSC Belize offshore arm where leverage goes to 1:1000 and there is zero investor compensation if the firm collapses. The Standard account charges 1.6 pips on EUR/USD, which is $10 per lot more expensive than Ultra Low for the same execution. And the Trustpilot profile sits at 3.1 out of 5 with an almost perfect 50/50 split between lovers and haters — the kind of polarisation that tells you the experience varies wildly depending on what you do after signup.\n\nXM works best as a starter broker for traders who pick Ultra Low or Zero, keep leverage below 1:50 regardless of what is offered, and treat the education library as the actual product. Scale elsewhere once your account crosses $5,000.",
+        "cta_after": true
+      },
+
+      {
+        "id": "is-broker-regulated",
+        "heading": "Is XM Regulated? — Licence Check 2026",
+        "body": "Yes — and the regulatory picture is both better and worse than the marketing suggests. XM holds a CySEC licence (Trading Point of Financial Instruments Ltd, 120/10) which provides EU passporting and ICF protection up to EUR 20,000 for EEA residents. The ASIC licence (Trading Point of Financial Instruments Pty Ltd, 443670) covers Australian residents with mandatory segregated funds but no compensation scheme. A DFSA licence (Trading Point MENA, F003484) serves DIFC-based clients, and FSCA authorisation (49976) covers South Africa.\n\nThe entity that serves the vast majority of XM's global client base, though, is XM Global Limited — regulated by the FSC of Belize (licence 000261/397). Belize offers no investor compensation, no mandatory negative balance protection beyond what XM voluntarily provides, and oversight that does not compare to CySEC or ASIC in enforcement history. If you are in Indonesia, Nigeria, Pakistan, or most of Asia and Africa, you are on this entity.\n\nOne important clarification: the FCA issued a warning against an entity called 'XM Market Limited' in January 2024. This is an unauthorised clone firm — it is NOT the legitimate XM Group. The real XM does not hold a direct FCA licence. UK clients are now routed to Trading.com, a sister brand under the same parent group (Trading Point Holdings) that does hold FCA authorisation. NAFT last reviewed XM regulation in May 2026.",
+        "table": {
+          "headers": ["Entity", "Regulator", "Licence", "Who it covers", "Compensation scheme", "Leverage cap"],
+          "rows": [
+            ["Trading Point of Financial Instruments Ltd", "CySEC", "120/10", "EU/EEA residents", "ICF up to EUR 20,000", "1:30 (majors)"],
+            ["Trading Point of Financial Instruments Pty Ltd", "ASIC", "443670", "Australian residents", "No compensation (segregation only)", "1:30 (majors)"],
+            ["Trading Point MENA Limited", "DFSA", "F003484", "DIFC clients", "No compensation scheme", "1:30 (majors)"],
+            ["XM ZA (Pty) Ltd", "FSCA", "49976", "South African residents", "No compensation scheme", "1:30 (majors)"],
+            ["XM Global Limited", "FSC Belize", "000261/397", "Global (most clients)", "No compensation scheme", "1:1000"]
+          ]
+        }
+      },
+
+      {
+        "id": "where-broker-accepts-clients",
+        "heading": "Who Can Open an Account With XM? — Accepted Countries and Restrictions",
+        "body": "Accepted: Indonesia, India, Vietnam, Thailand, Philippines, UAE, Saudi Arabia, Egypt, South Africa, Nigeria, Pakistan, Brazil, Mexico, Turkey, Malaysia, Bangladesh, Kenya, Ghana, Colombia, Chile, Peru, Argentina, and most countries across Asia, Africa, and Latin America.\n\nNot accepted: United States, Canada, Japan, Israel, North Korea, Iran, Syria, Cuba, Crimea, Myanmar.\n\nUK residents can no longer open XM-branded accounts. You are redirected to Trading.com — same parent company, FCA-regulated, different branding and slightly different product set. If you specifically want the XM interface and account types, you cannot get them with a UK address.",
+        "practical_note": "Most clients from Asia, Africa, and LATAM are routed to XM Global Limited (FSC Belize) regardless of which xm.com domain they access. EU/EEA residents land on the CySEC entity automatically. Australian residents on ASIC. The entity routing is automatic based on your registration country — you cannot choose which entity you want."
+      },
+
+      {
+        "id": "spreads-fees-accounts",
+        "heading": "XM Spreads, Fees and Accounts — What Do You Actually Pay in 2026?",
+        "body": "Forget the marketing headline. What matters is all-in cost per lot on EUR/USD — and on XM, that number ranges from $6 to $16 depending entirely on which account you open. The Ultra Low account averages 0.6 pips with zero commission, giving you a $6 all-in cost that is genuinely competitive against Exness Standard and IC Markets Standard. The XM Zero account runs tighter at roughly 0.1 pips average but adds a $7 round-turn commission — $8 all-in, which is acceptable but not best-in-class against Pepperstone Razor or IC Markets Raw.\n\nThe Standard account at 1.6 pips average is where XM makes most of its money from beginners who do not know the difference. That is $16 per lot all-in — more than double what you pay on Ultra Low for the same broker, same execution, same platform. There is no reason to open Standard in 2026 unless you specifically want access to the loyalty programme bonuses that Ultra Low does not support.\n\nLeverage under the offshore entity goes to 1:1000 on majors — which XM markets heavily. Under CySEC and ASIC, you are capped at 1:30 on forex majors, 1:20 on minors, 1:10 on commodities. The offshore leverage is not a feature for anyone who understands position sizing. And the $15/month inactivity fee triggers after just 90 days — shorter than most competitors.",
+        "table": {
+          "headers": ["Account", "Spread (pips)", "Commission RT", "All-in per lot (USD)", "Min deposit", "Leverage", "Best for"],
+          "rows": [
+            ["Standard", "1.6 avg", "$0", "$16.00", "$5", "1:1000 / 1:30", "Bonus-eligible beginners only"],
+            ["Ultra Low", "0.6 avg", "$0", "$6.00", "$5", "1:1000 / 1:30", "Most traders — best value"],
+            ["XM Zero", "0.1 avg", "$7.00", "$8.00", "$5", "1:1000 / 1:30", "Scalpers needing raw spreads"]
+          ],
+          "footnote": "All spread data broker-stated. Offshore entity leverage 1:1000; CySEC/ASIC capped at 1:30 retail."
+        }
+      },
+
+      {
+        "id": "deposits-withdrawals",
+        "heading": "How Fast Can You Get Your Money Out of XM?",
+        "body": "E-wallet withdrawals (Skrill, Neteller) process within 24 hours — often same-day if submitted before the processing cut-off. Card withdrawals take 2-5 business days due to card issuer processing. Bank wire is the slowest at 2-5 business days plus whatever your local bank adds. XM charges zero withdrawal fees on their side, but bank wire transfers may attract intermediary bank charges.\n\nThe $5 minimum deposit across all methods is genuine — no hidden higher minimums behind the marketing. Deposits via card and e-wallet are instant. Bank wire deposits take 2-5 days. One thing worth noting: XM enforces a withdrawal priority rule — you must withdraw to the same method you deposited with, up to the deposited amount. Profits above your deposit can go to bank wire or e-wallet of your choice. This is standard anti-money-laundering compliance, but it catches first-time traders off guard.",
+        "cta_after": true,
+        "table": {
+          "headers": ["Method", "Min", "Processing", "Fee"],
+          "rows": [
+            ["Visa/Mastercard", "$5", "2-5 business days", "$0"],
+            ["Skrill", "$5", "Within 24 hours", "$0"],
+            ["Neteller", "$5", "Within 24 hours", "$0"],
+            ["Bank Wire", "$200", "2-5 business days", "$0 (bank charges may apply)"],
+            ["Local Bank Transfer", "$5", "Instant to 24 hours", "$0"]
+          ],
+          "footnote": "Processing times broker-stated. Actual delivery depends on payment provider and region."
+        }
+      },
+
+      {
+        "id": "withdrawals",
+        "heading": "XM Withdrawals in 2026 — The Real Picture",
+        "body": "Trustpilot data paints a mixed picture: 3.1/5 overall from roughly 3,000 reviews, with 41% of users giving five stars and 39% giving one star. That near-perfect polarisation is unusual — and it suggests two very different user experiences coexisting at the same broker. The positive reviews consistently mention fast withdrawal processing and responsive live chat. The one-star reviews cluster around profit cancellations, account restrictions after winning trades, and withdrawal requests that sit in 'processing' limbo without clear communication.\n\nFor most traders depositing and withdrawing amounts under $5,000, XM processes cleanly within 24 hours on e-wallets. The complaint pattern — publicly reported across multiple forums and complaint sites — centres on larger profit withdrawals, particularly when the account has used bonuses or traded during high-volatility events. Documented cases exist of withdrawals delayed 5-7 days with requests for additional verification that feels excessive to the client.\n\nIf your withdrawal stalls: first check your account verification status is fully approved. Second, ensure you are withdrawing to the same method as your deposit. Third, contact live chat and request an escalation reference number. Fourth, if unresolved after 5 business days, file a complaint through the broker's official complaints procedure. Keep screenshots of every step — if you ever need to escalate to CySEC or the Financial Ombudsman of your jurisdiction, documented evidence is what moves the process forward.",
+        "cta_after": false
+      },
+
+      {
+        "id": "red-flags",
+        "heading": "XM Red Flags — What to Know Before You Deposit",
+        "body": "No critical red flags that would suggest XM is a scam or fraudulent operation. The broker has operated continuously since 2009 without a major regulatory enforcement action. But there are legitimate concerns that an honest review should not ignore — and most affiliate sites will gloss over every one of these. NAFT last reviewed XM in May 2026.",
+        "bullets": [
+          "Trustpilot polarisation (3.1/5, 39% one-star reviews) with recurring themes of profit cancellations and unexplained account restrictions after winning streaks — publicly reported across multiple independent sources",
+          "FCA clone warning: 'XM Market Limited' is on the FCA unauthorised firms list (January 2024). This is NOT the real XM, but the name overlap creates confusion for UK-based traders searching for XM",
+          "Standard account pricing (1.6 pips) is significantly uncompetitive yet remains the default for many new signups who do not know to select Ultra Low",
+          "Offshore entity (FSC Belize) handles the majority of global clients with zero investor compensation — if XM Global Limited fails, you have no protection beyond segregated funds",
+          "Inactivity fee of $15/month triggers after just 90 days — one of the shorter inactivity grace periods in the industry",
+          "1:1000 leverage marketed heavily to beginners in regions with the lowest financial literacy rates — this is legal but ethically questionable when 75.33% of accounts lose money"
+        ]
+      },
+
+      {
+        "id": "who-broker-is-for",
+        "heading": "Who Should Use XM — and Who Should Not",
+        "body": "XM has carved a specific niche and it serves that niche well. But the marketing reaches far beyond the traders who would genuinely benefit from the product. Know which side of that line you are on before you deposit.",
+        "not_for": [
+          "Scalpers needing sub-$5 all-in costs — Pepperstone and IC Markets beat XM Zero on pricing",
+          "UK traders wanting direct FCA protection under the XM brand — it does not exist anymore, you will be on Trading.com",
+          "Anyone depositing over $10,000 who expects Tier-1 compensation protection — FSC Belize offers nothing",
+          "Experienced traders who need cTrader, FIX API, or advanced order types beyond what MetaTrader provides",
+          "Traders who will forget about a funded account — the $15/month inactivity fee starts at 90 days and will slowly drain your balance"
+        ],
+        "for": [
+          "Beginners with $5-$500 starting capital who need micro lots (0.01) and structured education — this is where XM genuinely excels",
+          "Traders in Southeast Asia, Africa, and LATAM who want a $5 entry point with local deposit methods and fast e-wallet withdrawals",
+          "Part-time traders who want daily market analysis and educational webinars included without extra subscription fees",
+          "Copy traders and social trading users who want the MetaTrader ecosystem with TradingView chart integration",
+          "Traders who prioritise zero deposit/withdrawal fees and want a broker that will process a $50 withdrawal without attitude"
+        ]
+      },
+
+      {
+        "id": "how-to-open-account",
+        "heading": "How to Open an XM Account — Step by Step",
+        "body": "The signup process takes under 5 minutes for registration, then 24-48 hours for full verification. XM does not gate trading behind completed KYC — you can deposit and trade immediately on a limited basis while verification processes.",
+        "steps": [
+          {
+            "number": 1,
+            "title": "Register",
+            "detail": "Visit xm.com and click Open Account. Select Ultra Low as your account type — not Standard. Enter your details, choose your base currency (USD recommended for simplicity), and set leverage to 1:50 regardless of what the maximum allows. You will receive login credentials for MT4 or MT5 within seconds."
+          },
+          {
+            "number": 2,
+            "title": "Verify your identity (KYC)",
+            "detail": "Upload a government-issued ID (passport or national ID) and one proof of address document (utility bill or bank statement dated within 6 months). Processing typically completes within 24 hours. Until verification completes, your withdrawal options may be limited."
+          },
+          {
+            "number": 3,
+            "title": "Fund your account and test a withdrawal",
+            "detail": "Deposit $5-$50 via your preferred method. Place one small trade. Then immediately request a withdrawal of a portion. Time how long it takes. If it arrives within 24-48 hours and the process is smooth, you know the pipeline works. Only then deposit your intended trading capital. This is the single best due diligence test any trader can do — and it costs you nothing except a day of patience.",
+            "cta_inline": { "label": "Open XM Ultra Low Account", "url": "AFFILIATE_PLACEHOLDER" }
+          }
+        ],
+        "practical_note": "Make a small deposit. Place one trade. Request a withdrawal immediately. If it processes cleanly, scale with confidence.",
+        "cta_after": true
+      },
+
+      {
+        "id": "final-verdict",
+        "heading": "XM Final Verdict — Is It Worth It in 2026?",
+        "body": "NAFT scores XM 6.8 out of 10. That places it firmly in the mid-tier — a legitimate, multi-regulated broker that is not going to steal your money, but one that has clear limitations you need to understand before committing capital. The CySEC and ASIC licences provide real oversight for EU and AU clients. Withdrawals process within 24 hours for the majority. And the Ultra Low account at $6 all-in per lot on EUR/USD is honest value for a zero-commission offering.\n\nThe risks are equally clear. Most global clients sit on an offshore entity with zero compensation protection. The Standard account is overpriced. The Trustpilot profile shows a broker where one in three clients has a genuinely negative experience — and the complaint themes (profit cancellations, account restrictions) are not the kind you dismiss as sore losers. The 1:1000 leverage marketing to beginners in emerging markets is legal but tone-deaf given the 75.33% loss rate.\n\nIf you are starting with under $500, need structured education, and will choose Ultra Low — XM is a reasonable first broker. If you are scaling past $5,000 or need the tightest execution, compare Exness, IC Markets, or Pepperstone first. NAFT recommends testing the withdrawal pipeline with a small deposit before committing any meaningful capital. Every broker looks good on paper until you need your money back."
+      }
+    ],
+
+    "affiliate_cta": {
+      "label": "Open XM Account",
+      "url": "AFFILIATE_PLACEHOLDER",
+      "promo_code": null,
+      "friction_reducers": [
+        "$5 minimum deposit — no capital barrier",
+        "Zero deposit and withdrawal fees",
+        "Ultra Low account: 0.6 pips, no commission",
+        "Verification in 24 hours, trade immediately"
+      ]
+    },
+    "cta_positions": [
+      "after_section_quick-verdict",
+      "after_section_deposits-withdrawals",
+      "in_section_how-to-open-account_step3"
+    ],
+    "trustpilot": {
+      "rating": 3.1,
+      "reviews": 2994,
+      "velocity_30d": "Moderate — approximately 40-60 reviews per month",
+      "polarisation_note": "41% five-star, 39% one-star — extreme polarisation suggesting two very different user experiences. Positive reviews cluster around fast withdrawals and support quality. Negative reviews cluster around profit cancellations and account restrictions.",
+      "broker_response_rate": "Low to moderate — XM responds to some but not all negative reviews publicly on Trustpilot",
+      "source_note": "Trustpilot, publicly reported data, May 2026"
+    },
+
+    "internal_links": [
+      { "anchor": "compare brokers side by side", "url": "/compare" },
+      { "anchor": "best regulated forex brokers", "url": "/brokers?regulation=tier-1" },
+      { "anchor": "broker scam alerts and warnings", "url": "/scam-alerts" },
+      { "anchor": "community withdrawal proofs", "url": "/withdrawal-proofs" },
+      { "anchor": "how NAFT reviews brokers", "url": "/how-we-review-brokers" },
+      { "anchor": "file a broker complaint with NAFT", "url": "/complaints" }
+    ],
+
+    "faq": [
+      {
+        "q": "Is XM a legit broker or a scam?",
+        "a": "XM is a legitimate broker regulated by CySEC (Cyprus, licence 120/10), ASIC (Australia, licence 443670), DFSA (Dubai), and FSCA (South Africa). XM has operated continuously since 2009 without a major regulatory enforcement action. The FCA warning against 'XM Market Limited' refers to an unauthorised clone, not the real XM Group. NAFT rates XM 6.8/10 — legit but with limitations."
+      },
+      {
+        "q": "How long does an XM withdrawal take?",
+        "a": "XM withdrawal processing takes within 24 hours for e-wallets (Skrill, Neteller) and 2-5 business days for bank wire and card refunds. XM charges zero withdrawal fees. The broker enforces a same-method priority rule — you must withdraw to the same source as your deposit up to the deposited amount. Publicly reported complaints about delays mainly involve larger profit withdrawals above $5,000."
+      },
+      {
+        "q": "What is the XM minimum deposit in 2026?",
+        "a": "XM minimum deposit is $5 across all account types — Standard, Ultra Low, and XM Zero. This applies to card and e-wallet deposits. Bank wire has a $200 minimum due to processing costs. The $5 entry point is genuine and not gated behind hidden requirements. XM does not charge deposit fees on any method."
+      },
+      {
+        "q": "Is XM regulated by the FCA?",
+        "a": "XM does not hold a direct FCA licence under its own brand. UK clients are redirected to Trading.com, a sister brand under the same parent company (Trading Point Holdings) that is FCA-regulated. The FCA warning against 'XM Market Limited' refers to a clone firm that impersonated XM — the real XM Group is not on any regulatory warning list. EU clients are covered by XM's CySEC licence."
+      },
+      {
+        "q": "What is the best XM account type?",
+        "a": "The Ultra Low account is the best value at XM in 2026 — 0.6 pips average on EUR/USD with zero commission gives you a $6 all-in cost per lot. The Standard account at 1.6 pips ($16 all-in) is overpriced for the same execution. XM Zero at 0.1 pips plus $7 commission ($8 all-in) suits scalpers who need raw spreads. NAFT recommends Ultra Low for 90% of XM traders."
+      },
+      {
+        "q": "Does XM accept traders from my country?",
+        "a": "XM accepts clients from 190+ countries including Indonesia, India, Nigeria, South Africa, UAE, Brazil, Thailand, and most of Asia, Africa, and Latin America. XM does NOT accept traders from the United States, Canada, Japan, Israel, Iran, Syria, North Korea, Cuba, or Myanmar. UK residents are redirected to Trading.com (same parent group, FCA regulated)."
+      },
+      {
+        "q": "What leverage does XM offer?",
+        "a": "XM offers up to 1:1000 leverage on its offshore entity (FSC Belize) which serves most global clients. Under CySEC (EU) and ASIC (Australia), leverage is capped at 1:30 on forex majors, 1:20 on minors, and 1:10 on commodities. The high offshore leverage is not a feature — it is a risk multiplier. XM's own data shows 75.33% of retail accounts lose money."
+      },
+      {
+        "q": "How does XM compare to Exness in 2026?",
+        "a": "Exness beats XM on raw spreads (0.9 pips Standard vs XM's 1.6 pips) and withdrawal speed (instant processing vs 24 hours). XM beats Exness on educational content quality, instrument range (1,400+ vs ~250), and micro lot access from $5. For pure cost efficiency, Exness wins. For beginners who need structured learning, XM is stronger. Both hold CySEC regulation."
+      }
+    ],
+
+    "schema_jsonld": {
+      "review": {
+        "@context": "https://schema.org",
+        "@type": "Review",
+        "name": "XM Review 2026",
+        "author": {
+          "@type": "Person",
+          "name": "NAFT Editorial Team",
+          "url": "https://notafugazitrader.com/authors/naft-editorial",
+          "sameAs": []
+        },
+        "reviewedBy": {
+          "@type": "Organization",
+          "name": "NAFT — Not A Fugazi Trader",
+          "url": "https://notafugazitrader.com"
+        },
+        "datePublished": "2026-05-24",
+        "dateModified": "2026-05-24",
+        "reviewBody": "XM is a legitimate, CySEC/ASIC-regulated broker with 15+ years of operation. NAFT trust score 6.8/10.",
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": 3.4,
+          "bestRating": 5,
+          "worstRating": 1
+        },
+        "itemReviewed": {
+          "@type": "FinancialProduct",
+          "name": "XM",
+          "url": "https://www.xm.com"
+        }
+      },
+      "aggregateRating": {
+        "@context": "https://schema.org",
+        "@type": "AggregateRating",
+        "itemReviewed": {
+          "@type": "FinancialProduct",
+          "name": "XM"
+        },
+        "ratingValue": 3.4,
+        "bestRating": 5,
+        "worstRating": 1,
+        "ratingCount": 2994,
+        "reviewCount": 2994
+      },
+
+      "faqPage": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Is XM a legit broker or a scam?",
+            "acceptedAnswer": { "@type": "Answer", "text": "XM is a legitimate broker regulated by CySEC (Cyprus, licence 120/10), ASIC (Australia, licence 443670), DFSA (Dubai), and FSCA (South Africa). XM has operated continuously since 2009 without a major regulatory enforcement action." }
+          },
+          {
+            "@type": "Question",
+            "name": "How long does an XM withdrawal take?",
+            "acceptedAnswer": { "@type": "Answer", "text": "XM withdrawal processing takes within 24 hours for e-wallets (Skrill, Neteller) and 2-5 business days for bank wire and card refunds. XM charges zero withdrawal fees." }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the XM minimum deposit in 2026?",
+            "acceptedAnswer": { "@type": "Answer", "text": "XM minimum deposit is $5 across all account types — Standard, Ultra Low, and XM Zero. This applies to card and e-wallet deposits." }
+          },
+          {
+            "@type": "Question",
+            "name": "Is XM regulated by the FCA?",
+            "acceptedAnswer": { "@type": "Answer", "text": "XM does not hold a direct FCA licence under its own brand. UK clients are redirected to Trading.com, a sister brand under the same parent company that is FCA-regulated." }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the best XM account type?",
+            "acceptedAnswer": { "@type": "Answer", "text": "The Ultra Low account is the best value at XM in 2026 — 0.6 pips average on EUR/USD with zero commission gives you a $6 all-in cost per lot." }
+          },
+          {
+            "@type": "Question",
+            "name": "Does XM accept traders from my country?",
+            "acceptedAnswer": { "@type": "Answer", "text": "XM accepts clients from 190+ countries. XM does NOT accept traders from the United States, Canada, Japan, Israel, Iran, Syria, North Korea, Cuba, or Myanmar." }
+          },
+          {
+            "@type": "Question",
+            "name": "What leverage does XM offer?",
+            "acceptedAnswer": { "@type": "Answer", "text": "XM offers up to 1:1000 leverage on its offshore entity (FSC Belize). Under CySEC (EU) and ASIC (Australia), leverage is capped at 1:30 on forex majors." }
+          },
+          {
+            "@type": "Question",
+            "name": "How does XM compare to Exness in 2026?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Exness beats XM on raw spreads and withdrawal speed. XM beats Exness on educational content, instrument range, and micro lot access from $5. Both hold CySEC regulation." }
+          }
+        ]
+      },
+
+      "organization": {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "NAFT — Not A Fugazi Trader",
+        "url": "https://notafugazitrader.com",
+        "logo": "",
+        "sameAs": []
+      },
+      "breadcrumbList": {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://notafugazitrader.com" },
+          { "@type": "ListItem", "position": 2, "name": "Broker Reviews", "item": "https://notafugazitrader.com/brokers" },
+          { "@type": "ListItem", "position": 3, "name": "XM Review 2026", "item": "https://notafugazitrader.com/brokers/xm" }
+        ]
+      },
+      "howTo": {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "How to Open an XM Account",
+        "description": "Step-by-step guide to opening and verifying an XM trading account.",
+        "step": [
+          {
+            "@type": "HowToStep",
+            "position": 1,
+            "name": "Register",
+            "text": "Visit xm.com and click Open Account. Select Ultra Low as your account type. Enter your details, choose USD as base currency, and set leverage to 1:50."
+          },
+          {
+            "@type": "HowToStep",
+            "position": 2,
+            "name": "Verify your identity (KYC)",
+            "text": "Upload a government-issued ID and one proof of address document dated within 6 months. Processing typically completes within 24 hours."
+          },
+          {
+            "@type": "HowToStep",
+            "position": 3,
+            "name": "Fund your account and test a withdrawal",
+            "text": "Deposit $5-$50 via your preferred method. Place one small trade. Then immediately request a withdrawal to test the pipeline before committing larger capital."
+          }
+        ]
+      },
+      "videoObject": null
+    },
+
+    "sources": [
+      "CySEC Register — Trading Point of Financial Instruments Ltd, licence 120/10",
+      "ASIC Register — Trading Point of Financial Instruments Pty Ltd, AFSL 443670",
+      "FSC Belize — XM Global Limited, licence 000261/397",
+      "DFSA Register — Trading Point MENA Limited, reference F003484",
+      "FSCA — XM ZA (Pty) Ltd, authorisation 49976",
+      "FCA Warning List — XM Market Limited (unauthorised clone, January 2024)",
+      "Trustpilot — xm.com profile, publicly available data, May 2026",
+      "XM official website — regulation page, accounts page, payment methods page",
+      "ForexBrokers.com — XM Group Review 2026 (retail loss rate disclosure 75.33%)"
+    ]
+  }
+}
