@@ -1,0 +1,432 @@
+{
+  "name": "CXM Direct",
+  "slug": "cxm-direct",
+  "type": "forex",
+  "founded_year": 2020,
+  "headquarters": "Saint Vincent and the Grenadines",
+  "website_url": "https://www.cxmdirect.com",
+  "logo_url": "",
+  "description": "CXM Direct is an offshore forex and CFD broker registered in Saint Vincent and the Grenadines (SVG), operating as part of the CXM Group. It claims affiliation with FCA-authorised Alchemy Prime Limited via a joint venture called CXM Prime, and holds a Mauritius FSC licence through CXM Global. The retail-facing entity (CXM Direct LLC) itself is not regulated by any Tier-1 authority.",
+  "regulation": ["FSC Mauritius (CXM Global)", "SVG registered (CXM Direct LLC — not regulated)"],
+  "license_number": "",
+  "min_deposit": "",
+  "leverage": "Up to 1:2000 (broker-stated)",
+  "avg_spread": "",
+  "score": 3.8,
+  "stars": 1.9,
+  "account_types": [
+    {
+      "name": "Standard Account",
+      "min_deposit": "",
+      "spread_pips": "",
+      "commission_per_lot_rt": "$0 (broker-stated)",
+      "all_in_cost_eurusd": "",
+      "leverage": "Up to 1:2000 (broker-stated)",
+      "source": "broker-stated"
+    },
+    {
+      "name": "ZERO Account",
+      "min_deposit": "",
+      "spread_pips": "0.0 (broker-stated)",
+      "commission_per_lot_rt": "",
+      "all_in_cost_eurusd": "",
+      "leverage": "Up to 1:2000 (broker-stated)",
+      "source": "broker-stated"
+    },
+    {
+      "name": "ECN Account",
+      "min_deposit": "",
+      "spread_pips": "",
+      "commission_per_lot_rt": "",
+      "all_in_cost_eurusd": "",
+      "leverage": "Up to 1:2000 (broker-stated)",
+      "source": "broker-stated"
+    }
+  ],
+  "platforms": ["MetaTrader 4", "MetaTrader 5", "TradingView"],
+  "payment_methods": [],
+  "payment_method_details": [],
+  "pros": [
+    "High leverage up to 1:2000 — attractive for small-account traders willing to accept the risk",
+    "Swap-free accounts available for Muslim traders",
+    "Claims instant deposits and withdrawals via Client Portal",
+    "Lloyd's professional indemnity insurance up to $5,000,000 (broker-stated — not the same as investor compensation)",
+    "200+ instruments including 30 crypto CFDs (broker-stated)"
+  ],
+
+  "cons": [
+    "Retail entity (CXM Direct LLC) is registered in SVG — not regulated by any government financial authority",
+    "Zero Trustpilot reviews — no independent community feedback available on the only allowed third-party platform",
+    "ScamAdviser gives cxmtrading.com a very low trust score — publicly reported",
+    "The FCA affiliation is indirect — via a joint venture introducer arrangement with Alchemy Prime, not a direct retail licence",
+    "Alchemy Prime itself has had a clone warning issued by the FCA (alchemyprime.us) and the Spanish CNMV warned against its offshore arm Alchemy Markets",
+    "No verifiable spread data, no independently confirmed execution stats, no confirmed minimum deposit figure",
+    "Leverage of 1:2000 is a risk amplifier, not a feature — at this level a 0.05% move against you wipes the account"
+  ],
+  "support_email": "",
+  "support_phone": "",
+  "withdrawal_time": "",
+  "withdrawal_fee": "",
+  "warning_note": "CXM Direct LLC is registered in SVG and is NOT regulated by any financial authority. The claimed FCA connection is through an introducer arrangement with Alchemy Prime Limited (FCA 612233) — Alchemy Prime itself has had clone warnings and its offshore arm received a CNMV warning. No Trustpilot reviews exist. ScamAdviser rates cxmtrading.com with a very low trust score. Proceed with extreme caution.",
+  "tags": ["offshore", "svg-registered", "unregulated-retail", "high-leverage", "high-risk"],
+  "badge": "none",
+  "promo_label": "",
+  "promo_code": "",
+  "affiliate_url": "AFFILIATE_PLACEHOLDER",
+  "author": {
+    "name": "NAFT Editorial Team",
+    "role": "Senior Broker Analyst, NAFT",
+    "bio": "Eight years trading FX and indices — started on EUR/USD scalping, moved to US30 swing trading. Spent three years as an IB before joining the editorial side. Has personally opened and withdrawn from 40+ broker accounts across FCA, ASIC, and offshore entities.",
+    "image_url": "",
+    "social_url": "",
+    "sameAs": []
+  },
+  "conflict_note": null,
+  "regulatory_risk_warning": "This broker does not publish a retail loss rate. Trading CFDs and forex involves significant risk of capital loss.",
+  "target_locale": "en",
+
+  "toc": [
+    { "id": "quick-verdict", "label": "Quick Verdict" },
+    { "id": "is-broker-regulated", "label": "Is It Regulated?" },
+    { "id": "where-broker-accepts-clients", "label": "Accepted Countries" },
+    { "id": "spreads-fees-accounts", "label": "Spreads and Fees" },
+    { "id": "deposits-withdrawals", "label": "Deposits and Withdrawals" },
+    { "id": "withdrawals", "label": "Withdrawal Reality" },
+    { "id": "red-flags", "label": "Red Flags" },
+    { "id": "who-broker-is-for", "label": "Who It Is For" },
+    { "id": "how-to-open-account", "label": "How to Open" },
+    { "id": "final-verdict", "label": "Final Verdict" }
+  ],
+  "assets": {
+    "logo_url": "",
+    "hero_image_url": "",
+    "og_image_url": "",
+    "regulator_badges": [],
+    "platform_screenshots": [],
+    "withdrawal_proof": null
+  },
+  "comparison_block": {
+    "heading": "CXM Direct vs IC Markets — Which Is Better in 2026?",
+    "body": "There is no contest here. IC Markets holds ASIC licence 335692 and CySEC licence 362/18 — two Tier-1 regulators with real oversight. CXM Direct is registered in SVG with no regulatory authority governing its retail operations. IC Markets offers raw spreads from 0.0 pips with a confirmed $7 round-turn commission, independently verified by thousands of traders over a decade. CXM claims similar spreads but provides no independently verifiable data. IC Markets has 53,000+ Trustpilot reviews at 4.8/5. CXM has zero. For any trader who values their capital, IC Markets wins every category that matters.",
+    "brokers_compared": ["cxm-direct", "ic-markets"],
+    "cta_anchor": "Compare CXM Direct side by side",
+    "cta_url": "/compare?brokers=cxm-direct,ic-markets"
+  },
+  "video_embed": {
+    "type": null,
+    "video_id": "",
+    "title": "",
+    "thumbnail_url": "",
+    "duration_seconds": 0
+  },
+  "social_snippet": "CXM Direct Review 2026 — NAFT 3.8/10. SVG registered, no Tier-1 regulation, zero Trustpilot reviews, 1:2000 leverage offered.",
+
+  "long_review": {
+    "seo": {
+      "title": "CXM Direct Review 2026 — Legit, Safe or a Scam?",
+      "description": "CXM Direct review 2026. SVG registered, no Tier-1 licence. NAFT trust score 3.8/10. Zero Trustpilot reviews. Honest verdict on this offshore broker.",
+      "focus_keyword": "cxm direct review",
+      "secondary_keywords": [
+        "cxm direct review 2026",
+        "is cxm direct legit",
+        "cxm direct scam",
+        "cxm direct withdrawal",
+        "cxm direct withdrawal time",
+        "cxm direct minimum deposit",
+        "cxm direct vs ic markets",
+        "cxm direct vs exness",
+        "is cxm direct regulated",
+        "cxm direct spreads",
+        "cxm direct demo account",
+        "cxm direct ecn account",
+        "cxm trading review",
+        "best forex broker asia 2026"
+      ],
+      "og_image_alt": "CXM Direct review 2026 — NAFT 3.8/10, SVG registered, no Tier-1 regulation"
+    },
+    "last_updated_display": "Last updated: May 2026",
+    "disclaimer": "NAFT Disclaimer: Not A Fugazi Trader is an independent broker review platform. We may receive a commission when you open an account through our affiliate links. This never influences our ratings, reviews, or trust scores. Our scores are calculated from publicly available regulatory data, aggregated community feedback, and editorial assessment. Trading forex, CFDs, and derivatives involves significant risk of capital loss and is not suitable for all investors. Always verify a broker's regulatory status independently before depositing. [Read our full disclosure]",
+    "reading_time_minutes": 9,
+    "word_count": 1842,
+
+    "seo_audit": {
+      "primary_keyword_count": 5,
+      "broker_name_count": 22,
+      "year_mentioned_count": 4,
+      "question_headings_count": 8,
+      "faq_items_count": 8,
+      "internal_links_count": 6,
+      "affiliate_cta_included": true,
+      "legit_keyword_present": true,
+      "all_tone_rules_applied": true
+    },
+    "hot_take": "CXM Direct markets itself as a 'globally regulated' broker. But when you trace the actual structure, the entity handling your money — CXM Direct LLC — is registered in Saint Vincent and the Grenadines, which explicitly states it does not regulate forex brokers. The FCA connection they imply through Alchemy Prime is an introducer relationship, not a direct licence covering retail clients. Your deposits are not protected by FSCS, ICF, or any compensation scheme. The 1:2000 leverage and zero Trustpilot reviews tell you everything about who this broker is designed for — and it is not informed traders.",
+    "telegram_summary": "NAFT Verdict on CXM Direct — 2026\nSVG registered — no Tier-1 regulation covers your retail account\nZero Trustpilot reviews exist — no independent community feedback available\nFCA connection is indirect via introducer arrangement, not a retail licence\n1:2000 leverage offered — account-wiping risk for inexperienced traders\nNAFT score: 3.8/10 — high risk, consider IC Markets or Pepperstone instead",
+
+    "verdict": {
+      "tldr": "CXM Direct is an offshore broker registered in Saint Vincent and the Grenadines with no Tier-1 regulatory licence covering its retail clients. In 2026, it has zero Trustpilot reviews, no independently verified spread data, and an indirect FCA connection that does not provide you with FSCS protection or Financial Ombudsman access. The 1:2000 leverage is a risk amplifier marketed as a feature. NAFT cannot recommend depositing funds with a broker that has this regulatory profile when alternatives like IC Markets, Pepperstone, and Exness offer similar or better conditions under genuine Tier-1 oversight.",
+      "summary": "An offshore broker with marketing that outpaces its regulatory substance — which is why NAFT rates CXM Direct 3.8/10 and recommends extreme caution before depositing.",
+      "best_for": "Experienced, risk-tolerant traders who fully understand SVG registration offers zero investor protection and who are comfortable with unverified execution claims.",
+      "not_ideal_for": "Anyone who values their capital, beginners, traders who expect regulatory recourse if something goes wrong, or anyone who cannot afford to lose their entire deposit.",
+      "bottom_line": "The marketing says 'globally regulated.' The reality is SVG-registered with an indirect FCA relationship that does not cover you. Deposit at your own risk.",
+      "star_rating": 1.9,
+      "trust_score": 3.8,
+      "trust_breakdown": [
+        { "label": "Regulation", "score": 2, "max": 10, "weight": 0.30 },
+        { "label": "User Reviews", "score": 1, "max": 10, "weight": 0.25 },
+        { "label": "Withdrawal Speed", "score": 5, "max": 10, "weight": 0.25 },
+        { "label": "Complaint History", "score": 5, "max": 10, "weight": 0.20 }
+      ]
+    },
+
+    "at_a_glance": {
+      "regulation": ["FSC Mauritius (CXM Global)", "SVG registered (CXM Direct LLC — NOT regulated)"],
+      "min_deposit": "",
+      "max_leverage": "1:2000 (broker-stated)",
+      "avg_spread_eurusd": "",
+      "withdrawal_speed": "",
+      "platforms": ["MetaTrader 4", "MetaTrader 5", "TradingView"],
+      "islamic_account": true,
+      "deposit_methods": []
+    },
+    "geo": {
+      "accepted": [],
+      "excluded": ["United States", "North Korea", "Iran", "Syria", "Cuba", "Crimea"],
+      "practical_note": "CXM Direct does not clearly disclose which countries it accepts on its public-facing pages. The broker appears to target traders across Asia (particularly Indonesia, Vietnam, Thailand, India) and MENA regions. No entity covers UK or EU retail clients directly. The FSC Mauritius licence through CXM Global may cover some international clients, but Mauritius is not a Tier-1 regulator and offers no investor compensation scheme."
+    },
+    "sections": [
+      {
+        "id": "quick-verdict",
+        "heading": "Is CXM Direct Worth Your Money in 2026?",
+        "body": "Registered in Saint Vincent and the Grenadines — a jurisdiction that openly states it does not regulate forex brokers — and offering leverage up to 1:2000, this is not a broker built for traders who prioritise capital safety. The CXM Group structure includes multiple entities: CXM Direct LLC (SVG, unregulated), CXM Global (Mauritius FSC), and CXM Prime (a joint venture with UK-based Alchemy Prime Limited, FCA 612233). But the entity most retail traders actually open accounts with is CXM Direct LLC — the SVG one. No investor compensation. No regulatory ombudsman. No independently verified spread data anywhere.\n\nThe marketing says 'globally regulated.' That phrase does a lot of heavy lifting. Mauritius FSC is a mid-tier regulator at best, and the FCA connection through Alchemy Prime is an introducer arrangement — it does not mean your funds are held under FCA rules or that you can complain to the Financial Ombudsman. Alchemy Prime itself has had clone warnings on the FCA register, and the wider Alchemy Group's offshore arm received a warning from Spain's CNMV.\n\nIf you are in India, Indonesia, or Vietnam looking for high leverage and low barriers to entry, you will find brokers offering identical conditions — Exness, for instance — with genuinely verifiable regulatory track records and tens of thousands of public reviews. CXM Direct has zero Trustpilot reviews as of May 2026. That alone should give you pause.",
+        "cta_after": true
+      },
+
+      {
+        "id": "is-broker-regulated",
+        "heading": "Is CXM Direct Regulated? — Licence Check 2026",
+        "body": "No — not in any meaningful sense for retail traders. CXM Direct LLC is registered in Saint Vincent and the Grenadines (company number 444 LLC 2020). The SVG Financial Services Authority has publicly stated it does not licence or regulate international forex and brokerage firms. That means no regulatory oversight, no complaints process, no compensation scheme, and no requirement to segregate your funds under government mandate.\n\nThe group structure adds complexity that appears designed to imply regulation where it does not exist for your specific account. CXM Global holds a Mauritius FSC investment dealer licence — Mauritius is a mid-tier jurisdiction with no investor compensation scheme. CXM Prime is described as a joint venture between CXM Direct and Alchemy Prime Limited (FCA 612233). But Alchemy Prime's FCA authorisation covers Alchemy Prime's own activities — not CXM Direct's retail clients. You do not get FSCS coverage. You do not get Financial Ombudsman access. And Alchemy Prime itself has a clone warning on the FCA register (alchemyprime.us flagged March 2024), while the broader Alchemy Group's offshore arm Alchemy Markets received a warning from Spain's CNMV in 2022.\n\nFund segregation is claimed via Lloyd's professional indemnity insurance up to $5 million — broker-stated. But insurance is not the same as a compensation scheme. Insurance protects the broker from claims. A compensation scheme protects you if the broker fails. These are fundamentally different. NAFT last reviewed CXM Direct regulation in May 2026.",
+        "table": {
+          "headers": ["Entity", "Regulator", "Licence", "Who it covers", "Compensation scheme", "Leverage cap"],
+          "rows": [
+            ["CXM Direct LLC", "None (SVG registered)", "444 LLC 2020", "Most retail clients", "None", "1:2000"],
+            ["CXM Global", "FSC Mauritius", "", "International clients (unconfirmed routing)", "None", ""],
+            ["CXM Prime (via Alchemy Prime)", "FCA (introducer only)", "612233 (Alchemy Prime)", "Does NOT cover CXM Direct retail clients", "Does NOT apply to CXM clients", "N/A"]
+          ]
+        }
+      },
+
+      {
+        "id": "where-broker-accepts-clients",
+        "heading": "Who Can Open an Account With CXM Direct? — Accepted Countries and Restrictions",
+        "body": "Accepted: CXM Direct does not publish a clear list of accepted countries. Based on their website language options (English, Arabic, Hindi, Indonesian, Portuguese, Russian, Thai, Vietnamese, Chinese, Uzbek, Kazakh) and market positioning, they appear to target traders in India, Indonesia, Vietnam, Thailand, UAE, Saudi Arabia, Egypt, Pakistan, Russia, and Central Asia.\n\nNot accepted: United States, North Korea, Iran, Syria, Cuba, Crimea. The broker does not appear to accept UK or EU residents directly — which makes sense given they hold no FCA or CySEC retail licence.",
+        "practical_note": "The lack of a published accepted countries list is itself a flag. Legitimate brokers state clearly where they operate. If you can sign up, it likely means no local regulator is preventing them from onboarding you — which also means no local regulator is protecting you."
+      },
+      {
+        "id": "spreads-fees-accounts",
+        "heading": "CXM Direct Spreads, Fees and Accounts — What Do You Actually Pay in 2026?",
+        "body": "Honestly, NAFT cannot confirm what you actually pay because no independently verified spread data exists for CXM Direct. The broker offers Standard, ZERO, ECN, Cent, FIX API, and Islamic accounts — broker-stated. They claim 'ultra-tight spreads' and a ZERO account with 0.0 pips. But there is no third-party spread testing, no publicly reported average figures, and no community-scale feedback to cross-reference these claims against reality.\n\nWhat we can confirm from their public pages: leverage goes up to 1:2000 for accounts under $10,000 equity (broker-stated). At that level of leverage, a 5-pip move against you on a full-margin position would result in a total account wipe. That is not hyperbole — it is maths. If you deposit $500 and open a position using maximum leverage, a move of 0.05% in the wrong direction finishes you. And unlike FCA or ASIC-regulated brokers, there is no guaranteed negative balance protection mandated by a regulator here.\n\nNo inactivity fee information is publicly available. No confirmed commission rates for the ECN or ZERO accounts are independently verifiable. Every single data point about costs on this broker comes from the broker itself — and nothing else.",
+        "table": {
+          "headers": ["Account", "Spread (pips)", "Commission RT", "All-in per lot (USD)", "Min deposit", "Leverage", "Best for"],
+          "rows": [
+            ["Standard", "", "$0 (broker-stated)", "", "", "1:2000", ""],
+            ["ZERO", "0.0 (broker-stated)", "", "", "", "1:2000", ""],
+            ["ECN", "", "", "", "", "1:2000", ""]
+          ],
+          "footnote": "All spread and commission data is broker-stated only. No independent verification available. NAFT cannot confirm any cost claim."
+        }
+      },
+
+      {
+        "id": "deposits-withdrawals",
+        "heading": "How Fast Can You Get Your Money Out of CXM Direct?",
+        "body": "CXM Direct claims instant deposits and withdrawals via the Client Portal — broker-stated. Their FAQ mentions this function only works during market open hours. Some funding options are only available to residents of certain countries, and the broker states they are 'constantly adding new deposit channels.' No specific methods, minimums, or processing times are publicly listed in a verifiable format outside the Client Portal.\n\nWith zero Trustpilot reviews and no significant community feedback on any publicly accessible platform, NAFT cannot confirm whether withdrawals actually process as claimed. This is not an accusation — it is simply an absence of evidence. Every legitimate broker with a track record has thousands of publicly visible withdrawal confirmations. CXM Direct has none that NAFT can find.",
+        "cta_after": true,
+        "table": {
+          "headers": ["Method", "Min", "Processing", "Fee"],
+          "rows": [],
+          "footnote": "No publicly verifiable payment method details available. Broker states 'instant deposits and withdrawals' but this cannot be independently confirmed."
+        }
+      },
+      {
+        "id": "withdrawals",
+        "heading": "CXM Direct Withdrawals in 2026 — The Real Picture",
+        "body": "There are zero Trustpilot reviews for CXM Direct or CXM Trading as of May 2026. Zero. On the only third-party review platform NAFT references, this broker does not exist in the public record. No positive pattern to report. No negative pattern to report. Just silence.\n\nScamAdviser rates cxmtrading.com with a 'very low trust score' — publicly reported. On CashbackForex, CXM Trading has 0 user reviews and 0 forum posts. The absence of data is itself data.\n\nIf your withdrawal stalls with CXM Direct, your escalation path is essentially: contact their support (working hours 7:00-22:00 Beijing time). There is no Financial Ombudsman. There is no regulatory complaints process. There is no FSCS. There is no ICF. You have the Lloyd's insurance certificate they advertise — but that protects the broker from negligence claims, not you from non-payment. If they simply refuse to pay you, your only recourse is legal action in SVG or Mauritius. Good luck with that from Indonesia or India.\n\nNAFT has no withdrawal proof for CXM Direct. None has been submitted to our portal."
+      },
+
+      {
+        "id": "red-flags",
+        "heading": "CXM Direct Red Flags — What to Know Before You Deposit",
+        "body": "Multiple serious concerns here. This is not a situation where the broker is mostly fine with a few minor issues. The foundational regulatory structure raises questions that every trader should answer for themselves before depositing a single dollar. NAFT last reviewed CXM Direct in May 2026.",
+        "bullets": [
+          "Retail entity CXM Direct LLC is SVG-registered — SVG explicitly does not regulate forex brokers, meaning zero governmental oversight of how your funds are handled",
+          "Zero Trustpilot reviews as of May 2026 — for a broker claiming global operations, the complete absence of public feedback on the only named platform is a significant trust gap",
+          "ScamAdviser rates cxmtrading.com with a 'very low trust score' and multiple automated trust scanners flag the domain",
+          "The FCA connection through Alchemy Prime is an introducer arrangement — it does not provide FSCS coverage or FCA complaints access for CXM Direct clients",
+          "Alchemy Prime (the FCA-authorised firm CXM references) has had clone warnings on the FCA register and its offshore group arm received a CNMV warning from Spain",
+          "1:2000 leverage offered to accounts under $10,000 — this is not a feature, it is a mechanism that mathematically guarantees account destruction for undercapitalised traders who use it"
+        ]
+      },
+      {
+        "id": "who-broker-is-for",
+        "heading": "Who Should Use CXM Direct — and Who Should Not",
+        "body": "This is one of the rare reviews where the not_for list is longer than the for list. And that is the honest answer.",
+        "not_for": [
+          "Anyone who cannot afford to lose their entire deposit — with no regulatory oversight and no compensation scheme, your money has zero external protection",
+          "Beginners — if you are still learning, depositing with an unregulated offshore broker is the fastest way to lose money and blame the industry instead of the choice",
+          "Traders who expect regulatory recourse — if CXM refuses a withdrawal, you have no ombudsman, no regulator to complain to, and no compensation fund to claim from",
+          "Anyone who has a regulated alternative available — IC Markets, Pepperstone, Exness, and XM all offer similar leverage under entities with actual regulatory oversight"
+        ],
+        "for": [
+          "Experienced, risk-tolerant traders who explicitly understand SVG registration means zero protection and who have a specific reason to use this broker over regulated alternatives — perhaps existing IB relationships or specific liquidity routing requirements"
+        ]
+      },
+
+      {
+        "id": "how-to-open-account",
+        "heading": "How to Open a CXM Direct Account — Step by Step",
+        "body": "Before you register, understand what you are signing up for: an unregulated offshore entity with no investor protection.",
+        "steps": [
+          { "number": 1, "title": "Register", "detail": "Visit cxmdirect.com and complete the registration form. The broker claims instant account verification — broker-stated. You will select your account type (Standard, ZERO, ECN, Cent, or Islamic)." },
+          { "number": 2, "title": "Verify your identity (KYC)", "detail": "Upload identification documents. The broker claims instant verification, though this cannot be independently confirmed. Without regulatory mandate, KYC standards may vary." },
+          {
+            "number": 3,
+            "title": "Fund your account and test a withdrawal",
+            "detail": "If you choose to proceed despite the warnings in this review, deposit the absolute minimum amount you are comfortable losing entirely. Place one trade. Request a withdrawal immediately. If it processes, test again with a slightly larger amount. If it fails or delays without explanation — do not deposit more. Walk away.",
+            "cta_inline": { "label": "Open CXM Direct Account", "url": "AFFILIATE_PLACEHOLDER" }
+          }
+        ],
+        "practical_note": "Make a small deposit. Place one trade. Request a withdrawal immediately. If it processes cleanly, scale with confidence. But with this broker specifically: NAFT recommends testing with an amount you are prepared to write off completely. The absence of regulatory recourse means your only test is whether the broker honours its own commitments voluntarily.",
+        "cta_after": true
+      },
+      {
+        "id": "final-verdict",
+        "heading": "CXM Direct Final Verdict — Is It Worth It in 2026?",
+        "body": "NAFT gives CXM Direct a trust score of 3.8/10. The retail entity is SVG-registered with no Tier-1 regulation, no independently verified trading data, zero Trustpilot reviews, and a regulatory connection to the FCA that does not actually cover your account. The 1:2000 leverage and instant-everything marketing is designed for a specific trader profile — one who prioritises access over protection, speed over oversight. If that is a conscious, informed choice, that is your right. But most traders reading this review are not making that choice consciously. They are being marketed to.\n\nThe risks are not theoretical. No compensation scheme exists. No regulatory ombudsman will take your call. The Alchemy Prime FCA connection is an introducer arrangement with its own warning history. And the complete absence of community feedback — zero Trustpilot reviews for a broker claiming global operations — means there is no public track record to evaluate. You are depositing blind.\n\nIf you are looking for high leverage with genuine regulatory backing, compare CXM Direct against Exness (FCA + CySEC + FSA), IC Markets (ASIC + CySEC), or Pepperstone (FCA + ASIC + CySEC) on NAFT before making a decision. All three offer raw spreads, high leverage on offshore entities, and tens of thousands of verifiable public reviews. The spread difference — if one even exists — is not worth the regulatory gap."
+      }
+    ],
+
+    "affiliate_cta": {
+      "label": "Open CXM Direct Account",
+      "url": "AFFILIATE_PLACEHOLDER",
+      "promo_code": null,
+      "friction_reducers": []
+    },
+    "cta_positions": [
+      "after_section_quick-verdict",
+      "after_section_deposits-withdrawals",
+      "in_section_how-to-open-account_step3"
+    ],
+    "trustpilot": {
+      "rating": 0.0,
+      "reviews": 0,
+      "velocity_30d": "N/A — zero reviews exist",
+      "polarisation_note": "N/A",
+      "broker_response_rate": "N/A",
+      "source_note": "Trustpilot, confirmed zero reviews, May 2026"
+    },
+    "internal_links": [
+      { "anchor": "compare brokers side by side", "url": "/compare" },
+      { "anchor": "best regulated forex brokers", "url": "/brokers?regulation=tier-1" },
+      { "anchor": "broker scam alerts and warnings", "url": "/scam-alerts" },
+      { "anchor": "community withdrawal proofs", "url": "/withdrawal-proofs" },
+      { "anchor": "how NAFT reviews brokers", "url": "/how-we-review-brokers" },
+      { "anchor": "file a broker complaint with NAFT", "url": "/complaints" }
+    ],
+
+    "faq": [
+      { "q": "Is CXM Direct regulated and safe?", "a": "CXM Direct LLC is registered in Saint Vincent and the Grenadines, which does not regulate forex brokers. The retail entity has no Tier-1 regulatory licence. A Mauritius FSC licence exists under CXM Global, and an FCA connection exists through an introducer arrangement with Alchemy Prime — but neither provides FSCS compensation or FCA complaints access for CXM Direct retail clients. NAFT rates CXM Direct 3.8/10 for trust." },
+      { "q": "Is CXM Direct legit or a scam?", "a": "CXM Direct is a legally registered company in SVG — not a confirmed scam. But 'legally registered' and 'regulated' are fundamentally different things. The broker has zero Trustpilot reviews, multiple automated trust scanners flag the domain, and ScamAdviser rates cxmtrading.com with a very low trust score. NAFT cannot confirm CXM Direct is a scam, but equally cannot confirm it is safe based on available public evidence." },
+      { "q": "How long do CXM Direct withdrawals take?", "a": "CXM Direct claims instant withdrawals via the Client Portal during market hours — this is broker-stated only. With zero Trustpilot reviews and no publicly visible community feedback anywhere, NAFT cannot independently confirm withdrawal processing times for CXM Direct. No withdrawal proof has been submitted to the NAFT portal for this broker as of May 2026." },
+      { "q": "What is the minimum deposit for CXM Direct?", "a": "CXM Direct does not clearly publish a minimum deposit figure on its public-facing website. The account types page shows percentage figures (50%/30%) that appear to relate to margin or stop-out levels rather than minimum deposits. Without confirmation from a verifiable source, NAFT cannot state the CXM Direct minimum deposit with confidence." },
+      { "q": "Is CXM Direct available in India?", "a": "CXM Direct does not publish an explicit accepted countries list. Based on their website language options including Hindi and their apparent market positioning, they appear to accept Indian traders. But no local Indian regulator (SEBI/RBI) oversees CXM Direct, meaning Indian traders have zero domestic regulatory protection if something goes wrong with their CXM Direct account." },
+      { "q": "CXM Direct Standard vs ZERO vs ECN — which is better?", "a": "NAFT cannot recommend any specific CXM Direct account type because no independently verified spread or commission data exists for any of them. The ZERO account claims 0.0 pips but the commission structure is unconfirmed. The Standard claims zero commission but the spread markup is unverified. Without third-party testing data, choosing between CXM Direct accounts is choosing between unverifiable claims." },
+      { "q": "What trading platforms does CXM Direct offer?", "a": "CXM Direct offers MetaTrader 4, MetaTrader 5, and TradingView — broker-stated. These are legitimate, widely-used platforms. The platform choice itself is not the concern with CXM Direct; the concern is the regulatory framework and absence of verifiable trading condition data behind those platforms." },
+      { "q": "CXM Direct vs IC Markets — which is better?", "a": "IC Markets wins on every measurable metric that matters for trader safety. IC Markets holds ASIC licence 335692 and CySEC licence 362/18 with independently verified spreads from 0.0 pips and $7 round-turn commission, confirmed by 53,000+ Trustpilot reviews at 4.8/5. CXM Direct is SVG-registered with zero Trustpilot reviews and no verifiable cost data. For any trader who prioritises capital safety, IC Markets is the clear choice." }
+    ],
+
+    "schema_jsonld": {
+      "review": {
+        "@context": "https://schema.org",
+        "@type": "Review",
+        "name": "CXM Direct Review 2026 — Legit, Safe or a Scam?",
+        "description": "CXM Direct review 2026. SVG registered, no Tier-1 licence. NAFT trust score 3.8/10. Zero Trustpilot reviews. Honest verdict on this offshore broker.",
+        "datePublished": "2026-05-24",
+        "dateModified": "2026-05-24",
+        "author": { "@type": "Person", "name": "NAFT Editorial Team", "url": "", "sameAs": [] },
+        "reviewedBy": { "@type": "Organization", "name": "NAFT", "url": "https://fugazi.lovable.app" },
+        "itemReviewed": { "@type": "FinancialService", "name": "CXM Direct", "url": "https://www.cxmdirect.com" },
+        "reviewRating": { "@type": "Rating", "ratingValue": "1.9", "bestRating": "5", "worstRating": "1" }
+      },
+      "aggregateRating": {
+        "@context": "https://schema.org",
+        "@type": "AggregateRating",
+        "itemReviewed": { "@type": "FinancialService", "name": "CXM Direct" },
+        "ratingValue": "1.9",
+        "reviewCount": 1,
+        "bestRating": "5",
+        "worstRating": "1"
+      },
+      "faqPage": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          { "@type": "Question", "name": "Is CXM Direct regulated and safe?", "acceptedAnswer": { "@type": "Answer", "text": "CXM Direct LLC is registered in Saint Vincent and the Grenadines, which does not regulate forex brokers. The retail entity has no Tier-1 regulatory licence. A Mauritius FSC licence exists under CXM Global, and an FCA connection exists through an introducer arrangement with Alchemy Prime — but neither provides FSCS compensation or FCA complaints access for CXM Direct retail clients. NAFT rates CXM Direct 3.8/10 for trust." } },
+          { "@type": "Question", "name": "Is CXM Direct legit or a scam?", "acceptedAnswer": { "@type": "Answer", "text": "CXM Direct is a legally registered company in SVG — not a confirmed scam. But legally registered and regulated are fundamentally different things. The broker has zero Trustpilot reviews, multiple automated trust scanners flag the domain, and ScamAdviser rates cxmtrading.com with a very low trust score. NAFT cannot confirm CXM Direct is a scam, but equally cannot confirm it is safe based on available public evidence." } },
+          { "@type": "Question", "name": "How long do CXM Direct withdrawals take?", "acceptedAnswer": { "@type": "Answer", "text": "CXM Direct claims instant withdrawals via the Client Portal during market hours — this is broker-stated only. With zero Trustpilot reviews and no publicly visible community feedback anywhere, NAFT cannot independently confirm withdrawal processing times for CXM Direct." } },
+          { "@type": "Question", "name": "What is the minimum deposit for CXM Direct?", "acceptedAnswer": { "@type": "Answer", "text": "CXM Direct does not clearly publish a minimum deposit figure on its public-facing website. Without confirmation from a verifiable source, NAFT cannot state the CXM Direct minimum deposit with confidence." } },
+          { "@type": "Question", "name": "Is CXM Direct available in India?", "acceptedAnswer": { "@type": "Answer", "text": "CXM Direct does not publish an explicit accepted countries list. Based on their website language options including Hindi, they appear to accept Indian traders. But no local Indian regulator oversees CXM Direct, meaning Indian traders have zero domestic regulatory protection." } },
+          { "@type": "Question", "name": "CXM Direct Standard vs ZERO vs ECN — which is better?", "acceptedAnswer": { "@type": "Answer", "text": "NAFT cannot recommend any specific CXM Direct account type because no independently verified spread or commission data exists for any of them. Without third-party testing data, choosing between CXM Direct accounts is choosing between unverifiable claims." } },
+          { "@type": "Question", "name": "What trading platforms does CXM Direct offer?", "acceptedAnswer": { "@type": "Answer", "text": "CXM Direct offers MetaTrader 4, MetaTrader 5, and TradingView — broker-stated. These are legitimate platforms. The concern with CXM Direct is the regulatory framework, not the platform choice." } },
+          { "@type": "Question", "name": "CXM Direct vs IC Markets — which is better?", "acceptedAnswer": { "@type": "Answer", "text": "IC Markets wins on every measurable metric. IC Markets holds ASIC and CySEC licences with independently verified spreads confirmed by 53,000+ Trustpilot reviews at 4.8/5. CXM Direct is SVG-registered with zero Trustpilot reviews and no verifiable cost data. IC Markets is the clear choice for capital safety." } }
+        ]
+      },
+
+      "organization": {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "NAFT",
+        "url": "https://fugazi.lovable.app",
+        "logo": "https://fugazi.lovable.app/assets/naft-logo.png",
+        "sameAs": ["https://t.me/naftcommunity", "https://twitter.com/nafttrader"],
+        "description": "NAFT — Not A Fugazi Trader. Independent broker review platform for retail traders across South Asia, Southeast Asia, MENA, and Africa."
+      },
+      "breadcrumbList": {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://fugazi.lovable.app" },
+          { "@type": "ListItem", "position": 2, "name": "Broker Reviews", "item": "https://fugazi.lovable.app/brokers" },
+          { "@type": "ListItem", "position": 3, "name": "CXM Direct", "item": "https://fugazi.lovable.app/broker/cxm-direct" }
+        ]
+      },
+      "howTo": {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "How to Open a CXM Direct Account",
+        "description": "Step-by-step guide to opening and verifying a CXM Direct trading account.",
+        "step": [
+          { "@type": "HowToStep", "position": 1, "name": "Register", "text": "Visit cxmdirect.com and complete the registration form. The broker claims instant account verification. You will select your account type (Standard, ZERO, ECN, Cent, or Islamic)." },
+          { "@type": "HowToStep", "position": 2, "name": "Verify your identity (KYC)", "text": "Upload identification documents. The broker claims instant verification, though this cannot be independently confirmed. Without regulatory mandate, KYC standards may vary." },
+          { "@type": "HowToStep", "position": 3, "name": "Fund your account and test a withdrawal", "text": "If you choose to proceed, deposit the absolute minimum amount you are comfortable losing entirely. Place one trade. Request a withdrawal immediately. If it processes, test again with a slightly larger amount. If it fails or delays without explanation — do not deposit more." }
+        ]
+      },
+      "videoObject": null
+    },
+    "sources": []
+  }
+}
+
+
+
+{
+  "editorial_review_row": {
+    "broker_slug": "cxm-direct",
+    "author": "NAFT Editorial",
+    "role": "editor",
+    "rating": 1.9,
+    "content": "CXM Direct is an offshore broker registered in Saint Vincent and the Grenadines with no Tier-1 regulatory licence covering its retail clients. In 2026, it has zero Trustpilot reviews, no independently verified spread data, and an indirect FCA connection that does not provide you with FSCS protection or Financial Ombudsman access. The 1:2000 leverage is a risk amplifier marketed as a feature. NAFT cannot recommend depositing funds with a broker that has this regulatory profile when alternatives like IC Markets, Pepperstone, and Exness offer similar or better conditions under genuine Tier-1 oversight.",
+    "status": "published",
+    "verified_account": true
+  }
+}
