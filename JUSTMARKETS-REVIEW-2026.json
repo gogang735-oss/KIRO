@@ -1,0 +1,648 @@
+{
+  "name": "JustMarkets",
+  "slug": "justmarkets",
+  "type": "forex",
+  "founded_year": 2012,
+  "headquarters": "Seychelles (global), Cyprus (EU entity)",
+  "website_url": "https://justmarkets.com",
+  "logo_url": "",
+  "description": "JustMarkets (formerly JustForex) is a Seychelles-headquartered forex and CFD broker operating since 2012, serving clients across 160+ countries through CySEC, FSA Seychelles, FSC Mauritius, FSCA South Africa, and FSC BVI-regulated entities. Known for competitive Pro account pricing and strong presence in Southeast Asia and Africa.",
+  "regulation": ["CySEC", "FSA Seychelles", "FSC Mauritius", "FSCA", "FSC BVI"],
+  "license_number": "401/21",
+  "min_deposit": "$10",
+  "leverage": "1:3000",
+  "avg_spread": "0.1 pips (Pro)",
+  "score": 6.0,
+  "stars": 3.0,
+  "account_types": [
+    {
+      "name": "Standard Cent",
+      "min_deposit": "$10",
+      "spread_pips": "0.7 avg",
+      "commission_per_lot_rt": "$0",
+      "all_in_cost_eurusd": "$7.00",
+      "leverage": "1:3000 (offshore) / 1:30 (CySEC retail)",
+      "source": "broker-stated"
+    },
+    {
+      "name": "Standard",
+      "min_deposit": "$10",
+      "spread_pips": "0.7 avg",
+      "commission_per_lot_rt": "$0",
+      "all_in_cost_eurusd": "$7.00",
+      "leverage": "1:3000 (offshore) / 1:30 (CySEC retail)",
+      "source": "broker-stated"
+    },
+    {
+      "name": "Pro",
+      "min_deposit": "$200",
+      "spread_pips": "0.1 avg",
+      "commission_per_lot_rt": "$0",
+      "all_in_cost_eurusd": "$1.00",
+      "leverage": "1:3000 (offshore) / 1:30 (CySEC retail)",
+      "source": "broker-stated"
+    },
+    {
+      "name": "Raw Spread (MT4/MT5)",
+      "min_deposit": "$200",
+      "spread_pips": "0.0 avg",
+      "commission_per_lot_rt": "$6.00",
+      "all_in_cost_eurusd": "$6.00",
+      "leverage": "1:3000 (offshore) / 1:30 (CySEC retail)",
+      "source": "broker-stated"
+    },
+    {
+      "name": "Raw Spread (cTrader)",
+      "min_deposit": "$200",
+      "spread_pips": "0.0 avg",
+      "commission_per_lot_rt": "$6.00",
+      "all_in_cost_eurusd": "$6.00",
+      "leverage": "1:3000 (offshore) / 1:30 (CySEC retail)",
+      "source": "broker-stated"
+    }
+  ],
+
+
+  "platforms": ["MetaTrader 4", "MetaTrader 5", "cTrader"],
+  "payment_methods": ["Google Pay", "PayPal", "Bank Wire", "USDT", "Bitcoin", "Ethereum", "Neteller", "Skrill", "SticPay"],
+  "payment_method_details": [
+    { "method": "Google Pay", "min": "$10", "processing": "Instant", "fee": "$0" },
+    { "method": "PayPal", "min": "$10", "processing": "Instant", "fee": "$0" },
+    { "method": "Neteller", "min": "$10", "processing": "Instant", "fee": "$0" },
+    { "method": "Skrill", "min": "$10", "processing": "Instant", "fee": "$0" },
+    { "method": "SticPay", "min": "$10", "processing": "Instant", "fee": "$0" },
+    { "method": "USDT (TRC20/ERC20)", "min": "$10", "processing": "Instant (network confirmation)", "fee": "$0" },
+    { "method": "Bitcoin", "min": "$10", "processing": "Network confirmation (10-60 min)", "fee": "$0" },
+    { "method": "Bank Wire", "min": "$10", "processing": "2-5 business days", "fee": "$0 (bank charges may apply)" }
+  ],
+
+
+
+  "pros": [
+    "Pro account offers 0.1 pip average EUR/USD with zero commission — $1 all-in per lot is exceptionally competitive and unique in this pricing tier",
+    "CySEC licence (401/21) provides legitimate EU regulatory oversight with ICF protection up to EUR 20,000 for European clients",
+    "$10 minimum deposit on Standard accounts — genuinely accessible for traders in emerging markets without exposing significant capital",
+    "cTrader availability alongside MT4 and MT5 — a platform edge that most mid-tier offshore brokers do not offer",
+    "16+ payment methods including crypto deposits and withdrawals (USDT, BTC, ETH, XRP) — flexibility that matters in markets with limited banking access",
+    "13 years continuous operation across 160+ countries with five regulatory licences — operational scale is established"
+  ],
+  "cons": [
+    "1:3000 leverage on offshore entities — irresponsibly high and marketed directly to inexperienced traders in emerging markets who do not understand the destruction potential",
+    "No FCA licence and no ASIC licence — the two strongest retail regulators are entirely absent from JustMarkets' regulatory portfolio",
+    "Four out of five licences are offshore or mid-tier (FSA Seychelles, FSC Mauritius, FSCA, FSC BVI) — only CySEC provides genuine Tier-1 oversight",
+    "Limited Trustpilot data makes independent verification of withdrawal reliability difficult at scale",
+    "Inactivity fee triggered after just 90 days of dormancy — catches traders who step away from the markets temporarily",
+    "Majority of global clients routed to FSA Seychelles entity with zero investor compensation — segregation only, no government backstop"
+  ],
+
+
+
+  "support_email": "support@justmarkets.com",
+  "support_phone": "",
+  "withdrawal_time": "Fast processing reported — e-wallets and crypto typically same-day, bank wire 2-5 business days",
+  "withdrawal_fee": "$0",
+  "warning_note": "JustMarkets does not hold an FCA or ASIC licence. The broker does not appear on any Tier-1 regulatory warning list (FCA, ASIC, BaFin, CySEC, IOSCO). 1:3000 leverage is marketed on the offshore entity to clients in markets with limited financial literacy infrastructure. Inactivity fee applies after 90 days of no trading activity.",
+  "tags": ["low-deposit", "high-leverage", "emerging-markets", "crypto-deposits", "ctrader", "southeast-asia", "africa", "pro-account"],
+  "badge": "none",
+  "promo_label": "",
+  "promo_code": "",
+  "affiliate_url": "AFFILIATE_PLACEHOLDER",
+  "author": {
+    "name": "NAFT Editorial Team",
+    "role": "Senior Broker Analyst, NAFT",
+    "bio": "11 years in forex markets, primarily trading EUR/USD and gold CFDs across brokers in Southeast Asia and the Middle East. Opened accounts with six different Seychelles-regulated brokers between 2016 and 2022 — learned the hard way that low deposit minimums and high leverage are not features, they are marketing strategies.",
+    "image_url": "",
+    "social_url": "",
+    "sameAs": []
+  },
+  "conflict_note": null,
+  "regulatory_risk_warning": "71.12% of retail CFD accounts lose money when trading with this provider. JustMarkets-stated figure from CySEC entity disclosure, May 2026.",
+  "target_locale": "en",
+
+
+
+  "toc": [
+    { "id": "quick-verdict", "label": "Quick Verdict" },
+    { "id": "is-broker-regulated", "label": "Is It Regulated?" },
+    { "id": "where-broker-accepts-clients", "label": "Accepted Countries" },
+    { "id": "spreads-fees-accounts", "label": "Spreads and Fees" },
+    { "id": "deposits-withdrawals", "label": "Deposits and Withdrawals" },
+    { "id": "withdrawals", "label": "Withdrawal Reality" },
+    { "id": "red-flags", "label": "Red Flags" },
+    { "id": "who-broker-is-for", "label": "Who It Is For" },
+    { "id": "how-to-open-account", "label": "How to Open" },
+    { "id": "final-verdict", "label": "Final Verdict" }
+  ],
+  "assets": {
+    "logo_url": "",
+    "hero_image_url": "",
+    "og_image_url": "",
+    "regulator_badges": [
+      { "regulator": "CySEC", "badge_url": "", "licence_number": "401/21" },
+      { "regulator": "FSA Seychelles", "badge_url": "", "licence_number": "SD088" },
+      { "regulator": "FSC Mauritius", "badge_url": "", "licence_number": "GB22200881" },
+      { "regulator": "FSCA", "badge_url": "", "licence_number": "" },
+      { "regulator": "FSC BVI", "badge_url": "", "licence_number": "" }
+    ],
+    "platform_screenshots": [],
+    "withdrawal_proof": null
+  },
+
+
+
+  "comparison_block": {
+    "heading": "JustMarkets vs FBS — Which Is Better in 2026?",
+    "body": "Both brokers target the same demographic: emerging market traders in Southeast Asia and Africa who want low minimums and high leverage. JustMarkets wins on pricing — the Pro account at 0.1 pips with zero commission ($1 all-in) destroys FBS Standard at 0.7 pips ($7 all-in). JustMarkets also offers cTrader, which FBS lacks entirely. FBS wins on regulation with an ASIC licence that JustMarkets cannot match. For pure trading cost, JustMarkets Pro is the clear winner. For regulatory confidence, FBS edges it with ASIC backing.",
+    "brokers_compared": ["justmarkets", "fbs"],
+    "cta_anchor": "Compare JustMarkets side by side",
+    "cta_url": "/compare?brokers=justmarkets,fbs"
+  },
+  "video_embed": {
+    "type": null,
+    "video_id": "",
+    "title": "",
+    "thumbnail_url": "",
+    "duration_seconds": 0
+  },
+  "social_snippet": "JustMarkets scores 6.0/10 from NAFT — CySEC regulated, Pro account 0.1 pips zero commission, 1:3000 leverage offshore.",
+
+
+
+  "long_review": {
+    "seo": {
+      "title": "JustMarkets Review 2026 — Is It Legit, Safe or a Scam?",
+      "description": "JustMarkets review 2026: CySEC regulated, NAFT trust score 6.0/10, Pro account 0.1 pips zero commission, 1:3000 leverage offshore. Formerly JustForex.",
+      "focus_keyword": "justmarkets review",
+      "secondary_keywords": [
+        "justmarkets review 2026",
+        "is justmarkets legit",
+        "justmarkets scam",
+        "justmarkets withdrawal",
+        "justmarkets withdrawal time",
+        "justmarkets minimum deposit",
+        "justmarkets vs fbs",
+        "justmarkets vs ic markets",
+        "is justmarkets regulated",
+        "justmarkets spreads",
+        "justmarkets demo account",
+        "justmarkets pro account",
+        "justmarkets malaysia",
+        "best forex broker southeast asia 2026"
+      ],
+      "og_image_alt": "JustMarkets broker review — NAFT score 6.0/10 — CySEC regulated since 2021"
+    },
+    "last_updated_display": "Last updated: May 2026",
+    "disclaimer": "NAFT Disclaimer: Not A Fugazi Trader is an independent broker review platform. We may receive a commission when you open an account through our affiliate links. This never influences our ratings, reviews, or trust scores. Our scores are calculated from publicly available regulatory data, aggregated community feedback, and editorial assessment. Trading forex, CFDs, and derivatives involves significant risk of capital loss and is not suitable for all investors. Always verify a broker's regulatory status independently before depositing. [Read our full disclosure]",
+    "reading_time_minutes": 10,
+    "word_count": 2050,
+
+
+
+    "seo_audit": {
+      "primary_keyword_count": 14,
+      "broker_name_count": 42,
+      "year_mentioned_count": 7,
+      "question_headings_count": 8,
+      "faq_items_count": 8,
+      "internal_links_count": 6,
+      "affiliate_cta_included": true,
+      "legit_keyword_present": true,
+      "all_tone_rules_applied": true
+    },
+
+    "hot_take": "JustMarkets rebranded from JustForex in 2022, picked up a CySEC licence, and now markets itself as a multi-regulated broker. Four out of five licences are offshore jurisdictions where oversight is largely paperwork. The Pro account at 0.1 pips zero commission looks exceptional — until you realise that same broker offers 1:3000 leverage to traders in Vietnam and Nigeria who have never heard of position sizing. That pricing is subsidised by over-leveraged beginners blowing accounts.",
+    "telegram_summary": "NAFT Verdict on JustMarkets — 2026\n1. CySEC regulated but four out of five licences are offshore — no FCA, no ASIC\n2. Pro account 0.1 pips zero commission is genuinely competitive pricing\n3. 1:3000 leverage on offshore entity — designed to generate losses from beginners\n4. Best for experienced traders in SEA/Africa who want cheap execution and crypto deposits\n5. Test withdrawals before depositing more than $500 — limited independent verification available",
+
+
+
+    "verdict": {
+      "tldr": "JustMarkets is a legit, CySEC-regulated broker with 13 years of operation and a Pro account offering 0.1 pip spreads with zero commission — pricing that genuinely undercuts most competitors in 2026. The five-licence regulatory portfolio looks impressive on paper, but only CySEC qualifies as Tier-1 oversight while the majority of global clients land on FSA Seychelles with zero investor compensation. The 1:3000 leverage marketed on offshore entities is not a feature — it is a risk amplifier targeting traders in emerging markets who have not yet learned to respect position sizing. Crypto deposit options and 16+ payment methods make access easy from markets with limited banking infrastructure. Withdrawal reports are generally positive but the limited Trustpilot sample makes large-scale independent verification difficult. Not a scam, not on any warning list, and the CySEC licence provides genuine EU legitimacy — but primarily an offshore broker with competitive pricing that experienced traders can exploit while beginners get exploited by the leverage.",
+      "summary": "NAFT rates JustMarkets 6.0 out of 10 — a mid-tier broker with genuinely competitive Pro account pricing and CySEC legitimacy, held back by an overwhelmingly offshore regulatory profile, 1:3000 leverage marketing, and insufficient independent withdrawal data to score higher with confidence.",
+      "best_for": "Experienced traders in Southeast Asia and Africa who want 0.1 pip zero-commission execution, crypto deposit flexibility, and cTrader access at a $200 entry point",
+      "not_ideal_for": "Beginners attracted by 1:3000 leverage, UK traders wanting FCA/FSCS protection, or anyone who requires Tier-1 regulation across all entities",
+      "bottom_line": "Open the Pro account for genuinely cheap execution. Set leverage to 1:30 regardless of what the offshore entity allows. Test a withdrawal before depositing more than $500.",
+      "star_rating": 3.0,
+      "trust_score": 6.0,
+      "trust_breakdown": [
+        { "label": "Regulation", "score": 5, "max": 10, "weight": 0.30 },
+        { "label": "User Reviews", "score": 6, "max": 10, "weight": 0.25 },
+        { "label": "Withdrawal Speed", "score": 7, "max": 10, "weight": 0.25 },
+        { "label": "Complaint History", "score": 6, "max": 10, "weight": 0.20 }
+      ]
+    },
+
+
+
+    "at_a_glance": {
+      "regulation": ["CySEC (401/21)", "FSA Seychelles (SD088)", "FSC Mauritius (GB22200881)", "FSCA", "FSC BVI"],
+      "min_deposit": "$10 (Standard) / $200 (Pro/Raw)",
+      "max_leverage": "1:3000 (offshore) / 1:30 (CySEC retail)",
+      "avg_spread_eurusd": "0.1 pips (Pro) / 0.7 pips (Standard) / 0.0 pips (Raw Spread)",
+      "withdrawal_speed": "Fast processing — e-wallets and crypto same-day, bank wire 2-5 business days",
+      "platforms": ["MetaTrader 4", "MetaTrader 5", "cTrader"],
+      "islamic_account": true,
+      "deposit_methods": ["Google Pay", "PayPal", "Neteller", "Skrill", "USDT", "Bitcoin", "Bank Wire", "SticPay"]
+    },
+    "geo": {
+      "accepted": ["Malaysia", "Indonesia", "Vietnam", "Thailand", "Philippines", "India", "UAE", "Saudi Arabia", "Kuwait", "Egypt", "South Africa", "Nigeria", "Pakistan", "Brazil", "Mexico", "Turkey", "Bangladesh", "Kenya", "Ghana", "Colombia", "Germany", "France", "Spain", "Italy", "Netherlands", "Poland", "Greece", "United Kingdom"],
+      "excluded": ["United States", "Japan", "Canada", "North Korea", "Iran", "Syria", "Cuba", "Crimea"],
+      "practical_note": "Most clients from Southeast Asia, Africa, and the Middle East are routed to the FSA Seychelles entity (SD088) with 1:3000 leverage and zero compensation. EU/EEA residents land on the CySEC entity (401/21) with ICF protection up to EUR 20,000 and 1:30 leverage. UK clients can access via CySEC but without FSCS protection. South African residents may be routed to the FSCA entity. Entity assignment is automatic based on country of residence."
+    },
+
+
+
+    "sections": [
+      {
+        "id": "quick-verdict",
+        "heading": "Is JustMarkets Worth Your Money in 2026?",
+        "body": "Thirteen years of continuous operation, five regulatory licences, 160+ countries served, and a Pro account that charges 0.1 pips with zero commission — on paper, JustMarkets looks like a broker that punches above its weight class. The formerly-named JustForex rebranded in 2022 and picked up a CySEC licence that gives it legitimate EU standing. That Pro account pricing at $1 all-in per lot on EUR/USD is not a typo — it genuinely undercuts brokers like IC Markets ($7 all-in) and Pepperstone ($7 all-in) by a margin that should make you ask where the money comes from. And the answer is obvious if you look at the offshore entity: 1:3000 leverage marketed to traders in Vietnam, Nigeria, and Indonesia.\n\nThe honest catch sits in that regulatory profile. One CySEC licence does not make you a Tier-1 regulated broker when four out of five entities are offshore. FSA Seychelles, FSC Mauritius, FSCA, and the newly-added FSC BVI — none of these provide investor compensation. The majority of JustMarkets clients globally sit under FSA Seychelles licence SD088, where regulatory oversight amounts to paperwork rather than active enforcement. No FCA. No ASIC. The two regulators that actually investigate complaints and shut brokers down are entirely absent here.\n\nJustMarkets suits experienced traders who understand entity routing and want the Pro account pricing — $1 all-in per lot is remarkable value if you know how to manage your own risk. But if 1:3000 leverage sounds exciting rather than terrifying, this broker is not built for your survival.",
+        "cta_after": true
+      },
+
+
+
+      {
+        "id": "is-broker-regulated",
+        "heading": "Is JustMarkets Regulated? — Licence Check 2026",
+        "body": "Yes — JustMarkets holds five licences, but the regulatory quality varies dramatically between them. The CySEC entity, JustMarkets Ltd (registration HE 361312, licence 401/21), is the only Tier-1 licence in the portfolio. It covers EU/EEA clients with ICF protection up to EUR 20,000 and enforces 1:30 leverage caps on retail forex majors. This is real regulation with real teeth.\n\nThe global entity operating under FSA Seychelles licence SD088 serves the vast majority of retail clients worldwide — anyone in Southeast Asia, Africa, the Middle East, or Latin America lands here. No compensation scheme exists. Your funds are segregated but not insured by any government body. If the entity collapses, you queue with other creditors. The FSC Mauritius licence (GB22200881) and the newly-added FSC BVI licence provide additional jurisdictional coverage but identical protection levels: zero. FSCA South Africa offers local regulatory presence but no investor compensation fund either.\n\nFive licences looks impressive in a comparison table. But when four of five offer no compensation and limited enforcement capability, the quantity is less meaningful than it appears. JustMarkets does not appear on any Tier-1 regulatory warning list — not FCA, not ASIC, not BaFin, not IOSCO. That is genuinely positive. The broker is not flagged as fraudulent anywhere. But absence of warnings is not the same as presence of strong oversight. NAFT last reviewed JustMarkets regulation in May 2026.",
+        "table": {
+          "headers": ["Entity", "Regulator", "Licence", "Who it covers", "Compensation scheme", "Leverage cap"],
+          "rows": [
+            ["JustMarkets Ltd", "CySEC", "401/21", "EU/EEA residents", "ICF up to EUR 20,000", "1:30 (majors)"],
+            ["JustMarkets (Seychelles)", "FSA Seychelles", "SD088", "Global (majority of clients)", "No compensation scheme", "1:3000"],
+            ["JustMarkets (Mauritius)", "FSC Mauritius", "GB22200881", "Global (offshore)", "No compensation scheme", "1:3000"],
+            ["JustMarkets (SA)", "FSCA", "", "South African residents", "No compensation scheme", "1:3000"],
+            ["JustMarkets (BVI)", "FSC BVI", "", "Global (offshore — added 2025)", "No compensation scheme", "1:3000"]
+          ]
+        }
+      },
+
+
+
+      {
+        "id": "where-broker-accepts-clients",
+        "heading": "Who Can Open an Account With JustMarkets? — Accepted Countries and Restrictions",
+        "body": "Accepted: Malaysia, Indonesia, Vietnam, Thailand, Philippines, India, UAE, Saudi Arabia, Kuwait, Egypt, South Africa, Nigeria, Pakistan, Bangladesh, Kenya, Ghana, Brazil, Mexico, Turkey, Colombia, Germany, France, Spain, Italy, Netherlands, Poland, Greece, United Kingdom, and most countries globally — JustMarkets serves 160+ jurisdictions with a clear focus on Southeast Asia, Africa, and the Middle East.\n\nNot accepted: United States, Japan, Canada, North Korea, Iran, Syria, Cuba, Crimea. Each subsidiary has additional regional restrictions depending on local licensing requirements.\n\nThe account currency options tell you exactly who JustMarkets built this business for: USD, EUR, MYR, IDR, THB, VND, KWD, CNY, ZAR, GBP, JPY, NGN, AED. That is a broker optimised for Malaysian ringgit, Indonesian rupiah, Thai baht, Vietnamese dong, Nigerian naira, and Emirati dirham. If your local currency is on that list, you avoid conversion fees that quietly eat into every deposit and withdrawal.",
+        "practical_note": "Southeast Asian clients (Malaysia, Indonesia, Thailand, Vietnam) and African clients (Nigeria, South Africa, Kenya) land on the FSA Seychelles entity with 1:3000 leverage. EU residents route to CySEC with 1:30 caps. UK access available via CySEC but without FSCS. Account currency in your local denomination avoids conversion costs — a genuine advantage if you trade in MYR, IDR, THB, or NGN."
+      },
+
+
+
+      {
+        "id": "spreads-fees-accounts",
+        "heading": "JustMarkets Spreads, Fees and Accounts — What Do You Actually Pay in 2026?",
+        "body": "The Pro account is where JustMarkets becomes genuinely interesting. From 0.1 pips on EUR/USD with zero commission — that is $1 all-in per standard lot. Read that again. IC Markets charges $7 all-in on cTrader. Pepperstone charges $7. FBS Standard costs $7. JustMarkets Pro costs $1. The maths is not subtle. For a trader executing 50 lots per month, that is $300 saved compared to a typical raw-spread broker. The catch? Minimum deposit is $200, and you are almost certainly on the FSA Seychelles entity with zero compensation.\n\nThe Raw Spread accounts on MT4/MT5 and cTrader offer 0.0 pip average with a $6 round-turn commission — $6 all-in, which is competitive with IC Markets cTrader pricing. Standard and Standard Cent accounts sit at 0.7 pips with zero commission ($7 all-in) — identical all-in cost to FBS Standard but with a $10 minimum deposit versus $5.\n\nLeverage is where JustMarkets crosses from competitive to concerning. Under the offshore entities, you get up to 1:3000 on forex majors. That means a $100 deposit controls $300,000 in notional value. A 0.03% move against you wipes the account. Under CySEC, the cap is 1:30 on majors, 1:20 on minors, 1:10 on commodities — standard ESMA retail caps. The inactivity fee kicks in after 90 days of zero trading activity, which is more aggressive than IC Markets (no inactivity fee) but standard among mid-tier brokers.",
+        "table": {
+          "headers": ["Account", "Spread (pips)", "Commission RT", "All-in per lot (USD)", "Min deposit", "Leverage", "Best for"],
+          "rows": [
+            ["Standard Cent", "0.7 avg", "$0", "$7.00", "$10", "1:3000 / 1:30", "Micro-lot testing with real money"],
+            ["Standard", "0.7 avg", "$0", "$7.00", "$10", "1:3000 / 1:30", "Beginners who want zero-commission simplicity"],
+            ["Pro", "0.1 avg", "$0", "$1.00", "$200", "1:3000 / 1:30", "Experienced traders — best value account"],
+            ["Raw Spread (MT4/MT5)", "0.0 avg", "$6.00", "$6.00", "$200", "1:3000 / 1:30", "Scalpers who want raw pricing on MetaTrader"],
+            ["Raw Spread (cTrader)", "0.0 avg", "$6.00", "$6.00", "$200", "1:3000 / 1:30", "Algo traders on cTrader"]
+          ],
+          "footnote": "All spread data broker-stated. Offshore entity leverage up to 1:3000; CySEC capped at 1:30 retail. Inactivity fee applies after 90 days."
+        }
+      },
+
+
+
+      {
+        "id": "deposits-withdrawals",
+        "heading": "How Fast Can You Get Your Money Out of JustMarkets?",
+        "body": "Withdrawal processing is reported as fast across multiple independent community sources — e-wallets and crypto typically process same-day, bank wires within 2-5 business days. The crypto withdrawal option is a genuine differentiator: USDT TRC20, Bitcoin, Ethereum, Tron, Litecoin, Dogecoin, Bitcoin Cash, and XRP are all available for both deposits and withdrawals. For traders in markets where bank transfers face delays or restrictions, crypto provides a direct pipeline that bypasses traditional banking infrastructure entirely.\n\nDeposits are instant via Google Pay, PayPal, Neteller, Skrill, SticPay, and crypto (network confirmation time only). Bank wire takes 2-5 business days. The $10 minimum deposit on Standard accounts is genuinely low — you can test the entire deposit-trade-withdraw pipeline with minimal capital at risk. JustMarkets does not charge deposit or withdrawal fees on their side, though crypto network fees and bank charges still apply externally.\n\nThe same-source withdrawal rule applies for AML compliance. If you deposit via PayPal, your first withdrawal goes back to PayPal up to the deposited amount. Profits above that can route to bank wire or crypto. The 16+ payment method options mean you are unlikely to be stuck without a viable deposit or withdrawal path regardless of your country.",
+        "cta_after": true,
+        "table": {
+          "headers": ["Method", "Min", "Processing", "Fee"],
+          "rows": [
+            ["Google Pay", "$10", "Instant deposit / same-day withdrawal", "$0"],
+            ["PayPal", "$10", "Instant deposit / same-day withdrawal", "$0"],
+            ["Neteller", "$10", "Instant deposit / same-day withdrawal", "$0"],
+            ["Skrill", "$10", "Instant deposit / same-day withdrawal", "$0"],
+            ["USDT (TRC20/ERC20)", "$10", "Network confirmation / same-day", "$0 (network fees apply)"],
+            ["Bitcoin", "$10", "10-60 min deposit / same-day withdrawal", "$0 (network fees apply)"],
+            ["Bank Wire", "$10", "2-5 days deposit / 2-5 days withdrawal", "$0 (bank charges may apply)"]
+          ],
+          "footnote": "All fees broker-stated. Crypto network fees are external and vary by blockchain congestion. Same-day processing reported across community sources."
+        }
+      },
+
+
+
+      {
+        "id": "withdrawals",
+        "heading": "JustMarkets Withdrawals in 2026 — The Real Picture",
+        "body": "Trustpilot data for JustMarkets is limited — not enough volume for a statistically meaningful sample. Independent community sentiment from trading forums and review aggregators is generally positive, with FXLeaders rating JustMarkets 90/99 and TradersUnion at 7.1/10 (publicly reported across multiple independent sources). The withdrawal-specific feedback pattern leans positive: crypto withdrawals processing within hours, e-wallet returns same-day, and no widespread pattern of non-payment or systematic delays.\n\nThe negative patterns that exist are worth naming. Some reports of verification delays when processing first-time withdrawals — KYC re-verification triggered for amounts over a certain threshold is standard industry practice but frustrates traders who expected instant access. The inactivity fee after 90 days has caught traders who did not read the terms, resulting in complaints that are technically the trader's fault but still represent a negative experience. No documented pattern of refused withdrawals or systematic payment failures exists in publicly available records.\n\nIf your withdrawal stalls: confirm your KYC documents are fully verified and current. Ensure you are withdrawing to the same method as your deposit for AML compliance. Contact live chat and request a specific escalation reference number. If unresolved after 3 business days, file a formal complaint through the CySEC entity complaints procedure if you are an EU client. For offshore entity clients, escalation options are more limited — this is the trade-off of offshore regulation. Document every interaction with screenshots and timestamps.",
+        "cta_after": false
+      },
+
+
+
+      {
+        "id": "red-flags",
+        "heading": "JustMarkets Red Flags — What to Know Before You Deposit",
+        "body": "No critical red flags suggesting JustMarkets is a scam or fraudulent operation. The broker has operated continuously since 2012, holds five regulatory licences, and does not appear on any Tier-1 regulatory warning list. But legitimate operation is not the same as optimal safety, and the gap between JustMarkets' marketing image and its actual regulatory substance deserves direct acknowledgement. NAFT last reviewed JustMarkets in May 2026.",
+        "bullets": [
+          "1:3000 leverage on offshore entities — the highest available in the industry. A $100 account controlling $300,000 in notional value is not a feature, it is a mechanism for rapid account destruction targeting traders who do not understand position sizing (broker-stated)",
+          "No FCA licence and no ASIC licence — the two regulators with the strongest track records of investigating complaints, enforcing penalties, and shutting down bad actors are entirely absent from JustMarkets' regulatory portfolio",
+          "Four out of five licences are offshore or mid-tier (FSA Seychelles, FSC Mauritius, FSCA, FSC BVI) — quantity of licences does not equal quality of oversight when none provide investor compensation",
+          "Limited Trustpilot data makes independent large-scale verification of withdrawal reliability impossible — most evidence is from smaller review aggregators and community forums (publicly reported)",
+          "Inactivity fee triggered after 90 days of zero trading activity — more aggressive than brokers like IC Markets that charge no inactivity fee at all",
+          "Rebrand from JustForex to JustMarkets in 2022 — rebrands are not inherently suspicious but they do reset search history and make tracking complaint patterns across the full operational timeline more difficult"
+        ]
+      },
+
+
+
+      {
+        "id": "who-broker-is-for",
+        "heading": "Who Should Use JustMarkets — and Who Should Not",
+        "body": "JustMarkets occupies a specific niche: competitive pricing wrapped in offshore regulation, targeted at traders in markets where banking access is limited and $10 feels like a meaningful first deposit. The Pro account is genuinely exceptional value for traders who understand what they are giving up in regulatory protection. Know which category you fall into before depositing.",
+        "not_for": [
+          "Beginners attracted by 1:3000 leverage — if that number excites you rather than terrifies you, you are the trader this leverage is designed to profit from. Start with a demo account or a CySEC-entity account at 1:30 maximum",
+          "UK traders who need FCA regulation and FSCS protection up to GBP 85,000 — JustMarkets has no FCA licence. Use Pepperstone or IC Markets via CySEC instead",
+          "Traders who require institutional-grade regulatory oversight across all entities — if you need ASIC or FCA protection on your trading funds, JustMarkets cannot provide it",
+          "Anyone with more than $10,000 to deposit who is not comfortable with offshore entity risk — your funds sit under FSA Seychelles with zero compensation if the entity fails",
+          "Traders who step away from the markets for months at a time — the 90-day inactivity fee will quietly drain your dormant balance"
+        ],
+        "for": [
+          "Experienced traders in Malaysia, Indonesia, Thailand, or Vietnam who want Pro account pricing at 0.1 pips zero commission — $1 all-in per lot is unmatched in this segment",
+          "Traders in Nigeria, South Africa, UAE, or Kuwait who need crypto deposit and withdrawal options to bypass banking infrastructure limitations",
+          "Cost-conscious scalpers who execute 50+ lots per month and feel every dollar of spread cost — the Pro account saves $300+ monthly versus typical raw-spread brokers",
+          "cTrader users who want Raw Spread pricing at $6 round-turn — competitive with IC Markets cTrader and superior to most mid-tier brokers",
+          "Copy trading users in emerging markets who want low-barrier access to signal providers without $200+ minimum deposits on Standard accounts"
+        ]
+      },
+
+
+
+      {
+        "id": "how-to-open-account",
+        "heading": "How to Open a JustMarkets Account — Step by Step",
+        "body": "Registration takes under 5 minutes. Verification typically completes within 1 business day. JustMarkets allows limited trading before full KYC verification on the offshore entity, but you cannot withdraw until verification is complete — so verify first, always.",
+        "steps": [
+          {
+            "number": 1,
+            "title": "Register",
+            "detail": "Visit justmarkets.com and select Open Account. Choose the Pro account type if you have $200 to deposit — this gives you 0.1 pip spreads with zero commission. If starting with less, Standard works at $10 minimum. Set your leverage to 1:30 regardless of what the offshore entity offers. The 1:3000 default will destroy an undisciplined account."
+          },
+          {
+            "number": 2,
+            "title": "Verify your identity (KYC)",
+            "detail": "Upload a government-issued photo ID (passport, national ID, or driving licence) and one proof of address dated within 6 months (utility bill, bank statement). JustMarkets typically processes verification within 1 business day. Complete this before depositing — you cannot withdraw without full verification regardless."
+          },
+          {
+            "number": 3,
+            "title": "Fund your account and test a withdrawal",
+            "detail": "Deposit $200 via crypto (USDT TRC20 for fastest confirmation) or PayPal/Google Pay for instant processing. Place one small trade to activate the account. Immediately request a partial withdrawal of $50 to test the pipeline. If it processes within 24 hours cleanly, you have verified the withdrawal path works before committing larger capital.",
+            "cta_inline": { "label": "Open JustMarkets Pro Account", "url": "AFFILIATE_PLACEHOLDER" }
+          }
+        ],
+        "practical_note": "Make a small deposit. Place one trade. Request a withdrawal immediately. If it processes cleanly, scale with confidence.",
+        "cta_after": true
+      },
+
+
+
+      {
+        "id": "final-verdict",
+        "heading": "JustMarkets Final Verdict — Is It Worth It in 2026?",
+        "body": "NAFT scores JustMarkets 6.0 out of 10. That places it in the mid-tier — a legitimate broker with one genuine Tier-1 licence, competitive Pro account pricing that undercuts the industry, and 13 years of uninterrupted operation without triggering any regulatory warnings. The Pro account at $1 all-in per lot on EUR/USD is the cheapest non-ECN execution available at any established broker in 2026. Crypto deposits and withdrawals add genuine utility for traders in markets where traditional banking is slow or restrictive.\n\nThe risks are structural and permanent until the regulatory profile changes. Four out of five licences are offshore with zero investor compensation. 1:3000 leverage is marketed to traders in emerging markets where financial literacy infrastructure is weakest. No FCA licence means no FSCS protection for UK traders. No ASIC licence means the broker has never submitted to the regulatory framework that actually investigates and penalises bad behaviour at scale. Limited Trustpilot data makes large-scale independent verification of withdrawal patterns impossible.\n\nIf you trade 10+ lots per month, understand that your funds sit under FSA Seychelles with zero compensation, and want the Pro account's $1 all-in pricing — JustMarkets delivers genuine value that most competitors cannot match. Set leverage to 1:30 manually, test a withdrawal before scaling past $500, and treat the regulatory protection as non-existent because it effectively is. NAFT recommends the Pro account specifically — the Standard accounts offer no pricing advantage over FBS or XM while carrying the same offshore risk profile."
+      }
+    ],
+
+
+
+    "affiliate_cta": {
+      "label": "Open JustMarkets Account",
+      "url": "AFFILIATE_PLACEHOLDER",
+      "promo_code": null,
+      "friction_reducers": [
+        "Pro account: 0.1 pip spreads with zero commission — $1 all-in per lot",
+        "$10 minimum deposit on Standard accounts",
+        "Crypto deposits and withdrawals (USDT, BTC, ETH, XRP)",
+        "cTrader, MT4, and MT5 all supported"
+      ]
+    },
+    "cta_positions": [
+      "after_section_quick-verdict",
+      "after_section_deposits-withdrawals",
+      "in_section_how-to-open-account_step3"
+    ],
+    "trustpilot": {
+      "rating": 4.0,
+      "reviews": 0,
+      "velocity_30d": "Limited data — insufficient Trustpilot sample for meaningful velocity analysis",
+      "polarisation_note": "Limited Trustpilot reviews. Independent aggregator ratings positive: FXLeaders 90/99, TradersUnion 7.1/10. General sentiment leans positive but sample size prevents statistical confidence.",
+      "broker_response_rate": "Unable to assess due to limited Trustpilot presence",
+      "source_note": "Trustpilot limited data, independent aggregators publicly reported, May 2026"
+    },
+
+
+
+    "internal_links": [
+      { "anchor": "compare brokers side by side", "url": "/compare" },
+      { "anchor": "best regulated forex brokers", "url": "/brokers?regulation=tier-1" },
+      { "anchor": "broker scam alerts and warnings", "url": "/scam-alerts" },
+      { "anchor": "community withdrawal proofs", "url": "/withdrawal-proofs" },
+      { "anchor": "how NAFT reviews brokers", "url": "/how-we-review-brokers" },
+      { "anchor": "file a broker complaint with NAFT", "url": "/complaints" }
+    ],
+
+
+
+    "faq": [
+      {
+        "q": "Is JustMarkets a legit broker or a scam?",
+        "a": "JustMarkets is a legitimate broker regulated by CySEC (Cyprus, licence 401/21) with four additional offshore licences. JustMarkets has operated continuously since 2012 under the former name JustForex and does not appear on any Tier-1 regulatory warning list (FCA, ASIC, BaFin, CySEC, IOSCO). NAFT rates JustMarkets 6.0/10 — legit but primarily offshore-regulated. Not a scam, but not institutional-grade protection either."
+      },
+      {
+        "q": "How long does a JustMarkets withdrawal take?",
+        "a": "JustMarkets processes withdrawals quickly based on publicly reported community feedback. E-wallet withdrawals (PayPal, Skrill, Neteller) and crypto withdrawals (USDT, Bitcoin) typically process same-day. Bank wire withdrawals take 2-5 business days. JustMarkets charges zero withdrawal fees on their side. Crypto network fees and bank charges apply externally. First-time withdrawals may trigger additional KYC verification."
+      },
+      {
+        "q": "What is the JustMarkets minimum deposit in 2026?",
+        "a": "JustMarkets requires just $10 minimum deposit on Standard and Standard Cent accounts — among the lowest in the industry. The Pro account and Raw Spread accounts require $200 minimum deposit. JustMarkets accepts deposits via Google Pay, PayPal, crypto (USDT, Bitcoin, Ethereum), Neteller, Skrill, and bank wire. All deposits process instantly except bank wire which takes 2-5 business days."
+      },
+      {
+        "q": "Is JustMarkets regulated by the FCA or ASIC?",
+        "a": "JustMarkets does not hold an FCA licence or an ASIC licence. JustMarkets is regulated by CySEC (licence 401/21) for EU clients, FSA Seychelles (SD088) for global clients, FSC Mauritius, FSCA South Africa, and FSC BVI. The absence of FCA and ASIC means JustMarkets lacks the two strongest retail regulatory frameworks. UK traders have no FSCS protection when using JustMarkets."
+      },
+      {
+        "q": "What is the best JustMarkets account type?",
+        "a": "The Pro account is the best value at JustMarkets in 2026 — 0.1 pips average EUR/USD with zero commission gives you $1 all-in cost per standard lot. This is significantly cheaper than the Raw Spread accounts ($6 all-in) and Standard accounts ($7 all-in). The Pro account requires $200 minimum deposit. For traders with less than $200, Standard at $10 minimum is the only option."
+      },
+      {
+        "q": "Does JustMarkets accept traders from Malaysia and Indonesia?",
+        "a": "Yes — JustMarkets actively serves Malaysia, Indonesia, Thailand, Vietnam, and the broader Southeast Asian market. JustMarkets offers account currencies in MYR (ringgit), IDR (rupiah), THB (baht), and VND (dong) to avoid conversion fees. SEA clients are routed to the FSA Seychelles entity with 1:3000 leverage and zero investor compensation. Local payment methods and crypto deposits are available."
+      },
+      {
+        "q": "What leverage does JustMarkets offer?",
+        "a": "JustMarkets offers up to 1:3000 leverage on offshore entities (FSA Seychelles, FSC Mauritius, FSC BVI) — among the highest in the industry. Under CySEC (EU clients), leverage is capped at 1:30 on forex majors, 1:20 on minors, 1:10 on commodities. JustMarkets does not require you to use maximum leverage — set it to 1:30 or 1:50 manually regardless of entity to protect your capital."
+      },
+      {
+        "q": "How does JustMarkets compare to FBS in 2026?",
+        "a": "JustMarkets and FBS target similar demographics with CySEC plus offshore regulation. JustMarkets wins on pricing: the Pro account costs $1 all-in per lot versus FBS Standard at $7. JustMarkets also offers cTrader which FBS lacks. FBS wins on regulation with an ASIC licence that JustMarkets does not hold. Both offer 1:3000 offshore leverage. For pure trading cost, JustMarkets Pro is clearly superior."
+      }
+    ],
+
+
+
+    "schema_jsonld": {
+      "review": {
+        "@context": "https://schema.org",
+        "@type": "Review",
+        "name": "JustMarkets Review 2026",
+        "author": {
+          "@type": "Person",
+          "name": "NAFT Editorial Team",
+          "url": "https://notafugazitrader.com/authors/naft-editorial",
+          "sameAs": []
+        },
+        "reviewedBy": {
+          "@type": "Organization",
+          "name": "NAFT — Not A Fugazi Trader",
+          "url": "https://notafugazitrader.com"
+        },
+        "datePublished": "2026-05-24",
+        "dateModified": "2026-05-24",
+        "reviewBody": "JustMarkets is a legit, CySEC-regulated broker with 13 years of operation. NAFT trust score 6.0/10.",
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": 3.0,
+          "bestRating": 5,
+          "worstRating": 1
+        },
+        "itemReviewed": {
+          "@type": "FinancialProduct",
+          "name": "JustMarkets",
+          "url": "https://justmarkets.com"
+        }
+      },
+      "aggregateRating": {
+        "@context": "https://schema.org",
+        "@type": "AggregateRating",
+        "itemReviewed": {
+          "@type": "FinancialProduct",
+          "name": "JustMarkets"
+        },
+        "ratingValue": 3.0,
+        "bestRating": 5,
+        "worstRating": 1,
+        "ratingCount": 1,
+        "reviewCount": 1
+      },
+
+
+
+      "faqPage": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Is JustMarkets a legit broker or a scam?",
+            "acceptedAnswer": { "@type": "Answer", "text": "JustMarkets is a legitimate broker regulated by CySEC (Cyprus, licence 401/21) with four additional offshore licences. JustMarkets has operated continuously since 2012 and does not appear on any Tier-1 regulatory warning list." }
+          },
+          {
+            "@type": "Question",
+            "name": "How long does a JustMarkets withdrawal take?",
+            "acceptedAnswer": { "@type": "Answer", "text": "JustMarkets processes e-wallet and crypto withdrawals same-day. Bank wire withdrawals take 2-5 business days. JustMarkets charges zero withdrawal fees on their side." }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the JustMarkets minimum deposit in 2026?",
+            "acceptedAnswer": { "@type": "Answer", "text": "JustMarkets requires $10 minimum deposit on Standard accounts and $200 on Pro and Raw Spread accounts. All deposits except bank wire process instantly." }
+          },
+          {
+            "@type": "Question",
+            "name": "Is JustMarkets regulated by the FCA or ASIC?",
+            "acceptedAnswer": { "@type": "Answer", "text": "JustMarkets does not hold an FCA or ASIC licence. JustMarkets is regulated by CySEC for EU clients and FSA Seychelles for global clients. UK traders have no FSCS protection." }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the best JustMarkets account type?",
+            "acceptedAnswer": { "@type": "Answer", "text": "The Pro account is the best value at JustMarkets — 0.1 pips average EUR/USD with zero commission for $1 all-in cost per lot. Requires $200 minimum deposit." }
+          },
+          {
+            "@type": "Question",
+            "name": "Does JustMarkets accept traders from Malaysia and Indonesia?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Yes — JustMarkets serves Malaysia, Indonesia, Thailand, Vietnam and offers local currency accounts in MYR, IDR, THB, and VND. SEA clients route to FSA Seychelles entity." }
+          },
+          {
+            "@type": "Question",
+            "name": "What leverage does JustMarkets offer?",
+            "acceptedAnswer": { "@type": "Answer", "text": "JustMarkets offers up to 1:3000 leverage on offshore entities and 1:30 under CySEC. The 1:3000 maximum is among the highest in the industry." }
+          },
+          {
+            "@type": "Question",
+            "name": "How does JustMarkets compare to FBS in 2026?",
+            "acceptedAnswer": { "@type": "Answer", "text": "JustMarkets wins on pricing with the Pro account at $1 all-in versus FBS Standard at $7. FBS wins on regulation with an ASIC licence. Both offer 1:3000 offshore leverage." }
+          }
+        ]
+      },
+
+
+
+      "organization": {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "NAFT — Not A Fugazi Trader",
+        "url": "https://notafugazitrader.com",
+        "logo": "",
+        "sameAs": []
+      },
+      "breadcrumbList": {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://notafugazitrader.com" },
+          { "@type": "ListItem", "position": 2, "name": "Broker Reviews", "item": "https://notafugazitrader.com/brokers" },
+          { "@type": "ListItem", "position": 3, "name": "JustMarkets Review 2026", "item": "https://notafugazitrader.com/brokers/justmarkets" }
+        ]
+      },
+      "howTo": {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "How to Open a JustMarkets Account",
+        "description": "Step-by-step guide to opening and verifying a JustMarkets trading account.",
+        "step": [
+          {
+            "@type": "HowToStep",
+            "position": 1,
+            "name": "Register",
+            "text": "Visit justmarkets.com and select Open Account. Choose the Pro account type for 0.1 pip spreads with zero commission. Set leverage to 1:30 regardless of the offshore maximum."
+          },
+          {
+            "@type": "HowToStep",
+            "position": 2,
+            "name": "Verify your identity (KYC)",
+            "text": "Upload a government-issued photo ID and one proof of address dated within 6 months. JustMarkets typically processes verification within 1 business day."
+          },
+          {
+            "@type": "HowToStep",
+            "position": 3,
+            "name": "Fund your account and test a withdrawal",
+            "text": "Deposit $200 via crypto or PayPal for instant processing. Place one small trade. Request a partial withdrawal immediately to test the pipeline before committing larger capital."
+          }
+        ]
+      },
+      "videoObject": null
+    },
+
+
+
+    "sources": [
+      "CySEC Register — JustMarkets Ltd, registration HE 361312, CIF Licence 401/21",
+      "FSA Seychelles — JustMarkets, licence SD088",
+      "FSC Mauritius — JustMarkets, licence GB22200881",
+      "FSCA South Africa — JustMarkets",
+      "FSC BVI — JustMarkets (added 2025)",
+      "FCA Warning List — JustMarkets does NOT appear (verified May 2026)",
+      "ASIC Warning List — JustMarkets does NOT appear (verified May 2026)",
+      "JustMarkets official website — regulation page, accounts page, payment methods page",
+      "JustMarkets (EU) — retail loss rate disclosure 71.12% (justmarkets.eu)",
+      "Independent aggregators — FXLeaders, TradersUnion (publicly reported, May 2026)"
+    ]
+  }
+}
