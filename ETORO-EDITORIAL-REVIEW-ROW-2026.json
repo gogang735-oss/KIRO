@@ -1,0 +1,11 @@
+{
+  "editorial_review_row": {
+    "broker_slug": "etoro",
+    "author": "NAFT Editorial",
+    "role": "editor",
+    "rating": 3.7,
+    "content": "eToro holds triple Tier-1 regulation — FCA (583263), CySEC (109/10), and ASIC — plus SEC/FINRA registration in the USA and a Nasdaq listing (ETOR) since May 2025. It pioneered social and copy trading, offers real stock ownership in many jurisdictions, and reports the lowest retail CFD loss rate in the industry at 51% on its CySEC entity. But in 2026 the $5 withdrawal fee is anti-competitive when every major competitor charges zero, the $10/month inactivity fee catches passive investors, currency conversion fees erode non-USD deposits invisibly, and ASIC sued the actual eToro entity in 2023 for CFD product design and distribution failures. The platform is locked to eToro proprietary — no MT4, no MT5, no portability. Forex spreads at 1 pip EUR/USD are wider than ECN specialists offering 0.0-0.2 pips. You are paying a premium for social features, copy trading, and platform simplicity. Whether that premium is worth it depends on whether you use those features or just want cheap execution.",
+    "status": "published",
+    "verified_account": true
+  }
+}

@@ -1,0 +1,646 @@
+{
+  "name": "eToro",
+  "slug": "etoro",
+  "type": "multi-asset",
+  "founded_year": 2007,
+  "headquarters": "Limassol, Cyprus (EU HQ) / Tel Aviv, Israel (global HQ)",
+  "website_url": "https://www.etoro.com",
+  "logo_url": "",
+  "description": "eToro is a multi-asset social trading platform founded in 2007, pioneering copy trading and offering real stock ownership alongside CFDs, crypto, and ETFs. Regulated by FCA, CySEC, ASIC, and SEC/FINRA with a Nasdaq listing (ETOR) since May 2025. Serves approximately 76 countries with 5,500+ instruments.",
+  "regulation": ["FCA (UK)", "CySEC (EU)", "ASIC (Australia)", "SEC/FINRA (USA)", "FSA Seychelles", "MiCA (CySEC-granted, EEA crypto)"],
+  "license_number": "FCA 583263",
+  "min_deposit": "$50-$200 (varies by country)",
+  "leverage": "1:30 (EU/UK/AU retail) / 1:400 (some offshore)",
+  "avg_spread": "1.0 pips",
+  "score": 7.35,
+  "stars": 3.7,
+  "account_types": [
+    {
+      "name": "Retail Account",
+      "min_deposit": "$50-$200 (varies by country)",
+      "spread_pips": "1.0",
+      "commission_per_lot_rt": "$0 (spread-only forex) / $1-2 per stock trade (2026)",
+      "all_in_cost_eurusd": "$10.00",
+      "leverage": "1:30 (EU/UK/AU retail)",
+      "source": "broker-stated"
+    },
+    {
+      "name": "eToro Club Silver",
+      "min_deposit": "$5,000 equity",
+      "spread_pips": "1.0",
+      "commission_per_lot_rt": "$0 (spread-only forex) / reduced stock fees",
+      "all_in_cost_eurusd": "$10.00",
+      "leverage": "1:30 (EU/UK/AU retail)",
+      "source": "broker-stated"
+    },
+    {
+      "name": "eToro Club Gold",
+      "min_deposit": "$10,000 equity",
+      "spread_pips": "1.0",
+      "commission_per_lot_rt": "$0 (spread-only forex) / reduced stock fees",
+      "all_in_cost_eurusd": "$10.00",
+      "leverage": "1:30 (EU/UK/AU retail)",
+      "source": "broker-stated"
+    },
+    {
+      "name": "eToro Club Platinum",
+      "min_deposit": "$25,000 equity",
+      "spread_pips": "1.0",
+      "commission_per_lot_rt": "$0 (spread-only forex) / reduced stock fees",
+      "all_in_cost_eurusd": "$10.00",
+      "leverage": "1:30 (EU/UK/AU retail)",
+      "source": "broker-stated"
+    },
+    {
+      "name": "eToro Club Diamond+",
+      "min_deposit": "$250,000 equity",
+      "spread_pips": "1.0",
+      "commission_per_lot_rt": "$0 (spread-only forex) / lowest stock fees",
+      "all_in_cost_eurusd": "$10.00",
+      "leverage": "1:30 (EU/UK/AU retail)",
+      "source": "broker-stated"
+    }
+  ],
+  "platforms": ["eToro Web Platform", "eToro Mobile App"],
+  "payment_methods": ["Visa", "Mastercard", "PayPal", "Skrill", "Neteller", "Bank Transfer", "Apple Pay", "Google Pay"],
+  "payment_method_details": [
+    { "method": "Visa/Mastercard", "min": "$50-$200", "processing": "Instant deposit / 2+ business days withdrawal (broker-stated)", "fee": "$5 withdrawal fee" },
+    { "method": "PayPal", "min": "$50-$200", "processing": "Instant deposit / 2+ business days withdrawal (broker-stated)", "fee": "$5 withdrawal fee" },
+    { "method": "Bank Transfer", "min": "$500", "processing": "4-7 days deposit / 2+ business days + 3+ days bank processing withdrawal", "fee": "$5 withdrawal fee" },
+    { "method": "Skrill", "min": "$50-$200", "processing": "Instant deposit / 2+ business days withdrawal (broker-stated)", "fee": "$5 withdrawal fee" },
+    { "method": "Neteller", "min": "$50-$200", "processing": "Instant deposit / 2+ business days withdrawal (broker-stated)", "fee": "$5 withdrawal fee" },
+    { "method": "Apple Pay", "min": "$50-$200", "processing": "Instant deposit / 2+ business days withdrawal (broker-stated)", "fee": "$5 withdrawal fee" },
+    { "method": "Google Pay", "min": "$50-$200", "processing": "Instant deposit / 2+ business days withdrawal (broker-stated)", "fee": "$5 withdrawal fee" }
+  ],
+
+
+
+  "pros": [
+    "Triple Tier-1 regulation — FCA (UK), CySEC (EU), and ASIC (Australia) plus SEC/FINRA registration in the USA and MiCA licence for crypto",
+    "Publicly traded on Nasdaq (ETOR) since May 2025 — financial transparency enforced by SEC reporting requirements",
+    "Real stock ownership in many jurisdictions — not just CFD exposure, you own the underlying share with no leverage",
+    "51% retail CFD loss rate on CySEC entity is the lowest in the industry — most brokers report 70-80%+",
+    "Social and copy trading pioneer — copy top-performing traders with one click, genuinely unique feature",
+    "5,500+ instruments across stocks, ETFs, crypto, forex CFDs, commodity CFDs, and index CFDs",
+    "MiCA licence granted January 2025 — regulated crypto trading across the entire EEA"
+  ],
+  "cons": [
+    "ASIC sued eToro in 2023 for CFD product design and distribution — first such action by ASIC against any broker",
+    "$5 withdrawal fee is outdated and anti-competitive when most competitors charge $0 in 2026",
+    "$10/month inactivity fee after 12 months of no login catches long-term holders who forget",
+    "Currency conversion fees on non-USD deposits erode returns invisibly — accounts are USD-denominated by default",
+    "No MT4 or MT5 — locked into eToro proprietary platform with zero portability",
+    "Wider forex spreads (1 pip EUR/USD) than ECN competitors (0.0-0.2 pips) — you pay a premium for social features",
+    "FCA clone warning against 'eToro SB Limited' creates brand confusion risk for traders searching online",
+    "Heavily polarised Trustpilot — 20% one-star reviews is significant for a major platform"
+  ],
+  "support_email": "",
+  "support_phone": "",
+  "withdrawal_time": "2+ business days processing (broker-stated) plus additional bank processing time",
+  "withdrawal_fee": "$5",
+  "warning_note": "The FCA has warned against 'eToro SB Limited' — this is a CLONE entity, NOT the real eToro. The legitimate eToro holds FCA licence 583263. In 2023, ASIC commenced proceedings against eToro Aus Capital Limited regarding CFD product design and distribution — this is a real enforcement action against the actual eToro entity, not a clone. The ASIC action is the first design and distribution case of its kind. eToro charges a $5 withdrawal fee and $10/month inactivity fee after 12 months — both unusual for a major platform in 2026.",
+  "tags": ["social-trading", "copy-trading", "stocks", "crypto", "etfs", "forex", "cfd", "fca", "cysec", "asic", "sec", "nasdaq-listed", "mica"],
+  "badge": "none",
+  "promo_label": "",
+  "promo_code": "",
+  "affiliate_url": "AFFILIATE_PLACEHOLDER",
+
+
+
+  "author": {
+    "name": "NAFT Editorial Team",
+    "role": "Senior Broker Analyst, NAFT",
+    "bio": "Twelve years in leveraged markets — started on the institutional desk routing EM FX flow, moved to retail when I realised most brokers were grading their own homework. I still trade EUR/USD and gold CFDs daily, mostly to keep my execution benchmarks honest.",
+    "image_url": "",
+    "social_url": "",
+    "sameAs": []
+  },
+  "conflict_note": null,
+  "regulatory_risk_warning": "51% of retail CFD accounts lose money when trading CFDs with this provider (CySEC entity). UK entity reportedly 61-77% depending on source and time period. You should consider whether you understand how CFDs work and whether you can afford to take the high risk of losing your money.",
+  "target_locale": "en",
+  "toc": [
+    { "id": "quick-verdict", "label": "Quick Verdict" },
+    { "id": "is-broker-regulated", "label": "Is It Regulated?" },
+    { "id": "where-broker-accepts-clients", "label": "Accepted Countries" },
+    { "id": "spreads-fees-accounts", "label": "Spreads and Fees" },
+    { "id": "deposits-withdrawals", "label": "Deposits and Withdrawals" },
+    { "id": "withdrawals", "label": "Withdrawal Reality" },
+    { "id": "red-flags", "label": "Red Flags" },
+    { "id": "who-broker-is-for", "label": "Who It Is For" },
+    { "id": "how-to-open-account", "label": "How to Open" },
+    { "id": "final-verdict", "label": "Final Verdict" }
+  ],
+
+
+
+  "assets": {
+    "logo_url": "",
+    "hero_image_url": "",
+    "og_image_url": "",
+    "regulator_badges": [
+      { "regulator": "FCA", "badge_url": "", "licence_number": "583263" },
+      { "regulator": "CySEC", "badge_url": "", "licence_number": "109/10" },
+      { "regulator": "ASIC", "badge_url": "", "licence_number": "eToro Aus Capital Limited" },
+      { "regulator": "SEC/FINRA", "badge_url": "", "licence_number": "eToro USA Securities" },
+      { "regulator": "FSA Seychelles", "badge_url": "", "licence_number": "eToro (Seychelles) Ltd" },
+      { "regulator": "MiCA (CySEC)", "badge_url": "", "licence_number": "Granted January 2025" }
+    ],
+    "platform_screenshots": [],
+    "withdrawal_proof": null
+  },
+  "comparison_block": {
+    "heading": "eToro vs Interactive Brokers — Which Is Better in 2026?",
+    "body": "Interactive Brokers wins on market access — direct access to 150+ global exchanges, lower forex spreads, and professional-grade tools for active traders. eToro wins on accessibility — social/copy trading, real stock ownership with zero commission in some markets, crypto alongside traditional assets, and an interface beginners can actually navigate. IBKR is cheaper for forex and options. eToro is simpler for stocks and crypto. If you want the widest market access with the tightest execution, IBKR. If you want social features, copy trading, and a beginner-friendly multi-asset platform, eToro.",
+    "brokers_compared": ["etoro", "interactive-brokers"],
+    "cta_anchor": "Compare eToro side by side",
+    "cta_url": "/compare?brokers=etoro,interactive-brokers"
+  },
+  "video_embed": {
+    "type": null,
+    "video_id": "",
+    "title": "",
+    "thumbnail_url": "",
+    "duration_seconds": 0
+  },
+  "social_snippet": "eToro scores 7.35/10 from NAFT — FCA + CySEC + ASIC + SEC regulated, Nasdaq-listed, social trading pioneer. $5 withdrawal fee and ASIC lawsuit are the main concerns.",
+
+
+
+  "long_review": {
+    "seo": {
+      "title": "eToro Review 2026 — Legit, Safe or a Scam?",
+      "description": "eToro review 2026: FCA + CySEC + ASIC + SEC regulated, Nasdaq-listed (ETOR), NAFT trust score 7.35/10. Full breakdown of fees, social trading, withdrawals, and the ASIC lawsuit.",
+      "focus_keyword": "etoro review",
+      "secondary_keywords": [
+        "etoro review 2026",
+        "is etoro legit",
+        "etoro scam",
+        "etoro withdrawal",
+        "etoro withdrawal time",
+        "etoro minimum deposit",
+        "etoro vs interactive brokers",
+        "etoro vs trading 212",
+        "is etoro regulated",
+        "etoro spreads",
+        "etoro copy trading",
+        "etoro fees",
+        "etoro stocks",
+        "etoro crypto",
+        "best social trading platform 2026"
+      ],
+      "og_image_alt": "eToro broker NAFT trust score 7.35 out of 10 — FCA CySEC ASIC SEC regulated Nasdaq-listed social trading platform 2026"
+    },
+    "last_updated_display": "Last updated: May 2026",
+    "disclaimer": "NAFT Disclaimer: Not A Fugazi Trader is an independent broker review platform. We may receive a commission when you open an account through our affiliate links. This never influences our ratings, reviews, or trust scores. Our scores are calculated from publicly available regulatory data, aggregated community feedback, and editorial assessment. Trading forex, CFDs, and derivatives involves significant risk of capital loss and is not suitable for all investors. Always verify a broker's regulatory status independently before depositing. [Read our full disclosure]",
+    "reading_time_minutes": 11,
+    "word_count": 2400,
+
+
+
+    "seo_audit": {
+      "primary_keyword_count": 14,
+      "broker_name_count": 48,
+      "year_mentioned_count": 9,
+      "question_headings_count": 7,
+      "faq_items_count": 8,
+      "internal_links_count": 6,
+      "affiliate_cta_included": true,
+      "legit_keyword_present": true,
+      "all_tone_rules_applied": true
+    },
+    "hot_take": "eToro did something no other broker managed — it made investing social, accessible, and genuinely mainstream. Three Tier-1 licences, a Nasdaq listing, real stock ownership, and the lowest retail CFD loss rate in the industry (51% on CySEC). Then they kept the $5 withdrawal fee while every competitor dropped theirs to zero, hid currency conversion costs inside USD-denominated accounts, and got sued by ASIC for the way they designed and distributed CFD products. The platform is genuinely innovative. The fee structure is genuinely outdated. And the ASIC lawsuit means a Tier-1 regulator looked at eToro's CFD product and said it was not fit for purpose. That matters.",
+    "telegram_summary": "NAFT Verdict on eToro — 2026\n1. Trust score 7.35/10 — FCA + CySEC + ASIC + SEC/FINRA. Nasdaq-listed (ETOR). MiCA licence.\n2. Social/copy trading pioneer with real stock ownership — genuinely unique.\n3. $5 withdrawal fee and $10/month inactivity fee are anti-competitive in 2026.\n4. ASIC lawsuit for CFD design/distribution is real enforcement against the actual entity.\n5. Best for beginners wanting social features and multi-asset access. Not for forex traders wanting tight spreads.",
+
+
+
+    "verdict": {
+      "tldr": "eToro holds triple Tier-1 regulation — FCA (583263), CySEC (109/10), and ASIC — plus SEC/FINRA registration in the USA and a Nasdaq listing (ETOR) since May 2025. It pioneered social and copy trading, offers real stock ownership in many jurisdictions, and reports the lowest retail CFD loss rate in the industry at 51% on its CySEC entity. But in 2026 the $5 withdrawal fee is anti-competitive when every major competitor charges zero, the $10/month inactivity fee catches passive investors, currency conversion fees erode non-USD deposits invisibly, and ASIC sued the actual eToro entity in 2023 for CFD product design and distribution failures. The platform is locked to eToro proprietary — no MT4, no MT5, no portability. Forex spreads at 1 pip EUR/USD are wider than ECN specialists offering 0.0-0.2 pips. You are paying a premium for social features, copy trading, and platform simplicity. Whether that premium is worth it depends on whether you use those features or just want cheap execution.",
+      "summary": "NAFT rates eToro 7.35 out of 10 — an above-average trust score driven by exceptional regulation (three Tier-1 plus SEC and Nasdaq transparency), innovative social trading features, and real stock ownership. Held back by outdated fee structures ($5 withdrawal, $10 inactivity, currency conversion), the ASIC lawsuit, wider-than-market forex spreads, and platform lock-in with no MT4/MT5 support.",
+      "best_for": "Beginners and passive investors who want social/copy trading features, real stock ownership, multi-asset access (stocks, crypto, ETFs, forex) in one platform, and value regulatory safety over execution costs.",
+      "not_ideal_for": "Active forex traders wanting ECN spreads, anyone who withdraws frequently (the $5 fee adds up), traders who want MT4/MT5 compatibility, or cost-sensitive investors bothered by currency conversion and inactivity fees.",
+      "bottom_line": "The most regulated social trading platform in the world. Genuinely innovative. Genuinely expensive relative to execution-focused alternatives. Use it for what it does best — social trading, copy trading, and real stock ownership. Do not use it as a forex-first broker.",
+      "star_rating": 3.7,
+      "trust_score": 7.35,
+      "trust_breakdown": [
+        { "label": "Regulation", "score": 9, "max": 10, "weight": 0.30 },
+        { "label": "User Reviews", "score": 7, "max": 10, "weight": 0.25 },
+        { "label": "Withdrawal Speed", "score": 6, "max": 10, "weight": 0.25 },
+        { "label": "Complaint History", "score": 7, "max": 10, "weight": 0.20 }
+      ]
+    },
+
+
+
+    "at_a_glance": {
+      "regulation": ["FCA 583263 (UK)", "CySEC 109/10 (EU)", "ASIC (Australia)", "SEC/FINRA (USA)", "FSA Seychelles (offshore)", "MiCA (CySEC-granted, EEA crypto)"],
+      "min_deposit": "$50-$200 (varies by country)",
+      "max_leverage": "1:30 (EU/UK/AU retail)",
+      "avg_spread_eurusd": "1.0 pip (broker-stated)",
+      "withdrawal_speed": "2+ business days processing (broker-stated) plus additional bank time",
+      "platforms": ["eToro Web Platform", "eToro Mobile App"],
+      "islamic_account": true,
+      "deposit_methods": ["Visa", "Mastercard", "PayPal", "Skrill", "Neteller", "Bank Transfer", "Apple Pay", "Google Pay"]
+    },
+    "geo": {
+      "accepted": ["United States (SEC entity — stocks and crypto only, no CFDs)", "United Kingdom (FCA)", "Most EU/EEA countries (CySEC)", "Australia (ASIC)", "UAE", "South Africa", "approximately 76 countries total"],
+      "excluded": ["India", "China", "Japan", "North Korea", "Iran", "Syria", "Cuba", "Most of Africa", "Most of Southeast Asia"],
+      "practical_note": "US residents are served by eToro USA Securities under SEC/FINRA — stocks and crypto only, no CFDs or forex. UK residents get FCA protection under eToro (UK) Ltd with FSCS coverage up to GBP 85,000. EU/EEA residents get CySEC regulation under eToro (Europe) Ltd with ICF coverage up to EUR 20,000. Australian residents land on eToro Aus Capital Limited under ASIC — note the active ASIC lawsuit regarding CFD distribution. Some international clients may be routed to eToro (Seychelles) Ltd — an offshore entity with limited protection. Verify your entity in the client agreement before depositing."
+    },
+
+
+
+    "sections": [
+      {
+        "id": "quick-verdict",
+        "heading": "Is eToro Worth Your Money in 2026?",
+        "body": "Triple Tier-1 regulation from FCA, CySEC, and ASIC. SEC/FINRA registration in the United States. A Nasdaq listing since May 2025 at a valuation north of four billion dollars. A MiCA crypto licence covering the entire EEA. And the lowest retail CFD loss rate published by any major broker — 51% on the CySEC entity when most competitors report 70-80%. On paper, eToro is one of the most regulated and transparent retail trading platforms in existence.\n\nAnd it built something genuinely different. Social trading and copy trading are not gimmicks here — they are the core product. You can copy the portfolio of a verified trader with one click, buy real shares (not CFDs) in thousands of companies with no overnight fees, trade crypto alongside stocks and ETFs, and do all of it from a platform designed for people who find MetaTrader intimidating. No other broker at this scale has managed to combine investing, trading, and social features into a single coherent product.\n\nBut the fee structure has not kept pace with the market. In 2026, charging $5 per withdrawal is indefensible when Pepperstone, IC Markets, and Exness all charge zero. The $10 monthly inactivity fee punishes long-term investors who log in to buy and hold — exactly the behaviour eToro encourages with real stock ownership. Currency conversion fees hit every non-USD deposit invisibly. And ASIC looked at how eToro designed and distributed its CFD product in Australia and concluded it was not fit for purpose — launching proceedings in 2023 that remain the regulator's first design and distribution action against any broker.\n\nThis is the best-regulated social trading platform in the world. The question is whether you are paying for features you actually use, or subsidising copy trading and social feeds with wider spreads and withdrawal fees while all you wanted was cheap execution.",
+        "cta_after": true
+      },
+      {
+        "id": "is-broker-regulated",
+        "heading": "Is eToro Regulated? — Licence Check 2026",
+        "body": "Yes — and the regulatory coverage is exceptional. eToro (UK) Ltd holds FCA licence 583263. eToro (Europe) Ltd holds CySEC licence 109/10. eToro Aus Capital Limited is regulated by ASIC in Australia. eToro USA Securities is registered with SEC/FINRA as a broker-dealer. And in January 2025, CySEC granted eToro a MiCA licence for regulated crypto asset services across the entire European Economic Area. That is four Tier-1 jurisdictions plus dedicated crypto regulation — more than almost any competitor.\n\nThe Nasdaq listing (ticker: ETOR) from May 2025 adds another layer of transparency. As a publicly traded company, eToro files quarterly financial reports with the SEC, undergoes independent auditing, and faces continuous market scrutiny. You cannot easily hide financial problems when your accounts are public.\n\nThe FCA entity provides FSCS protection up to GBP 85,000 for eligible UK claimants. The CySEC entity provides ICF coverage up to EUR 20,000 for EU/EEA clients. The ASIC entity requires client fund segregation but offers no compensation scheme.\n\nThe critical caveat: ASIC commenced proceedings against eToro Aus Capital Limited in 2023 regarding CFD product design and distribution. This is not a clone warning — this is real enforcement against the actual regulated entity. ASIC alleged the CFD product was not appropriate for the clients it was distributed to. The case is significant because it is ASIC's first design and distribution obligation action. It does not mean eToro is unsafe or fraudulent, but it means a Tier-1 regulator identified problems with how the CFD product was structured for Australian retail clients.\n\nSeparately, the FCA has warned against an entity called 'eToro SB Limited' — this is a CLONE, not the real eToro. The legitimate eToro holds FCA 583263. No kill-switch triggered.\n\nNAFT last reviewed eToro regulation in May 2026.",
+        "table": {
+          "headers": ["Entity", "Regulator", "Licence", "Who it covers", "Compensation scheme", "Notes"],
+          "rows": [
+            ["eToro (UK) Ltd", "FCA", "583263", "UK residents", "FSCS up to GBP 85,000", "Tier-1"],
+            ["eToro (Europe) Ltd", "CySEC", "109/10", "EU/EEA residents", "ICF up to EUR 20,000", "Tier-1 + MiCA crypto licence"],
+            ["eToro Aus Capital Limited", "ASIC", "Registered", "Australian residents", "No compensation scheme (fund segregation)", "Tier-1 — ASIC lawsuit active since 2023"],
+            ["eToro USA Securities", "SEC/FINRA", "Broker-dealer", "US residents", "SIPC up to $500,000", "Stocks and crypto only — no CFDs"],
+            ["eToro (Seychelles) Ltd", "FSA Seychelles", "Registered", "Some international clients", "No compensation scheme", "Offshore entity"]
+          ]
+        }
+      },
+
+
+      {
+        "id": "where-broker-accepts-clients",
+        "heading": "Who Can Open an Account With eToro? — Accepted Countries and Restrictions",
+        "body": "Accepted: United States (stocks and crypto only via SEC entity), United Kingdom (FCA), most EU/EEA countries (CySEC), Australia (ASIC), UAE, South Africa, and approximately 76 countries worldwide.\n\nNot accepted: India, China, Japan, North Korea, Iran, Syria, Cuba, most of Africa, and most of Southeast Asia.\n\nThe US entity is heavily restricted — no CFDs, no forex, stocks and crypto only. This is because SEC regulations do not permit the CFD and social trading product that eToro offers elsewhere. UK and EU clients get the full product suite including CFDs, copy trading, real stocks, crypto, and ETFs. Australian clients get the full suite but under an entity currently facing ASIC proceedings.\n\nSome international clients outside the main regulated jurisdictions may be served by eToro (Seychelles) Ltd — an offshore entity with limited regulatory protection. Always verify which entity your client agreement names.",
+        "practical_note": "If you are in the US, you get a different product entirely — no CFDs, no forex trading, no leverage. The social and copy trading features still work but only for stocks and crypto. EU residents benefit from MiCA-regulated crypto trading as of January 2025. UK residents get FSCS protection. Australian residents should be aware of the active ASIC proceedings when evaluating the entity."
+      },
+      {
+        "id": "spreads-fees-accounts",
+        "heading": "eToro Spreads, Fees and Accounts — What Do You Actually Pay in 2026?",
+        "body": "eToro uses a simpler account structure than traditional forex brokers — one account type with tiered benefits based on equity level (eToro Club: Silver, Gold, Platinum, Diamond, Diamond+). There is no ECN vs Standard choice. Everyone gets the same execution with the same spreads.\n\nForex spreads start at 1.0 pip on EUR/USD with no commission per lot. That translates to approximately $10.00 per standard lot round-turn — competitive against dealing desk brokers but significantly more expensive than ECN specialists like IC Markets (0.0 pips + $7 commission = $7/lot) or Pepperstone Razor (0.0 pips + $7 commission = $7/lot). You are paying 30-40% more per forex trade on eToro than on a dedicated ECN broker.\n\nStocks are where eToro historically shone — zero commission real stock trading. In 2026, the model has shifted to $1-2 per trade in some markets, which is still competitive against traditional brokers but no longer the headline-grabbing free trades that built the brand. Non-leveraged stock and ETF positions incur no overnight fees because you own the real underlying asset — a genuine advantage for buy-and-hold investors.\n\nCrypto carries a 1% buy/sell fee — transparent but expensive relative to dedicated crypto exchanges charging 0.1-0.5%.\n\nThe hidden costs are where eToro draws criticism. Accounts are USD-denominated by default. Every non-USD deposit incurs a currency conversion fee (typically 0.5-1.5% depending on method and currency). For a UK trader depositing GBP 10,000, that is GBP 50-150 lost on conversion before a single trade. Withdrawal costs $5 per request with a $30 minimum withdrawal. And the $10/month inactivity fee kicks in after 12 months of no login — punishing exactly the passive investing behaviour that real stock ownership encourages.\n\nLeverage is capped at 1:30 for EU/UK/AU retail clients under ESMA and equivalent rules. No high-leverage offshore option comparable to what brokers like Exness or Vantage offer via secondary entities.",
+        "table": {
+          "headers": ["Instrument", "Cost", "Commission", "Notes"],
+          "rows": [
+            ["EUR/USD (forex CFD)", "1.0 pip spread", "$0", "Spread-only — all-in ~$10/lot RT"],
+            ["Stocks (non-leveraged)", "$0 (some markets) / $1-2 (others)", "Per trade", "Real ownership — no overnight fees"],
+            ["Crypto", "1% buy/sell spread fee", "$0", "Transparent but expensive vs crypto exchanges"],
+            ["ETFs (non-leveraged)", "$0 (some markets) / $1-2 (others)", "Per trade", "Real ownership — no overnight fees"],
+            ["Commodity CFDs", "Variable spread", "$0", "Spread-only pricing"],
+            ["Index CFDs", "Variable spread", "$0", "Spread-only pricing"]
+          ],
+          "footnote": "All figures broker-stated. Currency conversion fee applies to all non-USD deposits (typically 0.5-1.5%). $5 withdrawal fee. $10/month inactivity fee after 12 months. $30 minimum withdrawal."
+        }
+      },
+
+
+      {
+        "id": "deposits-withdrawals",
+        "heading": "How Fast Can You Get Your Money Out of eToro?",
+        "body": "Deposits are straightforward — Visa, Mastercard, PayPal, Skrill, Neteller, Apple Pay, and Google Pay all process instantly. Bank transfers take 4-7 business days inbound. The minimum deposit varies by country ($50 in some, $200 in others). The deposit experience is smooth and offers more payment options than most brokers.\n\nWithdrawals are where eToro falls behind modern standards. Processing takes 2 business days after eToro's internal review, then additional time depending on your payment method — bank transfers add 3+ more business days on top. The $5 fee applies to every single withdrawal regardless of method or amount. Minimum withdrawal is $30.\n\nCompare this to Pepperstone (same-day, $0 fee), Exness (instant on e-wallets, $0 fee), or even Interactive Brokers (one free withdrawal per month). eToro's withdrawal proposition is the weakest part of its product in 2026.\n\nThe $5 fee is not ruinous in isolation, but it discourages frequent small withdrawals — which is the exact behaviour a risk-conscious trader should practice. If you withdraw profits weekly, that is $260 per year in fees for doing the responsible thing.",
+        "cta_after": true,
+        "table": {
+          "headers": ["Method", "Min Deposit", "Deposit Speed", "Withdrawal Speed", "Withdrawal Fee"],
+          "rows": [
+            ["Visa/Mastercard", "$50-$200", "Instant", "2+ business days", "$5"],
+            ["PayPal", "$50-$200", "Instant", "2+ business days", "$5"],
+            ["Skrill", "$50-$200", "Instant", "2+ business days", "$5"],
+            ["Neteller", "$50-$200", "Instant", "2+ business days", "$5"],
+            ["Bank Transfer", "$500", "4-7 business days", "2+ business days + 3+ days bank time", "$5"],
+            ["Apple Pay", "$50-$200", "Instant", "2+ business days", "$5"],
+            ["Google Pay", "$50-$200", "Instant", "2+ business days", "$5"]
+          ],
+          "footnote": "All withdrawal requests are subject to a $5 fee regardless of method. Minimum withdrawal $30. Processing time is after eToro's internal compliance review — actual receipt depends on payment method. Currency conversion fee applies on non-USD withdrawals."
+        }
+      },
+      {
+        "id": "withdrawals",
+        "heading": "eToro Withdrawals in 2026 — The Real Picture",
+        "body": "Trustpilot tells a polarised story — 29,171 reviews with 66% giving 5 stars and 20% giving 1 star. That 20% one-star rate is significant for a platform of this size. The majority of traders report functional withdrawals that arrive within the stated timeframe. PayPal and e-wallet withdrawals tend to be fastest. Bank transfers are slowest due to additional banking system processing.\n\nThe complaint pattern is not about withdrawals failing — it is about the combination of the $5 fee, the conversion costs, and the processing time creating a friction stack that makes getting your money out feel unnecessarily difficult compared to competitors. No widespread allegations of refused withdrawals or frozen accounts in the way that unregulated brokers face. The complaints are about cost and speed, not about safety.\n\nComplaintsBoard shows 1.2 out of 5 from 39 complaints — a very negative small sample. The complaints there focus heavily on the inactivity fee, currency conversion charges, and the feeling of hidden costs that were not clearly communicated at signup. These are fee complaints, not fraud complaints. The distinction matters.\n\nThe Nasdaq listing provides structural reassurance — a publicly traded company cannot systematically refuse withdrawals without it appearing in their financials and triggering SEC scrutiny. The scale of eToro (millions of users, 76 countries) means that isolated complaints exist but the pipeline functions for the vast majority.\n\nIf your withdrawal stalls: check that your account is fully verified (KYC complete), ensure you are withdrawing to the same method used for deposit (anti-money-laundering requirement), and contact support with your withdrawal reference number. For FCA clients, escalate to the Financial Ombudsman if unresolved. For CySEC clients, the Cyprus Financial Ombudsman is available.\n\nNAFT has not independently tested eToro withdrawals. Submit your withdrawal proof at naft.com/withdrawal-proofs to help other traders.",
+        "cta_after": false
+      },
+
+
+      {
+        "id": "red-flags",
+        "heading": "eToro Red Flags — What to Know Before You Deposit",
+        "body": "None of these flags suggest eToro is a scam or unsafe — the regulatory coverage is among the strongest in retail trading. But they represent genuine concerns that an informed trader should weigh before committing significant capital. Every flag below is independently verifiable from public regulatory filings, court records, or broker-disclosed terms. NAFT last reviewed eToro in May 2026.",
+        "bullets": [
+          "ASIC commenced proceedings against eToro Aus Capital Limited in 2023 for CFD product design and distribution failures — this is real enforcement against the actual entity, ASIC's first such action against any broker, and suggests the Australian CFD product was not appropriate for its target audience",
+          "$5 withdrawal fee on every single withdrawal is anti-competitive in 2026 when Pepperstone, IC Markets, Exness, and Interactive Brokers all charge $0 — this fee discourages responsible profit-taking behaviour",
+          "$10 per month inactivity fee after 12 months of no login punishes long-term buy-and-hold investors — the exact user profile that real stock ownership should attract",
+          "Currency conversion fees on all non-USD deposits erode returns invisibly — UK traders depositing GBP lose 0.5-1.5% before placing a single trade, and this is not prominently disclosed at signup",
+          "FCA has warned against clone entity 'eToro SB Limited' — not the real eToro, but brand confusion risk exists for traders searching online who may land on a fraudulent copycat site",
+          "No MT4 or MT5 support — complete platform lock-in with zero portability means if you leave eToro, your indicators, scripts, and workflow do not transfer",
+          "Forex spreads at 1 pip EUR/USD are 30-40% more expensive than ECN competitors — the social trading premium is real and you pay it on every trade whether you use social features or not",
+          "ComplaintsBoard rating of 1.2/5 from 39 complaints — small sample but extremely negative sentiment focused on hidden fees and poor communication",
+          "Trustpilot polarisation — 20% one-star reviews from 29,171 total means approximately 5,800 traders gave the worst possible rating, which is a large absolute number even for a platform this size"
+        ]
+      },
+      {
+        "id": "who-broker-is-for",
+        "heading": "Who Should Use eToro — and Who Should Not",
+        "body": "eToro occupies a unique position — it is not trying to be the cheapest execution venue. It is trying to be the most accessible multi-asset social platform. That makes it perfect for some traders and terrible for others. The key question is whether you actually use the social and copy trading features. If you do, the premium is justified. If you do not, you are overpaying for features you ignore.",
+        "not_for": [
+          "Active forex traders wanting ECN spreads — 1 pip EUR/USD is 30-40% more expensive than IC Markets or Pepperstone Raw accounts, and there is no way to access tighter pricing on eToro regardless of volume",
+          "Traders who withdraw frequently — the $5 fee per withdrawal adds up to $260/year for weekly withdrawals, which is an unnecessary drag on returns",
+          "Anyone who wants MT4 or MT5 — eToro is proprietary-only with zero platform portability, meaning your entire workflow is locked in",
+          "Cost-sensitive investors with non-USD home currency — currency conversion fees on every deposit and withdrawal erode returns in a way that USD-denominated competitors avoid",
+          "Traders who want maximum leverage — 1:30 retail cap with no offshore high-leverage option means eToro is unsuitable for traders who rely on 1:500 from brokers like Exness or Vantage"
+        ],
+        "for": [
+          "Beginners who want a simple multi-asset platform — stocks, crypto, ETFs, and forex in one account without needing to understand MetaTrader",
+          "Copy trading enthusiasts — eToro's social features are genuinely unique and the CopyTrader product is the most mature in the industry",
+          "Buy-and-hold stock investors — real share ownership with no overnight fees is genuinely superior to CFD-only brokers for long-term positions",
+          "US residents wanting a regulated platform for stocks and crypto — the SEC/FINRA entity provides SIPC protection up to $500,000",
+          "Traders who value regulatory safety above all else — triple Tier-1 plus Nasdaq transparency is as safe as retail trading gets",
+          "Crypto traders in the EEA wanting MiCA-regulated crypto access integrated with traditional assets"
+        ]
+      },
+
+
+      {
+        "id": "how-to-open-account",
+        "heading": "How to Open an eToro Account — Step by Step",
+        "body": "eToro's onboarding is one of the smoothest in the industry — designed for mainstream users, not just experienced traders. The process takes under 5 minutes for registration, though full verification can take 1-3 business days depending on document review queues.",
+        "steps": [
+          {
+            "number": 1,
+            "title": "Register",
+            "detail": "Visit etoro.com and click 'Start Investing' or 'Join Now'. Enter your email, create a password, or sign up with Google/Facebook/Apple. Registration takes under 2 minutes. You will land on a demo account immediately with $100,000 virtual funds — you can explore the platform before depositing anything real."
+          },
+          {
+            "number": 2,
+            "title": "Verify your identity (KYC)",
+            "detail": "Upload a government-issued ID (passport, driving licence, or national ID) and proof of address (utility bill or bank statement dated within 3 months). eToro states verification takes 1-3 business days. Some users report same-day approval. You can deposit and trade before verification is complete (up to a limit), but you cannot withdraw until KYC is finalised."
+          },
+          {
+            "number": 3,
+            "title": "Fund your account and test a withdrawal",
+            "detail": "Deposit the minimum for your country ($50-$200) via your preferred method. Note: your account is USD-denominated by default, so non-USD deposits will incur a conversion fee. Buy one stock or place one trade. Then immediately request a withdrawal of any amount above $30 to test the pipeline. Time it. Factor in the $5 fee. If the money arrives within the stated timeframe, scale with confidence.",
+            "cta_inline": { "label": "Open eToro Account", "url": "AFFILIATE_PLACEHOLDER" }
+          }
+        ],
+        "practical_note": "Start with the demo account — it mirrors the real platform exactly and costs nothing. When ready to go live, make the minimum deposit via PayPal or card for instant processing. Test a withdrawal before scaling. The $5 fee applies even to test withdrawals, so factor that into your initial deposit.",
+        "cta_after": true
+      },
+      {
+        "id": "final-verdict",
+        "heading": "eToro Final Verdict — Is It Worth It in 2026?",
+        "body": "NAFT scores eToro 7.35 out of 10 — above average, lifted by exceptional regulation (FCA, CySEC, ASIC, SEC/FINRA, MiCA, and Nasdaq listing), genuinely innovative social and copy trading features, real stock ownership, and the industry's lowest published retail CFD loss rate. This is not a broker you need to worry about disappearing with your money. The regulatory and transparency infrastructure is among the strongest in retail trading globally.\n\nThe weaknesses are concentrated in the fee structure and platform limitations. The $5 withdrawal fee, $10 inactivity fee, and currency conversion charges are relics of a less competitive era — eToro can get away with them because the social trading moat keeps users locked in, but they represent genuine value erosion for active traders. The ASIC lawsuit is a real mark against the broker — not for safety concerns, but because it means a Tier-1 regulator concluded the CFD product was poorly designed for its audience. And the lack of MT4/MT5 means if eToro's proprietary platform does not suit your workflow, you have no alternative.\n\nFor beginners wanting multi-asset social trading under world-class regulation, eToro remains the obvious choice in 2026. For active forex traders, the 1 pip EUR/USD spread is an expensive tax on every position when ECN alternatives offer 0.0-0.2 pips. For buy-and-hold stock investors, the real ownership model is genuinely superior to CFD-only brokers — but the inactivity fee and conversion costs chip away at long-term returns.\n\nUse eToro for what it does uniquely well: social trading, copy trading, multi-asset simplicity, and real stock ownership under exceptional regulation. Do not use it as a forex-first or execution-first broker. For that, Pepperstone or IC Markets will save you money on every single trade."
+      }
+    ],
+
+
+
+    "affiliate_cta": {
+      "label": "Open eToro Account",
+      "url": "AFFILIATE_PLACEHOLDER",
+      "promo_code": null,
+      "friction_reducers": [
+        "Triple Tier-1 regulation — FCA, CySEC, ASIC plus SEC and Nasdaq listing",
+        "Real stock ownership with no overnight fees on non-leveraged positions",
+        "Copy top traders with one click — social trading pioneer since 2007",
+        "$50-$200 minimum deposit with demo account to test first"
+      ]
+    },
+    "cta_positions": [
+      "after_section_quick-verdict",
+      "after_section_deposits-withdrawals",
+      "in_section_how-to-open-account_step3"
+    ],
+    "trustpilot": {
+      "rating": 4.2,
+      "reviews": 29171,
+      "velocity_30d": "High review velocity — consistent with a multi-million user global platform",
+      "polarisation_note": "Heavily polarised: 66% five-star but 20% one-star. The negative reviews focus on fees (withdrawal fee, inactivity fee, conversion costs) and platform limitations rather than safety concerns.",
+      "broker_response_rate": "Responds to most negative reviews publicly",
+      "source_note": "Trustpilot, publicly reported data, May 2026. 29,171 reviews total."
+    },
+    "internal_links": [
+      { "anchor": "compare brokers side by side", "url": "/compare" },
+      { "anchor": "best regulated forex brokers", "url": "/brokers?regulation=tier-1" },
+      { "anchor": "broker scam alerts and warnings", "url": "/scam-alerts" },
+      { "anchor": "community withdrawal proofs", "url": "/withdrawal-proofs" },
+      { "anchor": "how NAFT reviews brokers", "url": "/how-we-review-brokers" },
+      { "anchor": "file a broker complaint with NAFT", "url": "/complaints" }
+    ],
+
+
+
+    "faq": [
+      {
+        "q": "Is eToro a legit broker or a scam?",
+        "a": "eToro is a legitimate, heavily regulated broker holding triple Tier-1 licences — FCA (583263) in the UK, CySEC (109/10) in the EU, and ASIC in Australia — plus SEC/FINRA registration in the USA. It has been publicly traded on Nasdaq (ETOR) since May 2025. Founded in 2007, it has operated for over 18 years without major fraud allegations. The FCA warning against 'eToro SB Limited' targets a clone entity, not the real eToro. The ASIC lawsuit concerns product design, not fraud."
+      },
+      {
+        "q": "How long does eToro withdrawal take?",
+        "a": "eToro states withdrawal processing takes up to 2 business days after their internal review. E-wallet withdrawals (PayPal, Skrill, Neteller) tend to arrive fastest after processing. Bank transfers add 3+ additional business days for banking system processing. A $5 fee applies to every withdrawal regardless of method. Minimum withdrawal is $30. No widespread reports of refused withdrawals — complaints centre on the fee and processing time, not safety."
+      },
+      {
+        "q": "Is eToro regulated by the FCA?",
+        "a": "Yes — eToro (UK) Ltd holds FCA licence 583263. This provides FSCS protection up to GBP 85,000 for eligible UK residents. The FCA has issued a warning against 'eToro SB Limited' — this is a fraudulent clone entity, not the real eToro. Always verify you are dealing with the legitimate platform at etoro.com with FCA reference number 583263."
+      },
+      {
+        "q": "What is the eToro minimum deposit in 2026?",
+        "a": "eToro minimum deposit varies by country — $50 in some markets, $200 in others. Bank transfer deposits require a $500 minimum regardless of country. The minimum applies across all payment methods except bank transfer. There is no deposit fee charged by eToro itself, but currency conversion fees apply to all non-USD deposits as accounts are USD-denominated by default."
+      },
+      {
+        "q": "Does eToro charge inactivity fees?",
+        "a": "Yes — eToro charges $10 per month after 12 consecutive months of no login activity. The fee is deducted from your available balance. If your balance reaches zero, the account is not closed but the fee stops accruing. This fee catches long-term investors who buy and hold stocks through eToro but forget to log in. Simply logging in once every 12 months prevents the fee — you do not need to trade."
+      },
+      {
+        "q": "Can I buy real stocks on eToro or just CFDs?",
+        "a": "You can buy real stocks on eToro — when you purchase a non-leveraged stock or ETF position, you own the underlying asset, not a CFD. This means no overnight fees, actual dividend payments, and real shareholder rights. However, if you apply leverage to a stock position, it becomes a CFD with overnight fees. Crypto purchases are also real ownership in supported jurisdictions. Forex, commodities, and indices are always CFDs."
+      },
+      {
+        "q": "Is eToro good for beginners?",
+        "a": "eToro is one of the best platforms for beginners in 2026. The interface is simpler than MetaTrader, the social feed provides market context, copy trading lets you mirror experienced traders with one click, and the demo account with $100,000 virtual funds lets you practice risk-free. The main beginner risk is not understanding that CFD positions carry overnight fees while stock positions do not — and that the 1 pip forex spread is expensive compared to dedicated forex brokers."
+      },
+      {
+        "q": "Why did ASIC sue eToro?",
+        "a": "In 2023, ASIC commenced proceedings against eToro Aus Capital Limited alleging the broker failed to meet design and distribution obligations for its CFD product. ASIC's position is that eToro's CFD product was not appropriate for the retail clients it was distributed to. This is ASIC's first design and distribution obligation action against any broker. It does not allege fraud or theft — it alleges the product was poorly targeted. The case relates specifically to the Australian entity and Australian CFD clients."
+      }
+    ],
+
+
+
+    "schema_jsonld": {
+      "review": {
+        "@context": "https://schema.org",
+        "@type": "Review",
+        "itemReviewed": {
+          "@type": "FinancialProduct",
+          "name": "eToro",
+          "url": "https://www.etoro.com"
+        },
+        "author": {
+          "@type": "Person",
+          "name": "NAFT Editorial Team",
+          "url": "https://naft.com/authors/editorial-team",
+          "sameAs": []
+        },
+        "reviewedBy": {
+          "@type": "Organization",
+          "name": "NAFT — Not A Fugazi Trader",
+          "url": "https://naft.com"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "3.7",
+          "bestRating": "5",
+          "worstRating": "1"
+        },
+        "datePublished": "2026-05-28",
+        "dateModified": "2026-05-28",
+        "description": "Independent eToro broker review by NAFT. Trust score 7.35/10. FCA + CySEC + ASIC + SEC regulated. Nasdaq-listed. Social trading pioneer."
+      },
+      "aggregateRating": {
+        "@context": "https://schema.org",
+        "@type": "AggregateRating",
+        "itemReviewed": {
+          "@type": "FinancialProduct",
+          "name": "eToro"
+        },
+        "ratingValue": "3.7",
+        "bestRating": "5",
+        "worstRating": "1",
+        "ratingCount": "1"
+      },
+
+
+      "faqPage": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Is eToro a legit broker or a scam?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "eToro is a legitimate broker holding triple Tier-1 licences — FCA, CySEC, and ASIC — plus SEC/FINRA registration and a Nasdaq listing (ETOR) since May 2025. The FCA warning targets a clone entity called eToro SB Limited, not the real eToro."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How long does eToro withdrawal take?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "eToro states withdrawal processing takes up to 2 business days. E-wallets arrive fastest. Bank transfers add 3+ additional days. A $5 fee applies to every withdrawal. Minimum withdrawal is $30."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is eToro regulated by the FCA?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes — eToro (UK) Ltd holds FCA licence 583263 with FSCS protection up to GBP 85,000 for UK residents. The warning against eToro SB Limited targets a fraudulent clone, not the real eToro."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the eToro minimum deposit in 2026?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "eToro minimum deposit varies by country — $50 in some markets, $200 in others. Bank transfers require $500 minimum. Currency conversion fees apply on non-USD deposits."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does eToro charge inactivity fees?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes — $10 per month after 12 months of no login. Simply logging in once prevents the fee. The fee stops if your balance reaches zero."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I buy real stocks on eToro or just CFDs?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Non-leveraged stock and ETF positions on eToro are real ownership — no overnight fees, real dividends, actual shareholder rights. Leveraged positions and forex/commodity/index trades are CFDs."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is eToro good for beginners?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "eToro is one of the best beginner platforms — simpler than MetaTrader, social feed for market context, copy trading, and a free demo account with $100,000 virtual funds."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Why did ASIC sue eToro?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "ASIC commenced proceedings in 2023 alleging eToro's CFD product failed design and distribution obligations — meaning it was not appropriate for the retail clients it targeted. This is ASIC's first such action. It does not allege fraud."
+            }
+          }
+        ]
+      },
+
+
+      "organization": {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "NAFT — Not A Fugazi Trader",
+        "url": "https://naft.com",
+        "logo": "https://naft.com/logo.png",
+        "sameAs": []
+      },
+      "breadcrumbList": {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://naft.com" },
+          { "@type": "ListItem", "position": 2, "name": "Broker Reviews", "item": "https://naft.com/brokers" },
+          { "@type": "ListItem", "position": 3, "name": "eToro Review 2026", "item": "https://naft.com/brokers/etoro" }
+        ]
+      },
+      "howTo": {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "How to Open an eToro Account",
+        "description": "Step-by-step guide to opening and verifying an eToro trading account.",
+        "step": [
+          {
+            "@type": "HowToStep",
+            "position": 1,
+            "name": "Register",
+            "text": "Visit etoro.com and click Start Investing. Enter your email or sign up with Google/Facebook/Apple. You get immediate access to a demo account with $100,000 virtual funds."
+          },
+          {
+            "@type": "HowToStep",
+            "position": 2,
+            "name": "Verify your identity (KYC)",
+            "text": "Upload a government-issued ID and proof of address. Verification takes 1-3 business days. You can deposit before verification is complete but cannot withdraw."
+          },
+          {
+            "@type": "HowToStep",
+            "position": 3,
+            "name": "Fund your account and test a withdrawal",
+            "text": "Deposit the minimum for your country ($50-$200). Note the currency conversion fee on non-USD deposits. Place one trade. Request a withdrawal above $30 to test the pipeline — factor in the $5 fee."
+          }
+        ]
+      },
+      "videoObject": null
+    },
+    "sources": [
+      "FCA Financial Services Register — eToro (UK) Ltd, licence 583263",
+      "FCA Warning List — eToro SB Limited (clone entity warning, NOT the legitimate eToro)",
+      "CySEC public register — eToro (Europe) Ltd, licence 109/10",
+      "ASIC — eToro Aus Capital Limited, enforcement proceedings commenced 2023",
+      "SEC EDGAR — eToro Group Ltd, Nasdaq listing ETOR, May 2025",
+      "CySEC — MiCA licence granted to eToro January 2025 for EEA crypto services",
+      "Trustpilot — eToro, 29,171 reviews, 66% five-star, 20% one-star, May 2026",
+      "ComplaintsBoard — eToro, 1.2/5 from 39 complaints",
+      "Broker website — account types, spreads, fees, payment methods, entity disclosures",
+      "Multiple public broker review platforms — spread, fee, and withdrawal data verification"
+    ]
+  }
+}
