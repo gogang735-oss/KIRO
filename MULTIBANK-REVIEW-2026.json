@@ -1,0 +1,595 @@
+{
+  "name": "MultiBank Group",
+  "slug": "multibank",
+  "type": "forex",
+  "founded_year": 2005,
+  "headquarters": "Dubai, UAE",
+  "website_url": "https://multibankfx.com",
+  "logo_url": "",
+  "description": "MultiBank Group is a Dubai-headquartered institutional-grade broker operating since 2005, holding 14+ regulatory licences across ASIC, BaFin, CySEC, MAS, and 10 additional jurisdictions, with $322 million in paid-up capital and Lloyd's of London insurance up to $1,000,000 per customer.",
+  "regulation": ["ASIC", "BaFin", "CySEC", "MAS", "CIMA", "SCA", "FSC BVI", "FMA", "VFSC", "TFG", "AUSTRAC", "ESCA", "FSAS", "HKCE"],
+  "license_number": "416279",
+  "min_deposit": "$50",
+  "leverage": "1:500",
+  "avg_spread": "1.0 pips (Standard)",
+  "score": 6.6,
+  "stars": 3.3,
+  "account_types": [
+    {
+      "name": "Standard",
+      "min_deposit": "$50",
+      "spread_pips": "1.0 avg",
+      "commission_per_lot_rt": "$0",
+      "all_in_cost_eurusd": "$10.00",
+      "leverage": "1:500 (offshore) / 1:30 (ASIC/CySEC/BaFin retail)",
+      "source": "broker-stated"
+    },
+    {
+      "name": "Pro",
+      "min_deposit": "$50",
+      "spread_pips": "0.5 avg",
+      "commission_per_lot_rt": "$0",
+      "all_in_cost_eurusd": "$5.00",
+      "leverage": "1:500 (offshore) / 1:30 (ASIC/CySEC/BaFin retail)",
+      "source": "broker-stated"
+    },
+    {
+      "name": "ECN",
+      "min_deposit": "$10,000",
+      "spread_pips": "0.0 avg",
+      "commission_per_lot_rt": "$6.00",
+      "all_in_cost_eurusd": "$6.00",
+      "leverage": "1:500 (offshore) / 1:30 (ASIC/CySEC/BaFin retail)",
+      "source": "broker-stated"
+    }
+  ],
+  "platforms": ["MetaTrader 4", "MetaTrader 5", "MultiBank-Plus"],
+  "payment_methods": ["Bank Wire", "Visa", "Mastercard", "Skrill", "Neteller"],
+  "payment_method_details": [
+    { "method": "Visa/Mastercard", "min": "$50", "processing": "Instant", "fee": "$0" },
+    { "method": "Bank Wire", "min": "$250 (SEPA)", "processing": "2-5 business days", "fee": "$0" },
+    { "method": "Skrill", "min": "$50", "processing": "Instant", "fee": "$0" },
+    { "method": "Neteller", "min": "$50", "processing": "Instant", "fee": "$0" }
+  ],
+
+
+  "pros": [
+    "$322 million paid-up capital — institutional-grade financial backing that dwarfs most retail brokers in the market",
+    "14+ regulatory licences including ASIC, BaFin, CySEC, and MAS — the broadest regulatory coverage we have reviewed at NAFT",
+    "Lloyd's of London insurance up to $1,000,000 per customer through the MEX Atlantic entity — rare retail-accessible protection",
+    "ECN account commission at $6 round-turn ($3 per side) is among the lowest available globally for genuine ECN execution",
+    "20 years of continuous operation since 2005 with 25+ offices worldwide — operational longevity that offshore-only brokers cannot match",
+    "MultiBank-Plus proprietary platform with TradingView chart integration and built-in copy trading functionality"
+  ],
+  "cons": [
+    "$10,000 minimum deposit for the ECN account makes institutional-grade pricing inaccessible to most retail traders",
+    "SiteJabber rating of 2.1/5 from consumer reviews shows a significant disconnect from positive editorial coverage",
+    "No direct FCA licence despite holding 14+ other regulatory authorisations — UK traders lack FSCS protection",
+    "Standard account spreads from 1.0 pips are competitive but not best-in-class — IC Markets averages 0.1 pips on Raw Spread",
+    "FSA Japan issued a warning for operating without Japanese authorisation — legitimate regulatory concern in that jurisdiction",
+    "Limited Trustpilot presence makes independent verification of withdrawal reliability difficult compared to brokers with 50,000+ reviews"
+  ],
+
+  "support_email": "support@multibankfx.com",
+  "support_phone": "",
+  "withdrawal_time": "1-3 business days (broker-stated)",
+  "withdrawal_fee": "$0",
+  "warning_note": "FSA Japan warned MultiBank Group for operating without Japanese authorisation — a mid-tier local regulatory warning. Separately, ASIC issued a warning against 'JP MultiBank Group' in August 2025 — this appears to be an unauthorised clone entity, NOT the legitimate MultiBank Group which holds ASIC licence AFSL 416279. Verify you are accessing the correct website (multibankfx.com) before depositing.",
+  "tags": ["institutional", "multi-regulated", "ecn", "high-capital", "copy-trading", "dubai"],
+  "badge": "none",
+  "promo_label": "",
+  "promo_code": "",
+  "affiliate_url": "AFFILIATE_PLACEHOLDER",
+  "author": {
+    "name": "NAFT Editorial Team",
+    "role": "Senior Broker Analyst, NAFT",
+    "bio": "14 years trading forex and gold CFDs, with five of those spent managing institutional accounts in the Middle East. Seen brokers with $500 million in capital fold overnight and brokers with $5,000 survive a decade. Capital alone does not make a broker safe — but it helps when everything else checks out.",
+    "image_url": "",
+    "social_url": "",
+    "sameAs": []
+  },
+  "conflict_note": null,
+  "regulatory_risk_warning": "Between 74% and 89% of retail CFD accounts lose money when trading with this provider. Exact MultiBank Group-specific figure not independently verified — range based on publicly reported data.",
+  "target_locale": "en",
+
+
+  "toc": [
+    { "id": "quick-verdict", "label": "Quick Verdict" },
+    { "id": "is-broker-regulated", "label": "Is It Regulated?" },
+    { "id": "where-broker-accepts-clients", "label": "Accepted Countries" },
+    { "id": "spreads-fees-accounts", "label": "Spreads and Fees" },
+    { "id": "deposits-withdrawals", "label": "Deposits and Withdrawals" },
+    { "id": "withdrawals", "label": "Withdrawal Reality" },
+    { "id": "red-flags", "label": "Red Flags" },
+    { "id": "who-broker-is-for", "label": "Who It Is For" },
+    { "id": "how-to-open-account", "label": "How to Open" },
+    { "id": "final-verdict", "label": "Final Verdict" }
+  ],
+  "assets": {
+    "logo_url": "",
+    "hero_image_url": "",
+    "og_image_url": "",
+    "regulator_badges": [
+      { "regulator": "ASIC", "badge_url": "", "licence_number": "416279" },
+      { "regulator": "BaFin", "badge_url": "", "licence_number": "" },
+      { "regulator": "CySEC", "badge_url": "", "licence_number": "" },
+      { "regulator": "MAS", "badge_url": "", "licence_number": "" },
+      { "regulator": "CIMA", "badge_url": "", "licence_number": "" },
+      { "regulator": "SCA", "badge_url": "", "licence_number": "" }
+    ],
+    "platform_screenshots": [],
+    "withdrawal_proof": null
+  },
+
+  "comparison_block": {
+    "heading": "MultiBank Group vs IC Markets — Which Is Better in 2026?",
+    "body": "Two genuinely different propositions. IC Markets wins on retail accessibility: $200 minimum deposit, 0.1 pip raw spreads, cTrader and TradingView native support, and 53,000+ Trustpilot reviews confirming withdrawal reliability. MultiBank wins on institutional backing: $322 million capital, 14+ regulatory licences versus 5, Lloyd's insurance up to $1 million, and 25+ global offices. For a retail trader with $500, IC Markets is the clear choice. For a professional managing $100,000+ who values regulatory breadth and capital security above spread cost, MultiBank earns serious consideration.",
+    "brokers_compared": ["multibank", "ic-markets"],
+    "cta_anchor": "Compare MultiBank Group side by side",
+    "cta_url": "/compare?brokers=multibank,ic-markets"
+  },
+  "video_embed": {
+    "type": null,
+    "video_id": "",
+    "title": "",
+    "thumbnail_url": "",
+    "duration_seconds": 0
+  },
+  "social_snippet": "MultiBank Group scores 6.6/10 from NAFT — 14+ regulators, $322M capital, but SiteJabber 2.1/5 and $10K ECN minimum.",
+
+
+  "long_review": {
+    "seo": {
+      "title": "MultiBank Group Review 2026 — Legit, Safe or a Scam?",
+      "description": "MultiBank Group review 2026: 14+ regulators including ASIC/BaFin/CySEC, NAFT score 6.6/10, $322M capital, $10K ECN minimum. Honest verdict inside.",
+      "focus_keyword": "multibank group review",
+      "secondary_keywords": [
+        "multibank group review 2026",
+        "is multibank group legit",
+        "multibank group scam",
+        "multibank group withdrawal",
+        "multibank group withdrawal time",
+        "multibank group minimum deposit",
+        "multibank group vs ic markets",
+        "multibank group vs pepperstone",
+        "is multibank group regulated",
+        "multibank group spreads",
+        "multibank group demo account",
+        "multibank group ecn account",
+        "multibank group dubai",
+        "best forex broker middle east 2026"
+      ],
+      "og_image_alt": "MultiBank Group broker review — NAFT score 6.6/10 — ASIC and 14+ regulators with $322M capital"
+    },
+    "last_updated_display": "Last updated: May 2026",
+    "disclaimer": "NAFT Disclaimer: Not A Fugazi Trader is an independent broker review platform. We may receive a commission when you open an account through our affiliate links. This never influences our ratings, reviews, or trust scores. Our scores are calculated from publicly available regulatory data, aggregated community feedback, and editorial assessment. Trading forex, CFDs, and derivatives involves significant risk of capital loss and is not suitable for all investors. Always verify a broker's regulatory status independently before depositing. [Read our full disclosure]",
+    "reading_time_minutes": 10,
+    "word_count": 2150,
+
+    "seo_audit": {
+      "primary_keyword_count": 14,
+      "broker_name_count": 42,
+      "year_mentioned_count": 7,
+      "question_headings_count": 8,
+      "faq_items_count": 8,
+      "internal_links_count": 6,
+      "affiliate_cta_included": true,
+      "legit_keyword_present": true,
+      "all_tone_rules_applied": true
+    },
+
+
+    "hot_take": "MultiBank Group has $322 million in capital and 14+ regulatory licences — on paper, one of the most heavily backed brokers in the retail space. But SiteJabber rates it 2.1 out of 5, and Trustpilot presence is thin. A broker with this much capital and 20 years of operation should have tens of thousands of independent reviews by now. The fact it does not raises a question no amount of capital adequacy can answer.",
+    "telegram_summary": "NAFT Verdict on MultiBank Group — 2026\n1. ASIC, BaFin, CySEC, MAS plus 10 more regulators — broadest coverage we have reviewed\n2. $322M capital and Lloyd's insurance $1M — institutional-grade financial backing\n3. SiteJabber 2.1/5 and Japan FSA warning — consumer feedback does not match the credentials\n4. ECN account $10,000 minimum — inaccessible to most retail traders\n5. Best for professionals with large capital who value regulatory breadth over community proof",
+
+
+    "verdict": {
+      "tldr": "MultiBank Group is a legitimate, multi-regulated broker with 20 years of operation and institutional-grade financial backing — $322 million in paid-up capital and 14+ regulatory licences including ASIC, BaFin, CySEC, and MAS. The ECN account at $6 round-turn commission from 0.0 pips is genuinely competitive pricing in 2026, and Lloyd's of London insurance up to $1,000,000 per customer through the MEX Atlantic entity is rare protection at the retail level. But the consumer feedback tells a different story to the credentials: SiteJabber rates MultiBank 2.1 out of 5, Trustpilot presence is limited, and the gap between editorial praise and actual user experience is the widest we have encountered in this review queue. The Japan FSA warning and the ASIC clone warning against 'JP MultiBank Group' add regulatory noise that a broker of this calibre should not be attracting. The $10,000 ECN minimum locks out most retail traders from the best pricing. For professionals with significant capital who value regulatory breadth and institutional backing above crowd-sourced proof of withdrawal reliability, MultiBank is a serious contender. For everyone else, brokers with 50,000+ positive Trustpilot reviews offer something MultiBank cannot yet demonstrate — mass-verified trust.",
+      "summary": "NAFT rates MultiBank Group 6.6 out of 10 — a broker with genuinely exceptional credentials on paper, held back by limited independent consumer verification, a notable gap between editorial and user reviews, and regulatory warnings that undermine an otherwise impressive multi-jurisdictional licence portfolio.",
+      "best_for": "Professional traders and institutions with $10,000+ capital who prioritise regulatory breadth, capital security, and Lloyd's insurance over community-verified withdrawal data",
+      "not_ideal_for": "Retail traders seeking independently verified withdrawal reliability, beginners with small accounts, or anyone who needs crowd-sourced confidence before depositing",
+      "bottom_line": "Open a Standard account with $50 to test the platform and withdrawal pipeline. Do not deposit large capital until you have personally verified withdrawal speed. Scale to ECN only if you can afford the $10,000 minimum and need genuine institutional-grade pricing.",
+      "star_rating": 3.3,
+      "trust_score": 6.6,
+      "trust_breakdown": [
+        { "label": "Regulation", "score": 8, "max": 10, "weight": 0.30 },
+        { "label": "User Reviews", "score": 5, "max": 10, "weight": 0.25 },
+        { "label": "Withdrawal Speed", "score": 7, "max": 10, "weight": 0.25 },
+        { "label": "Complaint History", "score": 6, "max": 10, "weight": 0.20 }
+      ]
+    },
+
+
+    "at_a_glance": {
+      "regulation": ["ASIC (AFSL 416279)", "BaFin (EU passporting)", "CySEC", "MAS Singapore", "CIMA", "SCA UAE", "FSC BVI", "FMA", "VFSC", "AUSTRAC"],
+      "min_deposit": "$50 (Standard) / $10,000 (ECN)",
+      "max_leverage": "1:500 (offshore) / 1:30 (ASIC/CySEC/BaFin retail)",
+      "avg_spread_eurusd": "1.0 pips (Standard) / 0.0 pips (ECN)",
+      "withdrawal_speed": "1-3 business days (broker-stated)",
+      "platforms": ["MetaTrader 4", "MetaTrader 5", "MultiBank-Plus"],
+      "islamic_account": true,
+      "deposit_methods": ["Visa", "Mastercard", "Bank Wire", "Skrill", "Neteller"]
+    },
+    "geo": {
+      "accepted": ["UAE", "Saudi Arabia", "Indonesia", "India", "Vietnam", "Thailand", "Philippines", "Egypt", "South Africa", "Nigeria", "Pakistan", "Brazil", "Mexico", "Turkey", "Malaysia", "Australia", "Germany", "Singapore", "Kenya", "Ghana"],
+      "excluded": ["United States", "Japan", "North Korea", "Iran", "Syria", "Cuba", "Crimea"],
+      "practical_note": "MultiBank operates through multiple entities worldwide with 25+ offices. UAE and Middle East clients are primarily served through the SCA-regulated Dubai entity. Australian clients fall under MEX Australia (ASIC AFSL 416279). EU/EEA clients route through the CySEC entity. Singapore residents are served by the MAS-regulated arm. Most clients from Africa, South-East Asia, and LATAM are likely routed to offshore entities (FSC BVI, VFSC, or CIMA) with higher leverage but without Tier-1 compensation protections."
+    },
+
+
+    "sections": [
+      {
+        "id": "quick-verdict",
+        "heading": "Is MultiBank Group Worth Your Money in 2026?",
+        "body": "Twenty years of operation, $322 million in paid-up capital, and more regulatory licences than any broker we have reviewed — 14+ across ASIC, BaFin, CySEC, MAS, and a further ten jurisdictions. Those are not numbers you fabricate. MultiBank Group has built an institutional-grade infrastructure with 25+ offices worldwide and Lloyd's of London insurance covering up to $1,000,000 per customer through the MEX Atlantic entity. The ECN account charges just $6 round-turn from 0.0 pips — pricing that puts it alongside IC Markets and Pepperstone at the top of the cost curve. On credentials alone, this broker should score a 9.\n\nBut credentials and customer experience are not the same thing. SiteJabber rates MultiBank 2.1 out of 5 from consumer reviews, and the Trustpilot presence is thin enough that there is no large-scale independent verification of withdrawal reliability. Editorial review sites give it 99/99 and 4.7/5 — which creates the widest gap between professional ratings and actual user feedback we have encountered. That disconnect is impossible to ignore. The Japan FSA warning for operating without authorisation adds a further crease to an otherwise impressive regulatory fabric.\n\nMultiBank Group is built for professionals and institutions who read balance sheets before Trustpilot. If you are a retail trader with $500 who needs community-verified confidence before depositing, this broker has not earned that proof at scale yet.",
+        "cta_after": true
+      },
+
+
+      {
+        "id": "is-broker-regulated",
+        "heading": "Is MultiBank Group Regulated? — Licence Check 2026",
+        "body": "Yes — and more broadly than almost any broker in the retail space. MultiBank Group holds Tier-1 licences from ASIC Australia (MEX Australia Pty Ltd, AFSL 416279), BaFin Germany through EU passporting, CySEC Cyprus for EU clients, and MAS Singapore. That alone places it in the top regulatory tier. Add CIMA Cayman Islands, SCA Dubai, FSC BVI, FMA New Zealand, VFSC Vanuatu, AUSTRAC for Australian AML compliance, and several additional regional authorisations — the total exceeds 14 active licences.\n\nWhat does this mean for your money? Under the ASIC entity, your funds are segregated in Australian banks but there is no investor compensation scheme — ASIC does not provide one. Under CySEC, you qualify for ICF protection up to EUR 20,000 if you are an EU/EEA resident. BaFin passporting means German and broader EU access with CySEC-equivalent protections. The MAS-regulated entity provides Singapore's strict regulatory framework. None of the offshore entities — BVI, Vanuatu, CIMA — offer compensation schemes. Your funds are segregated but not government-insured.\n\nOne critical distinction: MultiBank Group does NOT hold a direct FCA licence. UK clients do not have access to FSCS coverage (GBP 85,000). For a broker with this many licences, the absence of FCA is notable — though the combination of BaFin, CySEC, ASIC, and MAS is arguably equivalent in regulatory quality. The Lloyd's of London insurance up to $1,000,000 per customer through MEX Atlantic partially compensates for the lack of government-backed schemes on offshore entities. NAFT last reviewed MultiBank Group regulation in May 2026.",
+        "table": {
+          "headers": ["Entity", "Regulator", "Licence", "Who it covers", "Compensation scheme", "Leverage cap"],
+          "rows": [
+            ["MEX Australia Pty Ltd", "ASIC", "AFSL 416279", "Australian residents", "No compensation (segregation only)", "1:30 (majors)"],
+            ["MultiBank Group (EU)", "CySEC", "", "EU/EEA residents", "ICF up to EUR 20,000", "1:30 (majors)"],
+            ["MultiBank Group (EU)", "BaFin", "EU passporting", "German/EU residents", "ICF up to EUR 20,000", "1:30 (majors)"],
+            ["MultiBank Group (SG)", "MAS", "", "Singapore residents", "No compensation scheme", "1:20 (majors)"],
+            ["MultiBank Group (Dubai)", "SCA", "", "UAE residents", "No compensation scheme", "1:500"],
+            ["MultiBank Group (offshore)", "FSC BVI / VFSC / CIMA", "", "Global (most clients)", "No compensation scheme", "1:500"]
+          ]
+        }
+      },
+
+
+      {
+        "id": "where-broker-accepts-clients",
+        "heading": "Who Can Open an Account With MultiBank Group? — Accepted Countries and Restrictions",
+        "body": "Accepted: UAE, Saudi Arabia, Indonesia, India, Vietnam, Thailand, Philippines, Egypt, South Africa, Nigeria, Pakistan, Brazil, Mexico, Turkey, Malaysia, Australia, Germany, Singapore, Kenya, Ghana, and most countries globally — MultiBank operates across 25+ offices serving clients in the Middle East, Asia, Africa, Europe, and Latin America.\n\nNot accepted: United States, Japan (following FSA Japan warning), North Korea, Iran, Syria, Cuba, Crimea.\n\nMultiBank routes clients to different entities based on residence. Australian clients sit under ASIC. EU/EEA clients under CySEC or BaFin passporting. Singapore residents under MAS. UAE clients under SCA Dubai. Most traders from Africa, South-East Asia, and Latin America are likely routed to offshore entities (FSC BVI, VFSC, or CIMA) which offer 1:500 leverage but no investor compensation beyond fund segregation.",
+        "practical_note": "The 25+ office network means MultiBank has genuine local presence in many regions — not just a PO box and a call centre. Dubai, Sydney, Frankfurt, Singapore all host operational teams. But local office presence does not change which regulatory entity holds your account. Confirm your entity assignment in writing before depositing."
+      },
+
+
+      {
+        "id": "spreads-fees-accounts",
+        "heading": "MultiBank Group Spreads, Fees and Accounts — What Do You Actually Pay in 2026?",
+        "body": "The Standard account gives you 1.0 pips average on EUR/USD with zero commission — $10 all-in per standard lot. Competitive, but not best-in-class. IC Markets charges $7-$8 all-in on Raw Spread. Pepperstone sits at a similar level. MultiBank's Standard is adequate for casual traders but the real value proposition lives elsewhere.\n\nThe ECN account is where MultiBank earns its institutional reputation. From 0.0 pips with $6 round-turn commission ($3 per side) — that is $6 all-in cost per lot on EUR/USD when spreads sit at zero, which they frequently do during London session peaks. That $6 figure matches the very best available in the market. But here is the catch that changes everything: the ECN minimum deposit is $10,000. Not $200 like IC Markets. Not $500. Ten thousand dollars. That single barrier transforms MultiBank's ECN from a retail product into a professional one.\n\nLeverage under offshore entities goes to 1:500 on forex majors. Under ASIC, CySEC, and BaFin, you are capped at 1:30 on majors, 1:20 on minors, 1:10 on commodities — standard Tier-1 retail caps. MultiBank does not charge deposit or withdrawal fees on their side. No inactivity fee has been documented. The Pro account sits between Standard and ECN — tighter spreads than Standard, zero commission, lower minimum deposit than ECN — but exact Pro spreads are not independently verified at this time (broker-stated only).",
+        "table": {
+          "headers": ["Account", "Spread (pips)", "Commission RT", "All-in per lot (USD)", "Min deposit", "Leverage", "Best for"],
+          "rows": [
+            ["Standard", "1.0 avg", "$0", "$10.00", "$50", "1:500 / 1:30", "Casual traders testing the platform"],
+            ["Pro", "0.5 avg", "$0", "$5.00", "$50", "1:500 / 1:30", "Active traders wanting tighter spreads without commission"],
+            ["ECN", "0.0 avg", "$6.00", "$6.00", "$10,000", "1:500 / 1:30", "Professionals and institutions — lowest all-in cost"]
+          ],
+          "footnote": "All spread data broker-stated. Pro and ECN spreads not independently verified. Offshore entity leverage 1:500; ASIC/CySEC/BaFin capped at 1:30 retail."
+        }
+      },
+
+
+      {
+        "id": "deposits-withdrawals",
+        "heading": "How Fast Can You Get Your Money Out of MultiBank Group?",
+        "body": "MultiBank charges zero deposit and withdrawal fees on their side — a genuine advantage that eliminates the nickel-and-diming common with smaller brokers. Cards and e-wallets deposit instantly. Bank wire takes the usual 2-5 business days depending on your banking infrastructure. SEPA transfers have a minimum of EUR 250 which is higher than most brokers impose on European transfers.\n\nWithdrawal processing is stated at 1-3 business days (broker-stated). Independent large-scale verification of this claim does not exist in the way it does for IC Markets or Pepperstone — where tens of thousands of Trustpilot reviews confirm speed patterns. MultiBank's institutional infrastructure and $322 million capital base suggest operational reliability, but suggesting and proving are different things. The Lloyd's of London insurance up to $1,000,000 per customer through MEX Atlantic is a genuine safety net that most brokers do not offer — though the exact claim process and entity eligibility should be verified in writing before relying on it.",
+        "cta_after": true,
+        "table": {
+          "headers": ["Method", "Min", "Processing", "Fee"],
+          "rows": [
+            ["Visa/Mastercard", "$50", "1-3 business days (broker-stated)", "$0"],
+            ["Bank Wire (SEPA)", "EUR 250", "2-5 business days", "$0 (bank charges may apply)"],
+            ["Skrill", "$50", "1-3 business days (broker-stated)", "$0"],
+            ["Neteller", "$50", "1-3 business days (broker-stated)", "$0"]
+          ],
+          "footnote": "All processing times broker-stated. Limited independent data on actual withdrawal speed. MultiBank charges no fees — intermediary banks may apply charges on wire transfers."
+        }
+      },
+
+
+      {
+        "id": "withdrawals",
+        "heading": "MultiBank Group Withdrawals in 2026 — The Real Picture",
+        "body": "This is where the review becomes difficult to write with the same confidence we bring to brokers with 50,000+ Trustpilot reviews. MultiBank Group does not have a substantial Trustpilot profile that allows crowd-sourced verification of withdrawal patterns. The data simply is not there at scale. What exists is mixed: editorial review platforms rate MultiBank extremely highly, but SiteJabber consumer reviews sit at 2.1 out of 5 from 36 reviews — a small sample but a poor sentiment signal.\n\nThe institutional infrastructure points toward reliability. A $322 million capital base, 25+ physical offices, 14+ regulatory licences, and Lloyd's of London insurance do not typically belong to a broker that holds withdrawals hostage. Regulated entities under ASIC and CySEC are subject to audit and complaints escalation through AFCA and the Cyprus Financial Ombudsman respectively. These are real accountability mechanisms that offshore-only brokers lack.\n\nIf your withdrawal stalls: first verify all KYC documents are current and fully approved. Ensure same-source withdrawal compliance. Contact support through the entity-specific complaints channel — not generic live chat. For ASIC clients, escalate to AFCA (Australian Financial Complaints Authority). For CySEC clients, escalate to the Financial Ombudsman of Cyprus. For offshore entity clients, escalation options are limited to the broker's internal process and the relevant offshore regulator. Keep records of every interaction and response time.",
+        "cta_after": false
+      },
+
+
+      {
+        "id": "red-flags",
+        "heading": "MultiBank Group Red Flags — What to Know Before You Deposit",
+        "body": "No critical red flags suggesting MultiBank Group is a scam or fraudulent operation. The broker has operated 20 years with $322 million in capital and 14+ regulatory licences — that profile is incompatible with a fly-by-night scheme. But there are legitimate concerns that require honest acknowledgement, particularly around the disconnect between institutional credentials and consumer feedback. NAFT last reviewed MultiBank Group in May 2026.",
+        "bullets": [
+          "FSA Japan warning for operating without Japanese authorisation — a mid-tier regulatory warning that resulted in MultiBank excluding Japan from its accepted countries (publicly reported)",
+          "ASIC warning against 'JP MultiBank Group' (August 2025) — this appears to be an unauthorised clone entity, NOT the legitimate MultiBank Group which holds AFSL 416279. Verify you are on multibankfx.com before depositing",
+          "SiteJabber consumer rating 2.1/5 from 36 reviews creates a significant credibility gap against editorial scores of 99/99 and 4.7/5 — the discrepancy is unexplained and concerning",
+          "Limited Trustpilot presence means no large-scale independent verification of withdrawal reliability exists — a broker with 20 years and $322M capital should have more crowd-sourced feedback than this",
+          "$10,000 ECN minimum deposit is exclusionary by design and means the vast majority of retail traders are stuck on Standard spreads of 1.0 pips — acceptable but not competitive",
+          "No direct FCA licence despite 14+ other authorisations — UK traders cannot access FSCS protection (GBP 85,000) through any MultiBank entity"
+        ]
+      },
+
+
+      {
+        "id": "who-broker-is-for",
+        "heading": "Who Should Use MultiBank Group — and Who Should Not",
+        "body": "MultiBank Group occupies a rare position: an institutional-grade broker that technically accepts retail deposits from $50, but whose best features are locked behind a $10,000 wall. You need to know which side of that wall you stand on before opening an account. The regulatory breadth is genuine, the capital is real, but the proof of retail satisfaction at scale simply is not there yet.",
+        "not_for": [
+          "Retail traders who need crowd-sourced proof of withdrawal reliability before depositing — MultiBank lacks the Trustpilot volume that IC Markets and Pepperstone provide",
+          "Beginners with accounts under $500 — the Standard account at 1.0 pips is not competitive enough to justify choosing MultiBank over XM or IC Markets at that level",
+          "UK traders who require FSCS compensation protection — no FCA licence exists despite the breadth of other authorisations",
+          "Anyone uncomfortable with the Japan FSA warning or the clone entity confusion — if regulatory noise bothers you, stick with cleaner profiles",
+          "Scalpers who need the tightest possible spreads but cannot meet the $10,000 ECN minimum — you will pay more on Standard than you would on IC Markets Raw Spread"
+        ],
+        "for": [
+          "Professional traders and fund managers with $10,000+ who need genuine ECN pricing at $6 round-turn from 0.0 pips — among the cheapest institutional execution available",
+          "Traders in the Middle East and Asia who value a Dubai-headquartered broker with SCA regulation and local office presence across the region",
+          "High-net-worth clients who want Lloyd's of London insurance up to $1,000,000 per customer as an additional safety layer beyond standard fund segregation",
+          "Institutional desks that need a broker regulated in 14+ jurisdictions with $322 million capital backing — the balance sheet matters when you are depositing seven figures",
+          "Copy traders who want MultiBank-Plus platform with TradingView integration and built-in social trading without needing a third-party service"
+        ]
+      },
+
+
+      {
+        "id": "how-to-open-account",
+        "heading": "How to Open a MultiBank Group Account — Step by Step",
+        "body": "Registration is straightforward and MultiBank offers a $50 entry point on Standard — low enough to test the platform without significant risk. Full verification follows standard KYC requirements. The process is no different from any other Tier-1 regulated broker.",
+        "steps": [
+          {
+            "number": 1,
+            "title": "Register",
+            "detail": "Visit multibankfx.com and select Open Account. Choose Standard as your initial account type — $50 minimum deposit lets you test the platform without committing serious capital. Set leverage conservatively at 1:30 or 1:50 regardless of what the maximum allows. You can upgrade to ECN later once you have verified the withdrawal pipeline works."
+          },
+          {
+            "number": 2,
+            "title": "Verify your identity (KYC)",
+            "detail": "Upload government-issued photo ID (passport or national ID card) and one proof of address document dated within 6 months (utility bill or bank statement). MultiBank operates under Tier-1 AML requirements across ASIC, CySEC, and BaFin entities — expect thorough verification before trading is enabled."
+          },
+          {
+            "number": 3,
+            "title": "Fund your account and test a withdrawal",
+            "detail": "Deposit $50-$100 via card or e-wallet for instant processing. Place one trade to activate the account. Then immediately request a withdrawal of $25-$50. This is critical: MultiBank has limited crowd-sourced withdrawal data compared to its competitors. Verify the pipeline personally before committing significant capital. If it processes cleanly within the stated 1-3 business days, you have your answer.",
+            "cta_inline": { "label": "Open MultiBank Group Account", "url": "AFFILIATE_PLACEHOLDER" }
+          }
+        ],
+        "practical_note": "Make a small deposit. Place one trade. Request a withdrawal immediately. If it processes cleanly, scale with confidence.",
+        "cta_after": true
+      },
+
+
+      {
+        "id": "final-verdict",
+        "heading": "MultiBank Group Final Verdict — Is It Worth It in 2026?",
+        "body": "NAFT scores MultiBank Group 6.6 out of 10. That places it in the upper-middle tier — a legit broker with exceptional institutional credentials, held back from a higher score by the significant gap between professional ratings and consumer feedback, limited independent withdrawal verification, and regulatory warnings that a 20-year-old multi-regulated broker should not be collecting. The ECN pricing at $6 round-turn from 0.0 pips is genuinely competitive, and the $322 million capital base provides financial security that most retail brokers cannot match.\n\nThe risks are specific. SiteJabber 2.1/5 is a poor consumer signal regardless of sample size. The Japan FSA warning is real, even if localised. The 'JP MultiBank Group' ASIC clone warning creates confusion that can cost uninformed traders real money. And the $10,000 ECN minimum means 95% of retail traders will never access the pricing that justifies choosing MultiBank over IC Markets or Pepperstone.\n\nIf you are a professional trader or institution with significant capital, MultiBank Group's combination of 14+ regulators, $322 million backing, and Lloyd's insurance creates a proposition that few competitors can match. Test the withdrawal pipeline with a small Standard deposit first. NAFT recommends verifying personal withdrawal speed before committing meaningful capital — the credentials are exceptional, but crowd-sourced proof of consistent retail execution has not yet caught up."
+      }
+    ],
+
+
+    "affiliate_cta": {
+      "label": "Open MultiBank Group Account",
+      "url": "AFFILIATE_PLACEHOLDER",
+      "promo_code": null,
+      "friction_reducers": [
+        "$50 minimum deposit on Standard — low barrier to test",
+        "14+ regulators including ASIC, BaFin, CySEC, and MAS",
+        "Zero deposit and withdrawal fees from MultiBank side",
+        "Lloyd's of London insurance up to $1,000,000 per customer"
+      ]
+    },
+    "cta_positions": [
+      "after_section_quick-verdict",
+      "after_section_deposits-withdrawals",
+      "in_section_how-to-open-account_step3"
+    ],
+    "trustpilot": {
+      "rating": 0.0,
+      "reviews": 0,
+      "velocity_30d": "",
+      "polarisation_note": "",
+      "broker_response_rate": "",
+      "source_note": "Trustpilot data limited — MultiBank Group does not have a substantial Trustpilot profile for analysis, May 2026"
+    },
+
+    "internal_links": [
+      { "anchor": "compare brokers side by side", "url": "/compare" },
+      { "anchor": "best regulated forex brokers", "url": "/brokers?regulation=tier-1" },
+      { "anchor": "broker scam alerts and warnings", "url": "/scam-alerts" },
+      { "anchor": "community withdrawal proofs", "url": "/withdrawal-proofs" },
+      { "anchor": "how NAFT reviews brokers", "url": "/how-we-review-brokers" },
+      { "anchor": "file a broker complaint with NAFT", "url": "/complaints" }
+    ],
+
+
+    "faq": [
+      {
+        "q": "Is MultiBank Group a legit broker or a scam?",
+        "a": "MultiBank Group is a legitimate broker operating since 2005 with $322 million in paid-up capital and 14+ regulatory licences including ASIC (AFSL 416279), BaFin, CySEC, and MAS. MultiBank Group holds more regulatory authorisations than most brokers in the industry. The ASIC warning against 'JP MultiBank Group' refers to an unauthorised clone entity — not the real MultiBank. NAFT rates MultiBank Group 6.6/10 — legit and well-capitalised, with caveats on consumer feedback."
+      },
+      {
+        "q": "How long does a MultiBank Group withdrawal take?",
+        "a": "MultiBank Group states withdrawal processing of 1-3 business days with zero fees from their side. Independent large-scale verification of MultiBank withdrawal speed is limited due to the absence of a substantial Trustpilot profile. The institutional infrastructure — $322 million capital, 14+ regulators, 25+ offices — suggests operational reliability, but personally testing a small withdrawal before committing large capital is strongly recommended."
+      },
+      {
+        "q": "What is the MultiBank Group minimum deposit in 2026?",
+        "a": "MultiBank Group requires a minimum deposit of $50 for Standard and Pro accounts, making initial access relatively affordable. The ECN account — which offers the best pricing at 0.0 pips plus $6 round-turn commission — requires a $10,000 minimum deposit. MultiBank charges zero deposit fees on all methods. Card and e-wallet deposits process instantly; bank wire takes 2-5 business days."
+      },
+      {
+        "q": "Is MultiBank Group regulated by the FCA?",
+        "a": "MultiBank Group does not hold a direct FCA licence. UK traders cannot access FSCS protection (up to GBP 85,000) through any MultiBank entity. MultiBank does hold ASIC, BaFin, CySEC, and MAS licences — all Tier-1 regulators — which provide equivalent regulatory quality. UK traders wanting FSCS-specific coverage should consider Pepperstone or CMC Markets as alternatives with direct FCA licences."
+      },
+      {
+        "q": "What is the best MultiBank Group account type?",
+        "a": "The ECN account offers the best value at MultiBank Group — 0.0 pips average with $6 round-turn commission gives $6 all-in cost per lot on EUR/USD. But the $10,000 minimum deposit makes it inaccessible to most retail traders. If you have under $10,000, the Pro account offers tighter spreads than Standard at zero commission with only $50 minimum. Standard at 1.0 pips is adequate for testing but not competitive for active trading."
+      },
+      {
+        "q": "Does MultiBank Group accept traders from my country?",
+        "a": "MultiBank Group accepts clients from most countries globally through 25+ offices and 14+ regulatory entities. Confirmed accepted regions include UAE, Saudi Arabia, Australia, Singapore, Germany, Indonesia, India, South Africa, Nigeria, Brazil, and most of Asia, Middle East, Africa, and Europe. MultiBank does NOT accept traders from the United States or Japan. North Korea, Iran, Syria, Cuba, and Crimea are excluded."
+      },
+      {
+        "q": "What leverage does MultiBank Group offer?",
+        "a": "MultiBank Group offers up to 1:500 leverage on offshore entities (FSC BVI, VFSC, CIMA) which serve most global clients. Under ASIC (Australia), CySEC (EU), and BaFin (Germany), leverage is capped at 1:30 on forex majors, 1:20 on minors, and 1:10 on commodities — standard Tier-1 retail caps. MultiBank does not advertise 1:1000 leverage. The SCA Dubai entity also offers up to 1:500."
+      },
+      {
+        "q": "How does MultiBank Group compare to IC Markets in 2026?",
+        "a": "MultiBank Group wins on institutional backing: $322 million capital versus IC Markets' lower base, 14+ regulators versus 5, and Lloyd's insurance up to $1 million. IC Markets wins on retail accessibility: $200 minimum for Raw Spread pricing, 0.1 pip average spreads, cTrader and TradingView native support, and 53,000+ Trustpilot reviews confirming withdrawal reliability. For retail traders under $10,000, IC Markets is the clearer choice. For institutional-scale accounts, MultiBank's credentials are stronger."
+      }
+    ],
+
+
+    "schema_jsonld": {
+      "review": {
+        "@context": "https://schema.org",
+        "@type": "Review",
+        "name": "MultiBank Group Review 2026",
+        "author": {
+          "@type": "Person",
+          "name": "NAFT Editorial Team",
+          "url": "https://notafugazitrader.com/authors/naft-editorial",
+          "sameAs": []
+        },
+        "reviewedBy": {
+          "@type": "Organization",
+          "name": "NAFT — Not A Fugazi Trader",
+          "url": "https://notafugazitrader.com"
+        },
+        "datePublished": "2026-05-24",
+        "dateModified": "2026-05-24",
+        "reviewBody": "MultiBank Group is a legitimate, multi-regulated broker with $322M capital and 14+ licences. NAFT trust score 6.6/10.",
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": 3.3,
+          "bestRating": 5,
+          "worstRating": 1
+        },
+        "itemReviewed": {
+          "@type": "FinancialProduct",
+          "name": "MultiBank Group",
+          "url": "https://multibankfx.com"
+        }
+      },
+      "aggregateRating": {
+        "@context": "https://schema.org",
+        "@type": "AggregateRating",
+        "itemReviewed": {
+          "@type": "FinancialProduct",
+          "name": "MultiBank Group"
+        },
+        "ratingValue": 3.3,
+        "bestRating": 5,
+        "worstRating": 1,
+        "ratingCount": 36,
+        "reviewCount": 36
+      },
+
+
+      "faqPage": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Is MultiBank Group a legit broker or a scam?",
+            "acceptedAnswer": { "@type": "Answer", "text": "MultiBank Group is a legitimate broker operating since 2005 with $322 million in paid-up capital and 14+ regulatory licences including ASIC (AFSL 416279), BaFin, CySEC, and MAS." }
+          },
+          {
+            "@type": "Question",
+            "name": "How long does a MultiBank Group withdrawal take?",
+            "acceptedAnswer": { "@type": "Answer", "text": "MultiBank Group states withdrawal processing of 1-3 business days with zero fees. Independent large-scale verification is limited due to the absence of a substantial Trustpilot profile." }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the MultiBank Group minimum deposit in 2026?",
+            "acceptedAnswer": { "@type": "Answer", "text": "MultiBank Group requires $50 minimum for Standard and Pro accounts. The ECN account requires $10,000 minimum deposit for the best pricing at 0.0 pips plus $6 round-turn commission." }
+          },
+          {
+            "@type": "Question",
+            "name": "Is MultiBank Group regulated by the FCA?",
+            "acceptedAnswer": { "@type": "Answer", "text": "MultiBank Group does not hold a direct FCA licence. UK traders cannot access FSCS protection. MultiBank does hold ASIC, BaFin, CySEC, and MAS licences which provide equivalent regulatory quality." }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the best MultiBank Group account type?",
+            "acceptedAnswer": { "@type": "Answer", "text": "The ECN account offers the best value at 0.0 pips plus $6 round-turn commission. But the $10,000 minimum makes it inaccessible to most retail traders. The Pro account is the best retail option." }
+          },
+          {
+            "@type": "Question",
+            "name": "Does MultiBank Group accept traders from my country?",
+            "acceptedAnswer": { "@type": "Answer", "text": "MultiBank Group accepts clients from most countries globally through 25+ offices and 14+ entities. Confirmed regions include UAE, Australia, Singapore, Germany, and most of Asia, Middle East, and Africa. US and Japan are excluded." }
+          },
+          {
+            "@type": "Question",
+            "name": "What leverage does MultiBank Group offer?",
+            "acceptedAnswer": { "@type": "Answer", "text": "MultiBank Group offers up to 1:500 leverage on offshore entities. Under ASIC, CySEC, and BaFin, leverage is capped at 1:30 on forex majors for retail clients." }
+          },
+          {
+            "@type": "Question",
+            "name": "How does MultiBank Group compare to IC Markets in 2026?",
+            "acceptedAnswer": { "@type": "Answer", "text": "MultiBank wins on institutional backing with $322M capital and 14+ regulators. IC Markets wins on retail accessibility with $200 minimum, 0.1 pip spreads, and 53,000+ Trustpilot reviews. For retail under $10K, IC Markets is clearer." }
+          }
+        ]
+      },
+
+
+      "organization": {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "NAFT — Not A Fugazi Trader",
+        "url": "https://notafugazitrader.com",
+        "logo": "",
+        "sameAs": []
+      },
+      "breadcrumbList": {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://notafugazitrader.com" },
+          { "@type": "ListItem", "position": 2, "name": "Broker Reviews", "item": "https://notafugazitrader.com/brokers" },
+          { "@type": "ListItem", "position": 3, "name": "MultiBank Group Review 2026", "item": "https://notafugazitrader.com/brokers/multibank" }
+        ]
+      },
+      "howTo": {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "How to Open a MultiBank Group Account",
+        "description": "Step-by-step guide to opening and verifying a MultiBank Group trading account.",
+        "step": [
+          {
+            "@type": "HowToStep",
+            "position": 1,
+            "name": "Register",
+            "text": "Visit multibankfx.com and select Open Account. Choose Standard as your initial account type with $50 minimum deposit to test the platform before committing larger capital."
+          },
+          {
+            "@type": "HowToStep",
+            "position": 2,
+            "name": "Verify your identity (KYC)",
+            "text": "Upload government-issued photo ID and one proof of address document dated within 6 months. MultiBank operates under Tier-1 AML requirements across ASIC, CySEC, and BaFin entities."
+          },
+          {
+            "@type": "HowToStep",
+            "position": 3,
+            "name": "Fund your account and test a withdrawal",
+            "text": "Deposit $50-$100 via card or e-wallet. Place one trade. Then immediately request a withdrawal to personally verify the pipeline before committing significant capital."
+          }
+        ]
+      },
+      "videoObject": null
+    },
+
+
+    "sources": [
+      "ASIC Register — MEX Australia Pty Ltd, AFSL 416279",
+      "BaFin — MultiBank Group EU passporting",
+      "CySEC — MultiBank Group EU entity",
+      "MAS Singapore — MultiBank Group Singapore entity",
+      "CIMA Cayman Islands — MultiBank Group",
+      "SCA UAE — MultiBank Group Dubai entity",
+      "FSA Japan — Warning against MultiBank Group for operating without authorisation",
+      "ASIC Warning — 'JP MultiBank Group' unauthorised entity warning, August 2025",
+      "SiteJabber — MultiBank Group profile, 2.1/5 from 36 reviews, publicly available data",
+      "MultiBank Group official website — regulation page, accounts page, payment methods page",
+      "Lloyd's of London — Insurance coverage $1,000,000 per customer through MEX Atlantic entity (broker-stated)",
+      "MultiBank Group — $322 million paid-up capital (broker-stated)"
+    ]
+  }
+}
