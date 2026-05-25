@@ -1,0 +1,11 @@
+{
+  "editorial_review_row": {
+    "broker_slug": "plus500",
+    "author": "NAFT Editorial",
+    "role": "editor",
+    "rating": 3.7,
+    "content": "Plus500 is a legitimate, publicly listed CFD broker regulated by 7 authorities including the FCA, CySEC, and ASIC. It scores 7.4/10 from NAFT in 2026 — strong on regulation and corporate transparency, weaker on spreads and platform depth. The proprietary platform is simple but limited, with no MT4/MT5 access. Spreads of 0.8 pips on EUR/USD with zero commission sound competitive until you compare them to ECN brokers offering 0.0-0.2 pips raw. The 80% retail loss rate is one of the highest disclosed figures in the industry. Plus500 works for the casual CFD trader who wants FTSE 250-level corporate safety without needing advanced charting or algorithmic tools. It does not work for anyone trading frequently enough for spread costs to compound.",
+    "status": "published",
+    "verified_account": true
+  }
+}
