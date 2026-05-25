@@ -1,0 +1,772 @@
+{
+  "name": "Bullwaves",
+  "slug": "bullwaves",
+  "type": "forex",
+  "founded_year": 2023,
+  "headquarters": "Seychelles (operational offices: Dubai, Belgrade, Cyprus)",
+  "website_url": "https://www.bullwaves.com",
+  "logo_url": "",
+  "description": "Bullwaves is an offshore forex and CFD broker launched in 2023, operating as Equitex Capital Limited under FSA Seychelles licence SD185. It offers 280+ CFD instruments on MetaTrader 5 with commission-free pricing and up to 1:500 leverage. Also operates a prop firm (Bullwaves Prime).",
+  "regulation": [
+    "FSA Seychelles"
+  ],
+  "license_number": "SD185",
+  "min_deposit": "$100 (Classic)",
+  "leverage": "Up to 1:500",
+  "avg_spread": "0.1 pips (ECN), 0.8 pips (VIP), 1.6 pips (Classic)",
+  "score": 4.2,
+  "stars": 2.1,
+  "account_types": [
+    {
+      "name": "Classic",
+      "min_deposit": "$100",
+      "spread_pips": "From 1.6",
+      "commission_per_lot_rt": "$0",
+      "all_in_cost_eurusd": "$16.00",
+      "leverage": "Up to 1:500",
+      "source": "broker-stated"
+    },
+    {
+      "name": "VIP",
+      "min_deposit": "$3,000",
+      "spread_pips": "From 0.8",
+      "commission_per_lot_rt": "$0",
+      "all_in_cost_eurusd": "$8.00",
+      "leverage": "Up to 1:500",
+      "source": "broker-stated"
+    },
+    {
+      "name": "ECN",
+      "min_deposit": "$5,000",
+      "spread_pips": "From 0.1",
+      "commission_per_lot_rt": "$0 (broker-stated commission-free)",
+      "all_in_cost_eurusd": "$1.00",
+      "leverage": "Up to 1:500",
+      "source": "broker-stated"
+    }
+  ],
+  "platforms": [
+    "MetaTrader 5"
+  ],
+  "payment_methods": [
+    "Visa",
+    "Mastercard",
+    "Bank Wire Transfer",
+    "Neteller",
+    "Credit Card"
+  ],
+  "payment_method_details": [
+    {
+      "method": "Visa/Mastercard",
+      "min": "$50",
+      "processing": "Instant deposit / 1-5 days withdrawal",
+      "fee": "Free deposit; EUR 10 fee on wire withdrawals <= EUR 100"
+    },
+    {
+      "method": "Bank Wire",
+      "min": "$50",
+      "processing": "2-5 business days",
+      "fee": "EUR 10 for withdrawals <= EUR 100; free above EUR 100"
+    },
+    {
+      "method": "Neteller",
+      "min": "$50",
+      "processing": "Instant deposit / 1-3 days withdrawal",
+      "fee": "Free (broker-stated)"
+    }
+  ],
+  "pros": [
+    "Commission-free trading across all account types",
+    "ECN account offers raw spreads from 0.1 pips without commission \u2014 unusual pricing model",
+    "MetaTrader 5 available on web, desktop, and mobile",
+    "Up to 1:500 leverage for aggressive position sizing",
+    "Also operates Bullwaves Prime prop firm \u2014 funded trading up to $2M",
+    "Low inactivity fee ($10/year) compared to most competitors"
+  ],
+  "cons": [
+    "Only FSA Seychelles regulation \u2014 no Tier-1 licence, no investor compensation",
+    "Launched in 2023 \u2014 less than 3 years of operating history",
+    "Trustpilot profile received a warning for suspected fake review activity",
+    "DayTrading.com found the website 'full of misinformation and dead links'",
+    "TradersUnion rates it 5.62/10 \u2014 moderate risk",
+    "FXEmpire gave 2.0/5 on deposits and withdrawals category",
+    "No MetaTrader 4 option \u2014 MT5 only",
+    "Classic account spread of 1.6 pips ($16/lot) is expensive"
+  ],
+  "support_email": "support@bullwaves.com",
+  "support_phone": "+248 4373840",
+  "withdrawal_time": "1-5 business days (broker-stated)",
+  "withdrawal_fee": "EUR 10 on bank wire withdrawals <= EUR 100; free above EUR 100",
+  "warning_note": "Bullwaves has no Tier-1 regulatory licence. Its Trustpilot profile received a platform warning for suspected fake review patterns. The broker has operated for less than 3 years. Independent reviewers have flagged website misinformation and dead links. Traders should exercise caution and test withdrawals with small amounts before scaling.",
+  "tags": [
+    "offshore",
+    "new-broker",
+    "commission-free",
+    "mt5",
+    "prop-firm",
+    "high-leverage"
+  ],
+  "badge": "none",
+  "promo_label": "",
+  "promo_code": "",
+  "affiliate_url": "AFFILIATE_PLACEHOLDER",
+  "author": {
+    "name": "NAFT Editorial Team",
+    "role": "Senior Broker Analyst, NAFT",
+    "bio": "12 years in leveraged derivatives \u2014 six on a prop desk trading EUR/USD and gold CFDs. Has seen dozens of new offshore brokers launch, promise the world, and disappear within 18 months. Judges brokers by what happens when you try to withdraw, not by what the landing page says.",
+    "image_url": "",
+    "social_url": "",
+    "sameAs": []
+  },
+  "conflict_note": null,
+  "regulatory_risk_warning": "This broker does not publish a retail loss rate. Trading CFDs and forex involves significant risk of capital loss.",
+  "target_locale": "en",
+  "toc": [
+    {
+      "id": "quick-verdict",
+      "label": "Quick Verdict"
+    },
+    {
+      "id": "is-broker-regulated",
+      "label": "Is It Regulated?"
+    },
+    {
+      "id": "where-broker-accepts-clients",
+      "label": "Accepted Countries"
+    },
+    {
+      "id": "spreads-fees-accounts",
+      "label": "Spreads and Fees"
+    },
+    {
+      "id": "deposits-withdrawals",
+      "label": "Deposits and Withdrawals"
+    },
+    {
+      "id": "withdrawals",
+      "label": "Withdrawal Reality"
+    },
+    {
+      "id": "red-flags",
+      "label": "Red Flags"
+    },
+    {
+      "id": "who-broker-is-for",
+      "label": "Who It Is For"
+    },
+    {
+      "id": "how-to-open-account",
+      "label": "How to Open"
+    },
+    {
+      "id": "final-verdict",
+      "label": "Final Verdict"
+    }
+  ],
+  "assets": {
+    "logo_url": "",
+    "hero_image_url": "",
+    "og_image_url": "",
+    "regulator_badges": [
+      {
+        "regulator": "FSA Seychelles",
+        "badge_url": "",
+        "licence_number": "SD185"
+      }
+    ],
+    "platform_screenshots": [],
+    "withdrawal_proof": null
+  },
+  "comparison_block": {
+    "heading": "Bullwaves vs Exness \u2014 Which Offshore Broker in 2026?",
+    "body": "Both target traders outside Tier-1 jurisdictions. Exness wins overwhelmingly: FCA and CySEC retail licences, 20+ years of history, instant withdrawals, and a proven track record. Bullwaves offers commission-free ECN pricing which Exness does not match on structure, but the 2-year track record versus 20 years is not a close comparison. For any trader choosing between these two, Exness is the safer bet by a wide margin.",
+    "brokers_compared": [
+      "bullwaves",
+      "exness"
+    ],
+    "cta_anchor": "Compare Bullwaves and Exness side by side",
+    "cta_url": "/compare?brokers=bullwaves,exness"
+  },
+  "video_embed": {
+    "type": null,
+    "video_id": "",
+    "title": "",
+    "thumbnail_url": "",
+    "duration_seconds": 0
+  },
+  "social_snippet": "Bullwaves scores 4.2/10 from NAFT \u2014 FSA Seychelles only, launched 2023, Trustpilot warning for fake reviews. Proceed with extreme caution.",
+  "long_review": {
+    "seo": {
+      "title": "Bullwaves Review 2026 \u2014 Legit Broker or Red Flags? | NAFT",
+      "description": "Bullwaves review 2026: NAFT scores 4.2/10. FSA Seychelles only, launched 2023, Trustpilot fake review warning. Full risk analysis and withdrawal reality.",
+      "focus_keyword": "bullwaves review",
+      "secondary_keywords": [
+        "bullwaves review 2026",
+        "is bullwaves legit",
+        "bullwaves scam",
+        "bullwaves withdrawal",
+        "bullwaves minimum deposit",
+        "bullwaves vs exness",
+        "bullwaves vs fxgt",
+        "is bullwaves regulated",
+        "bullwaves spreads",
+        "bullwaves prime",
+        "bullwaves ecn account",
+        "bullwaves mt5",
+        "best offshore broker 2026"
+      ],
+      "og_image_alt": "Bullwaves Review 2026 \u2014 NAFT Score 4.2/10 \u2014 FSA Seychelles only, launched 2023"
+    },
+    "last_updated_display": "Last updated: May 2026",
+    "disclaimer": "NAFT Disclaimer: Not A Fugazi Trader is an independent broker review platform. We may receive a commission when you open an account through our affiliate links. This never influences our ratings, reviews, or trust scores. Our scores are calculated from publicly available regulatory data, aggregated community feedback, and editorial assessment. Trading forex, CFDs, and derivatives involves significant risk of capital loss and is not suitable for all investors. Always verify a broker's regulatory status independently before depositing. [Read our full disclosure]",
+    "reading_time_minutes": 11,
+    "word_count": 2245,
+    "seo_audit": {
+      "primary_keyword_count": 12,
+      "broker_name_count": 32,
+      "year_mentioned_count": 5,
+      "question_headings_count": 6,
+      "faq_items_count": 8,
+      "internal_links_count": 6,
+      "affiliate_cta_included": true,
+      "legit_keyword_present": true,
+      "all_tone_rules_applied": true
+    },
+    "hot_take": "Bullwaves launched in 2023 with a Seychelles licence and immediately started collecting awards and affiliate partnerships faster than it collected a verifiable track record. The commission-free ECN model sounds attractive on paper \u2014 but when your Trustpilot profile gets flagged by the platform itself for suspected fake review patterns, and independent reviewers find your website full of dead links and misinformation, the pricing model stops being the story. The story becomes: can you get your money out? And after less than three years, there is simply not enough public evidence to answer that question with confidence.",
+    "telegram_summary": "NAFT Verdict on Bullwaves \u2014 2026\nScore 4.2/10 \u2014 FSA Seychelles only, no Tier-1 licence.\nLaunched 2023 \u2014 less than 3 years of history.\nTrustpilot profile flagged for suspected fake review patterns.\nCommission-free ECN sounds good but lack of track record is the real risk.\nUse Exness, IC Markets, or Pepperstone instead unless you specifically need this pricing model.",
+    "verdict": {
+      "tldr": "Bullwaves scores 4.2 out of 10 from NAFT in May 2026. A new offshore broker (launched 2023) with only FSA Seychelles regulation and less than three years of operating history. The commission-free ECN pricing model is genuinely unusual and potentially attractive, but the lack of any Tier-1 licence, a Trustpilot profile warning for suspected fake reviews, website quality issues flagged by independent reviewers, and minimal public withdrawal evidence make this a high-risk choice. Not a confirmed scam \u2014 but not a broker NAFT can recommend with confidence at this stage of its lifecycle.",
+      "summary": "NAFT cannot recommend Bullwaves at this time. The regulatory coverage is minimal (FSA Seychelles only, no compensation scheme), the operating history is too short to establish trust patterns, and the Trustpilot warning for suspected review manipulation is a material concern. The commission-free ECN model deserves monitoring \u2014 if Bullwaves builds a clean track record over the next 2-3 years, a re-evaluation would be warranted.",
+      "best_for": "Traders who specifically want commission-free ECN spreads from 0.1 pips and are willing to accept offshore risk with a new broker in exchange for that pricing structure.",
+      "not_ideal_for": "Anyone who values capital safety, regulatory protection, or a proven withdrawal track record. This is not where you deposit money you cannot afford to lose.",
+      "bottom_line": "Too new, too lightly regulated, and too many independent red flags to recommend. Monitor \u2014 do not deposit significant capital.",
+      "star_rating": 2.1,
+      "trust_score": 4.2,
+      "trust_breakdown": [
+        {
+          "label": "Regulation",
+          "score": 2,
+          "max": 10,
+          "weight": 0.3
+        },
+        {
+          "label": "User Reviews",
+          "score": 4,
+          "max": 10,
+          "weight": 0.25
+        },
+        {
+          "label": "Withdrawal Speed",
+          "score": 5,
+          "max": 10,
+          "weight": 0.25
+        },
+        {
+          "label": "Complaint History",
+          "score": 6,
+          "max": 10,
+          "weight": 0.2
+        }
+      ]
+    },
+    "at_a_glance": {
+      "regulation": [
+        "FSA Seychelles (SD185)"
+      ],
+      "min_deposit": "$100 (Classic), $3,000 (VIP), $5,000 (ECN)",
+      "max_leverage": "1:500",
+      "avg_spread_eurusd": "From 0.1 pips (ECN), 0.8 pips (VIP), 1.6 pips (Classic)",
+      "withdrawal_speed": "1-5 business days (broker-stated)",
+      "platforms": [
+        "MetaTrader 5"
+      ],
+      "islamic_account": false,
+      "deposit_methods": [
+        "Visa",
+        "Mastercard",
+        "Bank Wire",
+        "Neteller"
+      ]
+    },
+    "geo": {
+      "accepted": [
+        "Most countries globally excluding restricted list"
+      ],
+      "excluded": [
+        "United States",
+        "Belgium",
+        "North Korea",
+        "Afghanistan",
+        "Belarus",
+        "Central African Republic",
+        "China",
+        "Cuba",
+        "Libya",
+        "Nicaragua",
+        "Venezuela",
+        "Palestine"
+      ],
+      "practical_note": "Bullwaves operates under a single FSA Seychelles entity serving all global clients. There is no entity routing \u2014 everyone goes through Equitex Capital Limited. Traders in the EU, UK, and Australia are not explicitly excluded but receive no local regulatory protection. If you are in a country with access to Tier-1 regulated brokers, there is no compelling reason to choose Bullwaves over those options."
+    },
+    "sections": [
+      {
+        "id": "quick-verdict",
+        "heading": "Is Bullwaves Worth Your Money in 2026?",
+        "body": "Launched in 2023 under an FSA Seychelles licence, Bullwaves is attempting to carve out space in an extremely crowded offshore broker market. The pitch: commission-free ECN trading from 0.1 pips on MetaTrader 5, plus a prop firm (Bullwaves Prime) that funds traders up to $2 million. On paper, the value proposition has elements that stand out \u2014 particularly the zero-commission ECN model that most competitors do not offer.\n\nBut the flags accumulate quickly. DayTrading.com \u2014 a generally balanced review site \u2014 described the Bullwaves website as 'full of misinformation and dead links' with 'weak regulatory credentials that raise questions about reliability.' Their Trustpilot profile received an official platform warning for suspected fake review patterns. TradersUnion gives a 5.62/10 moderate-risk rating. FXEmpire rated deposits and withdrawals at 2.0 out of 5. And WikiFX conducted an on-site office verification that raises further questions about operational transparency.\n\nIs it a scam? There is no evidence of that. Is it a broker NAFT can confidently recommend? No. Not yet. The operating history is too thin and the independent signals too mixed.",
+        "cta_after": true
+      },
+      {
+        "id": "is-broker-regulated",
+        "heading": "Is Bullwaves Regulated? \u2014 Licence Check 2026",
+        "body": "One licence. Offshore. No investor compensation. Bullwaves operates as Equitex Capital Limited, registered in Seychelles (Registration No. 8434948-1), holding FSA Seychelles Securities Dealer licence SD185. That is the entire regulatory picture. There is no FCA entity. No CySEC entity. No ASIC entity. No NFA registration. The FSA Seychelles is a Tier-3 regulator \u2014 it requires fund segregation in theory but has extremely limited enforcement capacity for individual retail complaints. If Bullwaves fails or refuses a withdrawal, your practical recourse is close to zero.\n\nThe broker states funds are held in segregated accounts, but does not name the custodian bank. No negative balance protection details are published beyond basic statements. No investor compensation scheme exists under FSA Seychelles \u2014 if the broker becomes insolvent, client funds have no guaranteed recovery path. This is the fundamental risk of any Seychelles-only broker, and Bullwaves is no exception.",
+        "table": {
+          "headers": [
+            "Entity",
+            "Regulator",
+            "Licence",
+            "Who it covers",
+            "Compensation scheme",
+            "Leverage cap"
+          ],
+          "rows": [
+            [
+              "Equitex Capital Limited",
+              "FSA Seychelles",
+              "SD185",
+              "All global retail clients",
+              "None",
+              "Up to 1:500"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "where-broker-accepts-clients",
+        "heading": "Who Can Open an Account With Bullwaves? \u2014 Accepted Countries and Restrictions",
+        "body": "Accepted: Most countries globally \u2014 Bullwaves operates a wide-open onboarding policy typical of Seychelles-registered brokers.\n\nNot accepted: United States, Belgium, North Korea, Afghanistan, Belarus, Central African Republic, China, Cuba, Libya, Nicaragua, Venezuela, Palestine.\n\nThe exclusion list is minimal \u2014 essentially OFAC-sanctioned countries plus Belgium and the US. This means traders in the EU, UK, and Australia can technically open accounts, but they receive zero local regulatory protection by doing so. A UK trader choosing Bullwaves over an FCA-regulated broker is voluntarily giving up FSCS compensation and FCA dispute resolution.",
+        "practical_note": "All clients route to the single Seychelles entity. No local regulatory protection regardless of where you live. If you have access to Tier-1 regulated brokers in your country, choosing Bullwaves means accepting materially higher counterparty risk for potentially lower trading costs."
+      },
+      {
+        "id": "spreads-fees-accounts",
+        "heading": "Bullwaves Spreads, Fees and Accounts \u2014 What Do You Actually Pay in 2026?",
+        "body": "Three account types, all commission-free \u2014 which is the unusual element here. The Classic account starts at $100 minimum with spreads from 1.6 pips EUR/USD \u2014 that is $16 per standard lot all-in, which is expensive by any standard. The VIP account at $3,000 minimum brings spreads down to 0.8 pips ($8/lot). The ECN account at $5,000 minimum offers 0.1 pips with zero commission \u2014 a claimed all-in cost of approximately $1 per lot.\n\nThat ECN pricing is genuinely unusual. Most brokers offering 0.1 pip spreads charge $5-$7 per lot in commission on top. Bullwaves claims zero. The question is how they profit on that tier \u2014 likely through wider spreads during volatile sessions or through the spread markup being embedded differently than stated minimums suggest. TradersUnion reports actual EUR/USD spreads of 0.2-0.6 pips on what they call the Standard account, which is more realistic than the 0.1 minimum.\n\nInactivity fee is $10 per year \u2014 lower than most competitors. A EUR 10 fee applies to bank wire withdrawals below EUR 100. No custody fees or account maintenance fees disclosed.",
+        "table": {
+          "headers": [
+            "Account",
+            "Spread (pips)",
+            "Commission RT",
+            "All-in per lot (USD)",
+            "Min deposit",
+            "Leverage",
+            "Best for"
+          ],
+          "rows": [
+            [
+              "Classic",
+              "From 1.6",
+              "$0",
+              "$16.00",
+              "$100",
+              "Up to 1:500",
+              "Testing the broker with small capital"
+            ],
+            [
+              "VIP",
+              "From 0.8",
+              "$0",
+              "$8.00",
+              "$3,000",
+              "Up to 1:500",
+              "Active traders wanting zero commission"
+            ],
+            [
+              "ECN",
+              "From 0.1",
+              "$0",
+              "$1.00 (if achievable)",
+              "$5,000",
+              "Up to 1:500",
+              "Scalpers \u2014 if spreads hold"
+            ]
+          ],
+          "footnote": "All spreads are broker-stated minimums. Actual spreads during volatile sessions will be wider. The ECN 0.1 pip minimum with zero commission requires independent verification \u2014 NAFT has not tested this directly."
+        }
+      },
+      {
+        "id": "deposits-withdrawals",
+        "heading": "How Fast Can You Get Your Money Out of Bullwaves?",
+        "body": "Limited payment options: Visa, Mastercard, bank wire, and Neteller. No crypto deposits. No Skrill. Deposits are instant via card. Withdrawals are stated to take 1-5 business days \u2014 a wide window that suggests processing is not automated.\n\nBullwaves enforces a strict withdrawal routing policy: card deposits must be withdrawn back to the same card first before any alternative method is used. Bank wire withdrawals require a bank statement proving account ownership before approval. This creates additional friction \u2014 particularly for first-time withdrawals. A EUR 10 fee applies to bank wire withdrawals of EUR 100 or less.\n\nFXEmpire rated Bullwaves 2.0/5 on deposits and withdrawals \u2014 the lowest category score in their review. The reason: limited options, the routing restriction, and the fee structure. There is insufficient public data to confirm whether the 1-5 day window is consistently met.",
+        "cta_after": true,
+        "table": {
+          "headers": [
+            "Method",
+            "Min",
+            "Processing",
+            "Fee"
+          ],
+          "rows": [
+            [
+              "Visa/Mastercard",
+              "$50",
+              "Instant in / 1-5 days out",
+              "Free above EUR 100; EUR 10 below"
+            ],
+            [
+              "Bank Wire",
+              "$50",
+              "2-5 days in / 1-5 days out",
+              "EUR 10 for <= EUR 100; free above"
+            ],
+            [
+              "Neteller",
+              "$50",
+              "Instant in / 1-3 days out",
+              "Free (broker-stated)"
+            ]
+          ],
+          "footnote": "Card withdrawals must go to the originating card first. Bank wire requires bank statement verification. Processing times are broker-stated \u2014 insufficient public data to independently confirm."
+        }
+      },
+      {
+        "id": "withdrawals",
+        "heading": "Bullwaves Withdrawals in 2026 \u2014 The Real Picture",
+        "body": "Insufficient public evidence to paint a clear picture \u2014 and that itself is the picture. Bullwaves has operated for less than three years. The volume of publicly available withdrawal experience reports is thin compared to established brokers. What exists is mixed: some users report successful withdrawals within the stated timeframe, while FXEmpire's low 2.0/5 deposit/withdrawal score suggests the process is not consistently smooth.\n\nThe withdrawal routing restriction adds friction that newer traders may not expect. You deposit via Visa, you must withdraw to that same Visa first \u2014 even if you later want to use bank wire for profits. This is not unusual in the industry (anti-money-laundering compliance), but combined with the bank statement requirement for wire withdrawals, the first withdrawal experience may take longer than advertised.\n\nIf your withdrawal stalls: contact support at support@bullwaves.com or call +248 4373840. There is no external dispute resolution body that Bullwaves is a member of. Your escalation path is limited to the FSA Seychelles directly \u2014 a regulator with minimal enforcement capacity for individual retail complaints. This is the practical reality of offshore-only regulation."
+      },
+      {
+        "id": "red-flags",
+        "heading": "Bullwaves Red Flags \u2014 What to Know Before You Deposit",
+        "body": "Multiple independent signals warrant caution. This is not a scam accusation \u2014 but it is a clear risk assessment. NAFT last reviewed Bullwaves in May 2026.",
+        "bullets": [
+          "Trustpilot profile received an official platform warning for suspected fake review activity. Bullwaves published a blog post acknowledging this, attributing it to 'review bombing' by bad actors. Regardless of cause, the warning exists and reduces the reliability of any Trustpilot data for this broker.",
+          "DayTrading.com \u2014 an independent review site \u2014 described the Bullwaves website as 'full of misinformation and dead links' with 'weak regulatory credentials that raise questions about reliability.' This is an unusual level of criticism from a site that typically maintains neutral language.",
+          "Less than 3 years of operating history (launched 2023). In an industry where brokers regularly launch, collect deposits, and disappear within 18-24 months, a sub-3-year track record provides almost no statistical basis for trust.",
+          "WikiFX conducted an on-site office verification at the claimed Cyprus address \u2014 the findings raise questions about operational transparency and physical presence.",
+          "No Tier-1 regulatory licence anywhere in the group structure. FSA Seychelles (SD185) is the only licence. No investor compensation scheme exists. No external dispute resolution membership.",
+          "The ECN account claims 0.1 pip spreads with zero commission \u2014 an unusually profitable offering for the broker that requires explanation. If the broker is not charging commission on raw spreads, how do they profit on that tier? The economics are unclear."
+        ]
+      },
+      {
+        "id": "who-broker-is-for",
+        "heading": "Who Should Use Bullwaves \u2014 and Who Should Not",
+        "body": "The honest answer: very few traders should choose this broker at this stage.",
+        "not_for": [
+          "Anyone who values capital safety \u2014 there is no investor compensation under FSA Seychelles and insufficient track record to assess reliability.",
+          "Traders with access to Tier-1 regulated brokers offering similar pricing \u2014 Pepperstone, IC Markets, and Exness all offer raw spreads with established track records.",
+          "Beginners \u2014 combining a new broker, offshore regulation, 1:500 leverage, and no safety net is a recipe for capital destruction.",
+          "Anyone planning to deposit more than they can afford to lose entirely \u2014 the risk profile does not support large deposits at this stage.",
+          "Traders who rely on MetaTrader 4 \u2014 only MT5 is available."
+        ],
+        "for": [
+          "Experienced traders specifically testing the commission-free ECN model with small capital they can afford to lose.",
+          "Prop firm traders using Bullwaves Prime who want consistency between their funded and retail accounts.",
+          "Traders in regions with no access to Tier-1 brokers who have exhausted all better-regulated alternatives first."
+        ]
+      },
+      {
+        "id": "how-to-open-account",
+        "heading": "How to Open a Bullwaves Account \u2014 Step by Step",
+        "body": "Standard offshore onboarding \u2014 fast but with less regulatory friction than Tier-1 brokers.",
+        "steps": [
+          {
+            "number": 1,
+            "title": "Register",
+            "detail": "Visit bullwaves.com, click Open Account, provide email, country, and basic personal details. Choose your account type (Classic, VIP, or ECN). The process takes under 5 minutes."
+          },
+          {
+            "number": 2,
+            "title": "Verify your identity (KYC)",
+            "detail": "Upload government-issued ID and proof of address. Bullwaves uses Sumsub for verification \u2014 processing is typically within 24 hours. Your account will not be fully activated until KYC is approved."
+          },
+          {
+            "number": 3,
+            "title": "Fund your account and test a withdrawal",
+            "detail": "Deposit via card (instant) or bank wire. Start with the minimum amount. Place one trade. Request a withdrawal immediately \u2014 before adding more capital. If it processes within the stated 1-5 day window, you have a data point. If it does not, you have your answer.",
+            "cta_inline": {
+              "label": "Open Bullwaves Account",
+              "url": "AFFILIATE_PLACEHOLDER"
+            }
+          }
+        ],
+        "practical_note": "Make a small deposit. Place one trade. Request a withdrawal immediately. If it processes cleanly, scale with confidence.",
+        "cta_after": true
+      },
+      {
+        "id": "final-verdict",
+        "heading": "Bullwaves Final Verdict \u2014 Is It Worth It in 2026?",
+        "body": "NAFT scores Bullwaves 4.2 out of 10 in May 2026. The commission-free ECN pricing model is genuinely interesting and worth monitoring \u2014 if spreads hold at 0.1 pips with zero commission, it would be one of the most cost-effective offerings in the market. But pricing alone does not build trust. Trust requires time, transparency, and a verifiable withdrawal track record. Bullwaves has operated for less than three years, holds only an FSA Seychelles licence, and has accumulated multiple independent red flags including a Trustpilot platform warning and website quality criticisms.\n\nThe risks are specific: no investor compensation, no external dispute resolution, no Tier-1 oversight, no published retail loss rate, and insufficient public evidence to confirm whether the withdrawal process works consistently at scale. These are not theoretical concerns \u2014 they are the practical realities of depositing with a new offshore broker.\n\nNAFT cannot recommend Bullwaves at this time. If you are considering this broker, deposit only what you can afford to lose entirely, test the withdrawal pipeline before scaling, and have a Tier-1 alternative ready. Exness, IC Markets, and Pepperstone all offer competitive raw spreads with decades of track record and real regulatory protection. Use those first."
+      }
+    ],
+    "affiliate_cta": {
+      "label": "Open Bullwaves Account",
+      "url": "AFFILIATE_PLACEHOLDER",
+      "promo_code": null,
+      "friction_reducers": [
+        "$100 minimum on Classic account",
+        "Commission-free ECN from 0.1 pips",
+        "MT5 on all devices",
+        "1:500 leverage available"
+      ]
+    },
+    "cta_positions": [
+      "after_section_quick-verdict",
+      "after_section_deposits-withdrawals",
+      "in_section_how-to-open-account_step3"
+    ],
+    "trustpilot": {
+      "rating": 0.0,
+      "reviews": 0,
+      "velocity_30d": "Trustpilot profile received platform warning \u2014 data unreliable",
+      "polarisation_note": "Trustpilot issued a consumer alert on the Bullwaves profile citing suspected fake review patterns. Bullwaves attributes this to coordinated review bombing. Regardless of cause, Trustpilot data cannot be relied upon for this broker.",
+      "broker_response_rate": "Unknown \u2014 profile under warning",
+      "source_note": "Trustpilot profile warning acknowledged by Bullwaves in blog post, December 2024. Data not usable for scoring."
+    },
+    "internal_links": [
+      {
+        "anchor": "compare brokers side by side",
+        "url": "/compare"
+      },
+      {
+        "anchor": "best regulated forex brokers",
+        "url": "/brokers?regulation=tier-1"
+      },
+      {
+        "anchor": "broker scam alerts and warnings",
+        "url": "/scam-alerts"
+      },
+      {
+        "anchor": "community withdrawal proofs",
+        "url": "/withdrawal-proofs"
+      },
+      {
+        "anchor": "how NAFT reviews brokers",
+        "url": "/how-we-review-brokers"
+      },
+      {
+        "anchor": "file a broker complaint with NAFT",
+        "url": "/complaints"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Is Bullwaves regulated in 2026?",
+        "a": "Bullwaves holds a single licence from FSA Seychelles (SD185) as Equitex Capital Limited. This is a Tier-3 offshore regulator with limited enforcement capacity. Bullwaves has no FCA, ASIC, CySEC, or NFA licence. The regulatory protection available to Bullwaves clients is minimal."
+      },
+      {
+        "q": "Is Bullwaves a scam or legit?",
+        "a": "Bullwaves is not a confirmed scam \u2014 it holds a verifiable FSA Seychelles licence and has operated since 2023. It is a legitimate registered entity. The concern is not fraud but inadequate regulatory protection, insufficient track record, and multiple independent red flags including a Trustpilot platform warning for suspected fake reviews."
+      },
+      {
+        "q": "How long do Bullwaves withdrawals take?",
+        "a": "Bullwaves states 1-5 business days for withdrawal processing. Card withdrawals must return to the originating card first. Bank wire requires bank statement verification. FXEmpire rated Bullwaves deposits and withdrawals at 2.0/5. Insufficient public data exists to confirm consistent processing within stated timeframes."
+      },
+      {
+        "q": "What is the minimum deposit at Bullwaves?",
+        "a": "Bullwaves offers three account tiers: Classic at $100, VIP at $3,000, and ECN at $5,000. The $100 Classic minimum is accessible but comes with the widest spreads (1.6 pips). The ECN account with 0.1 pip spreads requires $5,000 \u2014 a significant commitment for a broker with less than 3 years of history."
+      },
+      {
+        "q": "Does Bullwaves offer MetaTrader 4?",
+        "a": "No. Bullwaves supports MetaTrader 5 only \u2014 on web, desktop (Windows/Mac), and mobile (iOS/Android). If your trading strategy or Expert Advisors require MetaTrader 4 specifically, Bullwaves is not compatible. MT5 is the sole platform option."
+      },
+      {
+        "q": "Is the Bullwaves ECN account really commission-free?",
+        "a": "Bullwaves claims the ECN account offers 0.1 pip spreads with zero commission. This is an unusual pricing model \u2014 most brokers offering raw spreads charge $5-$7 per lot in commission. How Bullwaves profits on this tier is unclear. TradersUnion reports actual spreads of 0.2-0.6 pips, suggesting the floor may be higher than stated minimums."
+      },
+      {
+        "q": "What is Bullwaves Prime?",
+        "a": "Bullwaves Prime is a prop trading firm operated by the same company. It funds traders with up to $2,000,000 in trading capital after passing evaluation challenges. Profit splits reach up to 100%. It operates on MT5 with the same liquidity as the retail broker. Separate from the retail brokerage but shares infrastructure."
+      },
+      {
+        "q": "Should I deposit with Bullwaves?",
+        "a": "NAFT cannot recommend depositing significant capital with Bullwaves at this time. The broker has less than 3 years of history, only FSA Seychelles regulation, a Trustpilot warning, and insufficient public withdrawal evidence. If you choose to test it, use only capital you can afford to lose entirely and verify the withdrawal pipeline immediately."
+      }
+    ],
+    "schema_jsonld": {
+      "review": {
+        "@context": "https://schema.org",
+        "@type": "Review",
+        "itemReviewed": {
+          "@type": "FinancialProduct",
+          "name": "Bullwaves",
+          "url": "https://www.bullwaves.com"
+        },
+        "author": {
+          "@type": "Person",
+          "name": "NAFT Editorial Team",
+          "url": "https://notafugazitrader.com/author/naft-editorial",
+          "sameAs": []
+        },
+        "reviewedBy": {
+          "@type": "Organization",
+          "name": "Not A Fugazi Trader (NAFT)",
+          "url": "https://notafugazitrader.com"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "2.1",
+          "bestRating": "5",
+          "worstRating": "1"
+        },
+        "datePublished": "2026-05-25",
+        "dateModified": "2026-05-25",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Not A Fugazi Trader",
+          "url": "https://notafugazitrader.com"
+        }
+      },
+      "aggregateRating": {
+        "@context": "https://schema.org",
+        "@type": "AggregateRating",
+        "itemReviewed": {
+          "@type": "FinancialProduct",
+          "name": "Bullwaves"
+        },
+        "ratingValue": "2.1",
+        "bestRating": "5",
+        "worstRating": "1",
+        "ratingCount": "1"
+      },
+      "faqPage": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Is Bullwaves regulated?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "FSA Seychelles only (SD185). No Tier-1 licence."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is Bullwaves a scam?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Not confirmed scam but high-risk: new broker, offshore only, Trustpilot warning."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How long do withdrawals take?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "1-5 business days stated. FXEmpire rated 2.0/5 on withdrawals."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Minimum deposit?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "$100 Classic, $3,000 VIP, $5,000 ECN."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "MT4 available?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. MT5 only."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Commission-free ECN real?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Claimed but unverified independently. Actual spreads may be wider."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is Bullwaves Prime?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Prop firm by same company. Up to $2M funding, 100% profit split."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Should I deposit?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "NAFT cannot recommend. Test with small capital only if you must."
+            }
+          }
+        ]
+      },
+      "organization": {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Not A Fugazi Trader (NAFT)",
+        "url": "https://notafugazitrader.com",
+        "logo": "",
+        "sameAs": []
+      },
+      "breadcrumbList": {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://notafugazitrader.com"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Broker Reviews",
+            "item": "https://notafugazitrader.com/brokers"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Bullwaves Review 2026",
+            "item": "https://notafugazitrader.com/brokers/bullwaves"
+          }
+        ]
+      },
+      "howTo": {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "How to Open a Bullwaves Account",
+        "description": "Step-by-step guide to opening a Bullwaves trading account.",
+        "step": [
+          {
+            "@type": "HowToStep",
+            "position": 1,
+            "name": "Register",
+            "text": "Visit bullwaves.com, provide details, choose account type."
+          },
+          {
+            "@type": "HowToStep",
+            "position": 2,
+            "name": "Verify identity",
+            "text": "Upload ID via Sumsub. 24-hour processing."
+          },
+          {
+            "@type": "HowToStep",
+            "position": 3,
+            "name": "Fund and test withdrawal",
+            "text": "Deposit minimum, trade once, request withdrawal immediately."
+          }
+        ]
+      },
+      "videoObject": null
+    },
+    "sources": [
+      "Bullwaves official website \u2014 bullwaves.com (regulation, accounts, platforms, FAQ)",
+      "FSA Seychelles \u2014 licence SD185, Equitex Capital Limited",
+      "FXLeaders \u2014 Bullwaves review 2026 (FSA Seychelles, account types, fees)",
+      "DayTrading.com \u2014 Bullwaves review (website quality criticism, regulatory concerns)",
+      "TradersUnion \u2014 5.62/10 overall score, moderate risk rating",
+      "FXEmpire \u2014 2.0/5 deposit/withdrawal score",
+      "Bullwaves blog \u2014 Trustpilot profile warning acknowledgement (Dec 2024)",
+      "WikiFX \u2014 on-site Cyprus office verification survey",
+      "BrokersView \u2014 FSA SD185 licence confirmation, support details",
+      "Sumsub \u2014 KYC provider partnership confirmation"
+    ]
+  }
+}
