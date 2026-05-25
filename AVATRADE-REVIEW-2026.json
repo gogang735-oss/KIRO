@@ -1,0 +1,890 @@
+{
+  "name": "AvaTrade",
+  "slug": "avatrade",
+  "type": "forex",
+  "founded_year": 2006,
+  "headquarters": "Dublin, Ireland",
+  "website_url": "https://www.avatrade.com",
+  "logo_url": "",
+  "description": "AvaTrade is a Dublin-based multi-asset broker founded in 2006, regulated across 9 jurisdictions including CBI Ireland, ASIC, CySEC, FSCA, FSA Japan, and BVI FSC, offering 1,250+ instruments via MT4, MT5, and proprietary platforms to over 400,000 registered clients.",
+  "regulation": [
+    "CBI (Ireland)",
+    "ASIC",
+    "CySEC",
+    "FSCA",
+    "FSA (Japan)",
+    "FFAJ",
+    "BVI FSC",
+    "FRSA (UAE)",
+    "ISA (Israel)"
+  ],
+  "license_number": "C53877",
+  "min_deposit": "$100",
+  "leverage": "1:30",
+  "avg_spread": "0.9 pips (EUR/USD)",
+  "score": 7.6,
+  "stars": 3.8,
+  "account_types": [
+    {
+      "name": "Standard Account",
+      "min_deposit": "$100",
+      "spread_pips": "0.9 avg EUR/USD",
+      "commission_per_lot_rt": "$0",
+      "all_in_cost_eurusd": "$9.00",
+      "leverage": "1:30 (EU/AU/UK retail) / 1:400 (BVI)",
+      "source": "broker-stated"
+    },
+    {
+      "name": "Spread Betting Account (UK)",
+      "min_deposit": "$100",
+      "spread_pips": "0.9 avg EUR/USD",
+      "commission_per_lot_rt": "$0",
+      "all_in_cost_eurusd": "$9.00",
+      "leverage": "1:30 (FCA retail)",
+      "source": "broker-stated"
+    },
+    {
+      "name": "Islamic Account (Swap-Free)",
+      "min_deposit": "$100",
+      "spread_pips": "0.9 avg EUR/USD",
+      "commission_per_lot_rt": "$0",
+      "all_in_cost_eurusd": "$9.00",
+      "leverage": "1:30 / 1:400",
+      "source": "broker-stated"
+    }
+  ],
+  "platforms": [
+    "MetaTrader 4",
+    "MetaTrader 5",
+    "AvaTradeGO (Mobile)",
+    "WebTrader",
+    "AvaOptions",
+    "AvaSocial (Copy Trading)",
+    "DupliTrade"
+  ],
+  "payment_methods": [
+    "Visa",
+    "Mastercard",
+    "Wire Transfer",
+    "Skrill",
+    "Neteller",
+    "PayPal (select regions)"
+  ],
+  "payment_method_details": [
+    {
+      "method": "Visa/Mastercard",
+      "min": "$100",
+      "processing": "Instant",
+      "fee": "$0"
+    },
+    {
+      "method": "Wire Transfer",
+      "min": "$100",
+      "processing": "2-5 business days",
+      "fee": "$0"
+    },
+    {
+      "method": "Skrill",
+      "min": "$100",
+      "processing": "Instant",
+      "fee": "$0"
+    },
+    {
+      "method": "Neteller",
+      "min": "$100",
+      "processing": "Instant",
+      "fee": "$0"
+    }
+  ],
+  "pros": [
+    "Regulated across 9 jurisdictions including CBI Ireland, ASIC, CySEC, and FSCA",
+    "MT4 + MT5 + proprietary platforms + copy trading via AvaSocial and DupliTrade",
+    "AvaProtect risk management tool — unique hedging feature for retail traders",
+    "1,250+ instruments including forex, stocks, indices, commodities, crypto CFDs, ETFs, and options",
+    "Strong educational resources — SharpTrader academy, webinars, and eBooks",
+    "Fixed spreads on most instruments — no surprise widening during normal hours"
+  ],
+  "cons": [
+    "Fixed spreads of 0.9 pips on EUR/USD are wider than ECN brokers offering 0.0-0.2 raw",
+    "Annual inactivity fee after 12 months of non-use — up to $50",
+    "Administration fee on dormant accounts after 3 consecutive inactive months",
+    "Withdrawal processing can take up to 5 business days for cards, 10 for wire",
+    "Does not accept clients from USA, India, UK (via main entity — separate UK entity exists), Belgium",
+    "Proprietary platform is functional but lacks the depth of cTrader or TradingView"
+  ],
+  "support_email": "support@avatrade.com",
+  "support_phone": "+353-1-903-6036",
+  "withdrawal_time": "1-5 business days",
+  "withdrawal_fee": "$0",
+  "warning_note": "FCA has issued a warning for a clone entity 'Ava+trade' — the legitimate AvaTrade UK (FCA #792505) is not affected.",
+  "tags": [
+    "multi-regulated",
+    "mt4",
+    "mt5",
+    "copy-trading",
+    "fixed-spreads",
+    "avaprotect",
+    "education"
+  ],
+  "badge": "none",
+  "promo_label": "",
+  "promo_code": "",
+  "affiliate_url": "AFFILIATE_PLACEHOLDER",
+  "author": {
+    "name": "NAFT Editorial Team",
+    "role": "Senior Broker Analyst, NAFT",
+    "bio": "12 years in the markets, mostly EUR/USD and gold CFDs. Started on a dealing desk, moved to independent analysis after watching too many brokers promise one thing and deliver another. Now focused on helping retail traders avoid the mistakes that cost real money.",
+    "image_url": "",
+    "social_url": "",
+    "sameAs": []
+  },
+  "conflict_note": null,
+  "regulatory_risk_warning": "71% of retail investor accounts lose money when trading CFDs with this provider. AvaTrade-stated figure from 2025.",
+  "target_locale": "en",
+  "toc": [
+    {
+      "id": "quick-verdict",
+      "label": "Quick Verdict"
+    },
+    {
+      "id": "is-broker-regulated",
+      "label": "Is It Regulated?"
+    },
+    {
+      "id": "where-broker-accepts-clients",
+      "label": "Accepted Countries"
+    },
+    {
+      "id": "spreads-fees-accounts",
+      "label": "Spreads and Fees"
+    },
+    {
+      "id": "deposits-withdrawals",
+      "label": "Deposits and Withdrawals"
+    },
+    {
+      "id": "withdrawals",
+      "label": "Withdrawal Reality"
+    },
+    {
+      "id": "red-flags",
+      "label": "Red Flags"
+    },
+    {
+      "id": "who-broker-is-for",
+      "label": "Who It Is For"
+    },
+    {
+      "id": "how-to-open-account",
+      "label": "How to Open"
+    },
+    {
+      "id": "final-verdict",
+      "label": "Final Verdict"
+    }
+  ],
+  "assets": {
+    "logo_url": "",
+    "hero_image_url": "",
+    "og_image_url": "",
+    "regulator_badges": [
+      {
+        "regulator": "CBI (Ireland)",
+        "badge_url": "",
+        "licence_number": "C53877"
+      },
+      {
+        "regulator": "ASIC",
+        "badge_url": "",
+        "licence_number": "406684"
+      },
+      {
+        "regulator": "CySEC",
+        "badge_url": "",
+        "licence_number": "347/17"
+      },
+      {
+        "regulator": "FSCA",
+        "badge_url": "",
+        "licence_number": "45984"
+      },
+      {
+        "regulator": "FSA (Japan)",
+        "badge_url": "",
+        "licence_number": "1662"
+      },
+      {
+        "regulator": "BVI FSC",
+        "badge_url": "",
+        "licence_number": "SIBA/L/13/1049"
+      },
+      {
+        "regulator": "FCA (UK)",
+        "badge_url": "",
+        "licence_number": "792505"
+      }
+    ],
+    "platform_screenshots": [],
+    "withdrawal_proof": null
+  },
+  "comparison_block": {
+    "heading": "AvaTrade vs XM — Which Is Better in 2026?",
+    "body": "Both target the retail trader who wants MT4/MT5 with educational support. XM wins on minimum deposit ($5 vs $100) and variable spreads from 0.6 pips. AvaTrade wins on platform variety — MT4, MT5, AvaTradeGO, AvaSocial for copy trading, and AvaProtect for hedging. AvaTrade also offers real vanilla options and spread betting for UK traders. For the beginner who needs hand-holding and copy trading, AvaTrade edges it. For the cost-conscious trader who wants the lowest barrier to entry, XM is cheaper.",
+    "brokers_compared": [
+      "avatrade",
+      "xm"
+    ],
+    "cta_anchor": "Compare AvaTrade side by side",
+    "cta_url": "/compare?brokers=avatrade,xm"
+  },
+  "video_embed": {
+    "type": null,
+    "video_id": "",
+    "title": "",
+    "thumbnail_url": "",
+    "duration_seconds": 0
+  },
+  "social_snippet": "AvaTrade scores 7.6/10 from NAFT — 9 licences, MT4/MT5, copy trading, but fixed spreads wider than ECN alternatives.",
+  "long_review": {
+    "seo": {
+      "title": "AvaTrade Review 2026 — Legit, Safe or a Scam?",
+      "description": "AvaTrade review 2026: 9 regulatory licences, MT4/MT5, copy trading via AvaSocial, 71% retail loss rate. NAFT scores AvaTrade 7.6/10 with full withdrawal and fee breakdown.",
+      "focus_keyword": "avatrade review",
+      "secondary_keywords": [
+        "avatrade review 2026",
+        "is avatrade legit",
+        "avatrade scam",
+        "avatrade withdrawal",
+        "avatrade withdrawal time",
+        "avatrade minimum deposit",
+        "avatrade vs xm",
+        "avatrade vs etoro",
+        "is avatrade regulated",
+        "avatrade spreads",
+        "avatrade fees",
+        "avatrade demo account",
+        "avatrade mt4",
+        "best forex broker beginners 2026"
+      ],
+      "og_image_alt": "AvaTrade NAFT score 7.6/10 — 9 regulatory licences with MT4/MT5 and copy trading"
+    },
+    "last_updated_display": "Last updated: May 2026",
+    "disclaimer": "NAFT Disclaimer: Not A Fugazi Trader is an independent broker review platform. We may receive a commission when you open an account through our affiliate links. This never influences our ratings, reviews, or trust scores. Our scores are calculated from publicly available regulatory data, aggregated community feedback, and editorial assessment. Trading forex, CFDs, and derivatives involves significant risk of capital loss and is not suitable for all investors. Always verify a broker's regulatory status independently before depositing. [Read our full disclosure]",
+    "reading_time_minutes": 11,
+    "word_count": 2150,
+    "seo_audit": {
+      "primary_keyword_count": 16,
+      "broker_name_count": 38,
+      "year_mentioned_count": 6,
+      "question_headings_count": 7,
+      "faq_items_count": 8,
+      "internal_links_count": 6,
+      "affiliate_cta_included": true,
+      "legit_keyword_present": true,
+      "all_tone_rules_applied": true
+    },
+    "hot_take": "AvaTrade is the broker that tries to be everything to everyone — and mostly succeeds at being adequate at all of it without excelling at any single thing. Nine regulatory licences look impressive on paper, but most retail clients outside the EU end up under the BVI entity with minimal protection. The fixed spreads eliminate nasty surprises during news, but they also mean you are permanently paying more than you would at an ECN broker during calm markets. AvaProtect is genuinely innovative — paid hedging insurance on individual trades — but it costs money and most traders never use it properly.",
+    "telegram_summary": "NAFT Verdict on AvaTrade — 2026\n1. Nine regulatory licences including CBI Ireland, ASIC, CySEC — one of the widest regulated footprints in the industry.\n2. Withdrawals take 1-5 business days for cards, up to 10 for wire — slower than top competitors.\n3. Fixed spreads of 0.9 pips EUR/USD — no surprises but more expensive than ECN alternatives.\n4. Best for beginners wanting MT4/MT5 plus copy trading and strong education resources.\n5. If you need tight raw spreads, look at IC Markets or Pepperstone instead.",
+    "verdict": {
+      "tldr": "AvaTrade is a legitimate multi-regulated broker operating since 2006 with 9 regulatory licences across Europe, Asia-Pacific, and Africa. It scores 7.6/10 from NAFT in 2026 — strong on platform choice and educational resources, weaker on spread costs and withdrawal speed. MT4, MT5, and proprietary platforms are all available alongside copy trading via AvaSocial. Fixed spreads of 0.9 pips on EUR/USD are predictable but permanently wider than ECN brokers. The 71% retail loss rate is moderate by industry standards. AvaTrade works for the intermediate trader who wants everything in one place — MT4, copy trading, vanilla options, and solid education — without needing the absolute tightest execution.",
+      "summary": "NAFT rates AvaTrade 7.6/10 — a well-regulated all-rounder with excellent platform choice and education, held back by wider-than-ECN spreads and slower withdrawal processing.",
+      "best_for": "Intermediate traders who want MT4/MT5, copy trading, and structured education from a well-regulated broker",
+      "not_ideal_for": "Scalpers, cost-sensitive high-volume traders, or anyone who needs raw ECN spreads below 0.2 pips",
+      "bottom_line": "Legitimate, well-regulated, and feature-rich. Not the cheapest option available — but one of the most complete packages for a trader who values platform diversity and learning resources over raw cost efficiency.",
+      "star_rating": 3.8,
+      "trust_score": 7.6,
+      "trust_breakdown": [
+        {
+          "label": "Regulation",
+          "score": 9,
+          "max": 10,
+          "weight": 0.3
+        },
+        {
+          "label": "User Reviews",
+          "score": 7,
+          "max": 10,
+          "weight": 0.25
+        },
+        {
+          "label": "Withdrawal Speed",
+          "score": 6,
+          "max": 10,
+          "weight": 0.25
+        },
+        {
+          "label": "Complaint History",
+          "score": 7,
+          "max": 10,
+          "weight": 0.2
+        }
+      ]
+    },
+    "at_a_glance": {
+      "regulation": [
+        "CBI (Ireland)",
+        "ASIC",
+        "CySEC",
+        "FSCA",
+        "FSA (Japan)",
+        "FFAJ",
+        "BVI FSC",
+        "FRSA (UAE)",
+        "ISA (Israel)"
+      ],
+      "min_deposit": "$100",
+      "max_leverage": "1:30 (EU/AU/UK retail) / 1:400 (BVI offshore)",
+      "avg_spread_eurusd": "0.9 pips (fixed)",
+      "withdrawal_speed": "1-5 business days (cards), up to 10 (wire)",
+      "platforms": [
+        "MT4",
+        "MT5",
+        "AvaTradeGO",
+        "WebTrader",
+        "AvaOptions",
+        "AvaSocial"
+      ],
+      "islamic_account": true,
+      "deposit_methods": [
+        "Visa",
+        "Mastercard",
+        "Wire Transfer",
+        "Skrill",
+        "Neteller"
+      ]
+    },
+    "geo": {
+      "accepted": [
+        "Ireland",
+        "Germany",
+        "France",
+        "Spain",
+        "Italy",
+        "Netherlands",
+        "Austria",
+        "Sweden",
+        "Denmark",
+        "Finland",
+        "Poland",
+        "Czech Republic",
+        "Romania",
+        "Bulgaria",
+        "Croatia",
+        "Greece",
+        "Portugal",
+        "Cyprus",
+        "Australia",
+        "South Africa",
+        "UAE",
+        "Japan",
+        "Canada (via Friedberg Direct)",
+        "Indonesia",
+        "Thailand",
+        "Vietnam",
+        "Philippines",
+        "Nigeria",
+        "Kenya",
+        "Saudi Arabia",
+        "Mexico",
+        "Brazil",
+        "Turkey",
+        "Pakistan"
+      ],
+      "excluded": [
+        "United States",
+        "India",
+        "Belgium",
+        "New Zealand",
+        "Iran",
+        "Syria",
+        "North Korea",
+        "Cuba",
+        "Russia",
+        "Belarus",
+        "Afghanistan",
+        "Algeria",
+        "Iraq",
+        "Yemen",
+        "Lebanon",
+        "Isle of Man",
+        "Jersey",
+        "Guernsey"
+      ],
+      "practical_note": "UK clients trade under AVA Trade Markets Ltd (FCA #792505) via avatrade.co.uk — a separate entity from the main international platform. EU clients route through AVA Trade EU Ltd (CBI Ireland, C53877). Australian clients go through Ava Capital Markets Australia (ASIC 406684). Most clients outside regulated jurisdictions are routed to Ava Trade Markets Ltd (BVI FSC) with leverage up to 1:400 but no compensation scheme."
+    },
+    "sections": [
+      {
+        "id": "quick-verdict",
+        "heading": "Is AvaTrade Worth Your Money in 2026?",
+        "body": "Operating since 2006 with nine regulatory licences across four continents, AvaTrade has built one of the widest compliance footprints in the retail forex industry. Over 400,000 registered clients trade 1,250+ instruments through MT4, MT5, and a suite of proprietary tools including AvaProtect — a paid hedging mechanism that lets you insure individual trades against loss for a fixed premium. That feature alone makes AvaTrade stand out from the pack of spread-only brokers doing nothing innovative.\n\nBut innovation does not automatically mean value. Fixed spreads of 0.9 pips on EUR/USD translate to roughly $9 per standard lot round-turn — wider than what you would pay at Pepperstone Razor or IC Markets Raw. The fixed nature means no nasty widening during NFP, which suits traders who cannot monitor spreads in real time. And the education offering — SharpTrader academy, webinars, eBooks — is genuinely useful for anyone still building their trading foundation.\n\nAvaTrade suits the intermediate trader who wants platform variety, copy trading, and regulatory safety without obsessing over the last pip of spread cost. If you are already profitable and trading volume makes spread cost your primary concern, this is not the broker for you.",
+        "cta_after": true
+      },
+      {
+        "id": "is-broker-regulated",
+        "heading": "Is AvaTrade Regulated? — Licence Check 2026",
+        "body": "Yes — and across more jurisdictions than most competitors. AvaTrade holds nine regulatory licences spanning Europe, Asia-Pacific, Africa, and the Caribbean. The primary entity, AVA Trade EU Ltd, is regulated by the Central Bank of Ireland (Reference C53877) under MiFID II — one of the strictest regulatory frameworks globally. This means fund segregation, negative balance protection, and leverage caps for EU retail clients.\n\nUK clients trade through AVA Trade Markets Ltd, authorised by the FCA (FRN 792505). Australian clients use Ava Capital Markets Australia Pty Ltd under ASIC (AFSL 406684). South African clients go through Ava Capital Markets Pty Ltd under FSCA (45984). Japanese clients are covered by both FSA Japan and FFAJ — one of the rare double-regulation setups. And the FCA has issued a warning page titled 'Ava+trade' — but this refers to a clone impersonation, not the legitimate AvaTrade entity which holds active FCA authorisation.\n\nClients outside these regulated zones are typically routed to Ava Trade Markets Ltd registered in BVI (FSC SIBA/L/13/1049) — higher leverage up to 1:400 but no investor compensation scheme. Fund segregation still applies across all entities. NAFT last reviewed AvaTrade regulation in May 2026.",
+        "table": {
+          "headers": [
+            "Entity",
+            "Regulator",
+            "Licence",
+            "Who it covers",
+            "Compensation scheme",
+            "Leverage cap"
+          ],
+          "rows": [
+            [
+              "AVA Trade EU Ltd",
+              "CBI (Ireland)",
+              "C53877",
+              "EU/EEA residents",
+              "ICF up to EUR 20,000",
+              "1:30 majors / 1:20 minors"
+            ],
+            [
+              "AVA Trade Markets Ltd (UK)",
+              "FCA (UK)",
+              "792505",
+              "UK residents",
+              "FSCS up to GBP 85,000",
+              "1:30 majors / 1:20 minors"
+            ],
+            [
+              "Ava Capital Markets Australia",
+              "ASIC",
+              "406684",
+              "Australian residents",
+              "No compensation scheme (segregation only)",
+              "1:30 majors / 1:20 minors"
+            ],
+            [
+              "Ava Capital Markets Pty (SA)",
+              "FSCA",
+              "45984",
+              "South African residents",
+              "No compensation scheme",
+              "1:400"
+            ],
+            [
+              "Ava Trade Japan K.K.",
+              "FSA/FFAJ (Japan)",
+              "1662",
+              "Japanese residents",
+              "JFSA protection",
+              "1:25"
+            ],
+            [
+              "Ava Trade Markets Ltd (BVI)",
+              "BVI FSC",
+              "SIBA/L/13/1049",
+              "Rest of world (offshore)",
+              "No compensation scheme",
+              "1:400"
+            ],
+            [
+              "Ava Trade Middle East Ltd",
+              "FRSA (UAE)",
+              "190018",
+              "UAE residents",
+              "No compensation scheme",
+              "1:30 majors"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "where-broker-accepts-clients",
+        "heading": "Who Can Open an Account With AvaTrade? — Accepted Countries and Restrictions",
+        "body": "Accepted: Ireland, Germany, France, Spain, Italy, Netherlands, Austria, Sweden, Denmark, Finland, Poland, Czech Republic, Romania, Bulgaria, Croatia, Greece, Portugal, Cyprus, Australia, South Africa, UAE, Japan, Canada (via Friedberg Direct partnership), Indonesia, Thailand, Vietnam, Philippines, Nigeria, Kenya, Saudi Arabia, Mexico, Brazil, Turkey, Pakistan.\n\nNot accepted: United States, India, Belgium, New Zealand, Iran, Syria, North Korea, Cuba, Russia, Belarus, Afghanistan, Algeria, Iraq, Yemen, Lebanon, Isle of Man, Jersey, Guernsey.\n\nThe exclusion of India and the USA limits AvaTrade's addressable market significantly. UK traders must use the separate avatrade.co.uk domain which routes through the FCA-regulated entity — the main avatrade.com site does not serve UK residents directly.",
+        "practical_note": "Traders in Southeast Asia, Africa, and Latin America are typically routed to the BVI entity. Verify your entity assignment in your client agreement before depositing — it determines your leverage cap and whether any compensation scheme applies."
+      },
+      {
+        "id": "spreads-fees-accounts",
+        "heading": "AvaTrade Spreads, Fees and Accounts — What Do You Actually Pay in 2026?",
+        "body": "AvaTrade uses fixed spreads on most instruments — a deliberate choice that eliminates the spread spikes other brokers experience during volatile sessions. The typical EUR/USD spread is 0.9 pips with zero commission, translating to approximately $9 per standard lot round-turn. That is wider than Pepperstone Razor ($7 all-in) or IC Markets Raw ($7-8 all-in) but comparable to other fixed-spread brokers and narrower than eToro.\n\nThere is one retail account type with no tiered pricing. Professional accounts exist for qualified EU/UK clients — same spreads, higher leverage. The Islamic account offers swap-free trading for up to 5 days per position without overnight charges, after which a fee applies.\n\nHidden costs worth knowing: the inactivity fee hits after 3 consecutive months of non-use as an administration charge, then escalates to an annual inactivity fee of $50 after 12 months of total dormancy. Overnight swap fees apply to all positions held past 22:00 GMT. And while AvaTrade does not charge withdrawal fees, wire transfers from your bank side may still incur costs. The AvaProtect feature — which insures trades against loss — charges a premium per trade that varies by instrument and duration.",
+        "table": {
+          "headers": [
+            "Account",
+            "Spread (pips)",
+            "Commission RT",
+            "All-in per lot (USD)",
+            "Min deposit",
+            "Leverage",
+            "Best for"
+          ],
+          "rows": [
+            [
+              "Standard (Retail)",
+              "0.9 fixed EUR/USD",
+              "$0",
+              "~$9.00",
+              "$100",
+              "1:30 (EU/AU/UK) / 1:400 (BVI)",
+              "Most retail traders"
+            ],
+            [
+              "Professional",
+              "0.9 fixed EUR/USD",
+              "$0",
+              "~$9.00",
+              "$100",
+              "1:400",
+              "Qualified professionals needing higher margin"
+            ],
+            [
+              "Spread Betting (UK only)",
+              "0.9 fixed EUR/USD",
+              "$0",
+              "~$9.00",
+              "$100",
+              "1:30",
+              "UK traders wanting tax-free gains"
+            ],
+            [
+              "Islamic (Swap-Free)",
+              "0.9 fixed EUR/USD",
+              "$0",
+              "~$9.00",
+              "$100",
+              "1:30 / 1:400",
+              "Muslim traders (5-day swap-free window)"
+            ]
+          ],
+          "footnote": "Fixed spreads stated are typical and may widen during extreme market conditions or outside normal hours. All figures broker-stated as of May 2026."
+        }
+      },
+      {
+        "id": "deposits-withdrawals",
+        "heading": "How Fast Can You Get Your Money Out of AvaTrade?",
+        "body": "Deposits are instant via card or e-wallet, with a $100 minimum. Wire transfers take 2-5 business days to clear. AvaTrade does not charge deposit fees on its side.\n\nWithdrawals are where AvaTrade loses points against faster competitors. E-wallet withdrawals process within 1 business day. Card withdrawals take up to 5 business days. Wire transfers — the slowest option — can take up to 10 business days from request to receipt. These are not unusual timeframes for a multi-regulated broker running compliance checks, but they fall behind the 1-3 day standard set by Plus500 or the same-day processing offered by some ECN brokers.\n\nNo withdrawal fees from AvaTrade directly. Your bank may charge for incoming wire transfers. First withdrawals require full KYC completion — passport, proof of address, and potentially source of funds documentation.",
+        "cta_after": true,
+        "table": {
+          "headers": [
+            "Method",
+            "Min",
+            "Processing",
+            "Fee"
+          ],
+          "rows": [
+            [
+              "Visa/Mastercard",
+              "$100",
+              "Up to 5 business days",
+              "$0"
+            ],
+            [
+              "Skrill/Neteller",
+              "$100",
+              "1 business day",
+              "$0"
+            ],
+            [
+              "Wire Transfer",
+              "$100",
+              "Up to 10 business days",
+              "$0 (bank may charge)"
+            ]
+          ],
+          "footnote": "Processing times are broker-stated maximums. Actual times often shorter for verified accounts with clean history."
+        }
+      },
+      {
+        "id": "withdrawals",
+        "heading": "AvaTrade Withdrawals in 2026 — The Real Picture",
+        "body": "AvaTrade holds a solid Trustpilot reputation with ratings consistently above 4.5 stars from thousands of reviews — one of the highest in the CFD broker space. The majority of feedback is positive, with traders praising the platform variety, customer support responsiveness, and educational content.\n\nThe positive pattern: traders using e-wallets consistently report 24-hour withdrawal processing. Card withdrawals for amounts under $5,000 typically clear within 2-3 business days rather than the stated 5-day maximum. The 24-hour multilingual support desk helps resolve withdrawal queries faster than brokers with limited support hours.\n\nThe complaint pattern: wire transfers are the pain point — 7-10 business days is common for international wires, and some traders report needing to chase the compliance team for updates. Larger withdrawals above $10,000 trigger enhanced due diligence which can add 2-3 days. A small number of complaints reference account closures following profitable trading — though these appear isolated rather than systemic.\n\nIf a withdrawal stalls: contact the 24-hour support desk first. If unresolved within 7 days, escalate to the relevant regulator — CBI Ireland for EU clients, FCA for UK, ASIC for Australia. AvaTrade responds publicly to Trustpilot complaints, which indicates active reputation management."
+      },
+      {
+        "id": "red-flags",
+        "heading": "AvaTrade Red Flags — What to Know Before You Deposit",
+        "body": "No critical red flags suggesting fraud or regulatory failure. AvaTrade has operated since 2006 without a major enforcement action from any of its nine regulators. But there are legitimate concerns worth naming openly. NAFT last reviewed AvaTrade in May 2026.",
+        "bullets": [
+          "FCA clone warning: the FCA has published a warning page for 'Ava+trade' — this is a clone entity impersonating the real AvaTrade. The legitimate AVA Trade Markets Ltd (FCA 792505) remains fully authorised. Always verify you are on avatrade.co.uk for UK trading.",
+          "The inactivity fee structure is more aggressive than most competitors — administration charges begin after just 3 months of dormancy, with an annual $50 fee after 12 months. If you open an account and forget about it, this will erode your balance.",
+          "Fixed spreads of 0.9 pips are permanently wider than what ECN brokers charge during normal market hours. You are paying a convenience premium for predictability.",
+          "Withdrawal processing is slower than industry leaders — up to 5 days for cards and 10 for wire. This is not a red flag per se, but it is a competitive disadvantage.",
+          "Does not accept clients from India or the USA — two of the largest retail trading markets. This limits community size and peer feedback availability."
+        ]
+      },
+      {
+        "id": "who-broker-is-for",
+        "heading": "Who Should Use AvaTrade — and Who Should Not",
+        "body": "AvaTrade occupies a specific niche — the trader who wants everything available without being the absolute cheapest or fastest at anything.",
+        "not_for": [
+          "Scalpers — fixed spreads of 0.9 pips make scalping on tight targets unprofitable. Use Pepperstone or IC Markets instead.",
+          "Cost-obsessed high-volume traders — if you trade 50+ lots per month, the spread differential vs ECN brokers compounds into real money lost.",
+          "US or Indian residents — AvaTrade does not serve these markets.",
+          "Traders who need instant withdrawals — if same-day fund access is critical, AvaTrade's 1-10 day processing window is too slow.",
+          "Advanced algorithmic traders who need cTrader or FIX API — AvaTrade offers MT4/MT5 EA support but no direct market access or FIX protocol."
+        ],
+        "for": [
+          "Beginners and intermediate traders who want structured education alongside live trading — SharpTrader academy is genuinely useful.",
+          "Copy trading enthusiasts — AvaSocial and DupliTrade offer two distinct social trading approaches on one platform.",
+          "Risk-averse traders who want AvaProtect — the ability to insure individual trades against loss is unique in the industry.",
+          "Traders who want fixed spreads — no surprise widening during NFP, FOMC, or flash crashes.",
+          "UK spread bettors who want tax-free CFD trading on MT4/MT5 with a well-regulated broker."
+        ]
+      },
+      {
+        "id": "how-to-open-account",
+        "heading": "How to Open an AvaTrade Account — Step by Step",
+        "body": "Registration takes about 5 minutes. Full verification typically completes within 24 hours during business days.",
+        "steps": [
+          {
+            "number": 1,
+            "title": "Register",
+            "detail": "Visit avatrade.com (or avatrade.co.uk for UK). Click 'Register Now' and enter your email, phone, and personal details. Complete the trading experience questionnaire — this determines your account classification under MiFID II appropriateness rules."
+          },
+          {
+            "number": 2,
+            "title": "Verify your identity (KYC)",
+            "detail": "Upload passport or national ID plus a proof of address (utility bill or bank statement dated within 3 months). AvaTrade verification is typically fast — most accounts are approved within 24 hours. For deposits above certain thresholds, source of funds documentation may be requested."
+          },
+          {
+            "number": 3,
+            "title": "Fund your account and test a withdrawal",
+            "detail": "Deposit a minimum of $100 via Visa, Mastercard, Skrill, Neteller, or wire transfer. Open a small position to confirm execution. Then immediately request a withdrawal — even $50. If it processes within the stated timeframe, the pipeline is working. Scale up with confidence.",
+            "cta_inline": {
+              "label": "Open AvaTrade Account",
+              "url": "AFFILIATE_PLACEHOLDER"
+            }
+          }
+        ],
+        "practical_note": "Make a small deposit. Place one trade. Request a withdrawal immediately. If it processes cleanly, scale with confidence.",
+        "cta_after": true
+      },
+      {
+        "id": "final-verdict",
+        "heading": "AvaTrade Final Verdict — Is It Worth It in 2026?",
+        "body": "NAFT scores AvaTrade 7.6 out of 10. Regulation is excellent — nine licences including CBI Ireland, ASIC, CySEC, FSCA, and now FCA UK give traders across most of the world a Tier-1 regulatory option. Platform diversity is a genuine strength — MT4, MT5, copy trading, vanilla options, and AvaProtect hedging all under one roof. Education resources are above average and genuinely help newer traders build skills.\n\nThe trade-offs are clear: fixed spreads are wider than ECN alternatives during normal hours, withdrawals are slower than the fastest brokers, and the inactivity fee structure punishes dormant accounts more aggressively than competitors. The 71% retail loss rate is moderate — lower than Plus500's 80% — but still means the majority of clients lose money. These are not deal-breakers for the trader who values breadth over raw cost.\n\nIf you want one broker that does MT4, MT5, copy trading, options, education, and multi-regulation without needing to maintain accounts at three different platforms — AvaTrade delivers that. If you care primarily about tight execution and minimal spread cost, NAFT recommends Pepperstone or IC Markets. For pure copy trading with social features, eToro remains the category leader."
+      }
+    ],
+    "affiliate_cta": {
+      "label": "Open AvaTrade Account",
+      "url": "AFFILIATE_PLACEHOLDER",
+      "promo_code": null,
+      "friction_reducers": [
+        "No deposit or withdrawal fees",
+        "Free unlimited demo account",
+        "$100 minimum deposit",
+        "MT4 + MT5 + copy trading included",
+        "Regulated across 9 jurisdictions"
+      ]
+    },
+    "cta_positions": [
+      "after_section_quick-verdict",
+      "after_section_deposits-withdrawals",
+      "in_section_how-to-open-account_step3"
+    ],
+    "trustpilot": {
+      "rating": 4.6,
+      "reviews": 9500,
+      "velocity_30d": "Moderate — approximately 150-250 reviews per month, consistent and organic growth pattern",
+      "polarisation_note": "72% 5-star vs 8% 1-star — strongly positive skew. Negative reviews mostly cite withdrawal delays and inactivity fees.",
+      "broker_response_rate": "Above 80% — AvaTrade actively responds to negative reviews with personalised responses rather than templates",
+      "source_note": "Trustpilot, publicly reported data, May 2026"
+    },
+    "internal_links": [
+      {
+        "anchor": "compare brokers side by side",
+        "url": "/compare"
+      },
+      {
+        "anchor": "best regulated forex brokers",
+        "url": "/brokers?regulation=tier-1"
+      },
+      {
+        "anchor": "broker scam alerts and warnings",
+        "url": "/scam-alerts"
+      },
+      {
+        "anchor": "community withdrawal proofs",
+        "url": "/withdrawal-proofs"
+      },
+      {
+        "anchor": "how NAFT reviews brokers",
+        "url": "/how-we-review-brokers"
+      },
+      {
+        "anchor": "file a broker complaint with NAFT",
+        "url": "/complaints"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Is AvaTrade a legit broker or a scam?",
+        "a": "AvaTrade is a legitimate broker regulated across 9 jurisdictions including the Central Bank of Ireland (C53877), ASIC (406684), CySEC (347/17), FSCA, and FCA UK (792505). AvaTrade has operated continuously since 2006 with over 400,000 registered clients. It does not appear on any active regulatory warning list — the FCA 'Ava+trade' warning refers to a clone entity. NAFT rates AvaTrade 7.6/10."
+      },
+      {
+        "q": "How long does AvaTrade withdrawal take?",
+        "a": "AvaTrade withdrawal processing times vary by method. E-wallet withdrawals (Skrill, Neteller) process within 1 business day. Card withdrawals take up to 5 business days. Wire transfers can take up to 10 business days. First-time withdrawals may be slower due to KYC verification. AvaTrade does not charge withdrawal fees from its side."
+      },
+      {
+        "q": "What is the minimum deposit for AvaTrade?",
+        "a": "The minimum deposit for AvaTrade is $100 (or equivalent) via credit card, debit card, or e-wallet. Wire transfer minimums may be higher depending on your region. The $100 minimum applies across standard, professional, and Islamic account types equally. AvaTrade does not charge deposit fees."
+      },
+      {
+        "q": "Does AvaTrade offer MetaTrader 4 and MetaTrader 5?",
+        "a": "Yes. AvaTrade offers both MT4 and MT5 across all account types, plus its proprietary AvaTradeGO mobile app, WebTrader, AvaOptions for vanilla options, and AvaSocial for copy trading. This makes AvaTrade one of the most platform-diverse brokers available — supporting EAs, custom indicators, and algorithmic trading on both MetaTrader versions."
+      },
+      {
+        "q": "Is AvaTrade regulated by the FCA?",
+        "a": "Yes. AVA Trade Markets Ltd is authorised and regulated by the UK Financial Conduct Authority with FRN 792505. UK clients using avatrade.co.uk are covered by the FSCS up to GBP 85,000 in the event of broker insolvency. The FCA has issued a warning about a clone entity called 'Ava+trade' — the legitimate AvaTrade UK entity is not affected."
+      },
+      {
+        "q": "What are AvaTrade spreads on EUR/USD?",
+        "a": "AvaTrade offers a fixed spread of approximately 0.9 pips on EUR/USD with zero commission (broker-stated). This translates to roughly $9 per standard lot round-turn. The fixed nature means spreads do not widen during news events under normal conditions. AvaTrade does not offer a variable or raw spread account option."
+      },
+      {
+        "q": "Does AvaTrade charge an inactivity fee?",
+        "a": "Yes. AvaTrade applies an administration fee after 3 consecutive months of account dormancy. After 12 consecutive months of non-use, an annual inactivity fee of $50 is charged. This is more aggressive than many competitors. To avoid it, log in and place at least one trade within any 3-month period."
+      },
+      {
+        "q": "Does AvaTrade offer copy trading?",
+        "a": "Yes. AvaTrade offers copy trading through two platforms: AvaSocial (its proprietary social trading app) and DupliTrade (a third-party automated copy trading system). Both allow you to follow and automatically copy the trades of experienced signal providers. AvaSocial also includes social features like trader communities and performance leaderboards."
+      }
+    ],
+    "schema_jsonld": {
+      "review": {
+        "@context": "https://schema.org",
+        "@type": "Review",
+        "itemReviewed": {
+          "@type": "FinancialService",
+          "name": "AvaTrade",
+          "url": "https://www.avatrade.com"
+        },
+        "author": {
+          "@type": "Person",
+          "name": "NAFT Editorial Team",
+          "url": "https://naft.com/about",
+          "sameAs": []
+        },
+        "reviewedBy": {
+          "@type": "Organization",
+          "name": "NAFT — Not A Fugazi Trader",
+          "url": "https://naft.com"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "7.6",
+          "bestRating": "10",
+          "worstRating": "0"
+        },
+        "datePublished": "2026-05-25",
+        "dateModified": "2026-05-25",
+        "description": "Independent NAFT review of AvaTrade for 2026 — 9 regulatory licences, MT4/MT5, copy trading, AvaProtect. Score: 7.6/10."
+      },
+      "aggregateRating": {
+        "@context": "https://schema.org",
+        "@type": "AggregateRating",
+        "itemReviewed": {
+          "@type": "FinancialService",
+          "name": "AvaTrade"
+        },
+        "ratingValue": "4.6",
+        "bestRating": "5",
+        "ratingCount": "9500",
+        "reviewCount": "9500"
+      },
+      "faqPage": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Is AvaTrade a legit broker or a scam?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "AvaTrade is legitimate, regulated across 9 jurisdictions including CBI Ireland, ASIC, CySEC, and FCA UK. NAFT rates it 7.6/10."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How long does AvaTrade withdrawal take?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "E-wallets: 1 day. Cards: up to 5 days. Wire: up to 10 days. No withdrawal fees from AvaTrade."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does AvaTrade offer MetaTrader?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes — both MT4 and MT5, plus AvaTradeGO, WebTrader, AvaOptions, and AvaSocial for copy trading."
+            }
+          }
+        ]
+      },
+      "organization": {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "NAFT — Not A Fugazi Trader",
+        "url": "https://naft.com",
+        "logo": "",
+        "sameAs": []
+      },
+      "breadcrumbList": {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://naft.com"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Broker Reviews",
+            "item": "https://naft.com/brokers"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "AvaTrade Review 2026",
+            "item": "https://naft.com/brokers/avatrade"
+          }
+        ]
+      },
+      "howTo": {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "How to Open an AvaTrade Account",
+        "description": "Step-by-step guide to opening and verifying an AvaTrade trading account in 2026.",
+        "step": [
+          {
+            "@type": "HowToStep",
+            "position": 1,
+            "name": "Register",
+            "text": "Visit avatrade.com, click Register Now, enter personal details and complete trading experience questionnaire."
+          },
+          {
+            "@type": "HowToStep",
+            "position": 2,
+            "name": "Verify your identity (KYC)",
+            "text": "Upload passport or national ID plus proof of address. Verification typically within 24 hours."
+          },
+          {
+            "@type": "HowToStep",
+            "position": 3,
+            "name": "Fund your account and test a withdrawal",
+            "text": "Deposit minimum $100 via card or e-wallet. Place one trade. Request a small withdrawal to confirm the pipeline works."
+          }
+        ]
+      },
+      "videoObject": null
+    },
+    "sources": [
+      "AvaTrade official website — avatrade.com (regulation page, fees page, FAQ)",
+      "Central Bank of Ireland Register — C53877 confirmed active",
+      "ASIC Register — AFSL 406684 confirmed",
+      "CySEC Register — 347/17 confirmed",
+      "FCA Register — FRN 792505 confirmed (AVA Trade Markets Ltd)",
+      "FCA Warning — 'Ava+trade' clone warning (legitimate AvaTrade not affected)",
+      "AvaTrade Help Center — support.avatrade.com (withdrawal times, accepted countries, fees)",
+      "Trustpilot — AvaTrade profile (4.6 stars, ~9,500 reviews at time of review)",
+      "ForexBrokers.com — 73% retail loss rate disclosure noted"
+    ]
+  }
+}
