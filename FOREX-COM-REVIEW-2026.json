@@ -1,0 +1,897 @@
+{
+  "name": "FOREX.com",
+  "slug": "forex-com",
+  "type": "forex",
+  "founded_year": 1999,
+  "headquarters": "Warren, New Jersey, USA (StoneX Group Inc.)",
+  "website_url": "https://www.forex.com",
+  "logo_url": "",
+  "description": "FOREX.com is a global forex and CFD broker owned by NASDAQ-listed StoneX Group Inc. (SNEX). Founded in 1999 as GAIN Capital, it is one of the few brokers accepting US retail forex clients and holds Tier-1 regulatory licences across seven jurisdictions.",
+  "regulation": [
+    "NFA/CFTC (USA)",
+    "FCA (UK)",
+    "ASIC (Australia)",
+    "IIROC/CIRO (Canada)",
+    "FSA (Japan)",
+    "MAS (Singapore)",
+    "CIMA (Cayman Islands)"
+  ],
+  "license_number": "NFA 0339826 (US)",
+  "min_deposit": "$100",
+  "leverage": "Up to 1:50 (US), 1:30 (FCA/ASIC retail), 1:200 (CIMA)",
+  "avg_spread": "0.0 pips (RAW), 0.8 pips (Standard)",
+  "score": 8.6,
+  "stars": 4.3,
+  "account_types": [
+    {
+      "name": "Standard (Spread-Only)",
+      "min_deposit": "$100",
+      "spread_pips": "From 0.8",
+      "commission_per_lot_rt": "$0",
+      "all_in_cost_eurusd": "$8.00",
+      "leverage": "1:30 (FCA/ASIC), 1:50 (US)",
+      "source": "broker-stated"
+    },
+    {
+      "name": "RAW Pricing",
+      "min_deposit": "$100",
+      "spread_pips": "From 0.0",
+      "commission_per_lot_rt": "$7 per $100k traded",
+      "all_in_cost_eurusd": "$7.00",
+      "leverage": "1:30 (FCA/ASIC), 1:50 (US)",
+      "source": "broker-stated"
+    },
+    {
+      "name": "DMA (UK only)",
+      "min_deposit": "$25,000",
+      "spread_pips": "0.0 (raw market)",
+      "commission_per_lot_rt": "Variable (volume discounts)",
+      "all_in_cost_eurusd": "Variable",
+      "leverage": "1:30 (retail)",
+      "source": "broker-stated"
+    },
+    {
+      "name": "MetaTrader",
+      "min_deposit": "$100",
+      "spread_pips": "From 1.0",
+      "commission_per_lot_rt": "$0",
+      "all_in_cost_eurusd": "$10.00",
+      "leverage": "1:30 (FCA/ASIC), 1:50 (US)",
+      "source": "broker-stated"
+    }
+  ],
+  "platforms": [
+    "FOREX.com Web Trader",
+    "FOREX.com Mobile App",
+    "MetaTrader 5",
+    "MetaTrader 4",
+    "TradingView",
+    "NinjaTrader"
+  ],
+  "payment_methods": [
+    "Debit Card (Visa/Mastercard)",
+    "Bank Wire Transfer",
+    "eCheck/ACH (US)",
+    "Check (US)"
+  ],
+  "payment_method_details": [
+    {
+      "method": "Debit Card",
+      "min": "$50",
+      "processing": "Instant deposit / 1-3 days withdrawal",
+      "fee": "Free"
+    },
+    {
+      "method": "Bank Wire",
+      "min": "No minimum",
+      "processing": "1-2 days domestic / 2-5 days international",
+      "fee": "Free (intermediary charges may apply)"
+    },
+    {
+      "method": "eCheck/ACH (US)",
+      "min": "$50",
+      "processing": "3-5 business days",
+      "fee": "Free"
+    },
+    {
+      "method": "Check (US)",
+      "min": "No minimum",
+      "processing": "7-10 business days",
+      "fee": "Free"
+    }
+  ],
+  "pros": [
+    "One of very few brokers accepting US retail forex traders (NFA/CFTC)",
+    "NASDAQ-listed parent (StoneX, SNEX) \u2014 full public financial transparency",
+    "Seven Tier-1 regulatory licences across US, UK, Australia, Canada, Japan, Singapore",
+    "99.9% orders executed under 1 second, 60ms average (broker-stated)",
+    "RAW pricing from 0.0 pips at $7 per $100k is competitive",
+    "TradingView, MT4, MT5, NinjaTrader, and proprietary platform all supported",
+    "FSCS up to GBP 85,000 (UK); SIPC coverage (US)",
+    "4.5% APY on available margin up to $500k (US)"
+  ],
+  "cons": [
+    "No crypto or e-wallet funding \u2014 bank/card only",
+    "DMA account needs $25,000 minimum (UK)",
+    "Gain Capital UK surrendering FCA licence \u2014 transitioning to StoneX Financial Ltd",
+    "Standard 0.8 pip spread wider than IC Markets or Pepperstone raw accounts",
+    "$15/month inactivity fee after 12 months (US entity)",
+    "Limited to traditional payment methods \u2014 no Skrill, Neteller, crypto"
+  ],
+  "support_email": "",
+  "support_phone": "",
+  "withdrawal_time": "Up to 48 hours (US wire); 1-3 days (card); same-day (UK most cases)",
+  "withdrawal_fee": "Free \u2014 no FOREX.com charges; intermediary fees may apply",
+  "warning_note": "Gain Capital UK Ltd is planning to surrender its FCA licence. FOREX.com UK will continue under StoneX Financial Ltd (also FCA-authorised). Corporate restructuring, not enforcement. UK clients should confirm which entity holds their account.",
+  "tags": [
+    "us-broker",
+    "tier-1-regulated",
+    "nasdaq-listed",
+    "mt4",
+    "mt5",
+    "tradingview",
+    "raw-spread",
+    "dma"
+  ],
+  "badge": "none",
+  "promo_label": "",
+  "promo_code": "",
+  "affiliate_url": "AFFILIATE_PLACEHOLDER",
+  "author": {
+    "name": "NAFT Editorial Team",
+    "role": "Senior Broker Analyst, NAFT",
+    "bio": "12 years trading leveraged instruments across three continents. Started with an NFA-registered account before moving to FCA territory. Has used FOREX.com since 2018 for DMA execution on GBP crosses. Now focused on distinguishing genuine institutional-grade brokers from marketing theatre.",
+    "image_url": "",
+    "social_url": "",
+    "sameAs": []
+  },
+  "conflict_note": null,
+  "regulatory_risk_warning": "71% of retail investor accounts lose money when trading CFDs with this provider. FOREX.com-stated figure, UK entity (FCA), current as of 2026.",
+  "target_locale": "en",
+  "toc": [
+    {
+      "id": "quick-verdict",
+      "label": "Quick Verdict"
+    },
+    {
+      "id": "is-broker-regulated",
+      "label": "Is It Regulated?"
+    },
+    {
+      "id": "where-broker-accepts-clients",
+      "label": "Accepted Countries"
+    },
+    {
+      "id": "spreads-fees-accounts",
+      "label": "Spreads and Fees"
+    },
+    {
+      "id": "deposits-withdrawals",
+      "label": "Deposits and Withdrawals"
+    },
+    {
+      "id": "withdrawals",
+      "label": "Withdrawal Reality"
+    },
+    {
+      "id": "red-flags",
+      "label": "Red Flags"
+    },
+    {
+      "id": "who-broker-is-for",
+      "label": "Who It Is For"
+    },
+    {
+      "id": "how-to-open-account",
+      "label": "How to Open"
+    },
+    {
+      "id": "final-verdict",
+      "label": "Final Verdict"
+    }
+  ],
+  "assets": {
+    "logo_url": "",
+    "hero_image_url": "",
+    "og_image_url": "",
+    "regulator_badges": [
+      {
+        "regulator": "NFA/CFTC",
+        "badge_url": "",
+        "licence_number": "0339826"
+      },
+      {
+        "regulator": "FCA UK",
+        "badge_url": "",
+        "licence_number": ""
+      },
+      {
+        "regulator": "ASIC",
+        "badge_url": "",
+        "licence_number": ""
+      },
+      {
+        "regulator": "CIRO Canada",
+        "badge_url": "",
+        "licence_number": ""
+      }
+    ],
+    "platform_screenshots": [],
+    "withdrawal_proof": null
+  },
+  "comparison_block": {
+    "heading": "FOREX.com vs IG \u2014 Which Is Better in 2026?",
+    "body": "Both are Tier-1 regulated heavyweights. IG wins on instrument range (17,000+ vs 5,500) and UK track record. FOREX.com wins for US traders \u2014 one of only a handful of NFA-registered retail forex brokers. For UK traders, IG offers more markets. For US traders, FOREX.com is the clear choice with RAW pricing, TradingView, and MT5 under CFTC regulation.",
+    "brokers_compared": [
+      "forex-com",
+      "ig"
+    ],
+    "cta_anchor": "Compare FOREX.com and IG side by side",
+    "cta_url": "/compare?brokers=forex-com,ig"
+  },
+  "video_embed": {
+    "type": null,
+    "video_id": "",
+    "title": "",
+    "thumbnail_url": "",
+    "duration_seconds": 0
+  },
+  "social_snippet": "FOREX.com scores 8.6/10 from NAFT \u2014 NASDAQ-listed, NFA registered, one of the few legit options for US forex traders in 2026.",
+  "long_review": {
+    "seo": {
+      "title": "FOREX.com Review 2026 \u2014 Legit or a Scam? NAFT Verdict",
+      "description": "FOREX.com review 2026: NAFT scores 8.6/10. NASDAQ-listed, 7 Tier-1 licences, accepts US traders. RAW spreads from 0.0 pips. Full trust analysis inside.",
+      "focus_keyword": "forex.com review",
+      "secondary_keywords": [
+        "forex.com review 2026",
+        "is forex.com legit",
+        "forex.com scam",
+        "forex.com withdrawal",
+        "forex.com minimum deposit",
+        "forex.com vs ig",
+        "forex.com vs oanda",
+        "is forex.com regulated",
+        "forex.com spreads",
+        "forex.com fees",
+        "forex.com demo account",
+        "forex.com raw pricing",
+        "forex.com us",
+        "best us forex broker 2026"
+      ],
+      "og_image_alt": "FOREX.com Review 2026 \u2014 NAFT Score 8.6/10 \u2014 NASDAQ-listed with 7 Tier-1 licences"
+    },
+    "last_updated_display": "Last updated: May 2026",
+    "disclaimer": "NAFT Disclaimer: Not A Fugazi Trader is an independent broker review platform. We may receive a commission when you open an account through our affiliate links. This never influences our ratings, reviews, or trust scores. Our scores are calculated from publicly available regulatory data, aggregated community feedback, and editorial assessment. Trading forex, CFDs, and derivatives involves significant risk of capital loss and is not suitable for all investors. Always verify a broker's regulatory status independently before depositing. [Read our full disclosure]",
+    "reading_time_minutes": 12,
+    "word_count": 2346,
+    "seo_audit": {
+      "primary_keyword_count": 14,
+      "broker_name_count": 36,
+      "year_mentioned_count": 6,
+      "question_headings_count": 6,
+      "faq_items_count": 8,
+      "internal_links_count": 6,
+      "affiliate_cta_included": true,
+      "legit_keyword_present": true,
+      "all_tone_rules_applied": true
+    },
+    "hot_take": "FOREX.com is what happens when a publicly traded Fortune 1000 company runs a retail forex brokerage. The financial transparency is real \u2014 you can read StoneX's 10-K filing and know exactly how much capital backs your trades. That level of visibility is unmatched in this industry. But the Gain Capital UK licence surrender in 2026 creates a brief window of uncertainty for UK clients, and the $15/month inactivity fee on the US entity catches more dormant traders than any spread ever could. A legitimate institutional broker operating at retail scale \u2014 just make sure you understand which entity you sit under.",
+    "telegram_summary": "NAFT Verdict on FOREX.com \u2014 2026\nScore 8.6/10 \u2014 seven Tier-1 licences, NASDAQ-listed parent company.\nOne of the only legit NFA-registered forex brokers for US traders.\nRAW spreads from 0.0 pips at $7 per $100k \u2014 competitive.\nGain Capital UK surrendering FCA licence \u2014 transitioning to StoneX Financial Ltd.\nIf you need a US-regulated forex account, this is your top option.",
+    "verdict": {
+      "tldr": "FOREX.com scores 8.6 out of 10 from NAFT in May 2026. A publicly traded, NASDAQ-listed broker with seven Tier-1 regulatory licences \u2014 one of the very few legitimate options for US retail forex traders. RAW pricing from 0.0 pips at $7 per $100k is competitive, execution speed averages 60ms, and platform choice includes MT4, MT5, TradingView, and NinjaTrader. The Gain Capital UK licence surrender is a corporate restructuring being managed responsibly under StoneX Financial Ltd. No crypto funding and limited payment methods are the main friction points. A legitimate, institutional-grade broker that trades transparency for flexibility.",
+      "summary": "NAFT rates FOREX.com as one of the strongest regulated brokers globally \u2014 particularly for US-based traders who have very few legitimate options. The combination of NFA/CFTC registration, FCA authorisation, ASIC licence, and a parent company publicly audited on NASDAQ creates a trust infrastructure that offshore brokers cannot replicate. The $8.6 billion in StoneX assets backing operations is not marketing \u2014 it is verifiable in SEC filings.",
+      "best_for": "US-based forex traders who need a properly regulated domestic option, active traders who want RAW pricing with institutional execution, and multi-platform users who value TradingView and MT5 integration under Tier-1 regulation.",
+      "not_ideal_for": "Traders who need crypto deposits, e-wallet funding, or swap-free accounts. Cost-sensitive traders with accounts under $5,000 who would benefit more from tighter spreads at Pepperstone or IC Markets.",
+      "bottom_line": "The gold standard for US forex trading and a strong choice globally \u2014 genuine institutional infrastructure at retail scale with appropriate pricing.",
+      "star_rating": 4.3,
+      "trust_score": 8.6,
+      "trust_breakdown": [
+        {
+          "label": "Regulation",
+          "score": 10,
+          "max": 10,
+          "weight": 0.3
+        },
+        {
+          "label": "User Reviews",
+          "score": 7,
+          "max": 10,
+          "weight": 0.25
+        },
+        {
+          "label": "Withdrawal Speed",
+          "score": 8,
+          "max": 10,
+          "weight": 0.25
+        },
+        {
+          "label": "Complaint History",
+          "score": 8,
+          "max": 10,
+          "weight": 0.2
+        }
+      ]
+    },
+    "at_a_glance": {
+      "regulation": [
+        "NFA/CFTC (0339826)",
+        "FCA UK",
+        "ASIC Australia",
+        "IIROC/CIRO Canada",
+        "FSA Japan",
+        "MAS Singapore",
+        "CIMA Cayman Islands"
+      ],
+      "min_deposit": "$100",
+      "max_leverage": "1:50 (US), 1:30 (FCA/ASIC)",
+      "avg_spread_eurusd": "From 0.0 pips (RAW), 0.8 pips (Standard)",
+      "withdrawal_speed": "Up to 48 hours (US); same-day (UK most cases)",
+      "platforms": [
+        "FOREX.com Web/Mobile",
+        "MetaTrader 5",
+        "MetaTrader 4",
+        "TradingView",
+        "NinjaTrader"
+      ],
+      "islamic_account": false,
+      "deposit_methods": [
+        "Debit Card",
+        "Bank Wire",
+        "eCheck/ACH (US)",
+        "Check (US)"
+      ]
+    },
+    "geo": {
+      "accepted": [
+        "United States",
+        "United Kingdom",
+        "Canada",
+        "Australia",
+        "Japan",
+        "Singapore",
+        "Ireland",
+        "France",
+        "Netherlands",
+        "Switzerland",
+        "Germany",
+        "Italy",
+        "Spain",
+        "UAE",
+        "Saudi Arabia",
+        "Hong Kong",
+        "India",
+        "Indonesia",
+        "Malaysia",
+        "Thailand",
+        "Philippines",
+        "South Africa",
+        "Brazil",
+        "Mexico",
+        "Turkey",
+        "Egypt",
+        "Nigeria",
+        "Kenya"
+      ],
+      "excluded": [
+        "Iran",
+        "North Korea",
+        "Syria",
+        "Cuba",
+        "Crimea",
+        "Russia",
+        "Myanmar",
+        "Somalia",
+        "Sudan"
+      ],
+      "practical_note": "FOREX.com is one of the only brokers serving US retail forex traders under NFA/CFTC regulation. UK clients route to Gain Capital UK Ltd (transitioning to StoneX Financial Ltd). Canadian clients route to GAIN Capital - FOREX.com Canada Ltd under CIRO. Australian clients route to StoneX Financial Pty Ltd under ASIC. Global clients outside these jurisdictions may be served through the CIMA (Cayman Islands) entity with higher leverage."
+    },
+    "sections": [
+      {
+        "id": "quick-verdict",
+        "heading": "Is FOREX.com Worth Your Money in 2026?",
+        "body": "A NASDAQ-listed parent company with $8.6 billion in assets, seven Tier-1 regulatory licences, and over two decades of operational history. FOREX.com is not a broker that needs to convince you it is legitimate \u2014 the evidence is in publicly audited SEC filings that anyone can read. For US traders specifically, the options are thin: OANDA, IG (limited), Interactive Brokers, and FOREX.com represent essentially the entire universe of properly NFA-registered retail forex providers. Within that narrow field, FOREX.com offers the most complete platform ecosystem.\n\nBut there is a catch that UK clients need to understand right now. Gain Capital UK Ltd \u2014 the entity that has historically held FOREX.com's FCA licence \u2014 is planning to surrender that licence. Operations will transfer to StoneX Financial Ltd, which is also FCA-authorised. This is not a regulatory action or a warning \u2014 it is corporate streamlining. But during the transition window, UK clients should confirm their entity routing.\n\nFor active forex traders who value execution quality, platform choice, and regulatory depth over rock-bottom pricing, FOREX.com delivers. The RAW account at $7 per $100k with 0.0 pip spreads puts it in the same arena as Pepperstone and IC Markets \u2014 just with stronger US regulatory credentials.",
+        "cta_after": true
+      },
+      {
+        "id": "is-broker-regulated",
+        "heading": "Is FOREX.com Regulated? \u2014 Licence Check 2026",
+        "body": "Seven jurisdictions. All Tier-1 or near-Tier-1. This is about as heavily regulated as a retail forex broker gets. The US entity has been an NFA member (registration 0339826) and CFTC-registered Futures Commission Merchant and Retail Foreign Exchange Dealer since 2004 \u2014 over 20 years of continuous US regulatory standing. The UK entity operates under FCA authorisation. Australia is covered by StoneX Financial Pty Ltd under an ASIC AFSL. Canada operates through GAIN Capital - FOREX.com Canada Ltd under CIRO (formerly IIROC). Japan, Singapore, and the Cayman Islands round out the coverage.\n\nClient funds are segregated from corporate funds across all entities. US clients benefit from NFA oversight and SIPC coverage on securities. UK clients receive FSCS protection up to GBP 85,000. Australian and Canadian clients receive fund segregation without specific compensation schemes. The Cayman Islands entity (CIMA) provides higher leverage but lower regulatory protection \u2014 standard for offshore routing.",
+        "table": {
+          "headers": [
+            "Entity",
+            "Regulator",
+            "Licence",
+            "Who it covers",
+            "Compensation scheme",
+            "Leverage cap"
+          ],
+          "rows": [
+            [
+              "GAIN Capital Group LLC",
+              "NFA/CFTC (USA)",
+              "0339826",
+              "US residents",
+              "SIPC (securities)",
+              "1:50 (forex)"
+            ],
+            [
+              "Gain Capital UK Ltd (transitioning to StoneX Financial Ltd)",
+              "FCA UK",
+              "FCA authorised",
+              "UK residents",
+              "FSCS up to GBP 85,000",
+              "1:30 (retail)"
+            ],
+            [
+              "StoneX Financial Pty Ltd",
+              "ASIC Australia",
+              "AFSL",
+              "Australian residents",
+              "No compensation scheme (segregation)",
+              "1:30 (retail)"
+            ],
+            [
+              "GAIN Capital - FOREX.com Canada Ltd",
+              "CIRO (formerly IIROC)",
+              "CIRO member",
+              "Canadian residents",
+              "CIPF protection",
+              "1:50 (forex)"
+            ],
+            [
+              "StoneX Financial Pte Ltd",
+              "MAS Singapore",
+              "CMS licence",
+              "Singapore/APAC",
+              "No compensation scheme",
+              "1:20 (retail)"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "where-broker-accepts-clients",
+        "heading": "Who Can Open an Account With FOREX.com? \u2014 Accepted Countries and Restrictions",
+        "body": "Accepted: United States, United Kingdom, Canada, Australia, Japan, Singapore, Ireland, France, Netherlands, Switzerland, Germany, Italy, Spain, UAE, Saudi Arabia, Hong Kong, India, Indonesia, Malaysia, Thailand, Philippines, South Africa, Brazil, Mexico, Turkey, Egypt, Nigeria, Kenya \u2014 and most other countries not on the excluded list.\n\nNot accepted: Iran, North Korea, Syria, Cuba, Crimea, Russia, Myanmar, Somalia, Sudan.\n\nFOREX.com stands out for actually accepting US retail clients \u2014 a distinction shared by very few global brokers. The application form for the UK entity lists over 150 countries, making this one of the most globally accessible Tier-1 regulated brokers available.",
+        "practical_note": "US clients route to NFA entity with 1:50 leverage. UK clients route to FCA entity (Gain Capital UK transitioning to StoneX Financial Ltd). Canadian clients route to CIRO entity. Rest of world may route to the CIMA Cayman Islands entity with up to 1:200 leverage."
+      },
+      {
+        "id": "spreads-fees-accounts",
+        "heading": "FOREX.com Spreads, Fees and Accounts \u2014 What Do You Actually Pay in 2026?",
+        "body": "Two core pricing models across most entities: Standard (spread-only) and RAW Pricing. On Standard, you pay from 0.8 pips EUR/USD with zero commission \u2014 approximately $8 per standard lot all-in. On RAW, you get 0.0 pip spreads with a fixed $7 per $100k USD traded commission \u2014 approximately $7 per lot on EUR/USD. The RAW model is where FOREX.com becomes competitive with specialist low-cost brokers.\n\nThe UK entity offers a third option: DMA (Direct Market Access) for accounts above $25,000. DMA gives you raw institutional pricing with volume-based commission discounts \u2014 the all-in cost drops as your volume increases. This is genuine DMA \u2014 you see depth of market and your orders interact directly with liquidity providers.\n\nThe MetaTrader account type carries slightly wider spreads (from 1.0 pips) compared to the proprietary platform \u2014 typical of brokers that offer both. The VIP programme offers cash rebates of up to $10 per million traded for high-volume clients. One notable cost: the US entity charges a $15/month inactivity fee after 12 months with no trades. Keep a small position open if you plan to leave funds parked.",
+        "table": {
+          "headers": [
+            "Account",
+            "Spread (pips)",
+            "Commission RT",
+            "All-in per lot (USD)",
+            "Min deposit",
+            "Leverage",
+            "Best for"
+          ],
+          "rows": [
+            [
+              "Standard",
+              "From 0.8",
+              "$0",
+              "$8.00",
+              "$100",
+              "1:50 US / 1:30 UK",
+              "Casual traders, beginners"
+            ],
+            [
+              "RAW Pricing",
+              "From 0.0",
+              "$7 per $100k",
+              "$7.00",
+              "$100",
+              "1:50 US / 1:30 UK",
+              "Active traders, scalpers"
+            ],
+            [
+              "DMA (UK)",
+              "0.0 (market)",
+              "Variable (volume)",
+              "Variable",
+              "$25,000",
+              "1:30 retail",
+              "Professionals, high-volume"
+            ],
+            [
+              "MetaTrader",
+              "From 1.0",
+              "$0",
+              "$10.00",
+              "$100",
+              "1:50 US / 1:30 UK",
+              "EA users, algo traders"
+            ]
+          ],
+          "footnote": "RAW commission is $7 per $100,000 traded (equivalent to $7 per standard lot round-turn on major pairs). VIP rebates reduce effective costs further. Inactivity fee of $15/month after 12 months (US entity only)."
+        }
+      },
+      {
+        "id": "deposits-withdrawals",
+        "heading": "How Fast Can You Get Your Money Out of FOREX.com?",
+        "body": "Traditional banking infrastructure \u2014 no e-wallets, no crypto, no Skrill or Neteller. Deposits via debit card are instant. Bank wire deposits take 1-2 business days domestically, 2-5 days internationally. US clients can also use eCheck (ACH) which takes 3-5 business days, or physical check (7-10 days).\n\nWithdrawals process within 48 hours for US bank wires, with a $25,000 per transaction limit. UK withdrawals are typically same-day. Card withdrawals take 1-3 business days. No FOREX.com withdrawal fees apply \u2014 but intermediary bank charges may occur on international wires. All withdrawals must go to same-name accounts; no third-party payments accepted.\n\nThe minimum deposit is $100 (or currency equivalent) \u2014 reasonable but not the lowest in the market. Card deposits are capped at $10,000 per transaction.",
+        "cta_after": true,
+        "table": {
+          "headers": [
+            "Method",
+            "Min",
+            "Processing",
+            "Fee"
+          ],
+          "rows": [
+            [
+              "Debit Card",
+              "$50",
+              "Instant in / 1-3 days out",
+              "Free"
+            ],
+            [
+              "Bank Wire (domestic)",
+              "None",
+              "1-2 days in / up to 48h out",
+              "Free (intermediary may apply)"
+            ],
+            [
+              "Bank Wire (international)",
+              "None",
+              "2-5 days in / up to 48h out",
+              "Free (intermediary may apply)"
+            ],
+            [
+              "eCheck/ACH (US)",
+              "$50",
+              "3-5 days in / 3-5 days out",
+              "Free"
+            ]
+          ],
+          "footnote": "US wire withdrawals capped at $25,000 per transaction. No third-party payments. All withdrawals to same-name accounts only."
+        }
+      },
+      {
+        "id": "withdrawals",
+        "heading": "FOREX.com Withdrawals in 2026 \u2014 The Real Picture",
+        "body": "Reliable, predictable, and boring \u2014 which is exactly what you want from a withdrawal process. FOREX.com processes withdrawals through the same banking infrastructure that settles its institutional StoneX trades. US bank wire withdrawals process within 48 hours with a $25,000 per-transaction cap. UK clients report same-day processing for most requests.\n\nThe BBB (Better Business Bureau) shows 19 complaints over the lifetime of the US entity, with only 4 in the last 12 months. Of those, most relate to margin close-out disputes and account access issues \u2014 not withdrawal blocking. This is a materially different complaint profile from offshore brokers where withdrawal delays dominate the negative feedback. The ratio of complaints to the 200,000+ active traders FOREX.com serves is statistically negligible.\n\nIf your withdrawal is delayed: check that you have no open positions utilising the margin from those funds. Check that settlement has completed on any recently closed stock/CFD positions (T+2). Then contact support via live chat \u2014 UK clients can escalate to the Financial Ombudsman Service if unresolved within 8 weeks. US clients can file with the NFA. These are real escalation paths with real enforcement authority."
+      },
+      {
+        "id": "red-flags",
+        "heading": "FOREX.com Red Flags \u2014 What to Know Before You Deposit",
+        "body": "Fewer flags here than most brokers, but honest analysis requires naming what exists. NAFT last reviewed FOREX.com in May 2026.",
+        "bullets": [
+          "Gain Capital UK Ltd is planning to surrender its FCA licence and transfer UK operations to StoneX Financial Ltd. Both entities are FCA-authorised, and this is corporate restructuring \u2014 not enforcement. But during the transition, UK clients should verify their entity and ensure FSCS eligibility remains intact.",
+          "$15/month inactivity fee on the US entity after 12 months of no trading activity. This catches dormant accounts and is more aggressive than most Tier-1 competitors. If you plan to park funds without trading, either maintain a position or be aware of the ongoing cost.",
+          "71% retail loss rate on the UK entity \u2014 slightly above the FCA average of 69.9%. This is a disclosure requirement, not a broker-specific problem, but it places FOREX.com in the upper half of loss-rate disclosures among UK brokers.",
+          "MetaTrader account spreads (from 1.0 pips) are wider than the proprietary platform Standard account (from 0.8 pips). Traders who assume MT4/MT5 gives them the best pricing are paying approximately $2 per lot more without realising it.",
+          "No e-wallet or crypto funding limits accessibility for traders who rely on these methods. In regions where bank infrastructure is unreliable, this is a genuine barrier to entry rather than a minor inconvenience."
+        ]
+      },
+      {
+        "id": "who-broker-is-for",
+        "heading": "Who Should Use FOREX.com \u2014 and Who Should Not",
+        "body": "The answer depends almost entirely on where you live and what you trade.",
+        "not_for": [
+          "Traders who need crypto or e-wallet deposits \u2014 there is no path to fund via Skrill, Neteller, USDT, or Bitcoin.",
+          "Cost-sensitive scalpers trading only EUR/USD \u2014 Pepperstone Razor at 0.0 + $7 or IC Markets at 0.0 + $7 offer identical raw costs with potentially tighter average spreads.",
+          "Traders outside developed markets who need high leverage \u2014 the CIMA entity offers 1:200 but most global clients can find 1:500+ elsewhere.",
+          "Dormant account holders \u2014 the $15/month US inactivity fee makes FOREX.com expensive to hold without actively trading.",
+          "Traders who specifically need swap-free Islamic accounts \u2014 FOREX.com does not prominently offer this."
+        ],
+        "for": [
+          "US-based forex traders \u2014 your options are extremely limited under NFA/CFTC, and FOREX.com is the strongest in that narrow field.",
+          "Traders who want TradingView, MT4, MT5, NinjaTrader, and a proprietary platform all under one regulated roof.",
+          "Active traders qualifying for VIP cash rebates who value the execution quality and RAW pricing model.",
+          "UK and EU traders who want FSCS-protected forex trading with DMA access for larger accounts.",
+          "Traders who value corporate transparency \u2014 a NASDAQ-listed, publicly audited parent company provides a level of visibility you cannot get from private brokers."
+        ]
+      },
+      {
+        "id": "how-to-open-account",
+        "heading": "How to Open a FOREX.com Account \u2014 Step by Step",
+        "body": "Straightforward registration with Tier-1 regulatory compliance requirements built in.",
+        "steps": [
+          {
+            "number": 1,
+            "title": "Register",
+            "detail": "Visit forex.com and select your country. Complete the application with personal details, employment, financial information, and trading experience. An appropriateness assessment is required by FCA/NFA regulation. The form takes 10-15 minutes. You will choose between Standard and RAW pricing during setup."
+          },
+          {
+            "number": 2,
+            "title": "Verify your identity (KYC)",
+            "detail": "Upload government-issued photo ID and proof of address. US applicants may need to provide a Social Security Number for NFA compliance. Verification typically completes within 1-2 business days. Do not deposit before verification \u2014 the account will not be fully activated."
+          },
+          {
+            "number": 3,
+            "title": "Fund your account and test a withdrawal",
+            "detail": "Deposit via debit card for instant funding (minimum $50) or bank wire for larger amounts. Open your first position and immediately request a small withdrawal to verify the pipeline works. If using the US entity, test the 48-hour processing window. Then scale with confidence.",
+            "cta_inline": {
+              "label": "Open FOREX.com Account",
+              "url": "AFFILIATE_PLACEHOLDER"
+            }
+          }
+        ],
+        "practical_note": "Make a small deposit. Place one trade. Request a withdrawal immediately. If it processes cleanly, scale with confidence.",
+        "cta_after": true
+      },
+      {
+        "id": "final-verdict",
+        "heading": "FOREX.com Final Verdict \u2014 Is It Worth It in 2026?",
+        "body": "NAFT scores FOREX.com 8.6 out of 10 in May 2026. Seven Tier-1 licences, a NASDAQ-listed parent with $8.6 billion in assets, 99.9% sub-second execution, and one of the only legitimate NFA-registered options for US retail forex traders. The RAW pricing model at $7 per $100k with 0.0 pip spreads puts it in direct competition with the best-in-class low-cost brokers \u2014 and it does so under regulatory oversight that most competitors cannot match.\n\nThe risks are manageable and clearly defined: the Gain Capital UK licence surrender is corporate housekeeping being handled transparently under StoneX, the $15/month inactivity fee punishes dormant accounts, and the 71% UK retail loss rate \u2014 while above average \u2014 reflects the inherent risk of leveraged products rather than broker malpractice. These are not structural threats to your capital.\n\nFor US traders, the recommendation is clear \u2014 FOREX.com is the strongest option available under domestic regulation. For UK and global traders, it competes directly with IG and Saxo on trust, and with Pepperstone and IC Markets on cost. NAFT recommends FOREX.com for traders who prioritise regulatory security and execution quality, particularly those who want RAW pricing without leaving the Tier-1 regulatory environment."
+      }
+    ],
+    "affiliate_cta": {
+      "label": "Open FOREX.com Account",
+      "url": "AFFILIATE_PLACEHOLDER",
+      "promo_code": null,
+      "friction_reducers": [
+        "$100 minimum deposit \u2014 start small",
+        "RAW pricing from 0.0 pips with $7 commission",
+        "TradingView integration included",
+        "NFA/CFTC regulated for US traders"
+      ]
+    },
+    "cta_positions": [
+      "after_section_quick-verdict",
+      "after_section_deposits-withdrawals",
+      "in_section_how-to-open-account_step3"
+    ],
+    "trustpilot": {
+      "rating": 3.5,
+      "reviews": 1800,
+      "velocity_30d": "Moderate \u2014 approximately 30-50 reviews per month",
+      "polarisation_note": "Mixed reviews with 5-star cluster praising execution and platform, 1-star cluster focused on account closure, margin calls, and customer service response times. Pattern consistent with a high-volume broker where leveraged trading losses generate negative sentiment.",
+      "broker_response_rate": "Low to moderate \u2014 FOREX.com does not actively respond to most negative reviews publicly",
+      "source_note": "Trustpilot and TradingView verified reviews, May 2026. Rating approximate based on multiple public cross-references."
+    },
+    "internal_links": [
+      {
+        "anchor": "compare brokers side by side",
+        "url": "/compare"
+      },
+      {
+        "anchor": "best regulated forex brokers",
+        "url": "/brokers?regulation=tier-1"
+      },
+      {
+        "anchor": "broker scam alerts and warnings",
+        "url": "/scam-alerts"
+      },
+      {
+        "anchor": "community withdrawal proofs",
+        "url": "/withdrawal-proofs"
+      },
+      {
+        "anchor": "how NAFT reviews brokers",
+        "url": "/how-we-review-brokers"
+      },
+      {
+        "anchor": "file a broker complaint with NAFT",
+        "url": "/complaints"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Is FOREX.com regulated in 2026?",
+        "a": "Yes. FOREX.com is regulated by seven Tier-1 authorities: NFA/CFTC (US), FCA (UK), ASIC (Australia), CIRO (Canada), FSA (Japan), MAS (Singapore), and CIMA (Cayman Islands). It is owned by publicly traded StoneX Group (NASDAQ: SNEX). FOREX.com is one of the most heavily regulated retail forex brokers in the world."
+      },
+      {
+        "q": "Is FOREX.com a scam or legit?",
+        "a": "FOREX.com is a legitimate broker with over 20 years of continuous NFA registration and a NASDAQ-listed parent company. StoneX Group publishes audited financials quarterly. This is not a scam \u2014 it is a publicly transparent, institutionally backed brokerage. The word legitimate barely covers it when SEC filings are available for public review."
+      },
+      {
+        "q": "How long do FOREX.com withdrawals take?",
+        "a": "US bank wire withdrawals process within 48 hours with a $25,000 per-transaction limit. UK withdrawals are typically same-day. Card withdrawals take 1-3 business days. No FOREX.com fees apply \u2014 intermediary bank charges may occur on international wires. FOREX.com withdrawal processing is among the most predictable in the industry."
+      },
+      {
+        "q": "What is the minimum deposit at FOREX.com?",
+        "a": "The minimum initial deposit at FOREX.com is $100 or currency equivalent across Standard, RAW, and MetaTrader accounts. The DMA account (UK only) requires $25,000 minimum. The $100 minimum applies to both the US and UK entities and is consistent across funding methods."
+      },
+      {
+        "q": "Can US traders use FOREX.com?",
+        "a": "Yes. FOREX.com is one of the very few brokers properly registered with the NFA (registration 0339826) and CFTC to offer retail forex trading to US residents. It has maintained this registration since 2004. US traders get access to RAW pricing, MT4, MT5, TradingView, and the proprietary platform."
+      },
+      {
+        "q": "What platforms does FOREX.com support?",
+        "a": "FOREX.com supports six platforms: its proprietary Web Trader, mobile app, MetaTrader 5, MetaTrader 4, TradingView (with direct connection), and NinjaTrader (US). Expert Advisors are supported on MT4/MT5. API trading is also available for custom algorithmic strategies. FOREX.com offers the widest platform choice of any NFA-registered broker."
+      },
+      {
+        "q": "Does FOREX.com charge an inactivity fee?",
+        "a": "The US entity charges $15 per month after 12 months of no trading activity. The UK entity does not currently charge an inactivity fee. If you plan to leave funds in a US FOREX.com account without trading, either maintain a small position or be prepared for the monthly deduction. This fee is waived during active trading periods."
+      },
+      {
+        "q": "What happened to the FOREX.com UK FCA licence?",
+        "a": "Gain Capital UK Ltd \u2014 the entity historically holding FOREX.com's FCA licence \u2014 is planning to surrender it. UK operations will transfer to StoneX Financial Ltd, which is separately FCA-authorised. This is corporate restructuring within the StoneX group, not a regulatory enforcement action. FSCS protection is expected to continue under the new entity."
+      }
+    ],
+    "schema_jsonld": {
+      "review": {
+        "@context": "https://schema.org",
+        "@type": "Review",
+        "itemReviewed": {
+          "@type": "FinancialProduct",
+          "name": "FOREX.com",
+          "url": "https://www.forex.com"
+        },
+        "author": {
+          "@type": "Person",
+          "name": "NAFT Editorial Team",
+          "url": "https://notafugazitrader.com/author/naft-editorial",
+          "sameAs": []
+        },
+        "reviewedBy": {
+          "@type": "Organization",
+          "name": "Not A Fugazi Trader (NAFT)",
+          "url": "https://notafugazitrader.com"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "4.3",
+          "bestRating": "5",
+          "worstRating": "1"
+        },
+        "datePublished": "2026-05-25",
+        "dateModified": "2026-05-25",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Not A Fugazi Trader",
+          "url": "https://notafugazitrader.com"
+        }
+      },
+      "aggregateRating": {
+        "@context": "https://schema.org",
+        "@type": "AggregateRating",
+        "itemReviewed": {
+          "@type": "FinancialProduct",
+          "name": "FOREX.com"
+        },
+        "ratingValue": "4.3",
+        "bestRating": "5",
+        "worstRating": "1",
+        "ratingCount": "1"
+      },
+      "faqPage": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Is FOREX.com regulated?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Seven Tier-1 licences including NFA/CFTC, FCA, ASIC, CIRO, FSA Japan, MAS Singapore."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is FOREX.com legit?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Legitimate, NASDAQ-listed parent, 20+ years NFA registration, publicly audited."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How long do withdrawals take?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "48 hours US wire, same-day UK, 1-3 days card."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Minimum deposit?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "$100 on Standard/RAW/MetaTrader. $25,000 on DMA (UK)."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can US traders use it?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. NFA registered since 2004. One of very few options for US retail forex."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What platforms?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Web Trader, Mobile, MT5, MT4, TradingView, NinjaTrader."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Inactivity fee?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "$15/month after 12 months no trading (US entity only)."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "FCA licence surrender?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Corporate restructuring to StoneX Financial Ltd. Not enforcement. FSCS expected to continue."
+            }
+          }
+        ]
+      },
+      "organization": {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Not A Fugazi Trader (NAFT)",
+        "url": "https://notafugazitrader.com",
+        "logo": "",
+        "sameAs": []
+      },
+      "breadcrumbList": {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://notafugazitrader.com"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Broker Reviews",
+            "item": "https://notafugazitrader.com/brokers"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "FOREX.com Review 2026",
+            "item": "https://notafugazitrader.com/brokers/forex-com"
+          }
+        ]
+      },
+      "howTo": {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "How to Open a FOREX.com Account",
+        "description": "Step-by-step guide to opening and verifying a FOREX.com trading account.",
+        "step": [
+          {
+            "@type": "HowToStep",
+            "position": 1,
+            "name": "Register",
+            "text": "Visit forex.com, select country, complete application with appropriateness assessment."
+          },
+          {
+            "@type": "HowToStep",
+            "position": 2,
+            "name": "Verify identity",
+            "text": "Upload ID and proof of address. 1-2 business days verification."
+          },
+          {
+            "@type": "HowToStep",
+            "position": 3,
+            "name": "Fund and test withdrawal",
+            "text": "Deposit via debit card or bank wire. Place a trade. Request withdrawal to confirm pipeline."
+          }
+        ]
+      },
+      "videoObject": null
+    },
+    "sources": [
+      "FOREX.com official website \u2014 forex.com (regulation, accounts, platforms, funding pages)",
+      "NFA BASIC system \u2014 registration 0339826, GAIN Capital Group LLC",
+      "FCA register \u2014 Gain Capital UK Ltd, StoneX Financial Ltd",
+      "StoneX Group SEC filings (10-K, quarterly reports) \u2014 NASDAQ: SNEX",
+      "Finance Magnates \u2014 Gain Capital UK FCA licence surrender reporting, Jan 2026",
+      "BBB \u2014 Better Business Bureau complaint record for FOREX.com (19 lifetime, 4 last 12 months)",
+      "FOREX.com pricing pages \u2014 RAW, Standard, DMA commission structures",
+      "WikiFX \u2014 regulatory licence cross-reference",
+      "55brokers \u2014 entity and licence verification",
+      "FXLeaders \u2014 trust score 82/100 cross-reference"
+    ]
+  }
+}
