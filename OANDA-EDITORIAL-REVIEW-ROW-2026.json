@@ -1,0 +1,11 @@
+{
+  "editorial_review_row": {
+    "broker_slug": "oanda",
+    "author": "NAFT Editorial",
+    "role": "editor",
+    "rating": 4.1,
+    "content": "OANDA holds five Tier-1 regulatory licences — CFTC/NFA (0325821), FCA (542574), ASIC (AFSL 412981), CIRO, and MAS — making it one of the most heavily regulated forex brokers in existence. Founded in 1996, it has operated for nearly 30 years without a major fraud allegation and remains one of very few brokers accepting US retail forex clients. No minimum deposit on Standard accounts is genuinely rare at this regulatory tier. But competitive raw-spread pricing requires a $10,000 deposit for Core Pricing, Standard spreads from 0.6 pips are wider than what ECN specialists offer to everyone, the instrument range is limited at 65+ pairs versus 1,000+ at multi-asset competitors, and a monthly inactivity fee punishes anyone who steps away from the screen. Payment methods are restricted — no Skrill, no Neteller, debit cards only in many regions. The trust here is exceptional. The value proposition depends entirely on whether you are a US-based trader with few alternatives, or a global trader with access to cheaper execution elsewhere.",
+    "status": "published",
+    "verified_account": true
+  }
+}
