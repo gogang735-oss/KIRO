@@ -1,0 +1,11 @@
+{
+  "editorial_review_row": {
+    "broker_slug": "dukascopy",
+    "author": "NAFT Editorial",
+    "role": "editor",
+    "rating": 3.8,
+    "content": "Dukascopy is a FINMA-licensed Swiss bank scoring 7.6/10 from NAFT in 2026. True ECN execution via JForex with Swiss banking deposit protection (CHF 100,000). 20+ years of operation. Premium positioning with CHF 1,000 minimum. JForex platform not as accessible as MT4. Best for professional traders who want Swiss banking-grade security with institutional ECN access.",
+    "status": "published",
+    "verified_account": true
+  }
+}
