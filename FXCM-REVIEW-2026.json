@@ -6,795 +6,115 @@
   "headquarters": "London, United Kingdom",
   "website_url": "https://www.fxcm.com",
   "logo_url": "",
-  "description": "Admirals is a regulated multi-asset broker operating since 2001.",
-  "regulation": [
-    "FCA (UK)",
-    "ASIC (Australia)",
-    "CySEC (Cyprus)",
-    "FSCA (South Africa)"
-  ],
+  "description": "FXCM is a veteran forex and CFD broker founded in 1999, regulated by FCA, CySEC, ASIC, and FSCA, offering forex, indices, commodities, and share CFDs via Trading Station, MT4, and TradingView with a focus on execution transparency and algorithmic trading tools.",
+  "regulation": ["FCA (UK)", "CySEC (Cyprus)", "ASIC (Australia)", "FSCA (South Africa)"],
   "license_number": "217689",
   "min_deposit": "$50",
-  "leverage": "1:30 (FCA/CySEC/ASIC) / 1:400 (offshore)",
-  "avg_spread": "0.2 pips (EUR/USD avg Active Trader)",
+  "leverage": "1:30 (FCA/CySEC/ASIC) / 1:1000 (FXCM Markets offshore)",
+  "avg_spread": "1.3 pips (Standard) / 0.2 pips (Active Trader)",
   "score": 6.8,
   "stars": 3.4,
+
   "account_types": [
-    {
-      "name": "Zero.MT5",
-      "min_deposit": "$25",
-      "spread_pips": "0.0 avg",
-      "commission_per_lot_rt": "$6.00",
-      "all_in_cost_eurusd": "$6.00",
-      "leverage": "1:30/1:500",
-      "source": "broker-stated"
-    },
-    {
-      "name": "Trade.MT5",
-      "min_deposit": "$25",
-      "spread_pips": "0.5 avg",
-      "commission_per_lot_rt": "$0",
-      "all_in_cost_eurusd": "$5-8",
-      "leverage": "1:30/1:500",
-      "source": "broker-stated"
-    }
+    { "name": "Standard", "min_deposit": "$50", "spread_pips": "1.3 avg EUR/USD", "commission_per_lot_rt": "$0", "all_in_cost_eurusd": "$13.00", "leverage": "1:30 / 1:1000", "source": "broker-stated" },
+    { "name": "Active Trader", "min_deposit": "$25,000", "spread_pips": "0.2 avg EUR/USD", "commission_per_lot_rt": "$0 (spread-only)", "all_in_cost_eurusd": "~$2.00", "leverage": "1:30 / 1:1000", "source": "broker-stated" }
   ],
-  "platforms": [
-    "Trading Station",
-    "MetaTrader 4",
-    "TradingView",
-    "ZuluTrade (Copy Trading)"
-  ],
-  "payment_methods": [
-    "Visa",
-    "Mastercard",
-    "Wire Transfer",
-    "Skrill",
-    "Neteller",
-    "PayPal"
-  ],
+  "platforms": ["Trading Station (Proprietary)", "MetaTrader 4", "TradingView", "ZuluTrade"],
+  "payment_methods": ["Visa", "Mastercard", "Wire Transfer", "Skrill", "Neteller"],
   "payment_method_details": [
-    {
-      "method": "Visa",
-      "min": "$25",
-      "processing": "Instant",
-      "fee": "$0"
-    },
-    {
-      "method": "Mastercard",
-      "min": "$25",
-      "processing": "Instant",
-      "fee": "$0"
-    },
-    {
-      "method": "Wire Transfer",
-      "min": "$25",
-      "processing": "1-3 days",
-      "fee": "$0"
-    },
-    {
-      "method": "Skrill",
-      "min": "$25",
-      "processing": "Instant",
-      "fee": "$0"
-    },
-    {
-      "method": "Neteller",
-      "min": "$25",
-      "processing": "Instant",
-      "fee": "$0"
-    },
-    {
-      "method": "PayPal",
-      "min": "$25",
-      "processing": "Instant",
-      "fee": "$0"
-    }
+    { "method": "Visa/Mastercard", "min": "$50", "processing": "Instant", "fee": "$0" },
+    { "method": "Wire Transfer", "min": "$200", "processing": "1-5 business days", "fee": "$0 (bank charges may apply)" },
+    { "method": "Skrill/Neteller", "min": "$50", "processing": "Instant", "fee": "$0" }
   ],
   "pros": [
-    "One of the oldest forex brokers \u2014 operating since 1999",
-    "FCA + ASIC + CySEC regulated",
-    "Trading Station proprietary platform with advanced charting",
-    "TradingView integration for execution",
-    "ZuluTrade copy trading partnership",
-    "Active Trader pricing from 0.2 pips with reduced commission"
+    "FCA + CySEC + ASIC — Tier-1 triple-regulated with legitimate oversight",
+    "Active Trader pricing at 0.2 pips EUR/USD is genuinely competitive for high-volume clients",
+    "Execution transparency — publishes slippage statistics and execution quality data publicly",
+    "Trading Station is a powerful proprietary platform with advanced algo capabilities",
+    "TradingView integration available — modern charting without leaving the platform",
+    "25+ years of operation — one of the original retail forex brokers"
   ],
   "cons": [
-    "Chequered regulatory history \u2014 fined by NFA and lost US licence in 2017",
-    "77% retail loss rate \u2014 above average",
-    "Standard account spreads wider than competitors",
-    "Limited instrument range compared to newer brokers",
-    "Brand reputation damaged by past regulatory issues",
-    "No MT5 available"
+    "Standard account at 1.3 pips EUR/USD is expensive — $13/lot vs $6-7 at ECN competitors",
+    "FCA fined £4M in 2014 for asymmetric slippage (withholding client profits 2006-2010)",
+    "CFTC $7M fine in 2017 for fraud — banned from US market permanently",
+    "Malaysia SC warning for unlicensed activities — regulatory history is troubled",
+    "Active Trader requires $25,000 deposit — the good pricing is out of reach for most retail traders",
+    "Instrument range described as 'fairly narrow' vs multi-asset competitors"
   ],
-  "support_email": "support@admirals.com",
-  "support_phone": "",
+  "support_email": "info@fxcm.co.uk",
+  "support_phone": "0808 234 8789",
   "withdrawal_time": "1-2 business days",
   "withdrawal_fee": "$0",
-  "warning_note": "",
-  "tags": [
-    "veteran",
-    "fca",
-    "tradingview",
-    "zulurade",
-    "copy-trading",
-    "controversial"
-  ],
+  "warning_note": "FCA fined FXCM UK £4M in 2014 for withholding client profits. CFTC fined FXCM $7M in 2017 for fraudulent misrepresentation — permanently banned from US market. Malaysia SC warning for unlicensed activities.",
+  "tags": ["fca", "asic", "algo-trading", "trading-station", "tradingview", "veteran-broker"],
   "badge": "none",
   "promo_label": "",
   "promo_code": "",
   "affiliate_url": "AFFILIATE_PLACEHOLDER",
-  "author": {
-    "name": "NAFT Editorial Team",
-    "role": "Senior Broker Analyst, NAFT",
-    "bio": "12 years in the markets, mostly EUR/USD and gold CFDs. Started on a dealing desk, moved to independent analysis after watching too many brokers promise one thing and deliver another. Now focused on helping retail traders avoid the mistakes that cost real money.",
-    "image_url": "",
-    "social_url": "",
-    "sameAs": []
-  },
+  "author": { "name": "NAFT Editorial Team", "role": "Senior Broker Analyst, NAFT", "bio": "12 years in the markets, mostly EUR/USD and gold CFDs. Started on a dealing desk, moved to independent analysis after watching too many brokers promise one thing and deliver another. Now focused on helping retail traders avoid the mistakes that cost real money.", "image_url": "", "social_url": "", "sameAs": [] },
   "conflict_note": null,
-  "regulatory_risk_warning": "77% of retail investor accounts lose money when trading CFDs with this provider.",
+  "regulatory_risk_warning": "67% of retail investor accounts lose money when trading CFDs with FXCM UK. 68% with FXCM EU. FXCM-stated figures.",
   "target_locale": "en",
-  "toc": [
-    {
-      "id": "quick-verdict",
-      "label": "Quick Verdict"
-    },
-    {
-      "id": "is-broker-regulated",
-      "label": "Is It Regulated?"
-    },
-    {
-      "id": "where-broker-accepts-clients",
-      "label": "Accepted Countries"
-    },
-    {
-      "id": "spreads-fees-accounts",
-      "label": "Spreads and Fees"
-    },
-    {
-      "id": "deposits-withdrawals",
-      "label": "Deposits and Withdrawals"
-    },
-    {
-      "id": "withdrawals",
-      "label": "Withdrawal Reality"
-    },
-    {
-      "id": "red-flags",
-      "label": "Red Flags"
-    },
-    {
-      "id": "who-broker-is-for",
-      "label": "Who It Is For"
-    },
-    {
-      "id": "how-to-open-account",
-      "label": "How to Open"
-    },
-    {
-      "id": "final-verdict",
-      "label": "Final Verdict"
-    }
-  ],
-  "assets": {
-    "logo_url": "",
-    "hero_image_url": "",
-    "og_image_url": "",
-    "regulator_badges": [
-      {
-        "regulator": "CySEC",
-        "badge_url": "",
-        "licence_number": ""
-      },
-      {
-        "regulator": "FCA (UK)",
-        "badge_url": "",
-        "licence_number": ""
-      },
-      {
-        "regulator": "ASIC",
-        "badge_url": "",
-        "licence_number": ""
-      },
-      {
-        "regulator": "EFSA (Estonia)",
-        "badge_url": "",
-        "licence_number": ""
-      },
-      {
-        "regulator": "CIMA (Cayman)",
-        "badge_url": "",
-        "licence_number": ""
-      }
-    ],
-    "platform_screenshots": [],
-    "withdrawal_proof": null
-  },
-  "comparison_block": {
-    "heading": "Admirals vs Tickmill \u2014 Which Is Better in 2026?",
-    "body": "Both offer 0.0 pips + $6 commission. Admirals wins on instrument range (8,000+ vs 200), minimum deposit ($25 vs $100), and the unique real stock investing option. Tickmill wins on simplicity and zero inactivity fee. For pure forex, Tickmill edges it on cost (no hidden fees). For multi-asset trading, Admirals is far more versatile.",
-    "brokers_compared": [
-      "admirals",
-      "tickmill"
-    ],
-    "cta_anchor": "Compare Admirals side by side",
-    "cta_url": "/compare?brokers=admirals,tickmill"
-  },
-  "video_embed": {
-    "type": null,
-    "video_id": "",
-    "title": "",
-    "thumbnail_url": "",
-    "duration_seconds": 0
-  },
-  "social_snippet": "FXCM scores 6.8/10 from NAFT \u2014 FCA (UK) regulated.",
+  "toc": [{ "id": "quick-verdict", "label": "Quick Verdict" }, { "id": "is-broker-regulated", "label": "Is It Regulated?" }, { "id": "where-broker-accepts-clients", "label": "Accepted Countries" }, { "id": "spreads-fees-accounts", "label": "Spreads and Fees" }, { "id": "deposits-withdrawals", "label": "Deposits and Withdrawals" }, { "id": "withdrawals", "label": "Withdrawal Reality" }, { "id": "red-flags", "label": "Red Flags" }, { "id": "who-broker-is-for", "label": "Who It Is For" }, { "id": "how-to-open-account", "label": "How to Open" }, { "id": "final-verdict", "label": "Final Verdict" }],
+  "assets": { "logo_url": "", "hero_image_url": "", "og_image_url": "", "regulator_badges": [{ "regulator": "FCA (UK)", "badge_url": "", "licence_number": "217689" }, { "regulator": "CySEC (Cyprus)", "badge_url": "", "licence_number": "392/20" }, { "regulator": "ASIC (Australia)", "badge_url": "", "licence_number": "309763" }, { "regulator": "FSCA (South Africa)", "badge_url": "", "licence_number": "46534" }], "platform_screenshots": [], "withdrawal_proof": null },
+  "comparison_block": { "heading": "FXCM vs Pepperstone — Which Is Better in 2026?", "body": "Both are Tier-1 regulated veteran brokers. Pepperstone wins decisively on pricing — Razor at 0.0 + $7 RT vs FXCM Standard at 1.3 pips ($13/lot). Pepperstone also offers cTrader and more instruments. FXCM wins on algo trading infrastructure (Trading Station's API and backtesting tools are more developed) and execution transparency reporting. For most retail traders, Pepperstone is the better value. For algo developers who need robust automation tools, FXCM's Trading Station still has an edge.", "brokers_compared": ["fxcm", "pepperstone"], "cta_anchor": "Compare FXCM side by side", "cta_url": "/compare?brokers=fxcm,pepperstone" },
+  "video_embed": { "type": null, "video_id": "", "title": "", "thumbnail_url": "", "duration_seconds": 0 },
+  "social_snippet": "FXCM scores 6.8/10 from NAFT — FCA/CySEC/ASIC regulated, 25yr veteran, strong algo tools but troubled regulatory history.",
+
   "long_review": {
-    "seo": {
-      "title": "FXCM Review 2026 \u2014 Legit, Safe or a Scam?",
-      "description": "FXCM review 2026: FCA (UK), ASIC (Australia), CySEC (Cyprus) regulated. NAFT scores FXCM 6.8/10.",
-      "focus_keyword": "fxcm review",
-      "secondary_keywords": [
-        "tickmill review 2026",
-        "is tickmill legit",
-        "tickmill scam",
-        "tickmill withdrawal",
-        "tickmill spreads",
-        "tickmill minimum deposit",
-        "tickmill fees",
-        "is tickmill regulated",
-        "tickmill mt4",
-        "best forex broker 2026"
-      ],
-      "og_image_alt": "Admirals NAFT score 7.4/10"
-    },
+    "seo": { "title": "FXCM Review 2026 — Legit, Safe or a Scam?", "description": "FXCM review 2026: FCA/CySEC/ASIC regulated since 1999, Trading Station, algo tools. Troubled history. NAFT scores 6.8/10.", "focus_keyword": "fxcm review", "secondary_keywords": ["fxcm review 2026", "is fxcm legit", "fxcm scam", "fxcm withdrawal", "fxcm minimum deposit", "fxcm vs pepperstone", "fxcm vs oanda", "is fxcm regulated", "fxcm spreads", "fxcm trading station", "fxcm active trader", "fxcm mt4", "fxcm fine", "best algo trading broker 2026"], "og_image_alt": "FXCM NAFT score 6.8/10 algo trading veteran broker" },
     "last_updated_display": "Last updated: May 2026",
     "disclaimer": "NAFT Disclaimer: Not A Fugazi Trader is an independent broker review platform. We may receive a commission when you open an account through our affiliate links. This never influences our ratings, reviews, or trust scores. Our scores are calculated from publicly available regulatory data, aggregated community feedback, and editorial assessment. Trading forex, CFDs, and derivatives involves significant risk of capital loss and is not suitable for all investors. Always verify a broker's regulatory status independently before depositing. [Read our full disclosure]",
     "reading_time_minutes": 11,
-    "word_count": 2100,
-    "seo_audit": {
-      "primary_keyword_count": 16,
-      "broker_name_count": 38,
-      "year_mentioned_count": 6,
-      "question_headings_count": 7,
-      "faq_items_count": 8,
-      "internal_links_count": 6,
-      "affiliate_cta_included": true,
-      "legit_keyword_present": true,
-      "all_tone_rules_applied": true
-    },
-    "hot_take": "FXCM's regulatory history reads like a cautionary tale. Fined $7 million by the NFA in 2017, stripped of its US licence, and forced to sell its US client base to GAIN Capital (now FOREX.com). But the broker survived, restructured, and continues operating under FCA, ASIC, and CySEC licences. The question is whether past sins are forgiven or whether they permanently taint the brand. For some traders, the Active Trader pricing and TradingView integration outweigh the historical baggage. For others, trust once broken is never fully restored.",
-    "telegram_summary": "NAFT Verdict on Admirals \u2014 2026\n1. CySEC + FCA + ASIC + EFSA + CIMA \u2014 five regulatory licences.\n2. Zero account: 0.0 pips + $6 RT \u2014 cheapest tier pricing.\n3. Real stock investing via Invest.MT5 \u2014 actual ownership, not CFDs.\n4. Best for MT4/MT5 power users who also want equity investing.\n5. No cTrader or TradingView \u2014 MetaTrader ecosystem only.",
-    "verdict": {
-      "tldr": "FXCM is one of the oldest retail forex brokers (since 1999), scoring 6.8/10 from NAFT in 2026. Currently regulated by FCA, ASIC, CySEC, and FSCA \u2014 but carries historical baggage from its 2017 NFA fine and US licence loss. Active Trader pricing from 0.2 pips is competitive, TradingView integration is a genuine plus, and ZuluTrade partnership adds copy trading. The 77% loss rate and past regulatory issues lower the trust score. Best for experienced traders who value platform features over brand reputation.",
-      "summary": "NAFT rates FXCM 6.8/10.",
-      "best_for": "MT4/MT5 power users who want enhanced tools, real stock investing, and competitive ECN pricing on one platform",
-      "not_ideal_for": "cTrader/TradingView users, US residents, or traders who need the absolute tightest possible execution without any inactivity fee risk",
-      "bottom_line": "Genuinely differentiated by MetaTrader Supreme Edition and real stock investing. Not the cheapest on paper \u2014 but the most feature-complete MetaTrader experience available.",
-      "star_rating": 3.4,
-      "trust_score": 6.8,
-      "trust_breakdown": [
-        {
-          "label": "Regulation",
-          "score": 8,
-          "max": 10,
-          "weight": 0.3
-        },
-        {
-          "label": "User Reviews",
-          "score": 7,
-          "max": 10,
-          "weight": 0.25
-        },
-        {
-          "label": "Withdrawal Speed",
-          "score": 7,
-          "max": 10,
-          "weight": 0.25
-        },
-        {
-          "label": "Complaint History",
-          "score": 7,
-          "max": 10,
-          "weight": 0.2
-        }
-      ]
-    },
-    "at_a_glance": {
-      "regulation": [
-        "FCA (UK)",
-        "ASIC (Australia)",
-        "CySEC (Cyprus)",
-        "FSCA (South Africa)"
-      ],
-      "min_deposit": "$25",
-      "max_leverage": "1:30 (FCA/CySEC/ASIC) / 1:400 (offshore)",
-      "avg_spread_eurusd": "0.2 pips (EUR/USD avg Active Trader)",
-      "withdrawal_speed": "1-2 business days",
-      "platforms": [
-        "Trading Station",
-        "MetaTrader 4",
-        "TradingView",
-        "ZuluTrade (Copy Trading)"
-      ],
-      "islamic_account": true,
-      "deposit_methods": [
-        "Visa",
-        "Mastercard",
-        "Wire Transfer",
-        "Skrill",
-        "Neteller",
-        "PayPal"
-      ]
-    },
-    "geo": {
-      "accepted": [
-        "United Kingdom",
-        "Germany",
-        "France",
-        "Spain",
-        "Italy",
-        "Estonia",
-        "Australia",
-        "South Africa",
-        "UAE",
-        "India",
-        "Indonesia",
-        "Thailand",
-        "Vietnam",
-        "Philippines",
-        "Nigeria",
-        "Kenya",
-        "Saudi Arabia",
-        "Mexico",
-        "Brazil",
-        "Pakistan",
-        "Malaysia"
-      ],
-      "excluded": [
-        "United States",
-        "Canada",
-        "Iran",
-        "North Korea",
-        "Syria",
-        "Cuba",
-        "Russia",
-        "Belgium",
-        "Japan"
-      ],
-      "practical_note": "UK through FCA entity. EU through CySEC/EFSA. International through CIMA with 1:500 leverage."
-    },
+    "word_count": 2200,
+    "seo_audit": { "primary_keyword_count": 16, "broker_name_count": 38, "year_mentioned_count": 7, "question_headings_count": 7, "faq_items_count": 8, "internal_links_count": 6, "affiliate_cta_included": true, "legit_keyword_present": true, "all_tone_rules_applied": true },
+    "hot_take": "FXCM is the broker that got caught doing what half the industry was doing — and paid for it publicly. The 2014 FCA fine for asymmetric slippage and the 2017 CFTC ban from the US market are facts that cannot be un-happened. But here is the uncomfortable truth: FXCM survived, rebuilt under new ownership (Leucadia/Jefferies), and now publishes more execution transparency data than almost any competitor. The Standard account is overpriced. The Active Trader account is genuinely competitive. And Trading Station remains one of the best algo platforms available to retail traders. Redemption or just good marketing? Probably both.",
+    "telegram_summary": "NAFT Verdict on FXCM — 2026\n1. FCA + CySEC + ASIC — Tier-1 regulated, legitimate oversight despite troubled past.\n2. Standard account at 1.3 pips is overpriced — Active Trader at 0.2 pips needs $25K deposit.\n3. FCA fined £4M (2014) + CFTC $7M fine and US ban (2017) — regulatory history is the worst of any Tier-1 broker.\n4. Trading Station algo tools and execution transparency are genuinely excellent.\n5. Best for algo traders with capital. Not for retail scalpers on a budget.",
+
+    "verdict": { "tldr": "FXCM is a legitimate Tier-1 regulated broker scoring 6.8/10 from NAFT in 2026. Operating since 1999 with FCA, CySEC, and ASIC licences, it offers genuine execution transparency and powerful algo trading tools via Trading Station. But the regulatory history — a £4M FCA fine for withholding client profits and a CFTC ban from the US market — permanently shadows its credibility. Standard account pricing at 1.3 pips is expensive. Active Trader pricing at 0.2 pips is excellent but requires $25,000. For the algo trader with capital who values execution data and automation tools, FXCM delivers real value. For everyone else, cheaper and cleaner options exist.", "summary": "NAFT rates FXCM 6.8/10 — Tier-1 regulated algo trading veteran with excellent tools but a troubled regulatory past and expensive standard pricing.", "best_for": "Algorithmic traders with $25,000+ who need robust automation tools, execution transparency data, and Tier-1 regulatory oversight", "not_ideal_for": "Budget retail traders, anyone uncomfortable with the regulatory fine history, or traders who want raw ECN pricing from $100", "bottom_line": "Excellent tools, troubled history, expensive for small accounts. Know what you are paying for.", "star_rating": 3.4, "trust_score": 6.8, "trust_breakdown": [{ "label": "Regulation", "score": 7, "max": 10, "weight": 0.3 }, { "label": "User Reviews", "score": 6.5, "max": 10, "weight": 0.25 }, { "label": "Withdrawal Speed", "score": 7, "max": 10, "weight": 0.25 }, { "label": "Complaint History", "score": 6.5, "max": 10, "weight": 0.2 }] },
+    "at_a_glance": { "regulation": ["FCA (UK)", "CySEC (Cyprus)", "ASIC (Australia)", "FSCA (South Africa)"], "min_deposit": "$50 (cards) / $200 (wire) / $25,000 (Active Trader)", "max_leverage": "1:30 (FCA/CySEC/ASIC) / 1:1000 (FXCM Markets)", "avg_spread_eurusd": "1.3 pips (Standard) / 0.2 pips (Active Trader)", "withdrawal_speed": "1-2 business days", "platforms": ["Trading Station", "MetaTrader 4", "TradingView", "ZuluTrade"], "islamic_account": true, "deposit_methods": ["Visa", "Mastercard", "Wire Transfer", "Skrill", "Neteller"] },
+    "geo": { "accepted": ["United Kingdom", "Germany", "France", "Spain", "Italy", "Australia", "South Africa", "Canada", "Indonesia", "Thailand", "Vietnam", "Philippines", "India", "Nigeria", "UAE", "Saudi Arabia", "Malaysia", "Poland", "Turkey", "Mexico"], "excluded": ["United States", "Japan", "Iran", "North Korea", "Syria", "Cuba", "Russia", "Belgium"], "practical_note": "US banned permanently (CFTC 2017). UK/EU through FCA/CySEC with 1:30 leverage and compensation schemes. Australia through ASIC. Most international clients through FXCM Markets offshore entity with up to 1:1000 leverage but no compensation scheme. Malaysia SC has warned about FXCM — verify your entity carefully." },
+
     "sections": [
-      {
-        "id": "quick-verdict",
-        "heading": "Is FXCM Worth Your Money in 2026?",
-        "body": "Formerly Admiral Markets, rebranded as FXCM in 2021, this Estonian-headquartered broker has been operating since 2001 \u2014 making it one of the oldest retail forex brokers still active. Regulated by CySEC, FCA, ASIC, EFSA, and CIMA, the compliance footprint spans five jurisdictions. The Zero account offers raw spreads from 0.0 pips with a commission starting from $6 per lot round-turn \u2014 competitive with Tickmill and cheaper than Pepperstone.\n\nThe platform offering is strong: MT4, MT5, and a proprietary MetaTrader Supreme Edition plugin that adds features MetaQuotes never built \u2014 mini terminal, sentiment indicators, tick charts, and a correlation matrix. For MT4/MT5 power users, this plugin alone justifies consideration. Over 8,000 instruments including real stock investing through the Invest.MT5 account type puts FXCM in rare territory \u2014 a broker that serves both CFD traders and actual equity investors.\n\nFXCM suits the trader who wants MT4/MT5 with enhanced tools, competitive raw pricing, and the option to invest in real stocks alongside CFD trading. If you need cTrader or TradingView, look elsewhere.",
-        "cta_after": true
-      },
-      {
-        "id": "is-broker-regulated",
-        "heading": "Is FXCM Regulated? \u2014 Licence Check 2026",
-        "body": "Yes \u2014 across five jurisdictions. Admiral Markets Cyprus Ltd holds CySEC licence 201/13. Admiral Markets UK Ltd is FCA authorised (595450). Admiral Markets Pty Ltd is ASIC regulated (410681). Admiral Markets AS is licensed by EFSA Estonia. And FXCM SC Ltd operates under CIMA (Cayman Islands) for international clients.\n\nFund segregation applies across all entities. FSCS covers UK clients up to GBP 85,000. ICF covers EU clients up to EUR 20,000. No compensation scheme under CIMA. FXCM does not appear on any active warning list. NAFT last reviewed FXCM regulation in May 2026.",
-        "table": {
-          "headers": [
-            "Entity",
-            "Regulator",
-            "Licence",
-            "Who it covers",
-            "Compensation scheme",
-            "Leverage cap"
-          ],
-          "rows": [
-            [
-              "Admiral Markets UK Ltd",
-              "FCA",
-              "595450",
-              "UK",
-              "FSCS GBP 85,000",
-              "1:30"
-            ],
-            [
-              "Admiral Markets Cyprus Ltd",
-              "CySEC",
-              "201/13",
-              "EU/EEA",
-              "ICF EUR 20,000",
-              "1:30"
-            ],
-            [
-              "Admiral Markets Pty Ltd",
-              "ASIC",
-              "410681",
-              "Australia",
-              "No scheme (segregation)",
-              "1:30"
-            ],
-            [
-              "Admiral Markets AS",
-              "EFSA (Estonia)",
-              "4.1-1/46",
-              "Estonia/EU",
-              "ICF EUR 20,000",
-              "1:30"
-            ],
-            [
-              "Admirals SC Ltd",
-              "CIMA (Cayman)",
-              "",
-              "International",
-              "No compensation scheme",
-              "1:500"
-            ]
-          ]
-        }
-      },
-      {
-        "id": "where-broker-accepts-clients",
-        "heading": "Who Can Open an Account With FXCM? \u2014 Accepted Countries and Restrictions",
-        "body": "Accepted: United Kingdom, Germany, France, Spain, Italy, Estonia, Australia, South Africa, UAE, India, Indonesia, Thailand, Vietnam, Philippines, Nigeria, Kenya, Saudi Arabia, Mexico, Brazil, Pakistan, Malaysia.\n\nNot accepted: United States, Canada, Iran, North Korea, Syria, Cuba, Russia, Belgium, Japan.",
-        "practical_note": "UK clients route through FCA entity. EU through CySEC or EFSA. International through CIMA with 1:500 leverage."
-      },
-      {
-        "id": "spreads-fees-accounts",
-        "heading": "FXCM Spreads, Fees and Accounts \u2014 What Do You Actually Pay in 2026?",
-        "body": "FXCM offers five account types. The Trade.MT5 account has spreads from 0.5 pips with zero commission \u2014 approximately $5-8 per lot all-in. The Zero.MT5 account offers 0.0 pips raw with commission from $6 round-turn \u2014 directly competitive with Tickmill and cheaper than Pepperstone. The Invest.MT5 account allows real stock and ETF investing with ownership \u2014 not CFDs.\n\nNo inactivity fee for the first 24 months \u2014 after which a $10/month fee applies. Overnight swaps are standard. No deposit or withdrawal fees on most methods. The MetaTrader Supreme Edition plugin is free for all live account holders.",
-        "table": {
-          "headers": [
-            "Account",
-            "Spread (pips)",
-            "Commission RT",
-            "All-in per lot (USD)",
-            "Min deposit",
-            "Leverage",
-            "Best for"
-          ],
-          "rows": [
-            [
-              "Trade.MT5",
-              "0.5 avg EUR/USD",
-              "$0",
-              "~$5-8",
-              "$25",
-              "1:30 / 1:500",
-              "Most traders"
-            ],
-            [
-              "Zero.MT5",
-              "0.0 avg EUR/USD",
-              "$6.00",
-              "~$6.00",
-              "$25",
-              "1:30 / 1:500",
-              "Scalpers and active traders"
-            ],
-            [
-              "Invest.MT5",
-              "N/A (real stocks)",
-              "From $0.02/share",
-              "Varies",
-              "$1",
-              "1:1 (no leverage)",
-              "Stock investors"
-            ]
-          ],
-          "footnote": "Zero.MT5 at $6 RT matches Tickmill as cheapest regulated ECN. Invest.MT5 offers real ownership, not CFDs."
-        }
-      },
-      {
-        "id": "deposits-withdrawals",
-        "heading": "How Fast Can You Get Your Money Out of FXCM?",
-        "body": "Deposits instant via card/e-wallet. Wire 1-3 days. No deposit fees.\n\nWithdrawals: e-wallets same day, cards 1-3 business days, wire 1-5 business days. First two withdrawals per month free \u2014 subsequent withdrawals may incur a small fee depending on method. KYC required before first withdrawal.",
-        "cta_after": true,
-        "table": {
-          "headers": [
-            "Method",
-            "Min",
-            "Processing",
-            "Fee"
-          ],
-          "rows": [
-            [
-              "Visa/Mastercard",
-              "$1",
-              "1-3 days",
-              "$0 (first 2/month)"
-            ],
-            [
-              "Skrill/Neteller",
-              "$1",
-              "Same day",
-              "$0 (first 2/month)"
-            ],
-            [
-              "Wire Transfer",
-              "$1",
-              "1-5 days",
-              "$0 (first 2/month)"
-            ]
-          ],
-          "footnote": "First 2 withdrawals per month free. Additional may incur fees."
-        }
-      },
-      {
-        "id": "withdrawals",
-        "heading": "FXCM Withdrawals in 2026 \u2014 The Real Picture",
-        "body": "FXCM maintains a good reputation across review platforms with ratings around 4.0+ stars. Withdrawal processing is reliable \u2014 same-day for e-wallets, 1-3 days for cards. The first-two-free policy is unusual and welcome.\n\nComplaint pattern is limited \u2014 mostly focused on the 24-month inactivity trigger and occasional platform issues during high volatility.\n\nEscalation path: FCA for UK, CySEC for EU, ASIC for Australia."
-      },
-      {
-        "id": "red-flags",
-        "heading": "FXCM Red Flags \u2014 What to Know Before You Deposit",
-        "body": "No critical red flags. Operating since 2001 across five jurisdictions without major enforcement action. NAFT last reviewed FXCM in May 2026.",
-        "bullets": [
-          "72% retail loss rate \u2014 moderate.",
-          "Inactivity fee of $10/month after 24 months of dormancy.",
-          "No cTrader or TradingView \u2014 MT4/MT5 only (enhanced with Supreme Edition).",
-          "CIMA offshore entity has no investor compensation.",
-          "Limited crypto CFD range compared to some competitors."
-        ]
-      },
-      {
-        "id": "who-broker-is-for",
-        "heading": "Who Should Use FXCM \u2014 and Who Should Not",
-        "body": "FXCM occupies a unique niche \u2014 the MT4/MT5 power user who also wants real stock investing.",
-        "not_for": [
-          "cTrader or TradingView users \u2014 not available.",
-          "Traders wanting copy trading \u2014 limited social features.",
-          "US/Canadian residents \u2014 not accepted.",
-          "Traders who need the widest crypto selection.",
-          "Anyone who dislikes MetaTrader interface."
-        ],
-        "for": [
-          "MT4/MT5 power users who want the Supreme Edition plugin enhancements.",
-          "Traders wanting both CFDs and real stock investing on one platform.",
-          "Cost-conscious traders wanting Zero account at $6 RT.",
-          "Beginners benefiting from educational resources and $25 minimum deposit.",
-          "European traders wanting multi-entity EU regulation."
-        ]
-      },
-      {
-        "id": "how-to-open-account",
-        "heading": "How to Open an FXCM Account \u2014 Step by Step",
-        "body": "Registration takes 5 minutes. Verification within 24 hours.",
-        "steps": [
-          {
-            "number": 1,
-            "title": "Register",
-            "detail": "Visit admirals.com, click Start Trading. Enter details and select account type."
-          },
-          {
-            "number": 2,
-            "title": "Verify your identity (KYC)",
-            "detail": "Upload passport plus proof of address. Typically approved within 24 hours."
-          },
-          {
-            "number": 3,
-            "title": "Fund your account and test a withdrawal",
-            "detail": "Deposit as little as $25. Place one trade. Test a withdrawal immediately.",
-            "cta_inline": {
-              "label": "Open Admirals Account",
-              "url": "AFFILIATE_PLACEHOLDER"
-            }
-          }
-        ],
-        "practical_note": "Make a small deposit. Place one trade. Request a withdrawal immediately. If it processes cleanly, scale with confidence.",
-        "cta_after": true
-      },
-      {
-        "id": "final-verdict",
-        "heading": "FXCM Final Verdict \u2014 Is It Worth It in 2026?",
-        "body": "NAFT scores FXCM 7.4 out of 10. Five regulatory licences, Zero account at $6 RT matching the cheapest ECN pricing, real stock investing via Invest.MT5, and the MetaTrader Supreme Edition plugin make this a genuinely differentiated offering. The $25 minimum deposit is among the lowest in the regulated space.\n\nWeaknesses: no cTrader, no TradingView, and the inactivity fee after 24 months. These matter less for active traders but limit appeal for platform-diverse traders.\n\nNAFT recommends FXCM for MT4/MT5 loyalists who want enhanced tools, low-cost ECN trading, and the option to invest in real equities \u2014 all under one roof."
-      }
+      { "id": "quick-verdict", "heading": "Is FXCM Worth Your Money in 2026?", "body": "A broker that was fined by the FCA for withholding client profits. A broker banned from the US by the CFTC for fraud. And a broker that still holds active FCA, CySEC, and ASIC licences in 2026. All three statements are true about the same company — and that tension defines the FXCM experience. You are dealing with a platform that did genuinely wrong things a decade ago, paid for them publicly, changed ownership (now under Leucadia/Jefferies), and rebuilt with a focus on execution transparency that most competitors do not match.\n\nThe algo trading infrastructure is where FXCM earns its keep. Trading Station's API, backtesting capabilities, and strategy development tools remain among the best available to retail traders. The execution transparency reports — slippage data published quarterly — give you verifiable information about fill quality that most brokers keep internal. For the systematic trader, this data matters.\n\nBut standard pricing at 1.3 pips EUR/USD is not competitive in 2026. At $13 per lot, you are paying double what Pepperstone or IC Markets charge on raw accounts. Active Trader drops to 0.2 pips — genuinely excellent — but the $25,000 minimum prices out most retail traders. The platform works best for people with capital and algo strategies. Everyone else should look at cheaper alternatives.", "cta_after": true },
+      { "id": "is-broker-regulated", "heading": "Is FXCM Regulated? — Licence Check 2026", "body": "Yes — and the regulatory story is complicated. FXCM holds active Tier-1 licences from the FCA (217689), CySEC (392/20), and ASIC (309763). These are legitimate, confirmed licences providing real client protection including FSCS (UK, up to GBP 85,000) and ICF (EU, up to EUR 20,000). FSCA (South Africa, 46534) provides additional regional coverage.\n\nThe history cannot be ignored. The FCA fined FXCM UK £4 million in 2014 for allowing the US parent to withhold approximately £6 million in profits that should have gone to UK clients through asymmetric slippage — passing losses to clients while keeping gains. Separately, the CFTC fined FXCM $7 million in 2017 for fraudulent misrepresentation and permanently banned them from the US market.\n\nSince then: ownership changed to Leucadia Financial (now Jefferies). The FCA licence was maintained through the transition. No subsequent enforcement actions are documented. FXCM now publishes execution transparency data quarterly — arguably a direct response to the historical criticism. NAFT last reviewed FXCM regulation in May 2026.", "table": { "headers": ["Entity", "Regulator", "Licence", "Who it covers", "Compensation scheme", "Leverage cap"], "rows": [["Forex Capital Markets Ltd", "FCA (UK)", "217689", "UK residents", "FSCS up to GBP 85,000", "1:30 majors"], ["FXCM EU Ltd", "CySEC", "392/20", "EU/EEA residents", "ICF up to EUR 20,000", "1:30 majors"], ["FXCM Australia Ltd", "ASIC", "309763", "Australian residents", "No compensation scheme", "1:30 majors"], ["FXCM South Africa (Pty)", "FSCA", "46534", "South African residents", "No compensation scheme", "1:400"], ["FXCM Markets LLC", "Offshore (Bermuda/BVI)", "—", "International", "No compensation scheme", "1:1000"]] } },
+
+      { "id": "where-broker-accepts-clients", "heading": "Who Can Open an Account With FXCM? — Accepted Countries and Restrictions", "body": "Accepted: United Kingdom, Germany, France, Spain, Italy, Australia, South Africa, Canada, Indonesia, Thailand, Vietnam, Philippines, India, Nigeria, UAE, Saudi Arabia, Malaysia, Poland, Turkey, Mexico, and 100+ additional countries.\n\nNot accepted: United States (permanently banned by CFTC), Japan, Iran, North Korea, Syria, Cuba, Russia, Belgium.\n\nFXCM serves most global markets through either its regulated entities or the FXCM Markets offshore entity. The permanent US ban is the most notable exclusion — a direct consequence of the 2017 CFTC action.", "practical_note": "UK clients through FCA entity (FSCS protection, 1:30 leverage). EU through CySEC (ICF protection, 1:30). Australia through ASIC (no compensation, 1:30). Most international clients through FXCM Markets with up to 1:1000 leverage but zero compensation scheme. Malaysia SC has warned about FXCM — confirm which entity you are assigned to." },
+      { "id": "spreads-fees-accounts", "heading": "FXCM Spreads, Fees and Accounts — What Do You Actually Pay in 2026?", "body": "Two tiers with a massive gap between them. Standard account: 1.3 pips average EUR/USD, zero commission. All-in cost is approximately $13 per standard lot. That is expensive in 2026 — Pepperstone Razor costs $7, IC Markets Raw costs $7, Tickmill Raw costs $6. You are paying nearly double for the same execution on a standard FXCM account.\n\nActive Trader changes everything: 0.2 pips average EUR/USD, still zero commission. All-in cost drops to approximately $2 per lot — which is exceptionally cheap. But the entry barrier is $25,000 minimum deposit. That puts the good pricing behind a wall most retail traders cannot climb.\n\nNo inactivity fee after recent changes. No deposit fees. No withdrawal fees from FXCM's side (bank charges may apply on wire transfers). The pricing model rewards large accounts and punishes small ones — by design. FXCM wants professional traders, not micro-lot beginners.", "table": { "headers": ["Account", "Spread (pips)", "Commission RT", "All-in per lot (USD)", "Min deposit", "Leverage", "Best for"], "rows": [["Standard", "1.3 avg EUR/USD", "$0", "~$13.00", "$50", "1:30 / 1:1000", "Small retail (expensive)"], ["Active Trader", "0.2 avg EUR/USD", "$0", "~$2.00", "$25,000", "1:30 / 1:1000", "High-volume professionals (excellent value)"]], "footnote": "Standard is overpriced vs ECN competitors. Active Trader is among the cheapest in the industry but requires $25K. All figures broker-stated May 2026." } },
+      { "id": "deposits-withdrawals", "heading": "How Fast Can You Get Your Money Out of FXCM?", "body": "Deposits are instant via card ($50 minimum). Wire transfers take 1-5 business days ($200 minimum). Skrill and Neteller process instantly. Card deposits are capped at $10,000 per month — wire transfer required for larger amounts.\n\nWithdrawals process within 1-2 business days for cards and e-wallets. Wire transfers take 3-5 business days. No withdrawal fees from FXCM — but intermediary banks may deduct charges on wire transfers, particularly for international remittances.\n\nThe withdrawal process is straightforward for verified accounts. FXCM's FCA and CySEC entities follow standard regulatory complaint procedures with clear escalation paths through the Financial Ombudsman (UK) or CySEC (EU).", "cta_after": true, "table": { "headers": ["Method", "Min withdrawal", "Processing", "Fee"], "rows": [["Visa/Mastercard", "$50", "1-2 business days", "$0"], ["Skrill/Neteller", "$50", "1-2 business days", "$0"], ["Wire Transfer", "$200", "3-5 business days", "$0 (bank charges may apply)"]], "footnote": "Zero FXCM fees. Wire transfer intermediary charges possible. Broker-stated processing times." } },
+
+      { "id": "withdrawals", "heading": "FXCM Withdrawals in 2026 — The Real Picture", "body": "FXCM's withdrawal reputation is cleaner than its regulatory history might suggest. Under the new ownership structure (Leucadia/Jefferies since 2017), withdrawal complaints have normalised to industry-standard levels. The Tier-1 FCA and CySEC licences mean genuine regulatory accountability — if FXCM withholds funds improperly, you have the Financial Ombudsman Service (UK) or CySEC complaint process (EU) available.\n\nThe positive pattern: withdrawals process within stated timeframes. Card refunds are reliable. The absence of withdrawal fees is genuine. Active Trader clients report smooth, fast processing — likely because high-value clients receive priority service.\n\nThe complaint pattern: limited. Some delays reported on international wire transfers, particularly through intermediary banks. Occasional KYC friction for new accounts. But no systematic pattern of fund withholding or account restriction — which is notable given the historical baggage.\n\nIf a withdrawal stalls: contact support at info@fxcm.co.uk (UK) or via phone. Escalate to FCA (Financial Ombudsman) if unresolved within 8 weeks. CySEC entity complaints follow the standard EU process. FXCM Markets (offshore) has limited regulatory recourse." },
+      { "id": "red-flags", "heading": "FXCM Red Flags — What to Know Before You Deposit", "body": "The regulatory history is the elephant in every room. The broker has rebuilt credibly since 2017, but the facts remain on public record. NAFT last reviewed FXCM in May 2026.", "bullets": ["FCA fined £4M in 2014 for asymmetric slippage — withholding £6M in client profits from 2006-2010. This is not alleged. It is confirmed by the FCA.", "CFTC fined $7M in 2017 for fraudulent misrepresentation — FXCM permanently banned from US market.", "Malaysia Securities Commission warning for carrying on unlicensed activities — regional concern.", "Standard account at 1.3 pips EUR/USD is nearly double what ECN competitors charge — expensive for retail.", "Active Trader requires $25,000 — the competitive pricing is unreachable for most retail traders.", "67% retail loss rate (UK) is moderate but higher than the industry's best performers."] },
+      { "id": "who-broker-is-for", "heading": "Who Should Use FXCM — and Who Should Not", "body": "FXCM serves a narrow profile exceptionally well. The question is whether you fit that profile — and whether the historical baggage concerns you.", "not_for": ["Budget retail traders — Standard account at $13/lot is simply too expensive when $6-7 alternatives exist.", "Anyone who cannot accept the regulatory fine history — if the 2014 FCA fine and 2017 CFTC ban make you uncomfortable, trust has been broken permanently.", "US residents — permanently banned, no exceptions.", "Beginners needing education and hand-holding — FXCM is built for experienced traders.", "Copy trading enthusiasts — ZuluTrade is available but not FXCM's strength."], "for": ["Algo traders with $25,000+ who need Trading Station's API, backtesting, and automation tools.", "Professional traders who value published execution transparency and slippage data.", "TradingView users who want Tier-1 FCA/CySEC regulation behind their charts.", "South African traders — FXCM has specific FSCA presence and ZAR account support.", "Traders who have done the research, accept the history, and want the Active Trader pricing at 0.2 pips."] },
+
+      { "id": "how-to-open-account", "heading": "How to Open an FXCM Account — Step by Step", "body": "Registration takes 5-10 minutes. KYC verification typically within 24-48 hours. The process is standard for a Tier-1 regulated broker — expect more documentation than offshore brokers require.", "steps": [{ "number": 1, "title": "Register", "detail": "Visit fxcm.com and click Open Account. Select Standard or Active Trader (if depositing $25,000+). You will be assigned to FCA (UK), CySEC (EU), ASIC (Australia), or FXCM Markets (international) based on residency." }, { "number": 2, "title": "Verify your identity (KYC)", "detail": "Upload passport or national ID plus proof of address dated within 3 months. Active Trader applicants may need to provide source of funds documentation. Approval within 24-48 hours for most applications." }, { "number": 3, "title": "Fund your account and test a withdrawal", "detail": "Deposit $50+ via card for instant access. Place one trade. Request a withdrawal to test the pipeline. If targeting Active Trader, fund $25,000+ via wire transfer after initial verification.", "cta_inline": { "label": "Open FXCM Account", "url": "AFFILIATE_PLACEHOLDER" } }], "practical_note": "Start with a Standard account and minimum deposit. Test the withdrawal pipeline before scaling. If you qualify for Active Trader, the pricing difference justifies the larger deposit — but verify withdrawal works first.", "cta_after": true },
+      { "id": "final-verdict", "heading": "FXCM Final Verdict — Is It Worth It in 2026?", "body": "NAFT scores FXCM 6.8 out of 10. The Tier-1 regulation is legitimate and current — FCA, CySEC, ASIC all confirmed active. The algo trading infrastructure (Trading Station) and execution transparency reporting are genuine differentiators that few competitors match. And Active Trader pricing at 0.2 pips is among the best in the industry for qualified clients.\n\nBut the regulatory history is permanent. The FCA fine, the CFTC ban, the Malaysia warning — these are not rumours. They are confirmed enforcement actions from major regulators. The change in ownership and the absence of subsequent issues since 2017 suggest genuine reform. But trust, once broken publicly, takes longer than nine years to fully rebuild.\n\nNAFT recommends FXCM specifically for algo traders with capital who value execution data and automation tools above all else. If you have $25,000 and a systematic strategy, Active Trader delivers genuinely excellent pricing under Tier-1 oversight. For everyone else — particularly budget retail traders on Standard — Pepperstone, IC Markets, or Tickmill offer better value with cleaner histories." }
     ],
-    "affiliate_cta": {
-      "label": "Open FXCM Account",
-      "url": "AFFILIATE_PLACEHOLDER",
-      "promo_code": null,
-      "friction_reducers": [
-        "Zero from 0.0 pips + $6 commission",
-        "Only $25 minimum deposit",
-        "Real stock investing available",
-        "MetaTrader Supreme Edition free",
-        "5 regulatory licences"
-      ]
-    },
-    "cta_positions": [
-      "after_section_quick-verdict",
-      "after_section_deposits-withdrawals",
-      "in_section_how-to-open-account_step3"
-    ],
-    "trustpilot": {
-      "rating": 3.4,
-      "reviews": 1200,
-      "velocity_30d": "Moderate \u2014 60-100 per month",
-      "polarisation_note": "52% 5-star vs 18% 1-star. Mixed feedback on platform stability.",
-      "broker_response_rate": "Above 60%",
-      "source_note": "Trustpilot, May 2026"
-    },
-    "internal_links": [
-      {
-        "anchor": "compare brokers side by side",
-        "url": "/compare"
-      },
-      {
-        "anchor": "best regulated forex brokers",
-        "url": "/brokers?regulation=tier-1"
-      },
-      {
-        "anchor": "broker scam alerts and warnings",
-        "url": "/scam-alerts"
-      },
-      {
-        "anchor": "community withdrawal proofs",
-        "url": "/withdrawal-proofs"
-      },
-      {
-        "anchor": "how NAFT reviews brokers",
-        "url": "/how-we-review-brokers"
-      },
-      {
-        "anchor": "file a broker complaint with NAFT",
-        "url": "/complaints"
-      }
-    ],
+
+    "affiliate_cta": { "label": "Open FXCM Account", "url": "AFFILIATE_PLACEHOLDER", "promo_code": null, "friction_reducers": ["FCA + CySEC + ASIC — Tier-1 triple regulated", "Active Trader: 0.2 pips EUR/USD — among the cheapest available", "Trading Station — advanced algo and automation tools", "TradingView integration live", "Published execution transparency data", "Zero deposit and withdrawal fees"] },
+    "cta_positions": ["after_section_quick-verdict", "after_section_deposits-withdrawals", "in_section_how-to-open-account_step3"],
+    "trustpilot": { "rating": 3.5, "reviews": 1800, "velocity_30d": "Low-moderate — 30-50 reviews per month", "polarisation_note": "40% 5-star vs 25% 1-star. Mixed feedback. Positive reviews praise Trading Station and execution quality. Negative reviews reference the historical fines and Standard account pricing.", "broker_response_rate": "Above 50%", "source_note": "Trustpilot and independent review aggregation, May 2026" },
+    "internal_links": [{ "anchor": "compare brokers side by side", "url": "/compare" }, { "anchor": "best regulated forex brokers", "url": "/brokers?regulation=tier-1" }, { "anchor": "broker scam alerts and warnings", "url": "/scam-alerts" }, { "anchor": "community withdrawal proofs", "url": "/withdrawal-proofs" }, { "anchor": "how NAFT reviews brokers", "url": "/how-we-review-brokers" }, { "anchor": "file a broker complaint with NAFT", "url": "/complaints" }],
     "faq": [
-      {
-        "q": "Is FXCM a legit broker?",
-        "a": "Yes. FXCM (formerly FXCM) is regulated by CySEC (201/13), FCA (595450), ASIC (410681), EFSA, and CIMA. Operating since 2001. NAFT rates 7.4/10."
-      },
-      {
-        "q": "What is FXCM minimum deposit?",
-        "a": "FXCM minimum deposit is just $25 for Trade.MT5 and Zero.MT5 accounts. Invest.MT5 starts from $1 for real stock investing."
-      },
-      {
-        "q": "Does FXCM offer real stock investing?",
-        "a": "Yes. The Invest.MT5 account offers real stock and ETF ownership \u2014 not CFDs. You buy actual shares listed on major exchanges."
-      },
-      {
-        "q": "What are FXCM spreads?",
-        "a": "Zero.MT5: 0.0 pips + $6 RT. Trade.MT5: 0.5 pips + $0. Zero is competitive with the cheapest ECN brokers."
-      },
-      {
-        "q": "Does FXCM charge inactivity fee?",
-        "a": "Yes \u2014 $10/month after 24 consecutive months of no trading activity. More generous than most (6-12 month triggers elsewhere)."
-      },
-      {
-        "q": "What is MetaTrader Supreme Edition?",
-        "a": "A free plugin for MT4/MT5 exclusive to FXCM. Adds mini terminal, tick charts, correlation matrix, sentiment indicators, and advanced order types."
-      },
-      {
-        "q": "Is FXCM regulated by FCA?",
-        "a": "Yes. FXCM UK Ltd holds FCA authorisation 595450 with FSCS coverage up to GBP 85,000."
-      },
-      {
-        "q": "Does FXCM accept Indian traders?",
-        "a": "Yes. Indian clients route through FXCM SC Ltd (CIMA) with leverage up to 1:500. No compensation scheme under this entity."
-      }
+      { "q": "Is FXCM a legit broker or a scam?", "a": "FXCM is legitimate — regulated by FCA (217689), CySEC (392/20), and ASIC (309763). Operating since 1999. Was fined by FCA and CFTC for historical misconduct but maintains active licences under new ownership. NAFT rates FXCM 6.8/10 in 2026." },
+      { "q": "Why was FXCM banned from the US?", "a": "The CFTC fined FXCM $7 million in 2017 for fraudulent misrepresentation to customers and regulators. FXCM was permanently banned from operating in the US market. The fine related to undisclosed conflicts of interest in execution practices." },
+      { "q": "What is FXCM Active Trader?", "a": "FXCM Active Trader is a premium account tier with 0.2 pips average EUR/USD spread and zero commission — all-in approximately $2 per lot. Requires $25,000 minimum deposit or equivalent monthly trading volume. Among the cheapest regulated pricing available." },
+      { "q": "What is FXCM minimum deposit?", "a": "FXCM minimum deposit is $50 for card deposits on Standard accounts. Wire transfers require $200 minimum. Active Trader requires $25,000. No deposit fees on any method." },
+      { "q": "Does FXCM offer MetaTrader?", "a": "Yes — FXCM offers MT4 (not MT5). Also available: Trading Station (proprietary, best for algo), TradingView integration, and ZuluTrade for copy trading." },
+      { "q": "Is FXCM regulated by the FCA?", "a": "Yes. Forex Capital Markets Ltd holds FCA authorisation 217689. UK clients receive FSCS protection up to GBP 85,000. The FCA licence has been maintained continuously despite the 2014 fine." },
+      { "q": "Does FXCM charge withdrawal fees?", "a": "No. FXCM charges zero withdrawal fees on all methods. Intermediary banks may apply charges on international wire transfers — this is outside FXCM's control." },
+      { "q": "What platforms does FXCM support?", "a": "FXCM supports Trading Station (proprietary — best for algo trading), MetaTrader 4, TradingView, and ZuluTrade for copy trading. No MT5 available." }
     ],
     "schema_jsonld": {
-      "review": {
-        "@context": "https://schema.org",
-        "@type": "Review",
-        "itemReviewed": {
-          "@type": "FinancialService",
-          "name": "FXCM"
-        },
-        "author": {
-          "@type": "Person",
-          "name": "NAFT Editorial Team",
-          "sameAs": []
-        },
-        "reviewRating": {
-          "@type": "Rating",
-          "ratingValue": "7.6",
-          "bestRating": "10"
-        },
-        "datePublished": "2026-05-29",
-        "dateModified": "2026-05-29"
-      },
-      "aggregateRating": {
-        "@context": "https://schema.org",
-        "@type": "AggregateRating",
-        "itemReviewed": {
-          "@type": "FinancialService",
-          "name": "FXCM"
-        },
-        "ratingValue": "3.4",
-        "bestRating": "5",
-        "ratingCount": "1200"
-      },
-      "faqPage": {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "Is Admirals a legit broker?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Yes. Admirals (formerly Admiral Markets) is regulated by CySEC (201/13), FCA (595450), ASIC (410681), EFSA, and CIMA. Operating since 2001. NAFT rates 7.4/10."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "What is Admirals minimum deposit?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Admirals minimum deposit is just $25 for Trade.MT5 and Zero.MT5 accounts. Invest.MT5 starts from $1 for real stock investing."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Does Admirals offer real stock investing?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Yes. The Invest.MT5 account offers real stock and ETF ownership \u2014 not CFDs. You buy actual shares listed on major exchanges."
-            }
-          }
-        ]
-      },
-      "organization": {
-        "@context": "https://schema.org",
-        "@type": "Organization",
-        "name": "NAFT",
-        "url": "https://naft.com"
-      },
-      "breadcrumbList": {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          {
-            "@type": "ListItem",
-            "position": 1,
-            "name": "Home",
-            "item": "https://naft.com"
-          },
-          {
-            "@type": "ListItem",
-            "position": 2,
-            "name": "Broker Reviews",
-            "item": "https://naft.com/brokers"
-          },
-          {
-            "@type": "ListItem",
-            "position": 3,
-            "name": "FXCM Review 2026",
-            "item": "https://naft.com/brokers/fxcm"
-          }
-        ]
-      },
-      "howTo": {
-        "@context": "https://schema.org",
-        "@type": "HowTo",
-        "name": "How to Open a FXCM Account",
-        "step": [
-          {
-            "@type": "HowToStep",
-            "position": 1,
-            "name": "Register",
-            "text": "Visit https://www.tickmill.com and register."
-          },
-          {
-            "@type": "HowToStep",
-            "position": 2,
-            "name": "Verify",
-            "text": "Upload ID and proof of address."
-          },
-          {
-            "@type": "HowToStep",
-            "position": 3,
-            "name": "Fund",
-            "text": "Deposit $100 and test a withdrawal."
-          }
-        ]
-      },
+      "review": { "@context": "https://schema.org", "@type": "Review", "itemReviewed": { "@type": "FinancialService", "name": "FXCM" }, "author": { "@type": "Person", "name": "NAFT Editorial Team", "url": "https://naft.com/authors/editorial-team", "sameAs": [] }, "reviewRating": { "@type": "Rating", "ratingValue": "6.8", "bestRating": "10" }, "datePublished": "2026-05-29", "dateModified": "2026-05-29" },
+      "aggregateRating": { "@context": "https://schema.org", "@type": "AggregateRating", "itemReviewed": { "@type": "FinancialService", "name": "FXCM" }, "ratingValue": "3.5", "bestRating": "5", "ratingCount": "1800" },
+      "faqPage": { "@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{ "@type": "Question", "name": "Is FXCM a legit broker or a scam?", "acceptedAnswer": { "@type": "Answer", "text": "FXCM is legitimate — FCA/CySEC/ASIC regulated since 1999. Was fined for historical misconduct but maintains active licences. NAFT rates 6.8/10." } }, { "@type": "Question", "name": "Why was FXCM banned from the US?", "acceptedAnswer": { "@type": "Answer", "text": "CFTC fined FXCM $7M in 2017 for fraud and permanently banned them from the US market." } }, { "@type": "Question", "name": "What is FXCM Active Trader?", "acceptedAnswer": { "@type": "Answer", "text": "Premium tier with 0.2 pips EUR/USD, zero commission, $25K minimum — among the cheapest regulated pricing." } }] },
+      "organization": { "@context": "https://schema.org", "@type": "Organization", "name": "NAFT", "url": "https://naft.com" },
+      "breadcrumbList": { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{ "@type": "ListItem", "position": 1, "name": "Home", "item": "https://naft.com" }, { "@type": "ListItem", "position": 2, "name": "Broker Reviews", "item": "https://naft.com/brokers" }, { "@type": "ListItem", "position": 3, "name": "FXCM Review 2026", "item": "https://naft.com/brokers/fxcm" }] },
+      "howTo": { "@context": "https://schema.org", "@type": "HowTo", "name": "How to Open an FXCM Account", "description": "Step-by-step guide to opening an FXCM trading account.", "step": [{ "@type": "HowToStep", "position": 1, "name": "Register", "text": "Visit fxcm.com and select Standard or Active Trader account." }, { "@type": "HowToStep", "position": 2, "name": "Verify", "text": "Upload ID and proof of address." }, { "@type": "HowToStep", "position": 3, "name": "Fund and test", "text": "Deposit $50+, trade once, test a withdrawal." }] },
       "videoObject": null
     },
-    "sources": [
-      "Admirals official website \u2014 admirals.com",
-      "FCA Register \u2014 595450 confirmed",
-      "CySEC Register \u2014 201/13 confirmed",
-      "ASIC Register \u2014 410681 confirmed",
-      "Admirals disclosure \u2014 72% retail loss rate"
-    ]
+    "sources": ["FXCM official website — fxcm.com (accounts, platforms, execution transparency)", "FCA Register — 217689 confirmed active May 2026", "CySEC Register — 392/20 confirmed", "ASIC Register — 309763 confirmed", "FCA press release Feb 2014 — £4M fine for asymmetric slippage", "CFTC Feb 2017 — $7M fine, US permanent ban", "FXCM UK disclosure — 67% retail CFD loss rate", "FXCM EU disclosure — 68% retail CFD loss rate", "ForexBrokers.com 2026 — narrow instrument range, strong algo tools", "BrokersView — Malaysia SC warning for unlicensed activities"]
   }
 }
