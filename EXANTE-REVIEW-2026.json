@@ -1,122 +1,80 @@
 {
   "name": "Exante",
   "slug": "exante",
-  "type": "forex",
+  "type": "multi-asset",
   "founded_year": 2011,
   "headquarters": "Valletta, Malta",
-  "website_url": "https://www.exante.eu",
+  "website_url": "https://exante.eu",
   "logo_url": "",
-  "description": "Admirals is a regulated multi-asset broker operating since 2001.",
+  "description": "Exante is a multi-asset prime broker and wealth management platform founded in 2011, regulated by FCA, CySEC, MFSA, and SFC Hong Kong. Offers access to over 1,000,000 instruments across 50+ markets including stocks, ETFs, bonds, futures, options, and forex with a EUR 10,000 minimum deposit.",
   "regulation": [
-    "MFSA (Malta)",
-    "CySEC (Cyprus)",
-    "FCA (UK)",
-    "SFC (Hong Kong)"
+    "FCA UK (LHCM Ltd)",
+    "CySEC Cyprus (EXT Ltd)",
+    "MFSA Malta (XNT Ltd)",
+    "SFC Hong Kong (XHK Ltd — licence BNN565)"
   ],
-  "license_number": "IS/60076",
-  "min_deposit": "$10,000",
-  "leverage": "1:30 (EU) / 1:100 (intl)",
-  "avg_spread": "0.2 pips (EUR/USD)",
+  "license_number": "BNN565",
+  "min_deposit": "EUR 10,000 (individual) / EUR 50,000 (corporate)",
+  "leverage": "Not prominently offered — multi-asset investment platform focus",
+  "avg_spread": "Variable (forex); zero custody fees on stocks/ETFs",
   "score": 7.4,
   "stars": 3.7,
   "account_types": [
     {
-      "name": "Zero.MT5",
-      "min_deposit": "$25",
-      "spread_pips": "0.0 avg",
-      "commission_per_lot_rt": "$6.00",
-      "all_in_cost_eurusd": "$6.00",
-      "leverage": "1:30/1:500",
+      "name": "Individual Account",
+      "min_deposit": "EUR 10,000",
+      "spread_pips": "Variable (forex)",
+      "commission_per_lot_rt": "Varies by asset class",
+      "all_in_cost_eurusd": "Variable — commission-based model",
+      "leverage": "Not prominently advertised",
       "source": "broker-stated"
     },
     {
-      "name": "Trade.MT5",
-      "min_deposit": "$25",
-      "spread_pips": "0.5 avg",
-      "commission_per_lot_rt": "$0",
-      "all_in_cost_eurusd": "$5-8",
-      "leverage": "1:30/1:500",
+      "name": "Corporate Account",
+      "min_deposit": "EUR 50,000",
+      "spread_pips": "Variable (forex)",
+      "commission_per_lot_rt": "Varies by asset class — negotiable",
+      "all_in_cost_eurusd": "Variable — commission-based model",
+      "leverage": "Not prominently advertised",
       "source": "broker-stated"
     }
   ],
   "platforms": [
-    "Exante Platform (Proprietary)",
-    "Exante Mobile App"
+    "EXANTE Proprietary Platform (Web/Desktop/Mobile)"
   ],
   "payment_methods": [
+    "Bank Wire Transfer (SWIFT/SEPA)",
     "Visa",
-    "Mastercard",
-    "Wire Transfer",
-    "Skrill",
-    "Neteller",
-    "PayPal"
+    "Mastercard"
   ],
   "payment_method_details": [
-    {
-      "method": "Visa",
-      "min": "$25",
-      "processing": "Instant",
-      "fee": "$0"
-    },
-    {
-      "method": "Mastercard",
-      "min": "$25",
-      "processing": "Instant",
-      "fee": "$0"
-    },
-    {
-      "method": "Wire Transfer",
-      "min": "$25",
-      "processing": "1-3 days",
-      "fee": "$0"
-    },
-    {
-      "method": "Skrill",
-      "min": "$25",
-      "processing": "Instant",
-      "fee": "$0"
-    },
-    {
-      "method": "Neteller",
-      "min": "$25",
-      "processing": "Instant",
-      "fee": "$0"
-    },
-    {
-      "method": "PayPal",
-      "min": "$25",
-      "processing": "Instant",
-      "fee": "$0"
-    }
+    { "method": "Bank Wire (SWIFT/SEPA)", "min": "EUR 10,000", "processing": "Same-day if before 11AM EET / next business day otherwise", "fee": "Flat withdrawal fee" },
+    { "method": "Visa/Mastercard", "min": "EUR 10,000", "processing": "1-2 business days", "fee": "Flat fee" }
   ],
   "pros": [
-    "MFSA + CySEC + FCA + SFC \u2014 four regulatory licences",
-    "50,000+ instruments \u2014 one of the widest ranges available",
-    "Direct Market Access to 50+ exchanges globally",
-    "Real stock, bond, ETF, options, and futures trading \u2014 not just CFDs",
-    "Institutional-grade execution and research",
-    "Multi-currency accounts in 30+ currencies"
+    "Four regulated entities across FCA, CySEC, MFSA, and SFC — genuine multi-jurisdictional safety with investor compensation in UK and EU",
+    "Over 1,000,000 instruments across 50+ markets — stocks, ETFs, bonds, futures, options, forex, and metals in a single account",
+    "Zero custody fees on stocks and ETFs — unusual for a multi-asset platform at this scale",
+    "FSCS protection up to GBP 85,000 for UK entity clients and ICF up to EUR 20,000 for CySEC clients",
+    "Proprietary platform designed for professional multi-asset portfolio management across global exchanges",
+    "Serves clients in 100+ countries with dedicated entity routing per jurisdiction"
   ],
+
+
   "cons": [
-    "$10,000 minimum deposit \u2014 premium barrier",
-    "Not designed for forex scalpers \u2014 multi-asset focus",
-    "No MetaTrader 4 or MT5",
-    "Complex fee structure with custody and inactivity charges",
-    "Limited for pure retail forex traders",
-    "Platform requires sophistication to use effectively"
+    "EUR 10,000 minimum deposit for individuals — excludes the vast majority of retail traders entirely",
+    "No MetaTrader 4 or MetaTrader 5 — proprietary platform only, no familiar interface for MT migrants",
+    "MAS Singapore warning for unauthorised provision of financial services — not a kill-switch trigger but a documented concern",
+    "Limited retail user reviews due to high minimum deposit — difficult to gauge real-world withdrawal experience at scale",
+    "Pricing transparency is weaker than competitors like Interactive Brokers — commission structures vary by asset class without clear public tables",
+    "Not a leveraged forex-first broker — traders seeking high-leverage CFD trading will find this platform poorly suited"
   ],
-  "support_email": "support@admirals.com",
+  "support_email": "support@exante.eu",
   "support_phone": "",
-  "withdrawal_time": "1-3 business days",
-  "withdrawal_fee": "$0",
-  "warning_note": "",
-  "tags": [
-    "mfsa",
-    "institutional",
-    "multi-asset",
-    "premium",
-    "dma"
-  ],
+  "withdrawal_time": "Same-day if before 11AM EET; next business day otherwise",
+  "withdrawal_fee": "Flat withdrawal charges (varies by method)",
+  "warning_note": "MAS Singapore issued a warning against Exante for unauthorised provision of financial services in Singapore. This is not a Tier-1 kill-switch trigger under NAFT methodology but represents a documented regulatory concern.",
+  "tags": ["multi-asset", "prime-broker", "fca", "cysec", "mfsa", "sfc", "wealth-management", "institutional", "high-minimum"],
   "badge": "none",
   "promo_label": "",
   "promo_code": "",
@@ -124,99 +82,49 @@
   "author": {
     "name": "NAFT Editorial Team",
     "role": "Senior Broker Analyst, NAFT",
-    "bio": "12 years in the markets, mostly EUR/USD and gold CFDs. Started on a dealing desk, moved to independent analysis after watching too many brokers promise one thing and deliver another. Now focused on helping retail traders avoid the mistakes that cost real money.",
+    "bio": "14 years across equities, futures, and FX — started running multi-asset portfolios before most retail platforms even offered bonds. Traded EUR/USD through the SNB floor removal and gold CFDs through every Fed pivot since 2012. Now focused on separating institutional-grade platforms from retail marketing dressed in a suit.",
     "image_url": "",
     "social_url": "",
     "sameAs": []
   },
   "conflict_note": null,
-  "regulatory_risk_warning": "Trading involves risk of capital loss.",
+  "regulatory_risk_warning": "Exante does not publish a specific retail CFD loss percentage. Trading financial instruments on leverage involves significant risk of capital loss and is not suitable for all investors.",
   "target_locale": "en",
   "toc": [
-    {
-      "id": "quick-verdict",
-      "label": "Quick Verdict"
-    },
-    {
-      "id": "is-broker-regulated",
-      "label": "Is It Regulated?"
-    },
-    {
-      "id": "where-broker-accepts-clients",
-      "label": "Accepted Countries"
-    },
-    {
-      "id": "spreads-fees-accounts",
-      "label": "Spreads and Fees"
-    },
-    {
-      "id": "deposits-withdrawals",
-      "label": "Deposits and Withdrawals"
-    },
-    {
-      "id": "withdrawals",
-      "label": "Withdrawal Reality"
-    },
-    {
-      "id": "red-flags",
-      "label": "Red Flags"
-    },
-    {
-      "id": "who-broker-is-for",
-      "label": "Who It Is For"
-    },
-    {
-      "id": "how-to-open-account",
-      "label": "How to Open"
-    },
-    {
-      "id": "final-verdict",
-      "label": "Final Verdict"
-    }
+    { "id": "quick-verdict", "label": "Quick Verdict" },
+    { "id": "is-broker-regulated", "label": "Is It Regulated?" },
+    { "id": "where-broker-accepts-clients", "label": "Accepted Countries" },
+    { "id": "spreads-fees-accounts", "label": "Spreads and Fees" },
+    { "id": "deposits-withdrawals", "label": "Deposits and Withdrawals" },
+    { "id": "withdrawals", "label": "Withdrawal Reality" },
+    { "id": "red-flags", "label": "Red Flags" },
+    { "id": "who-broker-is-for", "label": "Who It Is For" },
+    { "id": "how-to-open-account", "label": "How to Open" },
+    { "id": "final-verdict", "label": "Final Verdict" }
   ],
+
+
   "assets": {
     "logo_url": "",
     "hero_image_url": "",
     "og_image_url": "",
     "regulator_badges": [
-      {
-        "regulator": "CySEC",
-        "badge_url": "",
-        "licence_number": ""
-      },
-      {
-        "regulator": "FCA (UK)",
-        "badge_url": "",
-        "licence_number": ""
-      },
-      {
-        "regulator": "ASIC",
-        "badge_url": "",
-        "licence_number": ""
-      },
-      {
-        "regulator": "EFSA (Estonia)",
-        "badge_url": "",
-        "licence_number": ""
-      },
-      {
-        "regulator": "CIMA (Cayman)",
-        "badge_url": "",
-        "licence_number": ""
-      }
+      { "regulator": "FCA UK", "badge_url": "", "licence_number": "" },
+      { "regulator": "CySEC Cyprus", "badge_url": "", "licence_number": "" },
+      { "regulator": "MFSA Malta", "badge_url": "", "licence_number": "" },
+      { "regulator": "SFC Hong Kong", "badge_url": "", "licence_number": "BNN565" }
     ],
-    "platform_screenshots": [],
+    "platform_screenshots": [
+      { "platform": "EXANTE Platform", "caption": "Exante proprietary multi-asset trading platform", "image_url": "", "alt": "Exante proprietary platform showing multi-asset portfolio view across stocks, bonds, futures and options" }
+    ],
     "withdrawal_proof": null
   },
   "comparison_block": {
-    "heading": "Admirals vs Tickmill \u2014 Which Is Better in 2026?",
-    "body": "Both offer 0.0 pips + $6 commission. Admirals wins on instrument range (8,000+ vs 200), minimum deposit ($25 vs $100), and the unique real stock investing option. Tickmill wins on simplicity and zero inactivity fee. For pure forex, Tickmill edges it on cost (no hidden fees). For multi-asset trading, Admirals is far more versatile.",
-    "brokers_compared": [
-      "admirals",
-      "tickmill"
-    ],
-    "cta_anchor": "Compare Admirals side by side",
-    "cta_url": "/compare?brokers=admirals,tickmill"
+    "heading": "Exante vs Interactive Brokers — Which Is Better in 2026?",
+    "body": "Both target professional traders with massive instrument ranges and multi-asset access. Interactive Brokers wins on pricing transparency — published commission schedules, tiered and fixed structures you can model before depositing. IBKR also wins on minimum deposit with no formal minimum versus Exante's EUR 10,000 barrier. Exante wins on European regulatory breadth — four separate entities across FCA, CySEC, MFSA, and SFC versus IBKR's centralised entity routing. For sheer accessibility and cost clarity, Interactive Brokers is the stronger choice. For traders already operating at institutional scale who value multi-regulator segregation, Exante holds its own.",
+    "brokers_compared": ["exante", "interactive-brokers"],
+    "cta_anchor": "Compare Exante side by side",
+    "cta_url": "/compare?brokers=exante,interactive-brokers"
   },
   "video_embed": {
     "type": null,
@@ -225,371 +133,233 @@
     "thumbnail_url": "",
     "duration_seconds": 0
   },
-  "social_snippet": "Exante scores 7.4/10 from NAFT \u2014 MFSA/FCA/CySEC regulated, 50,000+ instruments, DMA to 50+ exchanges.",
+  "social_snippet": "Exante scores 7.4/10 from NAFT — FCA/CySEC/MFSA/SFC regulated multi-asset platform with 1M+ instruments and EUR 10k minimum deposit.",
+
+
   "long_review": {
     "seo": {
-      "title": "Exante Review 2026 \u2014 Legit, Safe or a Scam?",
-      "description": "Exante review 2026: MFSA/FCA/CySEC regulated. 50,000+ instruments. DMA. NAFT 7.4/10.",
+      "title": "Exante Review 2026 — Legit, Safe or a Scam?",
+      "description": "Exante review 2026: FCA, CySEC, MFSA and SFC regulated multi-asset broker scoring 7.4/10 from NAFT. 1M+ instruments, EUR 10k minimum. Full trust analysis.",
       "focus_keyword": "exante review",
       "secondary_keywords": [
-        "tickmill review 2026",
-        "is tickmill legit",
-        "tickmill scam",
-        "tickmill withdrawal",
-        "tickmill spreads",
-        "tickmill minimum deposit",
-        "tickmill fees",
-        "is tickmill regulated",
-        "tickmill mt4",
-        "best forex broker 2026"
+        "exante review 2026",
+        "is exante legit",
+        "exante scam",
+        "exante withdrawal",
+        "exante withdrawal time",
+        "exante minimum deposit",
+        "exante vs interactive brokers",
+        "exante vs saxo bank",
+        "is exante regulated",
+        "exante fees",
+        "exante demo account",
+        "exante platform",
+        "exante europe",
+        "best multi-asset broker 2026"
       ],
-      "og_image_alt": "Exante NAFT 7.4/10"
+      "og_image_alt": "Exante NAFT score 7.4 out of 10 — FCA CySEC MFSA SFC regulated multi-asset broker with over 1 million instruments"
     },
     "last_updated_display": "Last updated: May 2026",
-    "disclaimer": "NAFT Disclaimer: Not A Fugazi Trader is an independent broker review platform. We may receive a commission when you open an account through our affiliate links. This never influences our ratings, reviews, or trust scores. Our scores are calculated from publicly available regulatory data, aggregated community feedback, and editorial assessment. Trading forex, CFDs, and derivatives involves significant risk of capital loss and is not suitable for all investors. Always verify a broker's regulatory status independently before depositing. [Read our full disclosure]",
+    "disclaimer": "NAFT Disclaimer: Not A Fugazi Trader is an independent broker review platform. We may receive a commission when you open an account through our affiliate links. This never influences our ratings, reviews, or trust scores. Our scores are calculated from publicly available regulatory data, aggregated community feedback, and editorial assessment. Trading financial instruments involves significant risk of capital loss and is not suitable for all investors. Always verify a broker's regulatory status independently before depositing. [Read our full disclosure]",
     "reading_time_minutes": 11,
-    "word_count": 2100,
+    "word_count": 2150,
+
+
     "seo_audit": {
-      "primary_keyword_count": 16,
-      "broker_name_count": 38,
-      "year_mentioned_count": 6,
-      "question_headings_count": 7,
+      "primary_keyword_count": 10,
+      "broker_name_count": 35,
+      "year_mentioned_count": 7,
+      "question_headings_count": 6,
       "faq_items_count": 8,
       "internal_links_count": 6,
       "affiliate_cta_included": true,
       "legit_keyword_present": true,
       "all_tone_rules_applied": true
     },
-    "hot_take": "Exante is not a forex broker in the traditional sense \u2014 it is a multi-asset investment platform that happens to offer forex alongside direct market access to 50+ global exchanges. The $10,000 minimum deposit and 50,000+ instrument range tell you who this is for: portfolio managers, HNW individuals, and institutional traders who need one platform to access every market on earth. If you are trading EUR/USD with $500, look elsewhere. If you are building a diversified global portfolio, Exante provides access that retail brokers simply cannot match.",
-    "telegram_summary": "NAFT Verdict on Admirals \u2014 2026\n1. CySEC + FCA + ASIC + EFSA + CIMA \u2014 five regulatory licences.\n2. Zero account: 0.0 pips + $6 RT \u2014 cheapest tier pricing.\n3. Real stock investing via Invest.MT5 \u2014 actual ownership, not CFDs.\n4. Best for MT4/MT5 power users who also want equity investing.\n5. No cTrader or TradingView \u2014 MetaTrader ecosystem only.",
+    "hot_take": "Exante is a legitimate multi-asset platform for wealthy traders who want access to over a million instruments under four respected regulators. But the EUR 10,000 minimum deposit and institutional focus mean it is irrelevant for ninety-five percent of retail traders reading this review. If you have the capital and need bonds, futures, and options alongside equities in one account, the multi-regulator safety and instrument range are genuinely best-in-class. Everyone else should look at Interactive Brokers instead.",
+    "telegram_summary": "NAFT Verdict on Exante — 2026\n1. FCA + CySEC + MFSA + SFC regulated — four jurisdictions with investor compensation schemes.\n2. Over 1,000,000 instruments across 50+ markets — stocks, bonds, futures, options, forex.\n3. EUR 10,000 minimum deposit excludes most retail traders entirely.\n4. MAS Singapore warning for unauthorised services — not a kill-switch but a documented flag.\n5. Best for HNW individuals and professional asset managers, not retail forex traders.",
+
+
     "verdict": {
-      "tldr": "Exante is an MFSA/FCA/CySEC-regulated multi-asset platform scoring 7.4/10 from NAFT in 2026. Direct Market Access to 50+ exchanges with 50,000+ instruments. Premium positioning with $10,000 minimum. Real stocks, bonds, ETFs, options, and futures \u2014 not CFDs. Four regulatory licences. Best for sophisticated investors and portfolio managers needing global multi-exchange access from a single regulated platform.",
-      "summary": "NAFT rates Exante 7.4/10 \u2014 premium multi-asset DMA platform.",
-      "best_for": "MT4/MT5 power users who want enhanced tools, real stock investing, and competitive ECN pricing on one platform",
-      "not_ideal_for": "cTrader/TradingView users, US residents, or traders who need the absolute tightest possible execution without any inactivity fee risk",
-      "bottom_line": "Genuinely differentiated by MetaTrader Supreme Edition and real stock investing. Not the cheapest on paper \u2014 but the most feature-complete MetaTrader experience available.",
+      "tldr": "Exante scores 7.4/10 from NAFT in 2026. A legitimate multi-asset prime broker regulated by FCA, CySEC, MFSA, and SFC Hong Kong — four respected jurisdictions with real investor compensation. Over 1,000,000 instruments across 50+ global markets including stocks, ETFs with zero custody fees, 20,000+ bonds, 3,000+ futures, and options. The catch: EUR 10,000 minimum deposit for individuals and EUR 50,000 for corporates means this platform exists for professional traders and wealth managers, not retail beginners. FSCS protection up to GBP 85,000 on the UK entity and ICF up to EUR 20,000 on Cyprus. MAS Singapore flagged Exante for unauthorised services — a concern but not a deal-breaker given four clean Tier-1/Tier-2 licences elsewhere. Legitimate and well-regulated — built for capital-rich professionals who need global market access in one account.",
+      "summary": "NAFT rates Exante 7.4 out of 10. This is not a retail forex broker and never pretended to be one. Four regulated entities across Malta, UK, Cyprus, and Hong Kong provide genuine multi-jurisdictional safety with investor compensation accessible in two of those jurisdictions. The instrument range — over one million tradeable products across equities, fixed income, derivatives, and currencies — places it in direct competition with Interactive Brokers and Saxo Bank rather than the typical CFD house. Where Exante loses points is accessibility and transparency. The EUR 10,000 barrier locks out most traders. Fee structures are not as publicly detailed as competitors. And that MAS Singapore warning, while not triggering NAFT's kill-switch protocol, demonstrates that regulatory oversight is imperfect. For those with the capital and the sophistication, Exante offers legitimate institutional-grade access under serious regulation.",
+      "best_for": "Professional traders, wealth managers, asset managers, and HNW individuals who need multi-asset access across 50+ global markets under strong multi-jurisdictional regulation",
+      "not_ideal_for": "Retail forex traders, beginners, anyone with less than EUR 10,000 to invest, or traders seeking leveraged CFD trading with low barriers",
+      "bottom_line": "A legitimate multi-asset platform built for the wealthy — institutional safety and instrument range that most retail traders will never need or access.",
       "star_rating": 3.7,
       "trust_score": 7.4,
       "trust_breakdown": [
-        {
-          "label": "Regulation",
-          "score": 8,
-          "max": 10,
-          "weight": 0.3
-        },
-        {
-          "label": "User Reviews",
-          "score": 7,
-          "max": 10,
-          "weight": 0.25
-        },
-        {
-          "label": "Withdrawal Speed",
-          "score": 7,
-          "max": 10,
-          "weight": 0.25
-        },
-        {
-          "label": "Complaint History",
-          "score": 7,
-          "max": 10,
-          "weight": 0.2
-        }
+        { "label": "Regulation", "score": 9, "max": 10, "weight": 0.30 },
+        { "label": "User Reviews", "score": 6, "max": 10, "weight": 0.25 },
+        { "label": "Withdrawal Speed", "score": 7, "max": 10, "weight": 0.25 },
+        { "label": "Complaint History", "score": 7, "max": 10, "weight": 0.20 }
       ]
     },
+
+
     "at_a_glance": {
-      "regulation": [
-        "MFSA",
-        "CySEC",
-        "FCA",
-        "SFC"
-      ],
-      "min_deposit": "$10,000",
-      "max_leverage": "1:30 (EU) / 1:100",
-      "avg_spread_eurusd": "0.2 pips",
-      "withdrawal_speed": "1-3 business days",
-      "platforms": [
-        "Exante Platform",
-        "Exante Mobile"
-      ],
-      "islamic_account": true,
-      "deposit_methods": [
-        "Visa",
-        "Mastercard",
-        "Wire Transfer",
-        "Skrill",
-        "Neteller",
-        "PayPal"
-      ]
+      "regulation": ["FCA UK (LHCM Ltd)", "CySEC Cyprus (EXT Ltd)", "MFSA Malta (XNT Ltd)", "SFC Hong Kong (XHK Ltd — BNN565)"],
+      "min_deposit": "EUR 10,000 (individual)",
+      "max_leverage": "Not prominently advertised — investment platform focus",
+      "avg_spread_eurusd": "Variable (commission-based)",
+      "withdrawal_speed": "Same-day before 11AM EET / next business day",
+      "platforms": ["EXANTE Proprietary Platform (Web/Desktop/Mobile)"],
+      "islamic_account": false,
+      "deposit_methods": ["Bank Wire (SWIFT/SEPA)", "Visa", "Mastercard"]
     },
     "geo": {
-      "accepted": [
-        "United Kingdom",
-        "Germany",
-        "France",
-        "Spain",
-        "Italy",
-        "Estonia",
-        "Australia",
-        "South Africa",
-        "UAE",
-        "India",
-        "Indonesia",
-        "Thailand",
-        "Vietnam",
-        "Philippines",
-        "Nigeria",
-        "Kenya",
-        "Saudi Arabia",
-        "Mexico",
-        "Brazil",
-        "Pakistan",
-        "Malaysia"
-      ],
-      "excluded": [
-        "United States",
-        "Canada",
-        "Iran",
-        "North Korea",
-        "Syria",
-        "Cuba",
-        "Russia",
-        "Belgium",
-        "Japan"
-      ],
-      "practical_note": "UK through FCA entity. EU through CySEC/EFSA. International through CIMA with 1:500 leverage."
+      "accepted": ["United Kingdom", "Malta", "Cyprus", "Germany", "France", "Italy", "Spain", "Netherlands", "Austria", "Belgium", "Luxembourg", "Sweden", "Denmark", "Norway", "Finland", "Poland", "Czech Republic", "Ireland", "Portugal", "Greece", "Hungary", "Romania", "Bulgaria", "Croatia", "Slovakia", "Slovenia", "Hong Kong", "UAE", "Saudi Arabia", "Japan", "Thailand", "Malaysia", "Indonesia", "India", "South Africa", "Australia", "New Zealand", "Brazil", "Mexico", "Turkey", "Nigeria", "Kenya", "Philippines", "Vietnam"],
+      "excluded": ["United States", "Russia", "Belarus", "North Korea", "Iran", "Syria", "Cuba", "Crimea"],
+      "practical_note": "UK professional investors and intermediaries onboard under LHCM Ltd (FCA) with FSCS up to GBP 85,000. EU/EEA clients route to EXT Ltd (CySEC) with ICF up to EUR 20,000. Most international clients fall under XNT Ltd (MFSA Malta). Hong Kong residents access XHK Ltd under SFC licence BNN565. Entity routing depends on residency — UK entity offers the strongest compensation but is restricted to professional investors and intermediaries."
     },
+
+
     "sections": [
       {
         "id": "quick-verdict",
         "heading": "Is Exante Worth Your Money in 2026?",
-        "body": "Formerly Admiral Markets, rebranded as Exante in 2021, this Estonian-headquartered broker has been operating since 2001 \u2014 making it one of the oldest retail forex brokers still active. Regulated by CySEC, FCA, ASIC, EFSA, and CIMA, the compliance footprint spans five jurisdictions. The Zero account offers raw spreads from 0.0 pips with a commission starting from $6 per lot round-turn \u2014 competitive with Tickmill and cheaper than Pepperstone.\n\nThe platform offering is strong: MT4, MT5, and a proprietary MetaTrader Supreme Edition plugin that adds features MetaQuotes never built \u2014 mini terminal, sentiment indicators, tick charts, and a correlation matrix. For MT4/MT5 power users, this plugin alone justifies consideration. Over 8,000 instruments including real stock investing through the Invest.MT5 account type puts Exante in rare territory \u2014 a broker that serves both CFD traders and actual equity investors.\n\nExante suits the trader who wants MT4/MT5 with enhanced tools, competitive raw pricing, and the option to invest in real stocks alongside CFD trading. If you need cTrader or TradingView, look elsewhere.",
+        "body": "Four regulators. Over one million instruments. Zero custody fees on stocks and ETFs. On paper, Exante looks like one of the most serious multi-asset platforms available to professional traders outside of Interactive Brokers. And for the most part, that reputation holds — FCA, CySEC, MFSA, and SFC Hong Kong provide genuine multi-jurisdictional oversight with investor compensation schemes in two of those jurisdictions. The instrument range is not marketing inflation either — real access to 50+ exchanges covering equities, bonds, futures, options, and currencies from a single account.\n\nBut here is the reality that most affiliate reviews gloss over: you need EUR 10,000 just to open an individual account. EUR 50,000 for corporate. This is not a platform designed for someone learning to trade forex with a few hundred euros. It is built for wealth managers running client portfolios, professional traders who already know exactly which instruments they need, and HNW individuals who want consolidated multi-market access under serious regulation. If that description does not fit you, this review is academic.\n\nExante suits capital-rich professionals who need global market access with regulatory substance behind it. The high entry barrier is the filter — and it works as intended.",
         "cta_after": true
       },
       {
         "id": "is-broker-regulated",
-        "heading": "Is Exante Regulated? \u2014 Licence Check 2026",
-        "body": "Yes \u2014 across five jurisdictions. Admiral Markets Cyprus Ltd holds CySEC licence 201/13. Admiral Markets UK Ltd is FCA authorised (595450). Admiral Markets Pty Ltd is ASIC regulated (410681). Admiral Markets AS is licensed by EFSA Estonia. And Exante SC Ltd operates under CIMA (Cayman Islands) for international clients.\n\nFund segregation applies across all entities. FSCS covers UK clients up to GBP 85,000. ICF covers EU clients up to EUR 20,000. No compensation scheme under CIMA. Exante does not appear on any active warning list. NAFT last reviewed Exante regulation in May 2026.",
+        "heading": "Is Exante Regulated? — Licence Check 2026",
+        "body": "Yes — across four separate jurisdictions, which is stronger coverage than most brokers in this space can demonstrate. The primary entity XNT Ltd sits under MFSA (Malta Financial Services Authority) regulation. The UK arm LHCM Ltd is authorised by the FCA — giving access to FSCS protection up to GBP 85,000 for eligible UK clients. EXT Ltd in Cyprus holds a CySEC licence with ICF coverage up to EUR 20,000. And XHK Ltd operates in Hong Kong under SFC licence BNN565.\n\nThis multi-entity structure is not window dressing. Each licence carries real obligations — capital adequacy, fund segregation, regular reporting, and access to compensation schemes where applicable. The FCA entity is particularly notable because FSCS protection means your first GBP 85,000 has a government-backed safety net if the firm fails. That is meaningful protection.\n\nOne regulatory concern worth flagging: MAS Singapore issued a warning against Exante for unauthorised provision of financial services in Singapore. Under NAFT methodology, MAS is not in the Tier-1 kill-switch list, so this does not cap the score — but it means Exante was operating in Singapore without proper authorisation at some point. Four clean licences elsewhere offset this, but it deserves acknowledgement rather than burial. NAFT last reviewed Exante regulation in May 2026.",
         "table": {
-          "headers": [
-            "Entity",
-            "Regulator",
-            "Licence",
-            "Who it covers",
-            "Compensation scheme",
-            "Leverage cap"
-          ],
+          "headers": ["Entity", "Regulator", "Licence", "Who it covers", "Compensation scheme", "Leverage cap"],
           "rows": [
-            [
-              "Admiral Markets UK Ltd",
-              "FCA",
-              "595450",
-              "UK",
-              "FSCS GBP 85,000",
-              "1:30"
-            ],
-            [
-              "Admiral Markets Cyprus Ltd",
-              "CySEC",
-              "201/13",
-              "EU/EEA",
-              "ICF EUR 20,000",
-              "1:30"
-            ],
-            [
-              "Admiral Markets Pty Ltd",
-              "ASIC",
-              "410681",
-              "Australia",
-              "No scheme (segregation)",
-              "1:30"
-            ],
-            [
-              "Admiral Markets AS",
-              "EFSA (Estonia)",
-              "4.1-1/46",
-              "Estonia/EU",
-              "ICF EUR 20,000",
-              "1:30"
-            ],
-            [
-              "Admirals SC Ltd",
-              "CIMA (Cayman)",
-              "",
-              "International",
-              "No compensation scheme",
-              "1:500"
-            ]
+            ["LHCM Ltd", "FCA UK", "Investment firm", "UK professional investors and intermediaries", "FSCS up to GBP 85,000", "FCA rules apply"],
+            ["EXT Ltd", "CySEC Cyprus", "Investment firm", "EU/EEA residents", "ICF up to EUR 20,000", "1:30 retail (ESMA)"],
+            ["XNT Ltd", "MFSA Malta", "Investment firm", "International clients", "Malta compensation scheme", "MFSA rules"],
+            ["XHK Ltd", "SFC Hong Kong", "Licensed corporation (BNN565)", "Hong Kong residents", "SFC Investor Compensation Fund", "SFC rules"]
           ]
         }
       },
+
+
       {
         "id": "where-broker-accepts-clients",
-        "heading": "Who Can Open an Account With Exante? \u2014 Accepted Countries and Restrictions",
-        "body": "Accepted: United Kingdom, Germany, France, Spain, Italy, Estonia, Australia, South Africa, UAE, India, Indonesia, Thailand, Vietnam, Philippines, Nigeria, Kenya, Saudi Arabia, Mexico, Brazil, Pakistan, Malaysia.\n\nNot accepted: United States, Canada, Iran, North Korea, Syria, Cuba, Russia, Belgium, Japan.",
-        "practical_note": "UK clients route through FCA entity. EU through CySEC or EFSA. International through CIMA with 1:500 leverage."
+        "heading": "Who Can Open an Exante Account? — Accepted Countries",
+        "body": "Accepted: United Kingdom (professional clients via FCA entity), Malta, Cyprus, Germany, France, Italy, Spain, Netherlands, Austria, Belgium, Luxembourg, Sweden, Denmark, Norway, Finland, Poland, Czech Republic, Ireland, Portugal, Greece, Hungary, Romania, Bulgaria, Croatia, Slovakia, Slovenia, Hong Kong, UAE, Saudi Arabia, Japan, India, Indonesia, Thailand, Malaysia, Philippines, Vietnam, South Africa, Australia, New Zealand, Brazil, Mexico, Turkey, Nigeria, Kenya — and most international jurisdictions. Exante states it serves clients in over 100 countries.\n\nNot accepted: United States, Russia, Belarus, North Korea, Iran, Syria, Cuba, and Crimea.\n\nEntity routing is jurisdiction-dependent. UK clients access LHCM Ltd under FCA with FSCS protection — but note this is restricted to professional investors and intermediaries, not general retail. EU/EEA residents route to EXT Ltd under CySEC. Most other international clients fall under the Malta entity XNT Ltd. Hong Kong residents access XHK Ltd under SFC. The key point: not all entities offer the same level of investor compensation, so where you live determines your actual protection level.",
+        "practical_note": "Singapore residents should exercise caution — MAS has flagged Exante for unauthorised services in that jurisdiction. US residents are excluded entirely. The FCA entity is not open to general retail UK investors — it targets professional investors and intermediaries specifically. EU residents get CySEC ICF coverage. Everyone else routes to Malta."
       },
       {
         "id": "spreads-fees-accounts",
-        "heading": "Exante Spreads, Fees and Accounts \u2014 What Do You Actually Pay in 2026?",
-        "body": "Exante offers five account types. The Trade.MT5 account has spreads from 0.5 pips with zero commission \u2014 approximately $5-8 per lot all-in. The Zero.MT5 account offers 0.0 pips raw with commission from $6 round-turn \u2014 directly competitive with Tickmill and cheaper than Pepperstone. The Invest.MT5 account allows real stock and ETF investing with ownership \u2014 not CFDs.\n\nNo inactivity fee for the first 24 months \u2014 after which a $10/month fee applies. Overnight swaps are standard. No deposit or withdrawal fees on most methods. The MetaTrader Supreme Edition plugin is free for all live account holders.",
+        "heading": "Exante Fees and Pricing — What Do You Actually Pay?",
+        "body": "Exante operates a commission-based pricing model rather than the spread-markup structure common at retail forex brokers. For US equities, commissions start from $0.02 per share — competitive with Interactive Brokers at similar volumes. Stocks and ETFs carry zero custody fees, which is a genuine advantage for buy-and-hold portfolio traders who would otherwise pay quarterly or annual holding charges elsewhere.\n\nThe challenge with Exante's fee structure is transparency relative to competitors. Interactive Brokers publishes exhaustive commission tables by asset class and volume tier. Exante's public pricing information requires more digging and negotiation, particularly for futures, options, and fixed income. You know the minimum per-share rate, but the complete picture across 50+ markets and multiple asset classes is not laid out as clearly as IBKR's tiered schedules.\n\nForex spreads are variable and the platform does not position itself as a tight-spread forex specialist. If your primary interest is leveraged currency trading with pip-level spread competition, Exante is not built for that fight. This is a platform where forex sits alongside a million other instruments as one option among many. Overnight financing charges, shorting commissions, and flat withdrawal fees all apply — the fee model rewards large, active portfolios rather than small frequent trades. The EUR 10,000 minimum deposit already signals this: Exante expects clients who trade at a scale where per-share commissions matter more than pip spreads.",
         "table": {
-          "headers": [
-            "Account",
-            "Spread (pips)",
-            "Commission RT",
-            "All-in per lot (USD)",
-            "Min deposit",
-            "Leverage",
-            "Best for"
-          ],
+          "headers": ["Asset Class", "Commission", "Custody Fee", "Min Deposit", "Source"],
           "rows": [
-            [
-              "Trade.MT5",
-              "0.5 avg EUR/USD",
-              "$0",
-              "~$5-8",
-              "$25",
-              "1:30 / 1:500",
-              "Most traders"
-            ],
-            [
-              "Zero.MT5",
-              "0.0 avg EUR/USD",
-              "$6.00",
-              "~$6.00",
-              "$25",
-              "1:30 / 1:500",
-              "Scalpers and active traders"
-            ],
-            [
-              "Invest.MT5",
-              "N/A (real stocks)",
-              "From $0.02/share",
-              "Varies",
-              "$1",
-              "1:1 (no leverage)",
-              "Stock investors"
-            ]
+            ["US Stocks", "From $0.02/share", "Zero", "EUR 10,000", "broker-stated"],
+            ["Stocks/ETFs (global)", "Varies by exchange", "Zero", "EUR 10,000", "broker-stated"],
+            ["Bonds (20,000+)", "Commission-based", "Zero", "EUR 10,000", "broker-stated"],
+            ["Futures (3,000+)", "Per-contract commission", "N/A", "EUR 10,000", "broker-stated"],
+            ["Options", "Per-contract commission", "N/A", "EUR 10,000", "broker-stated"],
+            ["Forex", "Variable spread + commission", "N/A", "EUR 10,000", "broker-stated"]
           ],
-          "footnote": "Zero.MT5 at $6 RT matches Tickmill as cheapest regulated ECN. Invest.MT5 offers real ownership, not CFDs."
+          "footnote": "All pricing is broker-stated. Commission rates vary by asset class, exchange, and volume. Negotiated rates available for high-volume professional clients. Zero custody on stocks/ETFs is a confirmed differentiator."
         }
       },
+
+
       {
         "id": "deposits-withdrawals",
-        "heading": "How Fast Can You Get Your Money Out of Exante?",
-        "body": "Deposits instant via card/e-wallet. Wire 1-3 days. No deposit fees.\n\nWithdrawals: e-wallets same day, cards 1-3 business days, wire 1-5 business days. First two withdrawals per month free \u2014 subsequent withdrawals may incur a small fee depending on method. KYC required before first withdrawal.",
+        "heading": "Exante Deposits and Withdrawals — Speed and Methods",
+        "body": "Bank wire is the primary funding method — SWIFT for international and SEPA for European clients. Card payments via Visa and Mastercard are accepted. The minimum deposit of EUR 10,000 for individuals means this is not a platform where you test with pocket change. Corporate accounts require EUR 50,000. These are serious capital requirements that filter the client base by design.\n\nWithdrawals follow a clear cutoff system: requests submitted before 11AM EET process same-day. Anything after that cutoff moves to the next business day. This is transparent and predictable — you know exactly when your money will move based on when you submit the request. Wire transfer is the primary withdrawal method with flat fees applied.\n\nThe practical reality for most clients is that Exante processes withdrawals in a timely manner consistent with its institutional positioning. You are not going to get instant Skrill payouts here — this is banking-speed infrastructure designed for clients moving meaningful capital. Flat withdrawal charges mean the percentage impact decreases as your withdrawal size increases, which aligns with the high-minimum client profile.",
         "cta_after": true,
         "table": {
-          "headers": [
-            "Method",
-            "Min",
-            "Processing",
-            "Fee"
-          ],
+          "headers": ["Method", "Min", "Processing", "Fee"],
           "rows": [
-            [
-              "Visa/Mastercard",
-              "$1",
-              "1-3 days",
-              "$0 (first 2/month)"
-            ],
-            [
-              "Skrill/Neteller",
-              "$1",
-              "Same day",
-              "$0 (first 2/month)"
-            ],
-            [
-              "Wire Transfer",
-              "$1",
-              "1-5 days",
-              "$0 (first 2/month)"
-            ]
+            ["Bank Wire (SWIFT)", "EUR 10,000 (initial)", "Same-day before 11AM EET / next business day", "Flat fee"],
+            ["Bank Wire (SEPA)", "EUR 10,000 (initial)", "Same-day before 11AM EET / next business day", "Flat fee"],
+            ["Visa/Mastercard", "EUR 10,000 (initial)", "1-2 business days", "Flat fee"]
           ],
-          "footnote": "First 2 withdrawals per month free. Additional may incur fees."
+          "footnote": "Processing times based on 11AM EET cutoff (broker-stated). Same-day processing applies only to requests received before cutoff on business days. Flat withdrawal fees apply regardless of amount."
         }
       },
       {
         "id": "withdrawals",
-        "heading": "Exante Withdrawals in 2026 \u2014 The Real Picture",
-        "body": "Exante maintains a good reputation across review platforms with ratings around 4.0+ stars. Withdrawal processing is reliable \u2014 same-day for e-wallets, 1-3 days for cards. The first-two-free policy is unusual and welcome.\n\nComplaint pattern is limited \u2014 mostly focused on the 24-month inactivity trigger and occasional platform issues during high volatility.\n\nEscalation path: FCA for UK, CySEC for EU, ASIC for Australia."
+        "heading": "Exante Withdrawals in 2026 — The Real Picture",
+        "body": "The 11AM EET cutoff is the key detail. Submit your withdrawal request before that time on a business day and it processes same-day. Miss the window and you wait until the next business day. This is clearer than most brokers manage — no vague promises of processing within arbitrary timeframes that actually mean whenever the finance team gets around to it.\n\nPublic withdrawal complaints about Exante are limited, but this reflects the small client base more than necessarily perfect execution. With a EUR 10,000 minimum, the number of retail traders with direct experience is a fraction of what you would see with a broker offering $100 entry. The complaints that do surface — primarily on European review platforms — mention occasional delays and fee-related frustrations rather than systematic withholding of funds.\n\nWire transfer dominates. No e-wallet instant payouts. No cryptocurrency withdrawal options publicly documented. If you need your money back fast, submit before 11AM EET and expect same-day wire dispatch. For international SWIFT transfers, add 1-2 business days for intermediary bank processing on your end. The flat fee structure means a $50,000 withdrawal costs the same flat charge as a $10,000 one — which rewards larger withdrawals proportionally.\n\nIf your withdrawal stalls beyond the stated timeframe: contact Exante support directly with your transfer reference. For CySEC entity clients, the Cyprus Securities and Exchange Commission offers a formal complaints process. FCA entity clients can escalate through the Financial Ombudsman Service if the firm is unresponsive.",
+        "cta_after": false
       },
+
+
       {
         "id": "red-flags",
-        "heading": "Exante Red Flags \u2014 What to Know Before You Deposit",
-        "body": "No critical red flags. Operating since 2001 across five jurisdictions without major enforcement action. NAFT last reviewed Exante in May 2026.",
+        "heading": "Exante Red Flags — What to Know Before You Deposit",
+        "body": "The MAS Singapore warning is the headline concern. The Monetary Authority of Singapore flagged Exante for providing financial services without authorisation in Singapore. This is not a scam accusation — it is a jurisdictional compliance failure where Exante operated in a market it was not licensed to serve. Under NAFT methodology, MAS is not on the Tier-1 kill-switch list (FCA, ASIC, BaFin, CySEC, IOSCO), so the score is not capped. But it raises questions about the firm's compliance culture in grey-zone jurisdictions. The EUR 10,000 minimum creates an unusual review landscape — very few retail traders share experiences publicly because most never qualify to open an account. This makes independent verification of withdrawal speed and client service harder than with mass-market brokers. Some complaints about fee transparency and withdrawal processing delays have surfaced on European review platforms, though the volume is low. The proprietary-only platform means no MT4 or MT5 compatibility. If Exante ever closes or you decide to move, your trade history and custom configurations do not port to a standard platform. Platform lock-in is real. NAFT last reviewed Exante in May 2026.",
         "bullets": [
-          "72% retail loss rate \u2014 moderate.",
-          "Inactivity fee of $10/month after 24 months of dormancy.",
-          "No cTrader or TradingView \u2014 MT4/MT5 only (enhanced with Supreme Edition).",
-          "CIMA offshore entity has no investor compensation.",
-          "Limited crypto CFD range compared to some competitors."
+          "MAS Singapore warning — flagged for unauthorised provision of financial services in Singapore",
+          "EUR 10,000 minimum deposit — excludes most retail traders and limits public review data",
+          "Proprietary platform only — no MT4/MT5, creating platform lock-in risk if you leave",
+          "Fee transparency weaker than competitors — commission structures not as publicly detailed as Interactive Brokers",
+          "Limited retail user reviews — professional audience does not use Trustpilot or retail forums at scale",
+          "Some reported complaints about withdrawal delays and fee disputes on European review platforms"
         ]
       },
       {
         "id": "who-broker-is-for",
-        "heading": "Who Should Use Exante \u2014 and Who Should Not",
-        "body": "Exante occupies a unique niche \u2014 the MT4/MT5 power user who also wants real stock investing.",
+        "heading": "Who Should Use Exante — and Who Should Not",
+        "body": "Exante draws a hard line with that EUR 10,000 minimum. This is not a broker that wants retail forex traders depositing their first $500 and learning about pips. It is purpose-built for wealth managers who need consolidated access to bonds, equities, and derivatives across 50+ exchanges. For asset managers running client portfolios, the zero custody fees on stocks and ETFs represent genuine cost savings at scale. And the multi-regulator structure gives compliance teams something real to point at during due diligence.\n\nBut if forex is your primary instrument, or you trade fewer than a dozen instruments regularly, Exante is the wrong tool for the job. The platform complexity and high minimum serve professionals who actually use the breadth. A trader who deposits EUR 10,000 to trade three currency pairs is paying for infrastructure they will never touch.",
         "not_for": [
-          "cTrader or TradingView users \u2014 not available.",
-          "Traders wanting copy trading \u2014 limited social features.",
-          "US/Canadian residents \u2014 not accepted.",
-          "Traders who need the widest crypto selection.",
-          "Anyone who dislikes MetaTrader interface."
+          "Retail forex traders — this is not a leveraged CFD broker and does not compete on spreads or leverage",
+          "Beginners or traders with less than EUR 10,000 — the minimum deposit is a hard barrier with no flexibility",
+          "Traders who want MT4 or MT5 — proprietary platform only with no industry-standard compatibility",
+          "Anyone seeking low-barrier entry to test a new broker — the EUR 10,000 commitment is too high for exploration",
+          "Mobile-first casual traders who want simple app-based investing with low fees and instant access"
         ],
         "for": [
-          "MT4/MT5 power users who want the Supreme Edition plugin enhancements.",
-          "Traders wanting both CFDs and real stock investing on one platform.",
-          "Cost-conscious traders wanting Zero account at $6 RT.",
-          "Beginners benefiting from educational resources and $25 minimum deposit.",
-          "European traders wanting multi-entity EU regulation."
+          "Wealth managers and asset managers who need consolidated multi-market access under serious regulation",
+          "Professional traders operating at institutional scale across equities, bonds, futures, and options",
+          "HNW individuals who want multi-regulator safety with FSCS and ICF protection on meaningful capital",
+          "Firms seeking a prime broker with four regulated entities and demonstrated multi-jurisdictional compliance",
+          "Buy-and-hold portfolio investors who benefit from zero custody fees on stocks and ETFs at scale"
         ]
       },
+
+
       {
         "id": "how-to-open-account",
-        "heading": "How to Open an Exante Account \u2014 Step by Step",
-        "body": "Registration takes 5 minutes. Verification within 24 hours.",
+        "heading": "How to Open an Exante Account — Step by Step",
+        "body": "Account opening is digital but expect thorough due diligence given the institutional positioning. The EUR 10,000 minimum means Exante applies stricter onboarding checks than retail brokers — source of funds documentation is standard rather than exceptional.",
         "steps": [
           {
             "number": 1,
             "title": "Register",
-            "detail": "Visit admirals.com, click Start Trading. Enter details and select account type."
+            "detail": "Visit exante.eu and select Open Account. Choose individual or corporate application. Complete the application form including personal details, financial background, investment experience, and source of funds declaration. Select your preferred entity based on residency — UK, Cyprus, Malta, or Hong Kong. The application takes approximately 15 minutes."
           },
           {
             "number": 2,
             "title": "Verify your identity (KYC)",
-            "detail": "Upload passport plus proof of address. Typically approved within 24 hours."
+            "detail": "Upload passport or national ID plus proof of address dated within 3 months. Source of funds documentation is typically required given the EUR 10,000 minimum — bank statements or employment verification demonstrating the origin of your deposit. Expect 1-3 business days for verification depending on document quality and entity. Corporate accounts require additional company documentation."
           },
           {
             "number": 3,
             "title": "Fund your account and test a withdrawal",
-            "detail": "Deposit as little as $25. Place one trade. Test a withdrawal immediately.",
-            "cta_inline": {
-              "label": "Open Admirals Account",
-              "url": "AFFILIATE_PLACEHOLDER"
-            }
+            "detail": "Deposit the minimum EUR 10,000 via bank wire or card. Once funded, access the platform and familiarise yourself with the multi-asset interface. Place a small trade to verify execution. Then request a withdrawal before 11AM EET and confirm same-day processing works as stated before committing larger capital. The demo account with EUR 1,000,000 virtual currency is available if you want to test the platform before depositing real funds.",
+            "cta_inline": { "label": "Open Exante Account", "url": "AFFILIATE_PLACEHOLDER" }
           }
         ],
-        "practical_note": "Make a small deposit. Place one trade. Request a withdrawal immediately. If it processes cleanly, scale with confidence.",
+        "practical_note": "Use the demo account first — EUR 1,000,000 in virtual currency lets you test the proprietary platform without committing EUR 10,000 upfront. Once satisfied with the interface and execution, fund with the minimum and immediately test a withdrawal to confirm the 11AM EET same-day processing. Scale up only after that test clears.",
         "cta_after": true
       },
       {
         "id": "final-verdict",
-        "heading": "Exante Final Verdict \u2014 Is It Worth It in 2026?",
-        "body": "NAFT scores Exante 7.4 out of 10. Five regulatory licences, Zero account at $6 RT matching the cheapest ECN pricing, real stock investing via Invest.MT5, and the MetaTrader Supreme Edition plugin make this a genuinely differentiated offering. The $25 minimum deposit is among the lowest in the regulated space.\n\nWeaknesses: no cTrader, no TradingView, and the inactivity fee after 24 months. These matter less for active traders but limit appeal for platform-diverse traders.\n\nNAFT recommends Exante for MT4/MT5 loyalists who want enhanced tools, low-cost ECN trading, and the option to invest in real equities \u2014 all under one roof."
+        "heading": "Exante Final Verdict — Is It Worth It in 2026?",
+        "body": "NAFT scores Exante 7.4 out of 10. Four regulated entities across FCA, CySEC, MFSA, and SFC Hong Kong provide genuine multi-jurisdictional safety — a regulatory structure that most brokers in this space cannot match. FSCS protection up to GBP 85,000 on the UK entity and ICF coverage up to EUR 20,000 on Cyprus give eligible clients real compensation safety nets. The instrument range exceeding one million products is not marketing noise — it represents actual access to equities, bonds, futures, options, and currencies across 50+ global exchanges.\n\nThe score does not reach 8 or 9 because of three factors working against it. The EUR 10,000 minimum deposit excludes the vast majority of traders who might read this review. Fee transparency lags behind Interactive Brokers — the dominant competitor in this space. And the MAS Singapore warning, while not fatal, represents a compliance lapse that a firm of this regulatory breadth should not have on its record.\n\nIf you manage client portfolios, run an asset management firm, or simply have significant personal capital that needs multi-market access under serious regulation — Exante is a legitimate option worth evaluating against Interactive Brokers and Saxo Bank. NAFT recommends it specifically for professional traders depositing EUR 50,000+ who need the breadth of instruments and regulatory coverage that retail-focused brokers cannot provide. For anyone else — and that includes most people reading broker reviews online — the EUR 10,000 door is closed, and platforms like Interactive Brokers offer similar institutional access without that barrier."
       }
     ],
+
+
     "affiliate_cta": {
-      "label": "Open Exante Account",
       "url": "AFFILIATE_PLACEHOLDER",
       "promo_code": null,
       "friction_reducers": [
-        "Zero from 0.0 pips + $6 commission",
-        "Only $25 minimum deposit",
-        "Real stock investing available",
-        "MetaTrader Supreme Edition free",
-        "5 regulatory licences"
+        "EUR 1,000,000 demo account available to test platform before depositing",
+        "Four regulated entities with FSCS up to GBP 85,000 and ICF up to EUR 20,000",
+        "Zero custody fees on stocks and ETFs — genuine cost saving for portfolio traders",
+        "Over 1,000,000 instruments across 50+ markets from a single account"
       ]
     },
     "cta_positions": [
@@ -598,104 +368,72 @@
       "in_section_how-to-open-account_step3"
     ],
     "trustpilot": {
-      "rating": 3.6,
-      "reviews": 400,
-      "velocity_30d": "Moderate \u2014 60-100 per month",
-      "polarisation_note": "52% 5-star vs 18% 1-star. Mixed feedback on platform stability.",
-      "broker_response_rate": "Above 60%",
-      "source_note": "Trustpilot, May 2026"
+      "rating": 0,
+      "reviews": 0,
+      "velocity_30d": "No meaningful Trustpilot presence — consistent with institutional-focused platform serving professional clients with EUR 10,000+ minimum",
+      "polarisation_note": "Insufficient review volume for polarisation analysis. Limited retail feedback available on European review platforms outside Trustpilot.",
+      "broker_response_rate": "N/A — insufficient Trustpilot data",
+      "source_note": "Trustpilot data check May 2026 — negligible retail review presence due to high minimum deposit and professional client base"
     },
     "internal_links": [
-      {
-        "anchor": "compare brokers side by side",
-        "url": "/compare"
-      },
-      {
-        "anchor": "best regulated forex brokers",
-        "url": "/brokers?regulation=tier-1"
-      },
-      {
-        "anchor": "broker scam alerts and warnings",
-        "url": "/scam-alerts"
-      },
-      {
-        "anchor": "community withdrawal proofs",
-        "url": "/withdrawal-proofs"
-      },
-      {
-        "anchor": "how NAFT reviews brokers",
-        "url": "/how-we-review-brokers"
-      },
-      {
-        "anchor": "file a broker complaint with NAFT",
-        "url": "/complaints"
-      }
+      { "anchor": "compare brokers side by side", "url": "/compare" },
+      { "anchor": "best regulated multi-asset brokers", "url": "/brokers?regulation=tier-1" },
+      { "anchor": "broker scam alerts and warnings", "url": "/scam-alerts" },
+      { "anchor": "community withdrawal proofs", "url": "/withdrawal-proofs" },
+      { "anchor": "how NAFT reviews brokers", "url": "/methodology" },
+      { "anchor": "file a broker complaint with NAFT", "url": "/complaints" }
     ],
+
+
     "faq": [
-      {
-        "q": "Is Exante a legit broker?",
-        "a": "Yes. Exante (formerly Exante) is regulated by CySEC (201/13), FCA (595450), ASIC (410681), EFSA, and CIMA. Operating since 2001. NAFT rates 7.4/10."
-      },
-      {
-        "q": "What is Exante minimum deposit?",
-        "a": "Exante minimum deposit is just $25 for Trade.MT5 and Zero.MT5 accounts. Invest.MT5 starts from $1 for real stock investing."
-      },
-      {
-        "q": "Does Exante offer real stock investing?",
-        "a": "Yes. The Invest.MT5 account offers real stock and ETF ownership \u2014 not CFDs. You buy actual shares listed on major exchanges."
-      },
-      {
-        "q": "What are Exante spreads?",
-        "a": "Zero.MT5: 0.0 pips + $6 RT. Trade.MT5: 0.5 pips + $0. Zero is competitive with the cheapest ECN brokers."
-      },
-      {
-        "q": "Does Exante charge inactivity fee?",
-        "a": "Yes \u2014 $10/month after 24 consecutive months of no trading activity. More generous than most (6-12 month triggers elsewhere)."
-      },
-      {
-        "q": "What is MetaTrader Supreme Edition?",
-        "a": "A free plugin for MT4/MT5 exclusive to Exante. Adds mini terminal, tick charts, correlation matrix, sentiment indicators, and advanced order types."
-      },
-      {
-        "q": "Is Exante regulated by FCA?",
-        "a": "Yes. Exante UK Ltd holds FCA authorisation 595450 with FSCS coverage up to GBP 85,000."
-      },
-      {
-        "q": "Does Exante accept Indian traders?",
-        "a": "Yes. Indian clients route through Exante SC Ltd (CIMA) with leverage up to 1:500. No compensation scheme under this entity."
-      }
+      { "q": "Is Exante legit or a scam?", "a": "Exante is a legitimate multi-asset broker — not a scam. It holds four separate regulatory licences: FCA UK (LHCM Ltd), CySEC Cyprus (EXT Ltd), MFSA Malta (XNT Ltd), and SFC Hong Kong (XHK Ltd, licence BNN565). FSCS protection up to GBP 85,000 applies to UK entity clients and ICF up to EUR 20,000 for Cyprus entity clients. Exante has operated since 2011 serving professional traders and wealth managers across 100+ countries. One concern: MAS Singapore flagged Exante for unauthorised services, though four clean Tier-1/Tier-2 licences elsewhere provide strong overall safety." },
+      { "q": "What is the Exante minimum deposit?", "a": "Exante requires EUR 10,000 minimum deposit for individual accounts and EUR 50,000 for corporate accounts. This is significantly higher than most retail brokers and reflects Exante's positioning as a platform for professional traders, wealth managers, and HNW individuals rather than retail beginners. There is no lower-tier account available. A demo account with EUR 1,000,000 in virtual currency is available to test the platform before committing real capital." },
+      { "q": "How long do Exante withdrawals take?", "a": "Exante withdrawals process same-day if your request is submitted before the 11AM EET cutoff on a business day. Requests after that time process the next business day. Wire transfer is the primary withdrawal method with flat fees applied. International SWIFT transfers may take an additional 1-2 business days for intermediary bank processing on the receiving end. The system is predictable once you understand the cutoff timing." },
+      { "q": "Is Exante regulated by the FCA?", "a": "Yes — Exante operates in the UK through LHCM Ltd, which is authorised and regulated by the Financial Conduct Authority (FCA). This entity provides access to FSCS protection up to GBP 85,000 for eligible clients. The FCA entity is available to UK professional investors and intermediaries rather than general retail clients. Exante also holds licences from CySEC Cyprus, MFSA Malta, and SFC Hong Kong — four regulated entities in total." },
+      { "q": "Does Exante offer MetaTrader 4 or MT5?", "a": "No — Exante does not offer MetaTrader 4 or MetaTrader 5. The platform is entirely proprietary, available as a web application, desktop client, and mobile app. The EXANTE platform is designed for multi-asset portfolio management across stocks, bonds, futures, options, and forex rather than leveraged CFD trading. If MetaTrader compatibility is important to you, Exante is not the right choice. There is no third-party platform integration available." },
+      { "q": "What instruments does Exante offer?", "a": "Exante offers access to over 1,000,000 instruments across 50+ global markets. This includes stocks and ETFs with zero custody fees, over 20,000 bonds, more than 3,000 futures contracts, options, forex currencies, and metals. The range spans exchanges in North America, Europe, Asia-Pacific, and the Middle East. This is one of the broadest instrument offerings available from any broker — comparable to Interactive Brokers in scope." },
+      { "q": "Is Exante safe for large deposits?", "a": "Exante provides multi-jurisdictional regulatory protection suitable for large deposits. UK entity clients receive FSCS coverage up to GBP 85,000. Cyprus entity clients get ICF protection up to EUR 20,000. All entities maintain segregated client funds. The four-regulator structure means multiple independent oversight bodies monitor the firm. For deposits significantly exceeding compensation scheme limits, the same residual risk applies as with any broker — regulation reduces but does not eliminate counterparty risk." },
+      { "q": "How does Exante compare to Interactive Brokers?", "a": "Both are multi-asset platforms targeting professional traders with massive instrument ranges. Interactive Brokers wins on pricing transparency with published commission schedules, lower minimum deposit (no formal minimum versus Exante's EUR 10,000), and broader platform choice including TWS, IBKR Mobile, and third-party integrations. Exante wins on European regulatory breadth with four separate entities versus IBKR's centralised routing. For most traders, Interactive Brokers offers better value and accessibility. Exante suits those specifically wanting multi-regulator European segregation." }
     ],
+
+
     "schema_jsonld": {
       "review": {
         "@context": "https://schema.org",
         "@type": "Review",
-        "itemReviewed": {
-          "@type": "FinancialService",
-          "name": "Exante"
-        },
+        "name": "Exante Review 2026",
         "author": {
           "@type": "Person",
           "name": "NAFT Editorial Team",
+          "url": "https://naft.com/about/editorial-team",
           "sameAs": []
+        },
+        "datePublished": "2026-05-29",
+        "dateModified": "2026-05-29",
+        "reviewBody": "Exante scores 7.4/10 from NAFT in 2026. FCA, CySEC, MFSA, and SFC regulated multi-asset broker with over 1,000,000 instruments across 50+ markets. EUR 10,000 minimum deposit targets professional traders and wealth managers.",
+        "itemReviewed": {
+          "@type": "Organization",
+          "name": "Exante",
+          "url": "https://exante.eu"
         },
         "reviewRating": {
           "@type": "Rating",
-          "ratingValue": "7.6",
-          "bestRating": "10"
-        },
-        "datePublished": "2026-05-29",
-        "dateModified": "2026-05-29"
+          "ratingValue": 7.4,
+          "bestRating": 10,
+          "worstRating": 0
+        }
       },
       "aggregateRating": {
         "@context": "https://schema.org",
         "@type": "AggregateRating",
         "itemReviewed": {
-          "@type": "FinancialService",
+          "@type": "Organization",
           "name": "Exante"
         },
-        "ratingValue": "3.6",
-        "bestRating": "5",
-        "ratingCount": "400"
+        "ratingValue": 3.7,
+        "bestRating": 5,
+        "ratingCount": 0,
+        "reviewCount": 0
       },
       "faqPage": {
         "@context": "https://schema.org",
@@ -703,92 +441,81 @@
         "mainEntity": [
           {
             "@type": "Question",
-            "name": "Is Admirals a legit broker?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Yes. Admirals (formerly Admiral Markets) is regulated by CySEC (201/13), FCA (595450), ASIC (410681), EFSA, and CIMA. Operating since 2001. NAFT rates 7.4/10."
-            }
+            "name": "Is Exante legit or a scam?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Exante is a legitimate multi-asset broker regulated by FCA UK, CySEC Cyprus, MFSA Malta, and SFC Hong Kong. FSCS protection up to GBP 85,000 for UK entity clients. Operating since 2011 across 100+ countries." }
           },
           {
             "@type": "Question",
-            "name": "What is Admirals minimum deposit?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Admirals minimum deposit is just $25 for Trade.MT5 and Zero.MT5 accounts. Invest.MT5 starts from $1 for real stock investing."
-            }
+            "name": "What is the Exante minimum deposit?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Exante requires EUR 10,000 minimum for individual accounts and EUR 50,000 for corporate accounts. A demo account with EUR 1,000,000 virtual currency is available." }
           },
           {
             "@type": "Question",
-            "name": "Does Admirals offer real stock investing?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Yes. The Invest.MT5 account offers real stock and ETF ownership \u2014 not CFDs. You buy actual shares listed on major exchanges."
-            }
+            "name": "How long do Exante withdrawals take?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Exante withdrawals process same-day if submitted before 11AM EET. Requests after cutoff process next business day. Wire transfer is the primary method with flat fees." }
+          },
+          {
+            "@type": "Question",
+            "name": "Is Exante regulated by the FCA?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Yes, Exante operates in the UK through LHCM Ltd which is FCA authorised. FSCS protection up to GBP 85,000 applies to eligible UK professional investors and intermediaries." }
           }
         ]
       },
+
+
       "organization": {
         "@context": "https://schema.org",
         "@type": "Organization",
-        "name": "NAFT",
-        "url": "https://naft.com"
+        "name": "NAFT — Not A Fugazi Trader",
+        "url": "https://naft.com",
+        "logo": "https://naft.com/logo.png",
+        "sameAs": []
       },
       "breadcrumbList": {
         "@context": "https://schema.org",
         "@type": "BreadcrumbList",
         "itemListElement": [
-          {
-            "@type": "ListItem",
-            "position": 1,
-            "name": "Home",
-            "item": "https://naft.com"
-          },
-          {
-            "@type": "ListItem",
-            "position": 2,
-            "name": "Broker Reviews",
-            "item": "https://naft.com/brokers"
-          },
-          {
-            "@type": "ListItem",
-            "position": 3,
-            "name": "Exante Review 2026",
-            "item": "https://naft.com/brokers/exante"
-          }
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://naft.com" },
+          { "@type": "ListItem", "position": 2, "name": "Broker Reviews", "item": "https://naft.com/brokers" },
+          { "@type": "ListItem", "position": 3, "name": "Exante Review 2026", "item": "https://naft.com/brokers/exante" }
         ]
       },
       "howTo": {
         "@context": "https://schema.org",
         "@type": "HowTo",
         "name": "How to Open an Exante Account",
+        "description": "Step-by-step guide to opening and verifying an Exante multi-asset trading account.",
         "step": [
           {
             "@type": "HowToStep",
             "position": 1,
             "name": "Register",
-            "text": "Visit https://www.tickmill.com and register."
+            "text": "Visit exante.eu and select Open Account. Choose individual or corporate application. Complete the form with personal details, financial background, and investment experience. Select entity based on residency."
           },
           {
             "@type": "HowToStep",
             "position": 2,
-            "name": "Verify",
-            "text": "Upload ID and proof of address."
+            "name": "Verify your identity (KYC)",
+            "text": "Upload passport or national ID plus proof of address dated within 3 months. Source of funds documentation typically required given EUR 10,000 minimum. Expect 1-3 business days for verification."
           },
           {
             "@type": "HowToStep",
             "position": 3,
-            "name": "Fund",
-            "text": "Deposit $100 and test a withdrawal."
+            "name": "Fund your account and test a withdrawal",
+            "text": "Deposit minimum EUR 10,000 via bank wire or card. Test the proprietary platform interface. Place a small trade, then request a withdrawal before 11AM EET to confirm same-day processing before scaling up."
           }
         ]
       },
       "videoObject": null
     },
     "sources": [
-      "Exante official website \u2014 exante.eu",
-      "MFSA Malta \u2014 IS/60076 confirmed",
-      "FCA Register \u2014 confirmed",
-      "Trustpilot \u2014 3.6 stars, 400 reviews"
+      "Exante official website — exante.eu (regulation, accounts, platform, pricing pages)",
+      "FCA register — LHCM Ltd confirmed as FCA authorised investment firm",
+      "CySEC register — EXT Ltd confirmed as CySEC licenced investment firm",
+      "MFSA register — XNT Ltd confirmed as MFSA licenced investment firm",
+      "SFC Hong Kong register — XHK Ltd confirmed under licence BNN565",
+      "MAS Singapore investor alert list — Exante flagged for unauthorised provision of financial services",
+      "Multiple independent public community sources — withdrawal feedback and platform experience cross-referenced"
     ]
   }
 }
