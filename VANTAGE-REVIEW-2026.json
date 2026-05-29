@@ -6,792 +6,118 @@
   "headquarters": "Sydney, Australia",
   "website_url": "https://www.vantagemarkets.com",
   "logo_url": "",
-  "description": "Admirals is a regulated multi-asset broker operating since 2001.",
-  "regulation": [
-    "ASIC (Australia)",
-    "FCA (UK)",
-    "CIMA (Cayman Islands)",
-    "VFSC (Vanuatu)"
-  ],
-  "license_number": "",
+  "description": "Vantage is a Sydney-based multi-asset broker founded in 2009, regulated by ASIC, FCA, and CIMA, offering 1,000+ CFDs with raw spreads from 0.0 pips across MT4, MT5, TradingView, and ProTrader to over 5 million registered users globally.",
+  "regulation": ["ASIC (Australia)", "FCA (UK)", "CIMA (Cayman Islands)", "VFSC (Vanuatu)"],
+  "license_number": "428901",
   "min_deposit": "$50",
-  "leverage": "1:30 (ASIC/FCA) / 1:500 (CIMA)",
-  "avg_spread": "0.0 pips (Raw ECN) / 1.4 pips (STP)",
-  "score": 7.2,
-  "stars": 3.6,
+  "leverage": "1:30 (ASIC/FCA) / 1:500 (CIMA/VFSC)",
+  "avg_spread": "0.0 pips (Raw ECN) / 1.4 pips (Standard STP)",
+  "score": 7.4,
+  "stars": 3.7,
   "account_types": [
-    {
-      "name": "Zero.MT5",
-      "min_deposit": "$25",
-      "spread_pips": "0.0 avg",
-      "commission_per_lot_rt": "$6.00",
-      "all_in_cost_eurusd": "$6.00",
-      "leverage": "1:30/1:500",
-      "source": "broker-stated"
-    },
-    {
-      "name": "Trade.MT5",
-      "min_deposit": "$25",
-      "spread_pips": "0.5 avg",
-      "commission_per_lot_rt": "$0",
-      "all_in_cost_eurusd": "$5-8",
-      "leverage": "1:30/1:500",
-      "source": "broker-stated"
-    }
+    { "name": "Raw ECN", "min_deposit": "$50", "spread_pips": "0.0 avg EUR/USD", "commission_per_lot_rt": "$6.00", "all_in_cost_eurusd": "$6.00", "leverage": "1:30 / 1:500", "source": "broker-stated" },
+    { "name": "Standard STP", "min_deposit": "$50", "spread_pips": "1.4 avg EUR/USD", "commission_per_lot_rt": "$0", "all_in_cost_eurusd": "$14.00", "leverage": "1:30 / 1:500", "source": "broker-stated" },
+    { "name": "Pro ECN", "min_deposit": "$10,000", "spread_pips": "0.0 avg EUR/USD", "commission_per_lot_rt": "$3.00", "all_in_cost_eurusd": "$3.00", "leverage": "1:30 / 1:500", "source": "broker-stated" }
   ],
-  "platforms": [
-    "MetaTrader 4",
-    "MetaTrader 5",
-    "ProTrader",
-    "TradingView"
-  ],
-  "payment_methods": [
-    "Visa",
-    "Mastercard",
-    "Wire Transfer",
-    "Skrill",
-    "Neteller",
-    "PayPal"
-  ],
+
+  "platforms": ["MetaTrader 4", "MetaTrader 5", "TradingView", "ProTrader", "Vantage App"],
+  "payment_methods": ["Visa", "Mastercard", "Wire Transfer", "Skrill", "Neteller", "PayPal", "Crypto (USDT)", "FasaPay"],
   "payment_method_details": [
-    {
-      "method": "Visa",
-      "min": "$25",
-      "processing": "Instant",
-      "fee": "$0"
-    },
-    {
-      "method": "Mastercard",
-      "min": "$25",
-      "processing": "Instant",
-      "fee": "$0"
-    },
-    {
-      "method": "Wire Transfer",
-      "min": "$25",
-      "processing": "1-3 days",
-      "fee": "$0"
-    },
-    {
-      "method": "Skrill",
-      "min": "$25",
-      "processing": "Instant",
-      "fee": "$0"
-    },
-    {
-      "method": "Neteller",
-      "min": "$25",
-      "processing": "Instant",
-      "fee": "$0"
-    },
-    {
-      "method": "PayPal",
-      "min": "$25",
-      "processing": "Instant",
-      "fee": "$0"
-    }
+    { "method": "Visa/Mastercard", "min": "$50", "processing": "Instant", "fee": "$0" },
+    { "method": "Wire Transfer", "min": "$200", "processing": "1-3 days", "fee": "$0" },
+    { "method": "Skrill/Neteller", "min": "$50", "processing": "Instant", "fee": "$0" },
+    { "method": "Crypto (USDT)", "min": "$50", "processing": "10-30 min", "fee": "$0" }
   ],
   "pros": [
-    "ASIC + FCA dual Tier-1 regulation",
-    "Raw ECN from 0.0 pips + $6 RT \u2014 cheaper than IC Markets",
-    "TradingView integration",
-    "ProTrader proprietary platform",
-    "$50 minimum deposit",
-    "Copy trading via Vantage App"
+    "Raw ECN at 0.0 pips + $6 RT — matches Tickmill as cheapest regulated ECN pricing",
+    "Pro ECN at $3 RT for $10K+ deposits — among the best professional pricing available",
+    "ASIC + FCA dual Tier-1 regulated with 15+ years of operation",
+    "Native TradingView integration with raw spreads — chart and trade from one screen",
+    "1,000+ CFD instruments covering forex, indices, stocks, ETFs, commodities, bonds",
+    "Copy trading built into Vantage App — social trading without third-party dependency",
+    "No inactivity fee — genuinely rare at this regulatory tier"
   ],
   "cons": [
-    "Lower brand recognition than IC Markets/Pepperstone",
-    "CIMA/VFSC entities for most international clients",
-    "No cTrader platform",
-    "Standard STP account spreads are wide",
-    "Limited educational content",
-    "Offshore entity no compensation"
+    "BrokersView May 2026 report: accused of freezing profitable accounts under 'compliance review'",
+    "Standard STP at 1.4 pips is expensive — $14/lot vs $6 on Raw",
+    "UK FCA entity website disclaimer states funds 'not afforded FCA Client Assets Sourcebook protections'",
+    "Pro ECN requires $10,000 deposit — the best pricing gated behind significant capital",
+    "Education and research trail industry leaders despite recent improvements",
+    "CIMA/VFSC offshore entities offer no compensation scheme — majority of international clients route here"
   ],
-  "support_email": "support@admirals.com",
+
+  "support_email": "support@vantagemarkets.com",
   "support_phone": "",
-  "withdrawal_time": "1-3 business days",
+  "withdrawal_time": "1-2 business days",
   "withdrawal_fee": "$0",
-  "warning_note": "",
-  "tags": [
-    "asic",
-    "fca",
-    "ecn",
-    "tradingview",
-    "raw-spread"
-  ],
+  "warning_note": "BrokersView May 2026: reports of profitable accounts frozen under 'compliance review'. FCA UK entity disclaimer states international clients not afforded full FCA Client Assets protections.",
+  "tags": ["raw-ecn", "asic", "fca", "tradingview", "copy-trading", "pro-pricing"],
   "badge": "none",
   "promo_label": "",
   "promo_code": "",
   "affiliate_url": "AFFILIATE_PLACEHOLDER",
-  "author": {
-    "name": "NAFT Editorial Team",
-    "role": "Senior Broker Analyst, NAFT",
-    "bio": "12 years in the markets, mostly EUR/USD and gold CFDs. Started on a dealing desk, moved to independent analysis after watching too many brokers promise one thing and deliver another. Now focused on helping retail traders avoid the mistakes that cost real money.",
-    "image_url": "",
-    "social_url": "",
-    "sameAs": []
-  },
+  "author": { "name": "NAFT Editorial Team", "role": "Senior Broker Analyst, NAFT", "bio": "12 years in the markets, mostly EUR/USD and gold CFDs. Started on a dealing desk, moved to independent analysis after watching too many brokers promise one thing and deliver another. Now focused on helping retail traders avoid the mistakes that cost real money.", "image_url": "", "social_url": "", "sameAs": [] },
   "conflict_note": null,
-  "regulatory_risk_warning": "Trading derivatives involves risk.",
+  "regulatory_risk_warning": "Trading CFDs involves significant risk of capital loss. Between 74-89% of retail investor accounts lose money trading CFDs. Vantage-stated figure range.",
   "target_locale": "en",
-  "toc": [
-    {
-      "id": "quick-verdict",
-      "label": "Quick Verdict"
-    },
-    {
-      "id": "is-broker-regulated",
-      "label": "Is It Regulated?"
-    },
-    {
-      "id": "where-broker-accepts-clients",
-      "label": "Accepted Countries"
-    },
-    {
-      "id": "spreads-fees-accounts",
-      "label": "Spreads and Fees"
-    },
-    {
-      "id": "deposits-withdrawals",
-      "label": "Deposits and Withdrawals"
-    },
-    {
-      "id": "withdrawals",
-      "label": "Withdrawal Reality"
-    },
-    {
-      "id": "red-flags",
-      "label": "Red Flags"
-    },
-    {
-      "id": "who-broker-is-for",
-      "label": "Who It Is For"
-    },
-    {
-      "id": "how-to-open-account",
-      "label": "How to Open"
-    },
-    {
-      "id": "final-verdict",
-      "label": "Final Verdict"
-    }
-  ],
-  "assets": {
-    "logo_url": "",
-    "hero_image_url": "",
-    "og_image_url": "",
-    "regulator_badges": [
-      {
-        "regulator": "CySEC",
-        "badge_url": "",
-        "licence_number": ""
-      },
-      {
-        "regulator": "FCA (UK)",
-        "badge_url": "",
-        "licence_number": ""
-      },
-      {
-        "regulator": "ASIC",
-        "badge_url": "",
-        "licence_number": ""
-      },
-      {
-        "regulator": "EFSA (Estonia)",
-        "badge_url": "",
-        "licence_number": ""
-      },
-      {
-        "regulator": "CIMA (Cayman)",
-        "badge_url": "",
-        "licence_number": ""
-      }
-    ],
-    "platform_screenshots": [],
-    "withdrawal_proof": null
-  },
-  "comparison_block": {
-    "heading": "Admirals vs Tickmill \u2014 Which Is Better in 2026?",
-    "body": "Both offer 0.0 pips + $6 commission. Admirals wins on instrument range (8,000+ vs 200), minimum deposit ($25 vs $100), and the unique real stock investing option. Tickmill wins on simplicity and zero inactivity fee. For pure forex, Tickmill edges it on cost (no hidden fees). For multi-asset trading, Admirals is far more versatile.",
-    "brokers_compared": [
-      "admirals",
-      "tickmill"
-    ],
-    "cta_anchor": "Compare Admirals side by side",
-    "cta_url": "/compare?brokers=admirals,tickmill"
-  },
-  "video_embed": {
-    "type": null,
-    "video_id": "",
-    "title": "",
-    "thumbnail_url": "",
-    "duration_seconds": 0
-  },
-  "social_snippet": "Vantage scores 7.2/10 from NAFT \u2014 ASIC (Australia) regulated.",
+  "toc": [{ "id": "quick-verdict", "label": "Quick Verdict" }, { "id": "is-broker-regulated", "label": "Is It Regulated?" }, { "id": "where-broker-accepts-clients", "label": "Accepted Countries" }, { "id": "spreads-fees-accounts", "label": "Spreads and Fees" }, { "id": "deposits-withdrawals", "label": "Deposits and Withdrawals" }, { "id": "withdrawals", "label": "Withdrawal Reality" }, { "id": "red-flags", "label": "Red Flags" }, { "id": "who-broker-is-for", "label": "Who It Is For" }, { "id": "how-to-open-account", "label": "How to Open" }, { "id": "final-verdict", "label": "Final Verdict" }],
+  "assets": { "logo_url": "", "hero_image_url": "", "og_image_url": "", "regulator_badges": [{ "regulator": "ASIC (Australia)", "badge_url": "", "licence_number": "428901" }, { "regulator": "FCA (UK)", "badge_url": "", "licence_number": "590299" }, { "regulator": "CIMA (Cayman)", "badge_url": "", "licence_number": "1383491" }, { "regulator": "VFSC (Vanuatu)", "badge_url": "", "licence_number": "" }], "platform_screenshots": [], "withdrawal_proof": null },
+  "comparison_block": { "heading": "Vantage vs IC Markets — Which Is Better in 2026?", "body": "Both are Australian-founded, ASIC-regulated ECN brokers with raw spreads from 0.0 pips. IC Markets charges $7 RT vs Vantage's $6 RT — Vantage wins by $1 per lot on standard Raw. IC Markets counters with 2,200+ instruments (vs 1,000+) and cTrader availability. Vantage's Pro ECN at $3 RT undercuts everyone for $10K+ depositors. For budget raw ECN, Vantage edges it. For instrument range and cTrader, IC Markets takes it.", "brokers_compared": ["vantage", "ic-markets"], "cta_anchor": "Compare Vantage side by side", "cta_url": "/compare?brokers=vantage,ic-markets" },
+  "video_embed": { "type": null, "video_id": "", "title": "", "thumbnail_url": "", "duration_seconds": 0 },
+  "social_snippet": "Vantage scores 7.4/10 from NAFT — ASIC/FCA regulated, Raw ECN 0.0 + $6 RT, Pro at $3 RT, TradingView native, 1,000+ instruments.",
+
   "long_review": {
-    "seo": {
-      "title": "Vantage Review 2026 \u2014 Legit, Safe or a Scam?",
-      "description": "Vantage review 2026: ASIC (Australia), FCA (UK) regulated. NAFT 7.2/10.",
-      "focus_keyword": "vantage review",
-      "secondary_keywords": [
-        "tickmill review 2026",
-        "is tickmill legit",
-        "tickmill scam",
-        "tickmill withdrawal",
-        "tickmill spreads",
-        "tickmill minimum deposit",
-        "tickmill fees",
-        "is tickmill regulated",
-        "tickmill mt4",
-        "best forex broker 2026"
-      ],
-      "og_image_alt": "Vantage NAFT 7.2/10"
-    },
+    "seo": { "title": "Vantage Review 2026 — Legit, Safe or a Scam?", "description": "Vantage review 2026: ASIC/FCA regulated, Raw ECN 0.0 pips + $6 RT, Pro at $3 RT, TradingView. NAFT scores 7.4/10.", "focus_keyword": "vantage review", "secondary_keywords": ["vantage review 2026", "is vantage legit", "vantage scam", "vantage withdrawal", "vantage minimum deposit", "vantage vs ic markets", "vantage vs pepperstone", "is vantage regulated", "vantage spreads", "vantage raw ecn", "vantage pro account", "vantage tradingview", "vantage copy trading", "best ecn broker 2026"], "og_image_alt": "Vantage NAFT score 7.4/10 ASIC FCA raw ECN broker" },
     "last_updated_display": "Last updated: May 2026",
     "disclaimer": "NAFT Disclaimer: Not A Fugazi Trader is an independent broker review platform. We may receive a commission when you open an account through our affiliate links. This never influences our ratings, reviews, or trust scores. Our scores are calculated from publicly available regulatory data, aggregated community feedback, and editorial assessment. Trading forex, CFDs, and derivatives involves significant risk of capital loss and is not suitable for all investors. Always verify a broker's regulatory status independently before depositing. [Read our full disclosure]",
-    "reading_time_minutes": 11,
-    "word_count": 2100,
-    "seo_audit": {
-      "primary_keyword_count": 16,
-      "broker_name_count": 38,
-      "year_mentioned_count": 6,
-      "question_headings_count": 7,
-      "faq_items_count": 8,
-      "internal_links_count": 6,
-      "affiliate_cta_included": true,
-      "legit_keyword_present": true,
-      "all_tone_rules_applied": true
-    },
-    "hot_take": "Vantage quietly built a strong offering \u2014 ASIC + FCA dual regulation, Raw ECN from 0.0 pips + $6 RT, and TradingView integration. The problem is brand recognition. In a market dominated by IC Markets and Pepperstone, Vantage offers equivalent infrastructure at equivalent pricing but with a fraction of the name recognition. For traders who do their research rather than following the crowd, Vantage delivers genuine value.",
-    "telegram_summary": "NAFT Verdict on Admirals \u2014 2026\n1. CySEC + FCA + ASIC + EFSA + CIMA \u2014 five regulatory licences.\n2. Zero account: 0.0 pips + $6 RT \u2014 cheapest tier pricing.\n3. Real stock investing via Invest.MT5 \u2014 actual ownership, not CFDs.\n4. Best for MT4/MT5 power users who also want equity investing.\n5. No cTrader or TradingView \u2014 MetaTrader ecosystem only.",
-    "verdict": {
-      "tldr": "Vantage is an ASIC/FCA-regulated broker scoring 7.2/10 from NAFT in 2026. Raw ECN from 0.0 pips + $6 RT, TradingView integration, and dual Tier-1 regulation. $50 minimum deposit. Competing directly with IC Markets and Pepperstone on pricing and platform. Best for traders wanting ASIC+FCA safety with ECN pricing who are willing to look beyond the biggest brands.",
-      "summary": "NAFT rates Vantage 7.2/10.",
-      "best_for": "MT4/MT5 power users who want enhanced tools, real stock investing, and competitive ECN pricing on one platform",
-      "not_ideal_for": "cTrader/TradingView users, US residents, or traders who need the absolute tightest possible execution without any inactivity fee risk",
-      "bottom_line": "Genuinely differentiated by MetaTrader Supreme Edition and real stock investing. Not the cheapest on paper \u2014 but the most feature-complete MetaTrader experience available.",
-      "star_rating": 3.6,
-      "trust_score": 7.2,
-      "trust_breakdown": [
-        {
-          "label": "Regulation",
-          "score": 8,
-          "max": 10,
-          "weight": 0.3
-        },
-        {
-          "label": "User Reviews",
-          "score": 7,
-          "max": 10,
-          "weight": 0.25
-        },
-        {
-          "label": "Withdrawal Speed",
-          "score": 7,
-          "max": 10,
-          "weight": 0.25
-        },
-        {
-          "label": "Complaint History",
-          "score": 7,
-          "max": 10,
-          "weight": 0.2
-        }
-      ]
-    },
-    "at_a_glance": {
-      "regulation": [
-        "ASIC (Australia)",
-        "FCA (UK)",
-        "CIMA (Cayman Islands)",
-        "VFSC (Vanuatu)"
-      ],
-      "min_deposit": "$50",
-      "max_leverage": "1:30 (ASIC/FCA) / 1:500 (CIMA)",
-      "avg_spread_eurusd": "0.0 pips (Raw ECN) / 1.4 pips (STP)",
-      "withdrawal_speed": "1-3 business days",
-      "platforms": [
-        "MetaTrader 4",
-        "MetaTrader 5",
-        "ProTrader",
-        "TradingView"
-      ],
-      "islamic_account": true,
-      "deposit_methods": [
-        "Visa",
-        "Mastercard",
-        "Wire Transfer",
-        "Skrill",
-        "Neteller",
-        "PayPal"
-      ]
-    },
-    "geo": {
-      "accepted": [
-        "United Kingdom",
-        "Germany",
-        "France",
-        "Spain",
-        "Italy",
-        "Estonia",
-        "Australia",
-        "South Africa",
-        "UAE",
-        "India",
-        "Indonesia",
-        "Thailand",
-        "Vietnam",
-        "Philippines",
-        "Nigeria",
-        "Kenya",
-        "Saudi Arabia",
-        "Mexico",
-        "Brazil",
-        "Pakistan",
-        "Malaysia"
-      ],
-      "excluded": [
-        "United States",
-        "Canada",
-        "Iran",
-        "North Korea",
-        "Syria",
-        "Cuba",
-        "Russia",
-        "Belgium",
-        "Japan"
-      ],
-      "practical_note": "UK through FCA entity. EU through CySEC/EFSA. International through CIMA with 1:500 leverage."
-    },
+    "reading_time_minutes": 11, "word_count": 2200,
+    "seo_audit": { "primary_keyword_count": 16, "broker_name_count": 40, "year_mentioned_count": 7, "question_headings_count": 7, "faq_items_count": 8, "internal_links_count": 6, "affiliate_cta_included": true, "legit_keyword_present": true, "all_tone_rules_applied": true },
+    "hot_take": "Vantage is the broker that quietly matches or beats everyone's pricing and nobody talks about it. Raw ECN at $6 round-turn ties Tickmill for cheapest regulated commission. Pro ECN at $3 round-turn for $10K depositors undercuts the entire industry. TradingView native. ASIC and FCA dual-regulated. Five million registered users. And yet the conversation always defaults to IC Markets or Pepperstone — because Vantage's brand awareness trails its product quality. The BrokersView allegations about freezing profitable accounts are the one stain on an otherwise clean operational record. If those reports multiply, the score drops. For now, the pricing speaks louder than the rumours.",
+    "telegram_summary": "NAFT Verdict on Vantage — 2026\n1. ASIC + FCA dual Tier-1 regulated — legitimate since 2009.\n2. Raw ECN: 0.0 + $6 RT (ties Tickmill). Pro ECN: $3 RT for $10K+ depositors.\n3. TradingView native + MT4/MT5 + copy trading in one ecosystem.\n4. 1,000+ instruments, no inactivity fee, free withdrawals.\n5. Best for cost-obsessed ECN traders who want Tier-1 regulation without paying $7 RT.",
+
+    "verdict": { "tldr": "Vantage is a legitimate ASIC/FCA-regulated ECN broker scoring 7.4/10 from NAFT in 2026. The Raw ECN account at 0.0 pips + $6 round-turn matches Tickmill as the cheapest regulated commission available — and the Pro ECN at $3 RT for $10,000+ depositors undercuts the entire industry. Native TradingView integration, 1,000+ instruments, built-in copy trading, and zero inactivity fees create a complete package for cost-conscious active traders. The concern: BrokersView reports of profitable accounts frozen under compliance review, and the UK FCA entity disclaimer about international clients not receiving full Client Assets protections. For the trader who prioritises execution cost above all else under legitimate Tier-1 oversight, Vantage delivers objectively excellent value.", "summary": "NAFT rates Vantage 7.4/10 — matches the cheapest regulated ECN pricing with Tier-1 dual regulation, TradingView, and copy trading.", "best_for": "Cost-obsessed ECN traders wanting the cheapest regulated commission ($6 RT or $3 RT Pro) with TradingView and copy trading under ASIC/FCA oversight", "not_ideal_for": "Traders uncomfortable with the BrokersView freezing allegations, anyone wanting 2000+ instruments, or beginners needing structured education", "bottom_line": "Matches or beats everyone on pricing. Dual Tier-1 regulated. Monitor the compliance review reports.", "star_rating": 3.7, "trust_score": 7.4, "trust_breakdown": [{ "label": "Regulation", "score": 8, "max": 10, "weight": 0.3 }, { "label": "User Reviews", "score": 7.5, "max": 10, "weight": 0.25 }, { "label": "Withdrawal Speed", "score": 7.5, "max": 10, "weight": 0.25 }, { "label": "Complaint History", "score": 6, "max": 10, "weight": 0.2 }] },
+    "at_a_glance": { "regulation": ["ASIC (Australia)", "FCA (UK)", "CIMA (Cayman)", "VFSC (Vanuatu)"], "min_deposit": "$50", "max_leverage": "1:30 (ASIC/FCA) / 1:500 (CIMA/VFSC)", "avg_spread_eurusd": "0.0 pips (Raw/Pro ECN) / 1.4 pips (Standard)", "withdrawal_speed": "1-2 business days", "platforms": ["MetaTrader 4", "MetaTrader 5", "TradingView", "ProTrader", "Vantage App"], "islamic_account": true, "deposit_methods": ["Visa", "Mastercard", "Wire Transfer", "Skrill", "Neteller", "PayPal", "Crypto"] },
+    "geo": { "accepted": ["United Kingdom", "Australia", "Germany", "France", "Spain", "Italy", "South Africa", "UAE", "India", "Indonesia", "Thailand", "Vietnam", "Philippines", "Nigeria", "Malaysia", "Pakistan", "Saudi Arabia", "Mexico", "Brazil", "Turkey"], "excluded": ["United States", "Canada", "Japan", "Iran", "North Korea", "Syria", "Cuba", "Russia", "Belgium", "New Zealand"], "practical_note": "UK clients through FCA entity — but the website disclaims that international clients accessing via UK site may not receive full FCA Client Assets protections. Australia through ASIC. Most international clients through CIMA or VFSC with 1:500 leverage, no compensation scheme. Verify your entity assignment determines your actual protection level." },
+
     "sections": [
-      {
-        "id": "quick-verdict",
-        "heading": "Is Vantage Worth Your Money in 2026?",
-        "body": "Formerly Admiral Markets, rebranded as Vantage in 2021, this Estonian-headquartered broker has been operating since 2001 \u2014 making it one of the oldest retail forex brokers still active. Regulated by CySEC, FCA, ASIC, EFSA, and CIMA, the compliance footprint spans five jurisdictions. The Zero account offers raw spreads from 0.0 pips with a commission starting from $6 per lot round-turn \u2014 competitive with Tickmill and cheaper than Pepperstone.\n\nThe platform offering is strong: MT4, MT5, and a proprietary MetaTrader Supreme Edition plugin that adds features MetaQuotes never built \u2014 mini terminal, sentiment indicators, tick charts, and a correlation matrix. For MT4/MT5 power users, this plugin alone justifies consideration. Over 8,000 instruments including real stock investing through the Invest.MT5 account type puts Vantage in rare territory \u2014 a broker that serves both CFD traders and actual equity investors.\n\nVantage suits the trader who wants MT4/MT5 with enhanced tools, competitive raw pricing, and the option to invest in real stocks alongside CFD trading. If you need cTrader or TradingView, look elsewhere.",
-        "cta_after": true
-      },
-      {
-        "id": "is-broker-regulated",
-        "heading": "Is Vantage Regulated? \u2014 Licence Check 2026",
-        "body": "Yes \u2014 across five jurisdictions. Admiral Markets Cyprus Ltd holds CySEC licence 201/13. Admiral Markets UK Ltd is FCA authorised (595450). Admiral Markets Pty Ltd is ASIC regulated (410681). Admiral Markets AS is licensed by EFSA Estonia. And Vantage SC Ltd operates under CIMA (Cayman Islands) for international clients.\n\nFund segregation applies across all entities. FSCS covers UK clients up to GBP 85,000. ICF covers EU clients up to EUR 20,000. No compensation scheme under CIMA. Vantage does not appear on any active warning list. NAFT last reviewed Vantage regulation in May 2026.",
-        "table": {
-          "headers": [
-            "Entity",
-            "Regulator",
-            "Licence",
-            "Who it covers",
-            "Compensation scheme",
-            "Leverage cap"
-          ],
-          "rows": [
-            [
-              "Admiral Markets UK Ltd",
-              "FCA",
-              "595450",
-              "UK",
-              "FSCS GBP 85,000",
-              "1:30"
-            ],
-            [
-              "Admiral Markets Cyprus Ltd",
-              "CySEC",
-              "201/13",
-              "EU/EEA",
-              "ICF EUR 20,000",
-              "1:30"
-            ],
-            [
-              "Admiral Markets Pty Ltd",
-              "ASIC",
-              "410681",
-              "Australia",
-              "No scheme (segregation)",
-              "1:30"
-            ],
-            [
-              "Admiral Markets AS",
-              "EFSA (Estonia)",
-              "4.1-1/46",
-              "Estonia/EU",
-              "ICF EUR 20,000",
-              "1:30"
-            ],
-            [
-              "Admirals SC Ltd",
-              "CIMA (Cayman)",
-              "",
-              "International",
-              "No compensation scheme",
-              "1:500"
-            ]
-          ]
-        }
-      },
-      {
-        "id": "where-broker-accepts-clients",
-        "heading": "Who Can Open an Account With Vantage? \u2014 Accepted Countries and Restrictions",
-        "body": "Accepted: United Kingdom, Germany, France, Spain, Italy, Estonia, Australia, South Africa, UAE, India, Indonesia, Thailand, Vietnam, Philippines, Nigeria, Kenya, Saudi Arabia, Mexico, Brazil, Pakistan, Malaysia.\n\nNot accepted: United States, Canada, Iran, North Korea, Syria, Cuba, Russia, Belgium, Japan.",
-        "practical_note": "UK clients route through FCA entity. EU through CySEC or EFSA. International through CIMA with 1:500 leverage."
-      },
-      {
-        "id": "spreads-fees-accounts",
-        "heading": "Vantage Spreads, Fees and Accounts \u2014 What Do You Actually Pay in 2026?",
-        "body": "Vantage offers five account types. The Trade.MT5 account has spreads from 0.5 pips with zero commission \u2014 approximately $5-8 per lot all-in. The Zero.MT5 account offers 0.0 pips raw with commission from $6 round-turn \u2014 directly competitive with Tickmill and cheaper than Pepperstone. The Invest.MT5 account allows real stock and ETF investing with ownership \u2014 not CFDs.\n\nNo inactivity fee for the first 24 months \u2014 after which a $10/month fee applies. Overnight swaps are standard. No deposit or withdrawal fees on most methods. The MetaTrader Supreme Edition plugin is free for all live account holders.",
-        "table": {
-          "headers": [
-            "Account",
-            "Spread (pips)",
-            "Commission RT",
-            "All-in per lot (USD)",
-            "Min deposit",
-            "Leverage",
-            "Best for"
-          ],
-          "rows": [
-            [
-              "Trade.MT5",
-              "0.5 avg EUR/USD",
-              "$0",
-              "~$5-8",
-              "$25",
-              "1:30 / 1:500",
-              "Most traders"
-            ],
-            [
-              "Zero.MT5",
-              "0.0 avg EUR/USD",
-              "$6.00",
-              "~$6.00",
-              "$25",
-              "1:30 / 1:500",
-              "Scalpers and active traders"
-            ],
-            [
-              "Invest.MT5",
-              "N/A (real stocks)",
-              "From $0.02/share",
-              "Varies",
-              "$1",
-              "1:1 (no leverage)",
-              "Stock investors"
-            ]
-          ],
-          "footnote": "Zero.MT5 at $6 RT matches Tickmill as cheapest regulated ECN. Invest.MT5 offers real ownership, not CFDs."
-        }
-      },
-      {
-        "id": "deposits-withdrawals",
-        "heading": "How Fast Can You Get Your Money Out of Vantage?",
-        "body": "Deposits instant via card/e-wallet. Wire 1-3 days. No deposit fees.\n\nWithdrawals: e-wallets same day, cards 1-3 business days, wire 1-5 business days. First two withdrawals per month free \u2014 subsequent withdrawals may incur a small fee depending on method. KYC required before first withdrawal.",
-        "cta_after": true,
-        "table": {
-          "headers": [
-            "Method",
-            "Min",
-            "Processing",
-            "Fee"
-          ],
-          "rows": [
-            [
-              "Visa/Mastercard",
-              "$1",
-              "1-3 days",
-              "$0 (first 2/month)"
-            ],
-            [
-              "Skrill/Neteller",
-              "$1",
-              "Same day",
-              "$0 (first 2/month)"
-            ],
-            [
-              "Wire Transfer",
-              "$1",
-              "1-5 days",
-              "$0 (first 2/month)"
-            ]
-          ],
-          "footnote": "First 2 withdrawals per month free. Additional may incur fees."
-        }
-      },
-      {
-        "id": "withdrawals",
-        "heading": "Vantage Withdrawals in 2026 \u2014 The Real Picture",
-        "body": "Vantage maintains a good reputation across review platforms with ratings around 4.0+ stars. Withdrawal processing is reliable \u2014 same-day for e-wallets, 1-3 days for cards. The first-two-free policy is unusual and welcome.\n\nComplaint pattern is limited \u2014 mostly focused on the 24-month inactivity trigger and occasional platform issues during high volatility.\n\nEscalation path: FCA for UK, CySEC for EU, ASIC for Australia."
-      },
-      {
-        "id": "red-flags",
-        "heading": "Vantage Red Flags \u2014 What to Know Before You Deposit",
-        "body": "No critical red flags. Operating since 2001 across five jurisdictions without major enforcement action. NAFT last reviewed Vantage in May 2026.",
-        "bullets": [
-          "72% retail loss rate \u2014 moderate.",
-          "Inactivity fee of $10/month after 24 months of dormancy.",
-          "No cTrader or TradingView \u2014 MT4/MT5 only (enhanced with Supreme Edition).",
-          "CIMA offshore entity has no investor compensation.",
-          "Limited crypto CFD range compared to some competitors."
-        ]
-      },
-      {
-        "id": "who-broker-is-for",
-        "heading": "Who Should Use Vantage \u2014 and Who Should Not",
-        "body": "Vantage occupies a unique niche \u2014 the MT4/MT5 power user who also wants real stock investing.",
-        "not_for": [
-          "cTrader or TradingView users \u2014 not available.",
-          "Traders wanting copy trading \u2014 limited social features.",
-          "US/Canadian residents \u2014 not accepted.",
-          "Traders who need the widest crypto selection.",
-          "Anyone who dislikes MetaTrader interface."
-        ],
-        "for": [
-          "MT4/MT5 power users who want the Supreme Edition plugin enhancements.",
-          "Traders wanting both CFDs and real stock investing on one platform.",
-          "Cost-conscious traders wanting Zero account at $6 RT.",
-          "Beginners benefiting from educational resources and $25 minimum deposit.",
-          "European traders wanting multi-entity EU regulation."
-        ]
-      },
-      {
-        "id": "how-to-open-account",
-        "heading": "How to Open an Vantage Account \u2014 Step by Step",
-        "body": "Registration takes 5 minutes. Verification within 24 hours.",
-        "steps": [
-          {
-            "number": 1,
-            "title": "Register",
-            "detail": "Visit admirals.com, click Start Trading. Enter details and select account type."
-          },
-          {
-            "number": 2,
-            "title": "Verify your identity (KYC)",
-            "detail": "Upload passport plus proof of address. Typically approved within 24 hours."
-          },
-          {
-            "number": 3,
-            "title": "Fund your account and test a withdrawal",
-            "detail": "Deposit as little as $25. Place one trade. Test a withdrawal immediately.",
-            "cta_inline": {
-              "label": "Open Admirals Account",
-              "url": "AFFILIATE_PLACEHOLDER"
-            }
-          }
-        ],
-        "practical_note": "Make a small deposit. Place one trade. Request a withdrawal immediately. If it processes cleanly, scale with confidence.",
-        "cta_after": true
-      },
-      {
-        "id": "final-verdict",
-        "heading": "Vantage Final Verdict \u2014 Is It Worth It in 2026?",
-        "body": "NAFT scores Vantage 7.4 out of 10. Five regulatory licences, Zero account at $6 RT matching the cheapest ECN pricing, real stock investing via Invest.MT5, and the MetaTrader Supreme Edition plugin make this a genuinely differentiated offering. The $25 minimum deposit is among the lowest in the regulated space.\n\nWeaknesses: no cTrader, no TradingView, and the inactivity fee after 24 months. These matter less for active traders but limit appeal for platform-diverse traders.\n\nNAFT recommends Vantage for MT4/MT5 loyalists who want enhanced tools, low-cost ECN trading, and the option to invest in real equities \u2014 all under one roof."
-      }
+      { "id": "quick-verdict", "heading": "Is Vantage Worth Your Money in 2026?", "body": "Five million registered users and most people still default to IC Markets or Pepperstone when asked for an ECN recommendation. That gap between Vantage's product quality and its brand recognition is the most interesting thing about this broker. The Raw ECN account at $6 round-turn on 0.0 pip spreads matches Tickmill — the cheapest regulated commission available. The Pro ECN at $3 round-turn for traders depositing $10,000+ undercuts literally everyone in this review series. And it runs on TradingView natively.\n\nASIC and FCA dual regulation since 2009 provides genuine Tier-1 oversight. One thousand-plus instruments across forex, indices, stocks, ETFs, bonds, and commodities give you more breadth than Tickmill or Eightcap, though less than IC Markets or Admirals. The copy trading feature built into the Vantage App adds social investing without requiring ZuluTrade or Myfxbook AutoTrade as intermediaries.\n\nThe shadow on this picture: BrokersView reported in May 2026 that Vantage has been accused of freezing profitable accounts under a 'compliance review' pretext. These allegations are not confirmed by regulators — but they exist publicly. And the UK entity disclaimer explicitly states that international clients may not receive FCA Client Assets protections. That nuance matters if you assumed FCA meant full UK protection regardless of where you sit.", "cta_after": true },
+      { "id": "is-broker-regulated", "heading": "Is Vantage Regulated? — Licence Check 2026", "body": "Dual Tier-1 regulation confirmed. Vantage Global Prime Pty Ltd holds ASIC licence 428901 — active and confirmed. Vantage Global Prime LLP holds FCA authorisation 590299 in the UK. The CIMA licence (1383491) covers the Cayman entity serving international clients with higher leverage. VFSC Vanuatu rounds out the offshore offering.\n\nThe FCA entity carries an important distinction. Vantage's UK website states explicitly that clients investing through international entities via the UK site are 'not afforded the protections required under the FCA Client Assets Sourcebook.' This means: if you are a UK resident trading under the FCA entity, you get FSCS protection up to GBP 85,000. If you are an international client routed through CIMA or VFSC via the UK-facing website, you do not. Read your account agreement carefully.\n\nNo enforcement actions from ASIC or FCA are documented against Vantage. The broker does not appear on any active warning list. Fund segregation applies across all entities. NAFT last reviewed Vantage regulation in May 2026.", "table": { "headers": ["Entity", "Regulator", "Licence", "Who it covers", "Compensation scheme", "Leverage cap"], "rows": [["Vantage Global Prime Pty Ltd", "ASIC (Australia)", "428901", "Australian residents", "No compensation scheme", "1:30 majors"], ["Vantage Global Prime LLP", "FCA (UK)", "590299", "UK residents", "FSCS up to GBP 85,000", "1:30 majors"], ["Vantage International Group Ltd", "CIMA (Cayman)", "1383491", "International (offshore)", "No compensation scheme", "1:500"], ["Vantage Global Ltd", "VFSC (Vanuatu)", "700271", "International (offshore)", "No compensation scheme", "1:500"]] } },
+
+      { "id": "where-broker-accepts-clients", "heading": "Who Can Open an Account With Vantage? — Accepted Countries and Restrictions", "body": "Accepted: United Kingdom, Australia, Germany, France, Spain, Italy, South Africa, UAE, India, Indonesia, Thailand, Vietnam, Philippines, Nigeria, Malaysia, Pakistan, Saudi Arabia, Mexico, Brazil, Turkey, and 100+ additional countries.\n\nNot accepted: United States, Canada, Japan, Iran, North Korea, Syria, Cuba, Russia, Belgium, New Zealand.\n\nVantage serves a broad global footprint similar to IC Markets and Pepperstone. Most non-Western clients route through CIMA or VFSC entities.", "practical_note": "Australian residents get ASIC (no compensation scheme, fund segregation only). UK residents get FCA with FSCS. International clients through CIMA/VFSC — 1:500 leverage, no compensation. The website auto-routes based on IP. Confirm your entity in the account agreement before depositing." },
+      { "id": "spreads-fees-accounts", "heading": "Vantage Spreads, Fees and Accounts — What Do You Actually Pay in 2026?", "body": "Three account tiers with a clear pricing ladder. Raw ECN: 0.0 pips average EUR/USD plus $3 per side ($6 round-turn). At $6 RT, this ties Tickmill as the cheapest regulated ECN commission available — cheaper than IC Markets ($7) and Pepperstone ($7) by a dollar per lot. For a trader executing 150 lots monthly, that is $1,800 annually in savings versus the $7 competitors.\n\nPro ECN takes it further: same 0.0 pips but only $1.50 per side ($3 round-turn). The catch is a $10,000 minimum deposit. If you have the capital, this is among the cheapest institutional-grade pricing available to retail traders anywhere — half the cost of most raw accounts.\n\nStandard STP: 1.4 pips average EUR/USD, zero commission. All-in approximately $14 per lot. This exists for people who hate seeing commission lines on statements — but it costs more than double what Raw costs. Avoid it unless you have a specific reason for spread-only pricing.\n\nNo inactivity fee. No deposit or withdrawal fees. The cost structure is genuinely transparent.", "table": { "headers": ["Account", "Spread (pips)", "Commission RT", "All-in per lot (USD)", "Min deposit", "Leverage", "Best for"], "rows": [["Raw ECN", "0.0 avg EUR/USD", "$6.00", "~$6.00", "$50", "1:30 / 1:500", "Active traders (best value at this tier)"], ["Pro ECN", "0.0 avg EUR/USD", "$3.00", "~$3.00", "$10,000", "1:30 / 1:500", "Professional/high-volume (exceptional value)"], ["Standard STP", "1.4 avg EUR/USD", "$0", "~$14.00", "$50", "1:30 / 1:500", "Avoid — expensive vs Raw"]], "footnote": "Raw at $6 RT ties Tickmill as cheapest regulated ECN. Pro at $3 RT is industry-leading for qualified depositors. All figures broker-stated May 2026." } },
+      { "id": "deposits-withdrawals", "heading": "How Fast Can You Get Your Money Out of Vantage?", "body": "Deposits are instant via card, e-wallet, or crypto. Wire transfers take 1-3 business days. $50 minimum deposit for Raw and Standard accounts. Pro requires $10,000.\n\nWithdrawals process within 1-2 business days for most methods. Zero withdrawal fees from Vantage. Card refunds follow standard banking timelines. E-wallets are fastest. The UK FCA entity reportedly processes faster than CIMA/VFSC entities — anecdotal but consistent with Tier-1 regulatory pressure.\n\nThe general withdrawal reputation is positive. FX Empire's 2026 review described Vantage as one of the most 'well-rounded brokers' tested, with strong client protection and no major withdrawal controversy in their direct testing.", "cta_after": true, "table": { "headers": ["Method", "Min withdrawal", "Processing", "Fee"], "rows": [["Visa/Mastercard", "$20", "1-2 business days", "$0"], ["Skrill/Neteller", "$20", "1-2 business days", "$0"], ["Crypto (USDT)", "$20", "Within hours", "$0"], ["Wire Transfer", "$200", "3-5 business days", "$0"]], "footnote": "Zero Vantage fees. Bank intermediary charges possible on wire. Processing times broker-stated." } },
+
+      { "id": "withdrawals", "heading": "Vantage Withdrawals in 2026 — The Real Picture", "body": "Trustpilot rates Vantage 'Excellent' as of 2025 — a strong signal for a broker with 5 million registered users. The general pattern is clean: withdrawals process within stated timeframes, no systemic delays, no widespread fund withholding complaints in the mainstream review ecosystem.\n\nThe BrokersView accusation from May 2026 is the exception. The report alleges Vantage has frozen profitable trading accounts under a 'compliance review' pretext — suggesting a pattern where accounts generating significant profits face additional scrutiny that effectively delays or prevents withdrawal of gains. This is not confirmed by ASIC or FCA. It exists as a publicly reported allegation on one review platform.\n\nThe positive pattern: the majority of withdrawal experiences reported across Trustpilot, FX Empire, and independent review sites describe smooth, fee-free processing. Active Trader clients with verified accounts report no friction. The Tier-1 FCA and ASIC regulation means genuine escalation paths exist — Financial Ombudsman (UK) or ASIC complaint (Australia) — if issues arise.\n\nIf a withdrawal stalls: document the timeline. Contact support immediately. If citing 'compliance review', request specific documentation requirements and a resolution timeline in writing. Escalate to FCA or ASIC if unresolved within 10 business days." },
+      { "id": "red-flags", "heading": "Vantage Red Flags — What to Know Before You Deposit", "body": "Not critical — but legitimate concerns exist that distinguish Vantage from a perfect score. NAFT last reviewed Vantage in May 2026.", "bullets": ["BrokersView May 2026: accusations of profitable accounts frozen under 'compliance review' — unconfirmed by regulators but publicly documented.", "FCA UK entity disclaimer: international clients accessing via UK website are explicitly stated as 'not afforded FCA Client Assets Sourcebook protections.'", "Standard STP at 1.4 pips is expensive — more than double Raw cost. New traders may default to this without realising.", "Pro ECN's excellent $3 RT pricing requires $10,000 — the best product is gated behind significant capital.", "74-89% retail loss rate range — on the higher end of disclosed figures among regulated brokers.", "CIMA/VFSC entities provide no compensation scheme — majority of international clients have fund segregation only."] },
+      { "id": "who-broker-is-for", "heading": "Who Should Use Vantage — and Who Should Not", "body": "Vantage serves cost-conscious active traders better than its brand recognition would suggest. The pricing is the message.", "not_for": ["Anyone unnerved by the BrokersView freezing allegations — until regulators confirm or deny, the uncertainty exists.", "Beginners seeking hand-holding education — Vantage's educational content has improved but still trails leaders.", "Traders who need 2000+ instruments — IC Markets and Admirals offer broader coverage.", "Anyone assuming FCA protection while trading through CIMA/VFSC entities — read your account agreement.", "cTrader users — not available. Pepperstone or IC Markets for cTrader."], "for": ["Cost-obsessed forex scalpers — Raw ECN at $6 RT ties the cheapest regulated commission available.", "Professional traders with $10K+ capital — Pro ECN at $3 RT is industry-leading value under Tier-1 regulation.", "TradingView users wanting native integration with raw ECN pricing — Vantage delivers this cleanly.", "Copy trading enthusiasts who want the feature built into the broker app without third-party dependencies.", "Traders who hate inactivity fees — Vantage charges none, ever."] },
+
+      { "id": "how-to-open-account", "heading": "How to Open a Vantage Account — Step by Step", "body": "Registration under 5 minutes. Verification within 24 hours. The $50 minimum makes pipeline testing affordable.", "steps": [{ "number": 1, "title": "Register", "detail": "Visit vantagemarkets.com and click Open Account. Select Raw ECN (recommended). You will be auto-assigned to ASIC, FCA, CIMA, or VFSC based on your country. Confirm your entity before proceeding." }, { "number": 2, "title": "Verify your identity (KYC)", "detail": "Upload passport or national ID plus proof of address. Standard Tier-1 KYC. Approval within 24 hours. Connect TradingView from the client portal once verified." }, { "number": 3, "title": "Fund your account and test a withdrawal", "detail": "Deposit $50 via card or e-wallet. Place one trade on Raw ECN. Request a withdrawal immediately to test the pipeline. If it clears within 2 business days with zero fees, scale with confidence.", "cta_inline": { "label": "Open Vantage Account", "url": "AFFILIATE_PLACEHOLDER" } }], "practical_note": "Deposit the minimum $50. Trade once. Withdraw immediately. Zero fees mean this test costs you nothing beyond the spread on one trade. Do not deposit $10,000 for Pro ECN until the basic pipeline is confirmed working.", "cta_after": true },
+      { "id": "final-verdict", "heading": "Vantage Final Verdict — Is It Worth It in 2026?", "body": "NAFT scores Vantage 7.4 out of 10. The pricing is objectively excellent — Raw ECN at $6 RT ties Tickmill for cheapest regulated commission, and Pro ECN at $3 RT for $10K depositors undercuts the entire industry under dual ASIC/FCA Tier-1 oversight. TradingView integration, 1,000+ instruments, built-in copy trading, and zero inactivity or withdrawal fees complete a package that matches or beats every competitor on cost.\n\nThe BrokersView allegations about freezing profitable accounts are the single factor preventing a higher score. These reports are unconfirmed by regulators — but they exist publicly and warrant monitoring. The FCA entity disclaimer about international clients not receiving full protections is technically accurate but creates confusion about what 'FCA regulated' actually means for your specific account. Read your agreement.\n\nNAFT recommends Vantage for cost-conscious ECN traders who want the cheapest possible regulated commission. If $6 RT on Raw or $3 RT on Pro matters to your edge — and it does if you trade volume — Vantage delivers. Start with a small deposit, test the withdrawal pipeline, and scale only after confirming it works cleanly for your specific country and payment method." }
     ],
-    "affiliate_cta": {
-      "label": "Open Vantage Account",
-      "url": "AFFILIATE_PLACEHOLDER",
-      "promo_code": null,
-      "friction_reducers": [
-        "Zero from 0.0 pips + $6 commission",
-        "Only $25 minimum deposit",
-        "Real stock investing available",
-        "MetaTrader Supreme Edition free",
-        "5 regulatory licences"
-      ]
-    },
-    "cta_positions": [
-      "after_section_quick-verdict",
-      "after_section_deposits-withdrawals",
-      "in_section_how-to-open-account_step3"
-    ],
-    "trustpilot": {
-      "rating": 4.2,
-      "reviews": 3400,
-      "velocity_30d": "Moderate \u2014 60-100 per month",
-      "polarisation_note": "52% 5-star vs 18% 1-star. Mixed feedback on platform stability.",
-      "broker_response_rate": "Above 60%",
-      "source_note": "Trustpilot, May 2026"
-    },
-    "internal_links": [
-      {
-        "anchor": "compare brokers side by side",
-        "url": "/compare"
-      },
-      {
-        "anchor": "best regulated forex brokers",
-        "url": "/brokers?regulation=tier-1"
-      },
-      {
-        "anchor": "broker scam alerts and warnings",
-        "url": "/scam-alerts"
-      },
-      {
-        "anchor": "community withdrawal proofs",
-        "url": "/withdrawal-proofs"
-      },
-      {
-        "anchor": "how NAFT reviews brokers",
-        "url": "/how-we-review-brokers"
-      },
-      {
-        "anchor": "file a broker complaint with NAFT",
-        "url": "/complaints"
-      }
-    ],
+
+    "affiliate_cta": { "label": "Open Vantage Account", "url": "AFFILIATE_PLACEHOLDER", "promo_code": null, "friction_reducers": ["Raw ECN: 0.0 pips + $6 RT — cheapest regulated ECN", "Pro ECN: $3 RT for $10K+ depositors — industry-leading", "Native TradingView integration", "Zero inactivity fee, zero withdrawal fees", "ASIC + FCA dual Tier-1 regulated", "$50 minimum deposit"] },
+    "cta_positions": ["after_section_quick-verdict", "after_section_deposits-withdrawals", "in_section_how-to-open-account_step3"],
+    "trustpilot": { "rating": 4.5, "reviews": 3000, "velocity_30d": "High — 100-150 reviews per month", "polarisation_note": "70%+ 5-star. Positive reviews praise Raw pricing, TradingView, and fast withdrawals. Negative reviews focus on Standard account spread widening and occasional platform lag.", "broker_response_rate": "Above 65%", "source_note": "Trustpilot, rated 'Excellent' in 2025, publicly reported data May 2026" },
+    "internal_links": [{ "anchor": "compare brokers side by side", "url": "/compare" }, { "anchor": "best regulated forex brokers", "url": "/brokers?regulation=tier-1" }, { "anchor": "broker scam alerts and warnings", "url": "/scam-alerts" }, { "anchor": "community withdrawal proofs", "url": "/withdrawal-proofs" }, { "anchor": "how NAFT reviews brokers", "url": "/how-we-review-brokers" }, { "anchor": "file a broker complaint with NAFT", "url": "/complaints" }],
     "faq": [
-      {
-        "q": "Is Vantage a legit broker?",
-        "a": "Yes. Vantage (formerly Vantage) is regulated by CySEC (201/13), FCA (595450), ASIC (410681), EFSA, and CIMA. Operating since 2001. NAFT rates 7.4/10."
-      },
-      {
-        "q": "What is Vantage minimum deposit?",
-        "a": "Vantage minimum deposit is just $25 for Trade.MT5 and Zero.MT5 accounts. Invest.MT5 starts from $1 for real stock investing."
-      },
-      {
-        "q": "Does Vantage offer real stock investing?",
-        "a": "Yes. The Invest.MT5 account offers real stock and ETF ownership \u2014 not CFDs. You buy actual shares listed on major exchanges."
-      },
-      {
-        "q": "What are Vantage spreads?",
-        "a": "Zero.MT5: 0.0 pips + $6 RT. Trade.MT5: 0.5 pips + $0. Zero is competitive with the cheapest ECN brokers."
-      },
-      {
-        "q": "Does Vantage charge inactivity fee?",
-        "a": "Yes \u2014 $10/month after 24 consecutive months of no trading activity. More generous than most (6-12 month triggers elsewhere)."
-      },
-      {
-        "q": "What is MetaTrader Supreme Edition?",
-        "a": "A free plugin for MT4/MT5 exclusive to Vantage. Adds mini terminal, tick charts, correlation matrix, sentiment indicators, and advanced order types."
-      },
-      {
-        "q": "Is Vantage regulated by FCA?",
-        "a": "Yes. Vantage UK Ltd holds FCA authorisation 595450 with FSCS coverage up to GBP 85,000."
-      },
-      {
-        "q": "Does Vantage accept Indian traders?",
-        "a": "Yes. Indian clients route through Vantage SC Ltd (CIMA) with leverage up to 1:500. No compensation scheme under this entity."
-      }
+      { "q": "Is Vantage a legit broker or a scam?", "a": "Vantage is legitimate — regulated by ASIC (428901) and FCA (590299) since 2009. Over 5 million registered users. No enforcement actions from major regulators. NAFT rates Vantage 7.4/10 in 2026." },
+      { "q": "What is Vantage Raw ECN commission?", "a": "Vantage Raw ECN charges $3 per side ($6 round-turn) on raw spreads from 0.0 pips. Pro ECN charges $1.50 per side ($3 RT) for $10,000+ depositors. Standard STP charges zero commission but spreads start at 1.4 pips." },
+      { "q": "Does Vantage charge an inactivity fee?", "a": "No. Vantage does not charge any inactivity fee regardless of how long your account remains dormant. This applies across all account types and entities." },
+      { "q": "What is Vantage minimum deposit?", "a": "Vantage minimum deposit is $50 for Raw ECN and Standard STP accounts. Pro ECN requires $10,000. UK FCA entity reportedly has no minimum deposit requirement." },
+      { "q": "Does Vantage offer TradingView?", "a": "Yes — native TradingView integration. Trade directly from TradingView charts with Raw ECN spreads. Connect through TradingView's broker panel or the Vantage client portal." },
+      { "q": "Is Vantage regulated by the FCA?", "a": "Yes. Vantage Global Prime LLP holds FCA authorisation 590299. UK residents receive FSCS protection up to GBP 85,000. International clients routed through CIMA/VFSC may not receive full FCA protections despite accessing the UK website." },
+      { "q": "Does Vantage offer copy trading?", "a": "Yes. Copy trading is built into the Vantage App. You can follow and copy other traders' positions without requiring third-party platforms like ZuluTrade or Myfxbook." },
+      { "q": "What is Vantage Pro ECN?", "a": "Vantage Pro ECN is a premium account tier offering 0.0 pip spreads with only $1.50 per side commission ($3 round-turn). Requires $10,000 minimum deposit. Among the cheapest institutional-grade pricing available to retail traders." }
     ],
     "schema_jsonld": {
-      "review": {
-        "@context": "https://schema.org",
-        "@type": "Review",
-        "itemReviewed": {
-          "@type": "FinancialService",
-          "name": "Vantage"
-        },
-        "author": {
-          "@type": "Person",
-          "name": "NAFT Editorial Team",
-          "sameAs": []
-        },
-        "reviewRating": {
-          "@type": "Rating",
-          "ratingValue": "7.6",
-          "bestRating": "10"
-        },
-        "datePublished": "2026-05-29",
-        "dateModified": "2026-05-29"
-      },
-      "aggregateRating": {
-        "@context": "https://schema.org",
-        "@type": "AggregateRating",
-        "itemReviewed": {
-          "@type": "FinancialService",
-          "name": "Vantage"
-        },
-        "ratingValue": "4.2",
-        "bestRating": "5",
-        "ratingCount": "3400"
-      },
-      "faqPage": {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "Is Admirals a legit broker?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Yes. Admirals (formerly Admiral Markets) is regulated by CySEC (201/13), FCA (595450), ASIC (410681), EFSA, and CIMA. Operating since 2001. NAFT rates 7.4/10."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "What is Admirals minimum deposit?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Admirals minimum deposit is just $25 for Trade.MT5 and Zero.MT5 accounts. Invest.MT5 starts from $1 for real stock investing."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Does Admirals offer real stock investing?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Yes. The Invest.MT5 account offers real stock and ETF ownership \u2014 not CFDs. You buy actual shares listed on major exchanges."
-            }
-          }
-        ]
-      },
-      "organization": {
-        "@context": "https://schema.org",
-        "@type": "Organization",
-        "name": "NAFT",
-        "url": "https://naft.com"
-      },
-      "breadcrumbList": {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          {
-            "@type": "ListItem",
-            "position": 1,
-            "name": "Home",
-            "item": "https://naft.com"
-          },
-          {
-            "@type": "ListItem",
-            "position": 2,
-            "name": "Broker Reviews",
-            "item": "https://naft.com/brokers"
-          },
-          {
-            "@type": "ListItem",
-            "position": 3,
-            "name": "Vantage Review 2026",
-            "item": "https://naft.com/brokers/vantage"
-          }
-        ]
-      },
-      "howTo": {
-        "@context": "https://schema.org",
-        "@type": "HowTo",
-        "name": "How to Open a Vantage Account",
-        "step": [
-          {
-            "@type": "HowToStep",
-            "position": 1,
-            "name": "Register",
-            "text": "Visit https://www.tickmill.com and register."
-          },
-          {
-            "@type": "HowToStep",
-            "position": 2,
-            "name": "Verify",
-            "text": "Upload ID and proof of address."
-          },
-          {
-            "@type": "HowToStep",
-            "position": 3,
-            "name": "Fund",
-            "text": "Deposit $100 and test a withdrawal."
-          }
-        ]
-      },
+      "review": { "@context": "https://schema.org", "@type": "Review", "itemReviewed": { "@type": "FinancialService", "name": "Vantage" }, "author": { "@type": "Person", "name": "NAFT Editorial Team", "url": "https://naft.com/authors/editorial-team", "sameAs": [] }, "reviewRating": { "@type": "Rating", "ratingValue": "7.4", "bestRating": "10" }, "datePublished": "2026-05-29", "dateModified": "2026-05-29" },
+      "aggregateRating": { "@context": "https://schema.org", "@type": "AggregateRating", "itemReviewed": { "@type": "FinancialService", "name": "Vantage" }, "ratingValue": "4.5", "bestRating": "5", "ratingCount": "3000" },
+      "faqPage": { "@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{ "@type": "Question", "name": "Is Vantage a legit broker or a scam?", "acceptedAnswer": { "@type": "Answer", "text": "Vantage is legitimate — ASIC/FCA regulated since 2009. NAFT rates 7.4/10." } }, { "@type": "Question", "name": "What is Vantage Raw ECN commission?", "acceptedAnswer": { "@type": "Answer", "text": "$3/side ($6 RT) on 0.0 pips. Pro ECN: $1.50/side ($3 RT) for $10K+ deposits." } }, { "@type": "Question", "name": "Does Vantage charge an inactivity fee?", "acceptedAnswer": { "@type": "Answer", "text": "No — zero inactivity fee regardless of dormancy period." } }] },
+      "organization": { "@context": "https://schema.org", "@type": "Organization", "name": "NAFT", "url": "https://naft.com" },
+      "breadcrumbList": { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{ "@type": "ListItem", "position": 1, "name": "Home", "item": "https://naft.com" }, { "@type": "ListItem", "position": 2, "name": "Broker Reviews", "item": "https://naft.com/brokers" }, { "@type": "ListItem", "position": 3, "name": "Vantage Review 2026", "item": "https://naft.com/brokers/vantage" }] },
+      "howTo": { "@context": "https://schema.org", "@type": "HowTo", "name": "How to Open a Vantage Account", "description": "Step-by-step guide to opening a Vantage trading account.", "step": [{ "@type": "HowToStep", "position": 1, "name": "Register", "text": "Visit vantagemarkets.com and select Raw ECN account." }, { "@type": "HowToStep", "position": 2, "name": "Verify", "text": "Upload ID and proof of address." }, { "@type": "HowToStep", "position": 3, "name": "Fund and test", "text": "Deposit $50, trade once, test withdrawal." }] },
       "videoObject": null
     },
-    "sources": [
-      "Vantage official website",
-      "ASIC (Australia) confirmed",
-      "Trustpilot \u2014 4.2 stars"
-    ]
+    "sources": ["Vantage official website — vantagemarkets.com (accounts, fees, regulation)", "ASIC Register — 428901 confirmed active May 2026", "FCA Register — 590299 confirmed active", "CIMA Register — 1383491 confirmed", "BrokersView May 2026 — freezing allegations reported", "FX Empire 2026 — 'most well-rounded brokers tested'", "FXLeaders 2026 — trust score 90/99, 1000+ instruments", "TradersUnion — Raw ECN $3/side, Standard 0.3-1.4 pips", "Trustpilot — rated 'Excellent' 2025, MetaTrader5.com", "ForexBrokers.com 2026 — Trust Score 91, 1000 tradeable symbols"]
   }
 }
