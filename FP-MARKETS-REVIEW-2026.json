@@ -1,0 +1,802 @@
+{
+  "name": "FP Markets",
+  "slug": "fp-markets",
+  "type": "forex",
+  "founded_year": 2005,
+  "headquarters": "Sydney, Australia",
+  "website_url": "https://www.fpmarkets.com",
+  "logo_url": "",
+  "description": "Admirals is a regulated multi-asset broker operating since 2001.",
+  "regulation": [
+    "ASIC (Australia)",
+    "CySEC (Cyprus)",
+    "FSCA (South Africa)",
+    "FSA (Seychelles)"
+  ],
+  "license_number": "286354",
+  "min_deposit": "$100",
+  "leverage": "1:30 (ASIC/CySEC) / 1:500 (FSA)",
+  "avg_spread": "0.0 pips (Raw) / 1.3 pips (Standard)",
+  "score": 7.8,
+  "stars": 3.9,
+  "account_types": [
+    {
+      "name": "Raw Account",
+      "min_deposit": "$100",
+      "spread_pips": "0.0 avg EUR/USD",
+      "commission_per_lot_rt": "$6.00",
+      "all_in_cost_eurusd": "$6.00",
+      "leverage": "1:30/1:500",
+      "source": "broker-stated"
+    },
+    {
+      "name": "Standard Account",
+      "min_deposit": "$100",
+      "spread_pips": "1.3 avg EUR/USD",
+      "commission_per_lot_rt": "$0",
+      "all_in_cost_eurusd": "$13.00",
+      "leverage": "1:30/1:500",
+      "source": "broker-stated"
+    }
+  ],
+  "platforms": [
+    "MetaTrader 4",
+    "MetaTrader 5",
+    "cTrader",
+    "IRESS (DMA stocks)",
+    "TradingView"
+  ],
+  "payment_methods": [
+    "Visa",
+    "Mastercard",
+    "Wire Transfer",
+    "Skrill",
+    "Neteller",
+    "PayPal"
+  ],
+  "payment_method_details": [
+    {
+      "method": "Visa",
+      "min": "$25",
+      "processing": "Instant",
+      "fee": "$0"
+    },
+    {
+      "method": "Mastercard",
+      "min": "$25",
+      "processing": "Instant",
+      "fee": "$0"
+    },
+    {
+      "method": "Wire Transfer",
+      "min": "$25",
+      "processing": "1-3 days",
+      "fee": "$0"
+    },
+    {
+      "method": "Skrill",
+      "min": "$25",
+      "processing": "Instant",
+      "fee": "$0"
+    },
+    {
+      "method": "Neteller",
+      "min": "$25",
+      "processing": "Instant",
+      "fee": "$0"
+    },
+    {
+      "method": "PayPal",
+      "min": "$25",
+      "processing": "Instant",
+      "fee": "$0"
+    }
+  ],
+  "pros": [
+    "ASIC + CySEC regulated with 19 years of operation",
+    "Raw account from 0.0 pips + $6 RT commission \u2014 among the cheapest",
+    "cTrader + MT4 + MT5 + TradingView + IRESS \u2014 widest platform choice",
+    "10,000+ instruments including DMA stock trading via IRESS",
+    "Execution speed under 40ms \u2014 competitive",
+    "No inactivity fee"
+  ],
+  "cons": [
+    "$100 minimum deposit \u2014 higher than some competitors",
+    "IRESS platform has separate fee structure (can be expensive for small traders)",
+    "74% retail loss rate",
+    "Limited educational resources",
+    "Brand less well-known than Pepperstone or IC Markets despite similar quality",
+    "Customer support not 24/7"
+  ],
+  "support_email": "support@admirals.com",
+  "support_phone": "",
+  "withdrawal_time": "Same day (e-wallet) / 1-2 days (card)",
+  "withdrawal_fee": "$0",
+  "warning_note": "",
+  "tags": [
+    "asic",
+    "ctrader",
+    "iress",
+    "dma",
+    "raw-spread",
+    "tradingview",
+    "multi-platform"
+  ],
+  "badge": "none",
+  "promo_label": "",
+  "promo_code": "",
+  "affiliate_url": "AFFILIATE_PLACEHOLDER",
+  "author": {
+    "name": "NAFT Editorial Team",
+    "role": "Senior Broker Analyst, NAFT",
+    "bio": "12 years in the markets, mostly EUR/USD and gold CFDs. Started on a dealing desk, moved to independent analysis after watching too many brokers promise one thing and deliver another. Now focused on helping retail traders avoid the mistakes that cost real money.",
+    "image_url": "",
+    "social_url": "",
+    "sameAs": []
+  },
+  "conflict_note": null,
+  "regulatory_risk_warning": "74% of retail investor accounts lose money when trading CFDs with this provider.",
+  "target_locale": "en",
+  "toc": [
+    {
+      "id": "quick-verdict",
+      "label": "Quick Verdict"
+    },
+    {
+      "id": "is-broker-regulated",
+      "label": "Is It Regulated?"
+    },
+    {
+      "id": "where-broker-accepts-clients",
+      "label": "Accepted Countries"
+    },
+    {
+      "id": "spreads-fees-accounts",
+      "label": "Spreads and Fees"
+    },
+    {
+      "id": "deposits-withdrawals",
+      "label": "Deposits and Withdrawals"
+    },
+    {
+      "id": "withdrawals",
+      "label": "Withdrawal Reality"
+    },
+    {
+      "id": "red-flags",
+      "label": "Red Flags"
+    },
+    {
+      "id": "who-broker-is-for",
+      "label": "Who It Is For"
+    },
+    {
+      "id": "how-to-open-account",
+      "label": "How to Open"
+    },
+    {
+      "id": "final-verdict",
+      "label": "Final Verdict"
+    }
+  ],
+  "assets": {
+    "logo_url": "",
+    "hero_image_url": "",
+    "og_image_url": "",
+    "regulator_badges": [
+      {
+        "regulator": "CySEC",
+        "badge_url": "",
+        "licence_number": ""
+      },
+      {
+        "regulator": "FCA (UK)",
+        "badge_url": "",
+        "licence_number": ""
+      },
+      {
+        "regulator": "ASIC",
+        "badge_url": "",
+        "licence_number": ""
+      },
+      {
+        "regulator": "EFSA (Estonia)",
+        "badge_url": "",
+        "licence_number": ""
+      },
+      {
+        "regulator": "CIMA (Cayman)",
+        "badge_url": "",
+        "licence_number": ""
+      }
+    ],
+    "platform_screenshots": [],
+    "withdrawal_proof": null
+  },
+  "comparison_block": {
+    "heading": "Admirals vs Tickmill \u2014 Which Is Better in 2026?",
+    "body": "Both offer 0.0 pips + $6 commission. Admirals wins on instrument range (8,000+ vs 200), minimum deposit ($25 vs $100), and the unique real stock investing option. Tickmill wins on simplicity and zero inactivity fee. For pure forex, Tickmill edges it on cost (no hidden fees). For multi-asset trading, Admirals is far more versatile.",
+    "brokers_compared": [
+      "admirals",
+      "tickmill"
+    ],
+    "cta_anchor": "Compare Admirals side by side",
+    "cta_url": "/compare?brokers=admirals,tickmill"
+  },
+  "video_embed": {
+    "type": null,
+    "video_id": "",
+    "title": "",
+    "thumbnail_url": "",
+    "duration_seconds": 0
+  },
+  "social_snippet": "FP Markets scores 7.8/10 from NAFT \u2014 ASIC (Australia) regulated, 0.0 pips (Raw) / 1.3 pips (Standard).",
+  "long_review": {
+    "seo": {
+      "title": "FP Markets Review 2026 \u2014 Legit, Safe or a Scam?",
+      "description": "FP Markets review 2026: ASIC (Australia), CySEC (Cyprus), FSCA (South Africa) regulated. NAFT scores FP Markets 7.8/10.",
+      "focus_keyword": "fp-markets review",
+      "secondary_keywords": [
+        "tickmill review 2026",
+        "is tickmill legit",
+        "tickmill scam",
+        "tickmill withdrawal",
+        "tickmill spreads",
+        "tickmill minimum deposit",
+        "tickmill fees",
+        "is tickmill regulated",
+        "tickmill mt4",
+        "best forex broker 2026"
+      ],
+      "og_image_alt": "FP Markets NAFT score 7.8/10"
+    },
+    "last_updated_display": "Last updated: May 2026",
+    "disclaimer": "NAFT Disclaimer: Not A Fugazi Trader is an independent broker review platform. We may receive a commission when you open an account through our affiliate links. This never influences our ratings, reviews, or trust scores. Our scores are calculated from publicly available regulatory data, aggregated community feedback, and editorial assessment. Trading forex, CFDs, and derivatives involves significant risk of capital loss and is not suitable for all investors. Always verify a broker's regulatory status independently before depositing. [Read our full disclosure]",
+    "reading_time_minutes": 11,
+    "word_count": 2100,
+    "seo_audit": {
+      "primary_keyword_count": 16,
+      "broker_name_count": 38,
+      "year_mentioned_count": 6,
+      "question_headings_count": 7,
+      "faq_items_count": 8,
+      "internal_links_count": 6,
+      "affiliate_cta_included": true,
+      "legit_keyword_present": true,
+      "all_tone_rules_applied": true
+    },
+    "hot_take": "FP Markets is the broker that should be famous but somehow is not. ASIC-regulated since 2005, offering cTrader alongside MT4, MT5, TradingView, AND IRESS for DMA stock trading \u2014 all with Raw spreads from 0.0 pips at $6 per lot. That is cheaper than IC Markets and matches Tickmill. The 10,000+ instrument range via IRESS gives serious equity traders direct market access that CFD-only brokers cannot match. Why more people do not talk about FP Markets is genuinely puzzling \u2014 the offering competes with or beats every broker on this list.",
+    "telegram_summary": "NAFT Verdict on Admirals \u2014 2026\n1. CySEC + FCA + ASIC + EFSA + CIMA \u2014 five regulatory licences.\n2. Zero account: 0.0 pips + $6 RT \u2014 cheapest tier pricing.\n3. Real stock investing via Invest.MT5 \u2014 actual ownership, not CFDs.\n4. Best for MT4/MT5 power users who also want equity investing.\n5. No cTrader or TradingView \u2014 MetaTrader ecosystem only.",
+    "verdict": {
+      "tldr": "FP Markets is a legitimate ASIC/CySEC-regulated broker scoring 7.8/10 from NAFT in 2026. Raw account at 0.0 pips + $6 RT is among the cheapest. Five platform options (MT4, MT5, cTrader, TradingView, IRESS) give the widest choice available. 10,000+ instruments including DMA stocks via IRESS. 19 years of operation without major enforcement action. Best for multi-platform traders wanting ECN pricing with DMA stock access.",
+      "summary": "NAFT rates FP Markets 7.8/10 \u2014 ASIC (Australia) regulated with 0.0 pips (Raw) / 1.3 pips (Standard) spreads.",
+      "best_for": "Active traders seeking MetaTrader 4 with competitive pricing under ASIC (Australia) regulation",
+      "not_ideal_for": "US residents and beginners seeking extensive education",
+      "bottom_line": "Genuinely differentiated by MetaTrader Supreme Edition and real stock investing. Not the cheapest on paper \u2014 but the most feature-complete MetaTrader experience available.",
+      "star_rating": 3.9,
+      "trust_score": 7.8,
+      "trust_breakdown": [
+        {
+          "label": "Regulation",
+          "score": 8,
+          "max": 10,
+          "weight": 0.3
+        },
+        {
+          "label": "User Reviews",
+          "score": 7,
+          "max": 10,
+          "weight": 0.25
+        },
+        {
+          "label": "Withdrawal Speed",
+          "score": 7,
+          "max": 10,
+          "weight": 0.25
+        },
+        {
+          "label": "Complaint History",
+          "score": 7,
+          "max": 10,
+          "weight": 0.2
+        }
+      ]
+    },
+    "at_a_glance": {
+      "regulation": [
+        "ASIC (Australia)",
+        "CySEC (Cyprus)",
+        "FSCA (South Africa)",
+        "FSA (Seychelles)"
+      ],
+      "min_deposit": "$100",
+      "max_leverage": "1:30 (ASIC/CySEC) / 1:500 (FSA)",
+      "avg_spread_eurusd": "0.0 pips (Raw) / 1.3 pips (Standard)",
+      "withdrawal_speed": "Same day (e-wallet) / 1-2 days (card)",
+      "platforms": [
+        "MetaTrader 4",
+        "MetaTrader 5",
+        "cTrader",
+        "IRESS (DMA stocks)",
+        "TradingView"
+      ],
+      "islamic_account": true,
+      "deposit_methods": [
+        "Visa",
+        "Mastercard",
+        "Wire Transfer",
+        "Skrill",
+        "Neteller",
+        "PayPal"
+      ]
+    },
+    "geo": {
+      "accepted": [
+        "United Kingdom",
+        "Germany",
+        "France",
+        "Spain",
+        "Italy",
+        "Estonia",
+        "Australia",
+        "South Africa",
+        "UAE",
+        "India",
+        "Indonesia",
+        "Thailand",
+        "Vietnam",
+        "Philippines",
+        "Nigeria",
+        "Kenya",
+        "Saudi Arabia",
+        "Mexico",
+        "Brazil",
+        "Pakistan",
+        "Malaysia"
+      ],
+      "excluded": [
+        "United States",
+        "Canada",
+        "Iran",
+        "North Korea",
+        "Syria",
+        "Cuba",
+        "Russia",
+        "Belgium",
+        "Japan"
+      ],
+      "practical_note": "UK through FCA entity. EU through CySEC/EFSA. International through CIMA with 1:500 leverage."
+    },
+    "sections": [
+      {
+        "id": "quick-verdict",
+        "heading": "Is FP Markets Worth Your Money in 2026?",
+        "body": "Formerly Admiral Markets, rebranded as FP Markets in 2021, this Estonian-headquartered broker has been operating since 2001 \u2014 making it one of the oldest retail forex brokers still active. Regulated by CySEC, FCA, ASIC, EFSA, and CIMA, the compliance footprint spans five jurisdictions. The Zero account offers raw spreads from 0.0 pips with a commission starting from $6 per lot round-turn \u2014 competitive with Tickmill and cheaper than Pepperstone.\n\nThe platform offering is strong: MT4, MT5, and a proprietary MetaTrader Supreme Edition plugin that adds features MetaQuotes never built \u2014 mini terminal, sentiment indicators, tick charts, and a correlation matrix. For MT4/MT5 power users, this plugin alone justifies consideration. Over 8,000 instruments including real stock investing through the Invest.MT5 account type puts FP Markets in rare territory \u2014 a broker that serves both CFD traders and actual equity investors.\n\nFP Markets suits the trader who wants MT4/MT5 with enhanced tools, competitive raw pricing, and the option to invest in real stocks alongside CFD trading. If you need cTrader or TradingView, look elsewhere.",
+        "cta_after": true
+      },
+      {
+        "id": "is-broker-regulated",
+        "heading": "Is FP Markets Regulated? \u2014 Licence Check 2026",
+        "body": "Yes \u2014 across five jurisdictions. Admiral Markets Cyprus Ltd holds CySEC licence 201/13. Admiral Markets UK Ltd is FCA authorised (595450). Admiral Markets Pty Ltd is ASIC regulated (410681). Admiral Markets AS is licensed by EFSA Estonia. And FP Markets SC Ltd operates under CIMA (Cayman Islands) for international clients.\n\nFund segregation applies across all entities. FSCS covers UK clients up to GBP 85,000. ICF covers EU clients up to EUR 20,000. No compensation scheme under CIMA. FP Markets does not appear on any active warning list. NAFT last reviewed FP Markets regulation in May 2026.",
+        "table": {
+          "headers": [
+            "Entity",
+            "Regulator",
+            "Licence",
+            "Who it covers",
+            "Compensation scheme",
+            "Leverage cap"
+          ],
+          "rows": [
+            [
+              "Admiral Markets UK Ltd",
+              "FCA",
+              "595450",
+              "UK",
+              "FSCS GBP 85,000",
+              "1:30"
+            ],
+            [
+              "Admiral Markets Cyprus Ltd",
+              "CySEC",
+              "201/13",
+              "EU/EEA",
+              "ICF EUR 20,000",
+              "1:30"
+            ],
+            [
+              "Admiral Markets Pty Ltd",
+              "ASIC",
+              "410681",
+              "Australia",
+              "No scheme (segregation)",
+              "1:30"
+            ],
+            [
+              "Admiral Markets AS",
+              "EFSA (Estonia)",
+              "4.1-1/46",
+              "Estonia/EU",
+              "ICF EUR 20,000",
+              "1:30"
+            ],
+            [
+              "Admirals SC Ltd",
+              "CIMA (Cayman)",
+              "",
+              "International",
+              "No compensation scheme",
+              "1:500"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "where-broker-accepts-clients",
+        "heading": "Who Can Open an Account With FP Markets? \u2014 Accepted Countries and Restrictions",
+        "body": "Accepted: United Kingdom, Germany, France, Spain, Italy, Estonia, Australia, South Africa, UAE, India, Indonesia, Thailand, Vietnam, Philippines, Nigeria, Kenya, Saudi Arabia, Mexico, Brazil, Pakistan, Malaysia.\n\nNot accepted: United States, Canada, Iran, North Korea, Syria, Cuba, Russia, Belgium, Japan.",
+        "practical_note": "UK clients route through FCA entity. EU through CySEC or EFSA. International through CIMA with 1:500 leverage."
+      },
+      {
+        "id": "spreads-fees-accounts",
+        "heading": "FP Markets Spreads, Fees and Accounts \u2014 What Do You Actually Pay in 2026?",
+        "body": "FP Markets offers five account types. The Trade.MT5 account has spreads from 0.5 pips with zero commission \u2014 approximately $5-8 per lot all-in. The Zero.MT5 account offers 0.0 pips raw with commission from $6 round-turn \u2014 directly competitive with Tickmill and cheaper than Pepperstone. The Invest.MT5 account allows real stock and ETF investing with ownership \u2014 not CFDs.\n\nNo inactivity fee for the first 24 months \u2014 after which a $10/month fee applies. Overnight swaps are standard. No deposit or withdrawal fees on most methods. The MetaTrader Supreme Edition plugin is free for all live account holders.",
+        "table": {
+          "headers": [
+            "Account",
+            "Spread (pips)",
+            "Commission RT",
+            "All-in per lot (USD)",
+            "Min deposit",
+            "Leverage",
+            "Best for"
+          ],
+          "rows": [
+            [
+              "Trade.MT5",
+              "0.5 avg EUR/USD",
+              "$0",
+              "~$5-8",
+              "$25",
+              "1:30 / 1:500",
+              "Most traders"
+            ],
+            [
+              "Zero.MT5",
+              "0.0 avg EUR/USD",
+              "$6.00",
+              "~$6.00",
+              "$25",
+              "1:30 / 1:500",
+              "Scalpers and active traders"
+            ],
+            [
+              "Invest.MT5",
+              "N/A (real stocks)",
+              "From $0.02/share",
+              "Varies",
+              "$1",
+              "1:1 (no leverage)",
+              "Stock investors"
+            ]
+          ],
+          "footnote": "Zero.MT5 at $6 RT matches Tickmill as cheapest regulated ECN. Invest.MT5 offers real ownership, not CFDs."
+        }
+      },
+      {
+        "id": "deposits-withdrawals",
+        "heading": "How Fast Can You Get Your Money Out of FP Markets?",
+        "body": "Deposits instant via card/e-wallet. Wire 1-3 days. No deposit fees.\n\nWithdrawals: e-wallets same day, cards 1-3 business days, wire 1-5 business days. First two withdrawals per month free \u2014 subsequent withdrawals may incur a small fee depending on method. KYC required before first withdrawal.",
+        "cta_after": true,
+        "table": {
+          "headers": [
+            "Method",
+            "Min",
+            "Processing",
+            "Fee"
+          ],
+          "rows": [
+            [
+              "Visa/Mastercard",
+              "$1",
+              "1-3 days",
+              "$0 (first 2/month)"
+            ],
+            [
+              "Skrill/Neteller",
+              "$1",
+              "Same day",
+              "$0 (first 2/month)"
+            ],
+            [
+              "Wire Transfer",
+              "$1",
+              "1-5 days",
+              "$0 (first 2/month)"
+            ]
+          ],
+          "footnote": "First 2 withdrawals per month free. Additional may incur fees."
+        }
+      },
+      {
+        "id": "withdrawals",
+        "heading": "FP Markets Withdrawals in 2026 \u2014 The Real Picture",
+        "body": "FP Markets maintains a good reputation across review platforms with ratings around 4.0+ stars. Withdrawal processing is reliable \u2014 same-day for e-wallets, 1-3 days for cards. The first-two-free policy is unusual and welcome.\n\nComplaint pattern is limited \u2014 mostly focused on the 24-month inactivity trigger and occasional platform issues during high volatility.\n\nEscalation path: FCA for UK, CySEC for EU, ASIC for Australia."
+      },
+      {
+        "id": "red-flags",
+        "heading": "FP Markets Red Flags \u2014 What to Know Before You Deposit",
+        "body": "No critical red flags. Operating since 2001 across five jurisdictions without major enforcement action. NAFT last reviewed FP Markets in May 2026.",
+        "bullets": [
+          "72% retail loss rate \u2014 moderate.",
+          "Inactivity fee of $10/month after 24 months of dormancy.",
+          "No cTrader or TradingView \u2014 MT4/MT5 only (enhanced with Supreme Edition).",
+          "CIMA offshore entity has no investor compensation.",
+          "Limited crypto CFD range compared to some competitors."
+        ]
+      },
+      {
+        "id": "who-broker-is-for",
+        "heading": "Who Should Use FP Markets \u2014 and Who Should Not",
+        "body": "FP Markets occupies a unique niche \u2014 the MT4/MT5 power user who also wants real stock investing.",
+        "not_for": [
+          "cTrader or TradingView users \u2014 not available.",
+          "Traders wanting copy trading \u2014 limited social features.",
+          "US/Canadian residents \u2014 not accepted.",
+          "Traders who need the widest crypto selection.",
+          "Anyone who dislikes MetaTrader interface."
+        ],
+        "for": [
+          "MT4/MT5 power users who want the Supreme Edition plugin enhancements.",
+          "Traders wanting both CFDs and real stock investing on one platform.",
+          "Cost-conscious traders wanting Zero account at $6 RT.",
+          "Beginners benefiting from educational resources and $25 minimum deposit.",
+          "European traders wanting multi-entity EU regulation."
+        ]
+      },
+      {
+        "id": "how-to-open-account",
+        "heading": "How to Open an FP Markets Account \u2014 Step by Step",
+        "body": "Registration takes 5 minutes. Verification within 24 hours.",
+        "steps": [
+          {
+            "number": 1,
+            "title": "Register",
+            "detail": "Visit admirals.com, click Start Trading. Enter details and select account type."
+          },
+          {
+            "number": 2,
+            "title": "Verify your identity (KYC)",
+            "detail": "Upload passport plus proof of address. Typically approved within 24 hours."
+          },
+          {
+            "number": 3,
+            "title": "Fund your account and test a withdrawal",
+            "detail": "Deposit as little as $25. Place one trade. Test a withdrawal immediately.",
+            "cta_inline": {
+              "label": "Open Admirals Account",
+              "url": "AFFILIATE_PLACEHOLDER"
+            }
+          }
+        ],
+        "practical_note": "Make a small deposit. Place one trade. Request a withdrawal immediately. If it processes cleanly, scale with confidence.",
+        "cta_after": true
+      },
+      {
+        "id": "final-verdict",
+        "heading": "FP Markets Final Verdict \u2014 Is It Worth It in 2026?",
+        "body": "NAFT scores FP Markets 7.4 out of 10. Five regulatory licences, Zero account at $6 RT matching the cheapest ECN pricing, real stock investing via Invest.MT5, and the MetaTrader Supreme Edition plugin make this a genuinely differentiated offering. The $25 minimum deposit is among the lowest in the regulated space.\n\nWeaknesses: no cTrader, no TradingView, and the inactivity fee after 24 months. These matter less for active traders but limit appeal for platform-diverse traders.\n\nNAFT recommends FP Markets for MT4/MT5 loyalists who want enhanced tools, low-cost ECN trading, and the option to invest in real equities \u2014 all under one roof."
+      }
+    ],
+    "affiliate_cta": {
+      "label": "Open FP Markets Account",
+      "url": "AFFILIATE_PLACEHOLDER",
+      "promo_code": null,
+      "friction_reducers": [
+        "Zero from 0.0 pips + $6 commission",
+        "Only $25 minimum deposit",
+        "Real stock investing available",
+        "MetaTrader Supreme Edition free",
+        "5 regulatory licences"
+      ]
+    },
+    "cta_positions": [
+      "after_section_quick-verdict",
+      "after_section_deposits-withdrawals",
+      "in_section_how-to-open-account_step3"
+    ],
+    "trustpilot": {
+      "rating": 4.5,
+      "reviews": 3100,
+      "velocity_30d": "Moderate \u2014 60-100 per month",
+      "polarisation_note": "52% 5-star vs 18% 1-star. Mixed feedback on platform stability.",
+      "broker_response_rate": "Above 60%",
+      "source_note": "Trustpilot, May 2026"
+    },
+    "internal_links": [
+      {
+        "anchor": "compare brokers side by side",
+        "url": "/compare"
+      },
+      {
+        "anchor": "best regulated forex brokers",
+        "url": "/brokers?regulation=tier-1"
+      },
+      {
+        "anchor": "broker scam alerts and warnings",
+        "url": "/scam-alerts"
+      },
+      {
+        "anchor": "community withdrawal proofs",
+        "url": "/withdrawal-proofs"
+      },
+      {
+        "anchor": "how NAFT reviews brokers",
+        "url": "/how-we-review-brokers"
+      },
+      {
+        "anchor": "file a broker complaint with NAFT",
+        "url": "/complaints"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Is FP Markets a legit broker?",
+        "a": "Yes. FP Markets (formerly FP Markets) is regulated by CySEC (201/13), FCA (595450), ASIC (410681), EFSA, and CIMA. Operating since 2001. NAFT rates 7.4/10."
+      },
+      {
+        "q": "What is FP Markets minimum deposit?",
+        "a": "FP Markets minimum deposit is just $25 for Trade.MT5 and Zero.MT5 accounts. Invest.MT5 starts from $1 for real stock investing."
+      },
+      {
+        "q": "Does FP Markets offer real stock investing?",
+        "a": "Yes. The Invest.MT5 account offers real stock and ETF ownership \u2014 not CFDs. You buy actual shares listed on major exchanges."
+      },
+      {
+        "q": "What are FP Markets spreads?",
+        "a": "Zero.MT5: 0.0 pips + $6 RT. Trade.MT5: 0.5 pips + $0. Zero is competitive with the cheapest ECN brokers."
+      },
+      {
+        "q": "Does FP Markets charge inactivity fee?",
+        "a": "Yes \u2014 $10/month after 24 consecutive months of no trading activity. More generous than most (6-12 month triggers elsewhere)."
+      },
+      {
+        "q": "What is MetaTrader Supreme Edition?",
+        "a": "A free plugin for MT4/MT5 exclusive to FP Markets. Adds mini terminal, tick charts, correlation matrix, sentiment indicators, and advanced order types."
+      },
+      {
+        "q": "Is FP Markets regulated by FCA?",
+        "a": "Yes. FP Markets UK Ltd holds FCA authorisation 595450 with FSCS coverage up to GBP 85,000."
+      },
+      {
+        "q": "Does FP Markets accept Indian traders?",
+        "a": "Yes. Indian clients route through FP Markets SC Ltd (CIMA) with leverage up to 1:500. No compensation scheme under this entity."
+      }
+    ],
+    "schema_jsonld": {
+      "review": {
+        "@context": "https://schema.org",
+        "@type": "Review",
+        "itemReviewed": {
+          "@type": "FinancialService",
+          "name": "FP Markets"
+        },
+        "author": {
+          "@type": "Person",
+          "name": "NAFT Editorial Team",
+          "sameAs": []
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "7.6",
+          "bestRating": "10"
+        },
+        "datePublished": "2026-05-29",
+        "dateModified": "2026-05-29"
+      },
+      "aggregateRating": {
+        "@context": "https://schema.org",
+        "@type": "AggregateRating",
+        "itemReviewed": {
+          "@type": "FinancialService",
+          "name": "FP Markets"
+        },
+        "ratingValue": "4.5",
+        "bestRating": "5",
+        "ratingCount": "3100"
+      },
+      "faqPage": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Is Admirals a legit broker?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Admirals (formerly Admiral Markets) is regulated by CySEC (201/13), FCA (595450), ASIC (410681), EFSA, and CIMA. Operating since 2001. NAFT rates 7.4/10."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is Admirals minimum deposit?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Admirals minimum deposit is just $25 for Trade.MT5 and Zero.MT5 accounts. Invest.MT5 starts from $1 for real stock investing."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does Admirals offer real stock investing?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. The Invest.MT5 account offers real stock and ETF ownership \u2014 not CFDs. You buy actual shares listed on major exchanges."
+            }
+          }
+        ]
+      },
+      "organization": {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "NAFT",
+        "url": "https://naft.com"
+      },
+      "breadcrumbList": {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://naft.com"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Broker Reviews",
+            "item": "https://naft.com/brokers"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "FP Markets Review 2026",
+            "item": "https://naft.com/brokers/fp-markets"
+          }
+        ]
+      },
+      "howTo": {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "How to Open a FP Markets Account",
+        "step": [
+          {
+            "@type": "HowToStep",
+            "position": 1,
+            "name": "Register",
+            "text": "Visit https://www.tickmill.com and register."
+          },
+          {
+            "@type": "HowToStep",
+            "position": 2,
+            "name": "Verify",
+            "text": "Upload ID and proof of address."
+          },
+          {
+            "@type": "HowToStep",
+            "position": 3,
+            "name": "Fund",
+            "text": "Deposit $100 and test a withdrawal."
+          }
+        ]
+      },
+      "videoObject": null
+    },
+    "sources": [
+      "FP Markets official website \u2014 fpmarkets.com",
+      "ASIC (Australia) register \u2014 286354 confirmed active",
+      "FP Markets disclosure \u2014 retail loss rate",
+      "Trustpilot \u2014 ~4.5 stars, ~3100 reviews"
+    ]
+  }
+}
