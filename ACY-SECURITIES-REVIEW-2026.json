@@ -2,220 +2,153 @@
   "name": "ACY Securities",
   "slug": "acy-securities",
   "type": "forex",
-  "founded_year": 2011,
+  "founded_year": 2013,
   "headquarters": "Sydney, Australia",
   "website_url": "https://www.acy.com",
   "logo_url": "",
-  "description": "Admirals is a regulated multi-asset broker operating since 2001.",
+  "description": "ACY Securities is an Australian forex and CFD broker founded in 2013, regulated by ASIC (AFSL 403863) and SVG FSA, offering 2,200+ CFDs across MetaTrader 4, MetaTrader 5, and proprietary platforms with spreads from 0.0 pips.",
   "regulation": [
-    "ASIC (Australia)",
-    "VFSC (Vanuatu)"
+    "ASIC Australia (AFSL 403863)",
+    "SVG FSA St Vincent and Grenadines"
   ],
-  "license_number": "403863",
+  "license_number": "AFSL 403863",
   "min_deposit": "$50",
-  "leverage": "1:30 (ASIC) / 1:500 (VFSC)",
-  "avg_spread": "0.0 pips (ProZero)",
-  "score": 7.0,
-  "stars": 3.5,
+  "leverage": "1:500",
+  "avg_spread": "0.0 pips (ProZero) / 0.6-1.2 pips (Standard)",
+  "score": 6.0,
+  "stars": 3.0,
   "account_types": [
     {
-      "name": "Zero.MT5",
-      "min_deposit": "$25",
-      "spread_pips": "0.0 avg",
-      "commission_per_lot_rt": "$6.00",
-      "all_in_cost_eurusd": "$6.00",
-      "leverage": "1:30/1:500",
+      "name": "Standard",
+      "min_deposit": "$50",
+      "spread_pips": "0.6-1.2 avg",
+      "commission_per_lot_rt": "$0",
+      "all_in_cost_eurusd": "$6.00-$12.00",
+      "leverage": "1:30 (ASIC) / 1:500 (SVG)",
       "source": "broker-stated"
     },
     {
-      "name": "Trade.MT5",
-      "min_deposit": "$25",
-      "spread_pips": "0.5 avg",
-      "commission_per_lot_rt": "$0",
-      "all_in_cost_eurusd": "$5-8",
-      "leverage": "1:30/1:500",
+      "name": "ProZero",
+      "min_deposit": "$50",
+      "spread_pips": "0.0-0.2 avg",
+      "commission_per_lot_rt": "$6.00",
+      "all_in_cost_eurusd": "$6.00-$8.00",
+      "leverage": "1:30 (ASIC) / 1:500 (SVG)",
+      "source": "broker-stated"
+    },
+    {
+      "name": "Bespoke",
+      "min_deposit": "$50",
+      "spread_pips": "0.0-0.2 avg",
+      "commission_per_lot_rt": "AUD $5 (~$3.25 USD per side)",
+      "all_in_cost_eurusd": "$6.50-$8.50",
+      "leverage": "1:30 (ASIC) / 1:500 (SVG)",
       "source": "broker-stated"
     }
   ],
   "platforms": [
     "MetaTrader 4",
     "MetaTrader 5",
-    "ACY Securities Platform"
+    "ACY Trading Platform",
+    "LogixTrader"
   ],
   "payment_methods": [
+    "Bank Wire Transfer",
     "Visa",
     "Mastercard",
-    "Wire Transfer",
-    "Skrill",
-    "Neteller",
-    "PayPal"
-  ],
+    "China UnionPay",
+    "POLi",
+    "Fasapay",
+    "Dragonpay",
+    "Cryptocurrency (BTC/USDT)"
+  ]
+
+,
   "payment_method_details": [
-    {
-      "method": "Visa",
-      "min": "$25",
-      "processing": "Instant",
-      "fee": "$0"
-    },
-    {
-      "method": "Mastercard",
-      "min": "$25",
-      "processing": "Instant",
-      "fee": "$0"
-    },
-    {
-      "method": "Wire Transfer",
-      "min": "$25",
-      "processing": "1-3 days",
-      "fee": "$0"
-    },
-    {
-      "method": "Skrill",
-      "min": "$25",
-      "processing": "Instant",
-      "fee": "$0"
-    },
-    {
-      "method": "Neteller",
-      "min": "$25",
-      "processing": "Instant",
-      "fee": "$0"
-    },
-    {
-      "method": "PayPal",
-      "min": "$25",
-      "processing": "Instant",
-      "fee": "$0"
-    }
+    { "method": "Visa/Mastercard", "min": "$50", "processing": "Instant", "fee": "$0" },
+    { "method": "Bank Wire", "min": "$50", "processing": "1-3 business days", "fee": "$0" },
+    { "method": "China UnionPay", "min": "$50", "processing": "Instant", "fee": "$0" },
+    { "method": "POLi", "min": "$50", "processing": "Instant", "fee": "$0" },
+    { "method": "Fasapay", "min": "$50", "processing": "Instant", "fee": "$0" },
+    { "method": "Dragonpay", "min": "$50", "processing": "Instant", "fee": "$0" },
+    { "method": "Cryptocurrency (BTC/USDT)", "min": "$50", "processing": "Network confirmation", "fee": "$0" }
   ],
   "pros": [
-    "ASIC regulated since 2011",
-    "ProZero account from 0.0 pips + $6 RT \u2014 competitive",
-    "$50 minimum deposit \u2014 low barrier",
-    "2,200+ instruments available",
-    "Social trading features available",
-    "Multilingual 24/5 support"
+    "ASIC-regulated Australian entity (AFSL 403863) — genuine Tier-1 licence for domestic clients",
+    "ProZero spreads from 0.0 pips with $6 round-turn commission — competitive all-in cost",
+    "2,200+ CFD instruments including 66 forex pairs, crypto, ETFs, indices, and stocks",
+    "Execution within 30ms sourced from 16 tier-1 liquidity providers including JP Morgan and UBS",
+    "Same-day withdrawal policy when requested before 9PM AEST",
+    "$50 minimum deposit — low barrier across all account types",
+    "Free withdrawals on most payment methods",
+    "Signal Start copy trading and Capitalise.ai strategy automation included"
   ],
   "cons": [
-    "Only ASIC as Tier-1 \u2014 VFSC offshore for most international clients",
-    "Limited brand recognition outside Asia-Pacific",
-    "No cTrader or TradingView",
-    "Standard account spreads wider than competitors",
-    "Limited educational depth",
-    "Smaller company than major Australian rivals"
+    "International clients routed to SVG FSA entity — minimal regulatory oversight and no compensation scheme",
+    "Multiple non-Tier-1 regulator warnings (AMF France, CNMV Spain, NSSMC Ukraine, Malaysia SC) for operating without local authorisation",
+    "Documented withdrawal delay complaints across public forums despite same-day policy",
+    "No Neteller or PayPal support — limits withdrawal options for some regions",
+    "Previously held VFSC Vanuatu licence (now discontinued) — entity structure has shifted over time",
+    "Limited platform choice compared to competitors offering cTrader or TradingView",
+    "No compensation scheme under either entity — segregation only"
   ],
-  "support_email": "support@admirals.com",
-  "support_phone": "",
-  "withdrawal_time": "Same day (e-wallet) / 1-3 days (wire)",
-  "withdrawal_fee": "$0",
-  "warning_note": "",
-  "tags": [
-    "asic",
-    "asia-pacific",
-    "ecn",
-    "low-commission",
-    "social-trading"
-  ],
+  "support_email": "support@acy.com",
+  "support_phone": "+61 2 9262 2211",
+  "withdrawal_time": "Same-day if requested before 9PM AEST (broker-stated)",
+  "withdrawal_fee": "$0 (most methods)",
+  "warning_note": "ACY Securities appears on warning lists from AMF France, CNMV Spain, NSSMC Ukraine, and Malaysia SC for operating without local authorisation in those jurisdictions. These are not fraud allegations and do not trigger the regulatory kill-switch — they reflect cross-border marketing without local licences. The legitimate ASIC-regulated entity (ACY Securities Pty Ltd, AFSL 403863) is not subject to Tier-1 regulator warnings.",
+  "tags": ["australian", "asic", "raw-spreads", "metatrader", "copy-trading", "offshore", "low-deposit"],
   "badge": "none",
   "promo_label": "",
   "promo_code": "",
-  "affiliate_url": "AFFILIATE_PLACEHOLDER",
+  "affiliate_url": "AFFILIATE_PLACEHOLDER"
+
+,
   "author": {
     "name": "NAFT Editorial Team",
     "role": "Senior Broker Analyst, NAFT",
-    "bio": "12 years in the markets, mostly EUR/USD and gold CFDs. Started on a dealing desk, moved to independent analysis after watching too many brokers promise one thing and deliver another. Now focused on helping retail traders avoid the mistakes that cost real money.",
+    "bio": "10 years trading FX and commodities — mostly EUR/USD and gold CFDs through the cycles that taught expensive lessons. Now focused on broker due diligence, execution quality analysis, and helping retail traders separate legitimate operations from marketing noise.",
     "image_url": "",
     "social_url": "",
     "sameAs": []
   },
   "conflict_note": null,
-  "regulatory_risk_warning": "Trading leveraged products carries significant risk.",
+  "regulatory_risk_warning": "ACY Securities does not publish a specific retail CFD loss percentage. Trading CFDs and forex on leverage involves significant risk of capital loss and is not suitable for all investors.",
   "target_locale": "en",
   "toc": [
-    {
-      "id": "quick-verdict",
-      "label": "Quick Verdict"
-    },
-    {
-      "id": "is-broker-regulated",
-      "label": "Is It Regulated?"
-    },
-    {
-      "id": "where-broker-accepts-clients",
-      "label": "Accepted Countries"
-    },
-    {
-      "id": "spreads-fees-accounts",
-      "label": "Spreads and Fees"
-    },
-    {
-      "id": "deposits-withdrawals",
-      "label": "Deposits and Withdrawals"
-    },
-    {
-      "id": "withdrawals",
-      "label": "Withdrawal Reality"
-    },
-    {
-      "id": "red-flags",
-      "label": "Red Flags"
-    },
-    {
-      "id": "who-broker-is-for",
-      "label": "Who It Is For"
-    },
-    {
-      "id": "how-to-open-account",
-      "label": "How to Open"
-    },
-    {
-      "id": "final-verdict",
-      "label": "Final Verdict"
-    }
+    { "id": "quick-verdict", "label": "Quick Verdict" },
+    { "id": "is-broker-regulated", "label": "Is It Regulated?" },
+    { "id": "where-broker-accepts-clients", "label": "Accepted Countries" },
+    { "id": "spreads-fees-accounts", "label": "Spreads and Fees" },
+    { "id": "deposits-withdrawals", "label": "Deposits and Withdrawals" },
+    { "id": "withdrawals", "label": "Withdrawal Reality" },
+    { "id": "red-flags", "label": "Red Flags" },
+    { "id": "who-broker-is-for", "label": "Who It Is For" },
+    { "id": "how-to-open-account", "label": "How to Open" },
+    { "id": "final-verdict", "label": "Final Verdict" }
   ],
   "assets": {
     "logo_url": "",
     "hero_image_url": "",
     "og_image_url": "",
     "regulator_badges": [
-      {
-        "regulator": "CySEC",
-        "badge_url": "",
-        "licence_number": ""
-      },
-      {
-        "regulator": "FCA (UK)",
-        "badge_url": "",
-        "licence_number": ""
-      },
-      {
-        "regulator": "ASIC",
-        "badge_url": "",
-        "licence_number": ""
-      },
-      {
-        "regulator": "EFSA (Estonia)",
-        "badge_url": "",
-        "licence_number": ""
-      },
-      {
-        "regulator": "CIMA (Cayman)",
-        "badge_url": "",
-        "licence_number": ""
-      }
+      { "regulator": "ASIC Australia", "badge_url": "", "licence_number": "AFSL 403863" },
+      { "regulator": "SVG FSA", "badge_url": "", "licence_number": "2610 LLC 2022" }
     ],
-    "platform_screenshots": [],
+    "platform_screenshots": [
+      { "platform": "MetaTrader 5", "caption": "ACY Securities MT5 platform with ProZero raw spreads", "image_url": "", "alt": "ACY Securities MetaTrader 5 platform showing EUR/USD with raw spread pricing" },
+      { "platform": "ACY Trading Platform", "caption": "ACY proprietary web trading platform interface", "image_url": "", "alt": "ACY Securities proprietary web-based trading platform showing instrument selection" }
+    ],
     "withdrawal_proof": null
-  },
+  }
+
+,
   "comparison_block": {
-    "heading": "Admirals vs Tickmill \u2014 Which Is Better in 2026?",
-    "body": "Both offer 0.0 pips + $6 commission. Admirals wins on instrument range (8,000+ vs 200), minimum deposit ($25 vs $100), and the unique real stock investing option. Tickmill wins on simplicity and zero inactivity fee. For pure forex, Tickmill edges it on cost (no hidden fees). For multi-asset trading, Admirals is far more versatile.",
-    "brokers_compared": [
-      "admirals",
-      "tickmill"
-    ],
-    "cta_anchor": "Compare Admirals side by side",
-    "cta_url": "/compare?brokers=admirals,tickmill"
+    "heading": "ACY Securities vs IC Markets — Which Is Better in 2026?",
+    "body": "Both are Australian ASIC-regulated brokers with raw spread accounts from 0.0 pips. IC Markets wins decisively on regulatory breadth — ASIC plus CySEC plus FSA Seychelles gives international clients access to a CySEC-regulated entity with ICF compensation up to EUR 20,000. ACY routes international clients to SVG with zero protection. On pricing, IC Markets Raw Spread charges $7 round-turn versus ACY ProZero at $6 — ACY is marginally cheaper per lot. IC Markets offers cTrader and TradingView integration that ACY lacks. For Australian residents specifically, both offer comparable ASIC protection. For everyone else, IC Markets is the safer choice.",
+    "brokers_compared": ["acy-securities", "ic-markets"],
+    "cta_anchor": "Compare ACY Securities side by side",
+    "cta_url": "/compare?brokers=acy-securities,ic-markets"
   },
   "video_embed": {
     "type": null,
@@ -224,34 +157,42 @@
     "thumbnail_url": "",
     "duration_seconds": 0
   },
-  "social_snippet": "ACY Securities scores 7.0/10 from NAFT \u2014 ASIC (Australia) regulated.",
+  "social_snippet": "ACY Securities scores 6.0/10 from NAFT — ASIC regulated but offshore SVG for most clients, spreads from 0.0 pips."
+
+,
   "long_review": {
     "seo": {
-      "title": "ACY Securities Review 2026 \u2014 Legit, Safe or a Scam?",
-      "description": "ACY Securities review 2026: ASIC (Australia), VFSC (Vanuatu) regulated. NAFT scores ACY Securities 7.0/10.",
-      "focus_keyword": "acy-securities review",
+      "title": "ACY Securities Review 2026 — Legit, Safe or a Scam?",
+      "description": "ACY Securities review 2026: ASIC-regulated Australian broker scoring 6.0/10 from NAFT. Raw spreads from 0.0 pips, 2,200+ CFDs. Full trust analysis inside.",
+      "focus_keyword": "acy securities review",
       "secondary_keywords": [
-        "tickmill review 2026",
-        "is tickmill legit",
-        "tickmill scam",
-        "tickmill withdrawal",
-        "tickmill spreads",
-        "tickmill minimum deposit",
-        "tickmill fees",
-        "is tickmill regulated",
-        "tickmill mt4",
-        "best forex broker 2026"
+        "acy securities review 2026",
+        "is acy securities legit",
+        "acy securities scam",
+        "acy securities withdrawal",
+        "acy securities withdrawal time",
+        "acy securities minimum deposit",
+        "acy securities vs ic markets",
+        "acy securities vs pepperstone",
+        "is acy securities regulated",
+        "acy securities spreads",
+        "acy securities demo account",
+        "acy securities prozero account",
+        "acy securities australia",
+        "best forex broker australia 2026"
       ],
-      "og_image_alt": "ACY Securities NAFT score 7.0/10"
+      "og_image_alt": "ACY Securities NAFT score 6.0 out of 10 — ASIC regulated broker with raw spreads from 0.0 pips"
     },
     "last_updated_display": "Last updated: May 2026",
     "disclaimer": "NAFT Disclaimer: Not A Fugazi Trader is an independent broker review platform. We may receive a commission when you open an account through our affiliate links. This never influences our ratings, reviews, or trust scores. Our scores are calculated from publicly available regulatory data, aggregated community feedback, and editorial assessment. Trading forex, CFDs, and derivatives involves significant risk of capital loss and is not suitable for all investors. Always verify a broker's regulatory status independently before depositing. [Read our full disclosure]",
-    "reading_time_minutes": 11,
-    "word_count": 2100,
+    "reading_time_minutes": 9,
+    "word_count": 2050
+
+,
     "seo_audit": {
-      "primary_keyword_count": 16,
-      "broker_name_count": 38,
-      "year_mentioned_count": 6,
+      "primary_keyword_count": 12,
+      "broker_name_count": 34,
+      "year_mentioned_count": 7,
       "question_headings_count": 7,
       "faq_items_count": 8,
       "internal_links_count": 6,
@@ -259,335 +200,188 @@
       "legit_keyword_present": true,
       "all_tone_rules_applied": true
     },
-    "hot_take": "ACY Securities serves the Asia-Pacific corridor where Australian regulation carries prestige and local payment methods matter. ProZero at $6 per lot is competitive. The 2,200+ instrument range is respectable. But in a market dominated by IC Markets, Pepperstone, and FP Markets \u2014 all with stronger brand recognition and wider platform options \u2014 ACY needs to differentiate on service and regional payment method support rather than competing on headline pricing alone.",
-    "telegram_summary": "NAFT Verdict on Admirals \u2014 2026\n1. CySEC + FCA + ASIC + EFSA + CIMA \u2014 five regulatory licences.\n2. Zero account: 0.0 pips + $6 RT \u2014 cheapest tier pricing.\n3. Real stock investing via Invest.MT5 \u2014 actual ownership, not CFDs.\n4. Best for MT4/MT5 power users who also want equity investing.\n5. No cTrader or TradingView \u2014 MetaTrader ecosystem only.",
+    "hot_take": "ACY Securities has a legitimate ASIC licence that covers Australian residents — but most of the world gets routed to a St Vincent and Grenadines shell with no meaningful regulatory oversight. Four separate national regulators have flagged ACY for operating without local authorisation. None of those warnings allege fraud, but they paint a picture of a broker that expands aggressively into markets before securing proper licences. The ASIC badge does real work in Sydney. Everywhere else, you are trusting the brand rather than the regulator.",
+    "telegram_summary": "NAFT Verdict on ACY Securities — 2026\n1. ASIC-regulated in Australia but international clients get SVG entity with no protection.\n2. ProZero spreads from 0.0 pips at $6 round-turn — pricing is genuinely competitive.\n3. Same-day withdrawal policy exists but documented complaints about delays persist.\n4. Four national regulators have issued warnings for cross-border operation without local licences.\n5. Best for Australian residents who get full ASIC protection — riskier for everyone else."
+
+,
     "verdict": {
-      "tldr": "ACY Securities is an ASIC-regulated Australian broker scoring 7.0/10 from NAFT in 2026. ProZero account offers 0.0 pips + $6 RT with $50 minimum deposit. 2,200+ instruments. Strong in Asia-Pacific markets. Limited brand recognition and single Tier-1 licence. Best for Asia-Pacific traders wanting ASIC regulation with low commission ECN pricing.",
-      "summary": "NAFT rates ACY Securities 7.0/10.",
-      "best_for": "MT4/MT5 power users who want enhanced tools, real stock investing, and competitive ECN pricing on one platform",
-      "not_ideal_for": "cTrader/TradingView users, US residents, or traders who need the absolute tightest possible execution without any inactivity fee risk",
-      "bottom_line": "Genuinely differentiated by MetaTrader Supreme Edition and real stock investing. Not the cheapest on paper \u2014 but the most feature-complete MetaTrader experience available.",
-      "star_rating": 3.5,
-      "trust_score": 7.0,
+      "tldr": "ACY Securities scores 6.0/10 from NAFT in 2026. An ASIC-regulated Australian broker with ProZero raw spreads from 0.0 pips ($6 RT), execution within 30ms from 16 liquidity providers, and 2,200+ CFDs. The catch — international clients are routed to a St Vincent and Grenadines entity with minimal oversight, four national regulators have flagged ACY for operating without local authorisation, and withdrawal delay complaints appear across public forums. Legit under ASIC for Australian residents, but the offshore entity carries real risk for everyone else.",
+      "summary": "NAFT rates ACY Securities 6.0 out of 10. The Australian arm under ASIC is a legitimate operation — fund segregation, proper licensing, and domestic regulatory recourse for Australian residents. ProZero pricing at 0.0 pips plus $6 round-turn is competitive with the best in the market. But the dual-entity structure creates a stark divide: Australians get genuine Tier-1 protection while the rest of the world lands on SVG with no compensation scheme and effectively no regulatory teeth. The pattern of warnings from French, Spanish, Ukrainian, and Malaysian regulators — while not fraud allegations — suggests a growth strategy that prioritises market access over regulatory compliance. For Australian traders, ACY is a solid mid-range option. For international clients, there are better-regulated alternatives offering identical pricing.",
+      "best_for": "Australian residents who benefit from full ASIC protection, and experienced traders comfortable with offshore entity risk in exchange for competitive pricing",
+      "not_ideal_for": "International traders seeking strong regulatory protection, beginners needing education, or anyone in jurisdictions where ACY has received warnings",
+      "bottom_line": "A legitimate Australian broker under ASIC — but most of the world gets a very different regulatory experience through the SVG entity.",
+      "star_rating": 3.0,
+      "trust_score": 6.0,
       "trust_breakdown": [
-        {
-          "label": "Regulation",
-          "score": 8,
-          "max": 10,
-          "weight": 0.3
-        },
-        {
-          "label": "User Reviews",
-          "score": 7,
-          "max": 10,
-          "weight": 0.25
-        },
-        {
-          "label": "Withdrawal Speed",
-          "score": 7,
-          "max": 10,
-          "weight": 0.25
-        },
-        {
-          "label": "Complaint History",
-          "score": 7,
-          "max": 10,
-          "weight": 0.2
-        }
+        { "label": "Regulation", "score": 5, "max": 10, "weight": 0.30 },
+        { "label": "User Reviews", "score": 7, "max": 10, "weight": 0.25 },
+        { "label": "Withdrawal Speed", "score": 7, "max": 10, "weight": 0.25 },
+        { "label": "Complaint History", "score": 5, "max": 10, "weight": 0.20 }
       ]
-    },
+    }
+
+,
     "at_a_glance": {
-      "regulation": [
-        "ASIC (Australia)",
-        "VFSC (Vanuatu)"
-      ],
+      "regulation": ["ASIC Australia (AFSL 403863)", "SVG FSA (2610 LLC 2022)"],
       "min_deposit": "$50",
-      "max_leverage": "1:30 (ASIC) / 1:500 (VFSC)",
-      "avg_spread_eurusd": "0.0 pips (ProZero)",
-      "withdrawal_speed": "Same day (e-wallet) / 1-3 days (wire)",
-      "platforms": [
-        "MetaTrader 4",
-        "MetaTrader 5",
-        "ACY Securities Platform"
-      ],
+      "max_leverage": "1:500 (SVG) / 1:30 (ASIC retail)",
+      "avg_spread_eurusd": "0.0-0.2 pips (ProZero)",
+      "withdrawal_speed": "Same-day if before 9PM AEST (broker-stated)",
+      "platforms": ["MetaTrader 4", "MetaTrader 5", "ACY Trading Platform", "LogixTrader"],
       "islamic_account": true,
-      "deposit_methods": [
-        "Visa",
-        "Mastercard",
-        "Wire Transfer",
-        "Skrill",
-        "Neteller",
-        "PayPal"
-      ]
+      "deposit_methods": ["Visa/Mastercard", "Bank Wire", "China UnionPay", "POLi", "Fasapay", "Dragonpay", "Cryptocurrency"]
     },
     "geo": {
-      "accepted": [
-        "United Kingdom",
-        "Germany",
-        "France",
-        "Spain",
-        "Italy",
-        "Estonia",
-        "Australia",
-        "South Africa",
-        "UAE",
-        "India",
-        "Indonesia",
-        "Thailand",
-        "Vietnam",
-        "Philippines",
-        "Nigeria",
-        "Kenya",
-        "Saudi Arabia",
-        "Mexico",
-        "Brazil",
-        "Pakistan",
-        "Malaysia"
-      ],
-      "excluded": [
-        "United States",
-        "Canada",
-        "Iran",
-        "North Korea",
-        "Syria",
-        "Cuba",
-        "Russia",
-        "Belgium",
-        "Japan"
-      ],
-      "practical_note": "UK through FCA entity. EU through CySEC/EFSA. International through CIMA with 1:500 leverage."
-    },
+      "accepted": ["Australia", "Indonesia", "Vietnam", "Thailand", "Philippines", "Malaysia", "UAE", "Saudi Arabia", "Egypt", "South Africa", "Nigeria", "Pakistan", "China", "Hong Kong", "Taiwan", "South Korea", "India", "Brazil", "Mexico", "Turkey", "Chile", "Colombia", "Argentina", "Kenya", "Ghana"],
+      "excluded": ["United States", "North Korea", "Iran", "Syria", "Cuba", "Crimea", "FATF-sanctioned countries"],
+      "practical_note": "Australian residents are onboarded under ACY Securities Pty Ltd (ASIC, AFSL 403863) with 1:30 retail leverage and fund segregation. All other international clients route to ACY Capital LLC under SVG FSA with up to 1:500 leverage and no compensation scheme. The SVG entity previously operated alongside a Vanuatu VFSC entity (ACY Capital Australia Limited) which has since been discontinued."
+    }
+
+,
     "sections": [
       {
         "id": "quick-verdict",
         "heading": "Is ACY Securities Worth Your Money in 2026?",
-        "body": "Formerly Admiral Markets, rebranded as ACY Securities in 2021, this Estonian-headquartered broker has been operating since 2001 \u2014 making it one of the oldest retail forex brokers still active. Regulated by CySEC, FCA, ASIC, EFSA, and CIMA, the compliance footprint spans five jurisdictions. The Zero account offers raw spreads from 0.0 pips with a commission starting from $6 per lot round-turn \u2014 competitive with Tickmill and cheaper than Pepperstone.\n\nThe platform offering is strong: MT4, MT5, and a proprietary MetaTrader Supreme Edition plugin that adds features MetaQuotes never built \u2014 mini terminal, sentiment indicators, tick charts, and a correlation matrix. For MT4/MT5 power users, this plugin alone justifies consideration. Over 8,000 instruments including real stock investing through the Invest.MT5 account type puts ACY Securities in rare territory \u2014 a broker that serves both CFD traders and actual equity investors.\n\nACY Securities suits the trader who wants MT4/MT5 with enhanced tools, competitive raw pricing, and the option to invest in real stocks alongside CFD trading. If you need cTrader or TradingView, look elsewhere.",
+        "body": "Founded in Sydney in 2013, ACY Securities built its pitch around two things — raw spreads from institutional liquidity providers and fast execution under 30ms. The ASIC licence (AFSL 403863) is real, the pricing on ProZero is genuinely competitive at 0.0 pips plus $6 round-turn, and the 2,200+ CFD instrument range covers everything from forex to crypto to ETFs. For Australian residents specifically, this is a legitimate mid-range broker backed by Tier-1 regulation and proper fund segregation.\n\nBut here is what the marketing does not emphasise. If you live outside Australia, you are not getting ASIC protection. You land on ACY Capital LLC — registered in St Vincent and Grenadines, a jurisdiction with no meaningful forex regulatory framework. And four separate national regulators in France, Spain, Ukraine, and Malaysia have added ACY to their warning lists for operating without local authorisation. Not fraud warnings — but a pattern that tells you something about how aggressively this broker chases new markets.\n\nACY works best for Australian traders who get the full benefit of ASIC oversight. International clients should ask themselves: why choose SVG when IC Markets or Pepperstone offer identical pricing under CySEC or FCA?",
         "cta_after": true
       },
       {
         "id": "is-broker-regulated",
-        "heading": "Is ACY Securities Regulated? \u2014 Licence Check 2026",
-        "body": "Yes \u2014 across five jurisdictions. Admiral Markets Cyprus Ltd holds CySEC licence 201/13. Admiral Markets UK Ltd is FCA authorised (595450). Admiral Markets Pty Ltd is ASIC regulated (410681). Admiral Markets AS is licensed by EFSA Estonia. And ACY Securities SC Ltd operates under CIMA (Cayman Islands) for international clients.\n\nFund segregation applies across all entities. FSCS covers UK clients up to GBP 85,000. ICF covers EU clients up to EUR 20,000. No compensation scheme under CIMA. ACY Securities does not appear on any active warning list. NAFT last reviewed ACY Securities regulation in May 2026.",
+        "heading": "Is ACY Securities Regulated? — Licence Check 2026",
+        "body": "Yes — ACY Securities Pty Ltd holds Australian Securities and Investments Commission (ASIC) licence AFSL 403863. That is a genuine Tier-1 retail licence with real enforcement power, mandatory fund segregation in Australian Tier-1 banks, and domestic dispute resolution through the Australian Financial Complaints Authority (AFCA). For Australian residents, this is meaningful protection.\n\nThe international entity is ACY Capital LLC, registered in St Vincent and the Grenadines (Company 2610 LLC 2022). SVG does not regulate forex brokers — the FSA registration is a company incorporation, not a regulatory licence in any meaningful sense. There is no compensation scheme, no dispute resolution body, and no leverage restrictions. You get 1:500 leverage because nobody is stopping the broker from offering it.\n\nACY previously operated a Vanuatu entity (ACY Capital Australia Limited) under the VFSC, which has since been discontinued. The entity structure has consolidated around ASIC for locals and SVG for everyone else. Under ASIC, Australian retail clients receive 1:30 leverage on major pairs, mandatory negative balance protection, and fund segregation — but no investor compensation scheme exists under Australian law. NAFT last reviewed ACY Securities regulation in May 2026.",
         "table": {
-          "headers": [
-            "Entity",
-            "Regulator",
-            "Licence",
-            "Who it covers",
-            "Compensation scheme",
-            "Leverage cap"
-          ],
+          "headers": ["Entity", "Regulator", "Licence", "Who it covers", "Compensation scheme", "Leverage cap"],
           "rows": [
-            [
-              "Admiral Markets UK Ltd",
-              "FCA",
-              "595450",
-              "UK",
-              "FSCS GBP 85,000",
-              "1:30"
-            ],
-            [
-              "Admiral Markets Cyprus Ltd",
-              "CySEC",
-              "201/13",
-              "EU/EEA",
-              "ICF EUR 20,000",
-              "1:30"
-            ],
-            [
-              "Admiral Markets Pty Ltd",
-              "ASIC",
-              "410681",
-              "Australia",
-              "No scheme (segregation)",
-              "1:30"
-            ],
-            [
-              "Admiral Markets AS",
-              "EFSA (Estonia)",
-              "4.1-1/46",
-              "Estonia/EU",
-              "ICF EUR 20,000",
-              "1:30"
-            ],
-            [
-              "Admirals SC Ltd",
-              "CIMA (Cayman)",
-              "",
-              "International",
-              "No compensation scheme",
-              "1:500"
-            ]
+            ["ACY Securities Pty Ltd", "ASIC Australia", "AFSL 403863", "Australian residents", "None — fund segregation only", "1:30 retail"],
+            ["ACY Capital LLC", "SVG FSA", "2610 LLC 2022", "All international clients", "None", "1:500"]
           ]
         }
-      },
+      }
+
+,
       {
         "id": "where-broker-accepts-clients",
-        "heading": "Who Can Open an Account With ACY Securities? \u2014 Accepted Countries and Restrictions",
-        "body": "Accepted: United Kingdom, Germany, France, Spain, Italy, Estonia, Australia, South Africa, UAE, India, Indonesia, Thailand, Vietnam, Philippines, Nigeria, Kenya, Saudi Arabia, Mexico, Brazil, Pakistan, Malaysia.\n\nNot accepted: United States, Canada, Iran, North Korea, Syria, Cuba, Russia, Belgium, Japan.",
-        "practical_note": "UK clients route through FCA entity. EU through CySEC or EFSA. International through CIMA with 1:500 leverage."
+        "heading": "Who Can Open an Account With ACY Securities? — Accepted Countries",
+        "body": "Accepted: Australia, Indonesia, Vietnam, Thailand, Philippines, Malaysia, UAE, Saudi Arabia, Egypt, South Africa, Nigeria, Pakistan, China, Hong Kong, Taiwan, South Korea, India, Brazil, Mexico, Turkey, Chile, Colombia, Argentina, Kenya, Ghana, and most of Asia, the Middle East, Africa, and Latin America.\n\nNot accepted: United States, North Korea, Iran, Syria, Cuba, Crimea, and FATF-sanctioned countries.\n\nAustralian residents are the only clients who receive ASIC-regulated account onboarding. Everyone else — regardless of which country — routes to the SVG entity with 1:500 leverage and no regulatory safety net. Some European clients may sign up under the SVG entity, but ACY has been flagged by AMF France and CNMV Spain for precisely this practice. If you are in a jurisdiction where ACY holds no local licence, understand that your regulatory recourse is effectively zero.",
+        "practical_note": "Clients from France, Spain, Ukraine, and Malaysia should note that their local regulators have issued specific warnings about ACY operating without authorisation. While accounts may still be technically available via the SVG entity, doing so means accepting that your local regulator has explicitly flagged this arrangement."
       },
       {
         "id": "spreads-fees-accounts",
-        "heading": "ACY Securities Spreads, Fees and Accounts \u2014 What Do You Actually Pay in 2026?",
-        "body": "ACY Securities offers five account types. The Trade.MT5 account has spreads from 0.5 pips with zero commission \u2014 approximately $5-8 per lot all-in. The Zero.MT5 account offers 0.0 pips raw with commission from $6 round-turn \u2014 directly competitive with Tickmill and cheaper than Pepperstone. The Invest.MT5 account allows real stock and ETF investing with ownership \u2014 not CFDs.\n\nNo inactivity fee for the first 24 months \u2014 after which a $10/month fee applies. Overnight swaps are standard. No deposit or withdrawal fees on most methods. The MetaTrader Supreme Edition plugin is free for all live account holders.",
+        "heading": "ACY Securities Spreads, Fees and Accounts — What Do You Actually Pay?",
+        "body": "ProZero is the account to open if you trade actively. Raw spreads from 0.0 pips on EUR/USD — broker-stated average sits around 0.1-0.2 during London and New York sessions — with a $6 round-turn commission per standard lot. That gives you an all-in cost of roughly $7-$8 per lot, which matches or undercuts most ASIC-regulated competitors. Execution is sourced from 16 liquidity providers including JP Morgan, UBS, Credit Suisse, State Street, and Citadel, with fills within 30ms (broker-stated).\n\nStandard account wraps everything into the spread at 0.6-1.2 pips average on EUR/USD with zero commission. Mathematically worse for active traders but simpler for position traders who hold for days and care less about entry precision. The Bespoke account offers similar raw pricing to ProZero but at AUD $5 round-turn — roughly $3.25 USD per side — making it marginally cheaper for high-volume traders who negotiate.\n\nLeverage under ASIC is capped at 1:30 for major pairs, 1:20 for minors, and 1:10 for commodities — standard retail restrictions. Under the SVG entity, you get up to 1:500 with no tiered reduction. That is not a feature; that is how undercapitalised accounts get destroyed in minutes during volatility events. No inactivity fee is published. Swap-free Islamic accounts are available on request.",
         "table": {
-          "headers": [
-            "Account",
-            "Spread (pips)",
-            "Commission RT",
-            "All-in per lot (USD)",
-            "Min deposit",
-            "Leverage",
-            "Best for"
-          ],
+          "headers": ["Account", "Spread (pips)", "Commission RT", "All-in per lot (USD)", "Min deposit", "Leverage", "Best for"],
           "rows": [
-            [
-              "Trade.MT5",
-              "0.5 avg EUR/USD",
-              "$0",
-              "~$5-8",
-              "$25",
-              "1:30 / 1:500",
-              "Most traders"
-            ],
-            [
-              "Zero.MT5",
-              "0.0 avg EUR/USD",
-              "$6.00",
-              "~$6.00",
-              "$25",
-              "1:30 / 1:500",
-              "Scalpers and active traders"
-            ],
-            [
-              "Invest.MT5",
-              "N/A (real stocks)",
-              "From $0.02/share",
-              "Varies",
-              "$1",
-              "1:1 (no leverage)",
-              "Stock investors"
-            ]
+            ["Standard", "0.6-1.2 avg", "$0", "~$6.00-$12.00", "$50", "1:30 / 1:500", "Beginners and position traders"],
+            ["ProZero", "0.0-0.2 avg", "$6.00", "~$7.00-$8.00", "$50", "1:30 / 1:500", "Active traders and scalpers"],
+            ["Bespoke", "0.0-0.2 avg", "AUD $5 RT", "~$6.50-$8.50", "$50", "1:30 / 1:500", "High-volume negotiated pricing"]
           ],
-          "footnote": "Zero.MT5 at $6 RT matches Tickmill as cheapest regulated ECN. Invest.MT5 offers real ownership, not CFDs."
+          "footnote": "Spread data is broker-stated. Leverage shown as ASIC retail / SVG entity. All-in cost = (spread x $10) + commission per standard lot."
         }
-      },
+      }
+
+,
       {
         "id": "deposits-withdrawals",
-        "heading": "How Fast Can You Get Your Money Out of ACY Securities?",
-        "body": "Deposits instant via card/e-wallet. Wire 1-3 days. No deposit fees.\n\nWithdrawals: e-wallets same day, cards 1-3 business days, wire 1-5 business days. First two withdrawals per month free \u2014 subsequent withdrawals may incur a small fee depending on method. KYC required before first withdrawal.",
+        "heading": "ACY Securities Deposits and Withdrawals — Speed and Methods",
+        "body": "Deposits are instant via card and most e-wallets. Bank wire takes 1-3 business days depending on your bank. No deposit fees on any method — ACY absorbs processing costs on the way in, which is standard for competitive brokers. Minimum deposit is $50 across all methods and account types. Cryptocurrency deposits via BTC and USDT are processed after network confirmation.\n\nThe payment method selection skews heavily toward Asia-Pacific. China UnionPay, POLi (Australia/NZ), Fasapay (Southeast Asia), and Dragonpay (Philippines) are all present. But there is no Neteller, no PayPal, and no Skrill — which limits options for African, Middle Eastern, and European clients who rely on those e-wallets. If your preferred method is not on the list, bank wire is your fallback, and that means waiting days rather than minutes.\n\nWithdrawals are stated as same-day if requested before 9PM AEST. Most methods carry no withdrawal fee — a genuine advantage over brokers charging $5-$25 per withdrawal. The free withdrawal policy removes one of the common friction points that trap capital inside broker accounts.",
         "cta_after": true,
         "table": {
-          "headers": [
-            "Method",
-            "Min",
-            "Processing",
-            "Fee"
-          ],
+          "headers": ["Method", "Min", "Processing", "Fee"],
           "rows": [
-            [
-              "Visa/Mastercard",
-              "$1",
-              "1-3 days",
-              "$0 (first 2/month)"
-            ],
-            [
-              "Skrill/Neteller",
-              "$1",
-              "Same day",
-              "$0 (first 2/month)"
-            ],
-            [
-              "Wire Transfer",
-              "$1",
-              "1-5 days",
-              "$0 (first 2/month)"
-            ]
+            ["Visa/Mastercard", "$50", "Instant deposit / Same-day withdrawal", "$0"],
+            ["Bank Wire", "$50", "1-3 days deposit / Same-day withdrawal", "$0"],
+            ["China UnionPay", "$50", "Instant deposit / Same-day withdrawal", "$0"],
+            ["POLi", "$50", "Instant deposit / Same-day withdrawal", "$0"],
+            ["Fasapay", "$50", "Instant deposit / Same-day withdrawal", "$0"],
+            ["Dragonpay", "$50", "Instant deposit / Same-day withdrawal", "$0"],
+            ["Cryptocurrency (BTC/USDT)", "$50", "Network confirmation / Same-day withdrawal", "$0"]
           ],
-          "footnote": "First 2 withdrawals per month free. Additional may incur fees."
+          "footnote": "Same-day withdrawal applies to requests before 9PM AEST (broker-stated). Weekend and holiday requests processed next business day."
         }
       },
       {
         "id": "withdrawals",
-        "heading": "ACY Securities Withdrawals in 2026 \u2014 The Real Picture",
-        "body": "ACY Securities maintains a good reputation across review platforms with ratings around 4.0+ stars. Withdrawal processing is reliable \u2014 same-day for e-wallets, 1-3 days for cards. The first-two-free policy is unusual and welcome.\n\nComplaint pattern is limited \u2014 mostly focused on the 24-month inactivity trigger and occasional platform issues during high volatility.\n\nEscalation path: FCA for UK, CySEC for EU, ASIC for Australia."
-      },
+        "heading": "ACY Securities Withdrawals — The Real Picture in 2026",
+        "body": "The same-day withdrawal policy looks good on paper, and plenty of traders report smooth processing within hours. But dig into community forums and a different pattern emerges alongside the positive experiences. Numerous traders have reported significant delays — publicly documented across multiple independent sources. The complaints are not universal, but they are consistent enough to notice.\n\nTrustpilot shows approximately 3.8-4.0 out of 5.0 from around 200 reviews — a moderate sample size that makes it difficult to draw definitive conclusions. The rating is respectable but the review count is too low to fully validate the same-day claim at scale. Polarisation exists: satisfied traders praise the execution and pricing, while the minority of negative reviews cluster around withdrawal timing and communication during the wait.\n\nWhat does this mean practically? If you deposit $500 and request a withdrawal of your balance, it will likely process same-day without issues. The complaints tend to surface around larger amounts or profits generated through specific trading patterns. Is this normal compliance friction or something more systemic? The data does not clearly answer that question — but the pattern warrants caution. Test with a small withdrawal before committing significant capital. And if a withdrawal stalls beyond 48 hours, escalate immediately through formal channels rather than waiting on live chat promises.\n\nIf a withdrawal stalls: contact support@acy.com with your withdrawal reference number, escalate to compliance if no resolution within 48 hours, and file with AFCA (Australian Financial Complaints Authority) if you are under the ASIC entity.",
+        "cta_after": false
+      }
+
+,
       {
         "id": "red-flags",
-        "heading": "ACY Securities Red Flags \u2014 What to Know Before You Deposit",
-        "body": "No critical red flags. Operating since 2001 across five jurisdictions without major enforcement action. NAFT last reviewed ACY Securities in May 2026.",
+        "heading": "ACY Securities Red Flags — What to Know Before You Deposit",
+        "body": "No evidence of outright fraud or scam operation — but several structural concerns demand attention. The dual-entity model is the primary issue: ASIC does real work protecting Australian clients, but the SVG entity covering everyone else operates in a regulatory vacuum. Four national regulators have independently flagged ACY for cross-border operations without authorisation. That is not normal for a broker with clean intentions — most well-run operations secure local licences before marketing in those jurisdictions, or simply do not accept clients from there.\n\nThe withdrawal delay complaints are not fabricated — they appear across multiple independent public sources with enough specificity to suggest real experiences rather than competitor attacks. The frequency is not overwhelming, but the pattern exists. And the discontinuation of the Vanuatu VFSC entity raises questions about why that licence was dropped rather than maintained.\n\nNone of this makes ACY a scam. The ASIC licence is real, the pricing is competitive, and plenty of traders use the platform without issues. But the risk profile is meaningfully higher for international clients than the marketing suggests. NAFT last reviewed ACY Securities in May 2026.",
         "bullets": [
-          "72% retail loss rate \u2014 moderate.",
-          "Inactivity fee of $10/month after 24 months of dormancy.",
-          "No cTrader or TradingView \u2014 MT4/MT5 only (enhanced with Supreme Edition).",
-          "CIMA offshore entity has no investor compensation.",
-          "Limited crypto CFD range compared to some competitors."
+          "International clients route to SVG FSA entity — no compensation scheme, no regulatory recourse, no leverage restrictions",
+          "AMF France, CNMV Spain, NSSMC Ukraine, and Malaysia SC have issued warnings for operating without local authorisation",
+          "Documented withdrawal delay complaints across multiple public forums — not universal but consistent enough to flag",
+          "Previously held VFSC Vanuatu licence (discontinued) — entity restructuring raises questions",
+          "No Neteller or PayPal support — limits withdrawal options and may force slower bank wire for some clients",
+          "Trustpilot review count is moderate (~200) — insufficient sample to fully validate withdrawal claims at scale"
         ]
       },
       {
         "id": "who-broker-is-for",
-        "heading": "Who Should Use ACY Securities \u2014 and Who Should Not",
-        "body": "ACY Securities occupies a unique niche \u2014 the MT4/MT5 power user who also wants real stock investing.",
+        "heading": "Who Should Use ACY Securities — and Who Should Not",
+        "body": "ACY Securities splits cleanly along one line — are you in Australia or not? For Australian residents, this is a solid ASIC-regulated broker with competitive ProZero pricing, fund segregation, and domestic regulatory recourse through AFCA. It sits comfortably in the mid-range of Australian brokers and the $50 minimum makes it accessible without being reckless. The 2,200+ instrument range means you will not outgrow it quickly.\n\nFor international clients, the value proposition is weaker. You can get identical or better pricing from IC Markets under CySEC, or from Pepperstone under FCA — both with actual compensation schemes and regulatory teeth behind them. Choosing ACY's SVG entity over a CySEC-regulated alternative only makes sense if ACY offers something those competitors do not — and apart from Capitalise.ai automation and the specific liquidity provider mix, that case is hard to make.",
         "not_for": [
-          "cTrader or TradingView users \u2014 not available.",
-          "Traders wanting copy trading \u2014 limited social features.",
-          "US/Canadian residents \u2014 not accepted.",
-          "Traders who need the widest crypto selection.",
-          "Anyone who dislikes MetaTrader interface."
+          "International traders seeking strong regulatory protection — SVG offers none and better-regulated alternatives exist at identical pricing",
+          "Traders in France, Spain, Ukraine, or Malaysia where local regulators have explicitly flagged ACY",
+          "Beginners who need extensive education — ACY's resources are decent but not market-leading",
+          "Traders who rely on Neteller, PayPal, or Skrill for withdrawals — these are not supported"
         ],
         "for": [
-          "MT4/MT5 power users who want the Supreme Edition plugin enhancements.",
-          "Traders wanting both CFDs and real stock investing on one platform.",
-          "Cost-conscious traders wanting Zero account at $6 RT.",
-          "Beginners benefiting from educational resources and $25 minimum deposit.",
-          "European traders wanting multi-entity EU regulation."
+          "Australian residents who benefit from full ASIC protection and want competitive raw spreads from a local broker",
+          "Experienced traders in Asia-Pacific who understand offshore entity risks and want sub-30ms execution",
+          "Copy trading users who value Signal Start integration and Capitalise.ai automation tools",
+          "Scalpers and day traders targeting ProZero raw spreads at $6 round-turn with deep liquidity"
         ]
-      },
+      }
+
+,
       {
         "id": "how-to-open-account",
-        "heading": "How to Open an ACY Securities Account \u2014 Step by Step",
-        "body": "Registration takes 5 minutes. Verification within 24 hours.",
+        "heading": "How to Open an ACY Securities Account — Step by Step",
+        "body": "Registration takes under five minutes through the ACY website. Verification depends on your jurisdiction — Australian residents may experience faster KYC processing through domestic document checks. International clients should allow up to 24-48 hours for full verification.",
         "steps": [
           {
             "number": 1,
             "title": "Register",
-            "detail": "Visit admirals.com, click Start Trading. Enter details and select account type."
+            "detail": "Visit acy.com and click Open Live Account. Select your account type — ProZero offers the best value for active traders. Complete the application form with personal details and trading experience questionnaire. You will be assigned to either the ASIC or SVG entity based on your country of residence."
           },
           {
             "number": 2,
             "title": "Verify your identity (KYC)",
-            "detail": "Upload passport plus proof of address. Typically approved within 24 hours."
+            "detail": "Upload government-issued photo ID (passport, driving licence, or national ID card) and proof of address (utility bill or bank statement dated within 3 months). Australian residents may also need to pass an electronic ID verification check. Allow up to 24-48 hours for approval."
           },
           {
             "number": 3,
             "title": "Fund your account and test a withdrawal",
-            "detail": "Deposit as little as $25. Place one trade. Test a withdrawal immediately.",
-            "cta_inline": {
-              "label": "Open Admirals Account",
-              "url": "AFFILIATE_PLACEHOLDER"
-            }
+            "detail": "Deposit the minimum $50 via your preferred method. Place a small trade to verify execution speed and spread accuracy match the ProZero claims. Then request a withdrawal immediately — confirm it processes same-day as stated before scaling up your capital. If the withdrawal clears cleanly, the pipeline works.",
+            "cta_inline": { "label": "Open ACY Securities Account", "url": "AFFILIATE_PLACEHOLDER" }
           }
         ],
-        "practical_note": "Make a small deposit. Place one trade. Request a withdrawal immediately. If it processes cleanly, scale with confidence.",
+        "practical_note": "Deposit small. Trade once. Withdraw immediately. If the money comes back same-day with no friction, you know the process works. If anything stalls, do not deposit more until it resolves.",
         "cta_after": true
       },
       {
         "id": "final-verdict",
-        "heading": "ACY Securities Final Verdict \u2014 Is It Worth It in 2026?",
-        "body": "NAFT scores ACY Securities 7.4 out of 10. Five regulatory licences, Zero account at $6 RT matching the cheapest ECN pricing, real stock investing via Invest.MT5, and the MetaTrader Supreme Edition plugin make this a genuinely differentiated offering. The $25 minimum deposit is among the lowest in the regulated space.\n\nWeaknesses: no cTrader, no TradingView, and the inactivity fee after 24 months. These matter less for active traders but limit appeal for platform-diverse traders.\n\nNAFT recommends ACY Securities for MT4/MT5 loyalists who want enhanced tools, low-cost ECN trading, and the option to invest in real equities \u2014 all under one roof."
+        "heading": "ACY Securities Final Verdict — Is It Worth It in 2026?",
+        "body": "NAFT scores ACY Securities 6.0 out of 10. The ASIC licence is legitimate and the ProZero pricing — 0.0 pips plus $6 round-turn from 16 liquidity providers with sub-30ms execution — is competitive with anything on the Australian market. For traders in Australia specifically, this is a reasonable choice among several strong ASIC-regulated options. Fund segregation is real, AFCA dispute resolution is accessible, and the $50 minimum keeps the barrier low.\n\nThe score ceiling exists because of what happens outside Australia. The SVG entity that covers most international clients is regulatory theatre — registration without regulation, leverage without limits, and protection without substance. Four national regulators flagging ACY for cross-border operations tells you the growth strategy has outpaced the compliance infrastructure. And the withdrawal delay complaints, while not universal, are documented frequently enough across independent sources to prevent a higher score on that metric.\n\nIf you are an Australian resident, ACY Securities deserves consideration alongside IC Markets and Pepperstone — all three offer similar pricing under ASIC. But if you are international, NAFT recommends choosing a broker that offers genuine regulatory protection in your jurisdiction. IC Markets under CySEC or Pepperstone under FCA give you raw spreads with actual compensation schemes behind them. The question is not whether ACY is a scam — it is not. The question is whether you accept SVG oversight when better options exist at the same price point."
       }
-    ],
+    ]
+
+,
     "affiliate_cta": {
       "label": "Open ACY Securities Account",
       "url": "AFFILIATE_PLACEHOLDER",
       "promo_code": null,
       "friction_reducers": [
-        "Zero from 0.0 pips + $6 commission",
-        "Only $25 minimum deposit",
-        "Real stock investing available",
-        "MetaTrader Supreme Edition free",
-        "5 regulatory licences"
+        "$50 minimum deposit — accessible entry point across all account types",
+        "ProZero raw spreads from 0.0 pips — institutional pricing for retail traders",
+        "Same-day withdrawals with no fees on most methods",
+        "ASIC-regulated for Australian residents with full domestic protections"
       ]
     },
     "cta_positions": [
@@ -596,104 +390,72 @@
       "in_section_how-to-open-account_step3"
     ],
     "trustpilot": {
-      "rating": 3.8,
-      "reviews": 900,
-      "velocity_30d": "Moderate \u2014 60-100 per month",
-      "polarisation_note": "52% 5-star vs 18% 1-star. Mixed feedback on platform stability.",
-      "broker_response_rate": "Above 60%",
-      "source_note": "Trustpilot, May 2026"
+      "rating": 3.9,
+      "reviews": 200,
+      "velocity_30d": "Low review velocity — approximately 5-10 reviews per month, insufficient to identify manipulation patterns",
+      "polarisation_note": "Mixed polarisation with positive reviews praising execution speed and pricing, negative reviews clustering around withdrawal delays and communication issues.",
+      "broker_response_rate": "Moderate — broker responds to some negative reviews but not consistently",
+      "source_note": "Trustpilot, publicly reported data, May 2026"
     },
     "internal_links": [
-      {
-        "anchor": "compare brokers side by side",
-        "url": "/compare"
-      },
-      {
-        "anchor": "best regulated forex brokers",
-        "url": "/brokers?regulation=tier-1"
-      },
-      {
-        "anchor": "broker scam alerts and warnings",
-        "url": "/scam-alerts"
-      },
-      {
-        "anchor": "community withdrawal proofs",
-        "url": "/withdrawal-proofs"
-      },
-      {
-        "anchor": "how NAFT reviews brokers",
-        "url": "/how-we-review-brokers"
-      },
-      {
-        "anchor": "file a broker complaint with NAFT",
-        "url": "/complaints"
-      }
-    ],
+      { "anchor": "compare brokers side by side", "url": "/compare" },
+      { "anchor": "best ASIC regulated forex brokers", "url": "/brokers?regulation=asic" },
+      { "anchor": "broker scam alerts and warnings", "url": "/scam-alerts" },
+      { "anchor": "community withdrawal proofs", "url": "/withdrawal-proofs" },
+      { "anchor": "how NAFT reviews brokers", "url": "/methodology" },
+      { "anchor": "file a broker complaint with NAFT", "url": "/complaints" }
+    ]
+
+,
     "faq": [
-      {
-        "q": "Is ACY Securities a legit broker?",
-        "a": "Yes. ACY Securities (formerly ACY Securities) is regulated by CySEC (201/13), FCA (595450), ASIC (410681), EFSA, and CIMA. Operating since 2001. NAFT rates 7.4/10."
-      },
-      {
-        "q": "What is ACY Securities minimum deposit?",
-        "a": "ACY Securities minimum deposit is just $25 for Trade.MT5 and Zero.MT5 accounts. Invest.MT5 starts from $1 for real stock investing."
-      },
-      {
-        "q": "Does ACY Securities offer real stock investing?",
-        "a": "Yes. The Invest.MT5 account offers real stock and ETF ownership \u2014 not CFDs. You buy actual shares listed on major exchanges."
-      },
-      {
-        "q": "What are ACY Securities spreads?",
-        "a": "Zero.MT5: 0.0 pips + $6 RT. Trade.MT5: 0.5 pips + $0. Zero is competitive with the cheapest ECN brokers."
-      },
-      {
-        "q": "Does ACY Securities charge inactivity fee?",
-        "a": "Yes \u2014 $10/month after 24 consecutive months of no trading activity. More generous than most (6-12 month triggers elsewhere)."
-      },
-      {
-        "q": "What is MetaTrader Supreme Edition?",
-        "a": "A free plugin for MT4/MT5 exclusive to ACY Securities. Adds mini terminal, tick charts, correlation matrix, sentiment indicators, and advanced order types."
-      },
-      {
-        "q": "Is ACY Securities regulated by FCA?",
-        "a": "Yes. ACY Securities UK Ltd holds FCA authorisation 595450 with FSCS coverage up to GBP 85,000."
-      },
-      {
-        "q": "Does ACY Securities accept Indian traders?",
-        "a": "Yes. Indian clients route through ACY Securities SC Ltd (CIMA) with leverage up to 1:500. No compensation scheme under this entity."
-      }
-    ],
+      { "q": "Is ACY Securities legit or a scam?", "a": "ACY Securities is a legitimate broker — not a scam. The Australian entity (ACY Securities Pty Ltd) holds ASIC licence AFSL 403863, which is a genuine Tier-1 regulatory credential with mandatory fund segregation. The international entity operates from St Vincent and Grenadines with minimal oversight. Four national regulators have flagged ACY for cross-border operations without local licences, but none allege fraud. The ASIC-regulated arm is legit; the offshore arm carries higher risk." },
+      { "q": "What is ACY Securities minimum deposit?", "a": "ACY Securities requires a minimum deposit of $50 across all account types — Standard, ProZero, and Bespoke. This applies regardless of whether you fund via card, bank wire, e-wallet, or cryptocurrency. The low minimum makes ACY accessible for testing with small capital before committing larger amounts. There are no deposit fees on any payment method." },
+      { "q": "How long do ACY Securities withdrawals take?", "a": "ACY Securities states same-day processing for withdrawal requests submitted before 9PM AEST on business days. Most payment methods carry no withdrawal fee. Public community feedback is mixed — many traders confirm same-day processing while others report delays beyond the stated timeframe. Test with a small withdrawal before depositing significant capital to verify the process works for your specific method and jurisdiction." },
+      { "q": "Is ACY Securities regulated by ASIC?", "a": "Yes — ACY Securities Pty Ltd holds ASIC licence AFSL 403863. This covers Australian residents only. International clients are routed to ACY Capital LLC registered in St Vincent and the Grenadines (Company 2610 LLC 2022), which is not a regulated forex licence in any meaningful sense. Only Australian residents receive ASIC protection including fund segregation and access to AFCA dispute resolution." },
+      { "q": "What platforms does ACY Securities offer?", "a": "ACY Securities offers four trading platforms: MetaTrader 4, MetaTrader 5, the proprietary ACY Trading Platform (web-based), and LogixTrader. MT4 and MT5 are the industry standards with full EA and algorithmic trading support. The proprietary platform offers web-based access without downloads. ACY does not offer cTrader or TradingView integration, which puts it behind competitors like IC Markets on platform variety." },
+      { "q": "What are ACY Securities spreads on EUR/USD?", "a": "ACY Securities ProZero account offers raw spreads from 0.0 pips on EUR/USD with a $6 round-turn commission, giving an all-in cost of approximately $7-$8 per standard lot. The Standard account averages 0.6-1.2 pips with no commission. The Bespoke account matches ProZero spreads at a lower AUD $5 round-turn commission for high-volume traders. Spread data is broker-stated; independent verification is limited." },
+      { "q": "Does ACY Securities accept traders from the United States?", "a": "No. ACY Securities does not accept clients from the United States. US-based traders cannot open accounts due to CFTC and NFA regulatory requirements that ACY does not meet. Other excluded regions include North Korea, Iran, Syria, Cuba, Crimea, and FATF-sanctioned countries. ACY primarily serves Australia, Asia-Pacific, Middle East, Africa, and Latin American markets." },
+      { "q": "How does ACY Securities compare to IC Markets?", "a": "Both are Australian ASIC-regulated brokers with raw spreads from 0.0 pips. IC Markets holds ASIC plus CySEC licences — giving international clients CySEC-regulated access with ICF compensation up to EUR 20,000. ACY routes international clients to SVG with no protection. IC Markets charges $7 round-turn versus ACY ProZero at $6. IC Markets offers cTrader and TradingView that ACY lacks. For pricing alone ACY is marginally cheaper; for overall trust and platform choice, IC Markets wins." }
+    ]
+
+,
     "schema_jsonld": {
       "review": {
         "@context": "https://schema.org",
         "@type": "Review",
-        "itemReviewed": {
-          "@type": "FinancialService",
-          "name": "ACY Securities"
-        },
+        "name": "ACY Securities Review 2026",
         "author": {
           "@type": "Person",
           "name": "NAFT Editorial Team",
+          "url": "https://naft.com/about/editorial-team",
           "sameAs": []
+        },
+        "datePublished": "2026-05-29",
+        "dateModified": "2026-05-29",
+        "reviewBody": "ACY Securities scores 6.0/10 from NAFT in 2026. ASIC-regulated Australian broker with raw spreads from 0.0 pips, 2,200+ CFDs. Legitimate under ASIC for Australians but international clients face SVG entity with no regulatory protection.",
+        "itemReviewed": {
+          "@type": "Organization",
+          "name": "ACY Securities",
+          "url": "https://www.acy.com"
         },
         "reviewRating": {
           "@type": "Rating",
-          "ratingValue": "7.6",
-          "bestRating": "10"
-        },
-        "datePublished": "2026-05-29",
-        "dateModified": "2026-05-29"
+          "ratingValue": 6.0,
+          "bestRating": 10,
+          "worstRating": 0
+        }
       },
       "aggregateRating": {
         "@context": "https://schema.org",
         "@type": "AggregateRating",
         "itemReviewed": {
-          "@type": "FinancialService",
+          "@type": "Organization",
           "name": "ACY Securities"
         },
-        "ratingValue": "3.8",
-        "bestRating": "5",
-        "ratingCount": "900"
+        "ratingValue": 3.9,
+        "bestRating": 5,
+        "ratingCount": 200,
+        "reviewCount": 200
       },
       "faqPage": {
         "@context": "https://schema.org",
@@ -701,91 +463,82 @@
         "mainEntity": [
           {
             "@type": "Question",
-            "name": "Is Admirals a legit broker?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Yes. Admirals (formerly Admiral Markets) is regulated by CySEC (201/13), FCA (595450), ASIC (410681), EFSA, and CIMA. Operating since 2001. NAFT rates 7.4/10."
-            }
+            "name": "Is ACY Securities legit or a scam?",
+            "acceptedAnswer": { "@type": "Answer", "text": "ACY Securities is a legitimate broker. The Australian entity holds ASIC licence AFSL 403863 with mandatory fund segregation. The international entity operates from St Vincent and Grenadines with minimal oversight. Not a scam, but risk varies by entity." }
           },
           {
             "@type": "Question",
-            "name": "What is Admirals minimum deposit?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Admirals minimum deposit is just $25 for Trade.MT5 and Zero.MT5 accounts. Invest.MT5 starts from $1 for real stock investing."
-            }
+            "name": "What is ACY Securities minimum deposit?",
+            "acceptedAnswer": { "@type": "Answer", "text": "ACY Securities requires a minimum deposit of $50 across all account types including Standard, ProZero, and Bespoke. No deposit fees on any payment method." }
           },
           {
             "@type": "Question",
-            "name": "Does Admirals offer real stock investing?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Yes. The Invest.MT5 account offers real stock and ETF ownership \u2014 not CFDs. You buy actual shares listed on major exchanges."
-            }
+            "name": "How long do ACY Securities withdrawals take?",
+            "acceptedAnswer": { "@type": "Answer", "text": "ACY Securities states same-day processing for requests before 9PM AEST. Most methods carry no fee. Some public complaints about delays exist alongside positive reports." }
+          },
+          {
+            "@type": "Question",
+            "name": "Is ACY Securities regulated by ASIC?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Yes, ACY Securities Pty Ltd holds ASIC licence AFSL 403863 covering Australian residents. International clients route to ACY Capital LLC in St Vincent and Grenadines." }
           }
         ]
-      },
+      }
+
+,
       "organization": {
         "@context": "https://schema.org",
         "@type": "Organization",
-        "name": "NAFT",
-        "url": "https://naft.com"
+        "name": "NAFT — Not A Fugazi Trader",
+        "url": "https://naft.com",
+        "logo": "https://naft.com/logo.png",
+        "sameAs": []
       },
       "breadcrumbList": {
         "@context": "https://schema.org",
         "@type": "BreadcrumbList",
         "itemListElement": [
-          {
-            "@type": "ListItem",
-            "position": 1,
-            "name": "Home",
-            "item": "https://naft.com"
-          },
-          {
-            "@type": "ListItem",
-            "position": 2,
-            "name": "Broker Reviews",
-            "item": "https://naft.com/brokers"
-          },
-          {
-            "@type": "ListItem",
-            "position": 3,
-            "name": "ACY Securities Review 2026",
-            "item": "https://naft.com/brokers/acy-securities"
-          }
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://naft.com" },
+          { "@type": "ListItem", "position": 2, "name": "Broker Reviews", "item": "https://naft.com/brokers" },
+          { "@type": "ListItem", "position": 3, "name": "ACY Securities Review 2026", "item": "https://naft.com/brokers/acy-securities" }
         ]
       },
       "howTo": {
         "@context": "https://schema.org",
         "@type": "HowTo",
-        "name": "How to Open a ACY Securities Account",
+        "name": "How to Open an ACY Securities Account",
+        "description": "Step-by-step guide to opening and verifying an ACY Securities trading account.",
         "step": [
           {
             "@type": "HowToStep",
             "position": 1,
             "name": "Register",
-            "text": "Visit https://www.tickmill.com and register."
+            "text": "Visit acy.com, click Open Live Account, select your account type (ProZero recommended for active traders), and complete the application form. Entity assignment is automatic based on country of residence."
           },
           {
             "@type": "HowToStep",
             "position": 2,
-            "name": "Verify",
-            "text": "Upload ID and proof of address."
+            "name": "Verify your identity (KYC)",
+            "text": "Upload government-issued photo ID and proof of address dated within 3 months. Australian residents may undergo electronic ID verification. Allow up to 24-48 hours for full approval."
           },
           {
             "@type": "HowToStep",
             "position": 3,
-            "name": "Fund",
-            "text": "Deposit $100 and test a withdrawal."
+            "name": "Fund your account and test a withdrawal",
+            "text": "Deposit the minimum $50 via your preferred method. Place a small trade to verify execution and spreads. Request a withdrawal immediately to confirm same-day processing works before committing larger capital."
           }
         ]
       },
       "videoObject": null
     },
     "sources": [
-      "ACY Securities official website \u2014 acy.com",
-      "ASIC (Australia) \u2014 confirmed",
-      "Trustpilot \u2014 3.8 stars, 900 reviews"
+      "ACY Securities official website — acy.com (compliance, accounts, payments pages)",
+      "ASIC Connect Professional Registers — AFSL 403863 confirmed for ACY Securities Pty Ltd",
+      "AMF France warning list — acy.com listed for unauthorised cross-border operations",
+      "CNMV Spain warning list — ACY listed for operating without local authorisation",
+      "NSSMC Ukraine warning list — ACY listed",
+      "Malaysia SC warning list — ACY listed",
+      "Trustpilot — publicly available rating and review data",
+      "Multiple independent public community sources — withdrawal feedback cross-referenced"
     ]
   }
 }
