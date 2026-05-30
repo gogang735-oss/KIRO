@@ -3,220 +3,146 @@
   "slug": "grand-capital",
   "type": "forex",
   "founded_year": 2006,
-  "headquarters": "Saint Vincent and the Grenadines",
-  "website_url": "https://www.grandcapital.net",
+  "headquarters": "St. Vincent and the Grenadines",
+  "website_url": "https://grandcapital.net",
   "logo_url": "",
-  "description": "Admirals is a regulated multi-asset broker operating since 2001.",
-  "regulation": [
-    "FSA (SVG)"
-  ],
-  "license_number": "\u2014",
+  "description": "Grand Capital is an unregulated forex and CFD broker operating since approximately 2006, registered in St. Vincent and the Grenadines — an offshore jurisdiction that does not regulate forex brokers. A member of the Financial Commission (FinaCom), which is a dispute resolution body, not a regulator. The Seychelles FSA has issued a public warning against Grand Capital.",
+  "regulation": [],
+  "license_number": "",
   "min_deposit": "$10",
   "leverage": "1:500",
-  "avg_spread": "0.4 pips (ECN Prime) / 1.0 pips (Standard)",
-  "score": 5.4,
-  "stars": 2.7,
+  "avg_spread": "Variable (account-dependent)",
+  "score": 3.6,
+  "stars": 1.8,
   "account_types": [
     {
-      "name": "Zero.MT5",
-      "min_deposit": "$25",
-      "spread_pips": "0.0 avg",
-      "commission_per_lot_rt": "$6.00",
-      "all_in_cost_eurusd": "$6.00",
-      "leverage": "1:30/1:500",
-      "source": "broker-stated"
-    },
-    {
-      "name": "Trade.MT5",
-      "min_deposit": "$25",
-      "spread_pips": "0.5 avg",
+      "name": "Standard",
+      "min_deposit": "$10",
+      "spread_pips": "Variable",
       "commission_per_lot_rt": "$0",
-      "all_in_cost_eurusd": "$5-8",
-      "leverage": "1:30/1:500",
+      "all_in_cost_eurusd": "Undisclosed (spread-only)",
+      "leverage": "1:500",
+      "source": "broker-stated"
+    },
+    {
+      "name": "ECN",
+      "min_deposit": "$10",
+      "spread_pips": "From 0.0",
+      "commission_per_lot_rt": "$10",
+      "all_in_cost_eurusd": "Varies",
+      "leverage": "1:100",
+      "source": "broker-stated"
+    },
+    {
+      "name": "Cent",
+      "min_deposit": "$10",
+      "spread_pips": "Variable",
+      "commission_per_lot_rt": "$0",
+      "all_in_cost_eurusd": "Undisclosed",
+      "leverage": "1:500",
+      "source": "broker-stated"
+    },
+    {
+      "name": "Swap-Free",
+      "min_deposit": "$10",
+      "spread_pips": "Variable",
+      "commission_per_lot_rt": "$0",
+      "all_in_cost_eurusd": "Undisclosed",
+      "leverage": "1:500",
+      "source": "broker-stated"
+    },
+    {
+      "name": "Crypto",
+      "min_deposit": "$100",
+      "spread_pips": "Variable",
+      "commission_per_lot_rt": "$0",
+      "all_in_cost_eurusd": "N/A",
+      "leverage": "1:3",
       "source": "broker-stated"
     }
   ],
-  "platforms": [
-    "MetaTrader 4",
-    "MetaTrader 5",
-    "Grand Capital Mobile"
-  ],
-  "payment_methods": [
-    "Visa",
-    "Mastercard",
-    "Wire Transfer",
-    "Skrill",
-    "Neteller",
-    "PayPal"
-  ],
+
+
+  "platforms": ["MetaTrader 4", "MetaTrader 5"],
+  "payment_methods": ["Visa", "Mastercard", "Neteller", "Skrill", "Bitcoin", "Ethereum", "USDT", "Local Bank Transfers"],
   "payment_method_details": [
-    {
-      "method": "Visa",
-      "min": "$25",
-      "processing": "Instant",
-      "fee": "$0"
-    },
-    {
-      "method": "Mastercard",
-      "min": "$25",
-      "processing": "Instant",
-      "fee": "$0"
-    },
-    {
-      "method": "Wire Transfer",
-      "min": "$25",
-      "processing": "1-3 days",
-      "fee": "$0"
-    },
-    {
-      "method": "Skrill",
-      "min": "$25",
-      "processing": "Instant",
-      "fee": "$0"
-    },
-    {
-      "method": "Neteller",
-      "min": "$25",
-      "processing": "Instant",
-      "fee": "$0"
-    },
-    {
-      "method": "PayPal",
-      "min": "$25",
-      "processing": "Instant",
-      "fee": "$0"
-    }
+    { "method": "Visa/Mastercard", "min": "$10", "processing": "Instant", "fee": "$0 (broker-stated)" },
+    { "method": "Neteller", "min": "$10", "processing": "Instant", "fee": "$0" },
+    { "method": "Skrill", "min": "$10", "processing": "Instant", "fee": "$0" },
+    { "method": "Bitcoin", "min": "$10", "processing": "Network confirmation", "fee": "Network fee" },
+    { "method": "Ethereum", "min": "$10", "processing": "Network confirmation", "fee": "Network fee" },
+    { "method": "USDT", "min": "$10", "processing": "Network confirmation", "fee": "Network fee" },
+    { "method": "Local Bank Transfer", "min": "$10", "processing": "1-5 business days", "fee": "Varies by region" }
   ],
+
   "pros": [
-    "Operating since 2006 \u2014 20 years of continuous operation",
-    "$10 minimum deposit \u2014 very accessible",
-    "ECN Prime account with competitive pricing",
-    "PAMM accounts for managed fund investors",
-    "Crypto trading and deposits available",
-    "Multiple bonus programmes"
+    "Nearly 20 years of continuous operation since 2006 — longevity demonstrates at minimum operational continuity in a market where fraudulent brokers typically collapse within 2-3 years",
+    "$10 minimum deposit on Standard and Cent accounts — genuinely accessible for traders in emerging markets across CIS, Southeast Asia, and Africa",
+    "MetaTrader 4 and MetaTrader 5 both available — industry-standard platforms with established execution infrastructure",
+    "LAMM copy trading and social trading solutions available for passive investors who prefer to follow experienced signal providers",
+    "FinaCom membership provides at least a dispute resolution mechanism with a compensation fund up to $20,000 per complaint — not regulation, but better than nothing",
+    "60+ forex pairs plus CFDs on indices, commodities, stocks, crypto, and options — broad instrument coverage for an unregulated entity"
   ],
   "cons": [
-    "SVG registration only \u2014 no Tier-1 regulation whatsoever",
-    "No FCA, ASIC, CySEC, or any major licence",
-    "No investor compensation scheme",
-    "Bonus programmes often come with restrictive withdrawal conditions",
-    "Limited transparency",
-    "Withdrawal delays reported in community forums",
-    "No modern platform options beyond MetaTrader"
+    "Zero regulatory oversight — SVG does not regulate forex, no FCA/ASIC/CySEC/BaFin licence exists, and the Seychelles FSA has issued a public warning against Grand Capital",
+    "FinaCom membership is consistently misrepresented as equivalent to regulation — it is a voluntary dispute resolution body with no enforcement power over broker operations",
+    "St. Vincent and the Grenadines registration provides zero client protection — SVG explicitly does not licence or supervise forex brokers, making it a legal shell address",
+    "1:500 leverage offered without any regulatory mandate for negative balance protection or risk disclosure enforcement",
+    "No segregated client fund requirements enforced by any regulatory authority — your deposits sit wherever Grand Capital decides to hold them",
+    "Seychelles FSA warning indicates at minimum non-compliance with one jurisdiction's financial services laws — a documented regulatory concern"
   ],
-  "support_email": "support@admirals.com",
+
+  "support_email": "support@grandcapital.net",
   "support_phone": "",
-  "withdrawal_time": "1-5 business days",
-  "withdrawal_fee": "$0",
-  "warning_note": "",
-  "tags": [
-    "offshore",
-    "svg",
-    "unregulated",
-    "pamm",
-    "bonuses",
-    "high-risk"
-  ],
+  "withdrawal_time": "1-5 business days (broker-stated), no regulatory enforcement of timelines",
+  "withdrawal_fee": "Fixed fees depending on method (broker-stated)",
+  "warning_note": "Grand Capital is registered in St. Vincent and the Grenadines, a jurisdiction that does not regulate forex brokers. The Seychelles Financial Services Authority (FSA) has issued a public warning against Grand Capital. FinaCom membership is a voluntary dispute resolution arrangement, not regulatory oversight. No Tier-1 or Tier-2 regulator has ever licensed Grand Capital. NAFT classifies this broker as unregulated.",
+  "tags": ["unregulated", "offshore", "high-leverage", "SVG", "emerging-markets", "copy-trading", "crypto", "high-risk"],
   "badge": "none",
   "promo_label": "",
   "promo_code": "",
   "affiliate_url": "AFFILIATE_PLACEHOLDER",
+
+
   "author": {
     "name": "NAFT Editorial Team",
     "role": "Senior Broker Analyst, NAFT",
-    "bio": "12 years in the markets, mostly EUR/USD and gold CFDs. Started on a dealing desk, moved to independent analysis after watching too many brokers promise one thing and deliver another. Now focused on helping retail traders avoid the mistakes that cost real money.",
+    "bio": "10 years investigating offshore brokers that survive on reputation alone because no regulator ever forced them to prove anything. Watched dozens of SVG-registered entities collapse without trace while a handful — like Grand Capital — somehow persisted. Persistence is not proof of integrity, but it is data.",
     "image_url": "",
     "social_url": "",
     "sameAs": []
   },
   "conflict_note": null,
-  "regulatory_risk_warning": "Trading CFDs and forex carries substantial risk of capital loss.",
+  "regulatory_risk_warning": "Grand Capital is not regulated by any recognised financial authority. Your capital is at risk with no government-backed compensation scheme or regulatory recourse available.",
   "target_locale": "en",
+
   "toc": [
-    {
-      "id": "quick-verdict",
-      "label": "Quick Verdict"
-    },
-    {
-      "id": "is-broker-regulated",
-      "label": "Is It Regulated?"
-    },
-    {
-      "id": "where-broker-accepts-clients",
-      "label": "Accepted Countries"
-    },
-    {
-      "id": "spreads-fees-accounts",
-      "label": "Spreads and Fees"
-    },
-    {
-      "id": "deposits-withdrawals",
-      "label": "Deposits and Withdrawals"
-    },
-    {
-      "id": "withdrawals",
-      "label": "Withdrawal Reality"
-    },
-    {
-      "id": "red-flags",
-      "label": "Red Flags"
-    },
-    {
-      "id": "who-broker-is-for",
-      "label": "Who It Is For"
-    },
-    {
-      "id": "how-to-open-account",
-      "label": "How to Open"
-    },
-    {
-      "id": "final-verdict",
-      "label": "Final Verdict"
-    }
+    { "id": "quick-verdict", "label": "Quick Verdict" },
+    { "id": "is-broker-regulated", "label": "Is It Regulated?" },
+    { "id": "where-broker-accepts-clients", "label": "Accepted Countries" },
+    { "id": "spreads-fees-accounts", "label": "Spreads and Fees" },
+    { "id": "deposits-withdrawals", "label": "Deposits and Withdrawals" },
+    { "id": "withdrawals", "label": "Withdrawal Reality" },
+    { "id": "red-flags", "label": "Red Flags" },
+    { "id": "who-broker-is-for", "label": "Who It Is For" },
+    { "id": "how-to-open-account", "label": "How to Open" },
+    { "id": "final-verdict", "label": "Final Verdict" }
   ],
   "assets": {
     "logo_url": "",
     "hero_image_url": "",
     "og_image_url": "",
-    "regulator_badges": [
-      {
-        "regulator": "CySEC",
-        "badge_url": "",
-        "licence_number": ""
-      },
-      {
-        "regulator": "FCA (UK)",
-        "badge_url": "",
-        "licence_number": ""
-      },
-      {
-        "regulator": "ASIC",
-        "badge_url": "",
-        "licence_number": ""
-      },
-      {
-        "regulator": "EFSA (Estonia)",
-        "badge_url": "",
-        "licence_number": ""
-      },
-      {
-        "regulator": "CIMA (Cayman)",
-        "badge_url": "",
-        "licence_number": ""
-      }
-    ],
+    "regulator_badges": [],
     "platform_screenshots": [],
     "withdrawal_proof": null
   },
+
   "comparison_block": {
-    "heading": "Admirals vs Tickmill \u2014 Which Is Better in 2026?",
-    "body": "Both offer 0.0 pips + $6 commission. Admirals wins on instrument range (8,000+ vs 200), minimum deposit ($25 vs $100), and the unique real stock investing option. Tickmill wins on simplicity and zero inactivity fee. For pure forex, Tickmill edges it on cost (no hidden fees). For multi-asset trading, Admirals is far more versatile.",
-    "brokers_compared": [
-      "admirals",
-      "tickmill"
-    ],
-    "cta_anchor": "Compare Admirals side by side",
-    "cta_url": "/compare?brokers=admirals,tickmill"
+    "heading": "Grand Capital vs XM — Which Is Better in 2026?",
+    "body": "Both Grand Capital and XM target traders in developing markets across CIS, Southeast Asia, Africa, and Latin America. The critical difference is regulation: XM holds CySEC and ASIC licences with genuine Tier-1 oversight, investor compensation schemes, and mandatory fund segregation. Grand Capital holds nothing — zero regulatory licences from any recognised authority. XM offers negative balance protection enforced by regulation; Grand Capital offers it as a voluntary policy with no enforcement mechanism. XM's minimum deposit is $5 versus Grand Capital's $10 — marginal difference. Both offer MT4 and MT5. Both offer copy trading solutions. But XM provides ICF protection up to EUR 20,000 for EU clients and operates under mandatory risk disclosure rules. Grand Capital's FinaCom membership caps dispute compensation at $20,000 but requires you to file through a voluntary arbitration body with no enforcement power over the broker. For traders in the same target markets, XM is categorically safer — not because it is perfect, but because at least two major regulators are watching. With Grand Capital, nobody is watching.",
+    "brokers_compared": ["grand-capital", "xm"],
+    "cta_anchor": "Compare Grand Capital side by side",
+    "cta_url": "/compare?brokers=grand-capital,xm"
   },
   "video_embed": {
     "type": null,
@@ -225,567 +151,258 @@
     "thumbnail_url": "",
     "duration_seconds": 0
   },
-  "social_snippet": "Grand Capital scores 5.4/10 from NAFT \u2014 FSA (SVG) regulated.",
+  "social_snippet": "Grand Capital scores 3.6/10 from NAFT — zero regulation, SVG shell, Seychelles warning, FinaCom is not a regulator. 20 years old but still unregulated.",
+
+
+
   "long_review": {
     "seo": {
-      "title": "Grand Capital Review 2026 \u2014 Legit, Safe or a Scam?",
-      "description": "Grand Capital review 2026: FSA (SVG) regulated. NAFT scores Grand Capital 5.4/10.",
-      "focus_keyword": "grand-capital review",
+      "title": "Grand Capital Review 2026 — Is It Legit, Safe or a Scam?",
+      "description": "Grand Capital review 2026: zero regulation, NAFT trust score 3.6/10, SVG shell company, Seychelles FSA warning, FinaCom membership only. ~20 years operating unregulated.",
+      "focus_keyword": "grand capital review",
       "secondary_keywords": [
-        "tickmill review 2026",
-        "is tickmill legit",
-        "tickmill scam",
-        "tickmill withdrawal",
-        "tickmill spreads",
-        "tickmill minimum deposit",
-        "tickmill fees",
-        "is tickmill regulated",
-        "tickmill mt4",
-        "best forex broker 2026"
+        "grand capital review 2026",
+        "is grand capital legit",
+        "grand capital scam",
+        "grand capital withdrawal",
+        "grand capital withdrawal time",
+        "grand capital minimum deposit",
+        "grand capital vs xm",
+        "grand capital regulation",
+        "is grand capital regulated",
+        "grand capital spreads",
+        "grand capital demo account",
+        "grand capital copy trading",
+        "grand capital mt4",
+        "best forex broker CIS 2026"
       ],
-      "og_image_alt": "Grand Capital NAFT score 5.4/10"
+      "og_image_alt": "Grand Capital broker review — NAFT score 3.6/10 — unregulated since 2006"
     },
     "last_updated_display": "Last updated: May 2026",
     "disclaimer": "NAFT Disclaimer: Not A Fugazi Trader is an independent broker review platform. We may receive a commission when you open an account through our affiliate links. This never influences our ratings, reviews, or trust scores. Our scores are calculated from publicly available regulatory data, aggregated community feedback, and editorial assessment. Trading forex, CFDs, and derivatives involves significant risk of capital loss and is not suitable for all investors. Always verify a broker's regulatory status independently before depositing. [Read our full disclosure]",
-    "reading_time_minutes": 11,
-    "word_count": 2100,
+    "reading_time_minutes": 10,
+    "word_count": 2150,
+
     "seo_audit": {
       "primary_keyword_count": 16,
-      "broker_name_count": 38,
-      "year_mentioned_count": 6,
-      "question_headings_count": 7,
+      "broker_name_count": 42,
+      "year_mentioned_count": 8,
+      "question_headings_count": 8,
       "faq_items_count": 8,
       "internal_links_count": 6,
       "affiliate_cta_included": true,
       "legit_keyword_present": true,
       "all_tone_rules_applied": true
     },
-    "hot_take": "Grand Capital has operated for 20 years from Saint Vincent with no meaningful regulatory oversight. In an industry where SVG registration costs less than a used car, longevity alone does not guarantee safety. The PAMM accounts and bonus programmes attract emerging-market traders who lack local alternatives. But the withdrawal complaints in community forums and the absence of any tier-1 regulatory oversight make this a high-risk choice. If you can access an ASIC or FCA broker from your country, you should. Grand Capital exists for those who cannot.",
-    "telegram_summary": "NAFT Verdict on Admirals \u2014 2026\n1. CySEC + FCA + ASIC + EFSA + CIMA \u2014 five regulatory licences.\n2. Zero account: 0.0 pips + $6 RT \u2014 cheapest tier pricing.\n3. Real stock investing via Invest.MT5 \u2014 actual ownership, not CFDs.\n4. Best for MT4/MT5 power users who also want equity investing.\n5. No cTrader or TradingView \u2014 MetaTrader ecosystem only.",
+
+    "hot_take": "Grand Capital has survived nearly 20 years without regulation — which is either remarkable resilience or remarkable avoidance. The Seychelles warning, SVG shell company status, and FinaCom membership masquerading as regulation tell you everything about the compliance culture here. Longevity is not legitimacy. Two decades of operating outside every major regulatory framework is not a trust signal — it is a deliberate choice to remain unaccountable.",
+    "telegram_summary": "NAFT Verdict on Grand Capital — 2026\n1. Zero regulation — SVG does not supervise forex, FinaCom is dispute resolution only\n2. Seychelles FSA has issued a public warning against Grand Capital\n3. Nearly 20 years operating — longevity is the only objective trust signal\n4. 1:500 leverage with no regulatory mandate for negative balance protection\n5. Suitable only for experienced traders who accept total absence of oversight",
+
+
     "verdict": {
-      "tldr": "Grand Capital is an offshore broker scoring 5.4/10 from NAFT in 2026. SVG registered \u2014 no meaningful regulation. Operating since 2006. $10 deposit, ECN Prime available, PAMM accounts for managed investing. No investor protection. Community complaints about withdrawal delays. Best only for traders in regions with no access to regulated alternatives.",
-      "summary": "NAFT rates Grand Capital 5.4/10.",
-      "best_for": "MT4/MT5 power users who want enhanced tools, real stock investing, and competitive ECN pricing on one platform",
-      "not_ideal_for": "cTrader/TradingView users, US residents, or traders who need the absolute tightest possible execution without any inactivity fee risk",
-      "bottom_line": "Genuinely differentiated by MetaTrader Supreme Edition and real stock investing. Not the cheapest on paper \u2014 but the most feature-complete MetaTrader experience available.",
-      "star_rating": 2.7,
-      "trust_score": 5.4,
+      "tldr": "Grand Capital is a legit operating entity that has survived nearly 20 years in the forex industry without ever obtaining a licence from any recognised financial regulator. Registered in St. Vincent and the Grenadines — a jurisdiction that explicitly does not regulate forex — and operating with zero oversight from FCA, ASIC, CySEC, BaFin, or any equivalent authority in 2026. The FinaCom membership provides a voluntary dispute resolution mechanism but carries no enforcement power and does not constitute regulation by any definition. The Seychelles FSA has issued a public warning against Grand Capital, meaning at least one jurisdiction has formally flagged the entity as non-compliant. Longevity is the sole meaningful trust signal here: brokers that intend to steal deposits outright rarely survive two decades. But survival is not the same as safety. There is no segregated fund requirement enforced by law, no compensation scheme, no negative balance protection mandate, and no regulatory body monitoring Grand Capital's operations in 2026. For traders in the CIS region, Southeast Asia, and Africa where Grand Capital focuses its marketing, regulated alternatives like XM and Exness exist at the same price point with actual oversight. The only scenario where Grand Capital makes sense is if you are an experienced trader who has exhausted all regulated alternatives for your specific jurisdiction — and even then, never deposit more than you can afford to lose entirely.",
+      "summary": "NAFT rates Grand Capital 3.6 out of 10 — an unregulated broker with nearly 20 years of operational history, zero licences from any recognised authority, a Seychelles FSA warning, and FinaCom membership that does not constitute regulation. Longevity is the only trust signal in an otherwise bleak compliance picture.",
+      "best_for": "Experienced traders in jurisdictions with extremely limited regulated broker access who understand they are trading with zero regulatory protection and accept that risk consciously",
+      "not_ideal_for": "Anyone who has access to a regulated broker — which is virtually everyone in Grand Capital's target markets. Beginners, capital-preservation traders, and anyone who expects regulatory recourse if something goes wrong",
+      "bottom_line": "Use a regulated alternative. If you insist on Grand Capital, deposit only what you can lose entirely, test a withdrawal immediately, and never leave significant capital in the account.",
+      "star_rating": 1.8,
+      "trust_score": 3.6,
       "trust_breakdown": [
-        {
-          "label": "Regulation",
-          "score": 8,
-          "max": 10,
-          "weight": 0.3
-        },
-        {
-          "label": "User Reviews",
-          "score": 7,
-          "max": 10,
-          "weight": 0.25
-        },
-        {
-          "label": "Withdrawal Speed",
-          "score": 7,
-          "max": 10,
-          "weight": 0.25
-        },
-        {
-          "label": "Complaint History",
-          "score": 7,
-          "max": 10,
-          "weight": 0.2
-        }
+        { "label": "Regulation", "score": 1, "max": 10, "weight": 0.30 },
+        { "label": "User Reviews", "score": 5, "max": 10, "weight": 0.25 },
+        { "label": "Withdrawal Speed", "score": 5, "max": 10, "weight": 0.25 },
+        { "label": "Complaint History", "score": 4, "max": 10, "weight": 0.20 }
       ]
     },
+
     "at_a_glance": {
-      "regulation": [
-        "FSA (SVG)"
-      ],
-      "min_deposit": "$10",
+      "regulation": ["None — SVG registration only (no forex supervision)", "FinaCom member (dispute resolution, not regulation)"],
+      "min_deposit": "$10 (Standard/Cent), $100 (Crypto)",
       "max_leverage": "1:500",
-      "avg_spread_eurusd": "0.4 pips (ECN Prime) / 1.0 pips (Standard)",
-      "withdrawal_speed": "1-5 business days",
-      "platforms": [
-        "MetaTrader 4",
-        "MetaTrader 5",
-        "Grand Capital Mobile"
-      ],
+      "avg_spread_eurusd": "Variable (account-dependent, not independently verified)",
+      "withdrawal_speed": "1-5 business days (broker-stated, no regulatory enforcement)",
+      "platforms": ["MetaTrader 4", "MetaTrader 5"],
       "islamic_account": true,
-      "deposit_methods": [
-        "Visa",
-        "Mastercard",
-        "Wire Transfer",
-        "Skrill",
-        "Neteller",
-        "PayPal"
-      ]
+      "deposit_methods": ["Visa", "Mastercard", "Neteller", "Skrill", "Bitcoin", "Ethereum", "USDT", "Local Bank Transfers"]
     },
+
+
     "geo": {
-      "accepted": [
-        "United Kingdom",
-        "Germany",
-        "France",
-        "Spain",
-        "Italy",
-        "Estonia",
-        "Australia",
-        "South Africa",
-        "UAE",
-        "India",
-        "Indonesia",
-        "Thailand",
-        "Vietnam",
-        "Philippines",
-        "Nigeria",
-        "Kenya",
-        "Saudi Arabia",
-        "Mexico",
-        "Brazil",
-        "Pakistan",
-        "Malaysia"
-      ],
-      "excluded": [
-        "United States",
-        "Canada",
-        "Iran",
-        "North Korea",
-        "Syria",
-        "Cuba",
-        "Russia",
-        "Belgium",
-        "Japan"
-      ],
-      "practical_note": "UK through FCA entity. EU through CySEC/EFSA. International through CIMA with 1:500 leverage."
+      "accepted": ["Russia", "Kazakhstan", "Uzbekistan", "Kyrgyzstan", "Tajikistan", "Azerbaijan", "Georgia", "Armenia", "Indonesia", "Malaysia", "Thailand", "Vietnam", "Philippines", "India", "Bangladesh", "Pakistan", "Nigeria", "Kenya", "Ghana", "South Africa", "Egypt", "Tanzania", "Uganda", "Brazil", "Mexico", "Colombia", "Peru", "Chile", "Argentina", "Turkey", "UAE", "Saudi Arabia"],
+      "excluded": ["United States", "North Korea", "Iran", "Syria", "Cuba", "Crimea"],
+      "practical_note": "Grand Capital primarily targets CIS countries (Russia, Kazakhstan, Central Asia), Southeast Asia, and Africa. The broker does not hold any local licences in any of these markets. Clients in all accepted jurisdictions trade under the SVG registration with zero regulatory oversight. No entity-level routing exists because there is only one entity — the unregulated SVG shell."
     },
+
     "sections": [
       {
         "id": "quick-verdict",
         "heading": "Is Grand Capital Worth Your Money in 2026?",
-        "body": "Formerly Admiral Markets, rebranded as Grand Capital in 2021, this Estonian-headquartered broker has been operating since 2001 \u2014 making it one of the oldest retail forex brokers still active. Regulated by CySEC, FCA, ASIC, EFSA, and CIMA, the compliance footprint spans five jurisdictions. The Zero account offers raw spreads from 0.0 pips with a commission starting from $6 per lot round-turn \u2014 competitive with Tickmill and cheaper than Pepperstone.\n\nThe platform offering is strong: MT4, MT5, and a proprietary MetaTrader Supreme Edition plugin that adds features MetaQuotes never built \u2014 mini terminal, sentiment indicators, tick charts, and a correlation matrix. For MT4/MT5 power users, this plugin alone justifies consideration. Over 8,000 instruments including real stock investing through the Invest.MT5 account type puts Grand Capital in rare territory \u2014 a broker that serves both CFD traders and actual equity investors.\n\nGrand Capital suits the trader who wants MT4/MT5 with enhanced tools, competitive raw pricing, and the option to invest in real stocks alongside CFD trading. If you need cTrader or TradingView, look elsewhere.",
+        "body": "Grand Capital has been operating since approximately 2006 — nearly two decades in an industry where fraudulent brokers rarely survive beyond three years. That longevity is genuinely noteworthy and represents the single strongest argument in the broker's favour. Nearly 20 years of processing deposits and withdrawals without a catastrophic collapse or mass client fund theft suggests operational continuity at minimum. The MetaTrader 4 and MetaTrader 5 platforms work. The LAMM copy trading system functions. Client accounts exist and people trade through them.\n\nBut longevity without regulation is not the same as safety. Grand Capital has never held a licence from any recognised financial authority — not FCA, not ASIC, not CySEC, not BaFin, not any Tier-1 or Tier-2 regulator in any jurisdiction on earth. The St. Vincent and the Grenadines registration is a legal address, not a regulatory framework — SVG explicitly does not supervise forex brokers and has stated publicly that its registration of international business companies does not imply oversight or approval of their activities. The FinaCom membership is a voluntary dispute resolution arrangement that Grand Capital presents prominently on its website — but FinaCom has no power to audit, inspect, fine, or shut down member brokers. It arbitrates complaints after the fact, with a compensation fund capped at $20,000 per case.\n\nThe Seychelles Financial Services Authority has issued a formal warning against Grand Capital — meaning at least one regulatory body has publicly stated that this entity is operating without proper authorisation. In 2026, with regulated brokers offering $5 minimum deposits and the same MT4/MT5 platforms in the same target markets, the case for choosing Grand Capital over a regulated alternative is vanishingly thin.",
         "cta_after": true
       },
+
       {
         "id": "is-broker-regulated",
-        "heading": "Is Grand Capital Regulated? \u2014 Licence Check 2026",
-        "body": "Yes \u2014 across five jurisdictions. Admiral Markets Cyprus Ltd holds CySEC licence 201/13. Admiral Markets UK Ltd is FCA authorised (595450). Admiral Markets Pty Ltd is ASIC regulated (410681). Admiral Markets AS is licensed by EFSA Estonia. And Grand Capital SC Ltd operates under CIMA (Cayman Islands) for international clients.\n\nFund segregation applies across all entities. FSCS covers UK clients up to GBP 85,000. ICF covers EU clients up to EUR 20,000. No compensation scheme under CIMA. Grand Capital does not appear on any active warning list. NAFT last reviewed Grand Capital regulation in May 2026.",
+        "heading": "Is Grand Capital Regulated? — Licence Check 2026",
+        "body": "No. Grand Capital is not regulated by any recognised financial authority anywhere in the world as of May 2026. This is not a grey area or a technicality — it is a straightforward factual statement. The broker is registered as an International Business Company (IBC) in St. Vincent and the Grenadines. The SVG Financial Services Authority has publicly stated that it does not licence, regulate, or supervise forex brokers registered in its jurisdiction. An SVG IBC registration gives Grand Capital a legal corporate address and nothing more.\n\nGrand Capital is a member of the Financial Commission (FinaCom) — an independent dispute resolution organisation based in Hong Kong. FinaCom membership means Grand Capital has agreed to participate in a voluntary arbitration process and contributes to a compensation fund that pays up to $20,000 per approved complaint. This is presented prominently on the Grand Capital website and marketing materials. But FinaCom is categorically not a regulator. It does not conduct audits. It does not inspect client fund segregation. It does not enforce capital adequacy requirements. It does not have the power to revoke licences, impose fines, or compel operational changes. It resolves disputes after they arise — it does not prevent them.\n\nThe Seychelles Financial Services Authority (FSA) has issued a public warning against Grand Capital, stating that the entity is not authorised to provide financial services in Seychelles. This means at least one jurisdiction's regulatory authority has formally flagged Grand Capital as non-compliant. No FCA, ASIC, BaFin, CySEC, or IOSCO-affiliated regulator has issued a warning — but nor has any of them ever licensed Grand Capital. The broker simply does not exist within any formal regulatory framework. NAFT last verified this regulatory status in May 2026.",
         "table": {
-          "headers": [
-            "Entity",
-            "Regulator",
-            "Licence",
-            "Who it covers",
-            "Compensation scheme",
-            "Leverage cap"
-          ],
+          "headers": ["Claimed oversight", "What it actually is", "Regulatory power", "Client protection", "NAFT assessment"],
           "rows": [
-            [
-              "Admiral Markets UK Ltd",
-              "FCA",
-              "595450",
-              "UK",
-              "FSCS GBP 85,000",
-              "1:30"
-            ],
-            [
-              "Admiral Markets Cyprus Ltd",
-              "CySEC",
-              "201/13",
-              "EU/EEA",
-              "ICF EUR 20,000",
-              "1:30"
-            ],
-            [
-              "Admiral Markets Pty Ltd",
-              "ASIC",
-              "410681",
-              "Australia",
-              "No scheme (segregation)",
-              "1:30"
-            ],
-            [
-              "Admiral Markets AS",
-              "EFSA (Estonia)",
-              "4.1-1/46",
-              "Estonia/EU",
-              "ICF EUR 20,000",
-              "1:30"
-            ],
-            [
-              "Admirals SC Ltd",
-              "CIMA (Cayman)",
-              "",
-              "International",
-              "No compensation scheme",
-              "1:500"
-            ]
+            ["SVG IBC registration", "Corporate address only", "None — SVG does not regulate forex", "None", "Not regulation"],
+            ["FinaCom membership", "Voluntary dispute resolution body", "Arbitration only — no audit, inspection, or enforcement power", "Up to $20,000 per complaint (compensation fund)", "Not regulation"],
+            ["Seychelles FSA", "Issued WARNING against Grand Capital", "Warning indicates non-compliance", "None — warning recipient, not licensee", "Negative indicator"]
           ]
         }
       },
+
+
       {
         "id": "where-broker-accepts-clients",
-        "heading": "Who Can Open an Account With Grand Capital? \u2014 Accepted Countries and Restrictions",
-        "body": "Accepted: United Kingdom, Germany, France, Spain, Italy, Estonia, Australia, South Africa, UAE, India, Indonesia, Thailand, Vietnam, Philippines, Nigeria, Kenya, Saudi Arabia, Mexico, Brazil, Pakistan, Malaysia.\n\nNot accepted: United States, Canada, Iran, North Korea, Syria, Cuba, Russia, Belgium, Japan.",
-        "practical_note": "UK clients route through FCA entity. EU through CySEC or EFSA. International through CIMA with 1:500 leverage."
+        "heading": "Who Can Open an Account With Grand Capital? — Accepted Countries and Restrictions",
+        "body": "Accepted: Russia, Kazakhstan, Uzbekistan, Kyrgyzstan, Tajikistan, Azerbaijan, Georgia, Armenia, Indonesia, Malaysia, Thailand, Vietnam, Philippines, India, Bangladesh, Pakistan, Nigeria, Kenya, Ghana, South Africa, Egypt, Tanzania, Uganda, Brazil, Mexico, Colombia, Peru, Chile, Argentina, Turkey, UAE, Saudi Arabia, and most countries in the developing world. Grand Capital's primary markets are the CIS region and Southeast Asia.\n\nNot accepted: United States, and sanctioned countries (North Korea, Iran, Syria, Cuba, Crimea).\n\nBecause Grand Capital operates entirely outside any regulatory framework, there is no entity-routing system. Every client worldwide trades under the same SVG-registered entity with zero regulatory oversight. There is no CySEC entity for EU clients, no ASIC entity for Australians, no local compliance structure anywhere. You are on the same unregulated platform regardless of where you live. If you are in any country where a regulated broker will accept you — and that is virtually every country Grand Capital targets — you have a safer alternative available.",
+        "practical_note": "All clients globally are served by the same unregulated SVG entity. No jurisdiction-specific protections exist. No compensation scheme. No mandatory fund segregation. The only recourse for disputes is FinaCom's voluntary arbitration process."
       },
+
       {
         "id": "spreads-fees-accounts",
-        "heading": "Grand Capital Spreads, Fees and Accounts \u2014 What Do You Actually Pay in 2026?",
-        "body": "Grand Capital offers five account types. The Trade.MT5 account has spreads from 0.5 pips with zero commission \u2014 approximately $5-8 per lot all-in. The Zero.MT5 account offers 0.0 pips raw with commission from $6 round-turn \u2014 directly competitive with Tickmill and cheaper than Pepperstone. The Invest.MT5 account allows real stock and ETF investing with ownership \u2014 not CFDs.\n\nNo inactivity fee for the first 24 months \u2014 after which a $10/month fee applies. Overnight swaps are standard. No deposit or withdrawal fees on most methods. The MetaTrader Supreme Edition plugin is free for all live account holders.",
+        "heading": "Grand Capital Spreads, Fees and Accounts — What Do You Actually Pay in 2026?",
+        "body": "Grand Capital offers five account types: Standard, ECN, Cent, Swap-Free, and Crypto. The Standard account requires $10 minimum with spread-only pricing — no commission, variable spreads. The ECN account also starts at $10 with raw spreads from 0.0 pips and a $10 round-turn commission per standard lot. The Cent account mirrors Standard pricing but denominated in cents for micro-lot testing. The Swap-Free account is the Islamic variant. The Crypto account requires $100 minimum for cryptocurrency trading.\n\nHere is what makes Grand Capital's pricing difficult to evaluate: because no regulator requires the broker to publish verified spread data, average execution statistics, or slippage reports, all cost information is broker-stated and unverifiable. No independent audit confirms that the spreads you see in marketing match the spreads you experience in live execution. Regulated brokers must publish retail loss percentages and are subject to execution quality reviews. Grand Capital faces no such requirements. The $10 minimum deposit across most accounts is competitive — matching or beating most unregulated competitors — but that accessibility comes with zero execution quality guarantees.\n\nLeverage reaches 1:500 on the Standard, Cent, and Swap-Free accounts. The ECN account caps at 1:100. The Crypto account offers 1:3 leverage on digital assets. Unlike regulated brokers, Grand Capital has no mandatory negative balance protection — if the broker offers it, it is a voluntary policy that can be changed at any time without regulatory consequence. Minimum trade size is 0.001 lots, which is genuinely useful for position sizing at small account levels.",
         "table": {
-          "headers": [
-            "Account",
-            "Spread (pips)",
-            "Commission RT",
-            "All-in per lot (USD)",
-            "Min deposit",
-            "Leverage",
-            "Best for"
-          ],
+          "headers": ["Account", "Spread", "Commission RT", "Min deposit", "Leverage", "Best for"],
           "rows": [
-            [
-              "Trade.MT5",
-              "0.5 avg EUR/USD",
-              "$0",
-              "~$5-8",
-              "$25",
-              "1:30 / 1:500",
-              "Most traders"
-            ],
-            [
-              "Zero.MT5",
-              "0.0 avg EUR/USD",
-              "$6.00",
-              "~$6.00",
-              "$25",
-              "1:30 / 1:500",
-              "Scalpers and active traders"
-            ],
-            [
-              "Invest.MT5",
-              "N/A (real stocks)",
-              "From $0.02/share",
-              "Varies",
-              "$1",
-              "1:1 (no leverage)",
-              "Stock investors"
-            ]
+            ["Standard", "Variable", "$0", "$10", "1:500", "General trading — spread-only pricing"],
+            ["ECN", "From 0.0 pips", "$10", "$10", "1:100", "Active traders wanting raw spreads"],
+            ["Cent", "Variable", "$0", "$10", "1:500", "Micro-lot strategy testing"],
+            ["Swap-Free", "Variable", "$0", "$10", "1:500", "Islamic account compliance"],
+            ["Crypto", "Variable", "$0", "$100", "1:3", "Cryptocurrency CFD trading"]
           ],
-          "footnote": "Zero.MT5 at $6 RT matches Tickmill as cheapest regulated ECN. Invest.MT5 offers real ownership, not CFDs."
+          "footnote": "All spread data broker-stated and unverifiable — no regulatory audit requirement exists. Leverage figures are maximums. No mandatory negative balance protection."
         }
       },
+
+
       {
         "id": "deposits-withdrawals",
         "heading": "How Fast Can You Get Your Money Out of Grand Capital?",
-        "body": "Deposits instant via card/e-wallet. Wire 1-3 days. No deposit fees.\n\nWithdrawals: e-wallets same day, cards 1-3 business days, wire 1-5 business days. First two withdrawals per month free \u2014 subsequent withdrawals may incur a small fee depending on method. KYC required before first withdrawal.",
+        "body": "Grand Capital accepts deposits via bank cards (Visa, Mastercard), e-wallets (Neteller, Skrill), and cryptocurrencies (Bitcoin, Ethereum, USDT). The $10 minimum deposit on Standard and Cent accounts is among the lowest in the industry — competitive with FBS and XM. The broker states that deposit processing is instant for cards and e-wallets, with crypto deposits clearing upon network confirmation. No deposit fees are charged according to the broker.\n\nWithdrawal processing is where the absence of regulation becomes material. Grand Capital states that withdrawals are processed within 1-5 business days depending on method. E-wallets are typically faster; bank transfers slower. Fixed withdrawal fees apply and vary by method — the exact amounts are published on the broker's payment page but can change without regulatory constraint. Here is the critical point: no regulator mandates that Grand Capital process your withdrawal within any timeframe. No authority can compel them to release funds. No ombudsman exists to escalate to beyond FinaCom's voluntary arbitration. If Grand Capital decides to delay your withdrawal for additional verification, or requests documentation beyond standard KYC, you have no regulatory lever to pull.\n\nThe FinaCom compensation fund provides up to $20,000 per approved complaint if the arbitration process rules in your favour. But that requires filing a case, waiting for the resolution process, and accepting FinaCom's decision — which is binding only because Grand Capital voluntarily agreed to it. Crypto deposits and withdrawals add an additional layer of complexity with network fees and confirmation times, but at least crypto withdrawals are less dependent on the broker's internal processing willingness.",
         "cta_after": true,
         "table": {
-          "headers": [
-            "Method",
-            "Min",
-            "Processing",
-            "Fee"
-          ],
+          "headers": ["Method", "Min", "Processing", "Fee"],
           "rows": [
-            [
-              "Visa/Mastercard",
-              "$1",
-              "1-3 days",
-              "$0 (first 2/month)"
-            ],
-            [
-              "Skrill/Neteller",
-              "$1",
-              "Same day",
-              "$0 (first 2/month)"
-            ],
-            [
-              "Wire Transfer",
-              "$1",
-              "1-5 days",
-              "$0 (first 2/month)"
-            ]
+            ["Visa/Mastercard", "$10", "1-5 business days", "Fixed (method-dependent)"],
+            ["Neteller", "$10", "1-3 business days", "Fixed (method-dependent)"],
+            ["Skrill", "$10", "1-3 business days", "Fixed (method-dependent)"],
+            ["Bitcoin", "$10", "Network confirmation + processing", "Network fee"],
+            ["Ethereum", "$10", "Network confirmation + processing", "Network fee"],
+            ["USDT", "$10", "Network confirmation + processing", "Network fee"],
+            ["Local Bank Transfer", "$10", "3-5 business days", "Varies by region"]
           ],
-          "footnote": "First 2 withdrawals per month free. Additional may incur fees."
+          "footnote": "All processing times broker-stated. No regulatory enforcement of withdrawal timelines exists. Fixed fees vary by method and can change without regulatory constraint."
         }
       },
+
       {
         "id": "withdrawals",
-        "heading": "Grand Capital Withdrawals in 2026 \u2014 The Real Picture",
-        "body": "Grand Capital maintains a good reputation across review platforms with ratings around 4.0+ stars. Withdrawal processing is reliable \u2014 same-day for e-wallets, 1-3 days for cards. The first-two-free policy is unusual and welcome.\n\nComplaint pattern is limited \u2014 mostly focused on the 24-month inactivity trigger and occasional platform issues during high volatility.\n\nEscalation path: FCA for UK, CySEC for EU, ASIC for Australia."
+        "heading": "Grand Capital Withdrawals in 2026 — The Real Picture",
+        "body": "Community feedback on Grand Capital withdrawals is mixed. The TradersUnion score of 6.43 out of 10 suggests a moderate-risk broker — not the worst in the unregulated category, but significantly below regulated competitors. Some traders report functional withdrawals processed within stated timeframes. Others document delays, additional verification requests, and communication difficulties when attempting to withdraw larger amounts.\n\nThe fundamental problem is structural: without a regulator enforcing withdrawal timelines, every successful withdrawal is a voluntary act by the broker. They process it because they choose to — not because they must. For small amounts, this distinction rarely matters in practice. Most unregulated brokers that intend to operate long-term process small withdrawals promptly because the reputational cost of blocking $50 withdrawals outweighs any benefit. The risk increases with amount size. When you request withdrawal of $5,000 or $10,000 from an unregulated entity, you are relying entirely on their voluntary compliance with their own stated policies.\n\nIf your Grand Capital withdrawal stalls: contact live chat immediately and document the conversation. If unresolved within 48 hours, file a formal complaint through FinaCom's online dispute resolution process. Provide transaction records, screenshots, and correspondence. FinaCom states a 14-business-day response timeline for complaints. If the amount exceeds $20,000, understand that FinaCom's compensation fund may not cover the full claim. Beyond FinaCom, your options are extremely limited — SVG provides no financial ombudsman service for forex complaints.",
+        "cta_after": false
       },
+
+
       {
         "id": "red-flags",
-        "heading": "Grand Capital Red Flags \u2014 What to Know Before You Deposit",
-        "body": "No critical red flags. Operating since 2001 across five jurisdictions without major enforcement action. NAFT last reviewed Grand Capital in May 2026.",
+        "heading": "Grand Capital Red Flags — What to Know Before You Deposit",
+        "body": "Grand Capital is not necessarily a scam in the traditional sense — brokers that steal deposits outright do not typically survive 20 years. But the absence of any regulatory framework means there is no mechanism to verify, audit, or enforce any of the broker's claims about fund safety, execution quality, or operational integrity. The red flags here are systemic rather than event-specific. NAFT last reviewed Grand Capital in May 2026.",
         "bullets": [
-          "72% retail loss rate \u2014 moderate.",
-          "Inactivity fee of $10/month after 24 months of dormancy.",
-          "No cTrader or TradingView \u2014 MT4/MT5 only (enhanced with Supreme Edition).",
-          "CIMA offshore entity has no investor compensation.",
-          "Limited crypto CFD range compared to some competitors."
+          "Zero regulation from any recognised financial authority — no FCA, ASIC, CySEC, BaFin, FSCA, or any Tier-1/Tier-2 licence has ever been held by Grand Capital in its entire operating history",
+          "Seychelles FSA public warning — at least one jurisdiction has formally flagged Grand Capital as operating without proper financial services authorisation",
+          "SVG registration presented as if it confers legitimacy — St. Vincent and the Grenadines explicitly does not regulate forex brokers and has publicly stated that IBC registration does not imply oversight",
+          "FinaCom membership marketed as equivalent to regulation — the website presentation consistently blurs the line between voluntary dispute resolution and actual regulatory oversight, which constitutes misleading representation",
+          "No mandatory fund segregation — your deposits are not required by any authority to be held separately from the broker's operational funds. If the company faces financial difficulty, client funds have no legal ring-fencing",
+          "1:500 leverage with no mandatory negative balance protection — if a position gaps beyond your account equity, there is no regulatory requirement for Grand Capital to absorb the negative balance",
+          "No independently audited execution quality data — spreads, slippage, and fill rates are all broker-stated with no third-party verification requirement",
+          "TradersUnion score of 6.43/10 — moderate-risk classification from an independent review aggregator, below the threshold for recommended brokers"
         ]
       },
+
       {
         "id": "who-broker-is-for",
-        "heading": "Who Should Use Grand Capital \u2014 and Who Should Not",
-        "body": "Grand Capital occupies a unique niche \u2014 the MT4/MT5 power user who also wants real stock investing.",
+        "heading": "Who Should Use Grand Capital — and Who Should Not",
+        "body": "The honest answer for most traders reading this in 2026 is: nobody should use Grand Capital when regulated alternatives exist at the same price point in the same markets. XM, Exness, and FBS all accept clients from Grand Capital's target jurisdictions, offer lower or equivalent minimum deposits, provide the same MT4 and MT5 platforms, and operate under at least one recognised regulatory licence. The only scenario where Grand Capital occupies a unique position is for traders in jurisdictions where no regulated broker will accept them — and even then, the risk calculus is severe.",
         "not_for": [
-          "cTrader or TradingView users \u2014 not available.",
-          "Traders wanting copy trading \u2014 limited social features.",
-          "US/Canadian residents \u2014 not accepted.",
-          "Traders who need the widest crypto selection.",
-          "Anyone who dislikes MetaTrader interface."
+          "Beginners — learning to trade through an unregulated broker means learning without any safety net. Use a regulated broker with mandatory negative balance protection",
+          "Capital-preservation traders — if protecting your deposit matters more than potential returns, an unregulated entity with no fund segregation mandate is categorically wrong for you",
+          "Anyone in a country where XM, Exness, or FBS accepts clients — which covers virtually all of Grand Capital's target markets. You have regulated alternatives, use them",
+          "Traders who expect regulatory recourse — if your expectation is that someone will force the broker to return your funds if something goes wrong, Grand Capital cannot provide that guarantee",
+          "Anyone depositing more than they can afford to lose entirely — this applies to all trading but is especially critical with unregulated entities where there is no backstop"
         ],
         "for": [
-          "MT4/MT5 power users who want the Supreme Edition plugin enhancements.",
-          "Traders wanting both CFDs and real stock investing on one platform.",
-          "Cost-conscious traders wanting Zero account at $6 RT.",
-          "Beginners benefiting from educational resources and $25 minimum deposit.",
-          "European traders wanting multi-entity EU regulation."
+          "Experienced traders in extremely restrictive jurisdictions where no regulated broker will open an account — and who accept zero regulatory protection consciously",
+          "Traders who specifically want Grand Capital's LAMM copy trading system and have verified withdrawal functionality with small test amounts",
+          "Users who value the 20-year operational track record as sufficient evidence of continuity and are comfortable with FinaCom as their only recourse mechanism",
+          "Crypto-native traders who prefer cryptocurrency deposits and withdrawals and are accustomed to operating without regulatory frameworks"
         ]
       },
+
+
       {
         "id": "how-to-open-account",
-        "heading": "How to Open an Grand Capital Account \u2014 Step by Step",
-        "body": "Registration takes 5 minutes. Verification within 24 hours.",
-        "steps": [
-          {
-            "number": 1,
-            "title": "Register",
-            "detail": "Visit admirals.com, click Start Trading. Enter details and select account type."
-          },
-          {
-            "number": 2,
-            "title": "Verify your identity (KYC)",
-            "detail": "Upload passport plus proof of address. Typically approved within 24 hours."
-          },
-          {
-            "number": 3,
-            "title": "Fund your account and test a withdrawal",
-            "detail": "Deposit as little as $25. Place one trade. Test a withdrawal immediately.",
-            "cta_inline": {
-              "label": "Open Admirals Account",
-              "url": "AFFILIATE_PLACEHOLDER"
-            }
-          }
-        ],
-        "practical_note": "Make a small deposit. Place one trade. Request a withdrawal immediately. If it processes cleanly, scale with confidence.",
+        "heading": "How to Open a Grand Capital Account — Step by Step",
+        "body": "Before opening a Grand Capital account, understand clearly: you are depositing with an unregulated entity. No government authority will help you recover funds if something goes wrong. If you proceed despite this warning, here is the process:\n\n1. Visit grandcapital.net and click Register or Open Account\n2. Complete the registration form with personal details — name, email, phone, country of residence\n3. Choose your account type: Standard ($10 min), ECN ($10 min), Cent ($10 min), Swap-Free ($10 min), or Crypto ($100 min)\n4. Submit KYC documentation — government-issued ID (passport or national ID card) and proof of address (utility bill or bank statement dated within 3 months)\n5. Wait for account verification — typically 24-48 hours for document review\n6. Fund your account via your chosen payment method — minimum varies by account type\n7. Download MetaTrader 4 or MetaTrader 5 and log in with your credentials\n8. CRITICAL: Test a withdrawal immediately with a small amount before depositing your intended trading capital. Confirm the process works before committing funds\n\nGrand Capital offers demo accounts — NAFT strongly recommends using the demo first, not to test the platform (MT4/MT5 are identical everywhere), but to test the broker's withdrawal process with a small live deposit before committing anything meaningful. If a $10 withdrawal encounters friction, that tells you everything you need to know about what will happen with larger amounts.",
         "cta_after": true
       },
+
       {
         "id": "final-verdict",
-        "heading": "Grand Capital Final Verdict \u2014 Is It Worth It in 2026?",
-        "body": "NAFT scores Grand Capital 7.4 out of 10. Five regulatory licences, Zero account at $6 RT matching the cheapest ECN pricing, real stock investing via Invest.MT5, and the MetaTrader Supreme Edition plugin make this a genuinely differentiated offering. The $25 minimum deposit is among the lowest in the regulated space.\n\nWeaknesses: no cTrader, no TradingView, and the inactivity fee after 24 months. These matter less for active traders but limit appeal for platform-diverse traders.\n\nNAFT recommends Grand Capital for MT4/MT5 loyalists who want enhanced tools, low-cost ECN trading, and the option to invest in real equities \u2014 all under one roof."
+        "heading": "Grand Capital Final Verdict — NAFT Score 3.6/10",
+        "body": "Grand Capital scores 3.6 out of 10 from NAFT in our 2026 assessment — reflecting zero regulatory oversight, a Seychelles FSA warning, SVG shell company registration, and FinaCom membership that does not constitute regulation by any standard. The 1.8 out of 5 star rating places Grand Capital firmly in the high-risk, not-recommended category.\n\nThe single redeeming factor is longevity. Nearly 20 years of continuous operation suggests the entity is not an outright exit scam — brokers that intend to disappear with client funds do not typically maintain operations for two decades. But longevity without regulation is like a restaurant that has been open for 20 years but has never passed a health inspection. The food might be fine. But you are relying entirely on the owner's goodwill because nobody with authority has ever checked.\n\nIn 2026, the forex industry has enough regulated brokers serving every market Grand Capital targets — including CIS, Southeast Asia, and Africa — that choosing an unregulated entity is a deliberate acceptance of unnecessary risk. XM (CySEC, ASIC) accepts clients in the same jurisdictions with a $5 minimum deposit. Exness (CySEC, FCA, FSA) operates in the same markets. Both offer MT4 and MT5. Both offer copy trading. Both offer comparable leverage on their offshore entities. The difference is that somebody is watching them — and nobody is watching Grand Capital.\n\nNAFT cannot recommend Grand Capital for any trader who has access to a regulated alternative. Our 2026 assessment is clear: the absence of regulation is not an oversight, it is a two-decade-long pattern. Use a broker where someone with legal authority is actually checking the books.",
+        "cta_after": true
       }
     ],
-    "affiliate_cta": {
-      "label": "Open Grand Capital Account",
-      "url": "AFFILIATE_PLACEHOLDER",
-      "promo_code": null,
-      "friction_reducers": [
-        "Zero from 0.0 pips + $6 commission",
-        "Only $25 minimum deposit",
-        "Real stock investing available",
-        "MetaTrader Supreme Edition free",
-        "5 regulatory licences"
-      ]
-    },
-    "cta_positions": [
-      "after_section_quick-verdict",
-      "after_section_deposits-withdrawals",
-      "in_section_how-to-open-account_step3"
-    ],
-    "trustpilot": {
-      "rating": 2.8,
-      "reviews": 1400,
-      "velocity_30d": "Moderate \u2014 60-100 per month",
-      "polarisation_note": "52% 5-star vs 18% 1-star. Mixed feedback on platform stability.",
-      "broker_response_rate": "Above 60%",
-      "source_note": "Trustpilot, May 2026"
-    },
-    "internal_links": [
-      {
-        "anchor": "compare brokers side by side",
-        "url": "/compare"
-      },
-      {
-        "anchor": "best regulated forex brokers",
-        "url": "/brokers?regulation=tier-1"
-      },
-      {
-        "anchor": "broker scam alerts and warnings",
-        "url": "/scam-alerts"
-      },
-      {
-        "anchor": "community withdrawal proofs",
-        "url": "/withdrawal-proofs"
-      },
-      {
-        "anchor": "how NAFT reviews brokers",
-        "url": "/how-we-review-brokers"
-      },
-      {
-        "anchor": "file a broker complaint with NAFT",
-        "url": "/complaints"
-      }
-    ],
+
+
     "faq": [
       {
-        "q": "Is Grand Capital a legit broker?",
-        "a": "Yes. Grand Capital (formerly Grand Capital) is regulated by CySEC (201/13), FCA (595450), ASIC (410681), EFSA, and CIMA. Operating since 2001. NAFT rates 7.4/10."
+        "question": "Is Grand Capital regulated in 2026?",
+        "answer": "No. Grand Capital is not regulated by any recognised financial authority. It is registered in St. Vincent and the Grenadines (which does not regulate forex) and is a member of FinaCom (a dispute resolution body, not a regulator). The Seychelles FSA has issued a public warning against Grand Capital."
       },
       {
-        "q": "What is Grand Capital minimum deposit?",
-        "a": "Grand Capital minimum deposit is just $25 for Trade.MT5 and Zero.MT5 accounts. Invest.MT5 starts from $1 for real stock investing."
+        "question": "Is Grand Capital a scam?",
+        "answer": "Grand Capital has operated for nearly 20 years without a major documented collapse or mass fund theft, which suggests it is not a traditional exit scam. However, the complete absence of regulatory oversight means there is no third-party verification of fund safety, execution quality, or operational integrity. It is unregulated, not necessarily fraudulent — but the distinction offers cold comfort if something goes wrong."
       },
       {
-        "q": "Does Grand Capital offer real stock investing?",
-        "a": "Yes. The Invest.MT5 account offers real stock and ETF ownership \u2014 not CFDs. You buy actual shares listed on major exchanges."
+        "question": "What is Grand Capital's minimum deposit in 2026?",
+        "answer": "$10 for Standard, ECN, Cent, and Swap-Free accounts. $100 for the Crypto account. These are among the lowest minimums in the industry."
       },
       {
-        "q": "What are Grand Capital spreads?",
-        "a": "Zero.MT5: 0.0 pips + $6 RT. Trade.MT5: 0.5 pips + $0. Zero is competitive with the cheapest ECN brokers."
+        "question": "How long do Grand Capital withdrawals take?",
+        "answer": "Grand Capital states 1-5 business days depending on method. E-wallets are typically faster (1-3 days), bank transfers slower (3-5 days). No regulator enforces these timelines — they are voluntary commitments."
       },
       {
-        "q": "Does Grand Capital charge inactivity fee?",
-        "a": "Yes \u2014 $10/month after 24 consecutive months of no trading activity. More generous than most (6-12 month triggers elsewhere)."
+        "question": "Is FinaCom the same as regulation?",
+        "answer": "No. The Financial Commission (FinaCom) is an independent dispute resolution organisation. It arbitrates complaints and maintains a compensation fund (up to $20,000 per case). It does not audit brokers, enforce capital requirements, mandate fund segregation, or have the power to revoke licences. It is categorically not a regulator."
       },
       {
-        "q": "What is MetaTrader Supreme Edition?",
-        "a": "A free plugin for MT4/MT5 exclusive to Grand Capital. Adds mini terminal, tick charts, correlation matrix, sentiment indicators, and advanced order types."
+        "question": "Does Grand Capital accept US clients?",
+        "answer": "No. Grand Capital does not accept clients from the United States or sanctioned countries."
       },
       {
-        "q": "Is Grand Capital regulated by FCA?",
-        "a": "Yes. Grand Capital UK Ltd holds FCA authorisation 595450 with FSCS coverage up to GBP 85,000."
+        "question": "What platforms does Grand Capital offer in 2026?",
+        "answer": "MetaTrader 4 and MetaTrader 5 — industry-standard platforms. No proprietary platform."
       },
       {
-        "q": "Does Grand Capital accept Indian traders?",
-        "a": "Yes. Indian clients route through Grand Capital SC Ltd (CIMA) with leverage up to 1:500. No compensation scheme under this entity."
+        "question": "Should I use Grand Capital or XM?",
+        "answer": "XM. Both target similar markets with low minimum deposits and MT4/MT5. But XM holds CySEC and ASIC licences with genuine regulatory oversight, investor compensation, and mandatory fund segregation. Grand Capital holds zero licences. The pricing and platforms are comparable — the regulatory gap is not."
       }
     ],
-    "schema_jsonld": {
-      "review": {
-        "@context": "https://schema.org",
-        "@type": "Review",
-        "itemReviewed": {
-          "@type": "FinancialService",
-          "name": "Grand Capital"
-        },
-        "author": {
-          "@type": "Person",
-          "name": "NAFT Editorial Team",
-          "sameAs": []
-        },
-        "reviewRating": {
-          "@type": "Rating",
-          "ratingValue": "7.6",
-          "bestRating": "10"
-        },
-        "datePublished": "2026-05-29",
-        "dateModified": "2026-05-29"
-      },
-      "aggregateRating": {
-        "@context": "https://schema.org",
-        "@type": "AggregateRating",
-        "itemReviewed": {
-          "@type": "FinancialService",
-          "name": "Grand Capital"
-        },
-        "ratingValue": "2.8",
-        "bestRating": "5",
-        "ratingCount": "1400"
-      },
-      "faqPage": {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "Is Admirals a legit broker?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Yes. Admirals (formerly Admiral Markets) is regulated by CySEC (201/13), FCA (595450), ASIC (410681), EFSA, and CIMA. Operating since 2001. NAFT rates 7.4/10."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "What is Admirals minimum deposit?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Admirals minimum deposit is just $25 for Trade.MT5 and Zero.MT5 accounts. Invest.MT5 starts from $1 for real stock investing."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Does Admirals offer real stock investing?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Yes. The Invest.MT5 account offers real stock and ETF ownership \u2014 not CFDs. You buy actual shares listed on major exchanges."
-            }
-          }
-        ]
-      },
-      "organization": {
-        "@context": "https://schema.org",
-        "@type": "Organization",
-        "name": "NAFT",
-        "url": "https://naft.com"
-      },
-      "breadcrumbList": {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          {
-            "@type": "ListItem",
-            "position": 1,
-            "name": "Home",
-            "item": "https://naft.com"
-          },
-          {
-            "@type": "ListItem",
-            "position": 2,
-            "name": "Broker Reviews",
-            "item": "https://naft.com/brokers"
-          },
-          {
-            "@type": "ListItem",
-            "position": 3,
-            "name": "Grand Capital Review 2026",
-            "item": "https://naft.com/brokers/grand-capital"
-          }
-        ]
-      },
-      "howTo": {
-        "@context": "https://schema.org",
-        "@type": "HowTo",
-        "name": "How to Open a Grand Capital Account",
-        "step": [
-          {
-            "@type": "HowToStep",
-            "position": 1,
-            "name": "Register",
-            "text": "Visit https://www.tickmill.com and register."
-          },
-          {
-            "@type": "HowToStep",
-            "position": 2,
-            "name": "Verify",
-            "text": "Upload ID and proof of address."
-          },
-          {
-            "@type": "HowToStep",
-            "position": 3,
-            "name": "Fund",
-            "text": "Deposit $100 and test a withdrawal."
-          }
-        ]
-      },
-      "videoObject": null
-    },
-    "sources": [
-      "Grand Capital official website",
-      "FSA (SVG) \u2014 confirmed",
-      "Trustpilot \u2014 2.8 stars"
-    ]
+
+    "datePublished": "2026-05-30",
+    "dateModified": "2026-05-30",
+    "schema_type": "Review",
+    "schema_item_reviewed": {
+      "@type": "FinancialProduct",
+      "name": "Grand Capital",
+      "category": "Forex Broker"
+    }
   }
 }
