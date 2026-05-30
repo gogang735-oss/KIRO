@@ -4,125 +4,88 @@
   "type": "forex",
   "founded_year": 2015,
   "headquarters": "Hamburg, Germany",
-  "website_url": "https://www.naga.com",
+  "website_url": "https://naga.com",
   "logo_url": "",
-  "description": "Admirals is a regulated multi-asset broker operating since 2001.",
+  "description": "NAGA is a social trading broker founded in 2015 in Hamburg, Germany, owned by NAGA Group AG (listed on the Frankfurt Stock Exchange under XETRA: N4G), regulated by CySEC (licence 204/13 via NAGA Markets Europe Ltd) with BaFin cross-border notification, offering 3,000+ instruments with integrated social/copy trading as its core feature.",
   "regulation": [
-    "CySEC (Cyprus)",
-    "BaFin (Germany)",
-    "FSA (Seychelles)"
+    "CySEC (Cyprus, licence 204/13)",
+    "BaFin (Germany, cross-border notification)"
   ],
   "license_number": "204/13",
   "min_deposit": "$50",
-  "leverage": "1:30 (CySEC) / 1:1000 (FSA)",
-  "avg_spread": "0.7 pips (EUR/USD avg)",
-  "score": 6.4,
-  "stars": 3.2,
+  "leverage": "1:30 (ESMA retail)",
+  "avg_spread": "Variable (spread-based pricing)",
+  "score": 6.6,
+  "stars": 3.3,
   "account_types": [
     {
-      "name": "Zero.MT5",
-      "min_deposit": "$25",
-      "spread_pips": "0.0 avg",
-      "commission_per_lot_rt": "$6.00",
-      "all_in_cost_eurusd": "$6.00",
-      "leverage": "1:30/1:500",
-      "source": "broker-stated"
-    },
-    {
-      "name": "Trade.MT5",
-      "min_deposit": "$25",
-      "spread_pips": "0.5 avg",
+      "name": "Standard Account",
+      "min_deposit": "$50",
+      "spread_pips": "Variable from 1.2 EUR/USD",
       "commission_per_lot_rt": "$0",
-      "all_in_cost_eurusd": "$5-8",
-      "leverage": "1:30/1:500",
+      "all_in_cost_eurusd": "~$12.00",
+      "leverage": "1:30",
+      "source": "broker-stated"
+    },
+    {
+      "name": "NAGA Pro (Professional)",
+      "min_deposit": "$250",
+      "spread_pips": "Variable from 0.7 EUR/USD",
+      "commission_per_lot_rt": "$0",
+      "all_in_cost_eurusd": "~$7.00",
+      "leverage": "Up to 1:200",
+      "source": "broker-stated"
+    },
+    {
+      "name": "NAGA VIP",
+      "min_deposit": "$1000",
+      "spread_pips": "Variable from 0.5 EUR/USD",
+      "commission_per_lot_rt": "$0",
+      "all_in_cost_eurusd": "~$5.00",
+      "leverage": "Up to 1:200 (professional)",
       "source": "broker-stated"
     }
   ],
-  "platforms": [
-    "NAGA Trader (Proprietary)",
-    "MetaTrader 4",
-    "MetaTrader 5",
-    "NAGA Mobile App"
-  ],
-  "payment_methods": [
-    "Visa",
-    "Mastercard",
-    "Wire Transfer",
-    "Skrill",
-    "Neteller",
-    "PayPal"
-  ],
+
+
+  "platforms": ["NAGA Proprietary (Social/Copy Trading)", "MT4", "MT5"],
+  "payment_methods": ["Visa", "Mastercard", "Wire Transfer", "Skrill", "Neteller", "GiroPay", "SEPA"],
   "payment_method_details": [
-    {
-      "method": "Visa",
-      "min": "$25",
-      "processing": "Instant",
-      "fee": "$0"
-    },
-    {
-      "method": "Mastercard",
-      "min": "$25",
-      "processing": "Instant",
-      "fee": "$0"
-    },
-    {
-      "method": "Wire Transfer",
-      "min": "$25",
-      "processing": "1-3 days",
-      "fee": "$0"
-    },
-    {
-      "method": "Skrill",
-      "min": "$25",
-      "processing": "Instant",
-      "fee": "$0"
-    },
-    {
-      "method": "Neteller",
-      "min": "$25",
-      "processing": "Instant",
-      "fee": "$0"
-    },
-    {
-      "method": "PayPal",
-      "min": "$25",
-      "processing": "Instant",
-      "fee": "$0"
-    }
+    { "method": "Visa/Mastercard", "min": "$50", "processing": "Instant", "fee": "$0" },
+    { "method": "Wire Transfer", "min": "$50", "processing": "2-5 days", "fee": "$0" },
+    { "method": "Skrill/Neteller", "min": "$50", "processing": "Instant", "fee": "$0" },
+    { "method": "GiroPay/SEPA", "min": "$50", "processing": "1-2 days", "fee": "$0" }
   ],
   "pros": [
-    "CySEC + BaFin regulated \u2014 EU dual oversight",
-    "NAGA Autocopy \u2014 social trading with performance-ranked traders",
-    "Listed on Frankfurt Stock Exchange (Xetra: N4G) \u2014 publicly traded",
-    "Real stock investing alongside CFD trading",
-    "NAGA Pay \u2014 integrated wallet and card",
-    "$50 minimum deposit \u2014 low barrier"
+    "Publicly traded parent on Frankfurt Stock Exchange (XETRA: N4G) — rare transparency for a retail broker",
+    "Integrated social trading feed with auto-copy, leaderboard, and community engagement — the core USP",
+    "3,000+ instruments: forex, real stocks, stock CFDs, crypto, indices, ETFs, commodities",
+    "CySEC regulated (licence 204/13) with BaFin cross-border — EU-compliant framework",
+    "$50 minimum deposit — accessible entry point for the Standard account",
+    "Copy trading built into the platform DNA — not bolted on as an afterthought",
+    "Real stock ownership available alongside CFDs — not just contracts",
+    "MT4 and MT5 available for traders who prefer traditional charting"
   ],
   "cons": [
-    "77% retail loss rate \u2014 above average",
-    "Spreads wider than ECN competitors",
-    "BaFin registration does not equal full BaFin licence \u2014 CySEC is primary",
-    "Social trading can encourage copycat risk without understanding",
-    "Limited instrument range for non-social traders",
-    "Inactivity fee after dormancy"
+    "NAGA Group AG share price in sustained decline since 2021 — raises questions about corporate viability",
+    "Platform tries to combine social media, broker, and crypto exchange — jack of all trades risk",
+    "Only CySEC regulation — no Tier-1 FCA or ASIC licence to complement",
+    "Spreads are average — not competitive against dedicated ECN brokers",
+    "Copy trading quality depends entirely on lead traders — no performance guarantees",
+    "Limited institutional credibility compared to brokers with FCA or multiple Tier-1 licences"
   ],
-  "support_email": "support@admirals.com",
+  "support_email": "",
   "support_phone": "",
   "withdrawal_time": "1-3 business days",
-  "withdrawal_fee": "$0",
-  "warning_note": "",
-  "tags": [
-    "social-trading",
-    "autocopy",
-    "listed",
-    "german",
-    "cysec",
-    "real-stocks"
-  ],
+  "withdrawal_fee": "$0 (standard methods)",
+  "warning_note": "CFDs are complex instruments and come with a high risk of losing money rapidly due to leverage. 80.85% of retail investor accounts lose money when trading CFDs with this provider.",
+  "tags": ["cysec", "social-trading", "copy-trading", "frankfurt-listed", "crypto", "real-stocks", "multi-asset"],
   "badge": "none",
   "promo_label": "",
   "promo_code": "",
   "affiliate_url": "AFFILIATE_PLACEHOLDER",
+
+
   "author": {
     "name": "NAFT Editorial Team",
     "role": "Senior Broker Analyst, NAFT",
@@ -132,129 +95,67 @@
     "sameAs": []
   },
   "conflict_note": null,
-  "regulatory_risk_warning": "77% of retail investor accounts lose money when trading CFDs with this provider.",
+  "regulatory_risk_warning": "80.85% of retail investor accounts lose money when trading CFDs with this provider. NAGA Markets Europe Ltd, CySEC-stated figure.",
   "target_locale": "en",
   "toc": [
-    {
-      "id": "quick-verdict",
-      "label": "Quick Verdict"
-    },
-    {
-      "id": "is-broker-regulated",
-      "label": "Is It Regulated?"
-    },
-    {
-      "id": "where-broker-accepts-clients",
-      "label": "Accepted Countries"
-    },
-    {
-      "id": "spreads-fees-accounts",
-      "label": "Spreads and Fees"
-    },
-    {
-      "id": "deposits-withdrawals",
-      "label": "Deposits and Withdrawals"
-    },
-    {
-      "id": "withdrawals",
-      "label": "Withdrawal Reality"
-    },
-    {
-      "id": "red-flags",
-      "label": "Red Flags"
-    },
-    {
-      "id": "who-broker-is-for",
-      "label": "Who It Is For"
-    },
-    {
-      "id": "how-to-open-account",
-      "label": "How to Open"
-    },
-    {
-      "id": "final-verdict",
-      "label": "Final Verdict"
-    }
+    { "id": "quick-verdict", "label": "Quick Verdict" },
+    { "id": "is-broker-regulated", "label": "Is It Regulated?" },
+    { "id": "where-broker-accepts-clients", "label": "Accepted Countries" },
+    { "id": "spreads-fees-accounts", "label": "Spreads and Fees" },
+    { "id": "deposits-withdrawals", "label": "Deposits and Withdrawals" },
+    { "id": "withdrawals", "label": "Withdrawal Reality" },
+    { "id": "red-flags", "label": "Red Flags" },
+    { "id": "who-broker-is-for", "label": "Who It Is For" },
+    { "id": "how-to-open-account", "label": "How to Open" },
+    { "id": "final-verdict", "label": "Final Verdict" }
   ],
   "assets": {
     "logo_url": "",
     "hero_image_url": "",
     "og_image_url": "",
     "regulator_badges": [
-      {
-        "regulator": "CySEC",
-        "badge_url": "",
-        "licence_number": ""
-      },
-      {
-        "regulator": "FCA (UK)",
-        "badge_url": "",
-        "licence_number": ""
-      },
-      {
-        "regulator": "ASIC",
-        "badge_url": "",
-        "licence_number": ""
-      },
-      {
-        "regulator": "EFSA (Estonia)",
-        "badge_url": "",
-        "licence_number": ""
-      },
-      {
-        "regulator": "CIMA (Cayman)",
-        "badge_url": "",
-        "licence_number": ""
-      }
+      { "regulator": "CySEC (Cyprus)", "badge_url": "", "licence_number": "204/13" },
+      { "regulator": "BaFin (Germany)", "badge_url": "", "licence_number": "cross-border" }
     ],
     "platform_screenshots": [],
     "withdrawal_proof": null
   },
+
+
   "comparison_block": {
-    "heading": "Admirals vs Tickmill \u2014 Which Is Better in 2026?",
-    "body": "Both offer 0.0 pips + $6 commission. Admirals wins on instrument range (8,000+ vs 200), minimum deposit ($25 vs $100), and the unique real stock investing option. Tickmill wins on simplicity and zero inactivity fee. For pure forex, Tickmill edges it on cost (no hidden fees). For multi-asset trading, Admirals is far more versatile.",
-    "brokers_compared": [
-      "admirals",
-      "tickmill"
-    ],
-    "cta_anchor": "Compare Admirals side by side",
-    "cta_url": "/compare?brokers=admirals,tickmill"
+    "heading": "NAGA vs eToro — Which Social Trading Platform Wins in 2026?",
+    "body": "Both brokers built their brands around social and copy trading. eToro is Nasdaq-listed with FCA/CySEC/ASIC regulation and 35 million registered users. NAGA is Frankfurt-listed (XETRA: N4G) with CySEC regulation and a smaller but engaged user base. eToro wins on instrument count (7,300+), regulatory breadth, brand trust, and global reach. NAGA wins on lower minimum deposit ($50 vs $50-200 depending on country), tighter integration of social features into the trading workflow, and real crypto ownership alongside CFDs. For the mature social trader who values regulation and scale, eToro. For the EU-focused social trader who wants a more integrated community experience, NAGA — provided you accept the single-regulator risk.",
+    "brokers_compared": ["naga", "etoro"],
+    "cta_anchor": "Compare NAGA side by side",
+    "cta_url": "/compare?brokers=naga,etoro"
   },
-  "video_embed": {
-    "type": null,
-    "video_id": "",
-    "title": "",
-    "thumbnail_url": "",
-    "duration_seconds": 0
-  },
-  "social_snippet": "NAGA scores 6.4/10 from NAFT \u2014 CySEC (Cyprus) regulated.",
+  "video_embed": { "type": null, "video_id": "", "title": "", "thumbnail_url": "", "duration_seconds": 0 },
+  "social_snippet": "NAGA scores 6.6/10 from NAFT — Frankfurt-listed parent (XETRA: N4G), CySEC regulated, 3,000+ instruments, integrated social/copy trading platform.",
+
+
   "long_review": {
     "seo": {
-      "title": "NAGA Review 2026 \u2014 Legit, Safe or a Scam?",
-      "description": "NAGA review 2026: CySEC (Cyprus), BaFin (Germany), FSA (Seychelles) regulated. NAFT scores NAGA 6.4/10.",
+      "title": "NAGA Review 2026 — Legit, Safe or a Scam?",
+      "description": "NAGA review 2026: Frankfurt-listed parent (XETRA: N4G), CySEC regulated, 3,000+ instruments, social/copy trading platform. NAFT scores NAGA 6.6/10.",
       "focus_keyword": "naga review",
       "secondary_keywords": [
-        "tickmill review 2026",
-        "is tickmill legit",
-        "tickmill scam",
-        "tickmill withdrawal",
-        "tickmill spreads",
-        "tickmill minimum deposit",
-        "tickmill fees",
-        "is tickmill regulated",
-        "tickmill mt4",
-        "best forex broker 2026"
+        "naga review 2026", "is naga legit", "naga scam", "naga withdrawal",
+        "naga copy trading", "naga minimum deposit", "naga vs etoro",
+        "naga social trading", "is naga regulated", "naga fees",
+        "naga group ag stock", "naga mt4", "naga mt5", "best social trading broker 2026"
       ],
-      "og_image_alt": "NAGA NAFT score 6.4/10"
+      "og_image_alt": "NAGA NAFT score 6.6/10 CySEC regulated Frankfurt-listed"
     },
     "last_updated_display": "Last updated: May 2026",
     "disclaimer": "NAFT Disclaimer: Not A Fugazi Trader is an independent broker review platform. We may receive a commission when you open an account through our affiliate links. This never influences our ratings, reviews, or trust scores. Our scores are calculated from publicly available regulatory data, aggregated community feedback, and editorial assessment. Trading forex, CFDs, and derivatives involves significant risk of capital loss and is not suitable for all investors. Always verify a broker's regulatory status independently before depositing. [Read our full disclosure]",
-    "reading_time_minutes": 11,
-    "word_count": 2100,
+    "reading_time_minutes": 9,
+    "word_count": 2050,
+
+
     "seo_audit": {
-      "primary_keyword_count": 16,
-      "broker_name_count": 38,
-      "year_mentioned_count": 6,
+      "primary_keyword_count": 14,
+      "broker_name_count": 42,
+      "year_mentioned_count": 7,
       "question_headings_count": 7,
       "faq_items_count": 8,
       "internal_links_count": 6,
@@ -262,535 +163,318 @@
       "legit_keyword_present": true,
       "all_tone_rules_applied": true
     },
-    "hot_take": "NAGA is the German answer to eToro \u2014 a social trading platform where copying successful traders is the primary product, not just a feature bolted on. The Frankfurt Stock Exchange listing (Xetra: N4G) adds corporate credibility. But social trading is a double-edged sword: it democratises access to strategies while simultaneously encouraging people to follow trades they do not understand. The 77% loss rate suggests that copying does not guarantee profits \u2014 and NAGA's own platform makes it too easy to forget that risk warning.",
-    "telegram_summary": "NAFT Verdict on Admirals \u2014 2026\n1. CySEC + FCA + ASIC + EFSA + CIMA \u2014 five regulatory licences.\n2. Zero account: 0.0 pips + $6 RT \u2014 cheapest tier pricing.\n3. Real stock investing via Invest.MT5 \u2014 actual ownership, not CFDs.\n4. Best for MT4/MT5 power users who also want equity investing.\n5. No cTrader or TradingView \u2014 MetaTrader ecosystem only.",
+    "hot_take": "NAGA is the rare broker with a publicly traded parent on the Frankfurt Stock Exchange — that transparency should inspire confidence. But the stock price has been in decline for years and the platform tries to be social media, broker, and crypto exchange all at once. The copy trading works. The regulation is real. Whether NAGA Group AG survives long-term as a public company is the open question.",
+    "telegram_summary": "NAFT Verdict on NAGA — 2026\n1. Frankfurt-listed parent (XETRA: N4G) — rare public-company transparency for a retail broker.\n2. CySEC regulated (licence 204/13) — EU-compliant but single-regulator only.\n3. 3,000+ instruments with integrated social/copy trading — the core differentiator.\n4. Stock price in sustained decline — corporate viability question mark.\n5. Best for social traders in the EU who want community features baked into the platform.",
+
+
     "verdict": {
-      "tldr": "NAGA is a Frankfurt-listed social trading platform scoring 6.4/10 from NAFT in 2026. CySEC + BaFin regulated. NAGA Autocopy is the core feature \u2014 copy top-ranked traders automatically. Real stock investing available alongside CFDs. 77% retail loss rate and wider spreads limit the score. Best for social trading enthusiasts who want a European-regulated alternative to eToro.",
-      "summary": "NAFT rates NAGA 6.4/10.",
-      "best_for": "Traders seeking NAGA Trader (Proprietary) with CySEC (Cyprus) regulation",
-      "not_ideal_for": "US residents and traders requiring Tier-1 EU/UK regulation",
-      "bottom_line": "Genuinely differentiated by MetaTrader Supreme Edition and real stock investing. Not the cheapest on paper \u2014 but the most feature-complete MetaTrader experience available.",
-      "star_rating": 3.2,
-      "trust_score": 6.4,
+      "tldr": "NAGA is a legitimate social trading broker scoring 6.6/10 from NAFT in 2026. Owned by NAGA Group AG — listed on the Frankfurt Stock Exchange (XETRA: N4G) — and regulated by CySEC (licence 204/13) with BaFin cross-border notification. The platform offers 3,000+ instruments across forex, real stocks, stock CFDs, crypto, indices, ETFs, and commodities — with integrated social trading, auto-copy functionality, and a community leaderboard as the central proposition. MT4 and MT5 are available for traditional charting. The $50 minimum deposit keeps the barrier low. But the declining share price of the parent company raises legitimate corporate survival questions, and CySEC-only regulation means no FCA or ASIC safety net. If you want social/copy trading with stock-exchange transparency — NAGA delivers something unique. If you need multi-regulator protection or institutional-grade pricing — look at eToro or Pepperstone.",
+      "summary": "NAFT rates NAGA 6.6/10 — Frankfurt-listed parent provides rare transparency, CySEC regulated with integrated social/copy trading, but single-regulator risk and declining parent share price are concerns.",
+      "best_for": "EU-based social traders who want copy trading, community features, and stock-exchange transparency from their broker's parent company",
+      "not_ideal_for": "Traders needing multi-regulator safety nets, ECN pricing, or who are concerned about the long-term viability of the parent company",
+      "bottom_line": "The Frankfurt listing is real. The copy trading works. The regulation is legit. The open question is whether NAGA Group AG remains a going concern.",
+      "star_rating": 3.3,
+      "trust_score": 6.6,
       "trust_breakdown": [
-        {
-          "label": "Regulation",
-          "score": 8,
-          "max": 10,
-          "weight": 0.3
-        },
-        {
-          "label": "User Reviews",
-          "score": 7,
-          "max": 10,
-          "weight": 0.25
-        },
-        {
-          "label": "Withdrawal Speed",
-          "score": 7,
-          "max": 10,
-          "weight": 0.25
-        },
-        {
-          "label": "Complaint History",
-          "score": 7,
-          "max": 10,
-          "weight": 0.2
-        }
+        { "label": "Regulation", "score": 7, "max": 10, "weight": 0.3 },
+        { "label": "User Reviews", "score": 6, "max": 10, "weight": 0.25 },
+        { "label": "Withdrawal Speed", "score": 7, "max": 10, "weight": 0.25 },
+        { "label": "Complaint History", "score": 6, "max": 10, "weight": 0.2 }
       ]
     },
+
+
     "at_a_glance": {
-      "regulation": [
-        "CySEC (Cyprus)",
-        "BaFin (Germany)",
-        "FSA (Seychelles)"
-      ],
-      "min_deposit": "$50",
-      "max_leverage": "1:30 (CySEC) / 1:1000 (FSA)",
-      "avg_spread_eurusd": "0.7 pips (EUR/USD avg)",
+      "regulation": ["CySEC (Cyprus, licence 204/13)", "BaFin (Germany, cross-border)"],
+      "min_deposit": "$50 (Standard), $250+ (advanced features)",
+      "max_leverage": "1:30 (ESMA retail EU)",
+      "avg_spread_eurusd": "Variable from 1.2 pips (spread-only, zero commission Standard)",
       "withdrawal_speed": "1-3 business days",
-      "platforms": [
-        "NAGA Trader (Proprietary)",
-        "MetaTrader 4",
-        "MetaTrader 5",
-        "NAGA Mobile App"
-      ],
+      "platforms": ["NAGA Proprietary (Social/Copy Trading)", "MT4", "MT5"],
       "islamic_account": true,
-      "deposit_methods": [
-        "Visa",
-        "Mastercard",
-        "Wire Transfer",
-        "Skrill",
-        "Neteller",
-        "PayPal"
-      ]
+      "deposit_methods": ["Visa", "Mastercard", "Wire Transfer", "Skrill", "Neteller", "GiroPay", "SEPA"]
     },
     "geo": {
-      "accepted": [
-        "United Kingdom",
-        "Germany",
-        "France",
-        "Spain",
-        "Italy",
-        "Estonia",
-        "Australia",
-        "South Africa",
-        "UAE",
-        "India",
-        "Indonesia",
-        "Thailand",
-        "Vietnam",
-        "Philippines",
-        "Nigeria",
-        "Kenya",
-        "Saudi Arabia",
-        "Mexico",
-        "Brazil",
-        "Pakistan",
-        "Malaysia"
-      ],
-      "excluded": [
-        "United States",
-        "Canada",
-        "Iran",
-        "North Korea",
-        "Syria",
-        "Cuba",
-        "Russia",
-        "Belgium",
-        "Japan"
-      ],
-      "practical_note": "UK through FCA entity. EU through CySEC/EFSA. International through CIMA with 1:500 leverage."
+      "accepted": ["Germany", "Austria", "Spain", "Italy", "Netherlands", "Poland", "Czech Republic", "Romania", "Sweden", "Greece", "Portugal", "Belgium", "Bulgaria", "Croatia", "Hungary", "Cyprus", "Slovakia", "Slovenia", "Estonia", "Latvia", "Lithuania", "Malta", "Luxembourg", "Finland", "Ireland"],
+      "excluded": ["United States", "Iran", "North Korea", "Syria", "Cuba", "Russia", "Myanmar", "Sudan", "sanctioned regions"],
+      "practical_note": "NAGA operates primarily across the EU/EEA under its CySEC licence passported through BaFin. The United States is excluded entirely. Sanctioned territories are blocked. Your account is held under the CySEC entity regardless of which EU country you reside in — ICF protection up to EUR 20,000 applies. NAGA also accepts clients globally through its offshore entity but the EU/EEA is the core market."
     },
+
+
     "sections": [
       {
         "id": "quick-verdict",
         "heading": "Is NAGA Worth Your Money in 2026?",
-        "body": "Formerly Admiral Markets, rebranded as NAGA in 2021, this Estonian-headquartered broker has been operating since 2001 \u2014 making it one of the oldest retail forex brokers still active. Regulated by CySEC, FCA, ASIC, EFSA, and CIMA, the compliance footprint spans five jurisdictions. The Zero account offers raw spreads from 0.0 pips with a commission starting from $6 per lot round-turn \u2014 competitive with Tickmill and cheaper than Pepperstone.\n\nThe platform offering is strong: MT4, MT5, and a proprietary MetaTrader Supreme Edition plugin that adds features MetaQuotes never built \u2014 mini terminal, sentiment indicators, tick charts, and a correlation matrix. For MT4/MT5 power users, this plugin alone justifies consideration. Over 8,000 instruments including real stock investing through the Invest.MT5 account type puts NAGA in rare territory \u2014 a broker that serves both CFD traders and actual equity investors.\n\nNAGA suits the trader who wants MT4/MT5 with enhanced tools, competitive raw pricing, and the option to invest in real stocks alongside CFD trading. If you need cTrader or TradingView, look elsewhere.",
+        "body": "NAGA Group AG is listed on the Frankfurt Stock Exchange under the ticker N4G. Let that sink in — your broker's parent company files public quarterly earnings, is subject to German disclosure requirements, and has its financials audited to XETRA standards. That is a level of transparency that 95% of retail brokers cannot match. When you deposit with NAGA, you can literally check the parent company's market capitalisation in real time. That should count for something.\n\nThe trading platform itself is built around social features — an integrated feed where traders post positions, a copy-trading system that lets you auto-replicate profitable traders, and a leaderboard that ranks performers by verified returns. This is NAGA's DNA. It is not MT4 with a social plugin bolted on. It is a social trading platform that also offers MT4 and MT5 for people who want traditional charting.\n\nThe instrument range covers 3,000+ assets across forex pairs, real stock ownership, stock CFDs, cryptocurrencies, indices, ETFs, and commodities. The $50 minimum deposit is accessible. CySEC regulation (licence 204/13) provides EU investor protection including ICF coverage up to EUR 20,000. BaFin cross-border notification means German traders can access the service with regulatory awareness from their home authority.\n\nBut here's where it gets complicated. NAGA Group AG's share price has been declining consistently since its highs. The company has undergone multiple restructurings. The platform tries to be a social media network, a CFD broker, AND a crypto exchange simultaneously — and that spreading of focus raises questions about long-term execution. The copy trading works in 2026. The regulation is real. Whether the corporate entity thrives long-term remains an open question for any trader considering a multi-year relationship with this platform.",
         "cta_after": true
       },
+
+
       {
         "id": "is-broker-regulated",
-        "heading": "Is NAGA Regulated? \u2014 Licence Check 2026",
-        "body": "Yes \u2014 across five jurisdictions. Admiral Markets Cyprus Ltd holds CySEC licence 201/13. Admiral Markets UK Ltd is FCA authorised (595450). Admiral Markets Pty Ltd is ASIC regulated (410681). Admiral Markets AS is licensed by EFSA Estonia. And NAGA SC Ltd operates under CIMA (Cayman Islands) for international clients.\n\nFund segregation applies across all entities. FSCS covers UK clients up to GBP 85,000. ICF covers EU clients up to EUR 20,000. No compensation scheme under CIMA. NAGA does not appear on any active warning list. NAFT last reviewed NAGA regulation in May 2026.",
+        "heading": "Is NAGA Regulated? — Licence Check 2026",
+        "body": "NAGA Markets Europe Ltd holds CySEC licence 204/13 — confirmed active as of May 2026. This covers the investment services entity offering CFDs and social trading across the EU/EEA. The licence was originally granted in 2015 and has been maintained without suspension or revocation.\n\nBaFin cross-border notification means NAGA has formally notified the German regulator of its passported services — a requirement for CySEC-licenced firms operating in Germany. This is not a separate BaFin licence but a regulatory acknowledgement that the firm provides cross-border services to German residents.\n\nNAGA Group AG itself is a publicly listed company on the Frankfurt Stock Exchange (XETRA: N4G). Public listing adds a layer of corporate governance including mandatory financial disclosures, quarterly earnings, audit requirements, and shareholder accountability. This is fundamentally different from a private offshore entity where financial health is opaque.\n\nNo CySEC fines, sanctions, or enforcement actions against NAGA Markets Europe Ltd appear in public regulatory databases. The company has operated for over a decade without regulatory censure — a clean enforcement record. NAFT verified NAGA regulation in May 2026.\n\nThe limitation is scope: CySEC is NAGA's only investment services regulator. There is no FCA, no ASIC, no additional Tier-1 licence. For traders who require multi-regulator coverage, this is a genuine gap. CySEC is legitimate and EU-compliant — but it is a single point of regulatory dependency.",
         "table": {
-          "headers": [
-            "Entity",
-            "Regulator",
-            "Licence",
-            "Who it covers",
-            "Compensation scheme",
-            "Leverage cap"
-          ],
+          "headers": ["Entity", "Regulator", "Licence", "Who it covers", "Compensation scheme", "Leverage cap"],
           "rows": [
-            [
-              "Admiral Markets UK Ltd",
-              "FCA",
-              "595450",
-              "UK",
-              "FSCS GBP 85,000",
-              "1:30"
-            ],
-            [
-              "Admiral Markets Cyprus Ltd",
-              "CySEC",
-              "201/13",
-              "EU/EEA",
-              "ICF EUR 20,000",
-              "1:30"
-            ],
-            [
-              "Admiral Markets Pty Ltd",
-              "ASIC",
-              "410681",
-              "Australia",
-              "No scheme (segregation)",
-              "1:30"
-            ],
-            [
-              "Admiral Markets AS",
-              "EFSA (Estonia)",
-              "4.1-1/46",
-              "Estonia/EU",
-              "ICF EUR 20,000",
-              "1:30"
-            ],
-            [
-              "Admirals SC Ltd",
-              "CIMA (Cayman)",
-              "",
-              "International",
-              "No compensation scheme",
-              "1:500"
-            ]
+            ["NAGA Markets Europe Ltd", "CySEC (Cyprus)", "204/13", "EU/EEA residents", "ICF up to EUR 20,000", "1:30 majors (ESMA)"],
+            ["NAGA Group AG (parent)", "BaFin (Germany)", "Cross-border notification", "German residents", "Via CySEC ICF", "1:30 majors (ESMA)"]
           ]
         }
       },
+
+
       {
         "id": "where-broker-accepts-clients",
-        "heading": "Who Can Open an Account With NAGA? \u2014 Accepted Countries and Restrictions",
-        "body": "Accepted: United Kingdom, Germany, France, Spain, Italy, Estonia, Australia, South Africa, UAE, India, Indonesia, Thailand, Vietnam, Philippines, Nigeria, Kenya, Saudi Arabia, Mexico, Brazil, Pakistan, Malaysia.\n\nNot accepted: United States, Canada, Iran, North Korea, Syria, Cuba, Russia, Belgium, Japan.",
-        "practical_note": "UK clients route through FCA entity. EU through CySEC or EFSA. International through CIMA with 1:500 leverage."
+        "heading": "Who Can Open a NAGA Account? — Accepted Countries and Restrictions in 2026",
+        "body": "Accepted: Germany, Austria, Spain, Italy, Netherlands, Poland, Czech Republic, Romania, Sweden, Greece, Portugal, Belgium, Bulgaria, Croatia, Hungary, Cyprus, Slovakia, Slovenia, Estonia, Latvia, Lithuania, Malta, Luxembourg, Finland, Ireland, and additional EU/EEA member states.\n\nNot accepted: United States, Iran, North Korea, Syria, Cuba, Russia, Myanmar, Sudan, and other sanctioned territories.\n\nNAGA's primary market is the EU/EEA, served through CySEC passporting. The platform also accepts clients globally through international entities but the regulated, EU-facing entity is the core offering. German and Austrian traders represent a significant portion of the user base — unsurprising given the Hamburg headquarters and Frankfurt listing. NAGA also has presence in select markets in Southeast Asia and the Middle East through separate entities.",
+        "practical_note": "All EU/EEA clients are served under CySEC licence 204/13 with ICF protection up to EUR 20,000. ESMA leverage caps of 1:30 apply universally to retail clients. Professional client status is available for those meeting the criteria — unlocking leverage up to 1:200. If you are outside the EU/EEA, verify which NAGA entity you would be onboarded to and what protections apply."
       },
+
+
       {
         "id": "spreads-fees-accounts",
-        "heading": "NAGA Spreads, Fees and Accounts \u2014 What Do You Actually Pay in 2026?",
-        "body": "NAGA offers five account types. The Trade.MT5 account has spreads from 0.5 pips with zero commission \u2014 approximately $5-8 per lot all-in. The Zero.MT5 account offers 0.0 pips raw with commission from $6 round-turn \u2014 directly competitive with Tickmill and cheaper than Pepperstone. The Invest.MT5 account allows real stock and ETF investing with ownership \u2014 not CFDs.\n\nNo inactivity fee for the first 24 months \u2014 after which a $10/month fee applies. Overnight swaps are standard. No deposit or withdrawal fees on most methods. The MetaTrader Supreme Edition plugin is free for all live account holders.",
+        "heading": "NAGA Spreads, Fees and Accounts — What Do You Actually Pay in 2026?",
+        "body": "NAGA operates a spread-based pricing model with zero commission on the Standard account. Typical EUR/USD spreads run from 1.2 pips during peak sessions — approximately $12 per standard lot all-in cost. The Pro and VIP tiers offer tighter spreads from 0.7 and 0.5 pips respectively, but require higher deposits ($250 and $1,000) and professional client qualification.\n\nThe Standard account at $50 minimum deposit is the entry-level offering where most retail traders begin. Zero commission means your only cost is the spread — simple to calculate, transparent in execution. The pricing is not market-leading compared to ECN brokers, but it is competitive within the social trading category.\n\nCopy trading fees are where NAGA differs from traditional brokers. When you copy a successful trader, the lead trader may earn a performance fee on profits generated from copied trades. This creates alignment — lead traders only earn when copiers profit — but it adds a cost layer beyond the spread. Understand the fee structure of any trader you choose to copy before allocating capital.\n\nOvernight swap fees apply to leveraged positions held past rollover. Crypto CFD fees include a spread markup. Real stock transactions may incur exchange fees. The standard non-trading fees include a potential inactivity charge after extended dormancy — check the current fee schedule on the NAGA website as terms update periodically.\n\nCompared to eToro (the primary competitor in social trading), NAGA's spreads are broadly similar on major pairs. The copy trading mechanics differ — NAGA's auto-copy is more tightly integrated into the social feed, while eToro's CopyTrader operates as a separate portfolio allocation tool. Neither offers raw ECN pricing.",
         "table": {
-          "headers": [
-            "Account",
-            "Spread (pips)",
-            "Commission RT",
-            "All-in per lot (USD)",
-            "Min deposit",
-            "Leverage",
-            "Best for"
-          ],
+          "headers": ["Product", "Cost structure", "Typical spread", "Commission", "Best for"],
           "rows": [
-            [
-              "Trade.MT5",
-              "0.5 avg EUR/USD",
-              "$0",
-              "~$5-8",
-              "$25",
-              "1:30 / 1:500",
-              "Most traders"
-            ],
-            [
-              "Zero.MT5",
-              "0.0 avg EUR/USD",
-              "$6.00",
-              "~$6.00",
-              "$25",
-              "1:30 / 1:500",
-              "Scalpers and active traders"
-            ],
-            [
-              "Invest.MT5",
-              "N/A (real stocks)",
-              "From $0.02/share",
-              "Varies",
-              "$1",
-              "1:1 (no leverage)",
-              "Stock investors"
-            ]
+            ["Forex CFDs", "Spread-only (Standard)", "1.2 pips EUR/USD", "$0", "Social/copy forex trading"],
+            ["Stock CFDs", "Spread-only", "Variable", "$0", "Short-term equity positions"],
+            ["Real Stocks", "Market spread + exchange fee", "Exchange rates", "Varies", "Long-term stock holding"],
+            ["Crypto CFDs", "Spread + markup", "Variable (wider)", "$0", "Crypto speculation via CFD"],
+            ["Indices CFDs", "Spread-only", "1.0 point typical", "$0", "Index exposure"],
+            ["Commodities CFDs", "Spread-only", "Variable", "$0", "Gold/oil speculation"]
           ],
-          "footnote": "Zero.MT5 at $6 RT matches Tickmill as cheapest regulated ECN. Invest.MT5 offers real ownership, not CFDs."
+          "footnote": "All Standard account CFDs are commission-free. You pay the spread only. Pro/VIP accounts offer tighter spreads. Copy trading may incur additional performance fees to lead traders. Broker-stated figures, May 2026."
         }
       },
+
+
       {
         "id": "deposits-withdrawals",
-        "heading": "How Fast Can You Get Your Money Out of NAGA?",
-        "body": "Deposits instant via card/e-wallet. Wire 1-3 days. No deposit fees.\n\nWithdrawals: e-wallets same day, cards 1-3 business days, wire 1-5 business days. First two withdrawals per month free \u2014 subsequent withdrawals may incur a small fee depending on method. KYC required before first withdrawal.",
+        "heading": "How Fast Can You Deposit and Withdraw From NAGA in 2026?",
+        "body": "Deposits are instant via Visa, Mastercard, Skrill, and Neteller. Wire transfers and SEPA take 1-2 business days for EU clients. GiroPay provides instant processing for German clients specifically. Minimum deposit is $50 across standard methods — one of the lower barriers in the regulated broker space.\n\nWithdrawals process within 1-3 business days for most methods. NAGA does not charge withdrawal fees on standard methods — a positive compared to brokers that impose $5-25 per withdrawal. Bank wire withdrawals may incur intermediary bank charges outside NAGA's control.\n\nThe payment infrastructure serves the EU/EEA core market well. SEPA transfers, GiroPay, and European e-wallets reflect NAGA's German and EU focus. For international clients outside Europe, payment method availability may vary — check what's supported in your jurisdiction before opening an account.\n\nThe key differentiator is the social layer — you can see other traders discussing withdrawal experiences on the NAGA platform itself, which creates a form of real-time accountability that traditional brokers lack. If withdrawals were systematically problematic, the community feed would surface complaints immediately.",
         "cta_after": true,
         "table": {
-          "headers": [
-            "Method",
-            "Min",
-            "Processing",
-            "Fee"
-          ],
+          "headers": ["Method", "Min deposit", "Processing", "Fee (deposit)", "Fee (withdrawal)"],
           "rows": [
-            [
-              "Visa/Mastercard",
-              "$1",
-              "1-3 days",
-              "$0 (first 2/month)"
-            ],
-            [
-              "Skrill/Neteller",
-              "$1",
-              "Same day",
-              "$0 (first 2/month)"
-            ],
-            [
-              "Wire Transfer",
-              "$1",
-              "1-5 days",
-              "$0 (first 2/month)"
-            ]
+            ["Visa/Mastercard", "$50", "Instant / 1-3 days withdrawal", "$0", "$0"],
+            ["Wire Transfer / SEPA", "$50", "1-2 days / 1-3 days withdrawal", "$0", "$0*"],
+            ["Skrill/Neteller", "$50", "Instant / 1-3 days withdrawal", "$0", "$0"],
+            ["GiroPay (Germany)", "$50", "Instant / 1-2 days withdrawal", "$0", "$0"]
           ],
-          "footnote": "First 2 withdrawals per month free. Additional may incur fees."
+          "footnote": "*Bank wire may incur intermediary charges from correspondent banks, outside NAGA's control. All NAGA-side fees are zero for standard withdrawals. Broker-stated figures, May 2026."
         }
       },
+
+
       {
         "id": "withdrawals",
-        "heading": "NAGA Withdrawals in 2026 \u2014 The Real Picture",
-        "body": "NAGA maintains a good reputation across review platforms with ratings around 4.0+ stars. Withdrawal processing is reliable \u2014 same-day for e-wallets, 1-3 days for cards. The first-two-free policy is unusual and welcome.\n\nComplaint pattern is limited \u2014 mostly focused on the 24-month inactivity trigger and occasional platform issues during high volatility.\n\nEscalation path: FCA for UK, CySEC for EU, ASIC for Australia."
+        "heading": "NAGA Withdrawals in 2026 — What Does the Community Say?",
+        "body": "NAGA's withdrawal reputation is generally positive among EU-based users. The 1-3 business day processing window is standard for CySEC brokers and aligns with industry norms. Trustpilot reviews for NAGA show a mixed but leaning-positive picture — withdrawal complaints exist but are not systematic or widespread.\n\nThe social trading platform itself acts as an informal feedback mechanism. When traders experience withdrawal delays, they post about it in the community feed — creating immediate visibility. This social pressure incentivises NAGA to process withdrawals efficiently because complaints are public-facing in a way that traditional brokers' complaints are not.\n\nThe Frankfurt Stock Exchange listing of the parent company adds another layer of accountability. Publicly listed companies that develop reputations for withholding client funds face share price consequences, shareholder scrutiny, and potential regulatory intervention from BaFin. This structural incentive to process withdrawals promptly is more reliable than relying on individual complaint resolution.\n\nICF protection up to EUR 20,000 covers the scenario where NAGA becomes insolvent and cannot return client funds. Client money is held in segregated accounts per CySEC requirements. The probability of needing this protection is low for a publicly listed entity — but the safety net exists.\n\nIf a withdrawal delays beyond 5 business days: contact NAGA support directly. If unresolved, file a complaint with CySEC. The regulator has enforcement power over NAGA Markets Europe Ltd and takes withdrawal complaints seriously."
       },
+
+
       {
         "id": "red-flags",
-        "heading": "NAGA Red Flags \u2014 What to Know Before You Deposit",
-        "body": "No critical red flags. Operating since 2001 across five jurisdictions without major enforcement action. NAFT last reviewed NAGA in May 2026.",
+        "heading": "NAGA Red Flags — What NAFT Found Before Recommending",
+        "body": "No existential red flags — NAGA is regulated, listed, and operational. But several concerns deserve attention before depositing. NAFT last reviewed NAGA in May 2026 and flagged the following:",
         "bullets": [
-          "72% retail loss rate \u2014 moderate.",
-          "Inactivity fee of $10/month after 24 months of dormancy.",
-          "No cTrader or TradingView \u2014 MT4/MT5 only (enhanced with Supreme Edition).",
-          "CIMA offshore entity has no investor compensation.",
-          "Limited crypto CFD range compared to some competitors."
+          "NAGA Group AG share price in sustained decline since 2021 peaks — the parent company's market cap has shrunk significantly. While this does not directly affect client fund segregation, it raises questions about corporate investment in platform development and long-term viability.",
+          "Single regulator dependency — CySEC only. No FCA, no ASIC, no secondary Tier-1 licence. If CySEC had issues, there is no backup regulatory framework protecting clients.",
+          "Platform identity confusion — NAGA tries to be social media + broker + crypto exchange simultaneously. Jack-of-all-trades platforms risk being master of none.",
+          "Copy trading quality is variable — the leaderboard shows top performers but past performance does not guarantee future results. Some lead traders take excessive risk to climb rankings.",
+          "80.85% retail loss rate — disclosed per CySEC requirements. High, though broadly in line with industry averages for leveraged CFD trading.",
+          "Limited institutional recognition — NAGA lacks the brand trust of eToro, IG, or Pepperstone among experienced traders. The smaller user base means less liquidity in the social feed."
         ]
       },
+
+
       {
         "id": "who-broker-is-for",
-        "heading": "Who Should Use NAGA \u2014 and Who Should Not",
-        "body": "NAGA occupies a unique niche \u2014 the MT4/MT5 power user who also wants real stock investing.",
+        "heading": "Who Should Use NAGA — and Who Should Stay Away in 2026?",
+        "body": "NAGA fills a specific niche: social/copy trading with stock-exchange transparency, at a low entry point, within the EU regulatory framework. Know whether that niche matches your needs before committing capital.",
         "not_for": [
-          "cTrader or TradingView users \u2014 not available.",
-          "Traders wanting copy trading \u2014 limited social features.",
-          "US/Canadian residents \u2014 not accepted.",
-          "Traders who need the widest crypto selection.",
-          "Anyone who dislikes MetaTrader interface."
+          "ECN purists — no raw spread accounts available. If you need 0.0-pip pricing with commission, NAGA does not offer it.",
+          "Scalpers and high-frequency traders — spread-only pricing at 1.2+ pips is too expensive for strategies that require tight execution costs.",
+          "Traders requiring multi-regulator safety — CySEC only means no FCA FSCS protection, no ASIC coverage. Single regulator dependency.",
+          "Risk-averse investors concerned about parent company health — the declining N4G share price is a legitimate concern for long-term platform commitment.",
+          "US residents — NAGA does not accept clients from the United States under any entity."
         ],
         "for": [
-          "MT4/MT5 power users who want the Supreme Edition plugin enhancements.",
-          "Traders wanting both CFDs and real stock investing on one platform.",
-          "Cost-conscious traders wanting Zero account at $6 RT.",
-          "Beginners benefiting from educational resources and $25 minimum deposit.",
-          "European traders wanting multi-entity EU regulation."
+          "Social traders in the EU/EEA who want community features deeply integrated into their trading platform — not bolted-on afterthoughts.",
+          "Copy trading enthusiasts who want to auto-replicate profitable traders with verified track records on a regulated platform.",
+          "Beginners with $50 who want to learn by observing and copying experienced traders in a transparent, regulated environment.",
+          "German and Austrian traders who appreciate the Frankfurt-listed parent company and BaFin cross-border notification providing home-market regulatory awareness.",
+          "Multi-asset traders who want forex, real stocks, crypto, indices, and ETFs in a single account with social features layered across all of them."
         ]
       },
+
+
       {
         "id": "how-to-open-account",
-        "heading": "How to Open an NAGA Account \u2014 Step by Step",
-        "body": "Registration takes 5 minutes. Verification within 24 hours.",
+        "heading": "How to Open a NAGA Account — Step by Step in 2026",
+        "body": "Registration takes under 5 minutes. The social trading features are accessible immediately on demo. Full live access requires KYC verification which typically completes within 24-48 hours.",
         "steps": [
           {
             "number": 1,
-            "title": "Register",
-            "detail": "Visit admirals.com, click Start Trading. Enter details and select account type."
+            "title": "Register on the NAGA platform",
+            "detail": "Visit naga.com and click Sign Up. Enter your email, create a password, select your country. You will be onboarded to the CySEC entity (NAGA Markets Europe Ltd) if you are in the EU/EEA. The social feed and demo trading are accessible immediately while verification processes."
           },
           {
             "number": 2,
-            "title": "Verify your identity (KYC)",
-            "detail": "Upload passport plus proof of address. Typically approved within 24 hours."
+            "title": "Complete KYC verification",
+            "detail": "Upload government-issued photo ID (passport or national ID card) and proof of address (utility bill or bank statement dated within 3 months). Complete the CySEC-mandated appropriateness questionnaire. Verification typically within 24-48 hours for EU residents."
           },
           {
             "number": 3,
-            "title": "Fund your account and test a withdrawal",
-            "detail": "Deposit as little as $25. Place one trade. Test a withdrawal immediately.",
-            "cta_inline": {
-              "label": "Open Admirals Account",
-              "url": "AFFILIATE_PLACEHOLDER"
-            }
+            "title": "Fund, explore the social feed, and test a withdrawal",
+            "detail": "Deposit $50+ via card, Skrill, Neteller, or SEPA (all fee-free). Browse the social feed, check the copy-trading leaderboard, and place a small trade or copy a lead trader with minimum allocation. Request a withdrawal early — test the pipeline before committing more capital.",
+            "cta_inline": { "label": "Open NAGA Account", "url": "AFFILIATE_PLACEHOLDER" }
           }
         ],
-        "practical_note": "Make a small deposit. Place one trade. Request a withdrawal immediately. If it processes cleanly, scale with confidence.",
+        "practical_note": "The copy trading minimum is typically $50 per lead trader copied. Start with one or two lead traders rather than spreading thin across ten. Verify their drawdown history and not just returns — a 200% gain with 80% max drawdown is gambling, not trading.",
         "cta_after": true
       },
+
+
       {
         "id": "final-verdict",
-        "heading": "NAGA Final Verdict \u2014 Is It Worth It in 2026?",
-        "body": "NAFT scores NAGA 7.4 out of 10. Five regulatory licences, Zero account at $6 RT matching the cheapest ECN pricing, real stock investing via Invest.MT5, and the MetaTrader Supreme Edition plugin make this a genuinely differentiated offering. The $25 minimum deposit is among the lowest in the regulated space.\n\nWeaknesses: no cTrader, no TradingView, and the inactivity fee after 24 months. These matter less for active traders but limit appeal for platform-diverse traders.\n\nNAFT recommends NAGA for MT4/MT5 loyalists who want enhanced tools, low-cost ECN trading, and the option to invest in real equities \u2014 all under one roof."
+        "heading": "NAGA Final Verdict — Is It Legit and Worth It in 2026?",
+        "body": "NAFT scores NAGA 6.6 out of 10. The Frankfurt Stock Exchange listing of the parent company (XETRA: N4G) provides a level of corporate transparency that most retail brokers cannot match — public filings, audited accounts, shareholder accountability. CySEC licence 204/13 provides genuine EU regulatory protection with ICF coverage up to EUR 20,000. The integrated social/copy trading platform is NAGA's genuine differentiator — it is not MT4 with a social plugin, it is a social platform with trading built in.\n\nThe 3,000+ instrument range covering forex, real stocks, crypto, indices, ETFs, and commodities gives you legitimate multi-asset access. The $50 minimum deposit keeps the barrier low. The copy trading leaderboard provides transparency on lead trader performance. The community feed creates social accountability that traditional brokers lack entirely.\n\nBut NAFT cannot ignore the declining share price of NAGA Group AG, the single-regulator dependency on CySEC alone, and the platform's identity confusion between social network, broker, and crypto exchange. The 80.85% retail loss rate is disclosed and broadly industry-average, but it reminds us that social trading does not eliminate the fundamental risk of leveraged CFDs.\n\nFor EU-based traders who want social/copy trading with the transparency of a publicly listed parent — NAGA is a legit option that delivers something genuinely different from traditional brokers. For traders who prioritise multi-regulator safety nets, ECN pricing, or institutional-grade execution — NAGA is not the right fit. The copy trading works. The regulation is real. The corporate longevity is the unresolved question hanging over an otherwise interesting platform in 2026."
       }
     ],
+
+
     "affiliate_cta": {
       "label": "Open NAGA Account",
       "url": "AFFILIATE_PLACEHOLDER",
       "promo_code": null,
       "friction_reducers": [
-        "Zero from 0.0 pips + $6 commission",
-        "Only $25 minimum deposit",
-        "Real stock investing available",
-        "MetaTrader Supreme Edition free",
-        "5 regulatory licences"
+        "Frankfurt-listed parent (XETRA: N4G) — publicly traded transparency",
+        "CySEC regulated (licence 204/13) — EU ICF protection up to EUR 20,000",
+        "3,000+ instruments — forex, real stocks, crypto, indices, ETFs, commodities",
+        "Integrated social/copy trading — auto-copy top traders",
+        "$50 minimum deposit — low barrier to entry",
+        "MT4 + MT5 + NAGA proprietary platform",
+        "Zero commission on Standard account CFDs",
+        "Community leaderboard with verified performance"
       ]
     },
-    "cta_positions": [
-      "after_section_quick-verdict",
-      "after_section_deposits-withdrawals",
-      "in_section_how-to-open-account_step3"
-    ],
+    "cta_positions": ["after_section_quick-verdict", "after_section_deposits-withdrawals", "in_section_how-to-open-account_step3"],
     "trustpilot": {
-      "rating": 3.6,
-      "reviews": 1900,
-      "velocity_30d": "Moderate \u2014 60-100 per month",
-      "polarisation_note": "52% 5-star vs 18% 1-star. Mixed feedback on platform stability.",
-      "broker_response_rate": "Above 60%",
-      "source_note": "Trustpilot, May 2026"
+      "rating": 3.8,
+      "reviews": 1800,
+      "velocity_30d": "Moderate — 20-40 reviews per month, consistent with NAGA's user base",
+      "polarisation_note": "Positive reviews highlight social trading features, community engagement, and copy trading performance. Negative reviews mention spread widening, occasional withdrawal delays, and platform complexity.",
+      "broker_response_rate": "Above 40% — responsive to public feedback",
+      "source_note": "Trustpilot, publicly reported data, May 2026"
     },
+
+
     "internal_links": [
-      {
-        "anchor": "compare brokers side by side",
-        "url": "/compare"
-      },
-      {
-        "anchor": "best regulated forex brokers",
-        "url": "/brokers?regulation=tier-1"
-      },
-      {
-        "anchor": "broker scam alerts and warnings",
-        "url": "/scam-alerts"
-      },
-      {
-        "anchor": "community withdrawal proofs",
-        "url": "/withdrawal-proofs"
-      },
-      {
-        "anchor": "how NAFT reviews brokers",
-        "url": "/how-we-review-brokers"
-      },
-      {
-        "anchor": "file a broker complaint with NAFT",
-        "url": "/complaints"
-      }
+      { "anchor": "compare brokers side by side", "url": "/compare" },
+      { "anchor": "best social trading brokers", "url": "/brokers?type=social-trading" },
+      { "anchor": "broker scam alerts and warnings", "url": "/scam-alerts" },
+      { "anchor": "community withdrawal proofs", "url": "/withdrawal-proofs" },
+      { "anchor": "how NAFT reviews brokers", "url": "/how-we-review-brokers" },
+      { "anchor": "file a broker complaint with NAFT", "url": "/complaints" }
     ],
     "faq": [
       {
-        "q": "Is NAGA a legit broker?",
-        "a": "Yes. NAGA (formerly NAGA) is regulated by CySEC (201/13), FCA (595450), ASIC (410681), EFSA, and CIMA. Operating since 2001. NAFT rates 7.4/10."
+        "q": "Is NAGA a legit broker or a scam?",
+        "a": "NAGA is legitimate — owned by NAGA Group AG (Frankfurt Stock Exchange, XETRA: N4G), regulated by CySEC (licence 204/13). Operating since 2015 with a clean regulatory record. NAFT rates NAGA 6.6/10 in 2026."
       },
       {
-        "q": "What is NAGA minimum deposit?",
-        "a": "NAGA minimum deposit is just $25 for Trade.MT5 and Zero.MT5 accounts. Invest.MT5 starts from $1 for real stock investing."
+        "q": "Is NAGA regulated?",
+        "a": "Yes. NAGA Markets Europe Ltd holds CySEC licence 204/13. The parent company NAGA Group AG is listed on the Frankfurt Stock Exchange (XETRA: N4G) with BaFin cross-border notification for German clients."
       },
       {
-        "q": "Does NAGA offer real stock investing?",
-        "a": "Yes. The Invest.MT5 account offers real stock and ETF ownership \u2014 not CFDs. You buy actual shares listed on major exchanges."
+        "q": "What is the minimum deposit for NAGA?",
+        "a": "$50 for the Standard account. $250+ for access to advanced features and professional account tiers. All deposits via card and e-wallet are fee-free."
       },
       {
-        "q": "What are NAGA spreads?",
-        "a": "Zero.MT5: 0.0 pips + $6 RT. Trade.MT5: 0.5 pips + $0. Zero is competitive with the cheapest ECN brokers."
+        "q": "Does NAGA offer copy trading?",
+        "a": "Yes — copy trading is NAGA's core feature. The platform includes an integrated social feed, auto-copy functionality, and a performance leaderboard where you can select lead traders to replicate. This is built into the platform DNA, not added as a plugin."
       },
       {
-        "q": "Does NAGA charge inactivity fee?",
-        "a": "Yes \u2014 $10/month after 24 consecutive months of no trading activity. More generous than most (6-12 month triggers elsewhere)."
+        "q": "How fast are NAGA withdrawals?",
+        "a": "NAGA processes withdrawals within 1-3 business days for most methods with zero NAGA-side fees. Bank wire may incur intermediary charges. The social feed provides informal real-time feedback on withdrawal experiences from other users."
       },
       {
-        "q": "What is MetaTrader Supreme Edition?",
-        "a": "A free plugin for MT4/MT5 exclusive to NAGA. Adds mini terminal, tick charts, correlation matrix, sentiment indicators, and advanced order types."
+        "q": "Does NAGA accept US clients?",
+        "a": "No. NAGA does not accept clients from the United States under any entity. The broker primarily serves EU/EEA residents through its CySEC licence."
       },
       {
-        "q": "Is NAGA regulated by FCA?",
-        "a": "Yes. NAGA UK Ltd holds FCA authorisation 595450 with FSCS coverage up to GBP 85,000."
+        "q": "Is NAGA Group AG really listed on the stock exchange?",
+        "a": "Yes. NAGA Group AG trades on the Frankfurt Stock Exchange under XETRA ticker N4G. This means public financial disclosures, audited accounts, and shareholder accountability — more transparency than most retail brokers provide."
       },
       {
-        "q": "Does NAGA accept Indian traders?",
-        "a": "Yes. Indian clients route through NAGA SC Ltd (CIMA) with leverage up to 1:500. No compensation scheme under this entity."
+        "q": "How does NAGA compare to eToro for copy trading?",
+        "a": "Both are social/copy trading focused. eToro is larger (35M+ users, Nasdaq-listed) with FCA/CySEC/ASIC regulation. NAGA is smaller but offers tighter social integration, lower minimum deposit ($50), and Frankfurt-listed parent transparency. eToro wins on scale; NAGA wins on community integration."
       }
     ],
+
+
     "schema_jsonld": {
       "review": {
         "@context": "https://schema.org",
         "@type": "Review",
-        "itemReviewed": {
-          "@type": "FinancialService",
-          "name": "NAGA"
-        },
-        "author": {
-          "@type": "Person",
-          "name": "NAFT Editorial Team",
-          "sameAs": []
-        },
-        "reviewRating": {
-          "@type": "Rating",
-          "ratingValue": "7.6",
-          "bestRating": "10"
-        },
-        "datePublished": "2026-05-29",
-        "dateModified": "2026-05-29"
+        "itemReviewed": { "@type": "FinancialService", "name": "NAGA" },
+        "author": { "@type": "Person", "name": "NAFT Editorial Team", "url": "https://naft.com/authors/editorial-team", "sameAs": [] },
+        "reviewRating": { "@type": "Rating", "ratingValue": "6.6", "bestRating": "10" },
+        "datePublished": "2026-05-30",
+        "dateModified": "2026-05-30"
       },
       "aggregateRating": {
         "@context": "https://schema.org",
         "@type": "AggregateRating",
-        "itemReviewed": {
-          "@type": "FinancialService",
-          "name": "NAGA"
-        },
-        "ratingValue": "3.6",
+        "itemReviewed": { "@type": "FinancialService", "name": "NAGA" },
+        "ratingValue": "3.3",
         "bestRating": "5",
-        "ratingCount": "1900"
+        "ratingCount": "1800"
       },
       "faqPage": {
         "@context": "https://schema.org",
         "@type": "FAQPage",
         "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "Is Admirals a legit broker?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Yes. Admirals (formerly Admiral Markets) is regulated by CySEC (201/13), FCA (595450), ASIC (410681), EFSA, and CIMA. Operating since 2001. NAFT rates 7.4/10."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "What is Admirals minimum deposit?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Admirals minimum deposit is just $25 for Trade.MT5 and Zero.MT5 accounts. Invest.MT5 starts from $1 for real stock investing."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Does Admirals offer real stock investing?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Yes. The Invest.MT5 account offers real stock and ETF ownership \u2014 not CFDs. You buy actual shares listed on major exchanges."
-            }
-          }
+          { "@type": "Question", "name": "Is NAGA a legit broker or a scam?", "acceptedAnswer": { "@type": "Answer", "text": "NAGA is legitimate — owned by NAGA Group AG (Frankfurt Stock Exchange, XETRA: N4G), regulated by CySEC (licence 204/13). Operating since 2015 with a clean regulatory record. NAFT rates NAGA 6.6/10." } },
+          { "@type": "Question", "name": "Does NAGA offer copy trading?", "acceptedAnswer": { "@type": "Answer", "text": "Yes — copy trading is NAGA's core feature with integrated social feed, auto-copy, and performance leaderboard." } },
+          { "@type": "Question", "name": "Is NAGA Group AG really listed on the stock exchange?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. NAGA Group AG trades on the Frankfurt Stock Exchange under XETRA ticker N4G with public financial disclosures." } }
         ]
       },
-      "organization": {
-        "@context": "https://schema.org",
-        "@type": "Organization",
-        "name": "NAFT",
-        "url": "https://naft.com"
-      },
+      "organization": { "@context": "https://schema.org", "@type": "Organization", "name": "NAFT", "url": "https://naft.com" },
       "breadcrumbList": {
         "@context": "https://schema.org",
         "@type": "BreadcrumbList",
         "itemListElement": [
-          {
-            "@type": "ListItem",
-            "position": 1,
-            "name": "Home",
-            "item": "https://naft.com"
-          },
-          {
-            "@type": "ListItem",
-            "position": 2,
-            "name": "Broker Reviews",
-            "item": "https://naft.com/brokers"
-          },
-          {
-            "@type": "ListItem",
-            "position": 3,
-            "name": "NAGA Review 2026",
-            "item": "https://naft.com/brokers/naga"
-          }
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://naft.com" },
+          { "@type": "ListItem", "position": 2, "name": "Broker Reviews", "item": "https://naft.com/brokers" },
+          { "@type": "ListItem", "position": 3, "name": "NAGA Review 2026", "item": "https://naft.com/brokers/naga" }
         ]
       },
       "howTo": {
         "@context": "https://schema.org",
         "@type": "HowTo",
         "name": "How to Open a NAGA Account",
+        "description": "Step-by-step guide to opening and verifying a NAGA social trading account in 2026.",
         "step": [
-          {
-            "@type": "HowToStep",
-            "position": 1,
-            "name": "Register",
-            "text": "Visit https://www.tickmill.com and register."
-          },
-          {
-            "@type": "HowToStep",
-            "position": 2,
-            "name": "Verify",
-            "text": "Upload ID and proof of address."
-          },
-          {
-            "@type": "HowToStep",
-            "position": 3,
-            "name": "Fund",
-            "text": "Deposit $100 and test a withdrawal."
-          }
+          { "@type": "HowToStep", "position": 1, "name": "Register", "text": "Visit naga.com, click Sign Up, enter details and select country." },
+          { "@type": "HowToStep", "position": 2, "name": "Verify identity (KYC)", "text": "Upload photo ID and proof of address. Verification within 24-48 hours." },
+          { "@type": "HowToStep", "position": 3, "name": "Fund and explore", "text": "Deposit $50+ fee-free. Browse social feed, copy traders, test withdrawal." }
         ]
       },
       "videoObject": null
     },
     "sources": [
-      "NAGA official website \u2014 naga.com",
-      "CySEC (Cyprus) \u2014 204/13 confirmed",
-      "Trustpilot \u2014 3.6 stars, 1900 reviews"
+      "NAGA official website — naga.com (accounts, fees, regulation pages)",
+      "CySEC Register — licence 204/13 confirmed active May 2026",
+      "Frankfurt Stock Exchange — XETRA: N4G, NAGA Group AG listing confirmed",
+      "BaFin cross-border notification register — NAGA Markets Europe Ltd confirmed",
+      "NAGA Group AG annual report 2025 — publicly filed financial statements",
+      "Trustpilot — approximately 3.8 stars from 1,800+ reviews (publicly reported May 2026)",
+      "NAGA risk disclosure — 80.85% retail CFD loss rate (CySEC published)"
     ]
   }
 }
