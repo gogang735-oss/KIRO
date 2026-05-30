@@ -1,0 +1,11 @@
+{
+  "editorial_review_row": {
+    "broker_slug": "fxcm",
+    "author": "NAFT Editorial",
+    "role": "editor",
+    "rating": 3.4,
+    "content": "FXCM is a legitimate Tier-1 regulated broker scoring 6.8/10 from NAFT in 2026. Operating since 1999 with FCA, CySEC, and ASIC licences, it offers genuine execution transparency and powerful algo trading tools via Trading Station. But the regulatory history — a £4M FCA fine for withholding client profits and a CFTC ban from the US market — permanently shadows its credibility. Standard account pricing at 1.3 pips is expensive. Active Trader pricing at 0.2 pips is excellent but requires $25,000. For the algo trader with capital who values execution data and automation tools, FXCM delivers real value. For everyone else, cheaper and cleaner options exist.",
+    "status": "published",
+    "verified_account": true
+  }
+}

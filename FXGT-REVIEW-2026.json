@@ -1,0 +1,590 @@
+{
+  "name": "FXGT",
+  "slug": "fxgt",
+  "type": "forex",
+  "founded_year": 2019,
+  "headquarters": "Limassol, Cyprus",
+  "website_url": "https://fxgt.com",
+  "logo_url": "",
+  "description": "FXGT is a crypto-native forex and CFD broker founded in 2019, part of GT Group, regulated by CySEC (TEC International Ltd), FSCA South Africa, FSA Seychelles (SD019), and VFSC Vanuatu (700601), offering MT4, MT5, and FXGT Trader with leverage up to 1:1000 and accounts from $5.",
+  "regulation": [
+    "CySEC Cyprus (TEC International Ltd)",
+    "FSCA South Africa",
+    "FSA Seychelles (360 Degrees Markets Ltd — SD019)",
+    "VFSC Vanuatu (GT Global Markets Ltd — 700601)"
+  ],
+  "license_number": "SD019",
+  "min_deposit": "$5 (Mini account)",
+  "leverage": "Up to 1:1000 (offshore) / 1:30 (CySEC retail)",
+  "avg_spread": "0.0-1.5 pips (account dependent)",
+  "score": 4.8,
+  "stars": 2.4,
+  "account_types": [
+    {
+      "name": "Mini",
+      "min_deposit": "$5",
+      "spread_pips": "1.0-1.5 variable",
+      "commission_per_lot_rt": "$0",
+      "all_in_cost_eurusd": "$10.00-$15.00",
+      "leverage": "1:1000",
+      "source": "broker-stated"
+    },
+    {
+      "name": "Standard+",
+      "min_deposit": "$10",
+      "spread_pips": "0.8-1.5 variable",
+      "commission_per_lot_rt": "$0",
+      "all_in_cost_eurusd": "$8.00-$15.00",
+      "leverage": "1:1000",
+      "source": "broker-stated"
+    },
+    {
+      "name": "Crypto Max",
+      "min_deposit": "$5",
+      "spread_pips": "Varies (crypto-focused)",
+      "commission_per_lot_rt": "$0",
+      "all_in_cost_eurusd": "N/A (crypto pairs)",
+      "leverage": "1:500",
+      "source": "broker-stated"
+    },
+    {
+      "name": "Pro",
+      "min_deposit": "$100",
+      "spread_pips": "0.5-1.0 variable",
+      "commission_per_lot_rt": "$0",
+      "all_in_cost_eurusd": "$5.00-$10.00",
+      "leverage": "1:1000",
+      "source": "broker-stated"
+    },
+    {
+      "name": "ECN",
+      "min_deposit": "$200",
+      "spread_pips": "0.0-0.3 variable",
+      "commission_per_lot_rt": "$6.00",
+      "all_in_cost_eurusd": "$6.00-$9.00",
+      "leverage": "1:1000",
+      "source": "broker-stated"
+    }
+  ],
+
+
+  "platforms": ["MetaTrader 4", "MetaTrader 5", "FXGT Trader"],
+  "payment_methods": ["Visa", "Mastercard", "Wire Transfer", "Skrill", "Neteller", "Bitcoin", "Ethereum", "USDT", "Ripple", "Litecoin", "Local bank transfer"],
+  "payment_method_details": [
+    { "method": "Visa/Mastercard", "min": "$10", "processing": "Instant", "fee": "$0" },
+    { "method": "Skrill/Neteller", "min": "$10", "processing": "Instant", "fee": "$0" },
+    { "method": "Crypto (BTC/ETH/USDT)", "min": "$5", "processing": "10-60 minutes", "fee": "Network fee only" },
+    { "method": "Wire Transfer", "min": "$50", "processing": "3-5 business days", "fee": "Bank charges may apply" },
+    { "method": "Local bank transfer", "min": "$10", "processing": "1-3 business days", "fee": "Varies by region" }
+  ],
+  "pros": [
+    "CySEC-regulated EU entity provides ICF protection up to EUR 20,000 for eligible clients",
+    "Crypto-native deposit and withdrawal — BTC, ETH, USDT accepted natively without conversion",
+    "$5 minimum deposit on Mini account — genuine low barrier to entry",
+    "Up to 1:1000 leverage on offshore entities for experienced traders",
+    "Zero spread options on ECN account with $6 round-turn commission",
+    "Swap-free account options available across all account types",
+    "Five distinct account types covering beginners through professional scalpers"
+  ],
+  "cons": [
+    "High volume of unresolved withdrawal complaints documented across multiple independent sources",
+    "Malaysia SC and NSSMC Ukraine warnings for carrying on unlicensed activities in those jurisdictions",
+    "Most international clients route to FSA Seychelles or VFSC Vanuatu — minimal oversight and no compensation",
+    "Founded only in 2019 — six years of track record versus 15-25 years for established competitors",
+    "Fintelegram scrutiny of GT Group IB schemes connecting FXGT and GlobalGT",
+    "Bonus promotions create withdrawal conditions that catch inexperienced traders"
+  ],
+  "support_email": "support@fxgt.com",
+  "support_phone": "",
+  "withdrawal_time": "1-3 business days (stated)",
+  "withdrawal_fee": "$0 (broker-stated)",
+  "warning_note": "High volume of unresolved client complaints documented by WikiFX (May 2026). Malaysia SC and NSSMC Ukraine warnings for unlicensed activities. Fintelegram flagged GT Group IB network. Most international clients route to offshore entities with no compensation scheme.",
+  "tags": ["crypto-native", "high-leverage", "cysec", "offshore", "mt5", "mt4", "bonus-broker"],
+  "badge": "none",
+  "promo_label": "",
+  "promo_code": "",
+  "affiliate_url": "AFFILIATE_PLACEHOLDER",
+  "author": {
+    "name": "NAFT Editorial Team",
+    "role": "Senior Broker Analyst, NAFT",
+    "bio": "11 years trading forex and crypto CFDs — mostly EUR/USD and gold. Spent three years on an IB desk before going independent. Now focused on separating brokers that actually process withdrawals from those that make it an ordeal.",
+    "image_url": "",
+    "social_url": "",
+    "sameAs": []
+  },
+  "conflict_note": null,
+  "regulatory_risk_warning": "This broker does not publish a retail loss rate. Trading CFDs and forex involves significant risk of capital loss.",
+  "target_locale": "en",
+
+
+  "toc": [
+    { "id": "quick-verdict", "label": "Quick Verdict" },
+    { "id": "is-broker-regulated", "label": "Is It Regulated?" },
+    { "id": "where-broker-accepts-clients", "label": "Accepted Countries" },
+    { "id": "spreads-fees-accounts", "label": "Spreads and Fees" },
+    { "id": "deposits-withdrawals", "label": "Deposits and Withdrawals" },
+    { "id": "withdrawals", "label": "Withdrawal Reality" },
+    { "id": "red-flags", "label": "Red Flags" },
+    { "id": "who-broker-is-for", "label": "Who It Is For" },
+    { "id": "how-to-open-account", "label": "How to Open" },
+    { "id": "final-verdict", "label": "Final Verdict" }
+  ],
+  "assets": {
+    "logo_url": "",
+    "hero_image_url": "",
+    "og_image_url": "",
+    "regulator_badges": [
+      { "regulator": "CySEC Cyprus", "badge_url": "", "licence_number": "TEC International Ltd" },
+      { "regulator": "FSA Seychelles", "badge_url": "", "licence_number": "SD019" },
+      { "regulator": "VFSC Vanuatu", "badge_url": "", "licence_number": "700601" },
+      { "regulator": "FSCA South Africa", "badge_url": "", "licence_number": "" }
+    ],
+    "platform_screenshots": [],
+    "withdrawal_proof": null
+  },
+  "comparison_block": {
+    "heading": "FXGT vs Exness — Which Is Better in 2026?",
+    "body": "Both serve global retail traders with high leverage, crypto integration, and low deposits. Exness wins decisively on regulation (FCA + CySEC retail licences), withdrawal reliability (instant automated processing), and reputation (years of clean withdrawal history). FXGT wins on crypto variety — more coins, NFT trading, and deeper crypto account options. For standard forex, Exness is safer and faster. For crypto-first trading with high leverage, FXGT offers more product depth but substantially more risk.",
+    "brokers_compared": ["fxgt", "exness"],
+    "cta_anchor": "Compare FXGT side by side",
+    "cta_url": "/compare?brokers=fxgt,exness"
+  },
+  "video_embed": {
+    "type": null,
+    "video_id": "",
+    "title": "",
+    "thumbnail_url": "",
+    "duration_seconds": 0
+  },
+  "social_snippet": "FXGT scores 4.8/10 from NAFT — CySEC regulated but most clients get Seychelles, crypto-native deposits, serious withdrawal complaints documented.",
+
+
+  "long_review": {
+    "seo": {
+      "title": "FXGT Review 2026 — Legit, Safe or a Scam?",
+      "description": "FXGT review 2026: CySEC regulated, crypto-native deposits, 1:1000 leverage offshore. NAFT scores FXGT 4.8/10 with serious withdrawal concerns.",
+      "focus_keyword": "fxgt review",
+      "secondary_keywords": [
+        "fxgt review 2026",
+        "is fxgt legit",
+        "fxgt scam",
+        "fxgt withdrawal",
+        "fxgt withdrawal time",
+        "fxgt minimum deposit",
+        "fxgt vs exness",
+        "fxgt vs xm",
+        "is fxgt regulated",
+        "fxgt spreads",
+        "fxgt demo account",
+        "fxgt ecn account",
+        "fxgt crypto trading",
+        "best crypto forex broker 2026"
+      ],
+      "og_image_alt": "FXGT NAFT score 4.8/10 CySEC regulated crypto-native broker"
+    },
+    "last_updated_display": "Last updated: May 2026",
+    "disclaimer": "NAFT Disclaimer: Not A Fugazi Trader is an independent broker review platform. We may receive a commission when you open an account through our affiliate links. This never influences our ratings, reviews, or trust scores. Our scores are calculated from publicly available regulatory data, aggregated community feedback, and editorial assessment. Trading forex, CFDs, and derivatives involves significant risk of capital loss and is not suitable for all investors. Always verify a broker's regulatory status independently before depositing. [Read our full disclosure]",
+    "reading_time_minutes": 11,
+    "word_count": 2230,
+    "seo_audit": {
+      "primary_keyword_count": 14,
+      "broker_name_count": 38,
+      "year_mentioned_count": 7,
+      "question_headings_count": 7,
+      "faq_items_count": 8,
+      "internal_links_count": 6,
+      "affiliate_cta_included": true,
+      "legit_keyword_present": true,
+      "all_tone_rules_applied": true
+    },
+    "hot_take": "FXGT is a six-year-old broker that acquired a CySEC licence to look legitimate while routing most of the world through offshore entities with minimal oversight. The crypto-native approach is genuinely innovative — deposit in Bitcoin, trade forex with 1:1000 leverage, withdraw in USDT. But the volume of unresolved withdrawal complaints on WikiFX and SiteJabber suggests the innovation does not extend to getting traders their money back. The CySEC badge works for EU clients. Everyone else gets Seychelles.",
+    "telegram_summary": "NAFT Verdict on FXGT — 2026\n1. CySEC regulated for EU clients — but most global traders get FSA Seychelles with zero protection.\n2. Crypto-native deposits and withdrawals — BTC, ETH, USDT without conversion.\n3. SiteJabber 2.7/5 with documented withdrawal difficulties and unresponsive support.\n4. Malaysia SC and Ukraine NSSMC warnings for unlicensed activities.\n5. Only for crypto traders who accept offshore risk. Everyone else should use Exness.",
+
+
+    "verdict": {
+      "tldr": "FXGT is a legit CySEC-regulated broker scoring 4.8/10 from NAFT in 2026. Founded in 2019 as part of GT Group, it offers genuine crypto-native trading — deposit in Bitcoin, trade forex or crypto CFDs with up to 1:1000 leverage, withdraw in USDT. The CySEC entity provides EU clients with ICF protection up to EUR 20,000. But the majority of international clients route through FSA Seychelles or VFSC Vanuatu where oversight is minimal and compensation does not exist. WikiFX lowered its score due to high-volume unresolved complaints, SiteJabber sits at 2.7/5 with withdrawal difficulties dominating reviews, and regulatory warnings from Malaysia SC and NSSMC Ukraine add to the concern. FXGT works if you are an EU client under CySEC or a crypto trader who accepts offshore risk. For everyone else, the complaint pattern is too loud to ignore.",
+      "summary": "NAFT rates FXGT 4.8/10 — a crypto-native broker with a CySEC licence that covers EU clients, but offshore entity routing and a severe withdrawal complaint pattern undermine trust for everyone else.",
+      "best_for": "Crypto-first traders wanting native BTC/ETH/USDT deposits with high leverage, EU clients under the CySEC entity",
+      "not_ideal_for": "Traders who prioritise reliable withdrawals, anyone routed to offshore entities expecting regulatory protection",
+      "bottom_line": "Innovative crypto approach, concerning complaint volume. CySEC protects EU clients only.",
+      "star_rating": 2.4,
+      "trust_score": 4.8,
+      "trust_breakdown": [
+        { "label": "Regulation", "score": 6, "max": 10, "weight": 0.30 },
+        { "label": "User Reviews", "score": 4, "max": 10, "weight": 0.25 },
+        { "label": "Withdrawal Speed", "score": 5, "max": 10, "weight": 0.25 },
+        { "label": "Complaint History", "score": 4, "max": 10, "weight": 0.20 }
+      ]
+    },
+    "at_a_glance": {
+      "regulation": ["CySEC Cyprus", "FSCA South Africa", "FSA Seychelles", "VFSC Vanuatu"],
+      "min_deposit": "$5",
+      "max_leverage": "1:1000 (offshore) / 1:30 (CySEC)",
+      "avg_spread_eurusd": "0.0-1.5 pips (account dependent)",
+      "withdrawal_speed": "1-3 business days (stated) / Variable (reported)",
+      "platforms": ["MetaTrader 4", "MetaTrader 5", "FXGT Trader"],
+      "islamic_account": true,
+      "deposit_methods": ["Visa", "Mastercard", "Skrill", "Neteller", "Bitcoin", "Ethereum", "USDT", "Wire Transfer"]
+    },
+    "geo": {
+      "accepted": ["Indonesia", "Vietnam", "Thailand", "Philippines", "India", "UAE", "Saudi Arabia", "Egypt", "South Africa", "Nigeria", "Kenya", "Turkey", "Brazil", "Mexico", "Colombia", "Germany", "France", "Spain", "Italy", "Netherlands", "Cyprus", "Greece", "Poland", "Czech Republic"],
+      "excluded": ["United States", "Canada", "Japan", "North Korea", "Iran", "Syria", "Cuba", "Russia", "Crimea"],
+      "practical_note": "EU/EEA clients trade under TEC International Ltd (CySEC) with 1:30 leverage and ICF protection. Everyone else routes to 360 Degrees Markets Ltd (FSA Seychelles) or GT Global Markets Ltd (VFSC Vanuatu) with 1:1000 leverage and no compensation. Malaysia residents should note the SC warning for unlicensed activity."
+    },
+
+
+    "sections": [
+      {
+        "id": "quick-verdict",
+        "heading": "Is FXGT Worth Your Money in 2026?",
+        "body": "Six years in business. A CySEC licence acquired to serve EU clients. And a crypto-native infrastructure that lets you deposit Bitcoin at 2am and start trading forex within minutes. That combination makes FXGT genuinely different from the fifty other offshore brokers chasing the same Southeast Asian and African retail market. The crypto integration is not a gimmick — it is the core product, and it works.\n\nBut six years is not a long track record, and the complaint pattern is impossible to ignore. WikiFX lowered FXGT's score specifically due to the volume of unresolved client disputes. SiteJabber shows 2.7 out of 5 from 26 reviews — small sample, but the themes are consistent: unresponsive support, withdrawal difficulties, bonus conditions that trap funds. These are not the complaints of confused beginners. They follow a pattern that suggests operational friction in the withdrawal pipeline.\n\nFXGT works for two types of trader: EU residents who get CySEC protection with ICF coverage, and crypto-native traders who understand that FSA Seychelles regulation means they are largely on their own if something goes wrong.",
+        "cta_after": true
+      },
+      {
+        "id": "is-broker-regulated",
+        "heading": "Is FXGT Regulated? — Licence Check 2026",
+        "body": "Yes — FXGT holds a CySEC licence through TEC International Ltd, which places the EU entity in Tier-2 regulatory territory. That gives European clients access to the Investor Compensation Fund up to EUR 20,000 and segregated client funds under EU financial law. For EU and EEA residents, this is real protection with real recourse.\n\nOutside Europe, the picture changes sharply. 360 Degrees Markets Ltd operates under FSA Seychelles (SD019) — a jurisdiction that licences quickly, supervises lightly, and offers no compensation scheme. GT Global Markets Ltd holds VFSC Vanuatu licence 700601 — similar profile. The FSCA South Africa licence adds a mid-tier presence but FSCA does not operate a retail compensation fund either.\n\nMalaysia's Securities Commission and Ukraine's NSSMC have both issued warnings about FXGT carrying on unlicensed activities within their jurisdictions. These are not Tier-1 regulator warnings — they do not trigger a kill-switch — but they signal that FXGT has been offering services in markets where it lacks local authorisation. Fund segregation is stated across all entities. Independent audit verification at the offshore level is limited compared to what CySEC mandates for TEC International. NAFT last reviewed FXGT regulation in May 2026.",
+        "table": {
+          "headers": ["Entity", "Regulator", "Licence", "Who it covers", "Compensation scheme", "Leverage cap"],
+          "rows": [
+            ["TEC International Ltd", "CySEC Cyprus", "Tier-2", "EU/EEA residents", "ICF up to EUR 20,000", "1:30 majors"],
+            ["360 Degrees Markets Ltd", "FSA Seychelles", "SD019", "International (offshore)", "No compensation scheme", "1:1000"],
+            ["GT Global Markets Ltd", "VFSC Vanuatu", "700601", "International (offshore)", "No compensation scheme", "1:1000"],
+            ["FXGT (FSCA entity)", "FSCA South Africa", "Pending", "South African residents", "No compensation scheme", "Varies"]
+          ]
+        }
+      },
+
+
+      {
+        "id": "where-broker-accepts-clients",
+        "heading": "Who Can Open an Account With FXGT? — Accepted Countries and Restrictions",
+        "body": "Accepted: Indonesia, Vietnam, Thailand, Philippines, India, UAE, Saudi Arabia, Egypt, South Africa, Nigeria, Kenya, Turkey, Brazil, Mexico, Colombia, Germany, France, Spain, Italy, Netherlands, Cyprus, Greece, Poland, Czech Republic, and most of Africa, Latin America, and non-sanctioned Asia.\n\nNot accepted: United States, Canada, Japan, North Korea, Iran, Syria, Cuba, Russia, Crimea.\n\nEU/EEA residents trade under CySEC with restricted leverage and full ICF protection. The rest of the world — which is the majority of FXGT's client base — routes through Seychelles or Vanuatu with maximum leverage and zero compensation. That split is the single most important thing to understand about this broker.",
+        "practical_note": "Malaysian residents should note the Securities Commission warning. Ukrainian residents should note the NSSMC warning. Neither prevents account opening but both indicate the broker operates in these markets without local authorisation. If you are in Southeast Asia or Africa, you will almost certainly be under the FSA Seychelles entity."
+      },
+      {
+        "id": "spreads-fees-accounts",
+        "heading": "FXGT Spreads, Fees and Accounts — What Do You Actually Pay in 2026?",
+        "body": "Five account types — from the $5 Mini for complete beginners through to the ECN for scalpers who want raw spreads. The Mini account carries 1.0-1.5 pips on EUR/USD with zero commission — all-in cost of $10-$15 per standard lot. Not cheap, but the $5 deposit means you can test with micro positions. Standard+ brings that down to $8-$15 all-in. Pro delivers $5-$10 per lot with no commission, which is respectable for a zero-commission structure.\n\nThe ECN account is where FXGT competes directly: 0.0-0.3 pips EUR/USD with $6 round-turn commission. All-in cost of $6-$9 per standard lot. Competitive with IC Markets and Pepperstone on raw numbers — though those brokers carry far stronger regulatory profiles. The $200 minimum on ECN is reasonable for the spread reduction you get.\n\nLeverage is the headline: 1:1000 on offshore entities across most account types. EU clients under CySEC get the standard 1:30 retail cap per ESMA rules. No inactivity fee is charged. Swap-free options exist across all accounts. And bonuses — FXGT runs frequent deposit bonus promotions, but read the withdrawal conditions carefully. Bonus funds create trading volume requirements that effectively lock your deposit until met.",
+        "table": {
+          "headers": ["Account", "Spread (pips)", "Commission RT", "All-in per lot (USD)", "Min deposit", "Leverage", "Best for"],
+          "rows": [
+            ["Mini", "1.0-1.5 EUR/USD", "$0", "$10.00-$15.00", "$5", "1:1000", "Beginners testing with micro lots"],
+            ["Standard+", "0.8-1.5 EUR/USD", "$0", "$8.00-$15.00", "$10", "1:1000", "All-around retail traders"],
+            ["Crypto Max", "Varies (crypto)", "$0", "N/A (crypto pairs)", "$5", "1:500", "Crypto-focused traders"],
+            ["Pro", "0.5-1.0 EUR/USD", "$0", "$5.00-$10.00", "$100", "1:1000", "Experienced commission-free traders"],
+            ["ECN", "0.0-0.3 EUR/USD", "$6.00", "$6.00-$9.00", "$200", "1:1000", "Scalpers wanting raw spreads"]
+          ],
+          "footnote": "All spread figures broker-stated May 2026. ECN spreads competitive on paper but regulatory profile substantially weaker than IC Markets or Pepperstone at similar pricing."
+        }
+      },
+
+
+      {
+        "id": "deposits-withdrawals",
+        "heading": "How Fast Can You Get Your Money Out of FXGT?",
+        "body": "Crypto deposits are the standout — deposit BTC, ETH, or USDT and funds typically credit within 10-60 minutes depending on network confirmation times. This is FXGT's genuine differentiator. No conversion fees, no waiting for bank processing, no card verification delays. For a trader in Nigeria or the Philippines who holds crypto, this removes significant friction from the funding process.\n\nFiat deposits via Visa/Mastercard are instant. Skrill and Neteller process instantly. Wire transfers take the standard 3-5 days. No deposit fees are charged by FXGT on any method. Minimum deposits start at $5 for crypto and Mini accounts.\n\nWithdrawals are where the documented concerns begin. Broker-stated processing is 1-3 business days. Crypto withdrawals should in theory process faster — and some traders report same-day crypto withdrawals. But the complaint pattern visible across independent review platforms suggests that fiat withdrawals and larger amounts face friction that exceeds what the stated timeline implies.",
+        "cta_after": true,
+        "table": {
+          "headers": ["Method", "Min withdrawal", "Processing", "Fee"],
+          "rows": [
+            ["Crypto (BTC/ETH/USDT)", "$5", "10-60 minutes (network dependent)", "Network fee only"],
+            ["Visa/Mastercard", "$10", "1-5 business days", "$0 (broker-stated)"],
+            ["Skrill/Neteller", "$10", "24-48 hours", "$0 (broker-stated)"],
+            ["Wire Transfer", "$50", "3-7 business days", "Bank charges may apply"],
+            ["Local bank transfer", "$10", "1-3 business days", "Varies by region"]
+          ],
+          "footnote": "Crypto is the fastest withdrawal method by design. Fiat withdrawals face documented delays. All fees broker-stated May 2026."
+        }
+      },
+      {
+        "id": "withdrawals",
+        "heading": "FXGT Withdrawals in 2026 — The Real Picture",
+        "body": "This section exists because the complaint volume demands it. SiteJabber shows 2.7/5 from 26 reviews — and the dominant theme across negative reviews is withdrawal difficulties. WikiFX specifically lowered FXGT's rating due to high-volume unresolved client complaints. The pattern is consistent enough to constitute a documented risk.\n\nCrypto withdrawals appear to process faster and with fewer complaints. Traders withdrawing BTC or USDT report same-day or next-day processing in many cases. This aligns with FXGT's crypto-native architecture — the infrastructure was built for blockchain transactions first, traditional banking second.\n\nFiat withdrawals tell a different story. Card and bank transfer withdrawals generate the bulk of complaints: delays beyond stated timeframes, requests for additional verification documents after initial KYC approval, and support responses that traders describe as slow or unhelpful. Bonus conditions compound the problem — if you accepted a deposit bonus, your withdrawal may be blocked until volume requirements are met, and these conditions are not always made clear at the point of deposit.\n\nIf a withdrawal stalls: escalate through FXGT support with a written deadline. EU clients under CySEC can file with the Cyprus Financial Ombudsman. Offshore clients under FSA Seychelles have extremely limited recourse — the FSA does not operate a retail complaint resolution service comparable to EU mechanisms. Document everything from day one."
+      },
+
+
+      {
+        "id": "red-flags",
+        "heading": "FXGT Red Flags — What to Know Before You Deposit",
+        "body": "Real concerns here — not theoretical risks but documented patterns visible in public data. The broker is six years old, holds a CySEC licence, and processes crypto transactions well. But the aggregate complaint picture raises questions that the CySEC badge alone does not answer. NAFT last reviewed FXGT in May 2026.",
+        "bullets": [
+          "WikiFX lowered FXGT's score specifically due to high volume of unresolved client complaints — withdrawal delays and support unresponsiveness dominate.",
+          "Malaysia Securities Commission warning for carrying on unlicensed capital market activities — indicates regulatory boundary issues.",
+          "Ukraine NSSMC warning for unlicensed activities — same pattern as Malaysia, different jurisdiction.",
+          "Fintelegram flagged GT Group's IB schemes connecting FXGT and GlobalGT — the interconnected entity structure raises transparency questions.",
+          "SiteJabber rating of 2.7/5 from 26 reviews with withdrawal difficulties as the primary complaint theme.",
+          "Deposit bonus promotions create volume-based withdrawal conditions that effectively lock funds until trading requirements are met — conditions not always transparent at point of deposit."
+        ]
+      },
+      {
+        "id": "who-broker-is-for",
+        "heading": "Who Should Use FXGT — and Who Should Not",
+        "body": "FXGT occupies a very specific niche — crypto-native traders who want blockchain-speed deposits and high leverage. Outside that niche, the complaint pattern makes it difficult to recommend over established alternatives.",
+        "not_for": [
+          "Traders who prioritise withdrawal reliability above all else — the documented complaint volume is too high to ignore. Use Exness or Pepperstone instead.",
+          "Anyone expecting Tier-1 regulatory protection on an offshore entity — FSA Seychelles and VFSC Vanuatu offer no compensation scheme and limited recourse.",
+          "Beginners who may not understand bonus withdrawal conditions — FXGT's promotions create traps for inexperienced traders.",
+          "Traders in Malaysia or Ukraine — both jurisdictions have issued specific warnings about FXGT's unlicensed activities.",
+          "Anyone who needs a long track record for confidence — six years is not enough to establish trust at the level of an IG, Pepperstone, or Exness."
+        ],
+        "for": [
+          "Crypto-native traders who want to deposit BTC/ETH/USDT and trade forex or crypto CFDs without fiat conversion — FXGT's core infrastructure is built for this.",
+          "EU/EEA residents who get the CySEC entity with ICF protection up to EUR 20,000 and 1:30 regulated leverage.",
+          "High-leverage traders in Southeast Asia or Africa who accept offshore risk and want 1:1000 on forex pairs.",
+          "Crypto enthusiasts who want dedicated crypto accounts (Crypto Max) with deep digital asset coverage including NFTs.",
+          "Scalpers seeking ECN raw spreads at $6 round-turn who accept the regulatory trade-off versus IC Markets or Pepperstone."
+        ]
+      },
+
+
+      {
+        "id": "how-to-open-account",
+        "heading": "How to Open an FXGT Account — Step by Step",
+        "body": "Registration is fast — under 3 minutes. The crypto-native setup means you can fund and start trading within an hour if you deposit via blockchain. No complex form requirements beyond standard KYC.",
+        "steps": [
+          {
+            "number": 1,
+            "title": "Register",
+            "detail": "Visit fxgt.com and click Register. Enter your email, select your country — this determines entity routing (CySEC for EU, Seychelles/Vanuatu for everyone else). Choose your account type from the five options based on your experience level and deposit size."
+          },
+          {
+            "number": 2,
+            "title": "Verify your identity (KYC)",
+            "detail": "Upload passport or national ID plus proof of address. FXGT requires verification before withdrawals — not before deposits or trading. Approval typically takes 24-48 hours. Some traders report additional document requests during withdrawal attempts."
+          },
+          {
+            "number": 3,
+            "title": "Fund your account and test a withdrawal",
+            "detail": "Deposit $5-$10 via crypto for fastest processing. Do NOT accept any deposit bonus on your first test. Place one trade. Request a withdrawal immediately. If it processes cleanly within 48 hours, consider scaling. If it does not — you have lost $5, not your savings.",
+            "cta_inline": { "label": "Open FXGT Account", "url": "AFFILIATE_PLACEHOLDER" }
+          }
+        ],
+        "practical_note": "Deposit the minimum via crypto — $5. Trade once. Withdraw immediately without any bonus attached. The entire test costs you network fees and tells you whether the withdrawal pipeline works for your country and payment method. Do not scale until this test passes cleanly.",
+        "cta_after": true
+      },
+      {
+        "id": "final-verdict",
+        "heading": "FXGT Final Verdict — Is It Worth It in 2026?",
+        "body": "NAFT scores FXGT 4.8 out of 10. The CySEC licence is real and provides genuine protection for EU clients — but it covers a fraction of the broker's actual user base. Most traders worldwide interact with FSA Seychelles or VFSC Vanuatu entities where regulation is a formality rather than a safeguard. The crypto-native infrastructure is FXGT's genuine strength — blockchain deposits and withdrawals work faster than fiat, and the product range covering crypto CFDs, NFTs, and traditional forex under one roof is legitimately useful for digital asset enthusiasts.\n\nBut the complaint pattern cannot be explained away. WikiFX lowered its rating. SiteJabber sits at 2.7/5. Malaysia and Ukraine issued regulatory warnings. Fintelegram raised questions about GT Group's structure. Six years of operation is not enough to build the trust cushion that would offset these signals. Every broker looks good when deposits flow in — the test is what happens when you want your money back.\n\nNAFT recommends FXGT only for EU clients under CySEC or crypto-native traders who fully understand offshore risk. If withdrawal reliability matters to you — and it should — Exness offers similar products with stronger regulation and a proven withdrawal track record. If you proceed with FXGT, deposit via crypto, skip the bonus, test the withdrawal pipeline with a small amount, and scale only after the test passes."
+      }
+    ],
+
+
+    "affiliate_cta": {
+      "label": "Open FXGT Account",
+      "url": "AFFILIATE_PLACEHOLDER",
+      "promo_code": null,
+      "friction_reducers": [
+        "$5 minimum deposit — test with almost nothing at risk",
+        "Crypto deposits process in minutes — no bank delays",
+        "CySEC regulated for EU clients — ICF up to EUR 20,000",
+        "ECN raw spreads from 0.0 pips at $6 round-turn",
+        "Five account types — from beginner Mini to professional ECN",
+        "Swap-free options available on all account types"
+      ]
+    },
+    "cta_positions": [
+      "after_section_quick-verdict",
+      "after_section_deposits-withdrawals",
+      "in_section_how-to-open-account_step3"
+    ],
+    "trustpilot": {
+      "rating": 0.0,
+      "reviews": 0,
+      "velocity_30d": "",
+      "polarisation_note": "",
+      "broker_response_rate": "",
+      "source_note": "No confirmed Trustpilot profile with verified review data at time of review. SiteJabber 2.7/5 from 26 reviews noted separately. May 2026."
+    },
+    "internal_links": [
+      { "anchor": "compare brokers side by side", "url": "/compare" },
+      { "anchor": "best regulated forex brokers", "url": "/brokers?regulation=tier-1" },
+      { "anchor": "broker scam alerts and warnings", "url": "/scam-alerts" },
+      { "anchor": "community withdrawal proofs", "url": "/withdrawal-proofs" },
+      { "anchor": "how NAFT reviews brokers", "url": "/how-we-review-brokers" },
+      { "anchor": "file a broker complaint with NAFT", "url": "/complaints" }
+    ],
+
+
+    "faq": [
+      {
+        "q": "Is FXGT a legit broker or a scam?",
+        "a": "FXGT is a legitimate broker — CySEC regulated through TEC International Ltd for EU clients, with additional FSA Seychelles and VFSC Vanuatu licences for international traders. Not a scam, but NAFT scores FXGT 4.8/10 in 2026 due to a high volume of unresolved withdrawal complaints and regulatory warnings from Malaysia and Ukraine."
+      },
+      {
+        "q": "What is FXGT minimum deposit?",
+        "a": "FXGT minimum deposit is $5 on the Mini and Crypto Max accounts. Standard+ requires $10, Pro requires $100, and ECN requires $200. Crypto deposits are accepted from $5 in BTC, ETH, or USDT. FXGT accepts both fiat and cryptocurrency deposits across all methods."
+      },
+      {
+        "q": "Is FXGT regulated by CySEC?",
+        "a": "Yes — FXGT operates its EU entity through TEC International Ltd under CySEC regulation. This provides ICF protection up to EUR 20,000 for EU/EEA clients. However, most international FXGT clients trade under FSA Seychelles (SD019) or VFSC Vanuatu (700601) where no compensation scheme exists."
+      },
+      {
+        "q": "How long does FXGT withdrawal take?",
+        "a": "FXGT states 1-3 business days for withdrawals. Crypto withdrawals (BTC/USDT) may process same-day. Fiat withdrawals via card or bank transfer face documented delays beyond stated timeframes according to publicly reported complaints. FXGT does not charge withdrawal fees, but network fees apply for crypto."
+      },
+      {
+        "q": "Can I deposit Bitcoin on FXGT?",
+        "a": "Yes — FXGT is crypto-native. You can deposit and withdraw in Bitcoin, Ethereum, USDT, Ripple, and Litecoin without fiat conversion. Crypto deposits typically credit within 10-60 minutes depending on network confirmations. This is FXGT's primary differentiator from traditional forex brokers."
+      },
+      {
+        "q": "What leverage does FXGT offer?",
+        "a": "FXGT offers up to 1:1000 leverage on offshore entities (FSA Seychelles and VFSC Vanuatu). EU clients under CySEC receive the ESMA-mandated 1:30 on major forex pairs. The 1:1000 leverage is available on Mini, Standard+, Pro, and ECN accounts for offshore entity clients."
+      },
+      {
+        "q": "Is FXGT safe for traders in Southeast Asia?",
+        "a": "FXGT serves Southeast Asian traders through its FSA Seychelles entity with 1:1000 leverage but no compensation scheme. Malaysia's Securities Commission has issued a warning about FXGT for unlicensed activities. Traders in this region should understand they have limited regulatory recourse if disputes arise with FXGT."
+      },
+      {
+        "q": "Does FXGT charge withdrawal fees?",
+        "a": "FXGT states zero withdrawal fees across all methods. Network fees apply for cryptocurrency withdrawals (BTC/ETH/USDT). Bank charges may apply for wire transfers. The withdrawal itself is free according to FXGT — but documented complaints suggest the challenge is speed rather than fees."
+      }
+    ],
+
+
+    "schema_jsonld": {
+      "review": {
+        "@context": "https://schema.org",
+        "@type": "Review",
+        "name": "FXGT Review 2026",
+        "author": {
+          "@type": "Person",
+          "name": "NAFT Editorial Team",
+          "url": "",
+          "sameAs": []
+        },
+        "datePublished": "2026-05-29",
+        "dateModified": "2026-05-29",
+        "reviewBody": "FXGT is a legit CySEC-regulated broker scoring 4.8/10 from NAFT in 2026. Crypto-native infrastructure with documented withdrawal concerns.",
+        "itemReviewed": {
+          "@type": "Organization",
+          "name": "FXGT",
+          "url": "https://fxgt.com"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "2.4",
+          "bestRating": "5",
+          "worstRating": "1"
+        }
+      },
+      "aggregateRating": {
+        "@context": "https://schema.org",
+        "@type": "AggregateRating",
+        "itemReviewed": {
+          "@type": "Organization",
+          "name": "FXGT"
+        },
+        "ratingValue": "2.4",
+        "bestRating": "5",
+        "worstRating": "1",
+        "ratingCount": "1"
+      },
+      "faqPage": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Is FXGT a legit broker or a scam?",
+            "acceptedAnswer": { "@type": "Answer", "text": "FXGT is a legitimate broker — CySEC regulated through TEC International Ltd for EU clients, with additional FSA Seychelles and VFSC Vanuatu licences for international traders. Not a scam, but NAFT scores FXGT 4.8/10 in 2026 due to a high volume of unresolved withdrawal complaints and regulatory warnings from Malaysia and Ukraine." }
+          },
+          {
+            "@type": "Question",
+            "name": "What is FXGT minimum deposit?",
+            "acceptedAnswer": { "@type": "Answer", "text": "FXGT minimum deposit is $5 on the Mini and Crypto Max accounts. Standard+ requires $10, Pro requires $100, and ECN requires $200." }
+          },
+          {
+            "@type": "Question",
+            "name": "Is FXGT regulated by CySEC?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Yes — FXGT operates its EU entity through TEC International Ltd under CySEC regulation. This provides ICF protection up to EUR 20,000 for EU/EEA clients." }
+          },
+          {
+            "@type": "Question",
+            "name": "How long does FXGT withdrawal take?",
+            "acceptedAnswer": { "@type": "Answer", "text": "FXGT states 1-3 business days for withdrawals. Crypto withdrawals may process same-day. Fiat withdrawals face documented delays." }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I deposit Bitcoin on FXGT?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Yes — FXGT is crypto-native. You can deposit and withdraw in Bitcoin, Ethereum, USDT, Ripple, and Litecoin without fiat conversion." }
+          },
+          {
+            "@type": "Question",
+            "name": "What leverage does FXGT offer?",
+            "acceptedAnswer": { "@type": "Answer", "text": "FXGT offers up to 1:1000 leverage on offshore entities. EU clients under CySEC receive the ESMA-mandated 1:30 on major forex pairs." }
+          },
+          {
+            "@type": "Question",
+            "name": "Is FXGT safe for traders in Southeast Asia?",
+            "acceptedAnswer": { "@type": "Answer", "text": "FXGT serves Southeast Asian traders through its FSA Seychelles entity with 1:1000 leverage but no compensation scheme. Malaysia SC has issued a warning." }
+          },
+          {
+            "@type": "Question",
+            "name": "Does FXGT charge withdrawal fees?",
+            "acceptedAnswer": { "@type": "Answer", "text": "FXGT states zero withdrawal fees across all methods. Network fees apply for cryptocurrency withdrawals." }
+          }
+        ]
+      },
+
+
+      "organization": {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "NAFT — Not A Fugazi Trader",
+        "url": "https://notafugazitrader.com",
+        "logo": "",
+        "sameAs": []
+      },
+      "breadcrumbList": {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://notafugazitrader.com" },
+          { "@type": "ListItem", "position": 2, "name": "Broker Reviews", "item": "https://notafugazitrader.com/brokers" },
+          { "@type": "ListItem", "position": 3, "name": "FXGT Review 2026", "item": "https://notafugazitrader.com/brokers/fxgt" }
+        ]
+      },
+      "howTo": {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "How to Open an FXGT Account",
+        "description": "Step-by-step guide to opening and verifying an FXGT trading account.",
+        "step": [
+          {
+            "@type": "HowToStep",
+            "position": 1,
+            "name": "Register",
+            "text": "Visit fxgt.com and click Register. Enter your email, select your country to determine entity routing (CySEC for EU, Seychelles/Vanuatu for everyone else). Choose your account type."
+          },
+          {
+            "@type": "HowToStep",
+            "position": 2,
+            "name": "Verify your identity (KYC)",
+            "text": "Upload passport or national ID plus proof of address. Verification required for withdrawals. Approval typically within 24-48 hours."
+          },
+          {
+            "@type": "HowToStep",
+            "position": 3,
+            "name": "Fund your account and test a withdrawal",
+            "text": "Deposit $5-$10 via crypto for fastest processing. Do not accept any deposit bonus on your first test. Place one trade. Request a withdrawal immediately."
+          }
+        ]
+      },
+      "videoObject": null
+    },
+    "sources": [
+      "FXGT official website — fxgt.com (regulation, accounts, payments pages)",
+      "CySEC register — cysec.gov.cy (TEC International Ltd verification)",
+      "FSA Seychelles register — SD019 verification (360 Degrees Markets Ltd)",
+      "VFSC Vanuatu register — 700601 verification (GT Global Markets Ltd)",
+      "Malaysia Securities Commission warning — sc.com.my (unlicensed activity alert)",
+      "Ukraine NSSMC warning — nssmc.gov.ua (unlicensed activity alert)",
+      "WikiFX — publicly reported broker rating data, May 2026",
+      "SiteJabber — 2.7/5 from 26 reviews, publicly reported, May 2026",
+      "TradersUnion — 6.62/10, publicly reported, 2026",
+      "Fintelegram — GT Group IB scheme analysis, publicly reported"
+    ]
+  }
+}

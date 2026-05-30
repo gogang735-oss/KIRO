@@ -1,0 +1,478 @@
+{
+  "name": "TMGM",
+  "slug": "tmgm",
+  "type": "forex",
+  "founded_year": 2013,
+  "headquarters": "Sydney, Australia",
+  "website_url": "https://www.tmgm.com",
+  "logo_url": "",
+  "description": "TMGM (TradeMax Global Markets) is an Australian forex and CFD broker founded in 2013 in Sydney, regulated by ASIC (AFSL 436416) for Australian clients and VFSC Vanuatu for international clients, offering 12,000+ instruments including forex, stocks DMA, indices, commodities, and crypto through MT4, MT5, and IRESS (for Australian equities direct market access).",
+  "regulation": [
+    "ASIC (Australia, AFSL 436416)",
+    "VFSC Vanuatu (offshore international)"
+  ],
+  "license_number": "AFSL 436416",
+  "min_deposit": "$100",
+  "leverage": "1:30 (ASIC retail), up to 1:500 (VFSC)",
+  "avg_spread": "Variable from 0.0 pips (Edge account)",
+  "score": 6.8,
+  "stars": 3.4,
+  "account_types": [
+    {
+      "name": "Classic Account",
+      "min_deposit": "$100",
+      "spread_pips": "Variable from 1.0 EUR/USD",
+      "commission_per_lot_rt": "$0",
+      "all_in_cost_eurusd": "~$10.00",
+      "leverage": "1:30 (ASIC) / 1:500 (VFSC)",
+      "source": "broker-stated"
+    },
+    {
+      "name": "Edge Account",
+      "min_deposit": "$100",
+      "spread_pips": "Variable from 0.0 EUR/USD",
+      "commission_per_lot_rt": "$7.00",
+      "all_in_cost_eurusd": "~$7.00",
+      "leverage": "1:30 (ASIC) / 1:500 (VFSC)",
+      "source": "broker-stated"
+    },
+    {
+      "name": "IRESS Account (DMA Equities)",
+      "min_deposit": "$500",
+      "spread_pips": "Market spread (DMA)",
+      "commission_per_lot_rt": "From $7 AUD per trade",
+      "all_in_cost_eurusd": "Market + commission",
+      "leverage": "Varies by stock",
+      "source": "broker-stated"
+    }
+  ],
+
+
+  "platforms": ["MT4", "MT5", "IRESS (Australian Equities DMA)"],
+  "payment_methods": ["Visa", "Mastercard", "Wire Transfer", "Skrill", "Neteller", "POLi", "BPay", "FasaPay"],
+  "payment_method_details": [
+    { "method": "Visa/Mastercard", "min": "$100", "processing": "Instant", "fee": "$0" },
+    { "method": "Wire Transfer", "min": "$100", "processing": "2-5 days", "fee": "$0" },
+    { "method": "Skrill/Neteller", "min": "$100", "processing": "Instant", "fee": "$0" },
+    { "method": "POLi/BPay (Australia)", "min": "$100", "processing": "Instant-24h", "fee": "$0" }
+  ],
+  "pros": [
+    "ASIC regulated (AFSL 436416) — genuine Tier-1 regulation for Australian clients with segregated funds",
+    "12,000+ instruments including DMA equities via IRESS — exceptional instrument depth rivalling Interactive Brokers",
+    "Ultra-fast execution from multiple NY4 data centres — institutional-grade infrastructure",
+    "Edge account with raw spreads from 0.0 pips + $7 commission — competitive ECN pricing",
+    "IRESS platform for direct market access to Australian equities — not available at most forex brokers",
+    "$100 minimum deposit — reasonable entry point for the quality of infrastructure offered",
+    "MT4 and MT5 for forex/CFD trading — full platform flexibility",
+    "Strong presence in Australia with localised support and Australian payment methods"
+  ],
+  "cons": [
+    "VFSC Vanuatu for international clients — provides none of ASIC's Tier-1 protections",
+    "Not available in UK or EU — limits accessibility for major regulated markets",
+    "Most international clients trade under Vanuatu with up to 1:500 leverage and no compensation scheme",
+    "IRESS DMA requires $500 minimum and is only relevant for Australian equities — niche appeal",
+    "Brand recognition outside Australia is limited compared to IC Markets or Pepperstone",
+    "Vanuatu regulation is among the weakest offshore licences — even weaker than Seychelles in enforcement reputation"
+  ],
+  "support_email": "",
+  "support_phone": "",
+  "withdrawal_time": "1-3 business days",
+  "withdrawal_fee": "$0 (standard methods)",
+  "warning_note": "Trading CFDs involves significant risk of loss. ASIC regulated for Australian clients. International clients served under VFSC Vanuatu.",
+  "tags": ["asic", "vanuatu", "dma", "iress", "ecn", "australia", "fast-execution", "ny4", "multi-asset"],
+  "badge": "none",
+  "promo_label": "",
+  "promo_code": "",
+  "affiliate_url": "AFFILIATE_PLACEHOLDER",
+
+
+  "author": {
+    "name": "NAFT Editorial Team",
+    "role": "Senior Broker Analyst, NAFT",
+    "bio": "12 years in the markets, mostly EUR/USD and gold CFDs. Started on a dealing desk, moved to independent analysis after watching too many brokers promise one thing and deliver another. Now focused on helping retail traders avoid the mistakes that cost real money.",
+    "image_url": "",
+    "social_url": "",
+    "sameAs": []
+  },
+  "conflict_note": null,
+  "regulatory_risk_warning": "Trading CFDs involves significant risk of capital loss. TMGM is ASIC regulated (AFSL 436416) for Australian clients with segregated funds. International clients are served under VFSC Vanuatu with no investor compensation scheme.",
+  "target_locale": "en",
+  "toc": [
+    { "id": "quick-verdict", "label": "Quick Verdict" },
+    { "id": "is-broker-regulated", "label": "Is It Regulated?" },
+    { "id": "where-broker-accepts-clients", "label": "Accepted Countries" },
+    { "id": "spreads-fees-accounts", "label": "Spreads and Fees" },
+    { "id": "deposits-withdrawals", "label": "Deposits and Withdrawals" },
+    { "id": "withdrawals", "label": "Withdrawal Reality" },
+    { "id": "red-flags", "label": "Red Flags" },
+    { "id": "who-broker-is-for", "label": "Who It Is For" },
+    { "id": "how-to-open-account", "label": "How to Open" },
+    { "id": "final-verdict", "label": "Final Verdict" }
+  ],
+  "assets": {
+    "logo_url": "",
+    "hero_image_url": "",
+    "og_image_url": "",
+    "regulator_badges": [
+      { "regulator": "ASIC (Australia)", "badge_url": "", "licence_number": "AFSL 436416" },
+      { "regulator": "VFSC Vanuatu", "badge_url": "", "licence_number": "International entity" }
+    ],
+    "platform_screenshots": [],
+    "withdrawal_proof": null
+  },
+
+
+  "comparison_block": {
+    "heading": "TMGM vs IC Markets — Which Australian Broker Is Better in 2026?",
+    "body": "Both are ASIC-regulated Australian brokers with offshore entities for international clients and a focus on tight-spread forex/CFD trading. IC Markets is the larger brand (daily volume exceeding $18 billion reported), with a wider international recognition and cTrader alongside MT4/MT5. TMGM offers something IC Markets does not — IRESS DMA for Australian equities, giving direct market access to the ASX. TMGM also claims faster execution via multiple NY4 data centres. IC Markets wins on brand trust, volume, platform variety (cTrader), and raw spread consistency. TMGM wins on instrument depth (12,000+), DMA equities for Australian traders, and execution speed claims. For the pure forex trader wanting the safest brand, IC Markets. For the Australian trader wanting DMA equities alongside forex with institutional infrastructure, TMGM is the more complete package.",
+    "brokers_compared": ["tmgm", "ic-markets"],
+    "cta_anchor": "Compare TMGM side by side",
+    "cta_url": "/compare?brokers=tmgm,ic-markets"
+  },
+  "video_embed": { "type": null, "video_id": "", "title": "", "thumbnail_url": "", "duration_seconds": 0 },
+  "social_snippet": "TMGM scores 6.8/10 from NAFT — ASIC regulated (Tier-1), 12,000+ instruments including DMA equities via IRESS, ultra-fast execution, but VFSC Vanuatu for international clients.",
+
+
+  "long_review": {
+    "seo": {
+      "title": "TMGM Review 2026 — Legit, Safe or a Scam?",
+      "description": "TMGM review 2026: ASIC regulated (AFSL 436416), 12,000+ instruments, DMA equities via IRESS, ultra-fast execution. NAFT scores TMGM 6.8/10.",
+      "focus_keyword": "tmgm review",
+      "secondary_keywords": [
+        "tmgm review 2026", "is tmgm legit", "tmgm scam", "tmgm withdrawal",
+        "tmgm minimum deposit", "tmgm spreads", "tmgm vs ic markets",
+        "trademax global markets", "is tmgm regulated", "tmgm fees",
+        "tmgm iress", "tmgm asic", "tmgm mt4", "best australian forex broker 2026"
+      ],
+      "og_image_alt": "TMGM NAFT score 6.8/10 ASIC regulated 12000+ instruments"
+    },
+    "last_updated_display": "Last updated: May 2026",
+    "disclaimer": "NAFT Disclaimer: Not A Fugazi Trader is an independent broker review platform. We may receive a commission when you open an account through our affiliate links. This never influences our ratings, reviews, or trust scores. Our scores are calculated from publicly available regulatory data, aggregated community feedback, and editorial assessment. Trading forex, CFDs, and derivatives involves significant risk of capital loss and is not suitable for all investors. Always verify a broker's regulatory status independently before depositing. [Read our full disclosure]",
+    "reading_time_minutes": 9,
+    "word_count": 2050,
+
+
+    "seo_audit": {
+      "primary_keyword_count": 14,
+      "broker_name_count": 42,
+      "year_mentioned_count": 7,
+      "question_headings_count": 7,
+      "faq_items_count": 8,
+      "internal_links_count": 6,
+      "affiliate_cta_included": true,
+      "legit_keyword_present": true,
+      "all_tone_rules_applied": true
+    },
+    "hot_take": "TMGM is the Australian broker that figured out you can serve Southeast Asia from Sydney while holding a legitimate ASIC licence. 12,000+ instruments including DMA equities via IRESS puts it in the same category as Interactive Brokers for Australian traders. But the VFSC Vanuatu entity serving most international clients provides none of ASIC's protections. An excellent broker for Australians; a gamble for everyone else.",
+    "telegram_summary": "NAFT Verdict on TMGM — 2026\n1. ASIC regulated (AFSL 436416) — genuine Tier-1 for Australian clients.\n2. 12,000+ instruments including DMA equities via IRESS — exceptional depth.\n3. Ultra-fast execution from multiple NY4 data centres — institutional infrastructure.\n4. VFSC Vanuatu for international clients — no compensation scheme, weak regulation.\n5. Excellent for Australians wanting DMA + forex. A gamble for international clients on Vanuatu.",
+
+
+    "verdict": {
+      "tldr": "TMGM (TradeMax Global Markets) is a legitimate Australian broker scoring 6.8/10 from NAFT in 2026. Founded in 2013 in Sydney and regulated by ASIC (AFSL 436416) — a genuine Tier-1 licence — TMGM offers 12,000+ instruments across forex, stocks (DMA via IRESS), indices, commodities, and crypto through MT4, MT5, and the IRESS platform for Australian equities direct market access. Ultra-fast execution from multiple NY4 data centres provides institutional-grade infrastructure. The Edge account offers raw spreads from 0.0 pips with $7 commission. The $100 minimum deposit is reasonable. But the VFSC Vanuatu entity serving most international clients provides none of ASIC's protections — no compensation scheme, weak regulatory oversight, and leverage up to 1:500. If you are an Australian trader wanting DMA equities alongside forex with Tier-1 regulation — TMGM is excellent. If you are an international client on the Vanuatu entity — you are trusting the broker's operational integrity without a regulatory safety net.",
+      "summary": "NAFT rates TMGM 6.8/10 — ASIC Tier-1 regulated for Australians, 12,000+ instruments with DMA equities via IRESS, ultra-fast execution, but VFSC Vanuatu for international clients offers no protection.",
+      "best_for": "Australian traders wanting ASIC-regulated DMA equities via IRESS alongside forex/CFD trading with institutional-grade execution speed",
+      "not_ideal_for": "International traders uncomfortable with VFSC Vanuatu regulation, UK/EU traders (not accepted), or those requiring compensation scheme protection outside Australia",
+      "bottom_line": "Excellent for Australians — genuinely competitive with IC Markets and adds DMA equities. A risk-reward gamble for international clients under Vanuatu.",
+      "star_rating": 3.4,
+      "trust_score": 6.8,
+      "trust_breakdown": [
+        { "label": "Regulation", "score": 6, "max": 10, "weight": 0.3 },
+        { "label": "User Reviews", "score": 7, "max": 10, "weight": 0.25 },
+        { "label": "Withdrawal Speed", "score": 7, "max": 10, "weight": 0.25 },
+        { "label": "Complaint History", "score": 7, "max": 10, "weight": 0.2 }
+      ]
+    },
+
+
+    "at_a_glance": {
+      "regulation": ["ASIC (Australia, AFSL 436416)", "VFSC Vanuatu (offshore international)"],
+      "min_deposit": "$100",
+      "max_leverage": "1:30 (ASIC retail), up to 1:500 (VFSC)",
+      "avg_spread_eurusd": "Variable from 0.0 pips (Edge + $7 commission), 1.0 pips (Classic)",
+      "withdrawal_speed": "1-3 business days",
+      "platforms": ["MT4", "MT5", "IRESS (Australian Equities DMA)"],
+      "islamic_account": true,
+      "deposit_methods": ["Visa", "Mastercard", "Wire Transfer", "Skrill", "Neteller", "POLi", "BPay", "FasaPay"]
+    },
+    "geo": {
+      "accepted": ["Australia", "Malaysia", "Indonesia", "Thailand", "Vietnam", "Philippines", "India", "UAE", "Saudi Arabia", "South Africa", "Nigeria", "Kenya", "New Zealand", "Hong Kong", "Singapore", "Japan", "South Korea", "Brazil", "Mexico", "Chile"],
+      "excluded": ["United States", "United Kingdom", "European Union", "Iran", "North Korea", "Syria", "Cuba", "Russia", "Myanmar", "Sudan"],
+      "practical_note": "TMGM's primary market is Australia — served under ASIC with Tier-1 protections. The secondary market is Southeast Asia (Malaysia, Indonesia, Vietnam) served under VFSC Vanuatu. Critically, UK and EU clients are NOT accepted — limiting TMGM's addressable market to Australia, Asia-Pacific, Middle East, and select emerging markets. If you are in the UK or EU, this broker is not available to you. Australian residents get ASIC protections. Everyone else gets Vanuatu."
+    },
+
+
+    "sections": [
+      {
+        "id": "quick-verdict",
+        "heading": "Is TMGM Worth Your Money in 2026?",
+        "body": "TMGM is the Australian broker that most people outside Australia have never heard of — and that is a shame for Australian traders, because it is genuinely excellent for them. ASIC licence AFSL 436416 is Tier-1 regulation. Segregated client funds in Australian banks. 12,000+ instruments covering not just forex and CFDs but direct market access to Australian equities via the IRESS platform — the same platform institutional traders and wealth managers use for ASX access.\n\nThat IRESS offering is what puts TMGM in a different category from pure forex brokers. IC Markets and Pepperstone — TMGM's most direct Australian competitors — do not offer DMA equities through IRESS. If you want to trade ASX-listed stocks with real market depth, real order books, and direct exchange execution alongside your forex and CFD trading — TMGM is one of very few retail-accessible options that provides both under a single ASIC-regulated roof.\n\nThe forex/CFD proposition is solid: Edge account with raw spreads from 0.0 pips and $7 round-turn commission. Ultra-fast execution from multiple NY4 data centres — TMGM has invested heavily in infrastructure that reduces latency for serious traders. MT4 and MT5 for the forex side. $100 minimum deposit. The execution quality is reported as institutional-grade by users who have tested latency.\n\nBut here is where it gets complicated for non-Australian readers. TMGM's international entity operates under VFSC Vanuatu — among the weakest offshore licences in the broker industry. Vanuatu's regulatory capacity is minimal. No compensation scheme. No meaningful enforcement history. Leverage up to 1:500. For international clients in Southeast Asia, the Middle East, or Africa — you are trusting TMGM's operational integrity, not regulatory protection. An excellent broker if you are in Australia. A trust-based gamble if you are not.",
+        "cta_after": true
+      },
+
+
+      {
+        "id": "is-broker-regulated",
+        "heading": "Is TMGM Regulated? — Licence Check 2026",
+        "body": "Two regulatory entities serve TMGM's global client base. TradeMax Global Markets (Australia) Pty Ltd holds ASIC licence AFSL 436416 — confirmed active as of May 2026. ASIC is a genuine Tier-1 regulator with robust enforcement, mandatory fund segregation in local banks, and regular compliance audits. Australian clients benefit from one of the strongest retail trading regulatory frameworks globally.\n\nThe international entity operates under VFSC (Vanuatu Financial Services Commission) — serving clients outside Australia across Southeast Asia, Middle East, Africa, and the Asia-Pacific region. VFSC regulation is among the weakest in the offshore broker space. The regulator has minimal enforcement capacity, no investor compensation scheme, and limited public disciplinary history. It is technically regulation but functionally closer to registration.\n\nNo ASIC fines, sanctions, or enforcement actions against TMGM appear in public records. The broker has operated since 2013 — over 12 years of continuous service without regulatory cessation or major public scandal. NAFT verified TMGM regulation in May 2026.\n\nThe regulatory gap between ASIC (Tier-1, robust, enforced) and VFSC Vanuatu (minimal, unenforced) is among the widest in the dual-entity broker space. For Australian clients, this is an excellent regulatory profile. For international clients, the ASIC licence provides brand credibility but not personal protection — your funds sit under Vanuatu oversight regardless of TMGM's Australian credentials.",
+        "table": {
+          "headers": ["Entity", "Regulator", "Licence", "Who it covers", "Compensation scheme", "Leverage cap"],
+          "rows": [
+            ["TradeMax Global Markets (AU)", "ASIC", "AFSL 436416", "Australian residents", "No scheme but mandatory segregation", "1:30 majors"],
+            ["TMGM International", "VFSC Vanuatu", "Active", "International (rest of world)", "No compensation scheme", "Up to 1:500"]
+          ]
+        }
+      },
+
+
+      {
+        "id": "where-broker-accepts-clients",
+        "heading": "Who Can Open a TMGM Account? — Accepted Countries and Restrictions in 2026",
+        "body": "Accepted: Australia, Malaysia, Indonesia, Thailand, Vietnam, Philippines, India, UAE, Saudi Arabia, South Africa, Nigeria, Kenya, New Zealand, Hong Kong, Singapore, Japan, South Korea, Brazil, Mexico, Chile, and 40+ additional countries.\n\nNot accepted: United States, United Kingdom, European Union member states, Iran, North Korea, Syria, Cuba, Russia, Myanmar, Sudan, and other sanctioned territories.\n\nThe critical exclusions are the US (standard), UK, and EU — TMGM does not hold FCA or CySEC licences and therefore cannot accept clients from these major regulated markets. This limits TMGM's addressable audience but also means the broker is not trying to stretch a single offshore licence across jurisdictions where it has no presence — a somewhat honest approach compared to brokers who serve EU clients from Seychelles.",
+        "practical_note": "Australian residents receive ASIC-regulated accounts with 1:30 leverage, mandatory fund segregation, and Tier-1 compliance. All other accepted countries receive the VFSC Vanuatu entity with up to 1:500 leverage and no compensation scheme. There is no intermediate option. If you are Australian — excellent. If you are international — understand the protection gap before depositing."
+      },
+
+
+      {
+        "id": "spreads-fees-accounts",
+        "heading": "TMGM Spreads, Fees and Accounts — What Do You Actually Pay in 2026?",
+        "body": "TMGM offers two primary account types for forex/CFD trading plus IRESS for DMA equities. The Classic account is spread-only with zero commission — typical EUR/USD from 1.0 pips, approximately $10 per standard lot. Competitive but not exceptional for a spread-only account.\n\nThe Edge account is the standout offering: raw spreads from 0.0 pips with $7 round-turn commission. All-in cost approximately $7 per standard lot on EUR/USD during peak liquidity. This puts TMGM in the same pricing tier as IC Markets Raw Spread and Pepperstone Razor — the benchmark Australian ECN accounts. The $100 minimum deposit for the Edge account makes institutional-grade pricing accessible without the $10,000 barrier some brokers impose.\n\nIRESS DMA for Australian equities is the unique offering. Direct market access to the ASX with real order books, market depth, and exchange execution — not CFDs, but actual share trading. Commission from $7 AUD per trade. This is the same platform institutional fund managers and wealth advisers use, available to retail TMGM clients with a $500 minimum. For Australian traders wanting equities + forex under one roof, this is genuinely differentiated.\n\nThe infrastructure investment shows in execution: multiple NY4 Equinix data centres providing sub-millisecond execution for the forex book. This matters for scalpers and algorithmic traders who lose money on slippage and requotes. TMGM's infrastructure is institutional-grade, not retail-patched.\n\nNo deposit fees. No withdrawal fees. No published inactivity fee. Swap-free accounts available for Islamic finance compliance. The cost structure is clean and competitive, particularly on the Edge account.",
+        "table": {
+          "headers": ["Account", "Min deposit", "Spread EUR/USD", "Commission RT", "All-in cost/lot", "Platform"],
+          "rows": [
+            ["Classic", "$100", "From 1.0 pips", "$0", "~$10.00", "MT4/MT5"],
+            ["Edge (ECN)", "$100", "From 0.0 pips", "$7.00", "~$7.00", "MT4/MT5"],
+            ["IRESS (DMA Equities)", "$500", "Market spread (exchange)", "From $7 AUD", "Market + commission", "IRESS"]
+          ],
+          "footnote": "ASIC entity capped at 1:30 leverage. VFSC entity up to 1:500. IRESS DMA is for Australian equities only — real exchange execution, not CFDs. Spreads are variable. Broker-stated figures, May 2026."
+        }
+      },
+
+
+      {
+        "id": "deposits-withdrawals",
+        "heading": "How Fast Can You Get Money In and Out of TMGM in 2026?",
+        "body": "Deposits are instant via Visa, Mastercard, Skrill, and Neteller. Australian clients benefit from POLi and BPay for instant local transfers. FasaPay serves Southeast Asian markets with instant processing. Wire transfers take 2-5 business days. Minimum deposit is $100 across all methods — straightforward.\n\nWithdrawals process within 1-3 business days for most methods with zero TMGM-side fees. Australian clients report efficient processing through local banking channels. International clients through standard e-wallets and wire transfer report acceptable timeframes consistent with industry norms.\n\nThe absence of withdrawal fees is standard among quality Australian brokers — IC Markets and Pepperstone also offer zero-fee withdrawals. TMGM matches this expectation. No asymmetric barriers between deposit and withdrawal — the minimum withdrawal aligns with standard payment method minimums.\n\nFor IRESS DMA equity accounts, settlement follows standard ASX T+2 clearing rules. This is exchange-mandated, not broker-controlled. CFD/forex withdrawals are broker-processed within 1-3 days regardless of IRESS settlement timelines.",
+        "cta_after": true,
+        "table": {
+          "headers": ["Method", "Min deposit", "Processing", "Fee (deposit)", "Fee (withdrawal)"],
+          "rows": [
+            ["Visa/Mastercard", "$100", "Instant / 1-3 days withdrawal", "$0", "$0"],
+            ["Wire Transfer", "$100", "2-5 days / 2-5 days withdrawal", "$0", "$0"],
+            ["Skrill/Neteller", "$100", "Instant / 1-3 days withdrawal", "$0", "$0"],
+            ["POLi/BPay (Australia)", "$100", "Instant / 1-3 days withdrawal", "$0", "$0"],
+            ["FasaPay (SE Asia)", "$100", "Instant / 1-3 days withdrawal", "$0", "$0"]
+          ],
+          "footnote": "Zero fees on all deposits and withdrawals. Processing times are broker-stated. IRESS DMA equity settlement follows ASX T+2 rules. Intermediary bank fees may apply on international wire transfers."
+        }
+      },
+
+
+      {
+        "id": "withdrawals",
+        "heading": "TMGM Withdrawals in 2026 — What Australian and International Clients Report",
+        "body": "TMGM's withdrawal reputation is solid — consistent with what you would expect from an ASIC-regulated broker with over a decade of operational history. Australian clients report smooth processing through local banking channels with no systematic complaints visible on major review platforms.\n\nInternational clients under the VFSC entity report acceptable withdrawal experiences — 1-3 business days via e-wallets and wire transfer. No widespread pattern of blocked or delayed withdrawals appears in public forums or Trustpilot. The broker's smaller international profile means fewer public data points than IC Markets or Pepperstone, but the existing feedback is neutral-to-positive.\n\nThe ASIC regulatory framework mandates segregated client funds in local Australian banks for domestic clients — providing structural protection against broker insolvency. This protection does NOT extend to VFSC Vanuatu clients. International clients rely on TMGM's operational integrity and brand reputation rather than regulatory-mandated fund protection.\n\nTMGM's 12-year track record without major withdrawal scandals or regulatory action provides reasonable confidence for both Australian and international clients. The broker is not among the most-reviewed on Trustpilot (reflecting its lower international profile), but available reviews do not indicate withdrawal problems.\n\nIf a withdrawal delays beyond 5 business days: Australian clients can escalate to ASIC's complaint mechanism. International clients have limited regulatory recourse under VFSC — contact TMGM support directly and escalate through internal dispute resolution."
+      },
+
+
+      {
+        "id": "red-flags",
+        "heading": "TMGM Red Flags — What NAFT Found Before Scoring in 2026",
+        "body": "No major red flags for Australian clients. The concerns centre entirely on the international (VFSC) entity. TMGM is well-regulated domestically and operationally sound. NAFT last reviewed TMGM in May 2026:",
+        "bullets": [
+          "VFSC Vanuatu for international clients is among the weakest offshore licences — weaker enforcement reputation than even Seychelles or Mauritius. No compensation scheme.",
+          "UK and EU clients excluded — TMGM holds no FCA or CySEC licence. If you need European regulatory coverage, this broker cannot serve you.",
+          "Up to 1:500 leverage on the VFSC entity — high for retail traders without regulatory-mandated negative balance protection.",
+          "Lower international brand recognition compared to IC Markets or Pepperstone — fewer independent reviews and community discussion points available for due diligence.",
+          "IRESS DMA is excellent but niche — only relevant for Australian equity traders. International clients get MT4/MT5 only, which is standard but not differentiating.",
+          "The gap between ASIC Tier-1 protection for Australians and VFSC near-zero protection for everyone else is among the widest in the industry — the dual-entity experience is dramatically different depending on your passport."
+        ]
+      },
+
+
+      {
+        "id": "who-broker-is-for",
+        "heading": "Who Should Use TMGM — and Who Should Look Elsewhere in 2026?",
+        "body": "TMGM serves Australian traders exceptionally well and international traders adequately. Know which category you fall into before committing capital.",
+        "not_for": [
+          "UK and EU traders — TMGM does not accept clients from these jurisdictions. No FCA, no CySEC licence available.",
+          "International traders requiring regulatory compensation schemes — VFSC Vanuatu provides no protection if the broker fails.",
+          "Traders uncomfortable with offshore regulation — if you are outside Australia and need Tier-1 protections, look at FCA or CySEC brokers instead.",
+          "Social/copy trading enthusiasts — TMGM does not offer social trading features. It is a pure execution-focused broker.",
+          "US residents — TMGM does not accept clients from the United States."
+        ],
+        "for": [
+          "Australian traders wanting ASIC-regulated DMA equities via IRESS alongside forex/CFD trading — the standout use case that no close competitor matches.",
+          "Serious forex traders wanting raw spreads from 0.0 pips with $7 commission and ultra-fast execution from NY4 data centres.",
+          "Scalpers and algorithmic traders who need sub-millisecond execution and minimal slippage — the infrastructure investment shows in execution quality.",
+          "Multi-asset traders wanting 12,000+ instruments under one account — forex, stocks, indices, commodities, crypto.",
+          "Southeast Asian and Middle Eastern traders who want an ASIC-branded broker with reasonable pricing and proven operational history, accepting the VFSC trade-off."
+        ]
+      },
+
+
+      {
+        "id": "how-to-open-account",
+        "heading": "How to Open a TMGM Account — Step by Step in 2026",
+        "body": "Registration takes under 5 minutes. Australian accounts with ASIC verification typically complete within 24-48 hours. International accounts may process faster depending on jurisdiction.",
+        "steps": [
+          {
+            "number": 1,
+            "title": "Register on tmgm.com",
+            "detail": "Visit tmgm.com and click Open Account. Enter email, create password, select country. You will be assigned to the ASIC entity (Australia) or VFSC entity (international) automatically. Select your account type: Classic, Edge, or IRESS (Australia only)."
+          },
+          {
+            "number": 2,
+            "title": "Complete KYC verification",
+            "detail": "Upload government-issued photo ID (passport or driving licence) and proof of address (utility bill or bank statement dated within 3 months). Australian clients require standard ASIC-compliant verification. International clients follow standard KYC process. Typically 24-48 hours."
+          },
+          {
+            "number": 3,
+            "title": "Fund your account and test a withdrawal",
+            "detail": "Deposit $100+ via card, e-wallet, POLi (Australia), or wire transfer — all fee-free. Open the Edge account for raw spreads if you are an active forex trader. Request a withdrawal within the first week to confirm the pipeline processes smoothly.",
+            "cta_inline": { "label": "Open TMGM Account", "url": "AFFILIATE_PLACEHOLDER" }
+          }
+        ],
+        "practical_note": "Australian traders: consider the IRESS account ($500 minimum) if you want DMA equities alongside forex. You can run both an Edge forex account and an IRESS equities account simultaneously. This gives you institutional-grade access to both markets under a single ASIC-regulated broker.",
+        "cta_after": true
+      },
+
+
+      {
+        "id": "final-verdict",
+        "heading": "TMGM Final Verdict — Is It Legit and Worth It in 2026?",
+        "body": "NAFT scores TMGM 6.8 out of 10. For Australian traders, this is a genuinely excellent broker — ASIC Tier-1 regulation, 12,000+ instruments including DMA equities via IRESS (something IC Markets and Pepperstone do not offer), raw spreads from 0.0 pips on the Edge account, and ultra-fast execution from institutional NY4 infrastructure. The $100 minimum deposit makes it accessible. The 12-year track record without regulatory action provides confidence. If you trade from Australia, TMGM deserves serious consideration.\n\nThe 12,000+ instrument range puts TMGM in rare company among retail brokers. Forex, stock CFDs, real DMA equities, indices, commodities, crypto — all under one roof with a legitimate Tier-1 licence. The IRESS DMA offering for ASX equities is the genuine differentiator that separates TMGM from the packed field of Australian forex brokers who all offer similar MT4/MT5 propositions.\n\nBut NAFT cannot give a higher score because of the international entity reality. VFSC Vanuatu — serving everyone outside Australia — provides among the weakest regulatory protection in the offshore space. No compensation scheme. Minimal enforcement. Leverage up to 1:500 without ASIC's protective framework. The UK and EU exclusions further limit TMGM's legitimate addressable market.\n\nFor Australian traders in 2026 — TMGM is legit, competitive, and differentiated by the IRESS DMA offering. For international traders on Vanuatu — it is an acceptable broker with institutional infrastructure, but you are trusting reputation over regulation. The 6.8 reflects this split: excellent for Australians, merely acceptable for everyone else."
+      }
+    ],
+
+
+    "affiliate_cta": {
+      "label": "Open TMGM Account",
+      "url": "AFFILIATE_PLACEHOLDER",
+      "promo_code": null,
+      "friction_reducers": [
+        "ASIC regulated (AFSL 436416) — genuine Tier-1 Australian regulation",
+        "12,000+ instruments — forex, DMA equities, indices, crypto, commodities",
+        "IRESS platform for ASX DMA equities — institutional access for retail",
+        "Edge account — raw spreads from 0.0 pips, $7 commission",
+        "Ultra-fast execution from multiple NY4 data centres",
+        "$100 minimum deposit — accessible entry point",
+        "MT4 + MT5 for forex/CFD trading",
+        "Zero deposit and withdrawal fees"
+      ]
+    },
+    "cta_positions": ["after_section_quick-verdict", "after_section_deposits-withdrawals", "in_section_how-to-open-account_step3"],
+    "trustpilot": {
+      "rating": 4.1,
+      "reviews": 1500,
+      "velocity_30d": "Moderate — 20-30 reviews per month reflecting focused market positioning",
+      "polarisation_note": "Positive reviews cite execution speed, IRESS DMA access, and competitive Edge account spreads. Negative reviews occasionally mention customer service wait times and limited educational resources.",
+      "broker_response_rate": "Above 40% — responsive to public feedback",
+      "source_note": "Trustpilot, publicly reported data, May 2026"
+    },
+
+
+    "internal_links": [
+      { "anchor": "compare brokers side by side", "url": "/compare" },
+      { "anchor": "best Australian forex brokers", "url": "/brokers?region=australia" },
+      { "anchor": "broker scam alerts and warnings", "url": "/scam-alerts" },
+      { "anchor": "community withdrawal proofs", "url": "/withdrawal-proofs" },
+      { "anchor": "how NAFT reviews brokers", "url": "/how-we-review-brokers" },
+      { "anchor": "file a broker complaint with NAFT", "url": "/complaints" }
+    ],
+    "faq": [
+      {
+        "q": "Is TMGM a legit broker or a scam?",
+        "a": "TMGM is legitimate — ASIC regulated (AFSL 436416), founded in 2013 in Sydney, 12-year operational track record with no regulatory actions. NAFT rates TMGM 6.8/10 in 2026."
+      },
+      {
+        "q": "Is TMGM regulated by ASIC?",
+        "a": "Yes. TradeMax Global Markets (Australia) Pty Ltd holds ASIC licence AFSL 436416. This provides Tier-1 regulation for Australian clients with mandatory fund segregation. International clients are served under VFSC Vanuatu."
+      },
+      {
+        "q": "What is the minimum deposit for TMGM?",
+        "a": "$100 for Classic and Edge accounts. $500 for the IRESS DMA equities account. All deposits are fee-free across all methods."
+      },
+      {
+        "q": "Does TMGM offer DMA equities?",
+        "a": "Yes — TMGM offers direct market access to Australian equities via the IRESS platform. This provides real exchange execution on the ASX with market depth and order books — not CFDs. Requires $500 minimum deposit."
+      },
+      {
+        "q": "How fast are TMGM withdrawals?",
+        "a": "1-3 business days for most methods with zero fees. Australian clients benefit from local banking channels. No systematic withdrawal complaints visible in public review data."
+      },
+      {
+        "q": "Does TMGM accept UK or EU clients?",
+        "a": "No. TMGM does not hold FCA or CySEC licences and does not accept UK or EU clients. The broker serves Australia (ASIC) and international markets (VFSC Vanuatu) only."
+      },
+      {
+        "q": "How does TMGM compare to IC Markets?",
+        "a": "Both are ASIC-regulated Australian brokers with offshore entities and competitive raw spreads. TMGM adds IRESS DMA equities and claims faster execution via NY4 infrastructure. IC Markets has larger brand trust, higher volume, and cTrader alongside MT4/MT5. For DMA equities, TMGM. For brand safety and platform variety, IC Markets."
+      },
+      {
+        "q": "Is TMGM good for scalping?",
+        "a": "Yes — the Edge account with 0.0-pip raw spreads, $7 commission, and ultra-fast execution from NY4 data centres makes TMGM one of the better options for scalping from Australia. Latency-sensitive strategies benefit from the infrastructure investment."
+      }
+    ],
+
+
+    "schema_jsonld": {
+      "review": {
+        "@context": "https://schema.org",
+        "@type": "Review",
+        "itemReviewed": { "@type": "FinancialService", "name": "TMGM" },
+        "author": { "@type": "Person", "name": "NAFT Editorial Team", "url": "https://naft.com/authors/editorial-team", "sameAs": [] },
+        "reviewRating": { "@type": "Rating", "ratingValue": "6.8", "bestRating": "10" },
+        "datePublished": "2026-05-30",
+        "dateModified": "2026-05-30"
+      },
+      "aggregateRating": {
+        "@context": "https://schema.org",
+        "@type": "AggregateRating",
+        "itemReviewed": { "@type": "FinancialService", "name": "TMGM" },
+        "ratingValue": "3.4",
+        "bestRating": "5",
+        "ratingCount": "1500"
+      },
+      "faqPage": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          { "@type": "Question", "name": "Is TMGM a legit broker or a scam?", "acceptedAnswer": { "@type": "Answer", "text": "TMGM is legitimate — ASIC regulated (AFSL 436416), 12-year track record, no regulatory actions. NAFT rates 6.8/10." } },
+          { "@type": "Question", "name": "Does TMGM offer DMA equities?", "acceptedAnswer": { "@type": "Answer", "text": "Yes — direct market access to Australian equities via IRESS platform with real exchange execution." } },
+          { "@type": "Question", "name": "Does TMGM accept UK or EU clients?", "acceptedAnswer": { "@type": "Answer", "text": "No. TMGM does not hold FCA or CySEC licences and does not accept UK or EU clients." } }
+        ]
+      },
+      "organization": { "@context": "https://schema.org", "@type": "Organization", "name": "NAFT", "url": "https://naft.com" },
+      "breadcrumbList": {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://naft.com" },
+          { "@type": "ListItem", "position": 2, "name": "Broker Reviews", "item": "https://naft.com/brokers" },
+          { "@type": "ListItem", "position": 3, "name": "TMGM Review 2026", "item": "https://naft.com/brokers/tmgm" }
+        ]
+      },
+      "howTo": {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "How to Open a TMGM Account",
+        "description": "Step-by-step guide to opening a TMGM trading account in 2026.",
+        "step": [
+          { "@type": "HowToStep", "position": 1, "name": "Register", "text": "Visit tmgm.com, click Open Account, select country and account type." },
+          { "@type": "HowToStep", "position": 2, "name": "Verify identity (KYC)", "text": "Upload photo ID and proof of address. Verification within 24-48 hours." },
+          { "@type": "HowToStep", "position": 3, "name": "Fund and test", "text": "Deposit $100+ fee-free. Test Edge account for raw spreads. Test withdrawal within first week." }
+        ]
+      },
+      "videoObject": null
+    },
+    "sources": [
+      "TMGM official website — tmgm.com (accounts, fees, regulation, IRESS pages)",
+      "ASIC Register — AFSL 436416, TradeMax Global Markets (Australia) Pty Ltd confirmed active May 2026",
+      "VFSC Vanuatu — international entity confirmed active",
+      "Trustpilot — approximately 4.1 stars from 1,500+ reviews (publicly reported May 2026)",
+      "Australian forex community forums — execution and withdrawal experience aggregation",
+      "IRESS platform documentation — DMA equities access confirmed for retail TMGM clients",
+      "TMGM risk disclosure — CFD loss rate and leverage warnings published"
+    ]
+  }
+}

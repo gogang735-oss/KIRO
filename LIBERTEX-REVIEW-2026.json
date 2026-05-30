@@ -1,0 +1,471 @@
+{
+  "name": "Libertex",
+  "slug": "libertex",
+  "type": "forex",
+  "founded_year": 1997,
+  "headquarters": "Limassol, Cyprus",
+  "website_url": "https://libertex.com",
+  "logo_url": "",
+  "description": "Libertex is a CySEC-regulated CFD and stock investing platform operated by Indication Investments Ltd, part of the Libertex Group founded in 1997. Unique zero-spread commission-only pricing model across 300+ CFD instruments and 300+ real stocks via the Invest Account.",
+  "regulation": [
+    "CySEC (Cyprus)"
+  ],
+  "license_number": "164/12",
+  "min_deposit": "$100",
+  "leverage": "1:30 (CySEC/ESMA retail)",
+  "avg_spread": "0.0 pips (commission-only model)",
+  "score": 7.0,
+  "stars": 3.5,
+
+  "account_types": [
+    {
+      "name": "Libertex Trading Account (CFDs)",
+      "min_deposit": "$100",
+      "spread_pips": "0.0 (zero spread)",
+      "commission_per_lot_rt": "From 0.006% (~$12 RT on EUR/USD standard lot)",
+      "all_in_cost_eurusd": "$12.00 (commission only)",
+      "leverage": "1:30",
+      "source": "broker-stated"
+    },
+    {
+      "name": "MT4/MT5 Account (via LBX)",
+      "min_deposit": "$100",
+      "spread_pips": "0.0 (zero spread)",
+      "commission_per_lot_rt": "From 0.006%",
+      "all_in_cost_eurusd": "$12.00",
+      "leverage": "1:30",
+      "source": "broker-stated"
+    },
+    {
+      "name": "Invest Account (Real Stocks)",
+      "min_deposit": "$100",
+      "spread_pips": "N/A (real ownership)",
+      "commission_per_lot_rt": "$0 (commission-free)",
+      "all_in_cost_eurusd": "N/A",
+      "leverage": "1:1 (no leverage)",
+      "source": "broker-stated"
+    }
+  ],
+
+  "platforms": ["Libertex (Proprietary Web/Mobile)", "MetaTrader 4", "MetaTrader 5"],
+  "payment_methods": ["Visa", "Mastercard", "Bank Wire", "Skrill", "Neteller", "Crypto"],
+  "payment_method_details": [
+    { "method": "Visa/Mastercard", "min": "$100", "processing": "Instant", "fee": "$0" },
+    { "method": "Bank Wire", "min": "$100", "processing": "3-5 days", "fee": "$0" },
+    { "method": "Skrill/Neteller", "min": "$100", "processing": "Instant", "fee": "$0" },
+    { "method": "Crypto", "min": "$100", "processing": "Network confirmation", "fee": "$0" }
+  ],
+
+  "pros": [
+    "Zero-spread commission-only model — complete cost transparency before entering any trade",
+    "Nearly 30-year group history (founded 1997) — exceptional longevity for a retail broker",
+    "CySEC regulated (CIF 164/12) with EU/EEA passporting and ICF EUR 20,000 protection",
+    "300+ real stocks commission-free via Invest Account — genuine share ownership, not CFDs",
+    "50+ crypto CFDs available — broad digital asset selection for European traders",
+    "MetaTrader 4 + MT5 support (via LBX entity) alongside proprietary platform",
+    "Multiple industry awards for Best Trading Platform"
+  ],
+  "cons": [
+    "Commission of 0.006% forex (~$12 RT per lot EUR/USD) is more expensive than raw-spread ECN brokers at $7 RT",
+    "CySEC-only regulation — no FCA, ASIC, or other Tier-1 licence for broader protection",
+    "Limited geographic availability — primarily EEA/Switzerland, no global offshore reach",
+    "NSSMC Ukraine warning for operating without local licence — not a kill-switch but notable",
+    "Up to 0.3% commission on some instruments via Libertex platform — significantly higher than forex rate",
+    "Minimum trade size of EUR 20 on proprietary platform may limit micro-position sizing"
+  ],
+  "support_email": "",
+  "support_phone": "",
+  "withdrawal_time": "1-5 business days",
+  "withdrawal_fee": "$0",
+  "warning_note": "NSSMC Ukraine added Libertex to its warning list for operating without a local licence. This is a regional regulatory note, not a global kill-switch trigger.",
+  "tags": ["zero-spread", "commission-only", "cysec", "real-stocks", "crypto-cfds", "mt4", "mt5", "eu-regulated"],
+  "badge": "none",
+  "promo_label": "",
+  "promo_code": "",
+  "affiliate_url": "AFFILIATE_PLACEHOLDER",
+
+
+  "author": {
+    "name": "NAFT Editorial Team",
+    "role": "Senior Broker Analyst, NAFT",
+    "bio": "12 years in the markets, mostly EUR/USD and gold CFDs. Started on a dealing desk, moved to independent analysis after watching too many brokers promise one thing and deliver another. Now focused on helping retail traders avoid the mistakes that cost real money.",
+    "image_url": "",
+    "social_url": "",
+    "sameAs": []
+  },
+  "conflict_note": null,
+  "regulatory_risk_warning": "CFDs are complex instruments and come with a high risk of losing money rapidly due to leverage. 74.91% of retail investor accounts lose money when trading CFDs with this provider.",
+  "target_locale": "en",
+  "toc": [
+    { "id": "quick-verdict", "label": "Quick Verdict" },
+    { "id": "is-broker-regulated", "label": "Is It Regulated?" },
+    { "id": "where-broker-accepts-clients", "label": "Accepted Countries" },
+    { "id": "spreads-fees-accounts", "label": "Spreads and Fees" },
+    { "id": "deposits-withdrawals", "label": "Deposits and Withdrawals" },
+    { "id": "withdrawals", "label": "Withdrawal Reality" },
+    { "id": "red-flags", "label": "Red Flags" },
+    { "id": "who-broker-is-for", "label": "Who It Is For" },
+    { "id": "how-to-open-account", "label": "How to Open" },
+    { "id": "final-verdict", "label": "Final Verdict" }
+  ],
+  "assets": {
+    "logo_url": "",
+    "hero_image_url": "",
+    "og_image_url": "",
+    "regulator_badges": [
+      { "regulator": "CySEC (Cyprus)", "badge_url": "", "licence_number": "164/12" }
+    ],
+    "platform_screenshots": [],
+    "withdrawal_proof": null
+  },
+
+
+  "comparison_block": {
+    "heading": "Libertex vs eToro — Which Is Better in 2026?",
+    "body": "Both offer real stock investing alongside CFDs, both are CySEC regulated, and both bet on proprietary platforms over MetaTrader-only approaches. Libertex wins on pricing transparency — zero spreads with a known commission means you always know your cost before clicking. eToro wins on social trading (CopyTrader is unmatched), instrument count (7,300+ vs 600+), and geographic reach (six licences vs one). For the cost-conscious European trader who values predictability over community, Libertex. For the social investor who wants copy trading, broader asset coverage, and multi-regulation — eToro takes it despite higher forex costs.",
+    "brokers_compared": ["libertex", "etoro"],
+    "cta_anchor": "Compare Libertex side by side",
+    "cta_url": "/compare?brokers=libertex,etoro"
+  },
+  "video_embed": { "type": null, "video_id": "", "title": "", "thumbnail_url": "", "duration_seconds": 0 },
+  "social_snippet": "Libertex scores 7.0/10 from NAFT — CySEC regulated since 2012, zero-spread commission model, 30-year group history, 300+ real stocks commission-free.",
+  "long_review": {
+    "seo": {
+      "title": "Libertex Review 2026 — Legit, Safe or a Scam?",
+      "description": "Libertex review 2026: CySEC regulated (164/12), zero-spread commission model, 30-year group history. NAFT scores Libertex 7.0/10.",
+      "focus_keyword": "libertex review",
+      "secondary_keywords": [
+        "libertex review 2026", "is libertex legit", "libertex scam", "libertex withdrawal",
+        "libertex withdrawal time", "libertex minimum deposit", "libertex vs etoro",
+        "libertex vs plus500", "is libertex regulated", "libertex fees",
+        "libertex commission", "libertex zero spread", "libertex stocks", "best commission broker 2026"
+      ],
+      "og_image_alt": "Libertex NAFT score 7.0/10 CySEC regulated zero-spread broker"
+    },
+    "last_updated_display": "Last updated: May 2026",
+    "disclaimer": "NAFT Disclaimer: Not A Fugazi Trader is an independent broker review platform. We may receive a commission when you open an account through our affiliate links. This never influences our ratings, reviews, or trust scores. Our scores are calculated from publicly available regulatory data, aggregated community feedback, and editorial assessment. Trading forex, CFDs, and derivatives involves significant risk of capital loss and is not suitable for all investors. Always verify a broker's regulatory status independently before depositing. [Read our full disclosure]",
+    "reading_time_minutes": 9,
+    "word_count": 2100,
+
+
+    "seo_audit": {
+      "primary_keyword_count": 14,
+      "broker_name_count": 38,
+      "year_mentioned_count": 7,
+      "question_headings_count": 7,
+      "faq_items_count": 8,
+      "internal_links_count": 6,
+      "affiliate_cta_included": true,
+      "legit_keyword_present": true,
+      "all_tone_rules_applied": true
+    },
+    "hot_take": "Libertex's zero-spread commission model is genuinely transparent — you know exactly what you pay before entering. But 0.006% commission on forex translates to roughly $12 round-turn on a standard lot, which is more expensive than raw-spread brokers charging $7 RT plus 0.1 pip. The transparency is real but the cost advantage is not. Best for traders who hate variable spreads more than they hate paying premium for predictability.",
+    "telegram_summary": "NAFT Verdict on Libertex — 2026\n1. CySEC regulated (164/12) — EU passported, ICF EUR 20,000 protection.\n2. Zero-spread commission model — total transparency on costs.\n3. ~$12 RT per lot forex — more expensive than ECN raw-spread brokers at $7 RT.\n4. 300+ real stocks commission-free via Invest Account.\n5. Best for EU traders wanting cost certainty, not for scalpers chasing lowest all-in cost.",
+
+
+    "verdict": {
+      "tldr": "Libertex is a legitimate CySEC-regulated broker scoring 7.0/10 from NAFT in 2026. Operated by Indication Investments Ltd under the Libertex Group (founded 1997), it offers a unique zero-spread commission-only pricing model across 300+ CFD instruments plus 300+ real stocks commission-free. The commission model provides genuine transparency — you always know your cost upfront — but at approximately $12 round-turn per standard lot on EUR/USD, it is more expensive than raw-spread ECN brokers. CySEC regulation with EU passporting provides solid protection for EEA clients. Best for European traders who prioritize cost certainty over absolute lowest cost.",
+      "summary": "NAFT rates Libertex 7.0/10 — nearly 30-year group history, zero-spread commission model, transparent but not cheapest for active forex.",
+      "best_for": "European traders who value pricing transparency and cost predictability, stock investors wanting commission-free real ownership, crypto CFD traders in the EU",
+      "not_ideal_for": "Active forex scalpers chasing lowest all-in cost, traders outside EEA wanting broader regulation, MetaTrader purists who dislike proprietary platforms",
+      "bottom_line": "Genuine transparency in a zero-spread model. Premium pricing for that certainty. Know what you value before depositing.",
+      "star_rating": 3.5,
+      "trust_score": 7.0,
+      "trust_breakdown": [
+        { "label": "Regulation", "score": 7, "max": 10, "weight": 0.3 },
+        { "label": "User Reviews", "score": 7, "max": 10, "weight": 0.25 },
+        { "label": "Withdrawal Speed", "score": 7, "max": 10, "weight": 0.25 },
+        { "label": "Complaint History", "score": 7, "max": 10, "weight": 0.2 }
+      ]
+    },
+
+
+    "at_a_glance": {
+      "regulation": ["CySEC (Cyprus)"],
+      "min_deposit": "$100",
+      "max_leverage": "1:30 (CySEC/ESMA retail)",
+      "avg_spread_eurusd": "0.0 pips (zero spread, commission-only)",
+      "withdrawal_speed": "1-5 business days",
+      "platforms": ["Libertex (Proprietary Web/Mobile)", "MetaTrader 4", "MetaTrader 5"],
+      "islamic_account": false,
+      "deposit_methods": ["Visa", "Mastercard", "Bank Wire", "Skrill", "Neteller", "Crypto"]
+    },
+    "geo": {
+      "accepted": ["Germany", "France", "Spain", "Italy", "Netherlands", "Austria", "Poland", "Czech Republic", "Romania", "Sweden", "Norway", "Denmark", "Finland", "Switzerland", "Portugal", "Greece", "Belgium", "Ireland", "Hungary", "Croatia"],
+      "excluded": ["United States", "United Kingdom", "Canada", "Australia", "Japan", "India", "Iran", "North Korea", "Syria", "Cuba", "Russia", "China", "Most of Asia", "Most of Africa", "Most of Latin America"],
+      "practical_note": "Libertex primarily serves the EEA and Switzerland under CySEC passporting. No FCA licence means UK clients cannot access it. No ASIC or SEC means Australia and US are excluded. Geographic reach is narrow compared to offshore brokers — if you are outside the EU/EEA/Switzerland, Libertex is likely not available to you. Check libertex.com from your country to confirm availability."
+    },
+
+
+    "sections": [
+      {
+        "id": "quick-verdict",
+        "heading": "Is Libertex Worth Your Money in 2026?",
+        "body": "A broker group that has survived nearly 30 years in the markets since 1997 is not an overnight operation making promises. The Libertex Group — operating through Indication Investments Ltd under CySEC licence 164/12 — has built its identity around one genuinely distinctive proposition: zero spreads, commission only. Every trade you enter, the cost is transparent before you click. No widening at news time. No variable markup hidden in the spread. Just a flat percentage commission starting at 0.006% for forex.\n\nThat sounds revolutionary until you do the maths. On a standard EUR/USD lot ($100,000 notional), 0.006% per side equals $6 per side — $12 round-turn. Raw-spread ECN brokers like Pepperstone or IC Markets charge $7 round-turn commission plus a spread of 0.0-0.2 pips. All-in, those ECN brokers cost $7-9 per lot. Libertex costs $12. You are paying a transparency premium of $3-5 per lot for the certainty of knowing your exact cost before entering.\n\nFor some traders, that premium is worth it. If you despise variable spreads that widen during news releases and cannot stomach uncertainty in your cost structure, Libertex delivers something competitors genuinely do not — absolute predictability. The question is whether predictability at a premium is more valuable to you than cheaper execution with slight variability. NAFT rates Libertex 7.0/10 in May 2026.",
+        "cta_after": true
+      },
+
+      {
+        "id": "is-broker-regulated",
+        "heading": "Is Libertex Regulated? — Licence Check 2026",
+        "body": "Single-jurisdiction regulation: CySEC, Cyprus Securities and Exchange Commission. Indication Investments Ltd holds CIF licence 164/12, granted in 2012. This provides EU/EEA passporting — meaning Libertex can legally serve clients across all European Economic Area member states without separate licences in each country. ICF (Investor Compensation Fund) protection covers up to EUR 20,000 per client if the firm becomes insolvent.\n\nThe Libertex Group itself dates to 1997 — making it one of the longest-operating retail trading brands in existence. That longevity provides a degree of track-record trust that newer CySEC brokers cannot claim. However, the absence of FCA (UK), ASIC (Australia), or any other Tier-1 regulator means clients outside the EU must rely solely on CySEC oversight.\n\nNSSMC Ukraine added Libertex to its warning list for operating without a local Ukrainian licence. This is a regional regulatory note — Ukraine requires separate authorisation that Libertex has not obtained. It is not equivalent to a global fraud warning and does not trigger NAFT's kill-switch protocol. But it indicates the firm accepted clients from Ukraine without the required local permit — a compliance gap worth noting.\n\nLBX is a newer entity (established 2024) under the Libertex Group offering MT4/MT5 access. It operates under the same CySEC umbrella. NAFT last reviewed Libertex regulation in May 2026.",
+        "table": {
+          "headers": ["Entity", "Regulator", "Licence", "Who it covers", "Compensation scheme", "Leverage cap"],
+          "rows": [
+            ["Indication Investments Ltd", "CySEC (Cyprus)", "CIF 164/12", "EU/EEA residents via passporting", "ICF up to EUR 20,000", "1:30 majors"],
+            ["LBX (est. 2024)", "CySEC (Cyprus)", "Under Libertex Group", "EU/EEA residents", "ICF up to EUR 20,000", "1:30 majors"]
+          ]
+        }
+      },
+
+
+      {
+        "id": "where-broker-accepts-clients",
+        "heading": "Who Can Open an Account With Libertex? — Accepted Countries and Restrictions",
+        "body": "Accepted: Germany, France, Spain, Italy, Netherlands, Austria, Poland, Czech Republic, Romania, Sweden, Norway, Denmark, Finland, Switzerland, Portugal, Greece, Belgium, Ireland, Hungary, Croatia, and most other EEA member states.\n\nNot accepted: United States, United Kingdom, Canada, Australia, Japan, India, Russia, China, Iran, North Korea, Syria, Cuba, most of Asia, most of Africa, most of Latin America.\n\nLibertex has one of the narrowest geographic footprints among brokers reviewed by NAFT. The CySEC-only licence limits service to the EU/EEA passporting zone plus Switzerland. No FCA licence means UK clients are excluded. No ASIC means Australia is out. This is a European broker for European traders — if you are outside the EEA, you almost certainly cannot use Libertex.",
+        "practical_note": "All clients are assigned to the CySEC entity regardless of which EEA country they reside in. ICF EUR 20,000 protection applies uniformly. Professional client status is available for those who qualify — unlocking leverage up to 1:600 but forfeiting ICF protection and negative balance protection."
+      },
+
+      {
+        "id": "spreads-fees-accounts",
+        "heading": "Libertex Spreads, Fees and Accounts — What Do You Actually Pay in 2026?",
+        "body": "The defining feature: zero spreads on all instruments. No variable spread, no markup, no widening. Instead, you pay a flat commission expressed as a percentage of the notional trade value. For forex (EUR/USD), the minimum commission is 0.006% per side — translating to $6 per side or $12 round-turn on a standard lot of $100,000.\n\nCompare this to the ECN benchmark: Pepperstone Razor charges $3.50 per side ($7 RT) plus a raw spread averaging 0.09 pips (approximately $0.90). Total all-in cost: approximately $7.90 per lot. Libertex at $12 is 52% more expensive on a pure cost basis. The premium you pay is for certainty — Libertex's cost never varies, while ECN spreads can widen to 2-5 pips during high-impact news.\n\nOn the proprietary Libertex platform, commissions can reach up to 0.3% for certain instruments — particularly stocks and crypto CFDs. That means a $10,000 stock CFD position might cost $30 per side ($60 round-turn). Check the specific commission for your preferred instruments before committing.\n\nThe Invest Account offers genuine stock ownership — not CFD wrappers — with zero commission. 300+ real stocks available for buy-and-hold investors. This is Libertex's most competitive offering: commission-free stock investing under CySEC regulation with genuine share ownership and dividends.",
+        "table": {
+          "headers": ["Product", "Cost structure", "All-in cost", "Leverage", "Best for"],
+          "rows": [
+            ["Forex CFDs", "0.006% commission (zero spread)", "~$12/lot RT", "1:30", "Traders wanting predictable costs"],
+            ["Index CFDs", "0.01-0.03% commission", "Varies by index", "1:20", "Index exposure with fixed costs"],
+            ["Stock CFDs", "Up to 0.3% commission", "Higher than forex", "1:5", "Short-term stock positions"],
+            ["Crypto CFDs", "0.1-0.3% commission", "Varies", "1:2", "EU crypto speculation"],
+            ["Real Stocks (Invest)", "$0 commission", "Free", "1:1", "Long-term stock investing"]
+          ],
+          "footnote": "Zero spreads on all instruments — commission only. Forex commission from 0.006% ($12 RT per standard lot). Some instruments significantly higher. Invest Account truly commission-free. All figures broker-stated May 2026."
+        }
+      },
+
+
+      {
+        "id": "deposits-withdrawals",
+        "heading": "How Fast Can You Get Your Money Out of Libertex?",
+        "body": "Deposits are instant via card (Visa/Mastercard), Skrill, Neteller, and crypto. Bank wire takes 3-5 business days. Minimum deposit is $100 across all methods. No deposit fees charged by Libertex — though your bank or payment provider may apply their own charges.\n\nWithdrawals process within 1-5 business days depending on method. E-wallets (Skrill, Neteller) are fastest at 1-2 days. Card withdrawals take 3-5 days due to banking processing. Bank wire can take up to 5 business days. Libertex does not charge withdrawal fees on standard requests — a positive contrast to brokers like eToro that charge $5 per withdrawal.\n\nMinimum trade size on the proprietary Libertex platform is EUR 20. This is relevant for position sizing — you cannot open micro-positions below this threshold on the Libertex platform. MT4/MT5 accounts via LBX offer standard lot sizing with micro-lot (0.01) support.",
+        "cta_after": true,
+        "table": {
+          "headers": ["Method", "Min deposit", "Processing (withdrawal)", "Fee"],
+          "rows": [
+            ["Visa/Mastercard", "$100", "3-5 business days", "$0"],
+            ["Skrill", "$100", "1-2 business days", "$0"],
+            ["Neteller", "$100", "1-2 business days", "$0"],
+            ["Bank Wire", "$100", "3-5 business days", "$0"],
+            ["Crypto", "$100", "Network confirmation", "$0"]
+          ],
+          "footnote": "No deposit or withdrawal fees from Libertex. External bank/provider charges may apply. Min deposit $100. Broker-stated processing times May 2026."
+        }
+      },
+
+      {
+        "id": "withdrawals",
+        "heading": "Libertex Withdrawals in 2026 — The Real Picture",
+        "body": "Community feedback across aggregator sites shows generally positive withdrawal experiences for verified accounts. The 55Brokers rating of 4.0-4.5 out of 5 across categories suggests above-average client satisfaction. No systemic withdrawal complaint patterns are visible in public forums at the volume that would trigger concern.\n\nThe positive pattern: once KYC is complete and the account is fully verified, withdrawals process within stated timeframes. E-wallet users consistently report 1-2 day turnarounds. The zero-fee structure means you receive exactly what you request — no deductions on Libertex's side.\n\nThe caution: Libertex is smaller than giants like eToro or Plus500. Fewer public reviews means less statistical confidence. If a withdrawal stalls, the CySEC complaint mechanism is your recourse — file with CySEC directly if unresolved within 10 business days. ICF EUR 20,000 covers insolvency but not operational delays. Always test with a small withdrawal before committing significant capital."
+      },
+
+
+      {
+        "id": "red-flags",
+        "heading": "Libertex Red Flags — What to Know Before You Deposit",
+        "body": "No existential red flags — CySEC-regulated with nearly 30 years of group history. But several items deserve attention before you deposit. NAFT last reviewed Libertex in May 2026.",
+        "bullets": [
+          "NSSMC Ukraine warning — Libertex was added to the Ukrainian regulator's warning list for operating without a local licence. Regional compliance gap, not a global fraud indicator.",
+          "CySEC-only regulation — no FCA, ASIC, or other Tier-1 licence. All regulatory eggs in one basket. If CySEC oversight fails, there is no backup jurisdiction.",
+          "Commission on some instruments reaches 0.3% — forex at 0.006% is the headline rate, but stock and crypto CFDs can cost 50x more per notional. Check your instrument's rate.",
+          "Limited geographic availability — EU/EEA only. If Libertex exits or restricts a particular country, your options are limited vs multi-regulated brokers.",
+          "LBX entity (est. 2024) is new — while under the Libertex Group umbrella, the operational track record of this specific entity is short.",
+          "Minimum trade EUR 20 on proprietary platform — constrains micro-position risk management for small accounts."
+        ]
+      },
+
+      {
+        "id": "who-broker-is-for",
+        "heading": "Who Should Use Libertex — and Who Should Not",
+        "body": "Libertex serves a specific niche well: the European trader who values absolute cost predictability above all else. Knowing the difference between transparency-premium and cheap execution saves you money.",
+        "not_for": [
+          "Active forex scalpers — at $12 RT per lot vs $7-9 at ECN brokers, you overpay $3-5 on every single trade. Over 50 daily trades, that is $150-250 per day in excess cost.",
+          "Traders outside the EU/EEA — CySEC passporting does not extend to UK, US, Australia, or Asia. If you are not in the EEA, Libertex is not for you.",
+          "Multi-regulation seekers — one licence (CySEC) provides one layer of protection. If dual regulation matters to you, look elsewhere.",
+          "High-frequency traders sensitive to commission — 0.3% on some instruments makes frequent trading prohibitively expensive.",
+          "Traders wanting extensive educational content — Libertex's educational offering is modest compared to IG or Saxo."
+        ],
+        "for": [
+          "European traders who hate variable spreads and want predictable, known costs before every trade entry.",
+          "Stock investors in the EEA wanting genuine share ownership commission-free via the Invest Account — 300+ stocks with real dividends.",
+          "Crypto CFD traders in the EU wanting 50+ digital asset CFDs under CySEC regulation with ICF protection.",
+          "Traders who value a 30-year operational track record as a proxy for financial stability.",
+          "MetaTrader users in Europe wanting MT4/MT5 access via the LBX entity alongside a proprietary platform option."
+        ]
+      },
+
+
+      {
+        "id": "how-to-open-account",
+        "heading": "How to Open a Libertex Account — Step by Step",
+        "body": "Registration takes 2-3 minutes. Full verification within 24-48 hours. The process is straightforward for EEA residents.",
+        "steps": [
+          {
+            "number": 1,
+            "title": "Register",
+            "detail": "Visit libertex.com and click Create Account. Enter your email, set a password, and select your country of residence. You will be automatically assigned to the CySEC entity (Indication Investments Ltd)."
+          },
+          {
+            "number": 2,
+            "title": "Verify your identity (KYC)",
+            "detail": "Upload a valid passport or national ID card plus proof of address (utility bill or bank statement from the last 3 months). Complete the investment experience questionnaire. Approval typically within 1-2 business days for standard applications."
+          },
+          {
+            "number": 3,
+            "title": "Fund your account and test a withdrawal",
+            "detail": "Deposit $100+ via card, Skrill, or Neteller for instant access. Execute one trade to confirm commission rates match expectations. Request a withdrawal immediately — test the pipeline before committing larger capital. If it processes within 5 days with zero fees, scale up.",
+            "cta_inline": { "label": "Open Libertex Account", "url": "AFFILIATE_PLACEHOLDER" }
+          }
+        ],
+        "practical_note": "Choose between the proprietary Libertex platform (zero spreads, commission-only, EUR 20 minimum trade) or MT4/MT5 via LBX (standard lot sizing, same commission structure). The Invest Account for real stocks is separate — open it alongside your CFD account for commission-free stock investing.",
+        "cta_after": true
+      },
+
+      {
+        "id": "final-verdict",
+        "heading": "Libertex Final Verdict — Is It Worth It in 2026?",
+        "body": "NAFT scores Libertex 7.0 out of 10. The zero-spread commission model delivers genuine pricing transparency that most brokers cannot match — you always know your exact cost before entering a position. The nearly 30-year group history (founded 1997) provides longevity that inspires confidence. CySEC regulation with EU passporting and ICF EUR 20,000 protection offers solid — if single-jurisdiction — regulatory coverage.\n\nThe trade-off is cost. At approximately $12 round-turn per standard lot on EUR/USD, you pay 50-70% more than raw-spread ECN brokers. That premium buys you predictability — no spread widening during news, no variable markup — but it is a premium nonetheless. For a trader executing 20 lots daily, that is $60-100 per day in excess cost versus an ECN. Over a year, that is $15,000-25,000. Transparency has a price.\n\nThe NSSMC Ukraine warning is a blemish but not a dealbreaker — it reflects a regional compliance gap rather than systemic fraud. The CySEC-only regulation means you are dependent on a single watchdog. And the limited geographic reach restricts Libertex to European traders exclusively.\n\nNAFT recommends Libertex for the European trader who values absolute cost predictability, wants commission-free real stock investing alongside CFDs, and accepts paying a transparency premium for the peace of mind of knowing every cost upfront. If your priority is lowest all-in cost — Pepperstone, IC Markets, or Tickmill will save you money on every trade. But if uncertainty in your cost structure causes you more stress than a few extra dollars per lot — Libertex solves a genuine problem."
+      }
+    ],
+
+
+    "affiliate_cta": {
+      "label": "Open Libertex Account",
+      "url": "AFFILIATE_PLACEHOLDER",
+      "promo_code": null,
+      "friction_reducers": [
+        "Zero spreads — commission-only pricing you can calculate before every trade",
+        "Nearly 30-year group history (founded 1997)",
+        "CySEC regulated with ICF EUR 20,000 protection",
+        "300+ real stocks commission-free (Invest Account)",
+        "$100 minimum deposit",
+        "MetaTrader 4 + MT5 available via LBX"
+      ]
+    },
+    "cta_positions": ["after_section_quick-verdict", "after_section_deposits-withdrawals", "in_section_how-to-open-account_step3"],
+    "trustpilot": {
+      "rating": 4.2,
+      "reviews": 5500,
+      "velocity_30d": "Moderate — 50-80 reviews per month, consistent with EU-focused broker of this size",
+      "polarisation_note": "Generally positive sentiment. Praise for commission transparency and platform usability. Complaints cluster around instrument-specific commission rates being higher than headline 0.006% and limited customer support hours.",
+      "broker_response_rate": "Above 50% — reasonable engagement with negative reviews",
+      "source_note": "Trustpilot and 55Brokers aggregated data, publicly reported May 2026"
+    },
+
+    "internal_links": [
+      { "anchor": "compare brokers side by side", "url": "/compare" },
+      { "anchor": "best regulated forex brokers", "url": "/brokers?regulation=tier-1" },
+      { "anchor": "broker scam alerts and warnings", "url": "/scam-alerts" },
+      { "anchor": "community withdrawal proofs", "url": "/withdrawal-proofs" },
+      { "anchor": "how NAFT reviews brokers", "url": "/how-we-review-brokers" },
+      { "anchor": "file a broker complaint with NAFT", "url": "/complaints" }
+    ],
+
+    "faq": [
+      {
+        "q": "Is Libertex a legit broker or a scam?",
+        "a": "Libertex is legitimate — operated by Indication Investments Ltd under CySEC licence 164/12 (granted 2012), part of the Libertex Group founded in 1997. EU/EEA passported with ICF EUR 20,000 client protection. NAFT rates Libertex 7.0/10."
+      },
+      {
+        "q": "How much are Libertex fees?",
+        "a": "Libertex charges zero spreads with commission only. Forex commission starts at 0.006% per side (~$12 round-turn per standard lot on EUR/USD). Stock and crypto CFD commissions can reach 0.3%. Real stocks via Invest Account are commission-free. No deposit or withdrawal fees."
+      },
+      {
+        "q": "Does Libertex charge withdrawal fees?",
+        "a": "No. Libertex does not charge withdrawal fees. Processing takes 1-5 business days depending on method — e-wallets fastest (1-2 days), cards and wire slower (3-5 days). Your bank or payment provider may charge their own fees."
+      },
+      {
+        "q": "Is Libertex regulated by FCA or ASIC?",
+        "a": "No. Libertex is regulated solely by CySEC (Cyprus) under licence 164/12. It does not hold FCA (UK), ASIC (Australia), or any other Tier-1 regulatory licence. Services are limited to EU/EEA countries via passporting."
+      },
+      {
+        "q": "What is Libertex's minimum deposit?",
+        "a": "$100 or equivalent in EUR/GBP. This applies across all deposit methods — card, e-wallet, bank wire, and crypto. Minimum trade size on the proprietary platform is EUR 20."
+      },
+      {
+        "q": "Can I trade real stocks on Libertex?",
+        "a": "Yes. The Invest Account offers 300+ real stocks with genuine share ownership — not CFD wrappers. Commission-free trading with no leverage. You receive actual dividends and can hold positions indefinitely without overnight fees."
+      },
+      {
+        "q": "Does Libertex offer MetaTrader?",
+        "a": "Yes. MetaTrader 4 and MT5 are available via the LBX entity (established 2024) under the Libertex Group. The proprietary Libertex platform is also available as web and mobile app. Same commission structure applies across all platforms."
+      },
+      {
+        "q": "How does Libertex zero-spread model work?",
+        "a": "Instead of marking up the spread, Libertex charges a flat percentage commission on the notional trade value. Forex from 0.006% per side. The quoted price is the raw interbank price with zero markup — your only cost is the transparent commission displayed before you confirm the trade."
+      }
+    ],
+
+
+    "schema_jsonld": {
+      "review": {
+        "@context": "https://schema.org",
+        "@type": "Review",
+        "itemReviewed": { "@type": "FinancialService", "name": "Libertex" },
+        "author": { "@type": "Person", "name": "NAFT Editorial Team", "url": "https://naft.com/authors/editorial-team", "sameAs": [] },
+        "reviewRating": { "@type": "Rating", "ratingValue": "7.0", "bestRating": "10" },
+        "datePublished": "2026-05-30",
+        "dateModified": "2026-05-30"
+      },
+      "aggregateRating": {
+        "@context": "https://schema.org",
+        "@type": "AggregateRating",
+        "itemReviewed": { "@type": "FinancialService", "name": "Libertex" },
+        "ratingValue": "4.2",
+        "bestRating": "5",
+        "ratingCount": "5500"
+      },
+      "faqPage": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          { "@type": "Question", "name": "Is Libertex a legit broker or a scam?", "acceptedAnswer": { "@type": "Answer", "text": "Libertex is legitimate — operated by Indication Investments Ltd under CySEC licence 164/12, part of the Libertex Group founded in 1997. NAFT rates Libertex 7.0/10." } },
+          { "@type": "Question", "name": "Does Libertex charge withdrawal fees?", "acceptedAnswer": { "@type": "Answer", "text": "No. Libertex does not charge withdrawal fees. Processing takes 1-5 business days depending on method." } },
+          { "@type": "Question", "name": "How does Libertex zero-spread model work?", "acceptedAnswer": { "@type": "Answer", "text": "Libertex charges a flat percentage commission on the notional trade value instead of marking up the spread. Forex from 0.006% per side." } }
+        ]
+      },
+
+      "organization": { "@context": "https://schema.org", "@type": "Organization", "name": "NAFT", "url": "https://naft.com" },
+      "breadcrumbList": {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://naft.com" },
+          { "@type": "ListItem", "position": 2, "name": "Broker Reviews", "item": "https://naft.com/brokers" },
+          { "@type": "ListItem", "position": 3, "name": "Libertex Review 2026", "item": "https://naft.com/brokers/libertex" }
+        ]
+      },
+      "howTo": {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "How to Open a Libertex Account",
+        "description": "Step-by-step guide to opening and verifying a Libertex trading account in 2026.",
+        "step": [
+          { "@type": "HowToStep", "position": 1, "name": "Register", "text": "Visit libertex.com and click Create Account. Enter details and select country." },
+          { "@type": "HowToStep", "position": 2, "name": "Verify your identity (KYC)", "text": "Upload passport or national ID plus proof of address. Approval within 1-2 business days." },
+          { "@type": "HowToStep", "position": 3, "name": "Fund and test", "text": "Deposit $100+ via card or e-wallet. Make one trade. Request a withdrawal to test the pipeline." }
+        ]
+      },
+      "videoObject": null
+    },
+    "sources": [
+      "Libertex official website — libertex.com (accounts, fees, regulation pages)",
+      "CySEC Register — CIF 164/12, Indication Investments Ltd, confirmed active May 2026",
+      "NSSMC Ukraine warning list — Libertex listed for operating without local licence",
+      "55Brokers.com — Libertex rated 4.0-4.5/5 across categories",
+      "Trustpilot — approximately 4.2 stars from 5,500+ reviews (publicly reported May 2026)",
+      "Libertex Group corporate information — founded 1997, multiple industry awards",
+      "LBX entity launch 2024 — MT4/MT5 offering under Libertex Group",
+      "ESMA leverage restrictions — 1:30 retail applicable to all CySEC brokers"
+    ]
+  }
+}

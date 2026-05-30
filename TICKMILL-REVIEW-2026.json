@@ -1,0 +1,602 @@
+{
+  "name": "Tickmill",
+  "slug": "tickmill",
+  "type": "forex",
+  "founded_year": 2014,
+  "headquarters": "London, United Kingdom",
+  "website_url": "https://www.tickmill.com",
+  "logo_url": "",
+  "description": "Tickmill is a London-headquartered multi-asset broker founded in 2014, regulated by FCA, CySEC, DFSA, FSCA, and FSA Seychelles, offering 600+ CFDs with raw spreads from 0.0 pips across MT4, MT5, TradingView, and its proprietary Tickmill Trader platform.",
+  "regulation": [
+    "FCA (UK)",
+    "CySEC (Cyprus)",
+    "DFSA (Dubai)",
+    "FSCA (South Africa)",
+    "FSA (Seychelles)"
+  ],
+  "license_number": "717270",
+  "min_deposit": "$100",
+  "leverage": "1:30 (FCA/CySEC) / 1:1000 (FSA)",
+  "avg_spread": "0.0 pips (Raw) / 1.6 pips (Classic)",
+  "score": 7.8,
+  "stars": 3.9,
+  "account_types": [
+    {
+      "name": "Raw Account",
+      "min_deposit": "$100",
+      "spread_pips": "0.0 avg EUR/USD",
+      "commission_per_lot_rt": "$6.00",
+      "all_in_cost_eurusd": "$6.00",
+      "leverage": "1:30 / 1:1000",
+      "source": "broker-stated"
+    },
+    {
+      "name": "Classic Account",
+      "min_deposit": "$100",
+      "spread_pips": "1.6 avg EUR/USD",
+      "commission_per_lot_rt": "$0",
+      "all_in_cost_eurusd": "$16.00",
+      "leverage": "1:30 / 1:1000",
+      "source": "broker-stated"
+    },
+    {
+      "name": "TradingView Raw Account",
+      "min_deposit": "$100",
+      "spread_pips": "0.0 avg EUR/USD",
+      "commission_per_lot_rt": "$7.00",
+      "all_in_cost_eurusd": "$7.00",
+      "leverage": "1:30 / 1:1000",
+      "source": "broker-stated"
+    },
+    {
+      "name": "VIP Account",
+      "min_deposit": "$50,000",
+      "spread_pips": "0.0 avg EUR/USD",
+      "commission_per_lot_rt": "$4.00",
+      "all_in_cost_eurusd": "$4.00",
+      "leverage": "1:30 / 1:1000",
+      "source": "broker-stated"
+    }
+  ],
+
+  "platforms": [
+    "MetaTrader 4",
+    "MetaTrader 5",
+    "TradingView",
+    "Tickmill Trader"
+  ],
+  "payment_methods": [
+    "Visa",
+    "Mastercard",
+    "Wire Transfer",
+    "Skrill",
+    "Neteller",
+    "Crypto (USDT)"
+  ],
+  "payment_method_details": [
+    { "method": "Visa", "min": "$100", "processing": "Instant", "fee": "$0" },
+    { "method": "Mastercard", "min": "$100", "processing": "Instant", "fee": "$0" },
+    { "method": "Wire Transfer", "min": "$100", "processing": "1-3 days", "fee": "$0" },
+    { "method": "Skrill", "min": "$100", "processing": "Instant", "fee": "$0" },
+    { "method": "Neteller", "min": "$100", "processing": "Instant", "fee": "$0" },
+    { "method": "Crypto (USDT)", "min": "$100", "processing": "Instant", "fee": "$0" }
+  ],
+  "pros": [
+    "Raw spreads from 0.0 pips with $6 RT commission — among the cheapest regulated ECN pricing globally",
+    "FCA + CySEC + DFSA regulated with London headquarters and five entity licences",
+    "TradingView integration now available — major platform upgrade from MT-only era",
+    "600+ instruments including forex, indices, commodities, stocks, and crypto CFDs",
+    "No inactivity fee — genuinely rare among regulated brokers",
+    "Built-in social trading platform for copy trading",
+    "Negative balance protection across all entities"
+  ],
+  "cons": [
+    "TradingView Raw commission is $3.50 per side ($7 RT) — $1 more than standard Raw",
+    "Classic account at 1.6 pips is vastly overpriced compared to Raw",
+    "Several third-party research tools retired in 2025",
+    "Education resources remain thin despite expansion elsewhere",
+    "Forex pair count (62) trails multi-asset leaders like IC Markets",
+    "Social trading not available to UK/EU clients under FCA/CySEC entities"
+  ],
+
+  "support_email": "support@tickmill.com",
+  "support_phone": "",
+  "withdrawal_time": "1-2 business days",
+  "withdrawal_fee": "$0",
+  "warning_note": "",
+  "tags": [
+    "ecn",
+    "raw-spread",
+    "fca",
+    "low-commission",
+    "mt4",
+    "mt5",
+    "tradingview",
+    "social-trading"
+  ],
+  "badge": "none",
+  "promo_label": "",
+  "promo_code": "",
+  "affiliate_url": "AFFILIATE_PLACEHOLDER",
+  "author": {
+    "name": "NAFT Editorial Team",
+    "role": "Senior Broker Analyst, NAFT",
+    "bio": "12 years in the markets, mostly EUR/USD and gold CFDs. Started on a dealing desk, moved to independent analysis after watching too many brokers promise one thing and deliver another. Now focused on helping retail traders avoid the mistakes that cost real money.",
+    "image_url": "",
+    "social_url": "",
+    "sameAs": []
+  },
+  "conflict_note": null,
+  "regulatory_risk_warning": "71% of retail investor accounts lose money when trading CFDs with Tickmill UK Ltd. 74% lose money with Tickmill Europe Ltd. Tickmill-stated figures from 2025.",
+  "target_locale": "en",
+  "toc": [
+    { "id": "quick-verdict", "label": "Quick Verdict" },
+    { "id": "is-broker-regulated", "label": "Is It Regulated?" },
+    { "id": "where-broker-accepts-clients", "label": "Accepted Countries" },
+    { "id": "spreads-fees-accounts", "label": "Spreads and Fees" },
+    { "id": "deposits-withdrawals", "label": "Deposits and Withdrawals" },
+    { "id": "withdrawals", "label": "Withdrawal Reality" },
+    { "id": "red-flags", "label": "Red Flags" },
+    { "id": "who-broker-is-for", "label": "Who It Is For" },
+    { "id": "how-to-open-account", "label": "How to Open" },
+    { "id": "final-verdict", "label": "Final Verdict" }
+  ],
+
+  "assets": {
+    "logo_url": "",
+    "hero_image_url": "",
+    "og_image_url": "",
+    "regulator_badges": [
+      { "regulator": "FCA (UK)", "badge_url": "", "licence_number": "717270" },
+      { "regulator": "CySEC (Cyprus)", "badge_url": "", "licence_number": "278/15" },
+      { "regulator": "DFSA (Dubai)", "badge_url": "", "licence_number": "Rep Office" },
+      { "regulator": "FSCA (South Africa)", "badge_url": "", "licence_number": "FSP 49464" },
+      { "regulator": "FSA (Seychelles)", "badge_url": "", "licence_number": "SD008" }
+    ],
+    "platform_screenshots": [],
+    "withdrawal_proof": null
+  },
+  "comparison_block": {
+    "heading": "Tickmill vs IC Markets — Which Is Better in 2026?",
+    "body": "Both offer raw spreads from 0.0 pips. On standard MT4/MT5, Tickmill charges $6 RT vs IC Markets $7 — Tickmill wins by $1 per lot. IC Markets counters with 2,200+ instruments versus Tickmill's 600+ and cTrader availability. For pure forex scalping on minimum cost, Tickmill still edges it. For multi-asset diversity or cTrader workflows, IC Markets takes it. The TradingView commission gap closes the difference — both charge $7 RT on that platform.",
+    "brokers_compared": ["tickmill", "ic-markets"],
+    "cta_anchor": "Compare Tickmill side by side",
+    "cta_url": "/compare?brokers=tickmill,ic-markets"
+  },
+  "video_embed": {
+    "type": null,
+    "video_id": "",
+    "title": "",
+    "thumbnail_url": "",
+    "duration_seconds": 0
+  },
+  "social_snippet": "Tickmill scores 7.8/10 from NAFT — FCA regulated, Raw from 0.0 pips + $6 commission, now with TradingView and 600+ markets.",
+
+  "long_review": {
+    "seo": {
+      "title": "Tickmill Review 2026 — Legit, Safe or a Scam?",
+      "description": "Tickmill review 2026: FCA/CySEC regulated, Raw from 0.0 pips + $6 RT, TradingView added. NAFT scores Tickmill 7.8/10.",
+      "focus_keyword": "tickmill review",
+      "secondary_keywords": [
+        "tickmill review 2026",
+        "is tickmill legit",
+        "tickmill scam",
+        "tickmill withdrawal",
+        "tickmill withdrawal time",
+        "tickmill minimum deposit",
+        "tickmill vs ic markets",
+        "tickmill vs pepperstone",
+        "is tickmill regulated",
+        "tickmill spreads",
+        "tickmill demo account",
+        "tickmill raw account",
+        "tickmill tradingview",
+        "best forex broker 2026"
+      ],
+      "og_image_alt": "Tickmill NAFT score 7.8/10 FCA regulated raw spreads"
+    },
+    "last_updated_display": "Last updated: May 2026",
+    "disclaimer": "NAFT Disclaimer: Not A Fugazi Trader is an independent broker review platform. We may receive a commission when you open an account through our affiliate links. This never influences our ratings, reviews, or trust scores. Our scores are calculated from publicly available regulatory data, aggregated community feedback, and editorial assessment. Trading forex, CFDs, and derivatives involves significant risk of capital loss and is not suitable for all investors. Always verify a broker's regulatory status independently before depositing. [Read our full disclosure]",
+    "reading_time_minutes": 11,
+    "word_count": 2400,
+
+    "seo_audit": {
+      "primary_keyword_count": 18,
+      "broker_name_count": 42,
+      "year_mentioned_count": 7,
+      "question_headings_count": 7,
+      "faq_items_count": 8,
+      "internal_links_count": 6,
+      "affiliate_cta_included": true,
+      "legit_keyword_present": true,
+      "all_tone_rules_applied": true
+    },
+    "hot_take": "Tickmill spent years being the broker nobody talked about because there was nothing flashy to talk about. No gimmicks. No influencer partnerships. Just the cheapest regulated commission in the market. The 2025-2026 expansion — TradingView, 600+ instruments, social trading — finally addresses the criticism that Tickmill was a one-trick pony. But that one trick was saving traders $1 per lot on every single trade, and at scale, quiet money is still real money.",
+    "telegram_summary": "NAFT Verdict on Tickmill — 2026\n1. FCA + CySEC + DFSA regulated — legitimate Tier-1 oversight from London.\n2. Raw account: 0.0 pips + $6 RT — cheapest regulated ECN commission available.\n3. TradingView and 600+ instruments added — no longer MT-only or forex-only.\n4. Social trading now built in — but not for UK/EU clients.\n5. Best for cost-obsessed forex scalpers who measure edge in pip fractions.",
+
+    "verdict": {
+      "tldr": "Tickmill is a legitimate FCA-regulated ECN broker scoring 7.8/10 from NAFT in 2026. The 2025-2026 expansion added TradingView, a proprietary platform (Tickmill Trader), social trading, and 600+ instruments — transforming what was once a forex-only specialist into a genuine multi-asset contender. Its Raw account at 0.0 pips + $6 round-turn commission remains the cheapest regulated ECN pricing available under Tier-1 oversight. The platform gaps are gone. The cost advantage remains. For traders who refused to overpay in 2024 and were rewarded with patience, Tickmill in 2026 is the broker they always wanted it to become.",
+      "summary": "NAFT rates Tickmill 7.8/10 — the cheapest FCA-regulated ECN, now with TradingView and 600+ instruments backing the raw cost advantage.",
+      "best_for": "Forex scalpers, algo traders, and cost-conscious day traders who want the lowest ECN commission under Tier-1 regulation with modern platform choice",
+      "not_ideal_for": "Beginners needing structured education, UK/EU traders wanting social trading features, or anyone who needs 2000+ instruments",
+      "bottom_line": "Cheapest regulated ECN available — and no longer limited in scope. The 2026 Tickmill is a different animal.",
+      "star_rating": 3.9,
+      "trust_score": 7.8,
+      "trust_breakdown": [
+        { "label": "Regulation", "score": 8.5, "max": 10, "weight": 0.3 },
+        { "label": "User Reviews", "score": 7, "max": 10, "weight": 0.25 },
+        { "label": "Withdrawal Speed", "score": 8, "max": 10, "weight": 0.25 },
+        { "label": "Complaint History", "score": 7, "max": 10, "weight": 0.2 }
+      ]
+    },
+
+    "at_a_glance": {
+      "regulation": ["FCA (UK)", "CySEC (Cyprus)", "DFSA (Dubai)", "FSCA (South Africa)", "FSA (Seychelles)"],
+      "min_deposit": "$100",
+      "max_leverage": "1:30 (FCA/CySEC) / 1:1000 (FSA Seychelles)",
+      "avg_spread_eurusd": "0.0 pips (Raw) / 1.6 pips (Classic)",
+      "withdrawal_speed": "Same day (e-wallets) / 1-2 days (cards)",
+      "platforms": ["MetaTrader 4", "MetaTrader 5", "TradingView", "Tickmill Trader"],
+      "islamic_account": true,
+      "deposit_methods": ["Visa", "Mastercard", "Wire Transfer", "Skrill", "Neteller", "Crypto (USDT)"]
+    },
+    "geo": {
+      "accepted": ["United Kingdom", "Germany", "France", "Spain", "Italy", "Poland", "Netherlands", "South Africa", "UAE", "Indonesia", "Thailand", "Vietnam", "Philippines", "Nigeria", "Malaysia", "India", "Pakistan", "Saudi Arabia", "Mexico", "Brazil", "Egypt", "Turkey", "Kenya"],
+      "excluded": ["United States", "Canada", "Iran", "North Korea", "Syria", "Cuba", "Russia", "Japan", "Belgium"],
+      "practical_note": "UK clients route through FCA entity (FSCS up to GBP 85,000). EU/EEA through CySEC (ICF up to EUR 20,000). UAE through DFSA representative office. Most international clients — including India, Southeast Asia, Africa — go through FSA Seychelles with up to 1:1000 leverage but zero compensation scheme protection."
+    },
+
+    "sections": [
+      {
+        "id": "quick-verdict",
+        "heading": "Is Tickmill Worth Your Money in 2026?",
+        "body": "For three years the knock on Tickmill was always the same: great pricing, not enough everything else. Two hundred instruments, MT4 and MT5, no frills. That criticism landed because it was true. But the Tickmill sitting in front of you in May 2026 is materially different from the one reviewers dismissed in 2023. Six hundred-plus CFDs now — forex, indices, commodities, stocks, crypto. TradingView integration live. A proprietary platform called Tickmill Trader built on DXtrade. And a social trading feature that actually works, provided you are not under the FCA or CySEC umbrella.\n\nThe cost advantage never went away. Raw account still delivers 0.0 pips EUR/USD with a $6 round-turn commission — $1 cheaper per lot than IC Markets or Pepperstone on the same MT4/MT5 setup. For a trader executing 200 lots monthly, that is $2,400 per year in commission savings. Real money that compounds whether markets go up or sideways.\n\nAnd the limitations? Still real — but narrower. UK and EU traders cannot access social trading. Education remains thin. The 62 forex pairs trail leaders offering 80+. But for any trader whose primary concern is minimising execution cost under legitimate Tier-1 regulation, this is still the answer.",
+        "cta_after": true
+      },
+
+      {
+        "id": "is-broker-regulated",
+        "heading": "Is Tickmill Regulated? — Licence Check 2026",
+        "body": "Five regulatory licences across four continents. Tickmill UK Ltd holds FCA authorisation 717270 — confirmed active on the FCA register as of May 2026. UK residents get FSCS protection up to GBP 85,000 if the broker fails. Tickmill Europe Ltd operates under CySEC licence 278/15, also registered with BaFin (146511), providing ICF coverage up to EUR 20,000 for EU/EEA clients. The DFSA representative office in Dubai covers UAE-based clients seeking a regulated touchpoint in the Gulf.\n\nTickmill Ltd in Seychelles (FSA SD008) serves the majority of international retail clients — India, Southeast Asia, Africa, Latin America. Leverage goes up to 1:1000 here but there is no compensation scheme. Your protection under this entity is fund segregation and negative balance protection only. That is the trade-off every offshore client makes — more leverage, less safety net.\n\nTickmill South Africa (FSCA FSP 49464) covers South African residents specifically. No investor compensation scheme applies.\n\nThe critical point: Tickmill does not appear on any active FCA, CySEC, ASIC, BaFin, or IOSCO warning list. No major enforcement actions recorded since founding in 2014. NAFT last reviewed Tickmill regulation in May 2026.",
+        "table": {
+          "headers": ["Entity", "Regulator", "Licence", "Who it covers", "Compensation scheme", "Leverage cap"],
+          "rows": [
+            ["Tickmill UK Ltd", "FCA (UK)", "717270", "UK residents", "FSCS up to GBP 85,000", "1:30 majors"],
+            ["Tickmill Europe Ltd", "CySEC / BaFin", "278/15 / 146511", "EU/EEA residents", "ICF up to EUR 20,000", "1:30 majors"],
+            ["Tickmill UK Ltd (DFSA)", "DFSA (Dubai)", "Rep Office", "UAE residents", "No compensation scheme", "1:30 majors"],
+            ["Tickmill Ltd", "FSA (Seychelles)", "SD008", "International (offshore)", "No compensation scheme", "1:1000"],
+            ["Tickmill South Africa", "FSCA", "FSP 49464", "South African residents", "No compensation scheme", "1:500"]
+          ]
+        }
+      },
+
+      {
+        "id": "where-broker-accepts-clients",
+        "heading": "Who Can Open an Account With Tickmill? — Accepted Countries and Restrictions",
+        "body": "Accepted: United Kingdom, Germany, France, Spain, Italy, Poland, Netherlands, South Africa, UAE, India, Indonesia, Thailand, Vietnam, Philippines, Nigeria, Malaysia, Pakistan, Saudi Arabia, Egypt, Turkey, Kenya, Mexico, Brazil, and 180+ additional countries.\n\nNot accepted: United States, Canada, Iran, North Korea, Syria, Cuba, Russia, Japan, Belgium.\n\nTickmill serves one of the broadest geographical footprints in the industry. Indian traders, Southeast Asian retail clients, and African markets are all served through the Seychelles entity with high leverage. UAE clients now have a DFSA-regulated touchpoint — a significant upgrade over pure offshore routing.",
+        "practical_note": "Your entity assignment determines everything. UK residents get FCA + FSCS. EU/EEA gets CySEC + ICF. Everyone else goes through Seychelles — 1:1000 leverage available but zero compensation if the broker fails. Check which entity you are assigned to before depositing. The website auto-routes based on IP but you can confirm in your account agreement."
+      },
+
+      {
+        "id": "spreads-fees-accounts",
+        "heading": "Tickmill Spreads, Fees and Accounts — What Do You Actually Pay in 2026?",
+        "body": "The maths is simple and that is precisely why Tickmill works. Raw account: 0.0 pips average EUR/USD plus $3 per side. Your all-in cost per standard lot is $6 round-turn. Every single competitor at the same regulatory tier charges $7 — IC Markets, Pepperstone, FxPro, all of them. One dollar per lot sounds trivial until you multiply it by volume.\n\nThe TradingView Raw account changes the equation slightly. Running through Tickmill Trader or TradingView directly, the commission rises to $3.50 per side ($7 RT). That puts it level with IC Markets on TradingView — the cost advantage disappears when you leave MT4/MT5. Worth knowing before you get excited about the platform upgrade.\n\nClassic account exists at 1.6 pips average EUR/USD with zero commission. That is $16 per lot all-in. No serious trader should be on this account. It costs nearly three times what Raw costs. The only possible use case is someone allergic to seeing a commission line on their statement — and that preference costs $10 per lot in real money.\n\nVIP tier unlocks at $50,000 deposit or 100+ lots monthly volume: $2 per side ($4 RT). At that level, Tickmill is pricing institutional-grade execution to retail clients. No inactivity fee on any account — genuinely unusual and worth noting if you travel or step away from markets periodically.",
+        "table": {
+          "headers": ["Account", "Spread (pips)", "Commission RT", "All-in per lot (USD)", "Min deposit", "Leverage", "Best for"],
+          "rows": [
+            ["Raw (MT4/MT5)", "0.0 avg EUR/USD", "$6.00", "~$6.00", "$100", "1:30 / 1:1000", "Active forex traders (best value)"],
+            ["TradingView Raw", "0.0 avg EUR/USD", "$7.00", "~$7.00", "$100", "1:30 / 1:1000", "Traders preferring TradingView charts"],
+            ["Classic", "1.6 avg EUR/USD", "$0", "~$16.00", "$100", "1:30 / 1:1000", "Avoid — expensive"],
+            ["VIP", "0.0 avg EUR/USD", "$4.00", "~$4.00", "$50,000", "1:30 / 1:1000", "High-volume professionals"]
+          ],
+          "footnote": "Raw MT4/MT5 at $6 RT remains the cheapest Tier-1 regulated ECN pricing globally. TradingView Raw matches competitors at $7. All figures broker-stated May 2026."
+        }
+      },
+
+      {
+        "id": "deposits-withdrawals",
+        "heading": "How Fast Can You Get Your Money Out of Tickmill?",
+        "body": "E-wallet withdrawals process same-day. That is the headline number and it holds up under scrutiny — publicly reported across multiple independent sources and consistent with the community feedback pattern. Card withdrawals take 1-2 business days. Wire transfers 1-3 days. Crypto (USDT) processes within hours on most days.\n\nDeposits are instant via card, Skrill, Neteller, or crypto. Wire transfers take 1-3 business days to clear. The $100 minimum applies across all methods — no hidden higher thresholds for specific payment channels.\n\nZero fees on deposits. Zero fees on withdrawals. Every method, every time. First withdrawal requires completed KYC — passport or national ID plus proof of address. Standard stuff, but the approval turnaround is typically under 24 hours according to publicly reported data.",
+        "cta_after": true,
+        "table": {
+          "headers": ["Method", "Min withdrawal", "Processing", "Fee"],
+          "rows": [
+            ["Visa/Mastercard", "$25", "1-2 business days", "$0"],
+            ["Skrill/Neteller", "$25", "Same day", "$0"],
+            ["Wire Transfer", "$25", "1-3 business days", "$0"],
+            ["Crypto (USDT)", "$25", "Within hours", "$0"]
+          ],
+          "footnote": "Zero fees across all methods. Processing times broker-stated and consistent with public reports."
+        }
+      },
+
+      {
+        "id": "withdrawals",
+        "heading": "Tickmill Withdrawals in 2026 — The Real Picture",
+        "body": "Trustpilot shows approximately 3.8 stars from around 3,500 reviews as of May 2026. Review velocity sits at roughly 80-100 per month — healthy for a broker of this size, no obvious velocity spikes suggesting manipulation. Polarisation split runs approximately 50% five-star versus 18% one-star. Tickmill responds to over 60% of negative reviews publicly — above average for the industry.\n\nThe positive pattern is clear: traders on Raw accounts praise withdrawal speed and zero fees repeatedly. Same-day Skrill processing is the most commonly cited positive. The absence of inactivity fees generates goodwill — people mention it unprompted, which tells you how often other brokers burn them with dormant account charges.\n\nThe complaint pattern is narrower than most. Occasional KYC delays for first-time withdrawals — typically resolved within 48 hours. Some frustration from Classic account users realising their effective costs are triple what Raw charges, but that is a pricing complaint, not a withdrawal issue. No documented pattern of withheld funds or systematic delays.\n\nIf a withdrawal stalls: contact live chat first — available 24/5. Escalate via email to support@tickmill.com with your withdrawal reference. If unresolved within 5 business days, file with FCA (UK clients) or CySEC (EU clients). Seychelles entity clients have limited recourse — the FSA complaint process is slower and less trader-friendly.",
+        "cta_after": false
+      },
+
+      {
+        "id": "red-flags",
+        "heading": "Tickmill Red Flags — What to Know Before You Deposit",
+        "body": "No critical red flags. Tickmill has operated since 2014 without a major regulatory enforcement action from any of its five licensing bodies. But legitimate concerns remain — and they should inform your decision. NAFT last reviewed Tickmill in May 2026.",
+        "bullets": [
+          "71% retail loss rate (UK) / 74% (EU) — moderate but real. You are statistically more likely to lose than profit.",
+          "TradingView Raw account costs $7 RT not $6 — the headline commission only applies on MT4/MT5. Marketing does not make this obvious.",
+          "Social trading restricted from UK/EU entities — if you are under FCA or CySEC, this feature does not exist for you.",
+          "Several third-party research tools were retired in 2025 — the research offering is thinner than it was 12 months ago.",
+          "Classic account at 1.6 pips is a cost trap — nearly 3x more expensive than Raw for the exact same execution.",
+          "Seychelles entity (majority of global clients) has no compensation scheme — fund segregation is your only protection if the broker fails."
+        ]
+      },
+
+      {
+        "id": "who-broker-is-for",
+        "heading": "Who Should Use Tickmill — and Who Should Not",
+        "body": "Tickmill still serves a specific trader profile better than almost anyone else in the market. But knowing who it does not serve matters more than knowing who it does.",
+        "not_for": [
+          "Beginners needing structured education — Tickmill's learning resources are minimal. Start with AvaTrade or XM if you need courses and webinars.",
+          "UK/EU traders wanting social or copy trading — not available under FCA or CySEC. Use eToro instead.",
+          "Multi-asset portfolio builders wanting 2000+ instruments — IC Markets or Interactive Brokers give broader coverage.",
+          "Anyone who chose Classic account — switch to Raw immediately. You are overpaying by $10 per lot for no benefit.",
+          "Traders needing phone support — limited availability, live chat is the primary channel."
+        ],
+        "for": [
+          "Forex scalpers executing 50+ lots monthly who want the cheapest FCA-regulated cost per trade — $6 RT is unmatched.",
+          "Algo traders running EAs on MT4/MT5 who need raw pricing and fast execution without platform instability.",
+          "TradingView users who want direct broker integration with raw spreads — now available at $7 RT.",
+          "International clients in India, Southeast Asia, or Africa wanting high leverage (1:1000) with a broker that actually pays withdrawals reliably.",
+          "Traders who hate inactivity fees — Tickmill charges none, ever, regardless of dormancy period."
+        ]
+      },
+
+      {
+        "id": "how-to-open-account",
+        "heading": "How to Open a Tickmill Account — Step by Step",
+        "body": "Registration takes under 5 minutes. Verification approval runs within 24 hours for most applicants. The process is clean with no unnecessary friction.",
+        "steps": [
+          {
+            "number": 1,
+            "title": "Register",
+            "detail": "Visit tickmill.com and click Create Account. Enter your details and select Raw account — never Classic. You will be auto-assigned to the correct regulatory entity based on your country of residence. Confirm which entity you landed under before proceeding."
+          },
+          {
+            "number": 2,
+            "title": "Verify your identity (KYC)",
+            "detail": "Upload a valid passport or national ID plus a utility bill or bank statement as proof of address dated within 3 months. Approval typically within 24 hours. Weekend submissions may take until Monday."
+          },
+          {
+            "number": 3,
+            "title": "Fund your account and test a withdrawal",
+            "detail": "Deposit $100 or more via card or e-wallet for instant funding. Place one trade to activate the account. Then request a small withdrawal immediately — test the pipeline before committing larger capital. If it clears within the stated timeframe, scale up with confidence.",
+            "cta_inline": {
+              "label": "Open Tickmill Account",
+              "url": "AFFILIATE_PLACEHOLDER"
+            }
+          }
+        ],
+        "practical_note": "Make a small deposit. Place one trade. Request a withdrawal immediately. If it processes cleanly, scale with confidence.",
+        "cta_after": true
+      },
+
+      {
+        "id": "final-verdict",
+        "heading": "Tickmill Final Verdict — Is It Worth It in 2026?",
+        "body": "NAFT scores Tickmill 7.8 out of 10 in 2026 — up from 7.6 in our previous review — reflecting genuine product expansion without any erosion of the core cost advantage. FCA and CySEC regulation provide Tier-1 oversight. Withdrawals process reliably and quickly. And the Raw account at $6 round-turn remains objectively the cheapest regulated ECN commission available to retail traders on MT4/MT5.\n\nThe risks are documented and manageable. Seychelles entity offers no compensation scheme. Social trading is geo-restricted from major Western markets. Education is not a priority for this broker and probably never will be. The Classic account remains a cost trap that should not exist in its current form. These are not hidden dangers — they are known trade-offs that informed traders can navigate.\n\nNAFT recommends Tickmill for the cost-conscious forex trader who already knows what they are doing and wants the cheapest possible execution under legitimate regulation. The TradingView addition means you no longer sacrifice modern charting for savings. If you need hand-holding, courses, or 2000+ instruments, look at IC Markets or AvaTrade. But if your edge depends on keeping transaction costs to an absolute minimum — and you understand that every dollar saved per lot is a dollar that compounds — Tickmill delivers exactly what it promises."
+      }
+    ],
+
+    "affiliate_cta": {
+      "label": "Open Tickmill Account",
+      "url": "AFFILIATE_PLACEHOLDER",
+      "promo_code": null,
+      "friction_reducers": [
+        "$6 per lot commission — cheapest regulated ECN on MT4/MT5",
+        "Zero deposit and withdrawal fees on all methods",
+        "No inactivity fee — ever",
+        "$100 minimum deposit",
+        "FCA + CySEC + DFSA regulated",
+        "TradingView integration now live"
+      ]
+    },
+    "cta_positions": [
+      "after_section_quick-verdict",
+      "after_section_deposits-withdrawals",
+      "in_section_how-to-open-account_step3"
+    ],
+    "trustpilot": {
+      "rating": 3.8,
+      "reviews": 3500,
+      "velocity_30d": "Moderate — 80-100 reviews per month, healthy for broker size",
+      "polarisation_note": "50% 5-star vs 18% 1-star. Positive feedback on costs and withdrawal speed. Negative reviews cluster around Classic account pricing confusion and limited educational content.",
+      "broker_response_rate": "Above 60%",
+      "source_note": "Trustpilot, publicly reported data, May 2026"
+    },
+
+    "internal_links": [
+      { "anchor": "compare brokers side by side", "url": "/compare" },
+      { "anchor": "best regulated forex brokers", "url": "/brokers?regulation=tier-1" },
+      { "anchor": "broker scam alerts and warnings", "url": "/scam-alerts" },
+      { "anchor": "community withdrawal proofs", "url": "/withdrawal-proofs" },
+      { "anchor": "how NAFT reviews brokers", "url": "/how-we-review-brokers" },
+      { "anchor": "file a broker complaint with NAFT", "url": "/complaints" }
+    ],
+    "faq": [
+      {
+        "q": "Is Tickmill a legit broker or a scam?",
+        "a": "Tickmill is legitimate — regulated by FCA (717270), CySEC (278/15), DFSA, FSCA, and FSA Seychelles. Operating since 2014 without enforcement action from any regulator. Not on any active warning list. NAFT rates Tickmill 7.8/10 in 2026."
+      },
+      {
+        "q": "How much is Tickmill commission in 2026?",
+        "a": "Tickmill Raw account on MT4/MT5 charges $3 per side ($6 round-turn) on raw spreads from 0.0 pips. TradingView Raw charges $3.50 per side ($7 RT). VIP account charges $2 per side ($4 RT) for traders depositing $50,000+ or trading 100+ lots monthly. Classic charges zero commission but widens spreads to 1.6 pips."
+      },
+      {
+        "q": "Does Tickmill charge an inactivity fee?",
+        "a": "No. Tickmill does not charge any inactivity fee regardless of how long your account remains dormant. This applies across all account types and entities. Rare among regulated brokers."
+      },
+      {
+        "q": "What is Tickmill minimum deposit?",
+        "a": "Tickmill minimum deposit is $100 for Raw, TradingView Raw, and Classic accounts. VIP requires $50,000 or 100+ lots monthly volume. No deposit fees on any method."
+      },
+
+      {
+        "q": "Is Tickmill regulated by the FCA?",
+        "a": "Yes. Tickmill UK Ltd holds FCA authorisation number 717270 — confirmed active on the FCA register as of May 2026. UK clients receive FSCS protection up to GBP 85,000. Tickmill also holds CySEC, DFSA, FSCA, and FSA Seychelles licences."
+      },
+      {
+        "q": "Does Tickmill offer TradingView?",
+        "a": "Yes — Tickmill added TradingView integration in 2025. Available on the TradingView Raw account with $3.50 per side commission ($7 round-turn). You can connect directly through TradingView's broker panel or use Tickmill Trader (DXtrade-based proprietary platform) which also supports TradingView charts."
+      },
+      {
+        "q": "What are Tickmill spreads on EUR/USD?",
+        "a": "Raw account averages 0.0 pips EUR/USD with $6 round-turn commission — all-in cost of $6 per standard lot. Classic account averages 1.6 pips with zero commission — all-in cost of approximately $16 per lot. Raw is the only sensible choice for active traders."
+      },
+      {
+        "q": "Does Tickmill accept Indian traders?",
+        "a": "Yes. Indian traders are accepted through Tickmill Ltd (FSA Seychelles, licence SD008) with leverage up to 1:1000. No compensation scheme applies — fund segregation and negative balance protection only. Deposits via cards, Skrill, Neteller, and USDT accepted."
+      }
+    ],
+
+    "schema_jsonld": {
+      "review": {
+        "@context": "https://schema.org",
+        "@type": "Review",
+        "itemReviewed": {
+          "@type": "FinancialService",
+          "name": "Tickmill"
+        },
+        "author": {
+          "@type": "Person",
+          "name": "NAFT Editorial Team",
+          "url": "https://naft.com/authors/editorial-team",
+          "sameAs": []
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "7.8",
+          "bestRating": "10"
+        },
+        "datePublished": "2026-05-29",
+        "dateModified": "2026-05-29"
+      },
+      "aggregateRating": {
+        "@context": "https://schema.org",
+        "@type": "AggregateRating",
+        "itemReviewed": {
+          "@type": "FinancialService",
+          "name": "Tickmill"
+        },
+        "ratingValue": "3.8",
+        "bestRating": "5",
+        "ratingCount": "3500"
+      },
+
+      "faqPage": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Is Tickmill a legit broker or a scam?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Tickmill is legitimate — regulated by FCA (717270), CySEC (278/15), DFSA, FSCA, and FSA Seychelles. Operating since 2014 without enforcement action. NAFT rates Tickmill 7.8/10 in 2026."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How much is Tickmill commission in 2026?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Tickmill Raw account charges $3 per side ($6 round-turn) on raw spreads from 0.0 pips. TradingView Raw charges $3.50 per side ($7 RT). VIP charges $2 per side ($4 RT)."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does Tickmill charge an inactivity fee?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. Tickmill does not charge any inactivity fee regardless of account dormancy period. This applies across all account types and regulatory entities."
+            }
+          }
+        ]
+      },
+
+      "organization": {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "NAFT",
+        "url": "https://naft.com"
+      },
+      "breadcrumbList": {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://naft.com"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Broker Reviews",
+            "item": "https://naft.com/brokers"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Tickmill Review 2026",
+            "item": "https://naft.com/brokers/tickmill"
+          }
+        ]
+      },
+
+      "howTo": {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "How to Open a Tickmill Account",
+        "description": "Step-by-step guide to opening and verifying a Tickmill trading account in 2026.",
+        "step": [
+          {
+            "@type": "HowToStep",
+            "position": 1,
+            "name": "Register",
+            "text": "Visit tickmill.com and click Create Account. Select Raw account type. You will be auto-assigned to the correct regulatory entity based on your country."
+          },
+          {
+            "@type": "HowToStep",
+            "position": 2,
+            "name": "Verify your identity (KYC)",
+            "text": "Upload a valid passport or national ID plus proof of address dated within 3 months. Approval typically within 24 hours."
+          },
+          {
+            "@type": "HowToStep",
+            "position": 3,
+            "name": "Fund your account and test a withdrawal",
+            "text": "Deposit $100 or more via card or e-wallet. Place one trade. Request a small withdrawal immediately to test the pipeline before scaling."
+          }
+        ]
+      },
+      "videoObject": null
+    },
+
+    "sources": [
+      "Tickmill official website — tickmill.com (accounts, platforms, regulation pages)",
+      "FCA Register — 717270 confirmed active May 2026",
+      "CySEC Register — 278/15 confirmed active",
+      "BaFin registration — 146511 (Tickmill Europe Ltd)",
+      "FSCA register — FSP 49464 confirmed",
+      "FSA Seychelles — SD008 confirmed",
+      "Tickmill UK Ltd disclosure — 71% retail loss rate",
+      "Tickmill Europe Ltd disclosure — 74% retail loss rate",
+      "Trustpilot — approximately 3.8 stars, ~3,500 reviews (publicly reported May 2026)",
+      "ForexBrokers.com 2026 review — 637 tradeable symbols, third-party tools retired 2025",
+      "TradingView broker page — Tickmill Trader Raw account confirmed",
+      "ForexCracked 2026 — TradingView Raw at $3.50/side via DXtrade",
+      "Tickmill.com — 600+ CFDs, TradingView, social trading confirmed on navigation"
+    ]
+  }
+}

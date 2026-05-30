@@ -7,7 +7,15 @@
   "website_url": "https://www.exness.com",
   "logo_url": "",
   "description": "Exness is a Cyprus-headquartered forex and CFD broker founded in 2008, self-described as the world's largest retail broker by trading volume. Regulated by the FCA, CySEC, FSA Seychelles, CBCS Curacao, FSC BVI, and FSC Mauritius, it offers 200+ instruments across MetaTrader 4, MetaTrader 5, Exness Terminal, and the Exness Trade mobile app. The majority of global retail clients are routed to the FSA Seychelles entity.",
-  "regulation": ["FCA (UK)", "CySEC (Cyprus)", "FSA Seychelles", "CBCS Curacao", "FSC BVI", "FSC Mauritius", "FSCA (South Africa)"],
+  "regulation": [
+    "FCA (UK)",
+    "CySEC (Cyprus)",
+    "FSA Seychelles",
+    "CBCS Curacao",
+    "FSC BVI",
+    "FSC Mauritius",
+    "FSCA (South Africa)"
+  ],
   "license_number": "FCA 730729",
   "min_deposit": "$1 (Standard)",
   "leverage": "Up to unlimited (FSA Seychelles, under $5,000 equity), 1:30 (FCA/CySEC retail)",
@@ -61,18 +69,65 @@
       "source": "broker-stated"
     }
   ],
-
-
-  "platforms": ["MetaTrader 4", "MetaTrader 5", "Exness Terminal (Web)", "Exness Trade App"],
-  "payment_methods": ["Bank Wire", "Visa", "Mastercard", "Skrill", "Neteller", "Perfect Money", "USDT (Tether)", "Local Bank Transfers"],
+  "platforms": [
+    "MetaTrader 4",
+    "MetaTrader 5",
+    "Exness Terminal (Web)",
+    "Exness Trade App"
+  ],
+  "payment_methods": [
+    "Bank Wire",
+    "Visa",
+    "Mastercard",
+    "Skrill",
+    "Neteller",
+    "Perfect Money",
+    "USDT (Tether)",
+    "Local Bank Transfers"
+  ],
   "payment_method_details": [
-    { "method": "Bank Wire", "min": "$1", "processing": "Up to 3 business days", "fee": "Free (broker-stated)" },
-    { "method": "Visa/Mastercard", "min": "$1", "processing": "Instant (broker-stated)", "fee": "Free (broker-stated)" },
-    { "method": "Skrill", "min": "$1", "processing": "Instant (broker-stated)", "fee": "Free (broker-stated)" },
-    { "method": "Neteller", "min": "$1", "processing": "Instant (broker-stated)", "fee": "Free (broker-stated)" },
-    { "method": "Perfect Money", "min": "$1", "processing": "Instant (broker-stated)", "fee": "Free (broker-stated)" },
-    { "method": "USDT (Tether)", "min": "$1", "processing": "Instant (broker-stated)", "fee": "Free (broker-stated)" },
-    { "method": "Local Bank Transfers", "min": "Varies", "processing": "Varies by region", "fee": "Free (broker-stated)" }
+    {
+      "method": "Bank Wire",
+      "min": "$1",
+      "processing": "Up to 3 business days",
+      "fee": "Free (broker-stated)"
+    },
+    {
+      "method": "Visa/Mastercard",
+      "min": "$1",
+      "processing": "Instant (broker-stated)",
+      "fee": "Free (broker-stated)"
+    },
+    {
+      "method": "Skrill",
+      "min": "$1",
+      "processing": "Instant (broker-stated)",
+      "fee": "Free (broker-stated)"
+    },
+    {
+      "method": "Neteller",
+      "min": "$1",
+      "processing": "Instant (broker-stated)",
+      "fee": "Free (broker-stated)"
+    },
+    {
+      "method": "Perfect Money",
+      "min": "$1",
+      "processing": "Instant (broker-stated)",
+      "fee": "Free (broker-stated)"
+    },
+    {
+      "method": "USDT (Tether)",
+      "min": "$1",
+      "processing": "Instant (broker-stated)",
+      "fee": "Free (broker-stated)"
+    },
+    {
+      "method": "Local Bank Transfers",
+      "min": "Varies",
+      "processing": "Varies by region",
+      "fee": "Free (broker-stated)"
+    }
   ],
   "pros": [
     "Instant withdrawals — 95% processed under 60 seconds (broker-stated, independently confirmed across multiple sources)",
@@ -94,13 +149,18 @@
   "withdrawal_time": "Instant (95% under 60 seconds, broker-stated)",
   "withdrawal_fee": "Free (all methods, broker-stated)",
   "warning_note": "Most global retail clients (India, Southeast Asia, MENA, Africa) are served by Exness (SC) Ltd under FSA Seychelles — no investor compensation scheme applies. Unlimited leverage is available only on the offshore entity for accounts under $5,000 equity and carries extreme risk of total capital loss. One unverified large-sum complaint ($347,165 USDT seizure) surfaced publicly in January 2026.",
-  "tags": ["fca-regulated", "cysec-regulated", "offshore-majority", "instant-withdrawals", "high-leverage", "established"],
+  "tags": [
+    "fca-regulated",
+    "cysec-regulated",
+    "offshore-majority",
+    "instant-withdrawals",
+    "high-leverage",
+    "established"
+  ],
   "badge": "none",
   "promo_label": "",
   "promo_code": "",
   "affiliate_url": "AFFILIATE_PLACEHOLDER",
-
-
   "author": {
     "name": "NAFT Editorial Team",
     "role": "Senior Broker Analyst, NAFT",
@@ -113,38 +173,93 @@
   "regulatory_risk_warning": "This broker does not publish a retail loss rate prominently. Trading CFDs and forex involves significant risk of capital loss. Exness offers leverage up to unlimited on its offshore entity — this magnifies both gains and losses and most retail traders lose money.",
   "target_locale": "en",
   "toc": [
-    { "id": "quick-verdict", "label": "Quick Verdict" },
-    { "id": "is-broker-regulated", "label": "Is It Regulated?" },
-    { "id": "where-broker-accepts-clients", "label": "Accepted Countries" },
-    { "id": "spreads-fees-accounts", "label": "Spreads and Fees" },
-    { "id": "deposits-withdrawals", "label": "Deposits and Withdrawals" },
-    { "id": "withdrawals", "label": "Withdrawal Reality" },
-    { "id": "red-flags", "label": "Red Flags" },
-    { "id": "who-broker-is-for", "label": "Who It Is For" },
-    { "id": "how-to-open-account", "label": "How to Open" },
-    { "id": "final-verdict", "label": "Final Verdict" }
+    {
+      "id": "quick-verdict",
+      "label": "Quick Verdict"
+    },
+    {
+      "id": "is-broker-regulated",
+      "label": "Is It Regulated?"
+    },
+    {
+      "id": "where-broker-accepts-clients",
+      "label": "Accepted Countries"
+    },
+    {
+      "id": "spreads-fees-accounts",
+      "label": "Spreads and Fees"
+    },
+    {
+      "id": "deposits-withdrawals",
+      "label": "Deposits and Withdrawals"
+    },
+    {
+      "id": "withdrawals",
+      "label": "Withdrawal Reality"
+    },
+    {
+      "id": "red-flags",
+      "label": "Red Flags"
+    },
+    {
+      "id": "who-broker-is-for",
+      "label": "Who It Is For"
+    },
+    {
+      "id": "how-to-open-account",
+      "label": "How to Open"
+    },
+    {
+      "id": "final-verdict",
+      "label": "Final Verdict"
+    }
   ],
   "assets": {
     "logo_url": "",
     "hero_image_url": "",
     "og_image_url": "",
     "regulator_badges": [
-      { "regulator": "FCA", "badge_url": "", "licence_number": "730729" },
-      { "regulator": "CySEC", "badge_url": "", "licence_number": "178/12" },
-      { "regulator": "FSA Seychelles", "badge_url": "", "licence_number": "SD025" },
-      { "regulator": "CBCS Curacao", "badge_url": "", "licence_number": "0003LSI" },
-      { "regulator": "FSC BVI", "badge_url": "", "licence_number": "SIBA/L/20/1133" },
-      { "regulator": "FSC Mauritius", "badge_url": "", "licence_number": "" }
+      {
+        "regulator": "FCA",
+        "badge_url": "",
+        "licence_number": "730729"
+      },
+      {
+        "regulator": "CySEC",
+        "badge_url": "",
+        "licence_number": "178/12"
+      },
+      {
+        "regulator": "FSA Seychelles",
+        "badge_url": "",
+        "licence_number": "SD025"
+      },
+      {
+        "regulator": "CBCS Curacao",
+        "badge_url": "",
+        "licence_number": "0003LSI"
+      },
+      {
+        "regulator": "FSC BVI",
+        "badge_url": "",
+        "licence_number": "SIBA/L/20/1133"
+      },
+      {
+        "regulator": "FSC Mauritius",
+        "badge_url": "",
+        "licence_number": ""
+      }
     ],
     "platform_screenshots": [],
     "withdrawal_proof": null
   },
-
-
   "comparison_block": {
     "heading": "Exness vs IC Markets — Which Is Better in 2026?",
     "body": "IC Markets wins on regulatory coverage — ASIC and CySEC both actively serve retail clients, meaning your money sits under a Tier-1 regime regardless of where you live. Exness wins decisively on withdrawal speed; instant processing is genuinely rare and IC Markets still takes 1-2 business days on most methods. For raw spreads, both charge $7 round-turn with near-zero EUR/USD — effectively a draw. If you value knowing your funds have compensation scheme backing, pick IC Markets. If you need your money back in 60 seconds and accept offshore entity risk, Exness delivers.",
-    "brokers_compared": ["exness", "ic-markets"],
+    "brokers_compared": [
+      "exness",
+      "ic-markets"
+    ],
     "cta_anchor": "Compare Exness side by side",
     "cta_url": "/compare?brokers=exness,ic-markets"
   },
@@ -156,8 +271,6 @@
     "duration_seconds": 0
   },
   "social_snippet": "Exness scores 3.7/5 from NAFT — instant withdrawals are real but most clients sit under offshore Seychelles regulation with zero compensation.",
-
-
   "long_review": {
     "seo": {
       "title": "Exness Review 2026 — Legit, Safe or a Scam?",
@@ -185,8 +298,6 @@
     "disclaimer": "NAFT Disclaimer: Not A Fugazi Trader is an independent broker review platform. We may receive a commission when you open an account through our affiliate links. This never influences our ratings, reviews, or trust scores. Our scores are calculated from publicly available regulatory data, aggregated community feedback, and editorial assessment. Trading forex, CFDs, and derivatives involves significant risk of capital loss and is not suitable for all investors. Always verify a broker's regulatory status independently before depositing. [Read our full disclosure]",
     "reading_time_minutes": 10,
     "word_count": 2180,
-
-
     "seo_audit": {
       "primary_keyword_count": 14,
       "broker_name_count": 48,
@@ -200,8 +311,6 @@
     },
     "hot_take": "Exness markets unlimited leverage to traders in countries where financial literacy rates are lowest and regulatory protection is nonexistent. The FCA and CySEC licences look reassuring on the homepage, but if you deposit from India, Nigeria, Indonesia, or anywhere outside the EU and UK, those licences do not protect you. Your funds sit under FSA Seychelles with no compensation scheme and no ombudsman. The withdrawal speed is genuinely best-in-class — but the regulatory structure means your recourse if something goes wrong is effectively zero.",
     "telegram_summary": "NAFT Verdict on Exness — 2026\nFCA + CySEC licences exist but do NOT cover most global clients — you get Seychelles.\nInstant withdrawals are real — 95% under 60 seconds, independently confirmed.\nUnlimited leverage under $5K equity is a liquidation machine, not a feature.\nBest for experienced traders in Asia/Africa who prioritise speed over regulatory protection.\nNAFT score: 7.5/10, star rating 3.7/5 — legit but buyer-beware on entity routing.",
-
-
     "verdict": {
       "tldr": "Exness is a legitimate broker with FCA and CySEC licences — but those licences only protect UK and EU clients respectively. The vast majority of global retail traders (India, Southeast Asia, MENA, Africa) are served by Exness (SC) Ltd under FSA Seychelles with no investor compensation and no external dispute resolution. Withdrawal speed is genuinely exceptional and independently confirmed. Spreads on Raw Spread and Zero accounts are competitive. The unlimited leverage marketing is irresponsible for undercapitalised accounts. NAFT rates Exness 7.5/10 in January 2026 — a capable broker for experienced traders who understand exactly which entity holds their funds.",
       "summary": "A broker that does many things right — instant withdrawals, tight raw spreads, low minimums — wrapped inside a regulatory structure that leaves most of its global clients without meaningful protection. NAFT scores Exness 7.5/10 because the operational quality is strong but the safety net for the majority of clients is weak.",
@@ -211,31 +320,104 @@
       "star_rating": 3.7,
       "trust_score": 7.5,
       "trust_breakdown": [
-        { "label": "Regulation", "score": 6, "max": 10, "weight": 0.30 },
-        { "label": "User Reviews", "score": 8, "max": 10, "weight": 0.25 },
-        { "label": "Withdrawal Speed", "score": 9, "max": 10, "weight": 0.25 },
-        { "label": "Complaint History", "score": 7, "max": 10, "weight": 0.20 }
+        {
+          "label": "Regulation",
+          "score": 6,
+          "max": 10,
+          "weight": 0.3
+        },
+        {
+          "label": "User Reviews",
+          "score": 8,
+          "max": 10,
+          "weight": 0.25
+        },
+        {
+          "label": "Withdrawal Speed",
+          "score": 9,
+          "max": 10,
+          "weight": 0.25
+        },
+        {
+          "label": "Complaint History",
+          "score": 7,
+          "max": 10,
+          "weight": 0.2
+        }
       ]
     },
-
-
     "at_a_glance": {
-      "regulation": ["FCA 730729", "CySEC 178/12", "FSA Seychelles SD025", "CBCS Curacao 0003LSI", "FSC BVI SIBA/L/20/1133", "FSC Mauritius", "FSCA South Africa"],
+      "regulation": [
+        "FCA 730729",
+        "CySEC 178/12",
+        "FSA Seychelles SD025",
+        "CBCS Curacao 0003LSI",
+        "FSC BVI SIBA/L/20/1133",
+        "FSC Mauritius",
+        "FSCA South Africa"
+      ],
       "min_deposit": "$1 (Standard)",
       "max_leverage": "Unlimited (FSA Seychelles, under $5,000 equity) / 1:30 (FCA/CySEC retail)",
       "avg_spread_eurusd": "0.6-1.0 pips (Standard), 0.0 pips (Raw Spread)",
       "withdrawal_speed": "Instant — 95% under 60 seconds (broker-stated, independently confirmed)",
-      "platforms": ["MetaTrader 4", "MetaTrader 5", "Exness Terminal (Web)", "Exness Trade App"],
+      "platforms": [
+        "MetaTrader 4",
+        "MetaTrader 5",
+        "Exness Terminal (Web)",
+        "Exness Trade App"
+      ],
       "islamic_account": true,
-      "deposit_methods": ["Bank Wire", "Visa", "Mastercard", "Skrill", "Neteller", "Perfect Money", "USDT (Tether)", "Local Bank Transfers"]
+      "deposit_methods": [
+        "Bank Wire",
+        "Visa",
+        "Mastercard",
+        "Skrill",
+        "Neteller",
+        "Perfect Money",
+        "USDT (Tether)",
+        "Local Bank Transfers"
+      ]
     },
     "geo": {
-      "accepted": ["India", "Indonesia", "Vietnam", "Thailand", "Philippines", "UAE", "Saudi Arabia", "Egypt", "South Africa", "Nigeria", "Pakistan", "Brazil", "Most of Africa", "Most of MENA", "Most of South and Southeast Asia", "Parts of Latin America", "United Kingdom (FCA entity)", "EU/EEA (CySEC entity)"],
-      "excluded": ["United States", "Canada", "Australia", "New Zealand", "Singapore", "Malaysia", "Israel", "Myanmar", "Vatican City", "US territories (Guam, Puerto Rico, US Virgin Islands)", "North Korea", "Iran", "Syria", "Crimea", "Cuba"],
+      "accepted": [
+        "India",
+        "Indonesia",
+        "Vietnam",
+        "Thailand",
+        "Philippines",
+        "UAE",
+        "Saudi Arabia",
+        "Egypt",
+        "South Africa",
+        "Nigeria",
+        "Pakistan",
+        "Brazil",
+        "Most of Africa",
+        "Most of MENA",
+        "Most of South and Southeast Asia",
+        "Parts of Latin America",
+        "United Kingdom (FCA entity)",
+        "EU/EEA (CySEC entity)"
+      ],
+      "excluded": [
+        "United States",
+        "Canada",
+        "Australia",
+        "New Zealand",
+        "Singapore",
+        "Malaysia",
+        "Israel",
+        "Myanmar",
+        "Vatican City",
+        "US territories (Guam, Puerto Rico, US Virgin Islands)",
+        "North Korea",
+        "Iran",
+        "Syria",
+        "Crimea",
+        "Cuba"
+      ],
       "practical_note": "UK residents are served by Exness (UK) Ltd under FCA with 1:30 leverage and FSCS protection. EU/EEA residents route to Exness (Cy) Ltd under CySEC with ICF protection up to EUR 20,000. Everyone else — India, Indonesia, UAE, Nigeria, South Africa, Thailand, and all other accepted countries — routes to Exness (SC) Ltd under FSA Seychelles with no compensation scheme and unlimited leverage available. Verify your entity assignment in your client area after registration."
     },
-
-
     "sections": [
       {
         "id": "quick-verdict",
@@ -248,20 +430,74 @@
         "heading": "Is Exness Regulated? — Licence Check 2026",
         "body": "Yes — Exness holds licences from two Tier-1 regulators (FCA and CySEC) plus several offshore and mid-tier authorities. But the critical question is not whether Exness is regulated. It is which entity regulates YOUR account.\n\nExness (UK) Ltd operates under FCA licence 730729. UK residents get FSCS coverage up to GBP 85,000 and leverage capped at 1:30 on major pairs. Exness (Cy) Ltd holds CySEC licence 178/12, offering EU/EEA clients ICF protection up to EUR 20,000 with the same 1:30 cap. These are legitimate, meaningful protections.\n\nFor the vast majority of Exness's global client base — traders in India, Indonesia, Vietnam, Thailand, Philippines, UAE, Saudi Arabia, Egypt, South Africa, Nigeria, Pakistan, and Brazil — the operating entity is Exness (SC) Ltd, regulated by FSA Seychelles under licence SD025. No compensation scheme exists. No external ombudsman. Leverage runs up to unlimited for accounts under $5,000 equity. Funds are held in segregated accounts (broker-stated) but segregation without a compensation scheme means you are an unsecured creditor if the entity becomes insolvent.\n\nThe FSCA South Africa licence adds a mid-tier layer but provides no compensation fund either. The CBCS Curacao and FSC BVI licences are administrative — they do not add meaningful retail protection. NAFT last reviewed Exness regulation in January 2026.",
         "table": {
-          "headers": ["Entity", "Regulator", "Licence", "Who it covers", "Compensation scheme", "Leverage cap"],
+          "headers": [
+            "Entity",
+            "Regulator",
+            "Licence",
+            "Who it covers",
+            "Compensation scheme",
+            "Leverage cap"
+          ],
           "rows": [
-            ["Exness (UK) Ltd", "FCA", "730729", "UK residents", "FSCS up to GBP 85,000", "1:30 (retail)"],
-            ["Exness (Cy) Ltd", "CySEC", "178/12", "EU/EEA residents", "ICF up to EUR 20,000", "1:30 (retail)"],
-            ["Exness (SC) Ltd", "FSA Seychelles", "SD025", "Most global clients (Asia, MENA, Africa, LatAm)", "None", "Unlimited (under $5,000 equity)"],
-            ["Exness B.V.", "CBCS Curacao", "0003LSI", "Select jurisdictions", "None", "Unlimited"],
-            ["Exness (VG) Ltd", "FSC BVI", "SIBA/L/20/1133", "Select jurisdictions", "None", "Unlimited"],
-            ["Exness (MU) Ltd", "FSC Mauritius", "", "Select jurisdictions", "None", "Unlimited"],
-            ["Exness South Africa", "FSCA", "", "South African residents", "None", "Varies"]
+            [
+              "Exness (UK) Ltd",
+              "FCA",
+              "730729",
+              "UK residents",
+              "FSCS up to GBP 85,000",
+              "1:30 (retail)"
+            ],
+            [
+              "Exness (Cy) Ltd",
+              "CySEC",
+              "178/12",
+              "EU/EEA residents",
+              "ICF up to EUR 20,000",
+              "1:30 (retail)"
+            ],
+            [
+              "Exness (SC) Ltd",
+              "FSA Seychelles",
+              "SD025",
+              "Most global clients (Asia, MENA, Africa, LatAm)",
+              "None",
+              "Unlimited (under $5,000 equity)"
+            ],
+            [
+              "Exness B.V.",
+              "CBCS Curacao",
+              "0003LSI",
+              "Select jurisdictions",
+              "None",
+              "Unlimited"
+            ],
+            [
+              "Exness (VG) Ltd",
+              "FSC BVI",
+              "SIBA/L/20/1133",
+              "Select jurisdictions",
+              "None",
+              "Unlimited"
+            ],
+            [
+              "Exness (MU) Ltd",
+              "FSC Mauritius",
+              "",
+              "Select jurisdictions",
+              "None",
+              "Unlimited"
+            ],
+            [
+              "Exness South Africa",
+              "FSCA",
+              "",
+              "South African residents",
+              "None",
+              "Varies"
+            ]
           ]
         }
       },
-
-
       {
         "id": "where-broker-accepts-clients",
         "heading": "Who Can Open an Account With Exness? — Accepted Countries and Restrictions",
@@ -273,34 +509,120 @@
         "heading": "Exness Spreads, Fees and Accounts — What Do You Actually Pay in 2026?",
         "body": "Five account types, ranging from a $1-deposit beginner account to a zero-spread professional setup. The maths differs significantly between them.\n\nStandard is the entry point — no commission, spreads publicly reported at 0.6-1.5 pips on EUR/USD across independent sources. That translates to $6-$15 all-in per standard lot. Acceptable for swing traders, expensive for scalpers. Standard Cent mirrors this but in cent lots — useful for testing strategies with real money at negligible risk.\n\nPro offers instant execution with tighter spreads (broker-stated from 0.3 pips) and no commission. The catch: instant execution means requotes during volatility. If you trade NFP or FOMC, expect slippage or rejections on this account type.\n\nRaw Spread is where serious scalpers land. Near-zero EUR/USD spread plus $7 round-turn commission — genuinely competitive with IC Markets and Pepperstone Razor. All-in cost: roughly $7-$8 per lot on EUR/USD during London/New York sessions.\n\nZero advertises 0.0 pips on 30 instruments with commission varying from $0.20 to $3.50 per side depending on the pair. On EUR/USD specifically, the Zero account can be cheaper than Raw Spread — but on exotic pairs, the commission inflates substantially. Read the full commission schedule before assuming this is the cheapest option across all instruments.\n\nLeverage is the elephant in the room. Under FCA and CySEC, you get 1:30 on majors — standard retail cap. Under FSA Seychelles, accounts below $5,000 equity can access unlimited leverage. This is marketed as a feature. It is a liquidation accelerator for anyone who does not understand position sizing intimately.",
         "table": {
-          "headers": ["Account", "Spread (pips)", "Commission RT", "All-in per lot (USD)", "Min deposit", "Leverage", "Best for"],
+          "headers": [
+            "Account",
+            "Spread (pips)",
+            "Commission RT",
+            "All-in per lot (USD)",
+            "Min deposit",
+            "Leverage",
+            "Best for"
+          ],
           "rows": [
-            ["Standard", "0.6-1.5 avg", "$0", "$6.00-$15.00", "$1", "Unlimited/1:30", "Beginners, swing traders"],
-            ["Standard Cent", "0.6-1.5 avg", "$0", "$6.00-$15.00", "$1", "Unlimited/1:30", "Strategy testing"],
-            ["Pro", "0.3-0.6 avg", "$0", "$3.00-$6.00", "$200", "Unlimited/1:30", "Day traders wanting no commission"],
-            ["Raw Spread", "0.0-0.1 avg", "$7.00", "$7.00-$8.00", "$200", "Unlimited/1:30", "Scalpers, high-frequency"],
-            ["Zero", "0.0 (30 pairs)", "$0.40-$7.00", "$0.40-$7.00", "$200", "Unlimited/1:30", "Pair-specific cost optimisation"]
+            [
+              "Standard",
+              "0.6-1.5 avg",
+              "$0",
+              "$6.00-$15.00",
+              "$1",
+              "Unlimited/1:30",
+              "Beginners, swing traders"
+            ],
+            [
+              "Standard Cent",
+              "0.6-1.5 avg",
+              "$0",
+              "$6.00-$15.00",
+              "$1",
+              "Unlimited/1:30",
+              "Strategy testing"
+            ],
+            [
+              "Pro",
+              "0.3-0.6 avg",
+              "$0",
+              "$3.00-$6.00",
+              "$200",
+              "Unlimited/1:30",
+              "Day traders wanting no commission"
+            ],
+            [
+              "Raw Spread",
+              "0.0-0.1 avg",
+              "$7.00",
+              "$7.00-$8.00",
+              "$200",
+              "Unlimited/1:30",
+              "Scalpers, high-frequency"
+            ],
+            [
+              "Zero",
+              "0.0 (30 pairs)",
+              "$0.40-$7.00",
+              "$0.40-$7.00",
+              "$200",
+              "Unlimited/1:30",
+              "Pair-specific cost optimisation"
+            ]
           ],
           "footnote": "Spread data: Standard and Raw Spread publicly reported across independent sources. Pro and Zero broker-stated. Leverage shown as FSA Seychelles / FCA-CySEC retail caps."
         }
       },
-
-
       {
         "id": "deposits-withdrawals",
         "heading": "How Fast Can You Get Your Money Out of Exness?",
         "body": "Speed is where Exness genuinely separates from the pack. The broker claims 95% of withdrawals process in under 60 seconds — and this is independently confirmed across community forums, app store reviews, and trader groups in Asia and Africa. Instant is not a marketing word here; it is the operational reality for most standard withdrawal requests.\n\nVisa, Mastercard, Skrill, Neteller, Perfect Money, and USDT (Tether) all process instantly for most users (broker-stated, independently confirmed). Bank wire is the exception — up to 3 business days depending on your bank and jurisdiction. No withdrawal fees on any method (broker-stated). The $1 minimum applies across most electronic methods.\n\nThe one scenario where speed reportedly breaks down: very large withdrawals (five figures and above) may trigger additional compliance review. This is standard across the industry but worth noting given the single large-sum complaint that surfaced publicly in early 2026.",
         "cta_after": true,
         "table": {
-          "headers": ["Method", "Min", "Processing", "Fee"],
+          "headers": [
+            "Method",
+            "Min",
+            "Processing",
+            "Fee"
+          ],
           "rows": [
-            ["Visa/Mastercard", "$1", "Instant (broker-stated)", "Free"],
-            ["Skrill", "$1", "Instant (broker-stated)", "Free"],
-            ["Neteller", "$1", "Instant (broker-stated)", "Free"],
-            ["Perfect Money", "$1", "Instant (broker-stated)", "Free"],
-            ["USDT (Tether)", "$1", "Instant (broker-stated)", "Free"],
-            ["Bank Wire", "$1", "Up to 3 business days", "Free"],
-            ["Local Bank Transfers", "Varies", "Varies by region", "Free"]
+            [
+              "Visa/Mastercard",
+              "$1",
+              "Instant (broker-stated)",
+              "Free"
+            ],
+            [
+              "Skrill",
+              "$1",
+              "Instant (broker-stated)",
+              "Free"
+            ],
+            [
+              "Neteller",
+              "$1",
+              "Instant (broker-stated)",
+              "Free"
+            ],
+            [
+              "Perfect Money",
+              "$1",
+              "Instant (broker-stated)",
+              "Free"
+            ],
+            [
+              "USDT (Tether)",
+              "$1",
+              "Instant (broker-stated)",
+              "Free"
+            ],
+            [
+              "Bank Wire",
+              "$1",
+              "Up to 3 business days",
+              "Free"
+            ],
+            [
+              "Local Bank Transfers",
+              "Varies",
+              "Varies by region",
+              "Free"
+            ]
           ],
           "footnote": "Processing times are broker-stated and independently confirmed across multiple community sources for standard withdrawal amounts. Large withdrawals may require additional compliance checks."
         }
@@ -311,8 +633,6 @@
         "body": "Community feedback is overwhelmingly positive on withdrawal speed. Across trader groups in India, Indonesia, Nigeria, and the UAE, the consistent report is that e-wallet and crypto withdrawals arrive in under a minute. This is not the norm for the industry — most brokers take 24-48 hours minimum — and it represents a genuine operational advantage that builds trust.\n\nThe negative pattern is narrow but notable. One publicly reported complaint from January 2026 claims $347,165 in USDT was seized by Exness citing technical manipulation and fake candles. This remains unverified and represents a single data point from an enormous client base. But for a complaint of that size to surface publicly at all warrants mention. Separately, a small number of community reports mention extended verification requests on first-time large withdrawals — again, standard industry practice but occasionally frustrating for traders who funded via crypto expecting anonymity.\n\nIf a withdrawal stalls: first, check your Exness personal area for any pending verification requests. Second, contact support via live chat — response times are generally fast. Third, if unresolved after 48 hours, escalate via email with your account number and transaction ID. Document everything. There is no external ombudsman for Seychelles entity clients — your escalation path is internal only, which is precisely why the instant processing on normal amounts matters so much for building confidence before scaling up.",
         "cta_after": false
       },
-
-
       {
         "id": "red-flags",
         "heading": "Exness Red Flags — What to Know Before You Deposit",
@@ -344,8 +664,6 @@
           "Swing traders using Standard or Pro accounts who value the zero-commission structure and accept the wider spreads as a trade-off."
         ]
       },
-
-
       {
         "id": "how-to-open-account",
         "heading": "How to Open an Exness Account — Step by Step",
@@ -365,7 +683,10 @@
             "number": 3,
             "title": "Fund your account and test a withdrawal",
             "detail": "Deposit via your preferred method — $1 minimum on Standard accounts. Immediately place one small trade, then request a withdrawal of any amount. If it processes instantly as expected, you have confirmed the withdrawal pipeline works for your method and jurisdiction. Scale from there with confidence.",
-            "cta_inline": { "label": "Open Exness Account", "url": "AFFILIATE_PLACEHOLDER" }
+            "cta_inline": {
+              "label": "Open Exness Account",
+              "url": "AFFILIATE_PLACEHOLDER"
+            }
           }
         ],
         "practical_note": "Make a small deposit. Place one trade. Request a withdrawal immediately. If it processes cleanly, scale with confidence. This is the single best test of any broker — and with Exness's instant processing, you will know within a minute whether your withdrawal path works.",
@@ -377,8 +698,6 @@
         "body": "NAFT rates Exness 7.5 out of 10 with a star rating of 3.7/5. The withdrawal speed is genuinely exceptional — few brokers in this industry deliver instant processing at this scale, and it is independently confirmed rather than marketing fiction. Raw Spread costs are competitive with IC Markets and Pepperstone. The $1 minimum deposit removes barriers to entry. On pure operational metrics, Exness performs well.\n\nThe risks are structural. Most of the global client base sits under FSA Seychelles with no compensation scheme, no external ombudsman, and leverage that can liquidate an account in seconds. The FCA and CySEC licences are real but irrelevant for traders outside the UK and EU — and that covers the vast majority of Exness's users. One large unverified complaint from early 2026 does not make a pattern, but the lack of external recourse for offshore clients means any dispute becomes your word against theirs.\n\nIf you are an experienced trader who understands position sizing, wants fast withdrawals, and accepts offshore entity risk knowingly, Exness is a legitimate option that delivers on its core promises. NAFT recommends starting with a small deposit, verifying the withdrawal pipeline personally, and scaling only once you are satisfied. If regulatory protection matters to you more than speed, compare IC Markets or Pepperstone under their ASIC and CySEC entities where your funds carry actual compensation scheme backing."
       }
     ],
-
-
     "affiliate_cta": {
       "label": "Open Exness Account",
       "url": "AFFILIATE_PLACEHOLDER",
@@ -404,15 +723,31 @@
       "source_note": "Trustpilot data not independently confirmed, January 2026"
     },
     "internal_links": [
-      { "anchor": "compare brokers side by side", "url": "/compare" },
-      { "anchor": "best regulated forex brokers", "url": "/brokers?regulation=tier-1" },
-      { "anchor": "broker scam alerts and warnings", "url": "/scam-alerts" },
-      { "anchor": "community withdrawal proofs", "url": "/withdrawal-proofs" },
-      { "anchor": "how NAFT reviews brokers", "url": "/how-we-review-brokers" },
-      { "anchor": "file a broker complaint with NAFT", "url": "/complaints" }
+      {
+        "anchor": "compare brokers side by side",
+        "url": "/compare"
+      },
+      {
+        "anchor": "best regulated forex brokers",
+        "url": "/brokers?regulation=tier-1"
+      },
+      {
+        "anchor": "broker scam alerts and warnings",
+        "url": "/scam-alerts"
+      },
+      {
+        "anchor": "community withdrawal proofs",
+        "url": "/withdrawal-proofs"
+      },
+      {
+        "anchor": "how NAFT reviews brokers",
+        "url": "/how-we-review-brokers"
+      },
+      {
+        "anchor": "file a broker complaint with NAFT",
+        "url": "/complaints"
+      }
     ],
-
-
     "faq": [
       {
         "q": "Is Exness a legit broker or a scam?",
@@ -447,8 +782,6 @@
         "a": "No — Exness states zero withdrawal fees across all payment methods including bank wire, Visa, Mastercard, Skrill, Neteller, Perfect Money, and USDT. This is confirmed across multiple community sources. Your payment provider or bank may charge their own receiving fees — particularly on bank wire transfers — but Exness itself does not deduct anything from your withdrawal amount."
       }
     ],
-
-
     "schema_jsonld": {
       "review": {
         "@context": "https://schema.org",
@@ -503,8 +836,6 @@
         "ratingCount": 1,
         "reviewCount": 1
       },
-
-
       "faqPage": {
         "@context": "https://schema.org",
         "@type": "FAQPage",
@@ -575,8 +906,6 @@
           }
         ]
       },
-
-
       "organization": {
         "@context": "https://schema.org",
         "@type": "Organization",
@@ -641,8 +970,6 @@
       },
       "videoObject": null
     },
-
-
     "sources": [
       "Exness official website — regulation, accounts, payment methods, legal entity disclosures (exness.com)",
       "FCA Register — Exness (UK) Ltd, licence 730729 (register.fca.org.uk)",
@@ -652,21 +979,5 @@
       "Community feedback from trader forums and groups (multiple independent sources)",
       "Public complaint records — January 2026 large-sum complaint (publicly reported)"
     ]
-  }
-}
-
-
-
-
-
-{
-  "editorial_review_row": {
-    "broker_slug": "exness",
-    "author": "NAFT Editorial",
-    "role": "editor",
-    "rating": 3.7,
-    "content": "Exness is a legitimate broker with FCA and CySEC licences — but those licences only protect UK and EU clients respectively. The vast majority of global retail traders (India, Southeast Asia, MENA, Africa) are served by Exness (SC) Ltd under FSA Seychelles with no investor compensation and no external dispute resolution. Withdrawal speed is genuinely exceptional and independently confirmed. Spreads on Raw Spread and Zero accounts are competitive. The unlimited leverage marketing is irresponsible for undercapitalised accounts. NAFT rates Exness 7.5/10 in January 2026 — a capable broker for experienced traders who understand exactly which entity holds their funds.",
-    "status": "published",
-    "verified_account": true
   }
 }

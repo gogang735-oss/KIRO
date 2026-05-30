@@ -1,0 +1,11 @@
+{
+  "editorial_review_row": {
+    "broker_slug": "vantage",
+    "author": "NAFT Editorial",
+    "role": "editor",
+    "rating": 3.7,
+    "content": "Vantage is a legitimate ASIC/FCA-regulated ECN broker scoring 7.4/10 from NAFT in 2026. The Raw ECN account at 0.0 pips + $6 round-turn matches Tickmill as the cheapest regulated commission available — and the Pro ECN at $3 RT for $10,000+ depositors undercuts the entire industry. Native TradingView integration, 1,000+ instruments, built-in copy trading, and zero inactivity fees create a complete package for cost-conscious active traders. The concern: BrokersView reports of profitable accounts frozen under compliance review, and the UK FCA entity disclaimer about international clients not receiving full Client Assets protections. For the trader who prioritises execution cost above all else under legitimate Tier-1 oversight, Vantage delivers objectively excellent value.",
+    "status": "published",
+    "verified_account": true
+  }
+}

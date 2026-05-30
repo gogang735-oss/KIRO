@@ -1,0 +1,493 @@
+{
+  "name": "PU Prime",
+  "slug": "pu-prime",
+  "type": "forex",
+  "founded_year": 2016,
+  "headquarters": "Limassol, Cyprus / International",
+  "website_url": "https://www.puprime.com",
+  "logo_url": "",
+  "description": "PU Prime (formerly Pacific Union) is a multi-regulated forex and CFD broker founded in 2016, regulated by CySEC (Cyprus), FSCA (South Africa), and FSA Seychelles (offshore), offering 200+ instruments across forex, indices, commodities, stocks, crypto, bonds, and ETFs through MT4, MT5, and the PU Prime mobile app.",
+  "regulation": [
+    "CySEC (Cyprus)",
+    "FSCA (South Africa)",
+    "FSA Seychelles (offshore international)"
+  ],
+  "license_number": "CySEC",
+  "min_deposit": "$20 (Cent), $50 (Standard/Prime)",
+  "leverage": "1:30 (CySEC EU), up to 1:1000 (Seychelles)",
+  "avg_spread": "Variable from 1.3 pips (Standard)",
+  "score": 5.5,
+  "stars": 2.8,
+  "account_types": [
+    {
+      "name": "Cent Account",
+      "min_deposit": "$20",
+      "spread_pips": "Variable from 1.3 EUR/USD",
+      "commission_per_lot_rt": "$0",
+      "all_in_cost_eurusd": "~$1.30 (cent lots)",
+      "leverage": "Up to 1:1000 (Seychelles)",
+      "source": "broker-stated"
+    },
+    {
+      "name": "Standard Account",
+      "min_deposit": "$50",
+      "spread_pips": "Variable from 1.3 EUR/USD",
+      "commission_per_lot_rt": "$0",
+      "all_in_cost_eurusd": "~$13.00",
+      "leverage": "1:30 (CySEC) / 1:1000 (Seychelles)",
+      "source": "broker-stated"
+    },
+    {
+      "name": "Prime Account",
+      "min_deposit": "$1000",
+      "spread_pips": "Variable from 0.0 EUR/USD",
+      "commission_per_lot_rt": "$7.00",
+      "all_in_cost_eurusd": "~$7.00",
+      "leverage": "1:30 (CySEC) / 1:1000 (Seychelles)",
+      "source": "broker-stated"
+    },
+    {
+      "name": "ECN Account",
+      "min_deposit": "$10000",
+      "spread_pips": "Variable from 0.0 EUR/USD",
+      "commission_per_lot_rt": "$3.50",
+      "all_in_cost_eurusd": "~$3.50",
+      "leverage": "1:30 (CySEC) / 1:1000 (Seychelles)",
+      "source": "broker-stated"
+    }
+  ],
+
+
+  "platforms": ["MT4", "MT5", "PU Prime App (Proprietary Mobile)"],
+  "payment_methods": ["Visa", "Mastercard", "Wire Transfer", "Skrill", "Neteller", "FasaPay", "Local Bank Transfer", "Crypto"],
+  "payment_method_details": [
+    { "method": "Visa/Mastercard", "min": "$50", "processing": "Instant", "fee": "$0" },
+    { "method": "Wire Transfer", "min": "$50", "processing": "2-5 days", "fee": "$0" },
+    { "method": "Skrill/Neteller", "min": "$50", "processing": "Instant", "fee": "$0" },
+    { "method": "Local Bank/FasaPay", "min": "$20", "processing": "Instant-24h", "fee": "$0" }
+  ],
+  "pros": [
+    "CySEC regulated for EU clients — adds legitimate credibility beyond pure offshore operations",
+    "Multiple account tiers from $20 (Cent) to $10,000 (ECN) — caters to all experience levels",
+    "200+ instruments: forex, indices, commodities, stocks, crypto, bonds, ETFs — reasonable multi-asset coverage",
+    "Prime and ECN accounts offer raw spreads from 0.0 pips — competitive for active traders",
+    "Cent account allows micro-lot trading with $20 — genuine low-risk learning environment",
+    "MT4 and MT5 plus proprietary mobile app — platform flexibility",
+    "Copy trading available within the platform ecosystem",
+    "Strong presence in SE Asia with localised payment and support"
+  ],
+  "cons": [
+    "1:1000 leverage on Seychelles entity — recklessly high for retail traders, targeting the most vulnerable",
+    "Most international clients served by FSA Seychelles — minimal regulatory protection",
+    "Heavy bonus marketing and IB network growth — hallmarks of aggressive offshore broker expansion",
+    "FSCA (South Africa) is mid-tier regulation — not equivalent to FCA or ASIC in protection standards",
+    "Standard account spreads of 1.3+ pips are average at best — not competitive against dedicated ECN brokers",
+    "Complaint patterns visible in some forums regarding withdrawal delays for bonus-linked accounts",
+    "Rebranded from Pacific Union in 2021 — relatively young brand identity"
+  ],
+  "support_email": "",
+  "support_phone": "",
+  "withdrawal_time": "1-3 business days",
+  "withdrawal_fee": "$0 (standard methods)",
+  "warning_note": "Trading CFDs and forex involves significant risk of loss. High leverage amplifies both gains and losses.",
+  "tags": ["cysec", "fsca", "seychelles", "high-leverage", "copy-trading", "asia", "cent-account", "ecn"],
+  "badge": "none",
+  "promo_label": "",
+  "promo_code": "",
+  "affiliate_url": "AFFILIATE_PLACEHOLDER",
+
+
+  "author": {
+    "name": "NAFT Editorial Team",
+    "role": "Senior Broker Analyst, NAFT",
+    "bio": "12 years in the markets, mostly EUR/USD and gold CFDs. Started on a dealing desk, moved to independent analysis after watching too many brokers promise one thing and deliver another. Now focused on helping retail traders avoid the mistakes that cost real money.",
+    "image_url": "",
+    "social_url": "",
+    "sameAs": []
+  },
+  "conflict_note": null,
+  "regulatory_risk_warning": "Trading CFDs involves significant risk of capital loss. PU Prime offers leverage up to 1:1000 on its Seychelles entity — this level of leverage can result in rapid account depletion for inexperienced traders.",
+  "target_locale": "en",
+  "toc": [
+    { "id": "quick-verdict", "label": "Quick Verdict" },
+    { "id": "is-broker-regulated", "label": "Is It Regulated?" },
+    { "id": "where-broker-accepts-clients", "label": "Accepted Countries" },
+    { "id": "spreads-fees-accounts", "label": "Spreads and Fees" },
+    { "id": "deposits-withdrawals", "label": "Deposits and Withdrawals" },
+    { "id": "withdrawals", "label": "Withdrawal Reality" },
+    { "id": "red-flags", "label": "Red Flags" },
+    { "id": "who-broker-is-for", "label": "Who It Is For" },
+    { "id": "how-to-open-account", "label": "How to Open" },
+    { "id": "final-verdict", "label": "Final Verdict" }
+  ],
+  "assets": {
+    "logo_url": "",
+    "hero_image_url": "",
+    "og_image_url": "",
+    "regulator_badges": [
+      { "regulator": "CySEC (Cyprus)", "badge_url": "", "licence_number": "Active" },
+      { "regulator": "FSCA (South Africa)", "badge_url": "", "licence_number": "Active" },
+      { "regulator": "FSA Seychelles", "badge_url": "", "licence_number": "International entity" }
+    ],
+    "platform_screenshots": [],
+    "withdrawal_proof": null
+  },
+
+
+  "comparison_block": {
+    "heading": "PU Prime vs XM — Which Is Better for Asian Traders in 2026?",
+    "body": "Both brokers target Southeast Asia with high leverage on offshore entities, CySEC for EU credibility, and aggressive IB networks driving client acquisition. XM is larger (10+ million clients), older (2009), and holds ASIC alongside CySEC — giving it a regulatory edge. PU Prime is smaller but offers an ECN account with genuinely tight spreads for high-volume traders and a Cent account for beginners. XM wins on brand trust, regulatory depth (ASIC + CySEC), instrument variety, and educational resources. PU Prime wins on ECN pricing for advanced traders and Cent account accessibility for beginners. For the emerging-market retail trader wanting brand safety and education, XM. For the trader who specifically wants ECN-grade pricing from an Asian-focused broker, PU Prime's Prime/ECN tiers — if you can stomach the Seychelles entity risk.",
+    "brokers_compared": ["pu-prime", "xm"],
+    "cta_anchor": "Compare PU Prime side by side",
+    "cta_url": "/compare?brokers=pu-prime,xm"
+  },
+  "video_embed": { "type": null, "video_id": "", "title": "", "thumbnail_url": "", "duration_seconds": 0 },
+  "social_snippet": "PU Prime scores 5.5/10 from NAFT — CySEC + FSCA regulated, 200+ instruments, Cent to ECN accounts, but 1:1000 leverage on Seychelles entity raises serious concerns.",
+
+
+  "long_review": {
+    "seo": {
+      "title": "PU Prime Review 2026 — Legit, Safe or a Scam?",
+      "description": "PU Prime review 2026: CySEC + FSCA regulated, 200+ instruments, Cent to ECN accounts, up to 1:1000 leverage. NAFT scores PU Prime 5.5/10.",
+      "focus_keyword": "pu prime review",
+      "secondary_keywords": [
+        "pu prime review 2026", "is pu prime legit", "pu prime scam", "pu prime withdrawal",
+        "pu prime minimum deposit", "pu prime leverage", "pu prime vs xm",
+        "pacific union broker", "is pu prime regulated", "pu prime fees",
+        "pu prime indonesia", "pu prime malaysia", "pu prime mt4", "best forex broker asia 2026"
+      ],
+      "og_image_alt": "PU Prime NAFT score 5.5/10 CySEC FSCA regulated high leverage"
+    },
+    "last_updated_display": "Last updated: May 2026",
+    "disclaimer": "NAFT Disclaimer: Not A Fugazi Trader is an independent broker review platform. We may receive a commission when you open an account through our affiliate links. This never influences our ratings, reviews, or trust scores. Our scores are calculated from publicly available regulatory data, aggregated community feedback, and editorial assessment. Trading forex, CFDs, and derivatives involves significant risk of capital loss and is not suitable for all investors. Always verify a broker's regulatory status independently before depositing. [Read our full disclosure]",
+    "reading_time_minutes": 9,
+    "word_count": 2000,
+
+
+    "seo_audit": {
+      "primary_keyword_count": 13,
+      "broker_name_count": 38,
+      "year_mentioned_count": 6,
+      "question_headings_count": 7,
+      "faq_items_count": 8,
+      "internal_links_count": 6,
+      "affiliate_cta_included": true,
+      "legit_keyword_present": true,
+      "all_tone_rules_applied": true
+    },
+    "hot_take": "PU Prime rebranded from Pacific Union in 2021 and has been growing aggressively through IB networks in Southeast Asia. CySEC licence provides EU credibility. But the 1:1000 leverage on the Seychelles entity and heavy bonus marketing target exactly the trader profile most likely to lose everything. The execution reports are acceptable. The regulatory profile for international clients is not.",
+    "telegram_summary": "NAFT Verdict on PU Prime — 2026\n1. CySEC + FSCA regulated — credible for EU and SA clients but mid-tier overall.\n2. Seychelles entity offers 1:1000 leverage — recklessly high for retail traders.\n3. Cent account from $20 and ECN from $10,000 — broad range but polarised.\n4. Heavy IB-driven growth in SE Asia — bonus culture and aggressive marketing.\n5. Acceptable execution but regulatory profile for international clients is concerning.",
+
+
+    "verdict": {
+      "tldr": "PU Prime is a legitimate but concerning forex and CFD broker scoring 5.5/10 from NAFT in 2026. Formerly Pacific Union, the broker rebranded in 2021 and holds CySEC (Cyprus) and FSCA (South Africa) regulation alongside FSA Seychelles for international clients. The platform offers 200+ instruments across forex, indices, commodities, stocks, crypto, bonds, and ETFs through MT4, MT5, and a proprietary mobile app. Account tiers range from Cent ($20 minimum) for beginners to ECN ($10,000) for advanced traders with raw spreads from 0.0 pips. Copy trading is available. But the 1:1000 leverage on the Seychelles entity, heavy bonus marketing through IB networks in Southeast Asia, and mid-tier regulatory profile mean the majority of PU Prime's international clients trade with minimal protection and maximum risk exposure. If you specifically need a Cent account for learning or ECN pricing for volume trading — PU Prime offers both. If you need robust regulatory safety and conservative risk parameters — look at ASIC or FCA-regulated alternatives.",
+      "summary": "NAFT rates PU Prime 5.5/10 — CySEC + FSCA provide mid-tier credibility, Cent to ECN accounts serve all levels, but 1:1000 Seychelles leverage and IB-driven bonus culture are serious concerns.",
+      "best_for": "Beginners wanting Cent account micro-trading or advanced traders wanting ECN pricing, primarily in Southeast Asian markets",
+      "not_ideal_for": "Risk-conscious traders, anyone uncomfortable with offshore 1:1000 leverage entities, or those requiring Tier-1 regulatory protection",
+      "bottom_line": "The execution works. The account variety is genuine. But 1:1000 leverage marketed to emerging-market retail traders is not responsible brokerage — it is a product designed to generate losses.",
+      "star_rating": 2.8,
+      "trust_score": 5.5,
+      "trust_breakdown": [
+        { "label": "Regulation", "score": 5, "max": 10, "weight": 0.3 },
+        { "label": "User Reviews", "score": 6, "max": 10, "weight": 0.25 },
+        { "label": "Withdrawal Speed", "score": 6, "max": 10, "weight": 0.25 },
+        { "label": "Complaint History", "score": 5, "max": 10, "weight": 0.2 }
+      ]
+    },
+
+
+    "at_a_glance": {
+      "regulation": ["CySEC (Cyprus)", "FSCA (South Africa)", "FSA Seychelles (offshore international)"],
+      "min_deposit": "$20 (Cent), $50 (Standard/Prime)",
+      "max_leverage": "1:30 (CySEC EU), up to 1:1000 (Seychelles)",
+      "avg_spread_eurusd": "Variable from 1.3 pips (Standard), 0.0 pips (Prime/ECN + commission)",
+      "withdrawal_speed": "1-3 business days",
+      "platforms": ["MT4", "MT5", "PU Prime App (Proprietary Mobile)"],
+      "islamic_account": true,
+      "deposit_methods": ["Visa", "Mastercard", "Wire Transfer", "Skrill", "Neteller", "FasaPay", "Local Bank Transfer", "Crypto"]
+    },
+    "geo": {
+      "accepted": ["Malaysia", "Indonesia", "Thailand", "Vietnam", "Philippines", "India", "UAE", "Saudi Arabia", "South Africa", "Nigeria", "Kenya", "Egypt", "Brazil", "Mexico", "Colombia", "Chile", "Germany", "Spain", "France", "Italy", "Poland", "Netherlands"],
+      "excluded": ["United States", "Iran", "North Korea", "Syria", "Cuba", "Russia", "Myanmar", "Sudan", "sanctioned territories"],
+      "practical_note": "PU Prime's strongest markets are in Southeast Asia — Malaysia, Indonesia, Thailand, and Vietnam represent the bulk of client acquisition through IB networks. EU clients are served under the CySEC entity with ESMA protections. South African clients under FSCA. All other international clients receive the Seychelles entity with up to 1:1000 leverage and no compensation scheme. Your entity determines your protection level entirely."
+    },
+
+
+    "sections": [
+      {
+        "id": "quick-verdict",
+        "heading": "Is PU Prime Worth Your Money in 2026?",
+        "body": "PU Prime rebranded from Pacific Union in 2021 — a rebrand that coincided with aggressive expansion across Southeast Asia through introducing broker (IB) networks. The growth has been impressive in terms of client numbers. The CySEC licence for EU clients and FSCA for South Africa provide genuine regulatory anchors. The account range from $20 Cent accounts to $10,000 ECN accounts covers the full spectrum from absolute beginner to volume trader.\n\nBut let us be direct about what concerns NAFT in 2026. The Seychelles entity — which serves the majority of PU Prime's international client base — offers leverage up to 1:1000. One thousand to one. On a $100 deposit, that is $100,000 of market exposure. A 0.1% move against you wipes the account. This is not a trading tool — it is a slot machine with a forex chart overlay. And it is marketed primarily to retail traders in emerging markets who are statistically least equipped to manage that risk.\n\nThe execution itself is acceptable. MT4 and MT5 work as expected. The proprietary mobile app provides clean access. Spreads on the Standard account (1.3 pips EUR/USD) are average. The Prime and ECN accounts offer genuinely competitive raw-spread pricing from 0.0 pips plus commission — but require $1,000 and $10,000 respectively, which prices out the Cent account demographic that PU Prime markets to most aggressively.\n\nCopy trading is available and functional. The instrument range of 200+ covering forex, indices, commodities, stocks, crypto, bonds, and ETFs is reasonable if not exceptional. Payment processing generally works within stated timeframes. The broker is operational, it is growing, and it is not a scam. But the combination of 1:1000 leverage, bonus marketing, and IB-driven acquisition in vulnerable markets earns a below-average trust score from NAFT.",
+        "cta_after": true
+      },
+
+
+      {
+        "id": "is-broker-regulated",
+        "heading": "Is PU Prime Regulated? — Licence Check 2026",
+        "body": "Three regulatory entities cover PU Prime's global operations. The CySEC entity serves EU/EEA clients with full ESMA compliance — leverage caps at 1:30, negative balance protection, segregated client funds, and ICF coverage up to EUR 20,000. This is the regulated face of PU Prime for European markets.\n\nFSCA (South Africa) provides mid-tier regulation for the South African market. FSCA is legitimate and increasingly assertive but does not offer the same investor compensation depth as FCA or ASIC. Client money protections exist but are not equivalent to Tier-1 standards.\n\nThe FSA Seychelles entity serves the majority of international clients — Southeast Asia, Middle East, Africa, Latin America. Seychelles regulation provides basic operational oversight and registration but no investor compensation scheme, no mandatory segregation to CySEC standards, and critically — allows leverage up to 1:1000 which no Tier-1 regulator would permit for retail clients.\n\nNo regulatory fines or enforcement actions against PU Prime appear in CySEC or FSCA public databases. The broker has operated since 2016 (as Pacific Union, then PU Prime from 2021) without regulatory cessation. NAFT verified PU Prime regulation in May 2026.\n\nThe structural concern is clear: CySEC and FSCA provide marketing credibility. Seychelles provides the business freedom (1:1000 leverage, bonuses, aggressive IB terms). Most clients are served by the entity with least protection.",
+        "table": {
+          "headers": ["Entity", "Regulator", "Licence", "Who it covers", "Compensation scheme", "Leverage cap"],
+          "rows": [
+            ["PU Prime (Cyprus)", "CySEC", "Active", "EU/EEA residents", "ICF up to EUR 20,000", "1:30 majors (ESMA)"],
+            ["PU Prime (South Africa)", "FSCA", "Active", "South African residents", "Limited protection", "1:30"],
+            ["PU Prime (International)", "FSA Seychelles", "Active", "Rest of world (majority)", "No compensation scheme", "Up to 1:1000"]
+          ]
+        }
+      },
+
+
+      {
+        "id": "where-broker-accepts-clients",
+        "heading": "Who Can Open a PU Prime Account? — Accepted Countries in 2026",
+        "body": "Accepted: Malaysia, Indonesia, Thailand, Vietnam, Philippines, India, UAE, Saudi Arabia, South Africa, Nigeria, Kenya, Egypt, Brazil, Mexico, Colombia, Chile, Germany, Spain, France, Italy, Poland, Netherlands, and 60+ additional countries.\n\nNot accepted: United States, Iran, North Korea, Syria, Cuba, Russia, Myanmar, Sudan, and other sanctioned territories.\n\nPU Prime's core markets are in Southeast Asia — Malaysia and Indonesia appear to be the largest client sources based on IB network activity and localised marketing. The Middle East (UAE, Saudi Arabia) and Latin America represent secondary growth markets. EU and South Africa are regulated anchors. The US is excluded entirely.",
+        "practical_note": "Your regulatory entity is determined by residence. EU gets CySEC (1:30 leverage, ICF protection). South Africa gets FSCA. Everyone else gets Seychelles (1:1000 leverage, no compensation). There is no option to choose a more protective entity if your country assigns you to Seychelles. Understand this before depositing — the protection gap between CySEC and Seychelles is enormous."
+      },
+
+
+      {
+        "id": "spreads-fees-accounts",
+        "heading": "PU Prime Spreads, Fees and Accounts — What Do You Actually Pay in 2026?",
+        "body": "PU Prime operates a tiered account structure with pricing that improves dramatically as deposit levels increase. The Cent account ($20 minimum) and Standard account ($50 minimum) are spread-only with zero commission — typical EUR/USD spreads from 1.3 pips, approximately $13 per standard lot. Average but not competitive.\n\nThe Prime account ($1,000 minimum) offers raw spreads from 0.0 pips with $7 round-turn commission — approximately $7 all-in cost per lot. Competitive and aligned with institutional ECN pricing. The ECN account ($10,000 minimum) offers the same raw spreads with only $3.50 commission — genuinely cheap and competitive with the tightest-priced brokers in the industry.\n\nThe problem is accessibility. The traders PU Prime markets to most aggressively — $20-50 depositors in Southeast Asia attracted by 1:1000 leverage and bonuses — receive the worst pricing (1.3+ pip spreads). The traders who get competitive pricing (Prime/ECN) are those who least need the aggressive marketing because they already know what they want. The pricing structure creates a two-tier system where the most vulnerable pay the most.\n\nDeposit and withdrawal bonuses are actively marketed — often 50% or 100% on deposits. These bonuses typically come with volume requirements before withdrawal is permitted. Read the bonus terms carefully. Many complaint-forum posts about PU Prime relate to bonus conditions blocking withdrawals — not because the broker is a scam, but because traders did not read or understand the wagering requirements.\n\nSwap-free accounts are available for Islamic finance compliance. No inactivity fee is prominently published. Currency conversion fees may apply on deposits in non-base currencies.",
+        "table": {
+          "headers": ["Account", "Min deposit", "Spread EUR/USD", "Commission RT", "All-in cost/lot", "Leverage (Seychelles)"],
+          "rows": [
+            ["Cent", "$20", "From 1.3 pips", "$0", "~$1.30 (cent)", "Up to 1:1000"],
+            ["Standard", "$50", "From 1.3 pips", "$0", "~$13.00", "Up to 1:1000"],
+            ["Prime", "$1,000", "From 0.0 pips", "$7.00", "~$7.00", "Up to 1:1000"],
+            ["ECN", "$10,000", "From 0.0 pips", "$3.50", "~$3.50", "Up to 1:1000"]
+          ],
+          "footnote": "CySEC entity leverage capped at 1:30 regardless of account type. Spreads are variable and may widen during low liquidity. Bonus conditions may restrict withdrawals — read terms before accepting. Broker-stated figures, May 2026."
+        }
+      },
+
+
+      {
+        "id": "deposits-withdrawals",
+        "heading": "How Fast Can You Get Money In and Out of PU Prime in 2026?",
+        "body": "Deposits are instant via Visa, Mastercard, Skrill, Neteller, and FasaPay. Local bank transfers in Southeast Asian markets process within 24 hours. Wire transfers take 2-5 business days. Crypto deposits are available in select jurisdictions. Minimum deposit is $20 for the Cent account — genuinely low.\n\nWithdrawals process within 1-3 business days for most methods. PU Prime does not charge withdrawal fees on standard methods — a positive signal. However, withdrawal conditions may be affected by active bonuses. If you have accepted a deposit bonus, withdrawal of both the bonus and profits may be restricted until volume requirements are met.\n\nThis is the critical practical consideration for PU Prime users: do NOT accept bonuses unless you fully understand and accept the volume requirements. Many complaints in forums stem from traders accepting 100% deposit bonuses, making profits, then discovering they cannot withdraw until they have traded X lots. The broker is technically operating within the bonus terms — but the terms are designed to be difficult to fulfil.\n\nFor traders who avoid bonuses entirely, the withdrawal process is reported as acceptable — 1-3 business days, zero fees, standard processing. The issue is behavioural: PU Prime actively pushes bonuses through its IB network, and many traders accept without reading conditions.",
+        "cta_after": true,
+        "table": {
+          "headers": ["Method", "Min deposit", "Processing", "Fee (deposit)", "Fee (withdrawal)"],
+          "rows": [
+            ["Visa/Mastercard", "$50", "Instant / 1-3 days withdrawal", "$0", "$0"],
+            ["Wire Transfer", "$50", "2-5 days / 2-5 days withdrawal", "$0", "$0"],
+            ["Skrill/Neteller", "$50", "Instant / 1-3 days withdrawal", "$0", "$0"],
+            ["FasaPay/Local Bank", "$20", "Instant-24h / 1-3 days withdrawal", "$0", "$0"],
+            ["Crypto", "Varies", "Network time / 1-3 days withdrawal", "$0", "$0"]
+          ],
+          "footnote": "Withdrawals may be restricted if active bonus conditions are not met. Read bonus T&Cs carefully before accepting. Processing times are broker-stated. Intermediary bank fees may apply on wire transfers."
+        }
+      },
+
+
+      {
+        "id": "withdrawals",
+        "heading": "PU Prime Withdrawals in 2026 — Community Reports and Reality",
+        "body": "PU Prime's withdrawal reputation is mixed. For traders without active bonuses, withdrawals generally process within 1-3 business days without issues. The standard operational flow works. For traders with active bonuses who have not met volume requirements — complaints about blocked or delayed withdrawals are visible across forums and social media.\n\nThe distinction is important: PU Prime is not systematically blocking withdrawals for all users. It is enforcing bonus terms that many users did not fully understand when accepting. This is a common pattern across bonus-offering brokers and is technically within their rights. But NAFT views it as a predatory practice when bonuses are pushed aggressively to traders who are unlikely to understand the implications.\n\nTrustpilot and forex forum feedback shows a polarised picture. Positive: fast processing, zero fees, functional system. Negative: bonus-linked restrictions, occasional delays during high-volume periods, customer service response times. The sentiment splits roughly along the bonus acceptance line.\n\nFor CySEC entity clients in the EU, regulatory recourse exists through CySEC if withdrawals are genuinely blocked beyond bonus conditions. For FSCA clients, FSCA complaint mechanisms are available. For Seychelles entity clients — the majority — regulatory escalation options are minimal.\n\nNAFT recommendation: do NOT accept any bonus. Trade with a clean account, test a small withdrawal within the first week, and scale only after confirming the pipeline works for you personally."
+      },
+
+
+      {
+        "id": "red-flags",
+        "heading": "PU Prime Red Flags — What NAFT Found Before Scoring in 2026",
+        "body": "Multiple concerns exist that warrant a below-average trust score. PU Prime is operational and not a scam — but the business practices raise legitimate red flags. NAFT last reviewed PU Prime in May 2026:",
+        "bullets": [
+          "1:1000 leverage on the Seychelles entity — no Tier-1 regulator would permit this for retail clients. It is mathematically designed to create rapid account losses for inexperienced traders.",
+          "Aggressive bonus marketing through IB networks — 50-100% deposit bonuses with volume requirements that most retail traders cannot realistically meet. This creates withdrawal friction by design.",
+          "Most international clients served by FSA Seychelles — no compensation scheme, minimal regulatory oversight, maximum risk exposure for the majority of users.",
+          "IB-driven acquisition model means the broker's growth depends on introducing brokers who are incentivised by commissions, not by client success. Misaligned incentives.",
+          "Rebranded from Pacific Union in 2021 — the rebrand itself is not concerning but the aggressive growth trajectory post-rebrand suggests prioritising scale over sustainable, protective growth.",
+          "FSCA is mid-tier regulation — not equivalent to FCA or ASIC. CySEC is legitimate but serves as marketing credibility for a broker whose business is primarily offshore.",
+          "Complaint patterns in forums regarding bonus-condition withdrawals — not systematic fraud, but predatory bonus design targeting those least likely to read terms."
+        ]
+      },
+
+
+      {
+        "id": "who-broker-is-for",
+        "heading": "Who Should Use PU Prime — and Who Should Avoid It in 2026?",
+        "body": "PU Prime serves two legitimate use cases well: absolute beginners wanting micro-lot Cent account practice, and advanced traders wanting ECN pricing. Everyone in between should consider whether the risk profile matches their needs.",
+        "not_for": [
+          "Risk-averse traders — 1:1000 leverage availability, bonus culture, and Seychelles-primary regulation create an environment that does not prioritise capital protection.",
+          "Traders who cannot resist bonuses — if you are likely to accept a 100% deposit bonus without reading the 15-page terms, PU Prime will cost you. Avoid.",
+          "Anyone requiring Tier-1 regulatory safety — CySEC is only for EU residents. Everyone else gets Seychelles with no safety net.",
+          "Intermediate traders wanting competitive standard-account pricing — 1.3+ pip spreads on the Standard account are average at best. You can get better elsewhere.",
+          "US residents — PU Prime does not accept clients from the United States."
+        ],
+        "for": [
+          "Absolute beginners wanting a Cent account ($20) to learn with micro-lots in a live market environment without risking meaningful capital.",
+          "Advanced traders with $10,000+ who want ECN pricing at $3.50 commission round-turn — genuinely competitive for high-volume forex trading.",
+          "Traders in SE Asia who want MT4/MT5 access with local payment methods and localised support in their language.",
+          "Copy trading users who want to replicate strategies with low minimum allocation.",
+          "EU traders who want the CySEC-regulated entity with ESMA protections, conservative leverage, and ICF coverage."
+        ]
+      },
+
+
+      {
+        "id": "how-to-open-account",
+        "heading": "How to Open a PU Prime Account — Step by Step in 2026",
+        "body": "Registration is straightforward. KYC verification typically completes within 24-48 hours. The Cent account can be funded with as little as $20.",
+        "steps": [
+          {
+            "number": 1,
+            "title": "Register on puprime.com",
+            "detail": "Visit puprime.com or download the PU Prime app. Click Register, enter email, create password, select country. You will be assigned to CySEC (EU), FSCA (South Africa), or Seychelles (international) based on residence. Select your preferred account type: Cent, Standard, Prime, or ECN."
+          },
+          {
+            "number": 2,
+            "title": "Complete KYC and DO NOT accept bonuses",
+            "detail": "Upload government-issued photo ID and proof of address. Complete the appropriateness questionnaire. NAFT strongly recommends: do NOT accept any deposit bonus during this process. Decline all bonus offers. Trade with a clean account to avoid withdrawal restrictions."
+          },
+          {
+            "number": 3,
+            "title": "Fund with minimum deposit and test withdrawal immediately",
+            "detail": "Deposit $20-50 via card, e-wallet, or local bank (fee-free). Place a small trade. Request a withdrawal within the first week to test the pipeline WITHOUT bonus complications. If clean withdrawal processes within 3 days, consider scaling.",
+            "cta_inline": { "label": "Open PU Prime Account", "url": "AFFILIATE_PLACEHOLDER" }
+          }
+        ],
+        "practical_note": "If you are on the Seychelles entity and offered 1:1000 leverage — reduce it manually in your account settings to 1:30 or 1:50 maximum. No retail trader needs 1:1000 leverage. It exists because it generates losses (and therefore broker revenue) faster than conservative leverage. Protect yourself from your own worst impulses.",
+        "cta_after": true
+      },
+
+
+      {
+        "id": "final-verdict",
+        "heading": "PU Prime Final Verdict — Is It Legit and Worth It in 2026?",
+        "body": "NAFT scores PU Prime 5.5 out of 10 — below average, reflecting legitimate concerns about the broker's offshore practices despite acceptable execution and genuine regulatory anchors. CySEC and FSCA provide credibility. The Cent account is a legit learning tool. The ECN account offers genuinely competitive pricing for volume traders. MT4 and MT5 work as expected. The broker is operational, it processes withdrawals, and it is not a scam.\n\nBut NAFT cannot overlook the combination of 1:1000 leverage on the Seychelles entity, aggressive bonus marketing through IB networks targeting the most vulnerable trader demographics in Southeast Asia, and a complaint profile centred on bonus-linked withdrawal restrictions. These are not the hallmarks of a broker that prioritises client welfare. They are the hallmarks of a broker optimising for growth metrics.\n\nPU Prime is legit in the sense that it is regulated, operational, and processes trades. It is not legit in the sense of being a responsible steward of retail trader capital for its offshore client base. The two things can be true simultaneously. For EU clients under CySEC with ESMA protections — PU Prime is an acceptable mid-tier broker. For international clients on Seychelles with 1:1000 leverage and bonus temptations — the risk profile is concerning.\n\nIf you use PU Prime in 2026: decline all bonuses, reduce leverage manually, start with the minimum, test withdrawals early, and never deposit more than you can afford to lose entirely. Those rules apply to all brokers — but they apply especially here."
+      }
+    ],
+
+
+    "affiliate_cta": {
+      "label": "Open PU Prime Account",
+      "url": "AFFILIATE_PLACEHOLDER",
+      "promo_code": null,
+      "friction_reducers": [
+        "CySEC + FSCA regulated — dual-jurisdiction credibility",
+        "Cent account from $20 — genuine micro-lot learning environment",
+        "ECN account — raw spreads from 0.0 pips, $3.50 commission",
+        "200+ instruments — forex, indices, crypto, stocks, bonds, ETFs",
+        "MT4 + MT5 + proprietary mobile app",
+        "Copy trading available",
+        "Local payment methods in SE Asia",
+        "Zero deposit and withdrawal fees"
+      ]
+    },
+    "cta_positions": ["after_section_quick-verdict", "after_section_deposits-withdrawals", "in_section_how-to-open-account_step3"],
+    "trustpilot": {
+      "rating": 3.6,
+      "reviews": 2200,
+      "velocity_30d": "Moderate — 40-60 reviews per month, reflecting IB-driven growth",
+      "polarisation_note": "Highly polarised. Positive reviews cite fast execution, platform stability, and ECN pricing. Negative reviews overwhelmingly cite bonus withdrawal conditions, high leverage losses, and IB-related issues.",
+      "broker_response_rate": "Above 30% — responsive but not proactive",
+      "source_note": "Trustpilot, forex forums, publicly reported data, May 2026"
+    },
+
+
+    "internal_links": [
+      { "anchor": "compare brokers side by side", "url": "/compare" },
+      { "anchor": "best forex brokers for Asia", "url": "/brokers?region=asia" },
+      { "anchor": "broker scam alerts and warnings", "url": "/scam-alerts" },
+      { "anchor": "community withdrawal proofs", "url": "/withdrawal-proofs" },
+      { "anchor": "how NAFT reviews brokers", "url": "/how-we-review-brokers" },
+      { "anchor": "file a broker complaint with NAFT", "url": "/complaints" }
+    ],
+    "faq": [
+      {
+        "q": "Is PU Prime a legit broker or a scam?",
+        "a": "PU Prime is legitimate — regulated by CySEC and FSCA, operational since 2016. Not a scam. But the 1:1000 leverage and bonus practices on the Seychelles entity raise serious concerns. NAFT rates PU Prime 5.5/10 in 2026."
+      },
+      {
+        "q": "What is the minimum deposit for PU Prime?",
+        "a": "$20 for the Cent account, $50 for Standard, $1,000 for Prime, $10,000 for ECN. All deposits are fee-free via card and e-wallet."
+      },
+      {
+        "q": "Is PU Prime regulated?",
+        "a": "Yes — CySEC (Cyprus) for EU, FSCA (South Africa), and FSA Seychelles for international. Most clients receive the Seychelles entity with minimal protection and maximum leverage."
+      },
+      {
+        "q": "Should I accept PU Prime bonuses?",
+        "a": "NAFT recommends declining all bonuses. They come with volume requirements that restrict withdrawals until met. Many complaints relate to bonus conditions, not broker fraud. Trade clean."
+      },
+      {
+        "q": "How fast are PU Prime withdrawals?",
+        "a": "1-3 business days for most methods, zero fees — if you have no active bonus. Active bonus conditions may restrict withdrawals until volume requirements are met."
+      },
+      {
+        "q": "Does PU Prime accept US clients?",
+        "a": "No. PU Prime does not accept clients from the United States under any entity."
+      },
+      {
+        "q": "What is Pacific Union?",
+        "a": "PU Prime's former name. The broker operated as Pacific Union from 2016 until rebranding to PU Prime in 2021. Same company, same operations, new branding and expanded regulation."
+      },
+      {
+        "q": "Is 1:1000 leverage safe?",
+        "a": "No. 1:1000 leverage means a 0.1% market move can wipe your entire account. No Tier-1 regulator allows this for retail traders. If using PU Prime's Seychelles entity, manually reduce leverage to 1:30-1:50 in account settings."
+      }
+    ],
+
+
+    "schema_jsonld": {
+      "review": {
+        "@context": "https://schema.org",
+        "@type": "Review",
+        "itemReviewed": { "@type": "FinancialService", "name": "PU Prime" },
+        "author": { "@type": "Person", "name": "NAFT Editorial Team", "url": "https://naft.com/authors/editorial-team", "sameAs": [] },
+        "reviewRating": { "@type": "Rating", "ratingValue": "5.5", "bestRating": "10" },
+        "datePublished": "2026-05-30",
+        "dateModified": "2026-05-30"
+      },
+      "aggregateRating": {
+        "@context": "https://schema.org",
+        "@type": "AggregateRating",
+        "itemReviewed": { "@type": "FinancialService", "name": "PU Prime" },
+        "ratingValue": "2.8",
+        "bestRating": "5",
+        "ratingCount": "2200"
+      },
+      "faqPage": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          { "@type": "Question", "name": "Is PU Prime a legit broker or a scam?", "acceptedAnswer": { "@type": "Answer", "text": "PU Prime is legitimate — CySEC and FSCA regulated, operational since 2016. Not a scam but 1:1000 leverage and bonus practices raise concerns. NAFT rates 5.5/10." } },
+          { "@type": "Question", "name": "Should I accept PU Prime bonuses?", "acceptedAnswer": { "@type": "Answer", "text": "No. Bonuses come with volume requirements that restrict withdrawals. Trade clean." } },
+          { "@type": "Question", "name": "Is 1:1000 leverage safe?", "acceptedAnswer": { "@type": "Answer", "text": "No. A 0.1% move can wipe your account. Manually reduce to 1:30-1:50." } }
+        ]
+      },
+      "organization": { "@context": "https://schema.org", "@type": "Organization", "name": "NAFT", "url": "https://naft.com" },
+      "breadcrumbList": {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://naft.com" },
+          { "@type": "ListItem", "position": 2, "name": "Broker Reviews", "item": "https://naft.com/brokers" },
+          { "@type": "ListItem", "position": 3, "name": "PU Prime Review 2026", "item": "https://naft.com/brokers/pu-prime" }
+        ]
+      },
+      "howTo": {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "How to Open a PU Prime Account",
+        "description": "Step-by-step guide to opening a PU Prime trading account in 2026.",
+        "step": [
+          { "@type": "HowToStep", "position": 1, "name": "Register", "text": "Visit puprime.com, click Register, select country and account type." },
+          { "@type": "HowToStep", "position": 2, "name": "Verify and decline bonuses", "text": "Upload ID and proof of address. Decline all bonus offers." },
+          { "@type": "HowToStep", "position": 3, "name": "Fund and test", "text": "Deposit $20-50 fee-free. Test withdrawal within the first week." }
+        ]
+      },
+      "videoObject": null
+    },
+    "sources": [
+      "PU Prime official website — puprime.com (accounts, fees, regulation pages)",
+      "CySEC Register — PU Prime entity confirmed active May 2026",
+      "FSCA Register — PU Prime South Africa confirmed active",
+      "FSA Seychelles — international entity confirmed active",
+      "Trustpilot — approximately 3.6 stars from 2,200+ reviews (publicly reported May 2026)",
+      "ForexPeaceArmy, forex forums — complaint pattern analysis regarding bonus conditions",
+      "PU Prime risk disclosure — leverage and CFD risk warnings published"
+    ]
+  }
+}
