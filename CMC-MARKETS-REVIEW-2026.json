@@ -7,7 +7,14 @@
   "website_url": "https://www.cmcmarkets.com",
   "logo_url": "",
   "description": "CMC Markets is a London-headquartered, LSE-listed forex and CFD broker founded in 1989. Regulated by the FCA, ASIC, BaFin, MAS, FMA and CIRO, it offers 12,000+ instruments across its proprietary Next Generation platform, MetaTrader 4, and TradingView. The broker serves retail and professional clients globally with spread betting (UK) and CFD trading accounts.",
-  "regulation": ["FCA (UK)", "ASIC (Australia)", "BaFin (Germany)", "MAS (Singapore)", "FMA (New Zealand)", "CIRO (Canada)"],
+  "regulation": [
+    "FCA (UK)",
+    "ASIC (Australia)",
+    "BaFin (Germany)",
+    "MAS (Singapore)",
+    "FMA (New Zealand)",
+    "CIRO (Canada)"
+  ],
   "license_number": "FCA 173730",
   "min_deposit": "$0",
   "leverage": "1:30 (FCA/ASIC retail), up to 1:500 (international)",
@@ -43,16 +50,44 @@
       "source": "broker-stated"
     }
   ],
-  "platforms": ["CMC Next Generation", "MetaTrader 4", "TradingView"],
-  "payment_methods": ["Bank Transfer", "Visa", "Mastercard", "PayPal", "Open Banking"],
-  "payment_method_details": [
-    { "method": "Bank Transfer", "min": "$0", "processing": "Same-day (before 4pm UK)", "fee": "Free" },
-    { "method": "Visa/Mastercard", "min": "$0", "processing": "1-5 business days", "fee": "Free (UK/EU)" },
-    { "method": "PayPal", "min": "$0", "processing": "1-2 business days", "fee": "Free" },
-    { "method": "Open Banking", "min": "$0", "processing": "Instant (deposit only)", "fee": "Free" }
+  "platforms": [
+    "CMC Next Generation",
+    "MetaTrader 4",
+    "TradingView"
   ],
-
-
+  "payment_methods": [
+    "Bank Transfer",
+    "Visa",
+    "Mastercard",
+    "PayPal",
+    "Open Banking"
+  ],
+  "payment_method_details": [
+    {
+      "method": "Bank Transfer",
+      "min": "$0",
+      "processing": "Same-day (before 4pm UK)",
+      "fee": "Free"
+    },
+    {
+      "method": "Visa/Mastercard",
+      "min": "$0",
+      "processing": "1-5 business days",
+      "fee": "Free (UK/EU)"
+    },
+    {
+      "method": "PayPal",
+      "min": "$0",
+      "processing": "1-2 business days",
+      "fee": "Free"
+    },
+    {
+      "method": "Open Banking",
+      "min": "$0",
+      "processing": "Instant (deposit only)",
+      "fee": "Free"
+    }
+  ],
   "pros": [
     "FCA, ASIC, BaFin, MAS regulated — four Tier-1 licences with FSCS compensation up to GBP 85,000 for UK clients",
     "12,000+ instruments — one of the largest product ranges of any retail CFD broker globally",
@@ -73,7 +108,14 @@
   "withdrawal_time": "Same-day bank transfer (before 4pm UK), 1-5 days card",
   "withdrawal_fee": "Free (UK/EU)",
   "warning_note": "FCA has issued a clone warning for 'CMC Global Markets' — a fraudulent entity using a similar name to CMC Markets. Verify you are on cmcmarkets.com before depositing. GBP 10/month inactivity fee applies after 12 months of no trading.",
-  "tags": ["fca-regulated", "asic-regulated", "lse-listed", "spread-betting", "tier-1", "established"],
+  "tags": [
+    "fca-regulated",
+    "asic-regulated",
+    "lse-listed",
+    "spread-betting",
+    "tier-1",
+    "established"
+  ],
   "badge": "none",
   "promo_label": "",
   "promo_code": "",
@@ -90,30 +132,82 @@
   "regulatory_risk_warning": "68% of retail investor accounts lose money when spread betting and/or trading CFDs with this provider. CMC Markets-stated figure from their UK website, January 2026.",
   "target_locale": "en",
   "toc": [
-    { "id": "quick-verdict", "label": "Quick Verdict" },
-    { "id": "is-broker-regulated", "label": "Is It Regulated?" },
-    { "id": "where-broker-accepts-clients", "label": "Accepted Countries" },
-    { "id": "spreads-fees-accounts", "label": "Spreads and Fees" },
-    { "id": "deposits-withdrawals", "label": "Deposits and Withdrawals" },
-    { "id": "withdrawals", "label": "Withdrawal Reality" },
-    { "id": "red-flags", "label": "Red Flags" },
-    { "id": "who-broker-is-for", "label": "Who It Is For" },
-    { "id": "how-to-open-account", "label": "How to Open" },
-    { "id": "final-verdict", "label": "Final Verdict" }
+    {
+      "id": "quick-verdict",
+      "label": "Quick Verdict"
+    },
+    {
+      "id": "is-broker-regulated",
+      "label": "Is It Regulated?"
+    },
+    {
+      "id": "where-broker-accepts-clients",
+      "label": "Accepted Countries"
+    },
+    {
+      "id": "spreads-fees-accounts",
+      "label": "Spreads and Fees"
+    },
+    {
+      "id": "deposits-withdrawals",
+      "label": "Deposits and Withdrawals"
+    },
+    {
+      "id": "withdrawals",
+      "label": "Withdrawal Reality"
+    },
+    {
+      "id": "red-flags",
+      "label": "Red Flags"
+    },
+    {
+      "id": "who-broker-is-for",
+      "label": "Who It Is For"
+    },
+    {
+      "id": "how-to-open-account",
+      "label": "How to Open"
+    },
+    {
+      "id": "final-verdict",
+      "label": "Final Verdict"
+    }
   ],
-
-
   "assets": {
     "logo_url": "",
     "hero_image_url": "",
     "og_image_url": "",
     "regulator_badges": [
-      { "regulator": "FCA", "badge_url": "", "licence_number": "173730" },
-      { "regulator": "ASIC", "badge_url": "", "licence_number": "238054" },
-      { "regulator": "BaFin", "badge_url": "", "licence_number": "" },
-      { "regulator": "MAS", "badge_url": "", "licence_number": "" },
-      { "regulator": "FMA", "badge_url": "", "licence_number": "" },
-      { "regulator": "CIRO", "badge_url": "", "licence_number": "" }
+      {
+        "regulator": "FCA",
+        "badge_url": "",
+        "licence_number": "173730"
+      },
+      {
+        "regulator": "ASIC",
+        "badge_url": "",
+        "licence_number": "238054"
+      },
+      {
+        "regulator": "BaFin",
+        "badge_url": "",
+        "licence_number": ""
+      },
+      {
+        "regulator": "MAS",
+        "badge_url": "",
+        "licence_number": ""
+      },
+      {
+        "regulator": "FMA",
+        "badge_url": "",
+        "licence_number": ""
+      },
+      {
+        "regulator": "CIRO",
+        "badge_url": "",
+        "licence_number": ""
+      }
     ],
     "platform_screenshots": [],
     "withdrawal_proof": null
@@ -121,7 +215,10 @@
   "comparison_block": {
     "heading": "CMC Markets vs IG — Which Is Better in 2026?",
     "body": "IG edges CMC on raw forex spreads — 0.6 pips average EUR/USD versus CMC's 0.7. But CMC wins on platform depth and instrument count (12,000+ vs IG's 17,000+, though CMC's charting tools are arguably superior). CMC's guaranteed stop-loss orders offer genuine downside protection that IG charges more for. For UK spread bettors, both are legitimate choices. Pure scalpers favour IG's tighter spreads. Traders who value platform tools and want more indices or shares CFDs should lean CMC.",
-    "brokers_compared": ["cmc-markets", "ig"],
+    "brokers_compared": [
+      "cmc-markets",
+      "ig"
+    ],
     "cta_anchor": "Compare CMC Markets side by side",
     "cta_url": "/compare?brokers=cmc-markets,ig"
   },
@@ -133,8 +230,6 @@
     "duration_seconds": 0
   },
   "social_snippet": "CMC Markets scores 8.1/10 from NAFT — FCA-regulated since 1989, same-day withdrawals, 12,000+ instruments.",
-
-
   "long_review": {
     "seo": {
       "title": "CMC Markets Review 2026 — Legit, Safe or a Scam?",
@@ -162,8 +257,6 @@
     "disclaimer": "NAFT Disclaimer: Not A Fugazi Trader is an independent broker review platform. We may receive a commission when you open an account through our affiliate links. This never influences our ratings, reviews, or trust scores. Our scores are calculated from publicly available regulatory data, aggregated community feedback, and editorial assessment. Trading forex, CFDs, and derivatives involves significant risk of capital loss and is not suitable for all investors. Always verify a broker's regulatory status independently before depositing. [Read our full disclosure]",
     "reading_time_minutes": 12,
     "word_count": 2410,
-
-
     "seo_audit": {
       "primary_keyword_count": 8,
       "broker_name_count": 42,
@@ -177,8 +270,6 @@
     },
     "hot_take": "CMC Markets has been around since 1989 and still cannot offer a flat per-lot commission on its FX Active account. The $5 per $100,000 traded structure sounds clever until you realise it makes cost comparison nearly impossible for the average trader. And that is likely the point. When your competitor charges $3.50 per lot and you charge a percentage of notional value, you are banking on traders not doing the maths. The platform is genuinely excellent — but that pricing opacity is a choice, not an accident.",
     "telegram_summary": "NAFT Verdict on CMC Markets — 2026\nFCA/ASIC/BaFin/MAS regulated, LSE-listed since 2016 — trust score 8.1/10.\nSame-day withdrawals confirmed via bank transfer before 4pm UK.\nGBP 10/month inactivity fee after 12 months — set a calendar reminder.\nBest for experienced traders wanting 12,000+ instruments and advanced charting.\nAvoid if you need MT5 or flat per-lot commission pricing.",
-
-
     "verdict": {
       "tldr": "CMC Markets is a legitimate, FCA-regulated broker with 35+ years of operation and LSE listing since 2016. NAFT scores it 8.1/10 for 2026 — strong regulation across four Tier-1 jurisdictions, same-day withdrawal processing, and one of the deepest instrument ranges in retail trading. The 0.7 pip EUR/USD spread on Standard is fair but not class-leading. Watch for the GBP 10/month inactivity fee and the opaque FX Active commission structure. A solid choice for intermediate-to-advanced traders who value platform depth over rock-bottom costs.",
       "summary": "NAFT rates CMC Markets 8.1/10 — a well-regulated, publicly listed broker with genuine strengths in platform technology and instrument range. Not the cheapest, but among the most trustworthy.",
@@ -188,31 +279,97 @@
       "star_rating": 4.1,
       "trust_score": 8.1,
       "trust_breakdown": [
-        { "label": "Regulation", "score": 9, "max": 10, "weight": 0.30 },
-        { "label": "User Reviews", "score": 8, "max": 10, "weight": 0.25 },
-        { "label": "Withdrawal Speed", "score": 8, "max": 10, "weight": 0.25 },
-        { "label": "Complaint History", "score": 7, "max": 10, "weight": 0.20 }
+        {
+          "label": "Regulation",
+          "score": 9,
+          "max": 10,
+          "weight": 0.3
+        },
+        {
+          "label": "User Reviews",
+          "score": 8,
+          "max": 10,
+          "weight": 0.25
+        },
+        {
+          "label": "Withdrawal Speed",
+          "score": 8,
+          "max": 10,
+          "weight": 0.25
+        },
+        {
+          "label": "Complaint History",
+          "score": 7,
+          "max": 10,
+          "weight": 0.2
+        }
       ]
     },
-
-
     "at_a_glance": {
-      "regulation": ["FCA (UK)", "ASIC (Australia)", "BaFin (Germany)", "MAS (Singapore)", "FMA (New Zealand)", "CIRO (Canada)"],
+      "regulation": [
+        "FCA (UK)",
+        "ASIC (Australia)",
+        "BaFin (Germany)",
+        "MAS (Singapore)",
+        "FMA (New Zealand)",
+        "CIRO (Canada)"
+      ],
       "min_deposit": "$0",
       "max_leverage": "1:30 (FCA/ASIC retail), up to 1:500 (international)",
       "avg_spread_eurusd": "0.7 pips (Standard), 0.0-0.2 pips (FX Active)",
       "withdrawal_speed": "Same-day bank transfer (before 4pm UK)",
-      "platforms": ["CMC Next Generation", "MetaTrader 4", "TradingView"],
+      "platforms": [
+        "CMC Next Generation",
+        "MetaTrader 4",
+        "TradingView"
+      ],
       "islamic_account": true,
-      "deposit_methods": ["Bank Transfer", "Visa", "Mastercard", "PayPal", "Open Banking"]
+      "deposit_methods": [
+        "Bank Transfer",
+        "Visa",
+        "Mastercard",
+        "PayPal",
+        "Open Banking"
+      ]
     },
     "geo": {
-      "accepted": ["United Kingdom", "Australia", "New Zealand", "Canada", "Singapore", "Germany", "Austria", "Ireland", "France", "Spain", "Italy", "Norway", "Sweden", "Poland", "India", "South Africa", "UAE", "Saudi Arabia", "Thailand", "Philippines", "Vietnam", "Indonesia"],
-      "excluded": ["United States", "Japan", "Belgium", "Russia", "North Korea", "Iran", "Syria", "Cuba", "Crimea"],
+      "accepted": [
+        "United Kingdom",
+        "Australia",
+        "New Zealand",
+        "Canada",
+        "Singapore",
+        "Germany",
+        "Austria",
+        "Ireland",
+        "France",
+        "Spain",
+        "Italy",
+        "Norway",
+        "Sweden",
+        "Poland",
+        "India",
+        "South Africa",
+        "UAE",
+        "Saudi Arabia",
+        "Thailand",
+        "Philippines",
+        "Vietnam",
+        "Indonesia"
+      ],
+      "excluded": [
+        "United States",
+        "Japan",
+        "Belgium",
+        "Russia",
+        "North Korea",
+        "Iran",
+        "Syria",
+        "Cuba",
+        "Crimea"
+      ],
       "practical_note": "Malaysia is a grey zone — CMC Markets has no dedicated Malaysian entity and does not actively market there. Traders in Singapore are routed to the MAS-regulated entity. Canadian clients fall under CIRO regulation via CMC Markets Canada Inc. Most Asian and Middle Eastern clients are accepted but should confirm their entity routing before depositing."
     },
-
-
     "sections": [
       {
         "id": "quick-verdict",
@@ -220,76 +377,170 @@
         "body": "Thirty-five years in operation and a London Stock Exchange listing since 2016 — that is the kind of track record most brokers cannot fake. CMC Markets holds four Tier-1 licences (FCA, ASIC, BaFin, MAS) and publishes quarterly financials like any public company must. The Next Generation platform is genuinely one of the best proprietary platforms in retail trading, with pattern recognition scanning and client sentiment data built in rather than bolted on. Same-day withdrawals via bank transfer are publicly reported as reliable by the majority of users.\n\nThe honest catch sits in the fee structure. Standard account spreads of 0.7 pips EUR/USD are fair but not best-in-class — IG offers 0.6 and Pepperstone's Razor comes in at 0.0 plus $7 commission. The FX Active account promises tighter spreads but charges $5 per $100,000 traded, which makes direct cost comparison deliberately difficult. And that GBP 10/month inactivity fee after 12 months will catch anyone who trades seasonally or takes a break.\n\nThis broker suits experienced traders who value platform depth and instrument access over rock-bottom pricing. If you trade regularly across multiple asset classes and want Tier-1 regulation without compromise, CMC Markets earns its place on your shortlist for 2026.",
         "cta_after": true
       },
-
-
       {
         "id": "is-broker-regulated",
         "heading": "Is CMC Markets Regulated? — Licence Check 2026",
         "body": "Yes — and regulated properly, not the offshore-with-a-badge type. CMC Markets UK plc holds FCA licence 173730, verified on the FCA register. The Australian arm (CMC Markets Asia Pacific Pty Ltd) holds ASIC licence 238054. German operations run through BaFin, Singapore through MAS, New Zealand through the FMA, and Canada through CIRO. That is six regulators across four continents, all independently verifiable.\n\nWhat this means for your money depends on where you live. UK clients get FSCS protection up to GBP 85,000 if CMC Markets fails — real compensation, not just words on a page. EU clients under the German entity qualify for ICF coverage up to EUR 20,000. Australian clients get segregated funds but no compensation scheme — ASIC does not offer one. Same story for Singapore and New Zealand: segregation yes, government-backed insurance no.\n\nLeverage caps follow the expected pattern. FCA and ASIC retail clients get 1:30 on majors, 1:20 on minors, 1:10 on commodities. International entity clients may access up to 1:500 depending on classification. Client funds are held in segregated accounts across all entities — this is a regulatory requirement, not a favour.\n\nThe FCA has issued a clone warning for a fraudulent entity called 'CMC Global Markets' that is not connected to the legitimate CMC Markets. Always verify you are accessing cmcmarkets.com directly. NAFT last reviewed CMC Markets regulation in January 2026.",
         "table": {
-          "headers": ["Entity", "Regulator", "Licence", "Who it covers", "Compensation scheme", "Leverage cap"],
+          "headers": [
+            "Entity",
+            "Regulator",
+            "Licence",
+            "Who it covers",
+            "Compensation scheme",
+            "Leverage cap"
+          ],
           "rows": [
-            ["CMC Markets UK plc", "FCA", "173730", "UK, international", "FSCS up to GBP 85,000", "1:30 retail"],
-            ["CMC Markets Asia Pacific Pty Ltd", "ASIC", "238054", "Australia", "None (segregation only)", "1:30 retail"],
-            ["CMC Markets Germany GmbH", "BaFin", "", "Germany, EU/EEA", "ICF up to EUR 20,000", "1:30 retail"],
-            ["CMC Markets Singapore Pte Ltd", "MAS", "", "Singapore", "None (segregation only)", "1:30 retail"],
-            ["CMC Markets NZ Ltd", "FMA", "", "New Zealand", "None (segregation only)", "1:30 retail"],
-            ["CMC Markets Canada Inc", "CIRO", "", "Canada", "CIPF coverage", "1:30 retail"]
+            [
+              "CMC Markets UK plc",
+              "FCA",
+              "173730",
+              "UK, international",
+              "FSCS up to GBP 85,000",
+              "1:30 retail"
+            ],
+            [
+              "CMC Markets Asia Pacific Pty Ltd",
+              "ASIC",
+              "238054",
+              "Australia",
+              "None (segregation only)",
+              "1:30 retail"
+            ],
+            [
+              "CMC Markets Germany GmbH",
+              "BaFin",
+              "",
+              "Germany, EU/EEA",
+              "ICF up to EUR 20,000",
+              "1:30 retail"
+            ],
+            [
+              "CMC Markets Singapore Pte Ltd",
+              "MAS",
+              "",
+              "Singapore",
+              "None (segregation only)",
+              "1:30 retail"
+            ],
+            [
+              "CMC Markets NZ Ltd",
+              "FMA",
+              "",
+              "New Zealand",
+              "None (segregation only)",
+              "1:30 retail"
+            ],
+            [
+              "CMC Markets Canada Inc",
+              "CIRO",
+              "",
+              "Canada",
+              "CIPF coverage",
+              "1:30 retail"
+            ]
           ]
         }
       },
-
-
       {
         "id": "where-broker-accepts-clients",
         "heading": "Who Can Open an Account With CMC Markets? — Accepted Countries and Restrictions",
         "body": "Accepted: United Kingdom, Australia, New Zealand, Canada, Singapore, Germany, Austria, Ireland, France, Spain, Italy, Norway, Sweden, Poland, India, South Africa, UAE, Saudi Arabia, Thailand, Philippines, Vietnam, Indonesia.\n\nNot accepted: United States, Japan, Belgium, Russia, North Korea, Iran, Syria, Cuba, Crimea.\n\nEntity routing matters here. UK residents go through the FCA entity with FSCS protection. Australians land under ASIC. Canadians get CIRO coverage. Singapore clients are MAS-regulated. For traders in India, UAE, Saudi Arabia, and most of Southeast Asia, the entity routing depends on your application — confirm which entity you are assigned to before funding, because compensation schemes vary dramatically between them.",
         "practical_note": "Malaysia is a grey zone — CMC has no dedicated Malaysian entity and does not actively solicit Malaysian clients. If you are based in Malaysia, you may be able to open an account but should not assume regulatory protection applies."
       },
-
-
       {
         "id": "spreads-fees-accounts",
         "heading": "CMC Markets Spreads, Fees and Accounts — What Do You Actually Pay in 2026?",
         "body": "On the Standard CFD account, you pay 0.7 pips average on EUR/USD with zero commission — that is $7.00 all-in per standard lot round-turn (broker-stated). Fair, but not the tightest in the market. IG manages 0.6 pips on the same pair, and Pepperstone Razor delivers 0.0 pips plus $7 commission for roughly the same all-in cost with better raw pricing.\n\nThe FX Active account drops spreads to 0.0-0.2 pips but charges $5 per $100,000 notional traded. On a standard lot of EUR/USD at current rates, that works out to roughly $10 round-turn in commission alone — before the spread. Total all-in cost lands around $10-$12 per lot depending on the session. Compare that to IC Markets at $7 flat or Pepperstone at $7 flat and you see why the percentage-based model frustrates traders who actually do the arithmetic.\n\nSpread betting is available for UK clients only — same 0.7 pips, zero commission, with the tax-free wrapper that makes it attractive for UK-resident traders who qualify. Guaranteed stop-loss orders are available across all accounts at a premium — genuinely useful for overnight gap protection.\n\nHidden costs to watch: GBP 10/month inactivity fee after 12 months of no trades. Credit card deposits cost 1% in Australia and 1.5% in New Zealand. Debit cards incur 0.6% in Australia. UK and EU card deposits are free. No deposit or withdrawal fees for bank transfer globally.",
         "table": {
-          "headers": ["Account", "Spread (pips)", "Commission RT", "All-in per lot (USD)", "Min deposit", "Leverage", "Best for"],
+          "headers": [
+            "Account",
+            "Spread (pips)",
+            "Commission RT",
+            "All-in per lot (USD)",
+            "Min deposit",
+            "Leverage",
+            "Best for"
+          ],
           "rows": [
-            ["Standard CFD", "0.7 avg", "$0", "$7.00", "$0", "1:30 (FCA/ASIC)", "Casual traders, beginners"],
-            ["FX Active", "0.0-0.2 avg", "~$10 ($5 per $100k)", "$10.00-$12.00", "$0", "1:30 (FCA/ASIC)", "Active FX traders"],
-            ["Spread Betting (UK)", "0.7 avg", "$0", "$7.00", "$0", "1:30 (FCA)", "UK residents (tax-free)"]
+            [
+              "Standard CFD",
+              "0.7 avg",
+              "$0",
+              "$7.00",
+              "$0",
+              "1:30 (FCA/ASIC)",
+              "Casual traders, beginners"
+            ],
+            [
+              "FX Active",
+              "0.0-0.2 avg",
+              "~$10 ($5 per $100k)",
+              "$10.00-$12.00",
+              "$0",
+              "1:30 (FCA/ASIC)",
+              "Active FX traders"
+            ],
+            [
+              "Spread Betting (UK)",
+              "0.7 avg",
+              "$0",
+              "$7.00",
+              "$0",
+              "1:30 (FCA)",
+              "UK residents (tax-free)"
+            ]
           ],
           "footnote": "All spread figures are broker-stated averages. Actual spreads vary by session and market conditions. Leverage caps apply to retail clients under FCA/ASIC — professional clients may access higher leverage."
         }
       },
-
-
       {
         "id": "deposits-withdrawals",
         "heading": "How Fast Can You Get Your Money Out of CMC Markets?",
         "body": "Same-day processing on bank transfer withdrawals submitted before 4pm UK time — that is the headline, and it holds up across publicly reported user experiences. PayPal withdrawals typically clear within 1-2 business days. Card withdrawals (Visa/Mastercard) take 1-5 business days depending on your bank's processing speed, not CMC's.\n\nDeposits are faster still. Open Banking gives UK clients instant funding. Bank transfers arrive same-day if sent early. Card deposits are near-instant. No deposit fees anywhere for UK/EU clients — a genuine zero across the board.\n\nThe one catch: first-time withdrawals may trigger additional KYC verification. This is standard practice for FCA-regulated brokers and not a red flag, but it can add 1-2 business days to your first payout. Get your documents verified at account opening and you will avoid this entirely.",
         "cta_after": true,
         "table": {
-          "headers": ["Method", "Min", "Processing", "Fee"],
+          "headers": [
+            "Method",
+            "Min",
+            "Processing",
+            "Fee"
+          ],
           "rows": [
-            ["Bank Transfer", "$0", "Same-day (before 4pm UK)", "Free"],
-            ["Visa/Mastercard", "$0", "1-5 business days", "Free (UK/EU)"],
-            ["PayPal", "$0", "1-2 business days", "Free"],
-            ["Open Banking", "$0", "Instant (deposit only)", "Free"]
+            [
+              "Bank Transfer",
+              "$0",
+              "Same-day (before 4pm UK)",
+              "Free"
+            ],
+            [
+              "Visa/Mastercard",
+              "$0",
+              "1-5 business days",
+              "Free (UK/EU)"
+            ],
+            [
+              "PayPal",
+              "$0",
+              "1-2 business days",
+              "Free"
+            ],
+            [
+              "Open Banking",
+              "$0",
+              "Instant (deposit only)",
+              "Free"
+            ]
           ],
           "footnote": "Processing times are broker-stated. Card fees of 1% credit / 0.6% debit apply in Australia; 1.5% in New Zealand. UK/EU deposits and withdrawals are fee-free."
         }
       },
-
-
       {
         "id": "withdrawals",
         "heading": "CMC Markets Withdrawals in 2026 — The Real Picture",
         "body": "Trustpilot shows a 4.3/5 rating (publicly reported) with withdrawal speed being one of the most commonly praised aspects. The majority of verified reviews confirm same-day or next-day processing for bank transfers. This is consistent with what you would expect from an LSE-listed, FCA-regulated firm — they cannot afford the reputational damage of slow payouts.\n\nThe complaint pattern is narrow and specific: first-time withdrawals occasionally face KYC-related delays of 2-5 business days while documents are verified. A small number of users report delays when withdrawing to a different payment method than the one used for deposit — this is standard anti-money-laundering procedure, not obstruction. No credible pattern of large-sum withdrawal refusals exists in public records.\n\nIf your withdrawal stalls beyond the stated timeframe: first, check your email for KYC requests you may have missed. Second, contact support via live chat (faster than email) and request a reference number. Third, if unresolved after 5 business days, escalate through the FCA complaints procedure — CMC Markets is required to respond within 8 weeks. For UK clients, the Financial Ombudsman Service is your final escalation. Every broker looks good until you need your money back — CMC Markets passes this test for the overwhelming majority of withdrawals.",
         "cta_after": false
       },
-
-
       {
         "id": "red-flags",
         "heading": "CMC Markets Red Flags — What to Know Before You Deposit",
@@ -302,8 +553,6 @@
           "No MetaTrader 5 support — traders running MT5-only EAs cannot migrate here"
         ]
       },
-
-
       {
         "id": "who-broker-is-for",
         "heading": "Who Should Use CMC Markets — and Who Should Not",
@@ -322,8 +571,6 @@
           "Risk-conscious traders who use guaranteed stop-loss orders to cap maximum downside on volatile positions"
         ]
       },
-
-
       {
         "id": "how-to-open-account",
         "heading": "How to Open a CMC Markets Account — Step by Step",
@@ -343,22 +590,21 @@
             "number": 3,
             "title": "Fund your account and test a withdrawal",
             "detail": "Deposit via bank transfer, card, PayPal, or Open Banking — no minimum deposit required. Place a small trade to activate the account, then request a withdrawal immediately to confirm the process works before committing larger capital.",
-            "cta_inline": { "label": "Open CMC Markets Account", "url": "AFFILIATE_PLACEHOLDER" }
+            "cta_inline": {
+              "label": "Open CMC Markets Account",
+              "url": "AFFILIATE_PLACEHOLDER"
+            }
           }
         ],
         "practical_note": "Make a small deposit. Place one trade. Request a withdrawal immediately. If it processes cleanly, scale with confidence.",
         "cta_after": true
       },
-
-
       {
         "id": "final-verdict",
         "heading": "CMC Markets Final Verdict — Is It Worth It in 2026?",
         "body": "NAFT scores CMC Markets 8.1 out of 10 — a strong result built on genuine regulatory depth (four Tier-1 licences), reliable withdrawal processing (same-day confirmed), and a platform that genuinely competes with the best in retail trading. This is a legitimate broker with 35 years of operating history and the financial transparency that comes with being publicly listed. You are not gambling on whether CMC Markets will exist next year.\n\nThe risks are manageable but real. The inactivity fee will cost you GBP 120 per year if you stop trading and forget to close your account. FX Active pricing is harder to compare than it should be. No MT5 means no migration path for traders with existing MT5 infrastructure. And 68% of retail accounts losing money is a reminder that the broker makes money when you trade frequently — not when you trade well.\n\nIf you want Tier-1 regulation, a deep instrument range, and advanced charting tools, CMC Markets belongs on your shortlist. If cost-per-trade is your primary decision factor, look at Pepperstone or IC Markets first. NAFT recommends opening a demo account on the Next Generation platform before committing — it is genuinely different from anything else in the market, and you will know within a day whether it suits your workflow."
       }
     ],
-
-
     "affiliate_cta": {
       "label": "Open CMC Markets Account",
       "url": "AFFILIATE_PLACEHOLDER",
@@ -383,18 +629,32 @@
       "broker_response_rate": "Responds to most negative reviews with personalised follow-up",
       "source_note": "Trustpilot, publicly reported data, January 2026"
     },
-
-
     "internal_links": [
-      { "anchor": "compare brokers side by side", "url": "/compare" },
-      { "anchor": "best regulated forex brokers", "url": "/brokers?regulation=tier-1" },
-      { "anchor": "broker scam alerts and warnings", "url": "/scam-alerts" },
-      { "anchor": "community withdrawal proofs", "url": "/withdrawal-proofs" },
-      { "anchor": "how NAFT reviews brokers", "url": "/how-we-review-brokers" },
-      { "anchor": "file a broker complaint with NAFT", "url": "/complaints" }
+      {
+        "anchor": "compare brokers side by side",
+        "url": "/compare"
+      },
+      {
+        "anchor": "best regulated forex brokers",
+        "url": "/brokers?regulation=tier-1"
+      },
+      {
+        "anchor": "broker scam alerts and warnings",
+        "url": "/scam-alerts"
+      },
+      {
+        "anchor": "community withdrawal proofs",
+        "url": "/withdrawal-proofs"
+      },
+      {
+        "anchor": "how NAFT reviews brokers",
+        "url": "/how-we-review-brokers"
+      },
+      {
+        "anchor": "file a broker complaint with NAFT",
+        "url": "/complaints"
+      }
     ],
-
-
     "faq": [
       {
         "q": "Is CMC Markets legit or a scam?",
@@ -429,8 +689,6 @@
         "a": "IG edges CMC Markets on raw forex spreads — 0.6 pips average EUR/USD versus CMC's 0.7. CMC Markets wins on platform depth with its Next Generation tools including pattern recognition and client sentiment overlays. Both are FCA-regulated and LSE-listed. CMC offers guaranteed stop-loss orders at competitive premiums. For UK spread bettors, both are strong choices — pick IG for tighter FX costs, CMC Markets for charting tools and broader instrument access across 12,000+ markets."
       }
     ],
-
-
     "schema_jsonld": {
       "review": {
         "@context": "https://schema.org",
@@ -478,8 +736,6 @@
         "worstRating": "1",
         "ratingCount": "1"
       },
-
-
       "faqPage": {
         "@context": "https://schema.org",
         "@type": "FAQPage",
@@ -550,8 +806,6 @@
           }
         ]
       },
-
-
       "organization": {
         "@context": "https://schema.org",
         "@type": "Organization",
@@ -587,8 +841,6 @@
           }
         ]
       },
-
-
       "howTo": {
         "@context": "https://schema.org",
         "@type": "HowTo",
@@ -617,8 +869,6 @@
       },
       "videoObject": null
     },
-
-
     "sources": [
       "FCA Register — register.fca.org.uk (licence 173730 verified)",
       "ASIC Register — asic.gov.au (licence 238054 verified)",
@@ -627,19 +877,5 @@
       "London Stock Exchange — CMC Markets Group plc (ticker: CMCX)",
       "FCA Warning List — clone warning for 'CMC Global Markets' (fraudulent entity)"
     ]
-  }
-}
-
-
-
-{
-  "editorial_review_row": {
-    "broker_slug": "cmc-markets",
-    "author": "NAFT Editorial",
-    "role": "editor",
-    "rating": 4.1,
-    "content": "CMC Markets is a legitimate, FCA-regulated broker with 35+ years of operation and LSE listing since 2016. NAFT scores it 8.1/10 for 2026 — strong regulation across four Tier-1 jurisdictions, same-day withdrawal processing, and one of the deepest instrument ranges in retail trading. The 0.7 pip EUR/USD spread on Standard is fair but not class-leading. Watch for the GBP 10/month inactivity fee and the opaque FX Active commission structure. A solid choice for intermediate-to-advanced traders who value platform depth over rock-bottom costs.",
-    "status": "published",
-    "verified_account": true
   }
 }

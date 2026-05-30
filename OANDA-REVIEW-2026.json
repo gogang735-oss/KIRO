@@ -6,7 +6,7 @@
   "headquarters": "New York, USA",
   "website_url": "https://www.oanda.com",
   "logo_url": "",
-  "description": "Admirals is a regulated multi-asset broker operating since 2001.",
+  "description": "OANDA is a globally regulated forex and CFD broker founded in 1996, known for its proprietary pricing engine and regulatory coverage across six major jurisdictions including NFA/CFTC, FCA, and ASIC.",
   "regulation": [
     "NFA/CFTC (USA)",
     "FCA (UK)",
@@ -94,22 +94,22 @@
     }
   ],
   "pros": [
-    "NFA/CFTC + FCA + ASIC + IIROC + MAS + FSA \u2014 six Tier-1 licences",
-    "$0 minimum deposit \u2014 lowest barrier possible",
-    "Per-unit position sizing \u2014 no lot size requirement",
+    "NFA/CFTC + FCA + ASIC + IIROC + MAS + FSA — six Tier-1 licences",
+    "$0 minimum deposit — lowest barrier possible",
+    "Per-unit position sizing — no lot size requirement",
     "TradingView integration",
-    "Operating since 1996 \u2014 30 years of continuous operation",
+    "Operating since 1996 — 30 years of continuous operation",
     "US-regulated forex option (rare)"
   ],
   "cons": [
-    "No raw ECN account option \u2014 all-in spread only",
+    "No raw ECN account option — all-in spread only",
     "1.1 pip EUR/USD is wider than RAW competitors",
     "73% retail loss rate",
     "US leverage capped at 1:50",
-    "Limited instrument range \u2014 primarily forex focused",
+    "Limited instrument range — primarily forex focused",
     "fxTrade platform functional but dated"
   ],
-  "support_email": "support@admirals.com",
+  "support_email": "frontdesk@oanda.com",
   "support_phone": "",
   "withdrawal_time": "1-3 business days",
   "withdrawal_fee": "$0",
@@ -214,14 +214,14 @@
     "withdrawal_proof": null
   },
   "comparison_block": {
-    "heading": "Admirals vs Tickmill \u2014 Which Is Better in 2026?",
-    "body": "Both offer 0.0 pips + $6 commission. Admirals wins on instrument range (8,000+ vs 200), minimum deposit ($25 vs $100), and the unique real stock investing option. Tickmill wins on simplicity and zero inactivity fee. For pure forex, Tickmill edges it on cost (no hidden fees). For multi-asset trading, Admirals is far more versatile.",
+    "heading": "OANDA vs Forex.com — Which Is Better in 2026?",
+    "body": "Both are US-regulated (NFA/CFTC) brokers with strong reputations. OANDA wins on pricing transparency (no minimum deposit, volume-based discounts) and its proprietary fxTrade platform. Forex.com wins on instrument range and active trader rebates. For US traders wanting simplicity and transparency, OANDA edges it. For broader markets access, Forex.com is more versatile.",
     "brokers_compared": [
-      "admirals",
-      "tickmill"
+      "oanda",
+      "forex-com"
     ],
-    "cta_anchor": "Compare Admirals side by side",
-    "cta_url": "/compare?brokers=admirals,tickmill"
+    "cta_anchor": "Compare OANDA side by side",
+    "cta_url": "/compare?brokers=oanda,forex-com"
   },
   "video_embed": {
     "type": null,
@@ -230,10 +230,10 @@
     "thumbnail_url": "",
     "duration_seconds": 0
   },
-  "social_snippet": "OANDA scores 7.6/10 from NAFT \u2014 NFA/CFTC (USA) regulated.",
+  "social_snippet": "OANDA scores 7.6/10 from NAFT — NFA/CFTC (USA) regulated.",
   "long_review": {
     "seo": {
-      "title": "OANDA Review 2026 \u2014 Legit, Safe or a Scam?",
+      "title": "OANDA Review 2026 — Legit, Safe or a Scam?",
       "description": "OANDA review 2026: NFA/CFTC (USA), FCA (UK) regulated. NAFT 7.6/10.",
       "focus_keyword": "oanda review",
       "secondary_keywords": [
@@ -265,14 +265,14 @@
       "legit_keyword_present": true,
       "all_tone_rules_applied": true
     },
-    "hot_take": "OANDA is the original no-minimum-deposit US forex broker \u2014 operating since 1996, predating most of its competitors by a decade. The $0 minimum and per-unit position sizing (no lot requirement) make it the most flexible entry point for US traders. But in 2026, the absence of raw ECN pricing means active traders pay more per trade than they would at FOREX.com RAW. OANDA trades on heritage and flexibility rather than cost leadership.",
-    "telegram_summary": "NAFT Verdict on Admirals \u2014 2026\n1. CySEC + FCA + ASIC + EFSA + CIMA \u2014 five regulatory licences.\n2. Zero account: 0.0 pips + $6 RT \u2014 cheapest tier pricing.\n3. Real stock investing via Invest.MT5 \u2014 actual ownership, not CFDs.\n4. Best for MT4/MT5 power users who also want equity investing.\n5. No cTrader or TradingView \u2014 MetaTrader ecosystem only.",
+    "hot_take": "OANDA is the original no-minimum-deposit US forex broker — operating since 1996, predating most of its competitors by a decade. The $0 minimum and per-unit position sizing (no lot requirement) make it the most flexible entry point for US traders. But in 2026, the absence of raw ECN pricing means active traders pay more per trade than they would at FOREX.com RAW. OANDA trades on heritage and flexibility rather than cost leadership.",
+    "telegram_summary": "NAFT Verdict on OANDA — 2026\n1. NFA/CFTC + FCA + ASIC + IIROC + MAS + FSA — six regulatory licences.\n2. No minimum deposit — start with any amount.\n3. Proprietary fxTrade platform + MT4 available.\n4. Best for US-based traders wanting transparent pricing.\n5. Limited instrument range vs multi-asset brokers — forex-focused.",
     "verdict": {
       "tldr": "OANDA is an NFA/CFTC-regulated broker scoring 7.6/10 from NAFT in 2026. Six regulatory licences, $0 minimum deposit, and per-unit position sizing. One of the oldest forex brokers (since 1996). No raw ECN option. TradingView integration. Best for US traders wanting $0 barrier to entry with maximum flexibility, and international traders valuing heritage and regulatory depth over raw cost.",
       "summary": "NAFT rates OANDA 7.6/10.",
       "best_for": "MT4/MT5 power users who want enhanced tools, real stock investing, and competitive ECN pricing on one platform",
       "not_ideal_for": "cTrader/TradingView users, US residents, or traders who need the absolute tightest possible execution without any inactivity fee risk",
-      "bottom_line": "Genuinely differentiated by MetaTrader Supreme Edition and real stock investing. Not the cheapest on paper \u2014 but the most feature-complete MetaTrader experience available.",
+      "bottom_line": "Genuinely differentiated by MetaTrader Supreme Edition and real stock investing. Not the cheapest on paper — but the most feature-complete MetaTrader experience available.",
       "star_rating": 3.8,
       "trust_score": 7.6,
       "trust_breakdown": [
@@ -372,13 +372,13 @@
       {
         "id": "quick-verdict",
         "heading": "Is OANDA Worth Your Money in 2026?",
-        "body": "Formerly Admiral Markets, rebranded as OANDA in 2021, this Estonian-headquartered broker has been operating since 2001 \u2014 making it one of the oldest retail forex brokers still active. Regulated by CySEC, FCA, ASIC, EFSA, and CIMA, the compliance footprint spans five jurisdictions. The Zero account offers raw spreads from 0.0 pips with a commission starting from $6 per lot round-turn \u2014 competitive with Tickmill and cheaper than Pepperstone.\n\nThe platform offering is strong: MT4, MT5, and a proprietary MetaTrader Supreme Edition plugin that adds features MetaQuotes never built \u2014 mini terminal, sentiment indicators, tick charts, and a correlation matrix. For MT4/MT5 power users, this plugin alone justifies consideration. Over 8,000 instruments including real stock investing through the Invest.MT5 account type puts OANDA in rare territory \u2014 a broker that serves both CFD traders and actual equity investors.\n\nOANDA suits the trader who wants MT4/MT5 with enhanced tools, competitive raw pricing, and the option to invest in real stocks alongside CFD trading. If you need cTrader or TradingView, look elsewhere.",
+        "body": "Formerly Admiral Markets, rebranded as OANDA in 2021, this Estonian-headquartered broker has been operating since 2001 — making it one of the oldest retail forex brokers still active. Regulated by CySEC, FCA, ASIC, EFSA, and CIMA, the compliance footprint spans five jurisdictions. The Zero account offers raw spreads from 0.0 pips with a commission starting from $6 per lot round-turn — competitive with Tickmill and cheaper than Pepperstone.\n\nThe platform offering is strong: MT4, MT5, and a proprietary MetaTrader Supreme Edition plugin that adds features MetaQuotes never built — mini terminal, sentiment indicators, tick charts, and a correlation matrix. For MT4/MT5 power users, this plugin alone justifies consideration. Over 8,000 instruments including real stock investing through the Invest.MT5 account type puts OANDA in rare territory — a broker that serves both CFD traders and actual equity investors.\n\nOANDA suits the trader who wants MT4/MT5 with enhanced tools, competitive raw pricing, and the option to invest in real stocks alongside CFD trading. If you need cTrader or TradingView, look elsewhere.",
         "cta_after": true
       },
       {
         "id": "is-broker-regulated",
-        "heading": "Is OANDA Regulated? \u2014 Licence Check 2026",
-        "body": "Yes \u2014 across five jurisdictions. Admiral Markets Cyprus Ltd holds CySEC licence 201/13. Admiral Markets UK Ltd is FCA authorised (595450). Admiral Markets Pty Ltd is ASIC regulated (410681). Admiral Markets AS is licensed by EFSA Estonia. And OANDA SC Ltd operates under CIMA (Cayman Islands) for international clients.\n\nFund segregation applies across all entities. FSCS covers UK clients up to GBP 85,000. ICF covers EU clients up to EUR 20,000. No compensation scheme under CIMA. OANDA does not appear on any active warning list. NAFT last reviewed OANDA regulation in May 2026.",
+        "heading": "Is OANDA Regulated? — Licence Check 2026",
+        "body": "Yes — across five jurisdictions. Admiral Markets Cyprus Ltd holds CySEC licence 201/13. Admiral Markets UK Ltd is FCA authorised (595450). Admiral Markets Pty Ltd is ASIC regulated (410681). Admiral Markets AS is licensed by EFSA Estonia. And OANDA SC Ltd operates under CIMA (Cayman Islands) for international clients.\n\nFund segregation applies across all entities. FSCS covers UK clients up to GBP 85,000. ICF covers EU clients up to EUR 20,000. No compensation scheme under CIMA. OANDA does not appear on any active warning list. NAFT last reviewed OANDA regulation in May 2026.",
         "table": {
           "headers": [
             "Entity",
@@ -390,58 +390,66 @@
           ],
           "rows": [
             [
-              "Admiral Markets UK Ltd",
+              "OANDA Corporation",
+              "NFA/CFTC",
+              "0325821",
+              "USA",
+              "No scheme (segregation)",
+              "1:50"
+            ],
+            [
+              "OANDA Europe Ltd",
               "FCA",
-              "595450",
+              "542574",
               "UK",
               "FSCS GBP 85,000",
               "1:30"
             ],
             [
-              "Admiral Markets Cyprus Ltd",
-              "CySEC",
-              "201/13",
-              "EU/EEA",
-              "ICF EUR 20,000",
-              "1:30"
-            ],
-            [
-              "Admiral Markets Pty Ltd",
+              "OANDA Australia Pty Ltd",
               "ASIC",
-              "410681",
+              "412981",
               "Australia",
               "No scheme (segregation)",
               "1:30"
             ],
             [
-              "Admiral Markets AS",
-              "EFSA (Estonia)",
-              "4.1-1/46",
-              "Estonia/EU",
-              "ICF EUR 20,000",
-              "1:30"
+              "OANDA (Canada) Corporation",
+              "IIROC",
+              "Member",
+              "Canada",
+              "CIPF CAD 1,000,000",
+              "1:50"
             ],
             [
-              "Admirals SC Ltd",
-              "CIMA (Cayman)",
-              "",
-              "International",
-              "No compensation scheme",
-              "1:500"
+              "OANDA Asia Pacific Pte Ltd",
+              "MAS",
+              "CMS100612",
+              "Singapore",
+              "No scheme",
+              "1:20"
+            ],
+            [
+              "OANDA Japan Inc",
+              "FSA (Japan)",
+              "1571",
+              "Japan",
+              "Investor Protection Fund",
+              "1:25"
             ]
           ]
         }
       },
       {
         "id": "where-broker-accepts-clients",
-        "heading": "Who Can Open an Account With OANDA? \u2014 Accepted Countries and Restrictions",
+        "heading": "Who Can Open an Account With OANDA? — Accepted Countries and Restrictions",
         "body": "Accepted: United Kingdom, Germany, France, Spain, Italy, Estonia, Australia, South Africa, UAE, India, Indonesia, Thailand, Vietnam, Philippines, Nigeria, Kenya, Saudi Arabia, Mexico, Brazil, Pakistan, Malaysia.\n\nNot accepted: United States, Canada, Iran, North Korea, Syria, Cuba, Russia, Belgium, Japan.",
         "practical_note": "UK clients route through FCA entity. EU through CySEC or EFSA. International through CIMA with 1:500 leverage."
       },
       {
         "id": "spreads-fees-accounts",
-        "heading": "OANDA Spreads, Fees and Accounts \u2014 What Do You Actually Pay in 2026?",
-        "body": "OANDA offers five account types. The Trade.MT5 account has spreads from 0.5 pips with zero commission \u2014 approximately $5-8 per lot all-in. The Zero.MT5 account offers 0.0 pips raw with commission from $6 round-turn \u2014 directly competitive with Tickmill and cheaper than Pepperstone. The Invest.MT5 account allows real stock and ETF investing with ownership \u2014 not CFDs.\n\nNo inactivity fee for the first 24 months \u2014 after which a $10/month fee applies. Overnight swaps are standard. No deposit or withdrawal fees on most methods. The MetaTrader Supreme Edition plugin is free for all live account holders.",
+        "heading": "OANDA Spreads, Fees and Accounts — What Do You Actually Pay in 2026?",
+        "body": "OANDA offers five account types. The Trade.MT5 account has spreads from 0.5 pips with zero commission — approximately $5-8 per lot all-in. The Zero.MT5 account offers 0.0 pips raw with commission from $6 round-turn — directly competitive with Tickmill and cheaper than Pepperstone. The Invest.MT5 account allows real stock and ETF investing with ownership — not CFDs.\n\nNo inactivity fee for the first 24 months — after which a $10/month fee applies. Overnight swaps are standard. No deposit or withdrawal fees on most methods. The MetaTrader Supreme Edition plugin is free for all live account holders.",
         "table": {
           "headers": [
             "Account",
@@ -487,7 +495,7 @@
       {
         "id": "deposits-withdrawals",
         "heading": "How Fast Can You Get Your Money Out of OANDA?",
-        "body": "Deposits instant via card/e-wallet. Wire 1-3 days. No deposit fees.\n\nWithdrawals: e-wallets same day, cards 1-3 business days, wire 1-5 business days. First two withdrawals per month free \u2014 subsequent withdrawals may incur a small fee depending on method. KYC required before first withdrawal.",
+        "body": "Deposits instant via card/e-wallet. Wire 1-3 days. No deposit fees.\n\nWithdrawals: e-wallets same day, cards 1-3 business days, wire 1-5 business days. First two withdrawals per month free — subsequent withdrawals may incur a small fee depending on method. KYC required before first withdrawal.",
         "cta_after": true,
         "table": {
           "headers": [
@@ -521,29 +529,29 @@
       },
       {
         "id": "withdrawals",
-        "heading": "OANDA Withdrawals in 2026 \u2014 The Real Picture",
-        "body": "OANDA maintains a good reputation across review platforms with ratings around 4.0+ stars. Withdrawal processing is reliable \u2014 same-day for e-wallets, 1-3 days for cards. The first-two-free policy is unusual and welcome.\n\nComplaint pattern is limited \u2014 mostly focused on the 24-month inactivity trigger and occasional platform issues during high volatility.\n\nEscalation path: FCA for UK, CySEC for EU, ASIC for Australia."
+        "heading": "OANDA Withdrawals in 2026 — The Real Picture",
+        "body": "OANDA maintains a good reputation across review platforms with ratings around 4.0+ stars. Withdrawal processing is reliable — same-day for e-wallets, 1-3 days for cards. The first-two-free policy is unusual and welcome.\n\nComplaint pattern is limited — mostly focused on the 24-month inactivity trigger and occasional platform issues during high volatility.\n\nEscalation path: FCA for UK, CySEC for EU, ASIC for Australia."
       },
       {
         "id": "red-flags",
-        "heading": "OANDA Red Flags \u2014 What to Know Before You Deposit",
+        "heading": "OANDA Red Flags — What to Know Before You Deposit",
         "body": "No critical red flags. Operating since 2001 across five jurisdictions without major enforcement action. NAFT last reviewed OANDA in May 2026.",
         "bullets": [
-          "72% retail loss rate \u2014 moderate.",
+          "72% retail loss rate — moderate.",
           "Inactivity fee of $10/month after 24 months of dormancy.",
-          "No cTrader or TradingView \u2014 MT4/MT5 only (enhanced with Supreme Edition).",
+          "No cTrader or TradingView — MT4/MT5 only (enhanced with Supreme Edition).",
           "CIMA offshore entity has no investor compensation.",
           "Limited crypto CFD range compared to some competitors."
         ]
       },
       {
         "id": "who-broker-is-for",
-        "heading": "Who Should Use OANDA \u2014 and Who Should Not",
-        "body": "OANDA occupies a unique niche \u2014 the MT4/MT5 power user who also wants real stock investing.",
+        "heading": "Who Should Use OANDA — and Who Should Not",
+        "body": "OANDA occupies a unique niche — the MT4/MT5 power user who also wants real stock investing.",
         "not_for": [
-          "cTrader or TradingView users \u2014 not available.",
-          "Traders wanting copy trading \u2014 limited social features.",
-          "US/Canadian residents \u2014 not accepted.",
+          "cTrader or TradingView users — not available.",
+          "Traders wanting copy trading — limited social features.",
+          "US/Canadian residents — not accepted.",
           "Traders who need the widest crypto selection.",
           "Anyone who dislikes MetaTrader interface."
         ],
@@ -557,13 +565,13 @@
       },
       {
         "id": "how-to-open-account",
-        "heading": "How to Open an OANDA Account \u2014 Step by Step",
+        "heading": "How to Open an OANDA Account — Step by Step",
         "body": "Registration takes 5 minutes. Verification within 24 hours.",
         "steps": [
           {
             "number": 1,
             "title": "Register",
-            "detail": "Visit admirals.com, click Start Trading. Enter details and select account type."
+            "detail": "Visit oanda.com, click Open Account. Enter your details and select your preferred account type."
           },
           {
             "number": 2,
@@ -575,7 +583,7 @@
             "title": "Fund your account and test a withdrawal",
             "detail": "Deposit as little as $25. Place one trade. Test a withdrawal immediately.",
             "cta_inline": {
-              "label": "Open Admirals Account",
+              "label": "Open OANDA Account",
               "url": "AFFILIATE_PLACEHOLDER"
             }
           }
@@ -585,8 +593,8 @@
       },
       {
         "id": "final-verdict",
-        "heading": "OANDA Final Verdict \u2014 Is It Worth It in 2026?",
-        "body": "NAFT scores OANDA 7.4 out of 10. Five regulatory licences, Zero account at $6 RT matching the cheapest ECN pricing, real stock investing via Invest.MT5, and the MetaTrader Supreme Edition plugin make this a genuinely differentiated offering. The $25 minimum deposit is among the lowest in the regulated space.\n\nWeaknesses: no cTrader, no TradingView, and the inactivity fee after 24 months. These matter less for active traders but limit appeal for platform-diverse traders.\n\nNAFT recommends OANDA for MT4/MT5 loyalists who want enhanced tools, low-cost ECN trading, and the option to invest in real equities \u2014 all under one roof."
+        "heading": "OANDA Final Verdict — Is It Worth It in 2026?",
+        "body": "NAFT scores OANDA 7.4 out of 10. Five regulatory licences, Zero account at $6 RT matching the cheapest ECN pricing, real stock investing via Invest.MT5, and the MetaTrader Supreme Edition plugin make this a genuinely differentiated offering. The $25 minimum deposit is among the lowest in the regulated space.\n\nWeaknesses: no cTrader, no TradingView, and the inactivity fee after 24 months. These matter less for active traders but limit appeal for platform-diverse traders.\n\nNAFT recommends OANDA for MT4/MT5 loyalists who want enhanced tools, low-cost ECN trading, and the option to invest in real equities — all under one roof."
       }
     ],
     "affiliate_cta": {
@@ -609,7 +617,7 @@
     "trustpilot": {
       "rating": 3.9,
       "reviews": 3200,
-      "velocity_30d": "Moderate \u2014 60-100 per month",
+      "velocity_30d": "Moderate — 60-100 per month",
       "polarisation_note": "52% 5-star vs 18% 1-star. Mixed feedback on platform stability.",
       "broker_response_rate": "Above 60%",
       "source_note": "Trustpilot, May 2026"
@@ -651,7 +659,7 @@
       },
       {
         "q": "Does OANDA offer real stock investing?",
-        "a": "Yes. The Invest.MT5 account offers real stock and ETF ownership \u2014 not CFDs. You buy actual shares listed on major exchanges."
+        "a": "Yes. The Invest.MT5 account offers real stock and ETF ownership — not CFDs. You buy actual shares listed on major exchanges."
       },
       {
         "q": "What are OANDA spreads?",
@@ -659,7 +667,7 @@
       },
       {
         "q": "Does OANDA charge inactivity fee?",
-        "a": "Yes \u2014 $10/month after 24 consecutive months of no trading activity. More generous than most (6-12 month triggers elsewhere)."
+        "a": "Yes — $10/month after 24 consecutive months of no trading activity. More generous than most (6-12 month triggers elsewhere)."
       },
       {
         "q": "What is MetaTrader Supreme Edition?",
@@ -712,26 +720,42 @@
         "mainEntity": [
           {
             "@type": "Question",
-            "name": "Is Admirals a legit broker?",
+            "name": "Is OANDA a legit broker?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Yes. Admirals (formerly Admiral Markets) is regulated by CySEC (201/13), FCA (595450), ASIC (410681), EFSA, and CIMA. Operating since 2001. NAFT rates 7.4/10."
+              "text": "Yes. OANDA is regulated by NFA/CFTC (USA), FCA (542574), ASIC (412981), IIROC (Canada), MAS (Singapore), and FSA (Japan). Operating since 1996. NAFT rates 7.6/10."
             }
           },
           {
             "@type": "Question",
-            "name": "What is Admirals minimum deposit?",
+            "name": "What is OANDA minimum deposit?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Admirals minimum deposit is just $25 for Trade.MT5 and Zero.MT5 accounts. Invest.MT5 starts from $1 for real stock investing."
+              "text": "OANDA has no minimum deposit requirement. You can fund your account with any amount and start trading immediately."
             }
           },
           {
             "@type": "Question",
-            "name": "Does Admirals offer real stock investing?",
+            "name": "Does OANDA offer MT4?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Yes. The Invest.MT5 account offers real stock and ETF ownership \u2014 not CFDs. You buy actual shares listed on major exchanges."
+              "text": "Yes. OANDA offers both MT4 and its proprietary fxTrade platform. The fxTrade web and mobile platforms provide advanced charting with TradingView integration."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What are OANDA spreads?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "OANDA offers variable spreads starting from 1.0 pips on standard accounts. Elite tier pricing drops to 0.6 pips average on EUR/USD with volume-based discounts."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does OANDA charge inactivity fee?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "OANDA does not charge inactivity fees on most entities. Some regional entities may apply a small monthly fee after 12 months of inactivity."
             }
           }
         ]
@@ -796,7 +820,7 @@
     "sources": [
       "OANDA official website",
       "NFA/CFTC (USA) confirmed",
-      "Trustpilot \u2014 3.9 stars"
+      "Trustpilot — 3.9 stars"
     ]
   }
 }
